@@ -8,9 +8,9 @@
     <style>
         :root {
             --primary-color: #2D6A4F;
-            --bg-color: #f5f2e9; /* Tom bege para sumir com o quadrado da logo */
+            --bg-color: #f5f2e9; /* Tom bege perfeitamente alinhado com as artes */
             --text-color: #1A1A1A;
-            --wa-color: #25D366;
+            --card-bg: #ffffff;
         }
 
         body {
@@ -19,112 +19,395 @@
             color: var(--text-color);
             margin: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
             min-height: 100vh;
             padding: 20px;
+            box-sizing: border-box;
         }
 
-        .container {
+        /* Estrutura Principal */
+        .main-wrapper {
             width: 100%;
-            max-width: 400px; /* Largura perfeita para celular */
+            max-width: 650px; /* Largura ideal para leitura e navegação fluida */
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        /* Cabeçalho Minimalista */
+        header {
             text-align: center;
-            background: #ffffffaa; /* Um fundo levemente translúcido */
-            padding: 40px 20px;
-            border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+            padding: 20px 0 10px 0;
         }
 
         .logo {
             width: 100%;
-            max-width: 220px;
+            max-width: 180px;
             height: auto;
-            margin-bottom: 20px;
+            margin-bottom: 15px;
         }
 
-        p {
-            font-size: 1.05rem;
+        .tagline {
+            font-size: 1rem;
             line-height: 1.5;
-            color: #333;
-            margin-bottom: 30px;
+            color: #4A4A4A;
+            max-width: 480px;
+            margin: 0 auto;
         }
 
-        .btn-group {
+        /* ==================== SEÇÃO DE PROMOÇÕES (TOPO) ==================== */
+        .secao-promocoes {
             display: flex;
             flex-direction: column;
-            gap: 12px;
+            gap: 15px;
         }
 
-        .btn {
-            text-decoration: none;
-            padding: 16px;
-            border-radius: 12px;
-            font-weight: 600;
-            font-size: 1rem;
+        .titulo-secao {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 2px solid rgba(45, 106, 79, 0.15);
+            padding-bottom: 6px;
+        }
+
+        .lista-promocoes {
+            display: flex;
+            flex-direction: column;
+            gap: 18px; /* Lista vertical limpa, excelente no mobile */
+        }
+
+        /* Novo Card Estilo Vitrine Clean */
+        .card-promo {
+            background: var(--card-bg);
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+            border: 1px solid rgba(0,0,0,0.04);
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (min-width: 480px) {
+            .card-promo {
+                flex-direction: row; /* No PC/Telas médias, vira um card horizontal elegante */
+                height: 180px;
+            }
+        }
+
+        .card-imagem-wrapper {
+            position: relative;
+            background: #fff;
+            min-width: 160px;
+            height: 160px;
             display: flex;
             align-items: center;
             justify-content: center;
-            gap: 12px;
-            transition: transform 0.2s, box-shadow 0.2s;
+            padding: 10px;
+            align-self: center;
         }
 
-        .btn:active { transform: scale(0.98); }
-
-        /* Botão Comunidade Geral */
-        .btn-comunidade {
-            background-color: var(--wa-color);
-            color: white;
-            box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
-            margin-bottom: 10px;
+        @media (min-width: 480px) {
+            .card-imagem-wrapper {
+                height: 100%;
+            }
         }
 
-        /* Botões de Nicho */
-        .btn-nicho {
-            background-color: var(--primary-color);
-            color: white;
-            box-shadow: 0 4px 12px rgba(45, 106, 79, 0.2);
+        .card-imagem {
+            max-height: 100%;
+            max-width: 100%;
+            object-fit: contain;
         }
 
-        .divider {
+        .tag-promo {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+            background: #E63946;
+            color: #fff;
+            padding: 3px 8px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            border-radius: 6px;
+        }
+
+        .card-conteudo {
+            padding: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            flex-grow: 1;
+        }
+
+        .card-header-info h3 {
+            font-size: 1rem;
+            margin: 0 0 4px 0;
+            font-weight: 700;
+            color: var(--text-color);
+        }
+
+        .card-descricao {
             font-size: 0.85rem;
-            color: #888;
-            margin: 15px 0;
-            font-weight: 500;
+            color: #555;
+            margin: 0 0 10px 0;
+            line-height: 1.4;
+        }
+
+        .card-footer-action {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+
+        .card-precos {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .preco-antigo {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 0.75rem;
+        }
+
+        .preco-novo {
+            color: var(--primary-color);
+            font-weight: 700;
+            font-size: 1.15rem;
+        }
+
+        /* Cupom Discreto Integrado ao Card */
+        .cupom-box-mini {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+            background: #E8F5E9;
+            border: 1px dashed var(--primary-color);
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.75rem;
+            color: var(--primary-color);
+        }
+
+        .btn-copiar-mini {
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            padding: 2px 6px;
+            font-size: 0.7rem;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .btn-ir-loja {
+            background: var(--text-color);
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            text-align: center;
+        }
+
+        /* ==================== SEÇÃO DE COMUNIDADES (RODAPÉ DISCRETO) ==================== */
+        .secao-comunidades {
+            margin-top: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            background: rgba(255, 255, 255, 0.4);
+            padding: 20px;
+            border-radius: 16px;
+        }
+
+        .grid-comunidades {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        /* Blocos menores com as imagens circulares */
+        .link-nicho-bloco {
+            background: #ffffffaa;
+            border: 1px solid rgba(0,0,0,0.03);
+            border-radius: 12px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: transform 0.2s;
+        }
+
+        .link-nicho-bloco:active { transform: scale(0.98); }
+
+        .img-circulo-nicho {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: var(--bg-color);
+        }
+
+        .texto-nicho-bloco {
+            font-size: 0.75rem;
+            font-weight: 600;
+            line-height: 1.2;
+            text-align: left;
+        }
+
+        .sem-promocoes {
+            text-align: center;
+            color: #666;
+            padding: 30px;
+            background: #ffffff66;
+            border-radius: 12px;
+            font-size: 0.9rem;
         }
 
         footer {
-            margin-top: 40px;
-            font-size: 0.75rem;
+            margin-top: 10px;
+            font-size: 0.7rem;
             color: #999;
+            text-align: center;
+            line-height: 1.4;
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <img src="curadomus_logo.png" alt="Cura Domus" class="logo">
+    <div class="main-wrapper">
         
-        <p>
-            <strong>Cura Domus</strong> significa "Cuidado do Lar". Como pais de quatro filhos, queremos ajudar com indicações que reunam qualidade e preço.
-        </p>
+        <header>
+            <img src="curadomus_logo.png" alt="Cura Domus" class="logo">
+            <div class="tagline">
+                Como pais de quatro filhos, queremos ajudar com indicações que reúnam <strong>qualidade e preço</strong> para o seu lar.
+            </div>
+        </header>
 
-        <div class="btn-group">
-            <a href="https://chat.whatsapp.com/JekwZ6qMRjT8zUcDgXqXK9" class="btn btn-comunidade">
-                🛡️ Entrar na Comunidade Geral
-            </a>
+        <section class="secao-promocoes">
+            <div class="titulo-secao">⭐ Indicações de Hoje</div>
+            <div id="container-promocoes" class="lista-promocoes">
+                </div>
+        </section>
+
+        <section class="secao-comunidades">
+            <div class="titulo-secao" style="font-size: 0.9rem;">💬 Nossos Grupos no WhatsApp</div>
             
-            <div class="divider">Ou escolha um nicho específico:</div>
-            
-            <a href="https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F" class="btn btn-nicho">📚 Formação do Imaginário</a>
-            <a href="https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW" class="btn btn-nicho">✏️ Educação e Escola</a>
-            <a href="https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" class="btn btn-nicho">🛒 Gestão do Lar</a>
-            <a href="https://chat.whatsapp.com/C84J6GtX87t6a0HFp2x5EX" class="btn btn-nicho">👶 Bebês e Primeira Infância</a>
-        </div>
+            <div class="grid-comunidades">
+                <a href="https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F" class="link-nicho-bloco">
+                    <img src="CuraDomus - FormacaoImaginario.png" class="img-circulo-nicho" alt="Formação do Imaginário">
+                    <span class="texto-nicho-bloco">Formação do Imaginário</span>
+                </a>
+
+                <a href="https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW" class="link-nicho-bloco">
+                    <img src="CuraDoums - EducacaoEscola.png" class="img-circulo-nicho" alt="Educação e Escola">
+                    <span class="texto-nicho-bloco">Educação e Escola</span>
+                </a>
+
+                <a href="https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" class="link-nicho-bloco">
+                    <img src="CuraDomus - GestaoLar.png" class="img-circulo-nicho" alt="Gestão do Lar">
+                    <span class="texto-nicho-bloco">Gestão do Lar</span>
+                </a>
+
+                <a href="https://chat.whatsapp.com/C84J6GtX87t6a0HFp2x5EX" class="link-nicho-bloco">
+                    <img src="CuraDomus - BebeInfancia.jpg" class="img-circulo-nicho" alt="Bebês e Primeira Infância">
+                    <span class="texto-nicho-bloco">Bebês e Infância</span>
+                </a>
+            </div>
+        </section>
 
         <footer>
             © 2026 Cura Domus<br>Construindo o legado das nossas famílias.
         </footer>
     </div>
 
+    <script>
+        async function carregarPromocoes() {
+            try {
+                const resposta = await fetch('./promocoes.json');
+                if (!resposta.ok) throw new Error('Falha ao ler JSON');
+                
+                const promocoes = await resposta.json();
+                const container = document.getElementById('container-promocoes');
+                container.innerHTML = ''; 
+
+                const promocoesAtivas = promocoes.filter(p => p.ativo);
+
+                if (promocoesAtivas.length === 0) {
+                    container.innerHTML = '<p class="sem-promocoes">Nenhuma recomendação em destaque agora. Acompanhe os grupos abaixo para receber as ofertas em tempo real!</p>';
+                    return;
+                }
+
+                promocoesAtivas.forEach(promo => {
+                    const card = document.createElement('div');
+                    card.className = 'card-promo';
+
+                    const componenteCupom = promo.cupom 
+                        ? `<div class="cupom-box-mini">
+                            <span>Cupom: <strong>${promo.cupom}</strong></span>
+                            <button class="btn-copiar-mini" onclick="copiarCupom('${promo.cupom}', this)">Copiar</button>
+                           </div>`
+                        : '';
+
+                    const tagEspecial = promo.tag ? `<span class="tag-promo">${promo.tag.trim()}</span>` : '';
+                    
+                    // Limpeza preventiva de espaços invisíveis (\u00a0) vindos da formatação Java
+                    const precoOriginalLimpo = promo.precoOriginal ? promo.precoOriginal.replace(/\u00a0/g, '').trim() : null;
+                    const precoPromocaoLimpo = promo.precoPromocao ? promo.precoPromocao.replace(/\u00a0/g, '').trim() : '0,00';
+
+                    card.innerHTML = `
+                        <div class="card-imagem-wrapper">
+                            ${tagEspecial}
+                            <img src="${promo.imagem}" alt="${promo.titulo}" loading="lazy" class="card-imagem">
+                        </div>
+                        <div class="card-conteudo">
+                            <div class="card-header-info">
+                                <h3>${promo.titulo}</h3>
+                                <p class="card-descricao">${promo.descricao || ''}</p>
+                            </div>
+                            
+                            <div class="card-footer-action">
+                                <div class="card-precos">
+                                    ${precoOriginalLimpo ? `<span class="preco-antigo">R$ ${precoOriginalLimpo}</span>` : ''}
+                                    <span class="preco-novo">R$ ${precoPromocaoLimpo}</span>
+                                </div>
+                                
+                                ${componenteCupom}
+
+                                <a href="${promo.linkAfiliado}" target="_blank" rel="noopener noreferrer" class="btn-ir-loja">
+                                    Aproveitar
+                                </a>
+                            </div>
+                        </div>
+                    `;
+                    container.appendChild(card);
+                });
+            } catch (erro) {
+                console.error(erro);
+                document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Novas indicações chegando em breve. Acompanhe abaixo!</p>';
+            }
+        }
+
+        function copiarCupom(codigo, botao) {
+            navigator.clipboard.writeText(codigo);
+            const textoOriginal = botao.innerText;
+            botao.innerText = 'Copiado';
+            botao.style.background = '#1b4332';
+            setTimeout(() => {
+                botao.innerText = textoOriginal;
+                botao.style.background = 'var(--primary-color)';
+            }, 1500);
+        }
+
+        window.addEventListener('DOMContentLoaded', carregarPromocoes);
+    </script>
 </body>
 </html>
