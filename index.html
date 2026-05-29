@@ -38,7 +38,7 @@
         /* Cabeçalho Minimalista */
         header {
             text-align: center;
-            padding: 20px 0 10px 0;
+            padding: 20px 0 5px 0;
         }
 
         .logo {
@@ -56,7 +56,63 @@
             margin: 0 auto;
         }
 
-        /* ==================== CONTROLADORES E FILTRO ==================== */
+        /* ==================== SEÇÃO DE COMUNIDADES (AGORA NO TOPO) ==================== */
+        .secao-comunidades {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 5px;
+        }
+
+        .titulo-comunidades {
+            font-size: 0.9rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 4px;
+        }
+
+        .grid-comunidades {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+        }
+
+        .link-nicho-bloco {
+            background: var(--card-bg);
+            border: 1px solid rgba(0,0,0,0.04);
+            border-radius: 14px;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text-color);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.02);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .link-nicho-bloco:active { transform: scale(0.98); }
+        .link-nicho-bloco:hover { box-shadow: 0 6px 12px rgba(0,0,0,0.04); }
+
+        .img-circulo-nicho {
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            object-fit: cover;
+            background: var(--bg-color);
+            flex-shrink: 0;
+        }
+
+        .texto-nicho-bloco {
+            font-size: 0.75rem;
+            font-weight: 600;
+            line-height: 1.2;
+            text-align: left;
+        }
+
+        /* ==================== CONTROLADORES E FILTRO (ABAIXO DOS GRUPOS) ==================== */
         .topo-promocoes {
             display: flex;
             justify-content: space-between;
@@ -65,6 +121,7 @@
             padding-bottom: 8px;
             gap: 15px;
             flex-wrap: wrap;
+            margin-top: 10px;
         }
 
         .titulo-secao {
@@ -76,7 +133,6 @@
             margin: 0;
         }
 
-        /* Estilização Moderna do Combobox */
         .filtro-wrapper {
             display: flex;
             align-items: center;
@@ -101,7 +157,7 @@
             cursor: pointer;
             outline: none;
             box-shadow: 0 2px 5px rgba(0,0,0,0.02);
-            appearance: none; /* Remove seta padrão */
+            appearance: none; 
             background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232D6A4F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
             background-repeat: no-repeat;
             background-position: right 10px center;
@@ -123,7 +179,7 @@
         .lista-promocoes {
             display: flex;
             flex-direction: column;
-            gap: 18px; /* Lista vertical limpa */
+            gap: 18px; 
         }
 
         /* Card Estilo Vitrine Clean */
@@ -233,7 +289,6 @@
             font-size: 1.15rem;
         }
 
-        /* Cupom Discreto Integrado ao Card */
         .cupom-box-mini {
             display: flex;
             align-items: center;
@@ -251,7 +306,6 @@
             color: white;
             border: none;
             padding: 2px 6px;
-            font-size: 0.7 glamorous;
             font-size: 0.7rem;
             border-radius: 4px;
             cursor: pointer;
@@ -269,53 +323,6 @@
             text-align: center;
         }
 
-        /* ==================== SEÇÃO DE COMUNIDADES (RODAPÉ DISCRETO) ==================== */
-        .secao-comunidades {
-            margin-top: 15px;
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-            background: rgba(255, 255, 255, 0.4);
-            padding: 20px;
-            border-radius: 16px;
-        }
-
-        .grid-comunidades {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-        }
-
-        .link-nicho-bloco {
-            background: #ffffffaa;
-            border: 1px solid rgba(0,0,0,0.03);
-            border-radius: 12px;
-            padding: 10px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            text-decoration: none;
-            color: var(--text-color);
-            transition: transform 0.2s;
-        }
-
-        .link-nicho-bloco:active { transform: scale(0.98); }
-
-        .img-circulo-nicho {
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            object-fit: cover;
-            background: var(--bg-color);
-        }
-
-        .texto-nicho-bloco {
-            font-size: 0.75rem;
-            font-weight: 600;
-            line-height: 1.2;
-            text-align: left;
-        }
-
         .sem-promocoes {
             text-align: center;
             color: #666;
@@ -326,7 +333,7 @@
         }
 
         footer {
-            margin-top: 10px;
+            margin-top: 15px;
             font-size: 0.7rem;
             color: #999;
             text-align: center;
@@ -345,24 +352,8 @@
             </div>
         </header>
 
-        <section class="secao-promocoes">
-            
-            <div class="topo-promocoes">
-                <h2 class="titulo-secao">⭐ Indicações de Hoje</h2>
-                <div class="filtro-wrapper">
-                    <label for="filtro-categoria" class="filtro-label">Filtrar:</label>
-                    <select id="filtro-categoria" class="select-categorias">
-                        <option value="TODAS">Todas as ofertas</option>
-                        </select>
-                </div>
-            </div>
-
-            <div id="container-promocoes" class="lista-promocoes">
-                </div>
-        </section>
-
         <section class="secao-comunidades">
-            <div class="titulo-secao" style="font-size: 0.9rem; border: none;">💬 Nossos Grupos no WhatsApp</div>
+            <div class="titulo-comunidades">💬 Participe nos Nossos Grupos</div>
             
             <div class="grid-comunidades">
                 <a href="https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F" class="link-nicho-bloco">
@@ -387,13 +378,28 @@
             </div>
         </section>
 
+        <section class="secao-promocoes">
+            
+            <div class="topo-promocoes">
+                <h2 class="titulo-secao">⭐ Indicações de Hoje</h2>
+                <div class="filtro-wrapper">
+                    <label for="filtro-categoria" class="filtro-label">Filtrar:</label>
+                    <select id="filtro-categoria" class="select-categorias">
+                        <option value="TODAS">Todas as ofertas</option>
+                        </select>
+                </div>
+            </div>
+
+            <div id="container-promocoes" class="lista-promocoes">
+                </div>
+        </section>
+
         <footer>
             © 2026 Cura Domus<br>Construindo o legado das nossas famílias.
         </footer>
     </div>
 
     <script>
-        // Variável global para guardar os dados brutos vindos do JSON
         let todasAsOfertas = [];
 
         async function inicializarVitrine() {
@@ -402,41 +408,32 @@
                 if (!resposta.ok) throw new Error('Falha ao ler JSON');
                 
                 const dados = await resposta.json();
-                
-                // Filtra apenas os ativos logo na carga inicial
                 todasAsOfertas = dados.filter(p => p.ativo);
 
                 if (todasAsOfertas.length === 0) {
-                    document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Nenhuma recomendação em destaque agora. Acompanhe os grupos abaixo!</p>';
+                    document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Nenhuma recomendação em destaque agora. Acompanhe os grupos acima!</p>';
                     return;
                 }
 
-                // 1. Monta as opções da combobox baseado nos grupos existentes no JSON
                 configurarCombobox(todasAsOfertas);
-
-                // 2. Renderiza todas por padrão
                 renderizarCards(todasAsOfertas);
 
-                // 3. Escuta a mudança de seleção na caixinha
                 document.getElementById('filtro-categoria').addEventListener('change', aplicarFiltro);
 
             } catch (erro) {
                 console.error(erro);
-                document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Novas indicações chegando em breve. Acompanhe abaixo!</p>';
+                document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Novas indicações chegando em breve. Acompanhe acima!</p>';
             }
         }
 
-        // Descobre os grupos únicos no JSON e monta as <option> da combobox
         function configurarCombobox(ofertas) {
             const select = document.getElementById('filtro-categoria');
-            
-            // Set coleta apenas valores únicos (ignora duplicados)
             const gruposUnicos = new Set();
+            
             ofertas.forEach(item => {
                 if (item.grupo) gruposUnicos.add(item.grupo.trim());
             });
 
-            // Adiciona cada grupo detectado como uma opção na caixa
             gruposUnicos.forEach(grupo => {
                 const option = document.createElement('option');
                 option.value = grupo;
@@ -445,7 +442,6 @@
             });
         }
 
-        // Filtra os itens da lista baseado no que foi selecionado na Combobox
         function aplicarFiltro(evento) {
             const categoriaSelecionada = evento.target.value;
             
@@ -457,7 +453,6 @@
             }
         }
 
-        // Desenha fisicamente as ofertas filtradas na tela
         function renderizarCards(listaParaExibir) {
             const container = document.getElementById('container-promocoes');
             container.innerHTML = ''; 
@@ -474,7 +469,7 @@
                 const componenteCupom = promo.cupom 
                     ? `<div class="cupom-box-mini">
                         <span>Cupom: <strong>${promo.cupom}</strong></span>
-                        <button class="btn-copiar-mini" onclick="copiarCupom('${promo.cupom}', this)">Copiar</button>
+                        <button class="btn-copiar-mini" onclick="copyCupom('${promo.cupom}', this)">Copiar</button>
                        </div>`
                     : '';
 
@@ -512,7 +507,7 @@
             });
         }
 
-        function copiarCupom(codigo, botao) {
+        function copyCupom(codigo, botao) {
             navigator.clipboard.writeText(codigo);
             const textoOriginal = botao.innerText;
             botao.innerText = 'Copiado';
@@ -523,7 +518,6 @@
             }, 1500);
         }
 
-        // Dispara o processo inicial quando o navegador carrega a estrutura
         window.addEventListener('DOMContentLoaded', inicializarVitrine);
     </script>
 </body>
