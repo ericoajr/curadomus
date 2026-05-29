@@ -56,11 +56,15 @@
             margin: 0 auto;
         }
 
-        /* ==================== SEÇÃO DE PROMOÇÕES (TOPO) ==================== */
-        .secao-promocoes {
+        /* ==================== CONTROLADORES E FILTRO ==================== */
+        .topo-promocoes {
             display: flex;
-            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid rgba(45, 106, 79, 0.15);
+            padding-bottom: 8px;
             gap: 15px;
+            flex-wrap: wrap;
         }
 
         .titulo-secao {
@@ -69,17 +73,60 @@
             color: var(--primary-color);
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            border-bottom: 2px solid rgba(45, 106, 79, 0.15);
-            padding-bottom: 6px;
+            margin: 0;
+        }
+
+        /* Estilização Moderna do Combobox */
+        .filtro-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .filtro-label {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #555;
+        }
+
+        .select-categorias {
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-color);
+            background-color: var(--card-bg);
+            border: 1px solid rgba(0, 0, 0, 0.15);
+            padding: 8px 32px 8px 12px;
+            border-radius: 8px;
+            cursor: pointer;
+            outline: none;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
+            appearance: none; /* Remove seta padrão */
+            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232D6A4F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+            background-repeat: no-repeat;
+            background-position: right 10px center;
+            background-size: 14px;
+            transition: border-color 0.2s;
+        }
+
+        .select-categorias:focus {
+            border-color: var(--primary-color);
+        }
+
+        /* ==================== SEÇÃO DE PROMOÇÕES ==================== */
+        .secao-promocoes {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
         }
 
         .lista-promocoes {
             display: flex;
             flex-direction: column;
-            gap: 18px; /* Lista vertical limpa, excelente no mobile */
+            gap: 18px; /* Lista vertical limpa */
         }
 
-        /* Novo Card Estilo Vitrine Clean */
+        /* Card Estilo Vitrine Clean */
         .card-promo {
             background: var(--card-bg);
             border-radius: 16px;
@@ -88,11 +135,17 @@
             border: 1px solid rgba(0,0,0,0.04);
             display: flex;
             flex-direction: column;
+            animation: fadeIn 0.3s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(5px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         @media (min-width: 480px) {
             .card-promo {
-                flex-direction: row; /* No PC/Telas médias, vira um card horizontal elegante */
+                flex-direction: row; 
                 height: 180px;
             }
         }
@@ -198,6 +251,7 @@
             color: white;
             border: none;
             padding: 2px 6px;
+            font-size: 0.7 glamorous;
             font-size: 0.7rem;
             border-radius: 4px;
             cursor: pointer;
@@ -232,7 +286,6 @@
             gap: 12px;
         }
 
-        /* Blocos menores com as imagens circulares */
         .link-nicho-bloco {
             background: #ffffffaa;
             border: 1px solid rgba(0,0,0,0.03);
@@ -293,13 +346,23 @@
         </header>
 
         <section class="secao-promocoes">
-            <div class="titulo-secao">⭐ Indicações de Hoje</div>
+            
+            <div class="topo-promocoes">
+                <h2 class="titulo-secao">⭐ Indicações de Hoje</h2>
+                <div class="filtro-wrapper">
+                    <label for="filtro-categoria" class="filtro-label">Filtrar:</label>
+                    <select id="filtro-categoria" class="select-categorias">
+                        <option value="TODAS">Todas as ofertas</option>
+                        </select>
+                </div>
+            </div>
+
             <div id="container-promocoes" class="lista-promocoes">
                 </div>
         </section>
 
         <section class="secao-comunidades">
-            <div class="titulo-secao" style="font-size: 0.9rem;">💬 Nossos Grupos no WhatsApp</div>
+            <div class="titulo-secao" style="font-size: 0.9rem; border: none;">💬 Nossos Grupos no WhatsApp</div>
             
             <div class="grid-comunidades">
                 <a href="https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F" class="link-nicho-bloco">
@@ -330,70 +393,123 @@
     </div>
 
     <script>
-        async function carregarPromocoes() {
+        // Variável global para guardar os dados brutos vindos do JSON
+        let todasAsOfertas = [];
+
+        async function inicializarVitrine() {
             try {
                 const resposta = await fetch('./promocoes.json');
                 if (!resposta.ok) throw new Error('Falha ao ler JSON');
                 
-                const promocoes = await resposta.json();
-                const container = document.getElementById('container-promocoes');
-                container.innerHTML = ''; 
+                const dados = await resposta.json();
+                
+                // Filtra apenas os ativos logo na carga inicial
+                todasAsOfertas = dados.filter(p => p.ativo);
 
-                const promocoesAtivas = promocoes.filter(p => p.ativo);
-
-                if (promocoesAtivas.length === 0) {
-                    container.innerHTML = '<p class="sem-promocoes">Nenhuma recomendação em destaque agora. Acompanhe os grupos abaixo para receber as ofertas em tempo real!</p>';
+                if (todasAsOfertas.length === 0) {
+                    document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Nenhuma recomendação em destaque agora. Acompanhe os grupos abaixo!</p>';
                     return;
                 }
 
-                promocoesAtivas.forEach(promo => {
-                    const card = document.createElement('div');
-                    card.className = 'card-promo';
+                // 1. Monta as opções da combobox baseado nos grupos existentes no JSON
+                configurarCombobox(todasAsOfertas);
 
-                    const componenteCupom = promo.cupom 
-                        ? `<div class="cupom-box-mini">
-                            <span>Cupom: <strong>${promo.cupom}</strong></span>
-                            <button class="btn-copiar-mini" onclick="copiarCupom('${promo.cupom}', this)">Copiar</button>
-                           </div>`
-                        : '';
+                // 2. Renderiza todas por padrão
+                renderizarCards(todasAsOfertas);
 
-                    const tagEspecial = promo.tag ? `<span class="tag-promo">${promo.tag.trim()}</span>` : '';
-                    
-                    // Limpeza preventiva de espaços invisíveis (\u00a0) vindos da formatação Java
-                    const precoOriginalLimpo = promo.precoOriginal ? promo.precoOriginal.replace(/\u00a0/g, '').trim() : null;
-                    const precoPromocaoLimpo = promo.precoPromocao ? promo.precoPromocao.replace(/\u00a0/g, '').trim() : '0,00';
+                // 3. Escuta a mudança de seleção na caixinha
+                document.getElementById('filtro-categoria').addEventListener('change', aplicarFiltro);
 
-                    card.innerHTML = `
-                        <div class="card-imagem-wrapper">
-                            ${tagEspecial}
-                            <img src="${promo.imagem}" alt="${promo.titulo}" loading="lazy" class="card-imagem">
-                        </div>
-                        <div class="card-conteudo">
-                            <div class="card-header-info">
-                                <h3>${promo.titulo}</h3>
-                                <p class="card-descricao">${promo.descricao || ''}</p>
-                            </div>
-                            
-                            <div class="card-footer-action">
-                                <div class="card-precos">
-                                    ${precoOriginalLimpo ? `<span class="preco-antigo">R$ ${precoOriginalLimpo}</span>` : ''}
-                                    <span class="preco-novo">R$ ${precoPromocaoLimpo}</span>
-                                </div>
-                                
-                                ${componenteCupom}
-
-                                <a href="${promo.linkAfiliado}" target="_blank" rel="noopener noreferrer" class="btn-ir-loja">
-                                    Aproveitar
-                                </a>
-                            </div>
-                        </div>
-                    `;
-                    container.appendChild(card);
-                });
             } catch (erro) {
                 console.error(erro);
                 document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Novas indicações chegando em breve. Acompanhe abaixo!</p>';
             }
+        }
+
+        // Descobre os grupos únicos no JSON e monta as <option> da combobox
+        function configurarCombobox(ofertas) {
+            const select = document.getElementById('filtro-categoria');
+            
+            // Set coleta apenas valores únicos (ignora duplicados)
+            const gruposUnicos = new Set();
+            ofertas.forEach(item => {
+                if (item.grupo) gruposUnicos.add(item.grupo.trim());
+            });
+
+            // Adiciona cada grupo detectado como uma opção na caixa
+            gruposUnicos.forEach(grupo => {
+                const option = document.createElement('option');
+                option.value = grupo;
+                option.innerText = grupo;
+                select.appendChild(option);
+            });
+        }
+
+        // Filtra os itens da lista baseado no que foi selecionado na Combobox
+        function aplicarFiltro(evento) {
+            const categoriaSelecionada = evento.target.value;
+            
+            if (categoriaSelecionada === "TODAS") {
+                renderizarCards(todasAsOfertas);
+            } else {
+                const ofertasFiltradas = todasAsOfertas.filter(item => item.grupo && item.grupo.trim() === categoriaSelecionada);
+                renderizarCards(ofertasFiltradas);
+            }
+        }
+
+        // Desenha fisicamente as ofertas filtradas na tela
+        function renderizarCards(listaParaExibir) {
+            const container = document.getElementById('container-promocoes');
+            container.innerHTML = ''; 
+
+            if (listaParaExibir.length === 0) {
+                container.innerHTML = '<p class="sem-promocoes">Nenhum item encontrado nesta categoria.</p>';
+                return;
+            }
+
+            listaParaExibir.forEach(promo => {
+                const card = document.createElement('div');
+                card.className = 'card-promo';
+
+                const componenteCupom = promo.cupom 
+                    ? `<div class="cupom-box-mini">
+                        <span>Cupom: <strong>${promo.cupom}</strong></span>
+                        <button class="btn-copiar-mini" onclick="copiarCupom('${promo.cupom}', this)">Copiar</button>
+                       </div>`
+                    : '';
+
+                const tagEspecial = promo.tag ? `<span class="tag-promo">${promo.tag.trim()}</span>` : '';
+                
+                const precoOriginalLimpo = promo.precoOriginal ? promo.precoOriginal.replace(/\u00a0/g, '').trim() : null;
+                const precoPromocaoLimpo = promo.precoPromocao ? promo.precoPromocao.replace(/\u00a0/g, '').trim() : '0,00';
+
+                card.innerHTML = `
+                    <div class="card-imagem-wrapper">
+                        ${tagEspecial}
+                        <img src="${promo.imagem}" alt="${promo.titulo}" loading="lazy" class="card-imagem">
+                    </div>
+                    <div class="card-conteudo">
+                        <div class="card-header-info">
+                            <h3>${promo.titulo}</h3>
+                            <p class="card-descricao">${promo.descricao || ''}</p>
+                        </div>
+                        
+                        <div class="card-footer-action">
+                            <div class="card-precos">
+                                ${precoOriginalLimpo ? `<span class="preco-antigo">R$ ${precoOriginalLimpo}</span>` : ''}
+                                <span class="preco-novo">R$ ${precoPromocaoLimpo}</span>
+                            </div>
+                            
+                            ${componenteCupom}
+
+                            <a href="${promo.linkAfiliado}" target="_blank" rel="noopener noreferrer" class="btn-ir-loja">
+                                Aproveitar
+                            </a>
+                        </div>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
         }
 
         function copiarCupom(codigo, botao) {
@@ -407,7 +523,8 @@
             }, 1500);
         }
 
-        window.addEventListener('DOMContentLoaded', carregarPromocoes);
+        // Dispara o processo inicial quando o navegador carrega a estrutura
+        window.addEventListener('DOMContentLoaded', inicializarVitrine);
     </script>
 </body>
 </html>
