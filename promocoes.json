@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "30/05/2026 09:19",
+  "ultimaAtualizacao" : "30/05/2026 09:22",
   "ofertas" : [ {
     "id" : 1,
     "titulo" : "O Silmarillion",
@@ -494,6 +494,50 @@
     "tag" : "-39%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800881?tag=curadomus-20",
     "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 193,
+    "titulo" : "Roverando",
+    "descricao" : "Roverando",
+    "imagem" : "https://m.media-amazon.com/images/I/911vrVC5s3L._SL1500_.jpg",
+    "precoOriginal" : " 54,90",
+    "precoPromocao" : " 36,60",
+    "tag" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6555110937?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 194,
+    "titulo" : "O jumentinho que carregou um rei",
+    "descricao" : "O jumentinho que carregou um rei",
+    "imagem" : "https://m.media-amazon.com/images/I/91LaKU75XhL._SL1500_.jpg",
+    "precoOriginal" : " 140,00",
+    "precoPromocao" : " 75,02",
+    "tag" : "-46%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8581323944?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 195,
+    "titulo" : "A fantástica fábrica de chocolate (Edição especial)",
+    "descricao" : "A fantástica fábrica de chocolate (Edição especial)",
+    "imagem" : "https://m.media-amazon.com/images/I/81BX9xwJ1jL._SL1500_.jpg",
+    "precoOriginal" : " 59,90",
+    "precoPromocao" : " 34,78",
+    "tag" : "-41%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6584824012?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 196,
+    "titulo" : "Carlu Brinquedos - Frutas e Hortaliças Jogo da Memória 40 Peças, 3+ Anos, Multicor, 1184",
+    "descricao" : "Carlu Brinquedos - Frutas e Hortaliças Jogo da Memória 40 Peças, 3+ Anos, Multicor, 1184",
+    "imagem" : "https://m.media-amazon.com/images/I/61NvdYGPfoL._AC_SL1000_.jpg",
+    "precoOriginal" : " 38,97",
+    "precoPromocao" : " 16,91",
+    "tag" : "-56%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07BH438CZ?tag=curadomus-20",
+    "grupo" : "Brinquedos e Jogos",
     "ativo" : true
   } ]
 }
