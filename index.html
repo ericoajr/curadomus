@@ -56,7 +56,7 @@
             margin: 0 auto;
         }
 
-        /* ==================== SEÇÃO DE COMUNIDADES (AGORA NO TOPO) ==================== */
+        /* ==================== SEÇÃO DE COMUNIDADES ==================== */
         .secao-comunidades {
             display: flex;
             flex-direction: column;
@@ -112,7 +112,7 @@
             text-align: left;
         }
 
-        /* ==================== CONTROLADORES E FILTRO (ABAIXO DOS GRUPOS) ==================== */
+        /* ==================== CONTROLADORES E FILTRO ==================== */
         .topo-promocoes {
             display: flex;
             justify-content: space-between;
@@ -124,6 +124,13 @@
             margin-top: 10px;
         }
 
+        .bloco-titulo-status {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            text-align: left;
+        }
+
         .titulo-secao {
             font-size: 1.15rem;
             font-weight: 700;
@@ -131,6 +138,13 @@
             text-transform: uppercase;
             letter-spacing: 0.5px;
             margin: 0;
+        }
+
+        /* Badge de última atualização */
+        .status-atualizacao {
+            font-size: 0.72rem;
+            color: #666;
+            font-weight: 500;
         }
 
         .filtro-wrapper {
@@ -348,7 +362,7 @@
         <header>
             <img src="curadomus_logo.png" alt="Cura Domus" class="logo">
             <div class="tagline">
-                Uma curadoria de oportunidades para um lar com <strong>propósito e ordem</strong>.
+                Como pais de quatro filhos, garimpamos escolhas que unem a <strong>beleza, a utilidade e a economia</strong> que a sua família merece.
             </div>
         </header>
 
@@ -381,12 +395,15 @@
         <section class="secao-promocoes">
             
             <div class="topo-promocoes">
-                <h2 class="titulo-secao">⭐ Indicações de Hoje</h2>
+                <div class="bloco-titulo-status">
+                    <h2 class="titulo-secao">⭐ Indicações de Hoje</h2>
+                    <span id="data-atualizacao" class="status-atualizacao">Carregando atualizações...</span>
+                </div>
                 <div class="filtro-wrapper">
                     <label for="filtro-categoria" class="filtro-label">Filtrar:</label>
                     <select id="filtro-categoria" class="select-categorias">
                         <option value="TODAS">Todas as ofertas</option>
-                        </select>
+                    </select>
                 </div>
             </div>
 
@@ -399,7 +416,7 @@
         </footer>
     </div>
 
-<script>
+    <script>
         let todasAsOfertas = [];
 
         async function inicializarVitrine() {
@@ -407,10 +424,10 @@
                 const resposta = await fetch('./promocoes.json');
                 if (!resposta.ok) throw new Error('Falha ao ler JSON');
                 
-                // O retorno agora é o objeto completo, não mais um array direto
+                // O retorno agora mapeia o objeto completo contendo os nós "ultimaAtualizacao" e "ofertas"
                 const dadosVitrine = await resposta.json();
                 
-                // Extrai a lista do nó "ofertas" e filtra os ativos por segurança
+                // Extrai as ofertas filtrando apenas os registros ativos por segurança
                 todasAsOfertas = dadosVitrine.ofertas ? dadosVitrine.ofertas.filter(p => p.ativo) : [];
 
                 if (todasAsOfertas.length === 0) {
@@ -419,13 +436,13 @@
                     return;
                 }
 
-                // --- LEITURA DO NÓ DE METADADOS ---
+                // --- LEITURA DINÂMICA DO NÓ DE METADADOS ---
                 if (dadosVitrine.ultimaAtualizacao) {
                     document.getElementById('data-atualizacao').innerText = `Atualizado em: ${dadosVitrine.ultimaAtualizacao}`;
                 } else {
                     document.getElementById('data-atualizacao').innerText = 'Atualizado recentemente';
                 }
-                // ----------------------------------
+                // ------------------------------------------
 
                 configurarCombobox(todasAsOfertas);
                 renderizarCards(todasAsOfertas);
@@ -442,7 +459,7 @@
         function configurarCombobox(ofertas) {
             const select = document.getElementById('filtro-categoria');
             
-            // Limpa opções antigas caso existam (mantendo apenas a primeira fixa)
+            // Limpa opções antigas em recargas, preservando a primeira fixa de reset
             select.innerHTML = '<option value="TODAS">Todas as ofertas</option>';
             
             const gruposUnicos = new Set();
@@ -491,6 +508,7 @@
 
                 const tagEspecial = promo.tag ? `<span class="tag-promo">${promo.tag.trim()}</span>` : '';
                 
+                // Limpeza preventiva de caracteres de espaços vazios (\u00a0) da formatação de moeda do Java
                 const precoOriginalLimpo = promo.precoOriginal ? promo.precoOriginal.replace(/\u00a0/g, '').trim() : null;
                 const precoPromocaoLimpo = promo.precoPromocao ? promo.precoPromocao.replace(/\u00a0/g, '').trim() : '0,00';
 
