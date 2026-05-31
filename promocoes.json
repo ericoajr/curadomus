@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "31/05/2026 10:21",
+  "ultimaAtualizacao" : "31/05/2026 13:42",
   "ofertas" : [ {
     "id" : 993,
     "titulo" : "As Aventuras De Dom Bosco",
@@ -2905,18 +2905,326 @@
     "grupo" : "Bebês",
     "ativo" : true
   }, {
-    "id" : 1257,
+    "id" : 1345,
+    "titulo" : "O Silmarillion",
+    "descricao" : "O Silmarillion",
+    "imagem" : "https://m.media-amazon.com/images/I/81MoknVer8L._SL1500_.jpg",
+    "precoOriginal" : " 74,90",
+    "precoPromocao" : " 49,32",
+    "tag" : "-34%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8595084378?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1346,
+    "titulo" : "Mimosa não quer tomar banho: 4",
+    "descricao" : "Mimosa não quer tomar banho: 4",
+    "imagem" : "https://m.media-amazon.com/images/I/914UD27fbtL._SL1500_.jpg",
+    "precoOriginal" : " 74,00",
+    "precoPromocao" : " 54,33",
+    "tag" : "-26%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6586106370?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1347,
+    "titulo" : "James e o pêssego gigante",
+    "descricao" : "James e o pêssego gigante",
+    "imagem" : "https://m.media-amazon.com/images/I/81PmTm4zqhL._SL1500_.jpg",
+    "precoOriginal" : " 59,90",
+    "precoPromocao" : " 41,90",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6584824470?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1348,
+    "titulo" : "O gigante egoísta",
+    "descricao" : "O gigante egoísta",
+    "imagem" : "https://m.media-amazon.com/images/I/718fvPqNafL._SL1240_.jpg",
+    "precoOriginal" : " 63,00",
+    "precoPromocao" : " 38,96",
+    "tag" : "-38%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8524916982?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1349,
+    "titulo" : "A fantástica fábrica de chocolate (Edição especial)",
+    "descricao" : "A fantástica fábrica de chocolate (Edição especial)",
+    "imagem" : "https://m.media-amazon.com/images/I/81BX9xwJ1jL._SL1500_.jpg",
+    "precoOriginal" : " 59,90",
+    "precoPromocao" : " 34,78",
+    "tag" : "-41%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6584824012?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1350,
+    "titulo" : "O carteiro chegou",
+    "descricao" : "O carteiro chegou",
+    "imagem" : "https://m.media-amazon.com/images/I/81v84CBSC1L._SL1500_.jpg",
+    "precoOriginal" : " 89,90",
+    "precoPromocao" : " 59,75",
+    "tag" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574062855?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1351,
+    "titulo" : "Na biblioteca da rua direita",
+    "descricao" : "Na biblioteca da rua direita",
+    "imagem" : "https://m.media-amazon.com/images/I/61rlaMm7LNL._SL1185_.jpg",
+    "precoOriginal" : " 64,50",
+    "precoPromocao" : " 53,75",
+    "tag" : "-16%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8594680031?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1352,
+    "titulo" : "Sr. Boaventura",
+    "descricao" : "Sr. Boaventura",
+    "imagem" : "https://m.media-amazon.com/images/I/915KyRnQqzL._SL1500_.jpg",
+    "precoOriginal" : " 74,90",
+    "precoPromocao" : " 44,20",
+    "tag" : "-40%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8595085684?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1353,
+    "titulo" : "As aventuras de Tom Sawyer - (Texto integral - Clássicos Autêntica)",
+    "descricao" : "As aventuras de Tom Sawyer - (Texto integral - Clássicos Autêntica)",
+    "imagem" : "https://m.media-amazon.com/images/I/81mWTlcwsaL._SL1500_.jpg",
+    "precoOriginal" : " 54,90",
+    "precoPromocao" : " 32,95",
+    "tag" : "-39%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/855130285X?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1354,
+    "titulo" : "Eu consigo!: Para crianças determinadas",
+    "descricao" : "Eu consigo!: Para crianças determinadas",
+    "imagem" : "https://m.media-amazon.com/images/I/6185Cx7n4lL._SL1200_.jpg",
+    "precoOriginal" : " 34,90",
+    "precoPromocao" : " 25,38",
+    "tag" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8538058983?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1355,
+    "titulo" : "Orfeu Café Clássico Torrado e Moído, 100% Arabica, Torra Média, 250g",
+    "descricao" : "Orfeu Café Clássico Torrado e Moído, 100% Arabica, Torra Média, 250g",
+    "imagem" : "https://m.media-amazon.com/images/I/51sgHRw7N6L._AC_SL1000_.jpg",
+    "precoOriginal" : " 45,00",
+    "precoPromocao" : " 39,99",
+    "tag" : "-11%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0783NPFQ2?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true
+  }, {
+    "id" : 1356,
+    "titulo" : "12 regras para a vida: Um antídoto para o caos",
+    "descricao" : "12 regras para a vida: Um antídoto para o caos",
+    "imagem" : "https://m.media-amazon.com/images/I/71geoUmEoQL._SL1500_.jpg",
+    "precoOriginal" : " 66,50",
+    "precoPromocao" : " 42,06",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8550802751?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1357,
+    "titulo" : "O caracol",
+    "descricao" : "O caracol",
+    "imagem" : "https://m.media-amazon.com/images/I/71UvoVLgoEL._SL1500_.jpg",
+    "precoOriginal" : " 61,00",
+    "precoPromocao" : " 49,00",
+    "tag" : "-19%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508176597?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1358,
+    "titulo" : "As pintas do preá",
+    "descricao" : "As pintas do preá",
+    "imagem" : "https://m.media-amazon.com/images/I/81Fev0Bf1vL._SL1500_.jpg",
+    "precoOriginal" : " 61,00",
+    "precoPromocao" : " 40,00",
+    "tag" : "-34%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/850817666X?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1359,
+    "titulo" : "O pato mandão",
+    "descricao" : "O pato mandão",
+    "imagem" : "https://m.media-amazon.com/images/I/71FZiphTDCL._SL1200_.jpg",
+    "precoOriginal" : " 39,90",
+    "precoPromocao" : " 28,90",
+    "tag" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8538037013?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1360,
+    "titulo" : "Mustela Hydra Bebê 500ml - Hidratante Infantil Corpo e Rosto - Feito com 97% de Ingredientes de Origem Natural e Hipoalergênico - Seguro Desde o Nascimento",
+    "descricao" : "Mustela Hydra Bebê 500ml - Hidratante Infantil Corpo e Rosto - Feito com 97% de Ingredientes de Origem Natural e Hipoalergênico - Seguro Desde o Nascimento",
+    "imagem" : "https://m.media-amazon.com/images/I/51f5e+gAyKS._AC_SL1000_.jpg",
+    "precoOriginal" : " 136,99",
+    "precoPromocao" : " 92,90",
+    "tag" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08YK3CVLY?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 1361,
+    "titulo" : "Cadeira de Descanso e Balanço para Bebê Bliss Baby Style com Música, Mosquiteiro e Controle Remoto",
+    "descricao" : "Cadeira de Descanso e Balanço para Bebê Bliss Baby Style com Música, Mosquiteiro e Controle Remoto",
+    "imagem" : "https://m.media-amazon.com/images/I/51P+3+HNlDL._AC_SL1200_.jpg",
+    "precoOriginal" : " 645,90",
+    "precoPromocao" : " 579,30",
+    "tag" : "-10%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DDVP2W3M?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 1362,
+    "titulo" : "Fralda Babysec Ultrasec Giga M 92 Unidades",
+    "descricao" : "Fralda Babysec Ultrasec Giga M 92 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/51RR0J5I7SL._AC_SL1000_.jpg",
+    "precoOriginal" : " 94,82",
+    "precoPromocao" : " 59,99",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FS84HWSN?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 1363,
+    "titulo" : "Fralda Pampers Premium Care Pants Tamanho G, Fácil de Vestir, 68 Unidades",
+    "descricao" : "Fralda Pampers Premium Care Pants Tamanho G, Fácil de Vestir, 68 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/61Wl8dMHuyL._AC_SL1200_.jpg",
+    "precoOriginal" : " 151,59",
+    "precoPromocao" : " 114,90",
+    "tag" : "-24%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07X83MH7M?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 1364,
+    "titulo" : "3 Corações Cápsula de Cappuccino Napolitano TRES - 10 unid",
+    "descricao" : "3 Corações Cápsula de Cappuccino Napolitano TRES - 10 unid",
+    "imagem" : "https://m.media-amazon.com/images/I/6125SOWqg-L._AC_SL1200_.jpg",
+    "precoOriginal" : " 24,69",
+    "precoPromocao" : " 15,99",
+    "tag" : "-35%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DDQNKR4C?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true
+  }, {
+    "id" : 1365,
+    "titulo" : "Hellmann's Maionese Bacon 335g",
+    "descricao" : "Hellmann's Maionese Bacon 335g",
+    "imagem" : "https://m.media-amazon.com/images/I/71Hb5fDv80L._AC_SL1500_.jpg",
+    "precoOriginal" : " 14,09",
+    "precoPromocao" : " 11,98",
+    "tag" : "-14%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DD8H1XQY?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true
+  }, {
+    "id" : 1366,
+    "titulo" : "Heinz Molho Barbecue 397g",
+    "descricao" : "Heinz Molho Barbecue 397g",
+    "imagem" : "https://m.media-amazon.com/images/I/51R8+ruIrUL._AC_SL1200_.jpg",
+    "precoOriginal" : " 27,89",
+    "precoPromocao" : " 18,88",
+    "tag" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B097BY8K4S?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true
+  }, {
+    "id" : 1367,
+    "titulo" : "Pollyanna",
+    "descricao" : "Pollyanna",
+    "imagem" : "https://m.media-amazon.com/images/I/71KqIftZBXL._SL1500_.jpg",
+    "precoOriginal" : " 29,99",
+    "precoPromocao" : " 17,99",
+    "tag" : "-40%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/859520117X?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1368,
+    "titulo" : "Fralda Pants Huggies Supreme Care, Tamanho G, 9-12,5 kg, 60 Unidades, Estilo Roupinha com Cintura Acolchoada",
+    "descricao" : "Fralda Pants Huggies Supreme Care, Tamanho G, 9-12,5 kg, 60 Unidades, Estilo Roupinha com Cintura Acolchoada",
+    "imagem" : "https://m.media-amazon.com/images/I/81XM69oIvoL._AC_SL1500_.jpg",
+    "precoOriginal" : " 113,25",
+    "precoPromocao" : " 89,99",
+    "tag" : "-20%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07GR5T4RF?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 1369,
+    "titulo" : "Uma lagarta muito comilona",
+    "descricao" : "Uma lagarta muito comilona",
+    "imagem" : "https://m.media-amazon.com/images/I/81CO4TeIuFL._SL1500_.jpg",
+    "precoOriginal" : " 69,90",
+    "precoPromocao" : " 46,45",
+    "tag" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6554850929?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1370,
+    "titulo" : "Neve Papel Higiênico Supreme Folha Tripla, 20m, Leve 24 Pague 21 Rolos",
+    "descricao" : "Neve Papel Higiênico Supreme Folha Tripla, 20m, Leve 24 Pague 21 Rolos",
+    "imagem" : "https://m.media-amazon.com/images/I/71uftHmzxQL._AC_SL1500_.jpg",
+    "precoOriginal" : " 54,99",
+    "precoPromocao" : " 39,99",
+    "tag" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07FNFPSWL?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
+    "ativo" : true
+  }, {
+    "id" : 1371,
+    "titulo" : "Mix de Castanhas e Frutas biO2 Snack Nuts e Fruits, Pote 450 g - Vegano e sem Glúten",
+    "descricao" : "Mix de Castanhas e Frutas biO2 Snack Nuts e Fruits, Pote 450 g - Vegano e sem Glúten",
+    "imagem" : "https://m.media-amazon.com/images/I/61fs936J6fL._AC_SL1080_.jpg",
+    "precoOriginal" : " 74,00",
+    "precoPromocao" : " 57,69",
+    "tag" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0C5DTJ966?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true
+  }, {
+    "id" : 1372,
+    "titulo" : "Vai dar tudo certo",
+    "descricao" : "Vai dar tudo certo",
+    "imagem" : "https://m.media-amazon.com/images/I/91KBHzp4h4L._SL1500_.jpg",
+    "precoOriginal" : " 54,90",
+    "precoPromocao" : " 34,90",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6556893455?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1373,
     "titulo" : "Cooktop Itatiaia Essencial 5 Bocas Preto",
     "descricao" : "Cooktop Itatiaia Essencial 5 Bocas Preto",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_714775-MLA99507479710_112025-F.webp",
     "precoOriginal" : " 529,90",
-    "precoPromocao" : " 429,00",
-    "tag" : "-19%",
+    "precoPromocao" : " 407,55",
+    "tag" : "-23%",
     "linkAfiliado" : "https://meli.la/1Aa3iY5",
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1258,
+    "id" : 1374,
     "titulo" : "Kit C/ 36 Envelopes (252 Cromos) - Copa Do Mundo Fifa 2026",
     "descricao" : "Kit C/ 36 Envelopes (252 Cromos) - Copa Do Mundo Fifa 2026",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_693436-MLB109274954182_042026-F.webp",
@@ -2927,18 +3235,18 @@
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true
   }, {
-    "id" : 1259,
+    "id" : 1375,
     "titulo" : "Ar Condicionado LG Dual Inverter Compact +ia 12000 Btus Frio",
     "descricao" : "Ar Condicionado LG Dual Inverter Compact +ia 12000 Btus Frio",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_858002-MLA100010600465_122025-F.webp",
     "precoOriginal" : " 2.849,00",
-    "precoPromocao" : " 1.969,00",
-    "tag" : "-30%",
+    "precoPromocao" : " 1.870,55",
+    "tag" : "-34%",
     "linkAfiliado" : "https://meli.la/1xAUEtp",
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1260,
+    "id" : 1376,
     "titulo" : "Kit Com 10 Envelopes (70 Cromos) - Copa Do Mundo Fifa 2026",
     "descricao" : "Kit Com 10 Envelopes (70 Cromos) - Copa Do Mundo Fifa 2026",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_653831-MLB110126921171_042026-F.webp",
@@ -2949,7 +3257,7 @@
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true
   }, {
-    "id" : 1261,
+    "id" : 1377,
     "titulo" : "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10",
     "descricao" : "Monitor LG UltraGear™ 24G411A-B 24\",FHD, 144Hz, 1ms (MBR), NVIDIA G-SYNC, AMD FreeSync, HDR10",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_685909-MLA101438581463_122025-F.webp",
@@ -2960,7 +3268,7 @@
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
-    "id" : 1262,
+    "id" : 1378,
     "titulo" : "Conjunto Panelas Antiaderente 10 Peças Teflon Várias Cores",
     "descricao" : "Conjunto Panelas Antiaderente 10 Peças Teflon Várias Cores",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_978965-MLB111357549836_052026-F-conjunto-panelas-antiaderente-10-pecas-teflon-varias-cores.webp",
@@ -2971,40 +3279,40 @@
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1263,
+    "id" : 1379,
     "titulo" : "Cadeira Escritório Presidente Ergonômica NR17 Marqs Home Arcanis Preta com Apoio Lombar e Encosto Mesh Premium",
     "descricao" : "Cadeira Escritório Presidente Ergonômica NR17 Marqs Home Arcanis Preta com Apoio Lombar e Encosto Mesh Premium",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_892750-MLA110183247129_042026-F.webp",
     "precoOriginal" : " 799,90",
-    "precoPromocao" : " 484,00",
-    "tag" : "-39%",
+    "precoPromocao" : " 459,80",
+    "tag" : "-42%",
     "linkAfiliado" : "https://meli.la/1zEsepw",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true
   }, {
-    "id" : 1264,
+    "id" : 1380,
     "titulo" : "Jogo De Lençol Cama Solteiro 02 Peças 400 Fios Ponto Palito C/ Elástico Hotel Cor Azul-marinho Liso",
     "descricao" : "Jogo De Lençol Cama Solteiro 02 Peças 400 Fios Ponto Palito C/ Elástico Hotel Cor Azul-marinho Liso",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_790561-MLA109760431358_042026-F.webp",
     "precoOriginal" : " 44,99",
-    "precoPromocao" : " 26,12",
-    "tag" : "-41%",
+    "precoPromocao" : " 27,49",
+    "tag" : "-38%",
     "linkAfiliado" : "https://meli.la/1BoffoM",
     "grupo" : "Casa",
     "ativo" : true
   }, {
-    "id" : 1265,
+    "id" : 1381,
     "titulo" : "Geladeira com freezer Continental TC45S con capacidad de 400L prata",
     "descricao" : "Geladeira com freezer Continental TC45S con capacidad de 400L prata",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_991235-MLA97281946712_112025-F.webp",
     "precoOriginal" : " 3.449,00",
-    "precoPromocao" : " 269,90",
-    "tag" : "-92%",
+    "precoPromocao" : " 2.699,00",
+    "tag" : "-21%",
     "linkAfiliado" : "https://meli.la/1ffWiaM",
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1266,
+    "id" : 1382,
     "titulo" : "Calibrador De Ar Digital Para Pneu Portátil Compressor Usb",
     "descricao" : "Calibrador De Ar Digital Para Pneu Portátil Compressor Usb",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_817834-MLB75757714755_042024-F.webp",
@@ -3015,7 +3323,7 @@
     "grupo" : "Automotivo",
     "ativo" : true
   }, {
-    "id" : 1267,
+    "id" : 1383,
     "titulo" : "Webcam Emeet Smartcam S600 4k Com Foco Automático Preto",
     "descricao" : "Webcam Emeet Smartcam S600 4k Com Foco Automático Preto",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_697051-MLA99485578968_112025-F.webp",
@@ -3026,18 +3334,18 @@
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1268,
+    "id" : 1384,
     "titulo" : "Conjunto Infantil Brasil Camisa 10 E Shorts Futebol",
     "descricao" : "Conjunto Infantil Brasil Camisa 10 E Shorts Futebol",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_957670-MLB109406668132_042026-F-conjunto-infantil-brasil-camisa-10-e-shorts-futebol.webp",
     "precoOriginal" : " 228,41",
-    "precoPromocao" : " 5,91",
-    "tag" : "-97%",
+    "precoPromocao" : " 59,99",
+    "tag" : "-73%",
     "linkAfiliado" : "https://meli.la/1pqBX2K",
     "grupo" : "Moda",
     "ativo" : true
   }, {
-    "id" : 1269,
+    "id" : 1385,
     "titulo" : "Ar-condicionado Split 12000 Btus Quente Frio Philco Inverter Cor Branco",
     "descricao" : "Ar-condicionado Split 12000 Btus Quente Frio Philco Inverter Cor Branco",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_974684-MLA99870126497_112025-F.webp",
@@ -3048,7 +3356,7 @@
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1270,
+    "id" : 1386,
     "titulo" : "Torneira para Banheiro Lavabo Bica Baixa Bancada Quadrada Inox e ABS Preta Fosca Beltempo",
     "descricao" : "Torneira para Banheiro Lavabo Bica Baixa Bancada Quadrada Inox e ABS Preta Fosca Beltempo",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_848779-MLA101667192523_122025-F.webp",
@@ -3059,29 +3367,29 @@
     "grupo" : "Casa",
     "ativo" : true
   }, {
-    "id" : 1271,
+    "id" : 1387,
     "titulo" : "Celular Samsung Galaxy A17 Com Ia, 256gb, 8gb Ram, Câm De 50mp, Tela De 6.7 , Nfc, Ip54 - Azul",
     "descricao" : "Celular Samsung Galaxy A17 Com Ia, 256gb, 8gb Ram, Câm De 50mp, Tela De 6.7 , Nfc, Ip54 - Azul",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_889169-MLA96868779849_102025-F.webp",
     "precoOriginal" : " 1.799,00",
-    "precoPromocao" : " 1.199,00",
-    "tag" : "-33%",
+    "precoPromocao" : " 1.079,10",
+    "tag" : "-40%",
     "linkAfiliado" : "https://meli.la/17T4CNY",
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1272,
+    "id" : 1388,
     "titulo" : "Camisa Camiseta Brasil Masculina Feminina Brasileira Futebol",
     "descricao" : "Camisa Camiseta Brasil Masculina Feminina Brasileira Futebol",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_959115-MLB109276641350_042026-F.webp",
     "precoOriginal" : " 59,99",
-    "precoPromocao" : " 5,35",
-    "tag" : "-91%",
+    "precoPromocao" : " 54,36",
+    "tag" : "-9%",
     "linkAfiliado" : "https://meli.la/1tTqbmd",
     "grupo" : "Moda",
     "ativo" : true
   }, {
-    "id" : 1273,
+    "id" : 1389,
     "titulo" : "Parafusadeira Furadeira C/ 2 Baterias Maleta Kit Completo Led Eixo Flexível Vários Níveis Torque",
     "descricao" : "Parafusadeira Furadeira C/ 2 Baterias Maleta Kit Completo Led Eixo Flexível Vários Níveis Torque",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_828436-MLA100007265481_122025-F.webp",
@@ -3092,7 +3400,7 @@
     "grupo" : "Ferramentas e Materiais de Construção",
     "ativo" : true
   }, {
-    "id" : 1274,
+    "id" : 1390,
     "titulo" : "Microfone Lapela Redondo Imã Sem Fio Preto Duplo Anti Ruído Cor Preto - Lightning IPhone 8 ao 14",
     "descricao" : "Microfone Lapela Redondo Imã Sem Fio Preto Duplo Anti Ruído Cor Preto - Lightning IPhone 8 ao 14",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_884470-MLA111187893594_052026-F.webp",
@@ -3103,29 +3411,29 @@
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1275,
+    "id" : 1391,
     "titulo" : "Celular Samsung Galaxy A07 128gb, 4gb, Câmera 50mp, Tela 6.7 , Proteção Ip54, Processador 6nm - Violeta",
     "descricao" : "Celular Samsung Galaxy A07 128gb, 4gb, Câmera 50mp, Tela 6.7 , Proteção Ip54, Processador 6nm - Violeta",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_765861-MLA95532186080_102025-F.webp",
     "precoOriginal" : " 899,00",
-    "precoPromocao" : " 656,56",
-    "tag" : "-26%",
+    "precoPromocao" : " 590,90",
+    "tag" : "-34%",
     "linkAfiliado" : "https://meli.la/33RFXJ9",
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
-    "id" : 1276,
+    "id" : 1392,
     "titulo" : "Kit 12 Envelopes com 84 figurinhas - Copa do Mundo 2026",
     "descricao" : "Kit 12 Envelopes com 84 figurinhas - Copa do Mundo 2026",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_903022-MLA109894312615_032026-F.webp",
-    "precoOriginal" : " 1.920,00",
-    "precoPromocao" : " 8,08",
-    "tag" : "-99%",
+    "precoOriginal" : " 200,00",
+    "precoPromocao" : " 82,00",
+    "tag" : "-59%",
     "linkAfiliado" : "https://meli.la/2zvbMPE",
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true
   }, {
-    "id" : 1277,
+    "id" : 1393,
     "titulo" : "Chuveiro Lorenzetti Loren Shower Ultra Eletrônico Branco 7500W",
     "descricao" : "Chuveiro Lorenzetti Loren Shower Ultra Eletrônico Branco 7500W",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_896908-MLA101388142032_122025-F.webp",
@@ -3136,7 +3444,7 @@
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1278,
+    "id" : 1394,
     "titulo" : "Ar Condicionado Inverter LG Dual Voice AI 12.000 Btus Frio R-32",
     "descricao" : "Ar Condicionado Inverter LG Dual Voice AI 12.000 Btus Frio R-32",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_751254-MLA111545505029_052026-F.webp",
@@ -3147,7 +3455,7 @@
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1279,
+    "id" : 1395,
     "titulo" : "Varal De Chão Grande De Roupas 3 Andares Dobrável Cor Azul Kontuz 170 cm",
     "descricao" : "Varal De Chão Grande De Roupas 3 Andares Dobrável Cor Azul Kontuz 170 cm",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_712866-MLA109482654866_042026-F.webp",
@@ -3158,7 +3466,7 @@
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1280,
+    "id" : 1396,
     "titulo" : "Camiseta Do Brasil Infantil 1 A 8 Anos Unissex Futebol",
     "descricao" : "Camiseta Do Brasil Infantil 1 A 8 Anos Unissex Futebol",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_663514-MLB106710723292_022026-F.webp",
@@ -3169,29 +3477,29 @@
     "grupo" : "Moda",
     "ativo" : true
   }, {
-    "id" : 1281,
+    "id" : 1397,
     "titulo" : "Vestido Festa Junina Quadrilha Caipira Sao Joao Infantil",
     "descricao" : "Vestido Festa Junina Quadrilha Caipira Sao Joao Infantil",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_686453-MLB111003755261_042026-F.webp",
-    "precoOriginal" : " 139,00",
-    "precoPromocao" : " 31,50",
-    "tag" : "-77%",
+    "precoOriginal" : " 165,90",
+    "precoPromocao" : " 126,00",
+    "tag" : "-24%",
     "linkAfiliado" : "https://meli.la/1AMRrTx",
     "grupo" : "Moda",
     "ativo" : true
   }, {
-    "id" : 1282,
+    "id" : 1398,
     "titulo" : "Kit 24 Faqueiro Talheres Dourado Luxo Premium Com Maleta",
     "descricao" : "Kit 24 Faqueiro Talheres Dourado Luxo Premium Com Maleta",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_763255-MLB83375618110_042025-F.webp",
     "precoOriginal" : " 98,00",
-    "precoPromocao" : " 74,00",
-    "tag" : "-24%",
+    "precoPromocao" : " 75,66",
+    "tag" : "-22%",
     "linkAfiliado" : "https://meli.la/1hLxizN",
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1283,
+    "id" : 1399,
     "titulo" : "Kit de Aparelho de Fondue SHOKKI com 12 Peças em Metal, para Queijo, Chocolate e Carne",
     "descricao" : "Kit de Aparelho de Fondue SHOKKI com 12 Peças em Metal, para Queijo, Chocolate e Carne",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_971566-MLA111045982261_042026-F.webp",
@@ -3202,7 +3510,7 @@
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1284,
+    "id" : 1400,
     "titulo" : "Moedor De Sal Grosso E Pimenta Triturador Profissional Temperos Especiarias Em Aço Inox Saleiro Gourmet Para Cozinha",
     "descricao" : "Moedor De Sal Grosso E Pimenta Triturador Profissional Temperos Especiarias Em Aço Inox Saleiro Gourmet Para Cozinha",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_727644-MLA99597608380_122025-F.webp",
@@ -3213,18 +3521,18 @@
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1285,
+    "id" : 1401,
     "titulo" : "Mesa Sala De Jantar Luna Tampo Laqueado Com Vidro 120 Cm",
     "descricao" : "Mesa Sala De Jantar Luna Tampo Laqueado Com Vidro 120 Cm",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_987254-MLB96640664153_102025-F.webp",
     "precoOriginal" : " 1.789,00",
-    "precoPromocao" : " 1.180,02",
-    "tag" : "-34%",
+    "precoPromocao" : " 1.141,75",
+    "tag" : "-36%",
     "linkAfiliado" : "https://meli.la/2KCbeCD",
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1286,
+    "id" : 1402,
     "titulo" : "Conj de Panelas 8 Peças Ceramic Life Smart Plus Vanilla - Brinox",
     "descricao" : "Conj de Panelas 8 Peças Ceramic Life Smart Plus Vanilla - Brinox",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_926181-MLA106965198532_022026-F.webp",
@@ -3235,29 +3543,29 @@
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1287,
+    "id" : 1403,
     "titulo" : "Berço Americano 3 em 1 para Colchão 130x70cm Multimóveis 0527PA Off White/Branco",
     "descricao" : "Berço Americano 3 em 1 para Colchão 130x70cm Multimóveis 0527PA Off White/Branco",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_786583-MLA100010411479_122025-F.webp",
     "precoOriginal" : " 549,99",
-    "precoPromocao" : " 449,99",
-    "tag" : "-18%",
+    "precoPromocao" : " 368,99",
+    "tag" : "-32%",
     "linkAfiliado" : "https://meli.la/2hjhHDt",
     "grupo" : "Bebês",
     "ativo" : true
   }, {
-    "id" : 1288,
+    "id" : 1404,
     "titulo" : "Creatina Monohidratada 250g Growth Supplements - Sem sabor em Pó",
     "descricao" : "Creatina Monohidratada 250g Growth Supplements - Sem sabor em Pó",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_662415-MLA97812910758_112025-F.webp",
     "precoOriginal" : " 64,90",
-    "precoPromocao" : " 39,90",
-    "tag" : "-38%",
+    "precoPromocao" : " 36,44",
+    "tag" : "-43%",
     "linkAfiliado" : "https://meli.la/2Dv7ZJB",
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1289,
+    "id" : 1405,
     "titulo" : "Carregador Compativel Com iPhone 8 X Xr 11 12 13 14 Pro Max Turbo Fonte Tipo C Boyu Cell",
     "descricao" : "Carregador Compativel Com iPhone 8 X Xr 11 12 13 14 Pro Max Turbo Fonte Tipo C Boyu Cell",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_945381-MLA108251647129_032026-F.webp",
@@ -3268,7 +3576,7 @@
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
-    "id" : 1290,
+    "id" : 1406,
     "titulo" : "Multifatiador Oz FA4615 Fatiador Elétrico Cortador De Frios Embutidos 150W",
     "descricao" : "Multifatiador Oz FA4615 Fatiador Elétrico Cortador De Frios Embutidos 150W",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_986567-MLA99550947778_122025-F.webp",
@@ -3279,51 +3587,40 @@
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1291,
+    "id" : 1407,
     "titulo" : "Cervejeira Consul Titanium - Czd12mt",
     "descricao" : "Cervejeira Consul Titanium - Czd12mt",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_877869-MLB106919072875_022026-F.webp",
     "precoOriginal" : " 3.782,00",
-    "precoPromocao" : " 209,90",
-    "tag" : "-94%",
+    "precoPromocao" : " 2.099,00",
+    "tag" : "-44%",
     "linkAfiliado" : "https://meli.la/1Dndxkb",
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1292,
+    "id" : 1408,
     "titulo" : "Churrasqueira Grill Elétrica 2400W Cooktop Diamond Fine 220v 50x40cm Titan",
     "descricao" : "Churrasqueira Grill Elétrica 2400W Cooktop Diamond Fine 220v 50x40cm Titan",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_940727-MLA92617161948_092025-F.webp",
     "precoOriginal" : " 1.877,00",
-    "precoPromocao" : " 167,90",
-    "tag" : "-91%",
+    "precoPromocao" : " 1.679,00",
+    "tag" : "-10%",
     "linkAfiliado" : "https://meli.la/1tSRE9p",
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1293,
-    "titulo" : "Churrasqueira Grill Elétrica Com Tampa Fine Cooktop 50x40 Cm",
-    "descricao" : "Churrasqueira Grill Elétrica Com Tampa Fine Cooktop 50x40 Cm",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_604231-MLA107373441991_022026-F.webp",
-    "precoOriginal" : " 1.877,00",
-    "precoPromocao" : " 249,81",
-    "tag" : "-86%",
-    "linkAfiliado" : "https://meli.la/1d9gbVQ",
-    "grupo" : "Eletrodomésticos",
-    "ativo" : true
-  }, {
-    "id" : 1294,
+    "id" : 1409,
     "titulo" : "Churrasqueira Elétrica Embutir Titan Diamond Premium Inox 3000W 220V",
     "descricao" : "Churrasqueira Elétrica Embutir Titan Diamond Premium Inox 3000W 220V",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_942725-MLA99422323608_112025-F.webp",
     "precoOriginal" : " 3.499,00",
-    "precoPromocao" : " 344,90",
-    "tag" : "-90%",
+    "precoPromocao" : " 3.449,00",
+    "tag" : "-1%",
     "linkAfiliado" : "https://meli.la/1xvadZS",
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1295,
+    "id" : 1410,
     "titulo" : "Churrasqueira Inox A Gás De Imbutir 2 Queimadores Mimo Style",
     "descricao" : "Churrasqueira Inox A Gás De Imbutir 2 Queimadores Mimo Style",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_678631-MLA108916951182_032026-F.webp",
@@ -3334,7 +3631,7 @@
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1296,
+    "id" : 1411,
     "titulo" : "Churrasqueira A Gás De Embutir Ou Bancada 3 Queimadores Inox",
     "descricao" : "Churrasqueira A Gás De Embutir Ou Bancada 3 Queimadores Inox",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_698485-MLU73885342587_012024-F.webp",
@@ -3345,40 +3642,18 @@
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1297,
-    "titulo" : "Fralda Calça MamyPoko Super Seca Tamanho P 46 Unidades Hipoalergênica",
-    "descricao" : "Fralda Calça MamyPoko Super Seca Tamanho P 46 Unidades Hipoalergênica",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_899216-MLA99840351095_112025-F.webp",
-    "precoOriginal" : " 79,24",
-    "precoPromocao" : " 68,90",
-    "tag" : "-13%",
-    "linkAfiliado" : "https://www.mercadolivre.com.br/fralda-calca-mamypoko-super-seca-tamanho-p-46-unidades-hipoalergnica/p/MLB19485141?pdp_filters=item_id%3AMLB4456575072#origin=share&sid=share&wid=MLB4456575072",
-    "grupo" : "Bebês",
-    "ativo" : true
-  }, {
-    "id" : 1298,
-    "titulo" : "Kit 2 Pacotes Fraldas Pampers Pants P - 52 Fraldas",
-    "descricao" : "Kit 2 Pacotes Fraldas Pampers Pants P - 52 Fraldas",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_981505-MLB88784983376_082025-F.webp",
-    "precoOriginal" : " 39,24",
-    "precoPromocao" : " 8,26",
-    "tag" : "-78%",
-    "linkAfiliado" : "https://meli.la/1qqBbDk",
-    "grupo" : "Bebês",
-    "ativo" : true
-  }, {
-    "id" : 1299,
+    "id" : 1412,
     "titulo" : "Jogo 6 Taças Vinho Água De Vidro 340ml Diamond Transparente",
     "descricao" : "Jogo 6 Taças Vinho Água De Vidro 340ml Diamond Transparente",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_859829-MLA100083781581_122025-F.webp",
     "precoOriginal" : " 49,90",
-    "precoPromocao" : " 5,58",
-    "tag" : "-88%",
+    "precoPromocao" : " 33,50",
+    "tag" : "-32%",
     "linkAfiliado" : "https://meli.la/1oCYPKW",
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1300,
+    "id" : 1413,
     "titulo" : "Jogo De Panelas Induçao Antiaderente Cerâmica 10 Peças Ppg Pfoa Free Baunilha",
     "descricao" : "Jogo De Panelas Induçao Antiaderente Cerâmica 10 Peças Ppg Pfoa Free Baunilha",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_896529-MLA98735006295_112025-F.webp",
@@ -3389,18 +3664,7 @@
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1301,
-    "titulo" : "Kit Body 5pç Regata Oceano Carter's",
-    "descricao" : "Kit Body 5pç Regata Oceano Carter's",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_969858-MLB84752426661_052025-F-kit-body-5pc-regata-oceano-carters.webp",
-    "precoOriginal" : " 93,56",
-    "precoPromocao" : " 19,70",
-    "tag" : "-78%",
-    "linkAfiliado" : "https://meli.la/1ZcHM1p",
-    "grupo" : "Bebês",
-    "ativo" : true
-  }, {
-    "id" : 1302,
+    "id" : 1414,
     "titulo" : "Jogo Talheres Faqueiro Búzios Aço Inox 24 Peças Tramontina",
     "descricao" : "Jogo Talheres Faqueiro Búzios Aço Inox 24 Peças Tramontina",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_885228-MLA105354697197_012026-F.webp",
@@ -3411,7 +3675,7 @@
     "grupo" : "Cozinha",
     "ativo" : true
   }, {
-    "id" : 1303,
+    "id" : 1415,
     "titulo" : "Prendedor De Porta Tampa Magnética Em Aço 304 Inoxidável Imã",
     "descricao" : "Prendedor De Porta Tampa Magnética Em Aço 304 Inoxidável Imã",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_617580-MLB84404038068_052025-F-prendedor-de-porta-tampa-magnetica-em-aco-304-inoxidavel-im.webp",
@@ -3422,7 +3686,7 @@
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1304,
+    "id" : 1416,
     "titulo" : "Smart Tv 32 Philco Roku Tv Dolby Áudio Hdr10 P32crb",
     "descricao" : "Smart Tv 32 Philco Roku Tv Dolby Áudio Hdr10 P32crb",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_636675-MLA107807100101_022026-F.webp",
@@ -3433,7 +3697,7 @@
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1305,
+    "id" : 1417,
     "titulo" : "Camiseta Térmica Segunda Pele Masculina Manga Curta Slim Fit",
     "descricao" : "Camiseta Térmica Segunda Pele Masculina Manga Curta Slim Fit",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_713661-MLB96528459417_102025-F-camiseta-termica-segunda-pele-masculina-manga-curta-slim-fit.webp",
@@ -3444,18 +3708,18 @@
     "grupo" : "Jardim e Piscina",
     "ativo" : true
   }, {
-    "id" : 1306,
+    "id" : 1418,
     "titulo" : "Geladeira Consul Frost Free Duplex - Crm44mk Inox",
     "descricao" : "Geladeira Consul Frost Free Duplex - Crm44mk Inox",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_636022-MLA100042417899_122025-F.webp",
     "precoOriginal" : " 3.199,00",
-    "precoPromocao" : " 2.749,00",
-    "tag" : "-14%",
+    "precoPromocao" : " 2.611,55",
+    "tag" : "-18%",
     "linkAfiliado" : "https://meli.la/2PGB5R2",
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1307,
+    "id" : 1419,
     "titulo" : "Kit 4 Potes Acrílico 3,8l Organizador Geladeira Rebirth",
     "descricao" : "Kit 4 Potes Acrílico 3,8l Organizador Geladeira Rebirth",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_735971-MLA95941810245_102025-F.webp",
@@ -3466,7 +3730,7 @@
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1308,
+    "id" : 1420,
     "titulo" : "Garrafa Térmica 1 Litro Com Termômetro Led Para Chás / Café",
     "descricao" : "Garrafa Térmica 1 Litro Com Termômetro Led Para Chás / Café",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_658148-MLB89993492671_082025-F-garrafa-termica-1-litro-com-termmetro-led-para-chas-cafe.webp",
@@ -3477,18 +3741,18 @@
     "grupo" : "Casa",
     "ativo" : true
   }, {
-    "id" : 1309,
+    "id" : 1421,
     "titulo" : "Celular Samsung Galaxy A17 5g Com Ia, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7 , Nfc, Ip54 - Preto",
     "descricao" : "Celular Samsung Galaxy A17 5g Com Ia, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7 , Nfc, Ip54 - Preto",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_755351-MLA99597188918_122025-F.webp",
     "precoOriginal" : " 1.799,00",
-    "precoPromocao" : " 899,00",
-    "tag" : "-50%",
+    "precoPromocao" : " 809,10",
+    "tag" : "-55%",
     "linkAfiliado" : "https://meli.la/32pc7RG",
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
-    "id" : 1310,
+    "id" : 1422,
     "titulo" : "Álbum Capa Brochura Copa Do Mundo 2026 + Figurinhas",
     "descricao" : "Álbum Capa Brochura Copa Do Mundo 2026 + Figurinhas",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_608479-MLB110268478122_052026-F.webp",
@@ -3499,7 +3763,7 @@
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true
   }, {
-    "id" : 1311,
+    "id" : 1423,
     "titulo" : "Smart Tv LG 50 4k Uhd Hdr Thinq Ai Pro Wi-fi Bluetooth Alexa Apple Airplay - 50tu801c0sa",
     "descricao" : "Smart Tv LG 50 4k Uhd Hdr Thinq Ai Pro Wi-fi Bluetooth Alexa Apple Airplay - 50tu801c0sa",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_725981-MLA99445947352_112025-F.webp",
@@ -3510,7 +3774,7 @@
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
-    "id" : 1312,
+    "id" : 1424,
     "titulo" : "Smart TV LG UHD AI UA75 50 polegadas HDR10 Pro Processador α7 AI Ger8 webOS 25",
     "descricao" : "Smart TV LG UHD AI UA75 50 polegadas HDR10 Pro Processador α7 AI Ger8 webOS 25",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_884169-MLA106908124660_022026-F.webp",
@@ -3521,7 +3785,7 @@
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
-    "id" : 1313,
+    "id" : 1425,
     "titulo" : "Chaleira Elétrica 1,8L 1200W Unitermi Atacama",
     "descricao" : "Chaleira Elétrica 1,8L 1200W Unitermi Atacama",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_666995-MLA99455173642_112025-F.webp",
@@ -3532,18 +3796,18 @@
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
-    "id" : 1314,
+    "id" : 1426,
     "titulo" : "Vestido Festa Junina Infantil Menina Florido Arraia Caipira",
     "descricao" : "Vestido Festa Junina Infantil Menina Florido Arraia Caipira",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_920154-MLB110744726846_052026-F.webp",
-    "precoOriginal" : " 178,00",
-    "precoPromocao" : " 7,68",
-    "tag" : "-95%",
+    "precoOriginal" : " 189,45",
+    "precoPromocao" : " 78,00",
+    "tag" : "-58%",
     "linkAfiliado" : "https://meli.la/2ogyLt8",
     "grupo" : "Moda",
     "ativo" : true
   }, {
-    "id" : 1315,
+    "id" : 1427,
     "titulo" : "Blusa De Frio Moletom Liso Feminina Algodão E Poliester",
     "descricao" : "Blusa De Frio Moletom Liso Feminina Algodão E Poliester",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_884294-MLB84611175703_052025-F-blusa-de-frio-moletom-liso-feminina-algodo-e-poliester.webp",
@@ -3554,7 +3818,7 @@
     "grupo" : "Moda",
     "ativo" : true
   }, {
-    "id" : 1316,
+    "id" : 1428,
     "titulo" : "Kit Azzaro Pour Homme: Eau de Toilette 100 mL e Gel de Banho 75 mL",
     "descricao" : "Kit Azzaro Pour Homme: Eau de Toilette 100 mL e Gel de Banho 75 mL",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_754927-MLA95475988059_102025-F.webp",
@@ -3565,18 +3829,7 @@
     "grupo" : "Beleza",
     "ativo" : true
   }, {
-    "id" : 1317,
-    "titulo" : "Camisa Do Brasil Feminina Torcedor 2026 Camiseta Futebol Dry",
-    "descricao" : "Camisa Do Brasil Feminina Torcedor 2026 Camiseta Futebol Dry",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_630506-MLB109632116035_032026-F.webp",
-    "precoOriginal" : " 129,99",
-    "precoPromocao" : " 119,90",
-    "tag" : "-7%",
-    "linkAfiliado" : "https://meli.la/1YxnRsr",
-    "grupo" : "Moda",
-    "ativo" : true
-  }, {
-    "id" : 1318,
+    "id" : 1429,
     "titulo" : "creme Cetrilan pomada assadura Infantil Pele Delicada Bebê 120g TheraSkinw",
     "descricao" : "creme Cetrilan pomada assadura Infantil Pele Delicada Bebê 120g TheraSkinw",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_962160-MLA99450765820_112025-F.webp",
@@ -3587,18 +3840,18 @@
     "grupo" : "Bebês",
     "ativo" : true
   }, {
-    "id" : 1319,
+    "id" : 1430,
     "titulo" : "Capacete Race Tech Hit Monocolor Cinza Fosco Cor Cinza-escuro Tamanho Do Capacete 56",
     "descricao" : "Capacete Race Tech Hit Monocolor Cinza Fosco Cor Cinza-escuro Tamanho Do Capacete 56",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_872979-MLA99341664420_112025-F.webp",
     "precoOriginal" : " 299,90",
-    "precoPromocao" : " 219,46",
-    "tag" : "-26%",
+    "precoPromocao" : " 208,49",
+    "tag" : "-30%",
     "linkAfiliado" : "https://meli.la/2wSG5zR",
     "grupo" : "Esporte, Aventura e Lazer",
     "ativo" : true
   }, {
-    "id" : 1320,
+    "id" : 1431,
     "titulo" : "Conjunto Travel System Reverse DUO Preto Bronze, Carrinho de Bebê + Bebe Conforto Cosco Kids",
     "descricao" : "Conjunto Travel System Reverse DUO Preto Bronze, Carrinho de Bebê + Bebe Conforto Cosco Kids",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_890971-MLA99977367955_112025-F.webp",
@@ -3609,7 +3862,7 @@
     "grupo" : "Bebês",
     "ativo" : true
   }, {
-    "id" : 1321,
+    "id" : 1432,
     "titulo" : "Massinha de Modelar Acrilex Big Balde Infantil 1.5kg",
     "descricao" : "Massinha de Modelar Acrilex Big Balde Infantil 1.5kg",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_946773-MLA99934591717_112025-F.webp",
@@ -3620,7 +3873,7 @@
     "grupo" : "Geral",
     "ativo" : true
   }, {
-    "id" : 1322,
+    "id" : 1433,
     "titulo" : "Papel Bloco 140g Canson A4 Cor Branco 20 Folhas",
     "descricao" : "Papel Bloco 140g Canson A4 Cor Branco 20 Folhas",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_826243-MLA100026511397_122025-F.webp",
@@ -3631,15 +3884,180 @@
     "grupo" : "Papelaria e Escritório",
     "ativo" : true
   }, {
-    "id" : 1323,
+    "id" : 1434,
     "titulo" : "Papel Sulfite Report Premium A4 75g 500 Folhas",
     "descricao" : "Papel Sulfite Report Premium A4 75g 500 Folhas",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_667383-MLA105337460609_012026-F.webp",
     "precoOriginal" : " 34,99",
-    "precoPromocao" : " 29,74",
-    "tag" : "-15%",
+    "precoPromocao" : " 33,24",
+    "tag" : "-5%",
     "linkAfiliado" : "https://meli.la/13P2t4E",
     "grupo" : "Papelaria e Escritório",
+    "ativo" : true
+  }, {
+    "id" : 1435,
+    "titulo" : "Smart TV LG UHD AI UA75 65 polegadas HDR10 Pro Processador α7 AI Ger8 webOS 25",
+    "descricao" : "Smart TV LG UHD AI UA75 65 polegadas HDR10 Pro Processador α7 AI Ger8 webOS 25",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_966485-MLA106907952364_022026-F.webp",
+    "precoOriginal" : " 4.999,00",
+    "precoPromocao" : " 3.239,10",
+    "tag" : "-35%",
+    "linkAfiliado" : "https://meli.la/1uhN6A4",
+    "grupo" : "Geral",
+    "ativo" : true
+  }, {
+    "id" : 1436,
+    "titulo" : "Kit Growth: Whey Protein Basic Chocolate 1kg + Creatina Monohidratada 250g",
+    "descricao" : "Kit Growth: Whey Protein Basic Chocolate 1kg + Creatina Monohidratada 250g",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_766763-MLB102163177100_122025-F.webp",
+    "precoOriginal" : " 99,34",
+    "precoPromocao" : " 86,35",
+    "tag" : "-13%",
+    "linkAfiliado" : "https://meli.la/1jsPQ52",
+    "grupo" : "Geral",
+    "ativo" : true
+  }, {
+    "id" : 1437,
+    "titulo" : "Casaco Couro Masculino Slim Resistente",
+    "descricao" : "Casaco Couro Masculino Slim Resistente",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_756828-MLB97807701378_112025-F-casaco-couro-masculino-slim-resistente.webp",
+    "precoOriginal" : " 314,70",
+    "precoPromocao" : " 128,00",
+    "tag" : "-59%",
+    "linkAfiliado" : "https://meli.la/2qv2JJM",
+    "grupo" : "Geral",
+    "ativo" : true
+  }, {
+    "id" : 1438,
+    "titulo" : "Paddington vai ao circo | Tradução altamente recomendável FNLIJ 2025",
+    "descricao" : "Paddington vai ao circo | Tradução altamente recomendável FNLIJ 2025",
+    "imagem" : "https://m.media-amazon.com/images/I/71fbjj4U1qL._SL1500_.jpg",
+    "precoOriginal" : " 54,90",
+    "precoPromocao" : " 33,27",
+    "tag" : "-39%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6559800881?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1439,
+    "titulo" : "Limpador Perfumado Veja Buquê do Cerrado 2L",
+    "descricao" : "Limpador Perfumado Veja Buquê do Cerrado 2L",
+    "imagem" : "https://m.media-amazon.com/images/I/61IBqIImbpL._AC_SL1500_.jpg",
+    "precoOriginal" : " 23,49",
+    "precoPromocao" : " 14,39",
+    "tag" : "-38%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07DZ7JP8L?tag=curadomus-20",
+    "grupo" : "Casa",
+    "ativo" : true
+  }, {
+    "id" : 1440,
+    "titulo" : "A Regina e o mágico",
+    "descricao" : "A Regina e o mágico",
+    "imagem" : "https://m.media-amazon.com/images/I/51CgItZa4bL._SL1000_.jpg",
+    "precoOriginal" : " 52,00",
+    "precoPromocao" : " 36,89",
+    "tag" : "-29%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508113498?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1441,
+    "titulo" : "Nova Gramática do Português Contemporâneo 7ª edição",
+    "descricao" : "Nova Gramática do Português Contemporâneo 7ª edição",
+    "imagem" : "https://m.media-amazon.com/images/I/A1c4X6D0MFL._SL1500_.jpg",
+    "precoOriginal" : " 199,90",
+    "precoPromocao" : " 141,90",
+    "tag" : "-29%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8583000263?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1442,
+    "titulo" : "Fábulas de La Fontaine: 200",
+    "descricao" : "Fábulas de La Fontaine: 200",
+    "imagem" : "https://m.media-amazon.com/images/I/81E+Y5pDwHL._SL1500_.jpg",
+    "precoOriginal" : " 39,90",
+    "precoPromocao" : " 31,03",
+    "tag" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8572328637?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1443,
+    "titulo" : "MamyPoko Fralda-Calça Dia&Noite Xg 52 Unidades",
+    "descricao" : "MamyPoko Fralda-Calça Dia&Noite Xg 52 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/7108hxbaBnL._AC_SL1500_.jpg",
+    "precoOriginal" : " 107,90",
+    "precoPromocao" : " 100,98",
+    "tag" : "-6%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CHZBQKTV?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 1444,
+    "titulo" : "Carrinho de Bebe Infantil Berço Passeio Moises Reversível Bebê Conforto Base Auto Napoli Galzerano",
+    "descricao" : "Carrinho de Bebe Infantil Berço Passeio Moises Reversível Bebê Conforto Base Auto Napoli Galzerano",
+    "imagem" : "https://m.media-amazon.com/images/I/51KnurTtK+L._AC_SL1000_.jpg",
+    "precoOriginal" : " 1.599,99",
+    "precoPromocao" : " 1.209,00",
+    "tag" : "-24%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CN756162?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 1445,
+    "titulo" : "Mimosa está doente: 3",
+    "descricao" : "Mimosa está doente: 3",
+    "imagem" : "https://m.media-amazon.com/images/I/91bN8qeDPlL._SL1500_.jpg",
+    "precoOriginal" : " 74,00",
+    "precoPromocao" : " 58,02",
+    "tag" : "-21%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6586106389?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 1446,
+    "titulo" : "Downy Amaciante Concentrado Brisa Suave 3L, Rende 12L, Perfume Suave com Notas de Jazmin e Algodão",
+    "descricao" : "Downy Amaciante Concentrado Brisa Suave 3L, Rende 12L, Perfume Suave com Notas de Jazmin e Algodão",
+    "imagem" : "https://m.media-amazon.com/images/I/61WRk0Y11BL._AC_SL1200_.jpg",
+    "precoOriginal" : " 74,77",
+    "precoPromocao" : " 49,90",
+    "tag" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CS7XK3DX?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
+    "ativo" : true
+  }, {
+    "id" : 1447,
+    "titulo" : "EsfreBom - Limpa Máquina de Lavar Roupas Sachê de 80 g, Bettanin",
+    "descricao" : "EsfreBom - Limpa Máquina de Lavar Roupas Sachê de 80 g, Bettanin",
+    "imagem" : "https://m.media-amazon.com/images/I/51IVerS2kyL._AC_SL1000_.jpg",
+    "precoOriginal" : " 16,50",
+    "precoPromocao" : " 10,29",
+    "tag" : "-37%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B086KJCC6R?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
+    "ativo" : true
+  }, {
+    "id" : 1448,
+    "titulo" : "Dove Sabonete Líquido Cuida & Protege Frasco 250Ml",
+    "descricao" : "Dove Sabonete Líquido Cuida & Protege Frasco 250Ml",
+    "imagem" : "https://m.media-amazon.com/images/I/4117rD6E9NL._AC_SL1080_.jpg",
+    "precoOriginal" : " 18,77",
+    "precoPromocao" : " 14,49",
+    "tag" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08B6SHDB6?tag=curadomus-20",
+    "grupo" : "Beleza",
+    "ativo" : true
+  }, {
+    "id" : 1449,
+    "titulo" : "Creme dental Sensodyne Repair & Protect 100g",
+    "descricao" : "Creme dental Sensodyne Repair & Protect 100g",
+    "imagem" : "https://m.media-amazon.com/images/I/617uXlh7jzL._AC_SL1500_.jpg",
+    "precoOriginal" : " 25,90",
+    "precoPromocao" : " 17,38",
+    "tag" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07DG3J95G?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
     "ativo" : true
   } ]
 }
