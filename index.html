@@ -456,7 +456,7 @@
             }
         }
 
-        function configurarCombobox(ofertas) {
+    function configurarCombobox(ofertas) {
             const select = document.getElementById('filtro-categoria');
             
             // Limpa opções antigas em recargas, preservando a primeira fixa de reset
@@ -467,7 +467,11 @@
                 if (item.grupo) gruposUnicos.add(item.grupo.trim());
             });
 
-            gruposUnicos.forEach(grupo => {
+            // Converte o Set para um Array comum e ordena de forma alfabética correta (com localeCompare)
+            const gruposOrdenados = Array.from(gruposUnicos).sort((a, b) => a.localeCompare(b));
+
+            // Injeta as opções ordenadas no HTML
+            gruposOrdenados.forEach(grupo => {
                 const option = document.createElement('option');
                 option.value = grupo;
                 option.innerText = grupo;
