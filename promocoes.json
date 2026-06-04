@@ -1,6 +1,17 @@
 {
-  "ultimaAtualizacao" : "03/06/2026 13:22",
+  "ultimaAtualizacao" : "03/06/2026 20:25",
   "ofertas" : [ {
+    "id" : 4115,
+    "titulo" : "100% Whey Refil (900g) - Chocolate, Max Titanium",
+    "descricao" : "100% Whey Refil (900g) - Chocolate, Max Titanium",
+    "imagem" : "https://m.media-amazon.com/images/I/51GOGiKA9LL._AC_SL1080_.jpg",
+    "precoOriginal" : " 129,90",
+    "precoPromocao" : " 123,40",
+    "tag" : null,
+    "linkAfiliado" : "https://amzn.to/44lfCFN?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
+    "ativo" : true
+  }, {
     "id" : 4079,
     "titulo" : "3 Corações Café Solúvel Descafeinado, Vidro 50G",
     "descricao" : "3 Corações Café Solúvel Descafeinado, Vidro 50G",
@@ -383,7 +394,7 @@
     "precoPromocao" : " 39,67",
     "tag" : "-15%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CMXV5WLB?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
+    "grupo" : "Bebidas",
     "ativo" : true
   }, {
     "id" : 3893,
@@ -427,7 +438,18 @@
     "precoPromocao" : " 41,90",
     "tag" : "-19%",
     "linkAfiliado" : "https://meli.la/2rqpMTy",
-    "grupo" : "Geral",
+    "grupo" : "Eletrônicos e Tecnologia",
+    "ativo" : true
+  }, {
+    "id" : 4161,
+    "titulo" : "AOC, Monitor 22” 120Hz, 22B35HM23, 1ms Gaming, HDMI",
+    "descricao" : "AOC, Monitor 22” 120Hz, 22B35HM23, 1ms Gaming, HDMI",
+    "imagem" : "https://m.media-amazon.com/images/I/517PtY+RLGL._AC_SL1000_.jpg",
+    "precoOriginal" : " 499,00",
+    "precoPromocao" : " 460,00",
+    "tag" : "-7%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0F4L1SBV3?tag=curadomus-20",
+    "grupo" : "Computadores e Informática",
     "ativo" : true
   }, {
     "id" : 3580,
@@ -449,7 +471,7 @@
     "precoPromocao" : " 1.859,00",
     "tag" : "-19%",
     "linkAfiliado" : "https://meli.la/1ZiJ35v",
-    "grupo" : "Geral",
+    "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
     "id" : 3717,
@@ -485,6 +507,39 @@
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
+    "id" : 4101,
+    "titulo" : "Ar Condicionado Split Hi Wall Inverter Gree G-Top Auto 12000 BTU/h Frio CB574N09200 – 220 Volts",
+    "descricao" : "Ar Condicionado Split Hi Wall Inverter Gree G-Top Auto 12000 BTU/h Frio CB574N09200 – 220 Volts",
+    "imagem" : "https://m.media-amazon.com/images/I/51xMvo-9T2L._AC_SL1000_.jpg",
+    "precoOriginal" : " 2.499,00",
+    "precoPromocao" : " 2.123,90",
+    "tag" : "-15%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CZ9HMV1S?tag=curadomus-20",
+    "grupo" : "Eletrodomésticos",
+    "ativo" : true
+  }, {
+    "id" : 4149,
+    "titulo" : "Ar Condicionado Split Hi Wall Samsung WindFree AI Inverter 12.000 Btus Frio 220v R-32",
+    "descricao" : "Ar Condicionado Split Hi Wall Samsung WindFree AI Inverter 12.000 Btus Frio 220v R-32",
+    "imagem" : "https://m.media-amazon.com/images/I/61SqDV4ba2L._AC_SL1000_.jpg",
+    "precoOriginal" : " 9.399,00",
+    "precoPromocao" : " 1.959,00",
+    "tag" : null,
+    "linkAfiliado" : "https://amzn.to/3LZWjuZ?tag=curadomus-20",
+    "grupo" : "Eletrodomésticos",
+    "ativo" : true
+  }, {
+    "id" : 4153,
+    "titulo" : "Ar Condicionado Split HQ Hi Wall Inverter 9.000 BTU/h Quente e Frio Monofásico Branco VIHT9KCH3S2S23-220V",
+    "descricao" : "Ar Condicionado Split HQ Hi Wall Inverter 9.000 BTU/h Quente e Frio Monofásico Branco VIHT9KCH3S2S23-220V",
+    "imagem" : "https://m.media-amazon.com/images/I/51G0UxmXTxL._AC_SL1000_.jpg",
+    "precoOriginal" : " 1.398,99",
+    "precoPromocao" : " 1.398,98",
+    "tag" : null,
+    "linkAfiliado" : "https://amzn.to/4fZ3QXM?tag=curadomus-20",
+    "grupo" : "Eletrodomésticos",
+    "ativo" : true
+  }, {
     "id" : 3511,
     "titulo" : "Ar Condicionado Split Inverter Agratto Zen Top 9000 BTU/h Frio ZICST9F - 220 Volts",
     "descricao" : "Ar Condicionado Split Inverter Agratto Zen Top 9000 BTU/h Frio ZICST9F - 220 Volts",
@@ -493,7 +548,7 @@
     "precoPromocao" : " 1.573,86",
     "tag" : "-20%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GN9RKM5G?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
     "id" : 3618,
@@ -615,6 +670,17 @@
     "tag" : "-53%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6526113915?tag=curadomus-20",
     "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 4158,
+    "titulo" : "AUSTRALIAN GOLD PROTETOR CORPORAL GEL CREME KIDS FPS 70 120g",
+    "descricao" : "AUSTRALIAN GOLD PROTETOR CORPORAL GEL CREME KIDS FPS 70 120g",
+    "imagem" : "https://m.media-amazon.com/images/I/515dXk81FHL._AC_SL1080_.jpg",
+    "precoOriginal" : " 89,99",
+    "precoPromocao" : " 36,90",
+    "tag" : "-58%",
+    "linkAfiliado" : "https://amzn.to/43IVRXw?tag=curadomus-20",
+    "grupo" : "Beleza",
     "ativo" : true
   }, {
     "id" : 3970,
@@ -757,7 +823,7 @@
     "precoPromocao" : " 270,00",
     "tag" : "-6%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09WG3HDT7?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Bebês",
     "ativo" : true
   }, {
     "id" : 3659,
@@ -769,6 +835,17 @@
     "tag" : "-25%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0090CSENE?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
+    "ativo" : true
+  }, {
+    "id" : 4117,
+    "titulo" : "Bem lá no alto",
+    "descricao" : "Bem lá no alto",
+    "imagem" : "https://m.media-amazon.com/images/I/81rqIZqHufL._SL1500_.jpg",
+    "precoOriginal" : " 64,90",
+    "precoPromocao" : " 32,80",
+    "tag" : "-49%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067199?tag=curadomus-20",
+    "grupo" : "Livros",
     "ativo" : true
   }, {
     "id" : 3822,
@@ -845,7 +922,7 @@
     "precoPromocao" : " 422,00",
     "tag" : "-10%",
     "linkAfiliado" : "https://amzn.to/4uYGExm?tag=curadomus-20",
-    "grupo" : "Itens para Esportes ao ar livre",
+    "grupo" : "Brinquedos e Jogos",
     "ativo" : true
   }, {
     "id" : 3832,
@@ -890,6 +967,17 @@
     "tag" : "-25%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D8GFPZCG?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
+    "ativo" : true
+  }, {
+    "id" : 4111,
+    "titulo" : "BLACK+DECKER Ferro de Passar Roupa a Seco, Metálico Preto, Modelo VFA1110XM6, 220V",
+    "descricao" : "BLACK+DECKER Ferro de Passar Roupa a Seco, Metálico Preto, Modelo VFA1110XM6, 220V",
+    "imagem" : "https://m.media-amazon.com/images/I/71zTmXUCInL._AC_SL1500_.jpg",
+    "precoOriginal" : " 149,90",
+    "precoPromocao" : " 99,00",
+    "tag" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B076151Z3M?tag=curadomus-20",
+    "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
     "id" : 4063,
@@ -999,7 +1087,18 @@
     "precoPromocao" : " 22,67",
     "tag" : "-11%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0B94SLNXK?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Casa",
+    "ativo" : true
+  }, {
+    "id" : 4110,
+    "titulo" : "Brinox - Jogo de Panelas 5 Peças Ceramic Life Easy - Cinza",
+    "descricao" : "Brinox - Jogo de Panelas 5 Peças Ceramic Life Easy - Cinza",
+    "imagem" : "https://m.media-amazon.com/images/I/41vLN82-hsL._AC_SL1000_.jpg",
+    "precoOriginal" : " 587,69",
+    "precoPromocao" : " 317,00",
+    "tag" : "-46%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CYHHY6NB?tag=curadomus-20",
+    "grupo" : "Cozinha",
     "ativo" : true
   }, {
     "id" : 3615,
@@ -1013,15 +1112,26 @@
     "grupo" : "Bebês",
     "ativo" : true
   }, {
+    "id" : 4143,
+    "titulo" : "Buba Aspirador Nasal Com Estojo Transparente",
+    "descricao" : "Buba Aspirador Nasal Com Estojo Transparente",
+    "imagem" : "https://m.media-amazon.com/images/I/411UYgK6YWS._AC_SL1000_.jpg",
+    "precoOriginal" : " 32,90",
+    "precoPromocao" : " 16,13",
+    "tag" : "-50%",
+    "linkAfiliado" : "https://amzn.to/4vxOluF?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
     "id" : 3557,
     "titulo" : "Buba Bolsa Termica Instantanea Em Gel Modelo:14517, Cor: Azul",
     "descricao" : "Buba Bolsa Termica Instantanea Em Gel Modelo:14517, Cor: Azul",
-    "imagem" : "https://m.media-amazon.com/images/I/61-4y+JP1YL._AC_SL1000_.jpg",
+    "imagem" : "https://m.media-amazon.com/images/I/5143C2yvhuL._AC_SX679_.jpg",
     "precoOriginal" : " 27,90",
     "precoPromocao" : " 18,03",
     "tag" : "-35%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BBJTNTKH?tag=curadomus-20",
-    "grupo" : "Cozinha",
+    "grupo" : "Bebês",
     "ativo" : true
   }, {
     "id" : 3973,
@@ -1154,6 +1264,17 @@
     "tag" : "-51%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DFMX9RHP?tag=curadomus-20",
     "grupo" : "Brinquedos e Jogos",
+    "ativo" : true
+  }, {
+    "id" : 4102,
+    "titulo" : "Buba, Copo De Treinamento Com Alça Verde",
+    "descricao" : "Buba, Copo De Treinamento Com Alça Verde",
+    "imagem" : "https://m.media-amazon.com/images/I/41WFELg6MML._AC_SL1000_.jpg",
+    "precoOriginal" : " 36,90",
+    "precoPromocao" : " 29,83",
+    "tag" : "-19%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DH6WBQ9H?tag=curadomus-20",
+    "grupo" : "Bebês",
     "ativo" : true
   }, {
     "id" : 3469,
@@ -1351,7 +1472,7 @@
     "precoPromocao" : " 159,08",
     "tag" : "-26%",
     "linkAfiliado" : "https://meli.la/1jGjk3N",
-    "grupo" : "Geral",
+    "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
     "id" : 3631,
@@ -1376,6 +1497,17 @@
     "grupo" : "Beleza",
     "ativo" : true
   }, {
+    "id" : 4104,
+    "titulo" : "Cama Casal Mônaco Tcil Móveis Cinamomo",
+    "descricao" : "Cama Casal Mônaco Tcil Móveis Cinamomo",
+    "imagem" : "https://m.media-amazon.com/images/I/61wip5EgUeL._AC_SL1000_.jpg",
+    "precoOriginal" : " 324,98",
+    "precoPromocao" : " 242,98",
+    "tag" : "-25%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0C69TM5JJ?tag=curadomus-20",
+    "grupo" : "Casa",
+    "ativo" : true
+  }, {
     "id" : 4022,
     "titulo" : "Camesa Edredom Ecopluma Toque de Pluma Queen 240x260cm - Bege",
     "descricao" : "Camesa Edredom Ecopluma Toque de Pluma Queen 240x260cm - Bege",
@@ -1384,6 +1516,17 @@
     "precoPromocao" : " 209,90",
     "tag" : "-29%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D51LLZSN?tag=curadomus-20",
+    "grupo" : "Casa",
+    "ativo" : true
+  }, {
+    "id" : 4119,
+    "titulo" : "Camesa Edredom Ecopluma Toque de Pluma Queen 240x260cm - Cinza",
+    "descricao" : "Camesa Edredom Ecopluma Toque de Pluma Queen 240x260cm - Cinza",
+    "imagem" : "https://m.media-amazon.com/images/I/71R1qTkatzL._AC_SL1200_.jpg",
+    "precoOriginal" : " 299,00",
+    "precoPromocao" : " 209,90",
+    "tag" : "-29%",
+    "linkAfiliado" : "https://amzn.to/49BQ8WV?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true
   }, {
@@ -1475,6 +1618,17 @@
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
+    "id" : 4152,
+    "titulo" : "Carrinho de Bebê Infanti, Romanzo, Preto Bronze",
+    "descricao" : "Carrinho de Bebê Infanti, Romanzo, Preto Bronze",
+    "imagem" : "https://m.media-amazon.com/images/I/51vsyvKAn-L._AC_SL1000_.jpg",
+    "precoOriginal" : " 1.499,00",
+    "precoPromocao" : " 1.349,00",
+    "tag" : "-10%",
+    "linkAfiliado" : "https://amzn.to/4o3Uxrv?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
     "id" : 3700,
     "titulo" : "Cartas de um diabo a seu aprendiz",
     "descricao" : "Cartas de um diabo a seu aprendiz",
@@ -1497,6 +1651,17 @@
     "grupo" : "Livros",
     "ativo" : true
   }, {
+    "id" : 4142,
+    "titulo" : "Casa Km Amaciante Vida Macia Glicerina & Camomila 500Ml",
+    "descricao" : "Casa Km Amaciante Vida Macia Glicerina & Camomila 500Ml",
+    "imagem" : "https://m.media-amazon.com/images/I/61GAPXZYbqL._AC_SL1500_.jpg",
+    "precoOriginal" : " 12,54",
+    "precoPromocao" : " 10,90",
+    "tag" : "-13%",
+    "linkAfiliado" : "https://amzn.to/4v7Fv77?tag=curadomus-20",
+    "grupo" : "Casa",
+    "ativo" : true
+  }, {
     "id" : 3653,
     "titulo" : "Casa Perini Espumante Brut 750 Ml",
     "descricao" : "Casa Perini Espumante Brut 750 Ml",
@@ -1516,7 +1681,7 @@
     "precoPromocao" : " 40,97",
     "tag" : "-46%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07XLMGFG5?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
+    "grupo" : "Bebidas",
     "ativo" : true
   }, {
     "id" : 4028,
@@ -1593,7 +1758,7 @@
     "precoPromocao" : " 89,88",
     "tag" : "-10%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DTLN7RPP?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
+    "grupo" : "Bebidas",
     "ativo" : true
   }, {
     "id" : 3643,
@@ -1615,7 +1780,7 @@
     "precoPromocao" : " 45,17",
     "tag" : "-10%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DTLQ6CSY?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
+    "grupo" : "Bebidas",
     "ativo" : true
   }, {
     "id" : 3903,
@@ -1824,7 +1989,7 @@
     "precoPromocao" : " 30,90",
     "tag" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CKKSJXM6?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Casa",
     "ativo" : true
   }, {
     "id" : 3972,
@@ -1835,7 +2000,7 @@
     "precoPromocao" : " 16,56",
     "tag" : "-10%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DCZXVFZT?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Casa",
     "ativo" : true
   }, {
     "id" : 3960,
@@ -1857,7 +2022,7 @@
     "precoPromocao" : " 16,79",
     "tag" : "-22%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CYLYY66R?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Bebês",
     "ativo" : true
   }, {
     "id" : 4092,
@@ -1879,7 +2044,7 @@
     "precoPromocao" : " 17,09",
     "tag" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077C1G3V9?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Beleza",
     "ativo" : true
   }, {
     "id" : 3809,
@@ -1935,6 +2100,17 @@
     "tag" : "-19%",
     "linkAfiliado" : "https://meli.la/2BAEz1x",
     "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 4154,
+    "titulo" : "Cooktop de Indução 4 Bocas Eos com Painel Touch Preto 7200w Eci04ep3 220v",
+    "descricao" : "Cooktop de Indução 4 Bocas Eos com Painel Touch Preto 7200w Eci04ep3 220v",
+    "imagem" : "https://m.media-amazon.com/images/I/41utC0veIdL._AC_SL1000_.jpg",
+    "precoOriginal" : " 943,95",
+    "precoPromocao" : " 760,09",
+    "tag" : "-19%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FBPBS5L3?tag=curadomus-20",
+    "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
     "id" : 3690,
@@ -2088,7 +2264,7 @@
     "precoPromocao" : " 37,90",
     "tag" : "-51%",
     "linkAfiliado" : "https://meli.la/1xuG5Dj",
-    "grupo" : "Geral",
+    "grupo" : "Saúde e Bem-Estar",
     "ativo" : true
   }, {
     "id" : 3765,
@@ -2231,7 +2407,7 @@
     "precoPromocao" : " 88,15",
     "tag" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8536810025?tag=curadomus-20",
-    "grupo" : "Papelaria e Escritório",
+    "grupo" : "Livros",
     "ativo" : true
   }, {
     "id" : 3920,
@@ -2297,7 +2473,7 @@
     "precoPromocao" : " 88,15",
     "tag" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8536813431?tag=curadomus-20",
-    "grupo" : "Jardim e Piscina",
+    "grupo" : "Livros",
     "ativo" : true
   }, {
     "id" : 3968,
@@ -2330,7 +2506,7 @@
     "precoPromocao" : " 44,99",
     "tag" : "-38%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07MBXDB51?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Casa",
     "ativo" : true
   }, {
     "id" : 3628,
@@ -2341,7 +2517,7 @@
     "precoPromocao" : " 49,90",
     "tag" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CS7XK3DX?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Casa",
     "ativo" : true
   }, {
     "id" : 3543,
@@ -2396,6 +2572,17 @@
     "precoPromocao" : " 109,90",
     "tag" : "-29%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09CC72K1X?tag=curadomus-20",
+    "grupo" : "Eletrodomésticos",
+    "ativo" : true
+  }, {
+    "id" : 4159,
+    "titulo" : "Electrolux Geladeira Electrolux Frost Free 320L Duplex Branca (TF38) 220V",
+    "descricao" : "Electrolux Geladeira Electrolux Frost Free 320L Duplex Branca (TF38) 220V",
+    "imagem" : "https://m.media-amazon.com/images/I/319xY36QjcL._AC_SL1000_.jpg",
+    "precoOriginal" : " 2.899,00",
+    "precoPromocao" : " 2.399,00",
+    "tag" : "-17%",
+    "linkAfiliado" : "https://amzn.to/4fqPXBt?tag=curadomus-20",
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
@@ -2561,7 +2748,7 @@
     "precoPromocao" : " 49,90",
     "tag" : "-47%",
     "linkAfiliado" : "https://meli.la/1WXsusM",
-    "grupo" : "Geral",
+    "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
     "id" : 3534,
@@ -2616,6 +2803,17 @@
     "precoPromocao" : " 62,53",
     "tag" : "-19%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07GMCX7P4?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 4138,
+    "titulo" : "Fralda Pampers Pants Ajuste Total Tamanho G, Fácil de Vestir, 94 Unidades",
+    "descricao" : "Fralda Pampers Pants Ajuste Total Tamanho G, Fácil de Vestir, 94 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/61s54JynGEL._AC_SL1200_.jpg",
+    "precoOriginal" : " 169,52",
+    "precoPromocao" : " 139,90",
+    "tag" : "-17%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BV7JLHVN?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true
   }, {
@@ -2715,7 +2913,7 @@
     "precoPromocao" : " 89,90",
     "tag" : "-20%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08GZNWJ17?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Bebês",
     "ativo" : true
   }, {
     "id" : 3582,
@@ -2815,6 +3013,17 @@
     "tag" : "-16%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GRCDGW4T?tag=curadomus-20",
     "grupo" : "Cozinha",
+    "ativo" : true
+  }, {
+    "id" : 4160,
+    "titulo" : "Fábulas de La Fontaine: 200",
+    "descricao" : "Fábulas de La Fontaine: 200",
+    "imagem" : "https://m.media-amazon.com/images/I/81E+Y5pDwHL._SL1500_.jpg",
+    "precoOriginal" : " 39,90",
+    "precoPromocao" : " 33,25",
+    "tag" : "-16%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8572328637?tag=curadomus-20",
+    "grupo" : "Livros",
     "ativo" : true
   }, {
     "id" : 4034,
@@ -2935,7 +3144,7 @@
     "precoPromocao" : " 93,90",
     "tag" : "-31%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D8VBTCQH?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
+    "grupo" : "Bebidas",
     "ativo" : true
   }, {
     "id" : 3661,
@@ -2957,7 +3166,7 @@
     "precoPromocao" : " 84,90",
     "tag" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07C8NJV9P?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
+    "grupo" : "Bebidas",
     "ativo" : true
   }, {
     "id" : 3576,
@@ -2968,7 +3177,7 @@
     "precoPromocao" : " 18,25",
     "tag" : "-8%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DT71P9H?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Beleza",
     "ativo" : true
   }, {
     "id" : 3804,
@@ -3004,6 +3213,17 @@
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true
   }, {
+    "id" : 4108,
+    "titulo" : "Granado Colônia Bebê, Tradicional, 100ml",
+    "descricao" : "Granado Colônia Bebê, Tradicional, 100ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51WkoA3YvkL._AC_SL1000_.jpg",
+    "precoOriginal" : " 99,68",
+    "precoPromocao" : " 61,14",
+    "tag" : "-38%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07ZL1Q96P?tag=curadomus-20",
+    "grupo" : "Beleza",
+    "ativo" : true
+  }, {
     "id" : 3847,
     "titulo" : "Granado Creme Assaduras Dermocalmante Bebê, Peles Sensíveis, 300g",
     "descricao" : "Granado Creme Assaduras Dermocalmante Bebê, Peles Sensíveis, 300g",
@@ -3012,6 +3232,17 @@
     "precoPromocao" : " 46,19",
     "tag" : "-47%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07NPY7VDL?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 4144,
+    "titulo" : "Granado Creme Assaduras Dermocalmante Bebê, Peles Sensíveis, 50g",
+    "descricao" : "Granado Creme Assaduras Dermocalmante Bebê, Peles Sensíveis, 50g",
+    "imagem" : "https://m.media-amazon.com/images/I/41s7xphmGhL._AC_SL1000_.jpg",
+    "precoOriginal" : " 40,88",
+    "precoPromocao" : " 22,39",
+    "tag" : "-45%",
+    "linkAfiliado" : "https://amzn.to/4e0QDei?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true
   }, {
@@ -3081,6 +3312,17 @@
     "grupo" : "Livros",
     "ativo" : true
   }, {
+    "id" : 4103,
+    "titulo" : "HAO BOSCH Vinho Rose Piscine Stripes Listras 750Ml",
+    "descricao" : "HAO BOSCH Vinho Rose Piscine Stripes Listras 750Ml",
+    "imagem" : "https://m.media-amazon.com/images/I/6147Zyv2cqL._AC_SL1500_.jpg",
+    "precoOriginal" : " 89,90",
+    "precoPromocao" : " 79,12",
+    "tag" : "-11%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B06Y5TM366?tag=curadomus-20",
+    "grupo" : "Bebidas",
+    "ativo" : true
+  }, {
     "id" : 4078,
     "titulo" : "Heineken Cerveja Barril 5L",
     "descricao" : "Heineken Cerveja Barril 5L",
@@ -3111,7 +3353,7 @@
     "precoPromocao" : " 23,86",
     "tag" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FFNC1T6Z?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Alimentos e Bebidas",
     "ativo" : true
   }, {
     "id" : 3831,
@@ -3122,6 +3364,17 @@
     "precoPromocao" : " 24,99",
     "tag" : "-10%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B097BY8K4S?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true
+  }, {
+    "id" : 4141,
+    "titulo" : "Heinz Molho de Tomate Rústico Tradicional em vidro, 320G",
+    "descricao" : "Heinz Molho de Tomate Rústico Tradicional em vidro, 320G",
+    "imagem" : "https://m.media-amazon.com/images/I/51miC7le9aL._AC_SL1000_.jpg",
+    "precoOriginal" : " 15,99",
+    "precoPromocao" : " 13,59",
+    "tag" : "-15%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DD8NFTHM?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true
   }, {
@@ -3488,6 +3741,17 @@
     "grupo" : "Livros",
     "ativo" : true
   }, {
+    "id" : 4139,
+    "titulo" : "JBL, Fone de Ouvido Bluetooth, Tune 730, Over Ear, Sem Fio, Com Cancelamento de Ruído Preto",
+    "descricao" : "JBL, Fone de Ouvido Bluetooth, Tune 730, Over Ear, Sem Fio, Com Cancelamento de Ruído Preto",
+    "imagem" : "https://m.media-amazon.com/images/I/61dRLHx9tpL._AC_SL1500_.jpg",
+    "precoOriginal" : " 399,00",
+    "precoPromocao" : " 379,00",
+    "tag" : "-5%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0GR11L1VP?tag=curadomus-20",
+    "grupo" : "Eletrônicos e Tecnologia",
+    "ativo" : true
+  }, {
     "id" : 3484,
     "titulo" : "Jogo Cilada, Estrela",
     "descricao" : "Jogo Cilada, Estrela",
@@ -3694,7 +3958,7 @@
     "precoPromocao" : " 52,90",
     "tag" : "-11%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GMRC8G79?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Bebês",
     "ativo" : true
   }, {
     "id" : 3613,
@@ -3837,7 +4101,7 @@
     "precoPromocao" : " 13,99",
     "tag" : "-15%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0F5DLRYJ5?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Casa",
     "ativo" : true
   }, {
     "id" : 3901,
@@ -3925,7 +4189,18 @@
     "precoPromocao" : " 39,99",
     "tag" : "-14%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08T85RHB1?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 4147,
+    "titulo" : "Licor Baileys Original, 750ml",
+    "descricao" : "Licor Baileys Original, 750ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51DPV5YOdxL._AC_SL1200_.jpg",
+    "precoOriginal" : " 166,90",
+    "precoPromocao" : " 109,90",
+    "tag" : "-34%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B004CY6VLC?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
     "ativo" : true
   }, {
     "id" : 3892,
@@ -3991,7 +4266,7 @@
     "precoPromocao" : " 32,44",
     "tag" : "-10%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FSGW1Y5Q?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Casa",
     "ativo" : true
   }, {
     "id" : 3658,
@@ -4027,6 +4302,17 @@
     "grupo" : "Casa",
     "ativo" : true
   }, {
+    "id" : 4114,
+    "titulo" : "Liquidificador Daily Philips Walita Preto, 550W, 110v - RI2110/90",
+    "descricao" : "Liquidificador Daily Philips Walita Preto, 550W, 110v - RI2110/90",
+    "imagem" : "https://m.media-amazon.com/images/I/6176iz1U53S._AC_SL1500_.jpg",
+    "precoOriginal" : " 159,90",
+    "precoPromocao" : " 91,08",
+    "tag" : "-43%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07RSYMHXP?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true
+  }, {
     "id" : 3619,
     "titulo" : "Liquidificador, Ph900, 3L, Preto, 110V, Philco",
     "descricao" : "Liquidificador, Ph900, 3L, Preto, 110V, Philco",
@@ -4057,6 +4343,17 @@
     "precoPromocao" : " 24,49",
     "tag" : "-28%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07F1YZZWN?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
+    "ativo" : true
+  }, {
+    "id" : 4112,
+    "titulo" : "Listerine Enxaguante Bucal Cool Mint Sem Álcool, 1L",
+    "descricao" : "Listerine Enxaguante Bucal Cool Mint Sem Álcool, 1L",
+    "imagem" : "https://m.media-amazon.com/images/I/71GL14JaMxL._AC_SL1500_.jpg",
+    "precoOriginal" : " 39,99",
+    "precoPromocao" : " 26,99",
+    "tag" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DQ25G714?tag=curadomus-20",
     "grupo" : "Saúde e Bem-Estar",
     "ativo" : true
   }, {
@@ -4475,7 +4772,7 @@
     "precoPromocao" : " 238,45",
     "tag" : "-48%",
     "linkAfiliado" : "https://meli.la/1swVQ2D",
-    "grupo" : "Geral",
+    "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
     "id" : 3644,
@@ -4651,7 +4948,7 @@
     "precoPromocao" : " 39,99",
     "tag" : "-27%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07FNFPSWL?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Beleza",
     "ativo" : true
   }, {
     "id" : 3929,
@@ -4673,7 +4970,7 @@
     "precoPromocao" : " 19,90",
     "tag" : "-9%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B079VV8KVC?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Beleza",
     "ativo" : true
   }, {
     "id" : 4036,
@@ -4783,6 +5080,17 @@
     "precoPromocao" : " 23,94",
     "tag" : "-40%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555005882?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 4106,
+    "titulo" : "O cisne e o trompete",
+    "descricao" : "O cisne e o trompete",
+    "imagem" : "https://m.media-amazon.com/images/I/81+idXavx2L._SL1500_.jpg",
+    "precoOriginal" : " 74,90",
+    "precoPromocao" : " 49,78",
+    "tag" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6559801020?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true
   }, {
@@ -4904,6 +5212,17 @@
     "precoPromocao" : " 50,44",
     "tag" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6585310268?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 4155,
+    "titulo" : "O nabo gigante",
+    "descricao" : "O nabo gigante",
+    "imagem" : "https://m.media-amazon.com/images/I/A1liOyE90mL._SL1500_.jpg",
+    "precoOriginal" : " 59,90",
+    "precoPromocao" : " 42,23",
+    "tag" : "-29%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8554014073?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true
   }, {
@@ -5113,7 +5432,7 @@
     "precoPromocao" : " 23,73",
     "tag" : "-35%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08BWYTR6F?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Bebês",
     "ativo" : true
   }, {
     "id" : 4032,
@@ -5278,7 +5597,7 @@
     "precoPromocao" : " 69,49",
     "tag" : "-41%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DTLJXKGL?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
+    "grupo" : "Bebidas",
     "ativo" : true
   }, {
     "id" : 3887,
@@ -5490,6 +5809,17 @@
     "grupo" : "Casa",
     "ativo" : true
   }, {
+    "id" : 4118,
+    "titulo" : "Perigoso!",
+    "descricao" : "Perigoso!",
+    "imagem" : "https://m.media-amazon.com/images/I/71WpPVmEEtL._SL1200_.jpg",
+    "precoOriginal" : " 24,90",
+    "precoPromocao" : " 15,72",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8538058975?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
     "id" : 3959,
     "titulo" : "Perigoso! Este livro contém coelhos!",
     "descricao" : "Perigoso! Este livro contém coelhos!",
@@ -5510,6 +5840,17 @@
     "tag" : "-28%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C3FK76V3?tag=curadomus-20",
     "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 4145,
+    "titulo" : "Personal Papel Higiênico Kilométrico Folha Dupla, Com 20 Rolos 50M",
+    "descricao" : "Personal Papel Higiênico Kilométrico Folha Dupla, Com 20 Rolos 50M",
+    "imagem" : "https://m.media-amazon.com/images/I/7190yOXePVL._AC_SL1500_.jpg",
+    "precoOriginal" : " 64,36",
+    "precoPromocao" : " 57,91",
+    "tag" : "-10%",
+    "linkAfiliado" : "https://amzn.to/4uSgQDg?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
     "ativo" : true
   }, {
     "id" : 4001,
@@ -5553,7 +5894,7 @@
     "precoPromocao" : " 297,42",
     "tag" : "-9%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0F6YRL42F?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Eletroportáteis",
     "ativo" : true
   }, {
     "id" : 3869,
@@ -5820,6 +6161,17 @@
     "grupo" : "Bebês",
     "ativo" : true
   }, {
+    "id" : 4157,
+    "titulo" : "Sabonete Líquido Hidratação Glicerinada da Cabeça aos Pés 400ml Refil",
+    "descricao" : "Sabonete Líquido Hidratação Glicerinada da Cabeça aos Pés 400ml Refil",
+    "imagem" : "https://m.media-amazon.com/images/I/716vrsYahJL._AC_SL1500_.jpg",
+    "precoOriginal" : " 30,52",
+    "precoPromocao" : " 18,90",
+    "tag" : "-38%",
+    "linkAfiliado" : "https://amzn.to/3RDS774?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
     "id" : 3579,
     "titulo" : "Sabonete Líquido Huggies Camomila para Recém-Nascido Refil 200 ml",
     "descricao" : "Sabonete Líquido Huggies Camomila para Recém-Nascido Refil 200 ml",
@@ -5883,6 +6235,17 @@
     "precoPromocao" : " 499,00",
     "tag" : "-23%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B081T9WZHG?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true
+  }, {
+    "id" : 4151,
+    "titulo" : "Safety 1st, Cadeirinha i-NXT, 0 a 36kg, com Giro 360° e Isofix, Grey Urban",
+    "descricao" : "Safety 1st, Cadeirinha i-NXT, 0 a 36kg, com Giro 360° e Isofix, Grey Urban",
+    "imagem" : "https://m.media-amazon.com/images/I/511-f0SDTFL._AC_SL1000_.jpg",
+    "precoOriginal" : null,
+    "precoPromocao" : "0,00",
+    "tag" : null,
+    "linkAfiliado" : "https://amzn.to/4uZlteL?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true
   }, {
@@ -5974,6 +6337,17 @@
     "grupo" : "Ferramentas e Materiais de Construção",
     "ativo" : true
   }, {
+    "id" : 4146,
+    "titulo" : "Se você der um biscoito a um rato",
+    "descricao" : "Se você der um biscoito a um rato",
+    "imagem" : "https://m.media-amazon.com/images/I/61DqHRg33vL._SL1500_.jpg",
+    "precoOriginal" : " 44,90",
+    "precoPromocao" : " 36,82",
+    "tag" : "-17%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6551890296?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true
+  }, {
     "id" : 4053,
     "titulo" : "Se você quiser ver uma baleia",
     "descricao" : "Se você quiser ver uma baleia",
@@ -5993,6 +6367,17 @@
     "precoPromocao" : " 119,00",
     "tag" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D9R7NYPG?tag=curadomus-20",
+    "grupo" : "Beleza",
+    "ativo" : true
+  }, {
+    "id" : 4105,
+    "titulo" : "Secador Taiff Style Azul 2000w 127v",
+    "descricao" : "Secador Taiff Style Azul 2000w 127v",
+    "imagem" : "https://m.media-amazon.com/images/I/41mZcxERu8L._AC_SL1000_.jpg",
+    "precoOriginal" : " 259,90",
+    "precoPromocao" : " 209,00",
+    "tag" : "-19%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07VMBV72P?tag=curadomus-20",
     "grupo" : "Beleza",
     "ativo" : true
   }, {
@@ -6016,6 +6401,17 @@
     "tag" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067040?tag=curadomus-20",
     "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 4116,
+    "titulo" : "Shampoo Huggies Kids Nutrição e Força Enrolados 360 ml",
+    "descricao" : "Shampoo Huggies Kids Nutrição e Força Enrolados 360 ml",
+    "imagem" : "https://m.media-amazon.com/images/I/61hgpAWdp+L._AC_SL1500_.jpg",
+    "precoOriginal" : " 18,45",
+    "precoPromocao" : " 13,99",
+    "tag" : "-24%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CYLYDHS2?tag=curadomus-20",
+    "grupo" : "Beleza",
     "ativo" : true
   }, {
     "id" : 3538,
@@ -6051,6 +6447,17 @@
     "grupo" : "Eletrodomésticos",
     "ativo" : true
   }, {
+    "id" : 4137,
+    "titulo" : "Smart TV 50\" Roku Multi 4K Compatível com Alexa e Google Home",
+    "descricao" : "Smart TV 50\" Roku Multi 4K Compatível com Alexa e Google Home",
+    "imagem" : "https://m.media-amazon.com/images/I/61RV6khFSQL._AC_SL1000_.jpg",
+    "precoOriginal" : " 1.999,00",
+    "precoPromocao" : " 1.849,00",
+    "tag" : "-7%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FLRC6T9L?tag=curadomus-20",
+    "grupo" : "Eletrônicos e Tecnologia",
+    "ativo" : true
+  }, {
     "id" : 3516,
     "titulo" : "Smart TV LCD LED 32\" AOC 32S5155/78G - Wi-Fi, HD, Quad Core, Dolby Áudio, 60 Hz",
     "descricao" : "Smart TV LCD LED 32\" AOC 32S5155/78G - Wi-Fi, HD, Quad Core, Dolby Áudio, 60 Hz",
@@ -6059,7 +6466,7 @@
     "precoPromocao" : " 819,99",
     "tag" : "-5%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FVY9MD19?tag=curadomus-20",
-    "grupo" : "Geral",
+    "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true
   }, {
     "id" : 3754,
@@ -6103,7 +6510,7 @@
     "precoPromocao" : " 19,92",
     "tag" : "-23%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CFSDVHFR?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Casa",
     "ativo" : true
   }, {
     "id" : 3621,
@@ -6115,6 +6522,17 @@
     "tag" : "-44%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CRTYZG5C?tag=curadomus-20",
     "grupo" : "Eletrônicos e Tecnologia",
+    "ativo" : true
+  }, {
+    "id" : 4107,
+    "titulo" : "Sr. Boaventura",
+    "descricao" : "Sr. Boaventura",
+    "imagem" : "https://m.media-amazon.com/images/I/915KyRnQqzL._SL1500_.jpg",
+    "precoOriginal" : " 74,90",
+    "precoPromocao" : " 44,20",
+    "tag" : "-40%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8595085684?tag=curadomus-20",
+    "grupo" : "Livros",
     "ativo" : true
   }, {
     "id" : 3818,
@@ -6205,6 +6623,17 @@
     "grupo" : "Casa",
     "ativo" : true
   }, {
+    "id" : 4148,
+    "titulo" : "Tabasco Molho de Pimenta Vermelho Original 60ml",
+    "descricao" : "Tabasco Molho de Pimenta Vermelho Original 60ml",
+    "imagem" : "https://m.media-amazon.com/images/I/81Z2-8pqQuL._AC_SL1500_.jpg",
+    "precoOriginal" : " 27,50",
+    "precoPromocao" : " 27,50",
+    "tag" : "-5%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07YM5GTC5?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true
+  }, {
     "id" : 3529,
     "titulo" : "Tabua Queijos E Frios + Kit Espátulas 04 Peças",
     "descricao" : "Tabua Queijos E Frios + Kit Espátulas 04 Peças",
@@ -6213,7 +6642,7 @@
     "precoPromocao" : " 58,00",
     "tag" : "-26%",
     "linkAfiliado" : "https://meli.la/2kvKwcP",
-    "grupo" : "Geral",
+    "grupo" : "Casa",
     "ativo" : true
   }, {
     "id" : 3574,
@@ -6247,6 +6676,17 @@
     "tag" : "-53%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077PZZTCN?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
+    "ativo" : true
+  }, {
+    "id" : 4113,
+    "titulo" : "Tempero Pó Lemon Pepper Br Spices Gourmet Pote 100g",
+    "descricao" : "Tempero Pó Lemon Pepper Br Spices Gourmet Pote 100g",
+    "imagem" : "https://m.media-amazon.com/images/I/715oLm3ahvL._AC_SL1200_.jpg",
+    "precoOriginal" : " 22,49",
+    "precoPromocao" : " 22,49",
+    "tag" : "-10%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07D6WP3CD?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
     "ativo" : true
   }, {
     "id" : 3927,
@@ -6293,6 +6733,17 @@
     "grupo" : "Ferramentas e Materiais de Construção",
     "ativo" : true
   }, {
+    "id" : 4156,
+    "titulo" : "Tramontina JOGO FACAS INOX 4PC PLENUS PRE, Preto",
+    "descricao" : "Tramontina JOGO FACAS INOX 4PC PLENUS PRE, Preto",
+    "imagem" : "https://m.media-amazon.com/images/I/71EvJYnDRYL._AC_SL1500_.jpg",
+    "precoOriginal" : " 34,51",
+    "precoPromocao" : " 29,90",
+    "tag" : "-13%",
+    "linkAfiliado" : "https://amzn.to/3RNcvTh?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true
+  }, {
     "id" : 3481,
     "titulo" : "Tratado da oração e da meditação - Sem orelhas",
     "descricao" : "Tratado da oração e da meditação - Sem orelhas",
@@ -6302,6 +6753,17 @@
     "tag" : "-31%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8532671373?tag=curadomus-20",
     "grupo" : "Livros",
+    "ativo" : true
+  }, {
+    "id" : 4150,
+    "titulo" : "Travel System Cosco Kids, Lummy Duo, Preto Absoluto",
+    "descricao" : "Travel System Cosco Kids, Lummy Duo, Preto Absoluto",
+    "imagem" : "https://m.media-amazon.com/images/I/51l5yHcxXqL._AC_SL1000_.jpg",
+    "precoOriginal" : " 1.359,00",
+    "precoPromocao" : " 1.026,55",
+    "tag" : "-24%",
+    "linkAfiliado" : "https://amzn.to/4e1gRgZ?tag=curadomus-20",
+    "grupo" : "Bebês",
     "ativo" : true
   }, {
     "id" : 3798,
@@ -6510,7 +6972,7 @@
     "precoPromocao" : " 15,50",
     "tag" : "-13%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07M715532?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
+    "grupo" : "Casa",
     "ativo" : true
   }, {
     "id" : 3760,
@@ -6532,7 +6994,7 @@
     "precoPromocao" : " 36,69",
     "tag" : "-24%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D4NH9363?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
+    "grupo" : "Bebidas",
     "ativo" : true
   }, {
     "id" : 3742,
@@ -6686,7 +7148,7 @@
     "precoPromocao" : " 382,19",
     "tag" : "-9%",
     "linkAfiliado" : "https://meli.la/1ksazpJ",
-    "grupo" : "Eletrônicos e Tecnologia",
+    "grupo" : "Computadores e Informática",
     "ativo" : true
   }, {
     "id" : 3941,
@@ -6708,7 +7170,7 @@
     "precoPromocao" : " 129,90",
     "tag" : "-27%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07TNR7YWZ?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
+    "grupo" : "Bebidas",
     "ativo" : true
   }, {
     "id" : 3867,
@@ -6755,6 +7217,17 @@
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true
   }, {
+    "id" : 4140,
+    "titulo" : "Whisky Johnnie Walker Blonde 750ml",
+    "descricao" : "Whisky Johnnie Walker Blonde 750ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51OwWNczPgL._AC_SL1024_.jpg",
+    "precoOriginal" : " 115,90",
+    "precoPromocao" : " 59,90",
+    "tag" : "-48%",
+    "linkAfiliado" : "https://amzn.to/3Qi39hS?tag=curadomus-20",
+    "grupo" : "Bebidas",
+    "ativo" : true
+  }, {
     "id" : 3897,
     "titulo" : "WOLFF - Garrafa Térmica de Plástico com Cabo de Madeira Nórdica 1L Branca - Mesa Posta - Itens Para Casa - Utensílios de Cozinha - Perfeita Para Café e Chá",
     "descricao" : "WOLFF - Garrafa Térmica de Plástico com Cabo de Madeira Nórdica 1L Branca - Mesa Posta - Itens Para Casa - Utensílios de Cozinha - Perfeita Para Café e Chá",
@@ -6764,6 +7237,17 @@
     "tag" : "-42%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09CC39PR1?tag=curadomus-20",
     "grupo" : "Cozinha",
+    "ativo" : true
+  }, {
+    "id" : 4109,
+    "titulo" : "X Roots Semente de Chia Tradicional Importada 1kg - Fonte de Ômega 3, Fibras e Proteínas",
+    "descricao" : "X Roots Semente de Chia Tradicional Importada 1kg - Fonte de Ômega 3, Fibras e Proteínas",
+    "imagem" : "https://m.media-amazon.com/images/I/719l0Za-91L._AC_SL1500_.jpg",
+    "precoOriginal" : " 34,90",
+    "precoPromocao" : " 31,41",
+    "tag" : "-10%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BRT9LFPJ?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
     "ativo" : true
   }, {
     "id" : 3852,
