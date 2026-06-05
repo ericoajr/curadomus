@@ -196,7 +196,7 @@
             gap: 18px; 
         }
 
-        /* Card Estilo Vitrine Sem Descrição */
+        /* Card Estilo Vitrine Clean */
         .card-promo {
             background: var(--card-bg);
             border-radius: 16px;
@@ -216,17 +216,15 @@
         @media (min-width: 480px) {
             .card-promo {
                 flex-direction: row; 
-                min-height: 140px; /* Reduzido a altura mínima porque agora tem menos texto */
-                height: auto;
+                height: 180px;
             }
         }
 
         .card-imagem-wrapper {
             position: relative;
             background: #fff;
-            min-width: 140px;
-            max-width: 140px;
-            height: 140px;
+            min-width: 160px;
+            height: 160px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -236,13 +234,12 @@
 
         @media (min-width: 480px) {
             .card-imagem-wrapper {
-                height: auto;
-                align-self: stretch;
+                height: 100%;
             }
         }
 
         .card-imagem {
-            max-height: 120px;
+            max-height: 100%;
             max-width: 100%;
             object-fit: contain;
         }
@@ -257,7 +254,6 @@
             font-size: 0.7rem;
             font-weight: 700;
             border-radius: 6px;
-            z-index: 2;
         }
 
         .card-conteudo {
@@ -266,14 +262,19 @@
             flex-direction: column;
             justify-content: space-between;
             flex-grow: 1;
-            gap: 12px;
         }
 
         .card-header-info h3 {
             font-size: 1rem;
-            margin: 0;
+            margin: 0 0 4px 0;
             font-weight: 700;
             color: var(--text-color);
+        }
+
+        .card-descricao {
+            font-size: 0.85rem;
+            color: #555;
+            margin: 0 0 10px 0;
             line-height: 1.4;
         }
 
@@ -283,7 +284,6 @@
             justify-content: space-between;
             gap: 10px;
             flex-wrap: wrap;
-            margin-top: auto;
         }
 
         .card-precos {
@@ -335,11 +335,6 @@
             font-weight: 600;
             font-size: 0.85rem;
             text-align: center;
-            transition: background 0.2s;
-        }
-
-        .btn-ir-loja:hover {
-            background: #333;
         }
 
         .sem-promocoes {
@@ -367,7 +362,7 @@
         <header>
             <img src="curadomus_logo.png" alt="Cura Domus" class="logo">
             <div class="tagline">
-                Como pais de quatro filhos, garimpamos escolhas que unem a <strong>beleza, a utilidade e a economia</strong> que a sua família merece.
+                Poupamos o seu tempo garimpando as melhores ofertas de literatura, educação, itens para o lar e primeira infância.
             </div>
         </header>
 
@@ -429,7 +424,10 @@
                 const resposta = await fetch('./promocoes.json');
                 if (!resposta.ok) throw new Error('Falha ao ler JSON');
                 
+                // O retorno agora mapeia o objeto completo contendo os nós "ultimaAtualizacao" e "ofertas"
                 const dadosVitrine = await resposta.json();
+                
+                // Extrai as ofertas filtrando apenas os registros ativos por segurança
                 todasAsOfertas = dadosVitrine.ofertas ? dadosVitrine.ofertas.filter(p => p.ativo) : [];
 
                 if (todasAsOfertas.length === 0) {
@@ -438,11 +436,13 @@
                     return;
                 }
 
+                // --- LEITURA DINÂMICA DO NÓ DE METADADOS ---
                 if (dadosVitrine.ultimaAtualizacao) {
                     document.getElementById('data-atualizacao').innerText = `Atualizado em: ${dadosVitrine.ultimaAtualizacao}`;
                 } else {
                     document.getElementById('data-atualizacao').innerText = 'Atualizado recentemente';
                 }
+                // ------------------------------------------
 
                 configurarCombobox(todasAsOfertas);
                 renderizarCards(todasAsOfertas);
@@ -456,8 +456,10 @@
             }
         }
 
-        function configurarCombobox(ofertas) {
+    function configurarCombobox(ofertas) {
             const select = document.getElementById('filtro-categoria');
+            
+            // Limpa opções antigas em recargas, preservando a primeira fixa de reset
             select.innerHTML = '<option value="TODAS">Todas as ofertas</option>';
             
             const gruposUnicos = new Set();
@@ -465,8 +467,10 @@
                 if (item.grupo) gruposUnicos.add(item.grupo.trim());
             });
 
+            // Converte o Set para um Array comum e ordena de forma alfabética correta (com localeCompare)
             const gruposOrdenados = Array.from(gruposUnicos).sort((a, b) => a.localeCompare(b));
 
+            // Injeta as opções ordenadas no HTML
             gruposOrdenados.forEach(grupo => {
                 const option = document.createElement('option');
                 option.value = grupo;
@@ -508,6 +512,7 @@
 
                 const tagEspecial = promo.tag ? `<span class="tag-promo">${promo.tag.trim()}</span>` : '';
                 
+                // Limpeza preventiva de caracteres de espaços vazios (\u00a0) da formatação de moeda do Java
                 const precoOriginalLimpo = promo.precoOriginal ? promo.precoOriginal.replace(/\u00a0/g, '').trim() : null;
                 const precoPromocaoLimpo = promo.precoPromocao ? promo.precoPromocao.replace(/\u00a0/g, '').trim() : '0,00';
 
@@ -519,6 +524,7 @@
                     <div class="card-conteudo">
                         <div class="card-header-info">
                             <h3>${promo.titulo}</h3>
+                            <p class="card-descricao">${promo.descricao || ''}</p>
                         </div>
                         
                         <div class="card-footer-action">
