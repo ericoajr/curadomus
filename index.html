@@ -277,6 +277,15 @@
             line-height: 1.4;
         }
 
+        /* Estilo para a data individual da oferta */
+        .card-data-oferta {
+            font-size: 0.68rem;
+            color: #888;
+            font-weight: 500;
+            margin-top: 4px;
+            display: block;
+        }
+
         .card-footer-action {
             display: flex;
             align-items: center;
@@ -413,7 +422,7 @@
             </div>
 
             <div id="container-promocoes" class="lista-promocoes">
-                </div>
+            </div>
         </section>
 
         <footer>
@@ -430,7 +439,9 @@
                 if (!resposta.ok) throw new Error('Falha ao ler JSON');
                 
                 const dadosVitrine = await resposta.json();
-                todasAsOfertas = dadosVitrine.ofertas ? dadosVitrine.ofertas.filter(p => p.ativo) : [];
+                
+                // Removido o filtro p.ativo aqui do JS, já que o Java já filtra por findByAtivoTrue() e por desconto > 10% antes de gerar o JSON.
+                todasAsOfertas = dadosVitrine.ofertas ? dadosVitrine.ofertas : [];
 
                 if (todasAsOfertas.length === 0) {
                     document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Nenhuma recomendação em destaque agora. Acompanhe os grupos acima!</p>';
@@ -510,6 +521,9 @@
                 
                 const precoOriginalLimpo = promo.precoOriginal ? promo.precoOriginal.replace(/\u00a0/g, '').trim() : null;
                 const precoPromocaoLimpo = promo.precoPromocao ? promo.precoPromocao.replace(/\u00a0/g, '').trim() : '0,00';
+                
+                // Trata a nova data da oferta vinda do DTO (Ex: "07/06/2026 15:30")
+                const componenteData = promo.dataOferta ? `<span class="card-data-oferta">Oferta de: ${promo.dataOferta}</span>` : '';
 
                 card.innerHTML = `
                     <div class="card-imagem-wrapper">
@@ -519,6 +533,7 @@
                     <div class="card-conteudo">
                         <div class="card-header-info">
                             <h3>${promo.titulo}</h3>
+                            ${componenteData}  <!-- Nova data renderizada discretamente aqui -->
                         </div>
                         
                         <div class="card-footer-action">
