@@ -29,7 +29,7 @@
         /* Estrutura Principal */
         .main-wrapper {
             width: 100%;
-            max-width: 650px; /* Largura ideal para leitura e navegação fluida */
+            max-width: 960px; /* Largura ideal para leitura e navegação fluida */
             display: flex;
             flex-direction: column;
             gap: 25px;
@@ -190,11 +190,17 @@
             gap: 15px;
         }
 
-        .lista-promocoes {
-            display: flex;
-            flex-direction: column;
-            gap: 18px; 
-        }
+		.lista-promocoes {
+		    display: grid;
+		    grid-template-columns: 1fr; /* 1 card por linha no mobile */
+		    gap: 18px; 
+		}
+		
+		@media (min-width: 768px) {
+		    .lista-promocoes {
+		        grid-template-columns: repeat(2, 1fr); /* 2 cards por linha */
+		    }
+		}
 
         /* Card Estilo Vitrine Sem Descrição */
         .card-promo {
