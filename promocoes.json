@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "30/06/2026 11:56",
+  "ultimaAtualizacao" : "30/06/2026 13:40",
   "ofertas" : [ {
     "id" : 24768,
     "titulo" : "3 Corações Cappuccino 3Corações Classic - 200G",
@@ -11,7 +11,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B007N6SI94?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 13:26"
+    "dataOferta" : "29/06/2026 13:26",
+    "destaque" : false
   }, {
     "id" : 24796,
     "titulo" : "700 Figurinhas Panini da Copa do Mundo 2026 - 100 Envelopes com 7 Figurinhas Display",
@@ -23,7 +24,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GH81VRVF?tag=curadomus-20",
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:05"
+    "dataOferta" : "29/06/2026 18:05",
+    "destaque" : false
   }, {
     "id" : 24934,
     "titulo" : "A boca do sapo",
@@ -35,7 +37,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508176651?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:09"
+    "dataOferta" : "30/06/2026 11:09",
+    "destaque" : false
   }, {
     "id" : 24973,
     "titulo" : "A carta do Gildo",
@@ -47,7 +50,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574125709?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:18"
+    "dataOferta" : "30/06/2026 11:18",
+    "destaque" : false
   }, {
     "id" : 24789,
     "titulo" : "A fantástica fábrica de chocolate",
@@ -59,7 +63,34 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584824055?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:02"
+    "dataOferta" : "29/06/2026 18:02",
+    "destaque" : false
+  }, {
+    "id" : 25183,
+    "titulo" : "A formiguinha e a neve",
+    "descricao" : "A formiguinha e a neve",
+    "imagem" : "https://m.media-amazon.com/images/I/511Venme4KL._SL1000_.jpg",
+    "precoOriginal" : " 91,00",
+    "precoPromocao" : " 61,94",
+    "tag" : "-31%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8516013324?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:31",
+    "destaque" : false
+  }, {
+    "id" : 25176,
+    "titulo" : "A galinha ruiva",
+    "descricao" : "A galinha ruiva",
+    "imagem" : "https://m.media-amazon.com/images/I/51YAz-fxdOL._SL1000_.jpg",
+    "precoOriginal" : " 87,00",
+    "precoPromocao" : " 69,75",
+    "tag" : "-19%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8516014290?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:29",
+    "destaque" : false
   }, {
     "id" : 25043,
     "titulo" : "A história de Pedro Coelho",
@@ -71,7 +102,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6585310020?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:31"
+    "dataOferta" : "30/06/2026 11:31",
+    "destaque" : false
   }, {
     "id" : 25012,
     "titulo" : "A ilha negra",
@@ -83,7 +115,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8535906738?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:26"
+    "dataOferta" : "30/06/2026 11:26",
+    "destaque" : false
   }, {
     "id" : 24972,
     "titulo" : "A Irmã do Gildo",
@@ -95,7 +128,47 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574126233?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:18"
+    "dataOferta" : "30/06/2026 11:18",
+    "destaque" : false
+  }, {
+    "id" : 25164,
+    "titulo" : "A lua é sempre redonda",
+    "descricao" : "A lua é sempre redonda",
+    "imagem" : "https://m.media-amazon.com/images/I/91zgYMyIheL._SL1500_.jpg",
+    "precoOriginal" : " 74,90",
+    "precoPromocao" : " 45,83",
+    "tag" : "-38%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6556892815?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:26",
+    "destaque" : false
+  }, {
+    "id" : 25172,
+    "titulo" : "A palavra feia de Alberto",
+    "descricao" : "A palavra feia de Alberto",
+    "imagem" : "https://m.media-amazon.com/images/I/91cZJlfVLkL._SL1500_.jpg",
+    "precoOriginal" : " 99,00",
+    "precoPromocao" : " 72,33",
+    "tag" : "-26%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508046677?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:27",
+    "destaque" : false
+  }, {
+    "id" : 25163,
+    "titulo" : "A revolta dos gizes de cera",
+    "descricao" : "A revolta dos gizes de cera",
+    "imagem" : "https://m.media-amazon.com/images/I/61zztgU3MVL._SL1200_.jpg",
+    "precoOriginal" : " 91,00",
+    "precoPromocao" : " 64,09",
+    "tag" : "-29%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8516096556?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:25",
+    "destaque" : false
   }, {
     "id" : 24895,
     "titulo" : "A teia de Charlotte",
@@ -107,7 +180,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800458?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:59"
+    "dataOferta" : "30/06/2026 10:59",
+    "destaque" : false
+  }, {
+    "id" : 25175,
+    "titulo" : "A velhinha que dava nome às coisas",
+    "descricao" : "A velhinha que dava nome às coisas",
+    "imagem" : "https://m.media-amazon.com/images/I/919etP0JpmL._SL1500_.jpg",
+    "precoOriginal" : " 67,90",
+    "precoPromocao" : " 47,20",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8585357851?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:28",
+    "destaque" : false
   }, {
     "id" : 24897,
     "titulo" : "A árvore generosa",
@@ -119,7 +206,34 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067539?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:00"
+    "dataOferta" : "30/06/2026 11:00",
+    "destaque" : false
+  }, {
+    "id" : 25192,
+    "titulo" : "Achocolatado Em Pó NESCAU 60% 180g",
+    "descricao" : "Achocolatado Em Pó NESCAU 60% 180g",
+    "imagem" : "https://m.media-amazon.com/images/I/71UvbUfQFJL._AC_SL1500_.jpg",
+    "precoOriginal" : " 18,19",
+    "precoPromocao" : " 14,99",
+    "tag" : "-17%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DJWJ7R15?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:32",
+    "destaque" : false
+  }, {
+    "id" : 25170,
+    "titulo" : "Adivinha quanto eu te amo",
+    "descricao" : "Adivinha quanto eu te amo",
+    "imagem" : "https://m.media-amazon.com/images/I/61GUd0mU7TL._SL1000_.jpg",
+    "precoOriginal" : " 109,90",
+    "precoPromocao" : " 76,93",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8546902518?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:27",
+    "destaque" : false
   }, {
     "id" : 25126,
     "titulo" : "Air Fryer Philco 4L Revestimento Redstone 1500W PAF40A 220V",
@@ -131,7 +245,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DY3G3MJW?tag=curadomus-20",
     "grupo" : "Eletroportáteis",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:50"
+    "dataOferta" : "30/06/2026 11:50",
+    "destaque" : false
   }, {
     "id" : 24981,
     "titulo" : "Amaciante Concentrado Comfort Puro Cuidado 1 L",
@@ -143,7 +258,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DVM8YHQ?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:20"
+    "dataOferta" : "30/06/2026 11:20",
+    "destaque" : false
   }, {
     "id" : 24945,
     "titulo" : "Aniversário da vaca Mimosa: 0",
@@ -155,7 +271,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/856431133X?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:11"
+    "dataOferta" : "30/06/2026 11:11",
+    "destaque" : false
   }, {
     "id" : 24797,
     "titulo" : "Apis Flora Extrato De Própolis Verde 30 mL",
@@ -167,7 +284,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0166BN9IQ?tag=curadomus-20",
     "grupo" : "Saúde e Bem-Estar",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:05"
+    "dataOferta" : "29/06/2026 18:05",
+    "destaque" : false
   }, {
     "id" : 25045,
     "titulo" : "Aprendendo Caligrafia - Volume Único",
@@ -179,7 +297,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8537636355?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:32"
+    "dataOferta" : "30/06/2026 11:32",
+    "destaque" : false
   }, {
     "id" : 25060,
     "titulo" : "Ariel Sabão Líquido Suave e Gentil 2L",
@@ -191,7 +310,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08FD2RSFT?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:36"
+    "dataOferta" : "30/06/2026 11:36",
+    "destaque" : false
   }, {
     "id" : 24787,
     "titulo" : "As Aventuras De Dom Bosco",
@@ -203,7 +323,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/658910817X?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:01"
+    "dataOferta" : "29/06/2026 18:01",
+    "destaque" : false
   }, {
     "id" : 24903,
     "titulo" : "As aventuras de Tom Sawyer - (Texto integral - Clássicos Autêntica)",
@@ -215,7 +336,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/855130285X?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:02"
+    "dataOferta" : "30/06/2026 11:02",
+    "destaque" : true
   }, {
     "id" : 24940,
     "titulo" : "As pintas do preá",
@@ -227,7 +349,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/850817666X?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:09"
+    "dataOferta" : "30/06/2026 11:09",
+    "destaque" : false
+  }, {
+    "id" : 25210,
+    "titulo" : "Atlas - Civilizações antigas",
+    "descricao" : "Atlas - Civilizações antigas",
+    "imagem" : "https://m.media-amazon.com/images/I/71t7pqMu+NL._SL1200_.jpg",
+    "precoOriginal" : " 119,90",
+    "precoPromocao" : " 56,19",
+    "tag" : "-53%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6526113915?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:36",
+    "destaque" : true
   }, {
     "id" : 24980,
     "titulo" : "Baby Dove Sabonete Líquido Da Cabeça Aos Pés Hidratação Enriquecida 400Ml",
@@ -239,7 +375,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B078HS3SKS?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:20"
+    "dataOferta" : "30/06/2026 11:20",
+    "destaque" : false
   }, {
     "id" : 25096,
     "titulo" : "Baby Dove Sabonete Líquido Hidratação Glicerinada 400 ML",
@@ -251,7 +388,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07ZHGT9ZT?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:43"
+    "dataOferta" : "30/06/2026 11:43",
+    "destaque" : false
   }, {
     "id" : 24881,
     "titulo" : "Baden Baden Cerveja Witbier, Pack 6 Latas 350ml",
@@ -263,7 +401,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0F71Z7B3C?tag=curadomus-20",
     "grupo" : "Bebidas Alcoólicas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:47"
+    "dataOferta" : "30/06/2026 10:47",
+    "destaque" : false
   }, {
     "id" : 24963,
     "titulo" : "Baleia na banheira",
@@ -275,7 +414,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069051?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:15"
+    "dataOferta" : "30/06/2026 11:15",
+    "destaque" : false
   }, {
     "id" : 25105,
     "titulo" : "Beefeater Gin London Dry 750 Ml",
@@ -287,7 +427,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0090CSENE?tag=curadomus-20",
     "grupo" : "Bebidas Alcoólicas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:46"
+    "dataOferta" : "30/06/2026 11:46",
+    "destaque" : false
   }, {
     "id" : 25097,
     "titulo" : "Bepantol Baby Lenço Umedecido para Bebê, Hipoalergênico, Kit Leve 4 Pague 3, 192 Unidades",
@@ -299,7 +440,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B096KDKNNQ?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:44"
+    "dataOferta" : "30/06/2026 11:44",
+    "destaque" : false
   }, {
     "id" : 24816,
     "titulo" : "Berço Infantil Chiqueirinho 2 Andares Mosquiteiro Portátil Bege Liso Neutro Unissex",
@@ -311,7 +453,8 @@
     "linkAfiliado" : "https://meli.la/2hnFRhj",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 08:28"
+    "dataOferta" : "30/06/2026 08:28",
+    "destaque" : false
   }, {
     "id" : 24909,
     "titulo" : "Bichodário",
@@ -323,7 +466,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8596007555?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:03"
+    "dataOferta" : "30/06/2026 11:03",
+    "destaque" : false
   }, {
     "id" : 25117,
     "titulo" : "BLACK+DECKER Ferro de Passar Roupa a Seco, Metálico Preto, Modelo VFA1110XM6, 220V",
@@ -335,7 +479,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B076151Z3M?tag=curadomus-20",
     "grupo" : "Eletroportáteis",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:48"
+    "dataOferta" : "30/06/2026 11:48",
+    "destaque" : false
+  }, {
+    "id" : 25188,
+    "titulo" : "Blender Zoop Sport Inox Cadence com 2 Jarras - 220V",
+    "descricao" : "Blender Zoop Sport Inox Cadence com 2 Jarras - 220V",
+    "imagem" : "https://m.media-amazon.com/images/I/51aHeFu84nL._AC_SL1000_.jpg",
+    "precoOriginal" : " 204,90",
+    "precoPromocao" : " 133,90",
+    "tag" : "-34%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09J1P2M1S?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:32",
+    "destaque" : false
   }, {
     "id" : 25131,
     "titulo" : "Borracha Branca Pequena com Capa Plástica, Faber-Castell, FC Max, SM/107024, 2 Unidades",
@@ -347,7 +505,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B078GSK31B?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:51"
+    "dataOferta" : "30/06/2026 11:51",
+    "destaque" : false
   }, {
     "id" : 25101,
     "titulo" : "Brinox - Jogo de Panelas 5 Peças Ceramic Life Easy - Cinza",
@@ -359,7 +518,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CYHHY6NB?tag=curadomus-20",
     "grupo" : "Cozinha",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:45"
+    "dataOferta" : "30/06/2026 11:45",
+    "destaque" : false
   }, {
     "id" : 25019,
     "titulo" : "Buba Bolsa Termica Instantanea Em Gel Modelo:14517, Cor: Azul",
@@ -371,7 +531,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BBJTNTKH?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:27"
+    "dataOferta" : "30/06/2026 11:27",
+    "destaque" : false
+  }, {
+    "id" : 25225,
+    "titulo" : "Buba Kit Aspirador Nasal De Sucção E Seringa",
+    "descricao" : "Buba Kit Aspirador Nasal De Sucção E Seringa",
+    "imagem" : "https://m.media-amazon.com/images/I/41ApVRnrx0L._AC_SL1000_.jpg",
+    "precoOriginal" : " 36,90",
+    "precoPromocao" : " 22,38",
+    "tag" : "-39%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BVG9B3NF?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:39",
+    "destaque" : false
   }, {
     "id" : 24983,
     "titulo" : "Buba Kit Cuidados Baby Cinza Tamanho Único",
@@ -383,7 +557,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B086JCX68G?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:20"
+    "dataOferta" : "30/06/2026 11:20",
+    "destaque" : false
   }, {
     "id" : 25095,
     "titulo" : "Buba Mordedor Com Massageador De Gengiva Azul",
@@ -395,7 +570,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07CVQJ9T7?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:43"
+    "dataOferta" : "30/06/2026 11:43",
+    "destaque" : false
   }, {
     "id" : 25036,
     "titulo" : "Buba Naninha Leazinho Marrom",
@@ -407,7 +583,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B088H6T1MS?tag=curadomus-20",
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:30"
+    "dataOferta" : "30/06/2026 11:30",
+    "destaque" : false
+  }, {
+    "id" : 25197,
+    "titulo" : "Buba Pote Termico C/Colher - Gumy Rosa Buba Rosa",
+    "descricao" : "Buba Pote Termico C/Colher - Gumy Rosa Buba Rosa",
+    "imagem" : "https://m.media-amazon.com/images/I/41TOR1cRICL._AC_SL1000_.jpg",
+    "precoOriginal" : " 151,90",
+    "precoPromocao" : " 88,90",
+    "tag" : "-41%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08JXND5C7?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:33",
+    "destaque" : false
   }, {
     "id" : 25002,
     "titulo" : "Buba Risque E Apague Colorido",
@@ -419,7 +609,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07N7Q8F59?tag=curadomus-20",
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:24"
+    "dataOferta" : "30/06/2026 11:24",
+    "destaque" : false
+  }, {
+    "id" : 25205,
+    "titulo" : "Buba Risque E Apague Com 10 Unidades Colorido",
+    "descricao" : "Buba Risque E Apague Com 10 Unidades Colorido",
+    "imagem" : "https://m.media-amazon.com/images/I/71JqxgzRfqL._AC_SL1500_.jpg",
+    "precoOriginal" : " 38,90",
+    "precoPromocao" : " 27,16",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BBJC1KLG?tag=curadomus-20",
+    "grupo" : "Brinquedos e Jogos",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:35",
+    "destaque" : false
   }, {
     "id" : 25020,
     "titulo" : "Buba Troninho Infantil - Cinza Cinza",
@@ -431,7 +635,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B087NNJ55R?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:27"
+    "dataOferta" : "30/06/2026 11:27",
+    "destaque" : false
   }, {
     "id" : 24779,
     "titulo" : "Buba Tucano Musical De Atividades",
@@ -443,7 +648,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09WBWZ238?tag=curadomus-20",
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 13:28"
+    "dataOferta" : "29/06/2026 13:28",
+    "destaque" : false
   }, {
     "id" : 25135,
     "titulo" : "Buba, Copo De Treinamento Com Alça Verde",
@@ -455,7 +661,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DH6WBQ9H?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:52"
+    "dataOferta" : "30/06/2026 11:52",
+    "destaque" : false
   }, {
     "id" : 24913,
     "titulo" : "Buba, Esterilizador De Mamadeiras",
@@ -467,7 +674,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CGSTKQN9?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:04"
+    "dataOferta" : "30/06/2026 11:04",
+    "destaque" : false
+  }, {
+    "id" : 25222,
+    "titulo" : "Buba, Kit Portatil Para Limpeza De Mamadeira",
+    "descricao" : "Buba, Kit Portatil Para Limpeza De Mamadeira",
+    "imagem" : "https://m.media-amazon.com/images/I/51Ffqe7TdTL._AC_SL1000_.jpg",
+    "precoOriginal" : " 108,90",
+    "precoPromocao" : " 78,80",
+    "tag" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DJG4SRZ2?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:38",
+    "destaque" : false
   }, {
     "id" : 24949,
     "titulo" : "Burigotto Assento Protege Mesclado Preto",
@@ -479,7 +700,8 @@
     "linkAfiliado" : "https://amzn.to/3RZ80VE",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:11"
+    "dataOferta" : "30/06/2026 11:11",
+    "destaque" : false
   }, {
     "id" : 24969,
     "titulo" : "Cadeira de Descanso e Balanço para Bebê Bliss Baby Style com Música, Mosquiteiro e Controle Remoto",
@@ -491,7 +713,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DDVP2W3M?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:17"
+    "dataOferta" : "30/06/2026 11:17",
+    "destaque" : false
   }, {
     "id" : 24890,
     "titulo" : "Café Pilão Cápsula Extraforte - 20 unidades - 104 gramas",
@@ -503,7 +726,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07Y51QCBT?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:55"
+    "dataOferta" : "30/06/2026 10:55",
+    "destaque" : false
   }, {
     "id" : 24989,
     "titulo" : "Calvin Klein Ck One Eau De Toilette 200Ml,",
@@ -515,7 +739,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B000068DWZ?tag=curadomus-20",
     "grupo" : "Beleza",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:21"
+    "dataOferta" : "30/06/2026 11:21",
+    "destaque" : false
   }, {
     "id" : 25115,
     "titulo" : "Camesa Edredom Ecopluma Toque de Pluma Queen 240x260cm - Bege",
@@ -527,7 +752,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D51LLZSN?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:48"
+    "dataOferta" : "30/06/2026 11:48",
+    "destaque" : false
   }, {
     "id" : 24791,
     "titulo" : "Cartas de um diabo a seu aprendiz",
@@ -539,7 +765,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/857860184X?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:02"
+    "dataOferta" : "29/06/2026 18:02",
+    "destaque" : true
   }, {
     "id" : 24793,
     "titulo" : "Cartas do Papai Noel",
@@ -551,7 +778,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8595085676?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:04"
+    "dataOferta" : "29/06/2026 18:04",
+    "destaque" : false
   }, {
     "id" : 25103,
     "titulo" : "Casa Perini Espumante Brut 750 Ml",
@@ -563,7 +791,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07XTRQ14Z?tag=curadomus-20",
     "grupo" : "Bebidas Alcoólicas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:45"
+    "dataOferta" : "30/06/2026 11:45",
+    "destaque" : false
   }, {
     "id" : 24852,
     "titulo" : "Casa Perini Espumante Brut Rose 750 Ml",
@@ -575,7 +804,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07XLMGFG5?tag=curadomus-20",
     "grupo" : "Bebidas Alcoólicas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 08:54"
+    "dataOferta" : "30/06/2026 08:54",
+    "destaque" : false
   }, {
     "id" : 24847,
     "titulo" : "Casa Perini Espumante Moskatel Aquarela 750 Ml",
@@ -587,7 +817,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07XTR5C65?tag=curadomus-20",
     "grupo" : "Bebidas Alcoólicas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 08:47"
+    "dataOferta" : "30/06/2026 08:47",
+    "destaque" : false
   }, {
     "id" : 25072,
     "titulo" : "Cascola Cascorez Extra, Cola branca extra forte de fácil aplicação, Cola de PVA com secagem transparente, Cascorez Extra para colagens de alto desempenho, 1x500g",
@@ -599,7 +830,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B075X4K638?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:39"
+    "dataOferta" : "30/06/2026 11:39",
+    "destaque" : false
+  }, {
+    "id" : 25174,
+    "titulo" : "Caça ao tesouro",
+    "descricao" : "Caça ao tesouro",
+    "imagem" : "https://m.media-amazon.com/images/I/A1uZzcXt--L._SL1500_.jpg",
+    "precoOriginal" : " 67,90",
+    "precoPromocao" : " 49,38",
+    "tag" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574120030?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:28",
+    "destaque" : false
   }, {
     "id" : 25147,
     "titulo" : "Cereal Matinal Chocolate Kitkat Caixa 210g",
@@ -611,7 +856,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CTD3QXV6?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:54"
+    "dataOferta" : "30/06/2026 11:54",
+    "destaque" : false
   }, {
     "id" : 24976,
     "titulo" : "Cetrilan Creme Para Prevenção de Assaduras 120g | Alivia a Irritação e Hidrata",
@@ -623,7 +869,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0B9HWK12S?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:19"
+    "dataOferta" : "30/06/2026 11:19",
+    "destaque" : false
   }, {
     "id" : 24800,
     "titulo" : "Chocolate Baton Creme De Morango 16gr C/30un - Garoto",
@@ -635,7 +882,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07Y5H6DQF?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:06"
+    "dataOferta" : "29/06/2026 18:06",
+    "destaque" : false
   }, {
     "id" : 24887,
     "titulo" : "Chocolate Lacta Laka Com 12 Unidades De 28g",
@@ -647,7 +895,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DTJ4D8NH?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:52"
+    "dataOferta" : "30/06/2026 10:52",
+    "destaque" : false
   }, {
     "id" : 25061,
     "titulo" : "Chocolate Ouro Branco Pacote 1Kg",
@@ -659,7 +908,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07CV3SYCN?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:36"
+    "dataOferta" : "30/06/2026 11:36",
+    "destaque" : false
   }, {
     "id" : 24923,
     "titulo" : "Cola Branca Pritt Tenaz, ideal para uso em casa, escola ou escritório, transparente, Cola escolar atóxica adequada para crianças, Embalagem 1x225g",
@@ -671,7 +921,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077QB2GBQ?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:07"
+    "dataOferta" : "30/06/2026 11:07",
+    "destaque" : false
   }, {
     "id" : 25071,
     "titulo" : "Cola Glitter 23 g, Acrilex, 02923, Multicor",
@@ -683,7 +934,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077J1CFZH?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:38"
+    "dataOferta" : "30/06/2026 11:38",
+    "destaque" : false
   }, {
     "id" : 24892,
     "titulo" : "Comfort Perfuma e Desamassa Facil com Neutralizador de Odores Refresh 320 ml",
@@ -695,7 +947,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07RGQZ799?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:56"
+    "dataOferta" : "30/06/2026 10:56",
+    "destaque" : false
+  }, {
+    "id" : 25201,
+    "titulo" : "Cooktop por Indução Oster, Touch Screen, 4 Bocas, 220V, OTOP402",
+    "descricao" : "Cooktop por Indução Oster, Touch Screen, 4 Bocas, 220V, OTOP402",
+    "imagem" : "https://m.media-amazon.com/images/I/416sPlVkjvL._AC_SL1000_.jpg",
+    "precoOriginal" : " 2.158,92",
+    "precoPromocao" : " 1.138,90",
+    "tag" : "-47%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09LHVCPPY?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:34",
+    "destaque" : false
   }, {
     "id" : 24964,
     "titulo" : "Cosco Kids, Cadeirinha Progress, 0 a 36kg, Preto",
@@ -707,7 +973,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08YMXTLX2?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:16"
+    "dataOferta" : "30/06/2026 11:16",
+    "destaque" : false
   }, {
     "id" : 24991,
     "titulo" : "Cosco Kids, Carrinho de Bebê, Toffy, Preto Absoluto",
@@ -719,7 +986,8 @@
     "linkAfiliado" : "https://amzn.to/4fttuDU",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:22"
+    "dataOferta" : "30/06/2026 11:22",
+    "destaque" : false
   }, {
     "id" : 25027,
     "titulo" : "Cosco Kids, Travel System Reverse, Preto Rajado",
@@ -731,7 +999,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07QZ9GLS5?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:28"
+    "dataOferta" : "30/06/2026 11:28",
+    "destaque" : false
   }, {
     "id" : 25151,
     "titulo" : "Cosco Kids, Travel System Reverse, Rosa Rajado",
@@ -743,7 +1012,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09B36RPVF?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:55"
+    "dataOferta" : "30/06/2026 11:55",
+    "destaque" : false
   }, {
     "id" : 25090,
     "titulo" : "Creme dental Sensodyne Repair & Protect 100g",
@@ -755,7 +1025,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DG3J95G?tag=curadomus-20",
     "grupo" : "Saúde e Bem-Estar",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:42"
+    "dataOferta" : "30/06/2026 11:42",
+    "destaque" : false
   }, {
     "id" : 24805,
     "titulo" : "Cristianismo puro e simples",
@@ -767,7 +1038,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8578601777?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 08:20"
+    "dataOferta" : "30/06/2026 08:20",
+    "destaque" : false
   }, {
     "id" : 24774,
     "titulo" : "DARROW ACTINE OIL CONTROL GEL DE LIMPEZA 400G",
@@ -779,7 +1051,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C9F439MR?tag=curadomus-20",
     "grupo" : "Beleza",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 13:27"
+    "dataOferta" : "29/06/2026 13:27",
+    "destaque" : false
+  }, {
+    "id" : 25165,
+    "titulo" : "DCL Disney. 365 Histórias Para Dormir - Volume 1 (Capa Almofadada)",
+    "descricao" : "DCL Disney. 365 Histórias Para Dormir - Volume 1 (Capa Almofadada)",
+    "imagem" : "https://m.media-amazon.com/images/I/81kBomUYKkL._SL1500_.jpg",
+    "precoOriginal" : " 131,00",
+    "precoPromocao" : " 72,90",
+    "tag" : "-44%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8536810025?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:26",
+    "destaque" : false
   }, {
     "id" : 24845,
     "titulo" : "Desinfetante Multisuperficies Veja Power Action Lavanda 1L",
@@ -791,7 +1077,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09BKJNVNX?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 08:45"
+    "dataOferta" : "30/06/2026 08:45",
+    "destaque" : false
   }, {
     "id" : 24932,
     "titulo" : "Dia e noite",
@@ -803,7 +1090,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508172885?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:09"
+    "dataOferta" : "30/06/2026 11:09",
+    "destaque" : false
   }, {
     "id" : 24795,
     "titulo" : "Dicionário escolar da língua portuguesa - 2ª edição",
@@ -815,7 +1103,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6588871791?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:05"
+    "dataOferta" : "29/06/2026 18:05",
+    "destaque" : false
+  }, {
+    "id" : 25182,
+    "titulo" : "Disney - 365 Histórias para dormir - Luxo - Contos Princesas - (Capa almofadada)",
+    "descricao" : "Disney - 365 Histórias para dormir - Luxo - Contos Princesas - (Capa almofadada)",
+    "imagem" : "https://m.media-amazon.com/images/I/91BoigA0sEL._SL1500_.jpg",
+    "precoOriginal" : " 131,00",
+    "precoPromocao" : " 72,90",
+    "tag" : "-44%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8536813431?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:31",
+    "destaque" : false
   }, {
     "id" : 25089,
     "titulo" : "Dove Sabonete Líquido Cuida & Protege Frasco 250Ml",
@@ -827,7 +1129,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08B6SHDB6?tag=curadomus-20",
     "grupo" : "Beleza",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:42"
+    "dataOferta" : "30/06/2026 11:42",
+    "destaque" : false
   }, {
     "id" : 25005,
     "titulo" : "Downy Sensitive Hipoalergênico Amaciante Concentrado 1,35L",
@@ -839,7 +1142,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08FD3B2KQ?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:24"
+    "dataOferta" : "30/06/2026 11:24",
+    "destaque" : false
+  }, {
+    "id" : 25177,
+    "titulo" : "Dr. De Soto",
+    "descricao" : "Dr. De Soto",
+    "imagem" : "https://m.media-amazon.com/images/I/91hHZ-LnbjL._SL1500_.jpg",
+    "precoOriginal" : " 67,90",
+    "precoPromocao" : " 54,08",
+    "tag" : "-20%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067008?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:29",
+    "destaque" : false
   }, {
     "id" : 24977,
     "titulo" : "Edmundo e o resmungo – Da autora de “Enquanto Ana espera” e “É para o meu bem”",
@@ -851,7 +1168,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6552171234?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:19"
+    "dataOferta" : "30/06/2026 11:19",
+    "destaque" : false
   }, {
     "id" : 25138,
     "titulo" : "Electrolux Air Fryer Forno 5 x 1 12L 1700W Digital Espeto Giratório 2 Bandejas Antiaderentes 10 funções 7 Receitas aviso sonoro Fritadeira Elétrica sem Óleo Forno Bancada EAF90 Grafite 220V | Air Fryer Oven 5 em 1 com 12L de capacidade e função Rotisserie",
@@ -863,7 +1181,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BYK2VCP7?tag=curadomus-20",
     "grupo" : "Eletroportáteis",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:53"
+    "dataOferta" : "30/06/2026 11:53",
+    "destaque" : false
   }, {
     "id" : 24874,
     "titulo" : "Electrolux Kit 4 Potes de Vidro Herméticos Porta-Mantimentos com Tampa de Bambu, Tampa Vedação de Silicone, Organizadores de Cozinha e Despensa, Transparente, Porta Alimentos, Grãos e Cereais",
@@ -875,7 +1194,34 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B094S8TXCT?tag=curadomus-20",
     "grupo" : "Cozinha",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:41"
+    "dataOferta" : "30/06/2026 10:41",
+    "destaque" : false
+  }, {
+    "id" : 25158,
+    "titulo" : "Electrolux Kit 8 Potes Herméticos de Plástico Retangulares, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos",
+    "descricao" : "Electrolux Kit 8 Potes Herméticos de Plástico Retangulares, Multiuso, Vedação Silicone, BPA Free, Porta Mantimentos",
+    "imagem" : "https://m.media-amazon.com/images/I/51wgNlpJxjL._AC_SL1000_.jpg",
+    "precoOriginal" : " 89,90",
+    "precoPromocao" : " 59,90",
+    "tag" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09XJK1XS1?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:24",
+    "destaque" : false
+  }, {
+    "id" : 25216,
+    "titulo" : "Escrivaninha com 3 prateleiras LINK cor Carvalho com Grafite - Artely",
+    "descricao" : "Escrivaninha com 3 prateleiras LINK cor Carvalho com Grafite - Artely",
+    "imagem" : "https://m.media-amazon.com/images/I/81ZPrCAPXRL._AC_SL1500_.jpg",
+    "precoOriginal" : " 469,00",
+    "precoPromocao" : " 329,00",
+    "tag" : "-29%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09RQ72J1N?tag=curadomus-20",
+    "grupo" : "Casa",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:37",
+    "destaque" : false
   }, {
     "id" : 24960,
     "titulo" : "Estamos em um livro! (Nova edição)",
@@ -887,7 +1233,8 @@
     "linkAfiliado" : "https://amzn.to/3QcFsrh",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:15"
+    "dataOferta" : "30/06/2026 11:15",
+    "destaque" : false
   }, {
     "id" : 24922,
     "titulo" : "Faber-Castell Lápis De Cor Supersoft com 12 Cores - Ecolápis super mácio com cores mais vivas, excelente cobertura",
@@ -899,7 +1246,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FMG2WZPF?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:07"
+    "dataOferta" : "30/06/2026 11:07",
+    "destaque" : false
   }, {
     "id" : 24912,
     "titulo" : "Faber-Castell Lápis De Cor Supersoft com 24 Cores - Ecolápis super mácio com cores mais vivas, excelente cobertura",
@@ -911,7 +1259,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FMFXH7RT?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:04"
+    "dataOferta" : "30/06/2026 11:04",
+    "destaque" : false
   }, {
     "id" : 25035,
     "titulo" : "Fisher-Price Brinquedo para Bebês Balde Primeiros Blocos para crianças a partir de 6 meses",
@@ -923,7 +1272,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B01NCUSC7V?tag=curadomus-20",
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:30"
+    "dataOferta" : "30/06/2026 11:30",
+    "destaque" : false
   }, {
     "id" : 24967,
     "titulo" : "Flash Limp - Refil para Mop Giratório Compatível com os Modelos (Ref. MOP5010, MOP9775, MOP9379, MOP7504) - RMOP5011",
@@ -935,7 +1285,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B078TH4RQL?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:17"
+    "dataOferta" : "30/06/2026 11:17",
+    "destaque" : false
   }, {
     "id" : 25026,
     "titulo" : "Fogão Suggar Cook Start Mesa Inox 4 Bocas Fgics420br Branco Bivolt",
@@ -947,7 +1298,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GMRG6JZ4?tag=curadomus-20",
     "grupo" : "Eletrodomésticos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:28"
+    "dataOferta" : "30/06/2026 11:28",
+    "destaque" : false
   }, {
     "id" : 24987,
     "titulo" : "Fralda Descartável Huggies Máxima Proteção Tamanho P 48 unidades – com absorção especial para cocô líquido e indicador de troca.",
@@ -959,7 +1311,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07FN7VP5Y?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:21"
+    "dataOferta" : "30/06/2026 11:21",
+    "destaque" : false
   }, {
     "id" : 25094,
     "titulo" : "Fralda Huggies Supreme Care Roupinha XG - 64 fraldas",
@@ -971,7 +1324,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BXM3TSS9?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:43"
+    "dataOferta" : "30/06/2026 11:43",
+    "destaque" : false
   }, {
     "id" : 24889,
     "titulo" : "Fralda Huggies Tripla Proteção G - 36 Fraldas",
@@ -983,7 +1337,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08QG1LNCK?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:54"
+    "dataOferta" : "30/06/2026 10:54",
+    "destaque" : false
   }, {
     "id" : 24910,
     "titulo" : "Fralda Pampers Confort Sec Tamanho P 50 Unidades",
@@ -995,7 +1350,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07GMCX7P4?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:04"
+    "dataOferta" : "30/06/2026 11:04",
+    "destaque" : false
   }, {
     "id" : 25150,
     "titulo" : "Fralda Pampers Pants Ajuste Total Tamanho M, Fácil de Vestir, 84 Unidades",
@@ -1007,7 +1363,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B086DR4Q6Q?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:55"
+    "dataOferta" : "30/06/2026 11:55",
+    "destaque" : false
   }, {
     "id" : 25010,
     "titulo" : "Fralda Pampers Premium Care Pants Tamanho G, Fácil de Vestir, 68 Unidades",
@@ -1019,7 +1376,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07X83MH7M?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:25"
+    "dataOferta" : "30/06/2026 11:25",
+    "destaque" : false
   }, {
     "id" : 24954,
     "titulo" : "Fralda Pampers Premium Care Tamanho P 40 Unidades",
@@ -1031,7 +1389,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07GQ136TS?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:13"
+    "dataOferta" : "30/06/2026 11:13",
+    "destaque" : false
   }, {
     "id" : 25058,
     "titulo" : "Fralda Turma da Mônica Baby Mega XXG 36 Unidades",
@@ -1043,7 +1402,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B099KPQQWF?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:36"
+    "dataOferta" : "30/06/2026 11:36",
+    "destaque" : false
+  }, {
+    "id" : 25186,
+    "titulo" : "Frigideira Rochedo Facilita Vermelho 24cm com Antiaderente Resist - Limpa Fácil e Dura Mais, reforçado com partículas minerais, Thermo-Sinal e Cabos Reforçados",
+    "descricao" : "Frigideira Rochedo Facilita Vermelho 24cm com Antiaderente Resist - Limpa Fácil e Dura Mais, reforçado com partículas minerais, Thermo-Sinal e Cabos Reforçados",
+    "imagem" : "https://m.media-amazon.com/images/I/41lckTrO42L._AC_SL1000_.jpg",
+    "precoOriginal" : " 56,99",
+    "precoPromocao" : " 39,90",
+    "tag" : "-29%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DLJF5D89?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:31",
+    "destaque" : false
   }, {
     "id" : 25048,
     "titulo" : "Fritadeira Air Fryer Britânia 5,5L 1500W BFR50 Redstone 220V",
@@ -1055,7 +1428,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CRBJYG6P?tag=curadomus-20",
     "grupo" : "Cozinha",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:32"
+    "dataOferta" : "30/06/2026 11:32",
+    "destaque" : false
   }, {
     "id" : 24999,
     "titulo" : "Fritadeira Elétrica Air Fryer Facilita Fry Elgin - 3.5 Litros, 220V",
@@ -1067,7 +1441,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DTW24HGR?tag=curadomus-20",
     "grupo" : "Eletroportáteis",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:23"
+    "dataOferta" : "30/06/2026 11:23",
+    "destaque" : true
   }, {
     "id" : 25052,
     "titulo" : "Fruteira de Mesa em Acrilico Transparente com Detalhes Dourados Design Sofisticado em Formato de Flor Resistente e Fácil Limpeza",
@@ -1079,7 +1454,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GRCDGW4T?tag=curadomus-20",
     "grupo" : "Cozinha",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:33"
+    "dataOferta" : "30/06/2026 11:33",
+    "destaque" : false
   }, {
     "id" : 25021,
     "titulo" : "G-Tech Termômetro Infravermelho Ultracompacto De Testa Go",
@@ -1091,7 +1467,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08QDZHNQ2?tag=curadomus-20",
     "grupo" : "Saúde e Bem-Estar",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:27"
+    "dataOferta" : "30/06/2026 11:27",
+    "destaque" : true
   }, {
     "id" : 25127,
     "titulo" : "G-Tech Umidificador Ultrassônico Modelo Allergy Free Hm 3L",
@@ -1103,7 +1480,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07L4TSL64?tag=curadomus-20",
     "grupo" : "Eletroportáteis",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:51"
+    "dataOferta" : "30/06/2026 11:51",
+    "destaque" : false
+  }, {
+    "id" : 25220,
+    "titulo" : "G-Tech, Termômetro Digital de Ponta Flexível - Alimentado por pilha/bateria",
+    "descricao" : "G-Tech, Termômetro Digital de Ponta Flexível - Alimentado por pilha/bateria",
+    "imagem" : "https://m.media-amazon.com/images/I/31buJmSfVYL._AC_SL1000_.jpg",
+    "precoOriginal" : " 26,50",
+    "precoPromocao" : " 19,50",
+    "tag" : "-26%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B076VYL3PX?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:38",
+    "destaque" : false
   }, {
     "id" : 25062,
     "titulo" : "Garrafa Térmica de Inox Parede Dupla Prata 500ml",
@@ -1115,7 +1506,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B083YFGCL4?tag=curadomus-20",
     "grupo" : "Cozinha",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:36"
+    "dataOferta" : "30/06/2026 11:36",
+    "destaque" : true
   }, {
     "id" : 24942,
     "titulo" : "Gato com frio",
@@ -1127,7 +1519,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508176635?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:10"
+    "dataOferta" : "30/06/2026 11:10",
+    "destaque" : false
   }, {
     "id" : 25041,
     "titulo" : "Giby Shampoo 200Ml Roxo",
@@ -1139,7 +1532,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077SZN4DK?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:31"
+    "dataOferta" : "30/06/2026 11:31",
+    "destaque" : false
   }, {
     "id" : 24974,
     "titulo" : "Gildo",
@@ -1151,7 +1545,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/857412320X?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:18"
+    "dataOferta" : "30/06/2026 11:18",
+    "destaque" : false
+  }, {
+    "id" : 25159,
+    "titulo" : "Gillette Mach3 Sensitive Carga Aparelho de Barbear com Aloe 8 Unidades",
+    "descricao" : "Gillette Mach3 Sensitive Carga Aparelho de Barbear com Aloe 8 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/71dQMtjhE0L._AC_SL1200_.jpg",
+    "precoOriginal" : " 69,99",
+    "precoPromocao" : " 54,90",
+    "tag" : "-21%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07F3CJZJW?tag=curadomus-20",
+    "grupo" : "Beleza",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:25",
+    "destaque" : false
   }, {
     "id" : 25152,
     "titulo" : "Granado Refil Sabonete Líquido Bebê, Tradicional, 250ml",
@@ -1163,7 +1571,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07D2FXHM1?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:55"
+    "dataOferta" : "30/06/2026 11:55",
+    "destaque" : false
+  }, {
+    "id" : 25185,
+    "titulo" : "Granado Sabonete Líquido Glicerina, Tradicional, 300ml",
+    "descricao" : "Granado Sabonete Líquido Glicerina, Tradicional, 300ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51AefftPO5L._AC_SL1000_.jpg",
+    "precoOriginal" : " 32,89",
+    "precoPromocao" : " 20,61",
+    "tag" : "-37%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07L9NML1B?tag=curadomus-20",
+    "grupo" : "Beleza",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:31",
+    "destaque" : false
   }, {
     "id" : 25153,
     "titulo" : "Granado Sabonete Líquido Glicerinado Bebê, 250ml",
@@ -1175,7 +1597,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B000VWJMW4?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:55"
+    "dataOferta" : "30/06/2026 11:55",
+    "destaque" : false
+  }, {
+    "id" : 25191,
+    "titulo" : "HAO BOSCH Vinho Rose Piscine Stripes Listras 750Ml",
+    "descricao" : "HAO BOSCH Vinho Rose Piscine Stripes Listras 750Ml",
+    "imagem" : "https://m.media-amazon.com/images/I/6147Zyv2cqL._AC_SL1500_.jpg",
+    "precoOriginal" : " 89,90",
+    "precoPromocao" : " 48,30",
+    "tag" : "-46%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B06Y5TM366?tag=curadomus-20",
+    "grupo" : "Bebidas Alcoólicas",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:32",
+    "destaque" : false
   }, {
     "id" : 25124,
     "titulo" : "Heineken Cerveja Barril 5L",
@@ -1187,7 +1623,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07BB8NL42?tag=curadomus-20",
     "grupo" : "Bebidas Alcoólicas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:50"
+    "dataOferta" : "30/06/2026 11:50",
+    "destaque" : false
   }, {
     "id" : 25078,
     "titulo" : "Heinz Ketchup Zero Açúcar 530g",
@@ -1199,7 +1636,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GR1W4GCP?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:40"
+    "dataOferta" : "30/06/2026 11:40",
+    "destaque" : false
   }, {
     "id" : 25030,
     "titulo" : "Huggies Fralda Descartável Premium Natural Care P - 36 Un",
@@ -1211,7 +1649,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B095R95SNW?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:29"
+    "dataOferta" : "30/06/2026 11:29",
+    "destaque" : false
   }, {
     "id" : 24782,
     "titulo" : "Huggies Fralda Pants Premium Natural Care G - 60 Un",
@@ -1223,7 +1662,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BKLPZ4BH?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 13:29"
+    "dataOferta" : "29/06/2026 13:29",
+    "destaque" : false
   }, {
     "id" : 25149,
     "titulo" : "Huggies Fralda Pants Premium Natural Care XG - 56 Un",
@@ -1235,7 +1675,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BKLNG66P?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:55"
+    "dataOferta" : "30/06/2026 11:55",
+    "destaque" : false
   }, {
     "id" : 25024,
     "titulo" : "Huggies Fralda Pants Premium Natural Care XXG - 52 Un",
@@ -1247,7 +1688,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BKLM298N?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:28"
+    "dataOferta" : "30/06/2026 11:28",
+    "destaque" : false
   }, {
     "id" : 25088,
     "titulo" : "Huggies Fralda Tripla Proteção G 78 Un",
@@ -1259,7 +1701,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07FNMB4QN?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:42"
+    "dataOferta" : "30/06/2026 11:42",
+    "destaque" : false
+  }, {
+    "id" : 25184,
+    "titulo" : "Jardim de versos",
+    "descricao" : "Jardim de versos",
+    "imagem" : "https://m.media-amazon.com/images/I/71yH6MAEckL._SL1360_.jpg",
+    "precoOriginal" : " 78,00",
+    "precoPromocao" : " 52,36",
+    "tag" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/853227997X?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:31",
+    "destaque" : false
   }, {
     "id" : 25118,
     "titulo" : "JBL, Fone de Ouvido Bluetooth Over-Ear, Tune 730BT, Sem Fio, Até 76 Horas de Bateria - Preto",
@@ -1271,7 +1727,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GR11L1VP?tag=curadomus-20",
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:49"
+    "dataOferta" : "30/06/2026 11:49",
+    "destaque" : false
   }, {
     "id" : 24982,
     "titulo" : "Jogo de Cama 100% Algodão Solteiro Estampado Patrulha Canina Menino 1,40 m x 2,10 m Com 3 peças",
@@ -1283,7 +1740,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CPQ48KMZ?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:20"
+    "dataOferta" : "30/06/2026 11:20",
+    "destaque" : false
   }, {
     "id" : 24984,
     "titulo" : "Jogo Pinguim Numa Fria Jogo Quebra Gelo Derrubando o Pinguim Divertido",
@@ -1295,7 +1753,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08HZ9ZLSJ?tag=curadomus-20",
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:20"
+    "dataOferta" : "30/06/2026 11:20",
+    "destaque" : false
   }, {
     "id" : 25104,
     "titulo" : "Johnson's Baby Sabonete Líquido Relaxante Hora do Sono, 400ml",
@@ -1307,7 +1766,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHRS6RN?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:46"
+    "dataOferta" : "30/06/2026 11:46",
+    "destaque" : false
   }, {
     "id" : 24785,
     "titulo" : "Kit 3 Cestos Organizadores de Bambu com Forro Interno – Cestas Organizadoras Decorativas Multiuso Banheiro, Armário, Lavanderia e Cozinha – Organizadores Naturais Elegantes Pia, Maquiagem e Objetos",
@@ -1319,7 +1779,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GRFP6315?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:01"
+    "dataOferta" : "29/06/2026 18:01",
+    "destaque" : false
   }, {
     "id" : 25076,
     "titulo" : "Kit 6 Peças Jogo Americano Redondo - Sousplat Redondo para Mesa Posta - Jogo Americano Elegante para Jantar, Almoço e Café - UpShop (marrom caramel)",
@@ -1331,7 +1792,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FR3D9GFP?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:39"
+    "dataOferta" : "30/06/2026 11:39",
+    "destaque" : false
   }, {
     "id" : 25112,
     "titulo" : "Kit com 5 Sacos para Lavagem de Roupas Delicadas e Íntimas – Protege Peças na Máquina de Lavar, Fecho com Zíper Reforçado, Multi-Tamanhos, Ideal para Lingerie, Meias e Camisetas",
@@ -1343,7 +1805,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FTNP6VWW?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:47"
+    "dataOferta" : "30/06/2026 11:47",
+    "destaque" : false
   }, {
     "id" : 24857,
     "titulo" : "Kit Introdução Alimentar Bebê 8 Peças Prato + Bowl Babador Copo + Tampa com Canudo + 2 Talheres + 2 Talheres Ponta Silicone Cabo de Madeira 100% Silicone Antitóxico Premium (Verde)",
@@ -1355,7 +1818,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D8XVJBYS?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 08:57"
+    "dataOferta" : "30/06/2026 08:57",
+    "destaque" : false
   }, {
     "id" : 25069,
     "titulo" : "Lar dos Animais: Florestas Tropicais",
@@ -1367,7 +1831,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556171166?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:38"
+    "dataOferta" : "30/06/2026 11:38",
+    "destaque" : false
+  }, {
+    "id" : 25157,
+    "titulo" : "Lava-Roupas em Pó Roupas Brancas Omo Expert Caixa 720g",
+    "descricao" : "Lava-Roupas em Pó Roupas Brancas Omo Expert Caixa 720g",
+    "imagem" : "https://m.media-amazon.com/images/I/51U9JB9jwKL._AC_SL1200_.jpg",
+    "precoOriginal" : " 16,61",
+    "precoPromocao" : " 13,86",
+    "tag" : "-16%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0F5DLRYJ5?tag=curadomus-20",
+    "grupo" : "Casa",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:24",
+    "destaque" : false
   }, {
     "id" : 25116,
     "titulo" : "LEGO Classic ─ 10713 Maleta da Criatividade ─ Kit de construção (213 peças)",
@@ -1379,7 +1857,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B075QRWRYP?tag=curadomus-20",
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:48"
+    "dataOferta" : "30/06/2026 11:48",
+    "destaque" : false
   }, {
     "id" : 25098,
     "titulo" : "Lenços Umedecidos Pampers Higiene Completa192 Unidades",
@@ -1391,7 +1870,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08T85RHB1?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:44"
+    "dataOferta" : "30/06/2026 11:44",
+    "destaque" : false
+  }, {
+    "id" : 25218,
+    "titulo" : "Lillo Canguru 3 Em 1",
+    "descricao" : "Lillo Canguru 3 Em 1",
+    "imagem" : "https://m.media-amazon.com/images/I/71Wv66RWfSL._AC_SL1500_.jpg",
+    "precoOriginal" : " 239,00",
+    "precoPromocao" : " 115,92",
+    "tag" : "-51%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09WG452T1?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:37",
+    "destaque" : true
   }, {
     "id" : 24916,
     "titulo" : "Limpador Perfumado Veja Buquê do Cerrado 2L",
@@ -1403,7 +1896,47 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DZ7JP8L?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:05"
+    "dataOferta" : "30/06/2026 11:05",
+    "destaque" : true
+  }, {
+    "id" : 25195,
+    "titulo" : "Limpador Spray Anti Bac Veja Banheiro Oxi 500ml Oferta, Veja, Transparente",
+    "descricao" : "Limpador Spray Anti Bac Veja Banheiro Oxi 500ml Oferta, Veja, Transparente",
+    "imagem" : "https://m.media-amazon.com/images/I/51O4o1Y+cAL._AC_SL1200_.jpg",
+    "precoOriginal" : " 24,79",
+    "precoPromocao" : " 18,99",
+    "tag" : "-23%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08JK2WY1V?tag=curadomus-20",
+    "grupo" : "Casa",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:33",
+    "destaque" : false
+  }, {
+    "id" : 25207,
+    "titulo" : "Liquidificador Daily Philips Walita Preto, 550W, 110v - RI2110/90",
+    "descricao" : "Liquidificador Daily Philips Walita Preto, 550W, 110v - RI2110/90",
+    "imagem" : "https://m.media-amazon.com/images/I/6176iz1U53S._AC_SL1500_.jpg",
+    "precoOriginal" : " 159,90",
+    "precoPromocao" : " 119,00",
+    "tag" : "-25%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07RSYMHXP?tag=curadomus-20",
+    "grupo" : "Eletrodomésticos",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:35",
+    "destaque" : false
+  }, {
+    "id" : 25229,
+    "titulo" : "Liquidificador, Ph900, 3L, Preto, 110V, Philco",
+    "descricao" : "Liquidificador, Ph900, 3L, Preto, 110V, Philco",
+    "imagem" : "https://m.media-amazon.com/images/I/51UcFkAcKDL._AC_SL1200_.jpg",
+    "precoOriginal" : " 229,00",
+    "precoPromocao" : " 146,32",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B076BL1265?tag=curadomus-20",
+    "grupo" : "Eletrodomésticos",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:40",
+    "destaque" : false
   }, {
     "id" : 25119,
     "titulo" : "Liquidificador, Ph900, 3L, Preto, 220V, Philco",
@@ -1415,7 +1948,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B076BB8J7Z?tag=curadomus-20",
     "grupo" : "Eletroportáteis",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:49"
+    "dataOferta" : "30/06/2026 11:49",
+    "destaque" : false
+  }, {
+    "id" : 25160,
+    "titulo" : "Listerine Enxaguante Bucal Cool Mint Sem Álcool, 1L",
+    "descricao" : "Listerine Enxaguante Bucal Cool Mint Sem Álcool, 1L",
+    "imagem" : "https://m.media-amazon.com/images/I/71GL14JaMxL._AC_SL1500_.jpg",
+    "precoOriginal" : " 39,99",
+    "precoPromocao" : " 26,99",
+    "tag" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DQ25G714?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:25",
+    "destaque" : false
   }, {
     "id" : 25067,
     "titulo" : "LYOR - Bandeja de Bambu Hire Marrom Natural 20cm - Mesa Posta - Organização - Utensílios de Cozinha - Enxoval - Decoração - Travessa Retangular - Petisqueira - Utilidades Domésticas",
@@ -1427,7 +1974,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08X1P11KS?tag=curadomus-20",
     "grupo" : "Cozinha",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:37"
+    "dataOferta" : "30/06/2026 11:37",
+    "destaque" : false
+  }, {
+    "id" : 25162,
+    "titulo" : "Madeline Finn e Bonnie",
+    "descricao" : "Madeline Finn e Bonnie",
+    "imagem" : "https://m.media-amazon.com/images/I/81wY7CpU5XL._SL1200_.jpg",
+    "precoOriginal" : " 87,00",
+    "precoPromocao" : " 63,00",
+    "tag" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8516107329?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:25",
+    "destaque" : false
   }, {
     "id" : 24915,
     "titulo" : "Mamadeira NUK Essence TC Smart Flow 150 ml S1 - Boy",
@@ -1439,7 +2000,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09B1FQ58H?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:05"
+    "dataOferta" : "30/06/2026 11:05",
+    "destaque" : true
   }, {
     "id" : 24790,
     "titulo" : "Matilda (Edição Especial)",
@@ -1451,7 +2013,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584824020?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:02"
+    "dataOferta" : "29/06/2026 18:02",
+    "destaque" : false
   }, {
     "id" : 24961,
     "titulo" : "Meu amigo está triste",
@@ -1463,7 +2026,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067059?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:15"
+    "dataOferta" : "30/06/2026 11:15",
+    "destaque" : false
   }, {
     "id" : 25066,
     "titulo" : "Meu reino por um cavalo",
@@ -1475,7 +2039,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526008935?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:37"
+    "dataOferta" : "30/06/2026 11:37",
+    "destaque" : false
   }, {
     "id" : 25011,
     "titulo" : "Mimosa em apuros: 11",
@@ -1487,7 +2052,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/658610677X?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:25"
+    "dataOferta" : "30/06/2026 11:25",
+    "destaque" : false
   }, {
     "id" : 24786,
     "titulo" : "Mimosa não quer tomar banho: 4",
@@ -1499,7 +2065,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6586106370?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:01"
+    "dataOferta" : "29/06/2026 18:01",
+    "destaque" : false
   }, {
     "id" : 25015,
     "titulo" : "Mimosa procura um tesouro - vol. 5",
@@ -1511,7 +2078,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6586106532?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:26"
+    "dataOferta" : "30/06/2026 11:26",
+    "destaque" : false
   }, {
     "id" : 25016,
     "titulo" : "Mimosa se esconde: 7",
@@ -1523,7 +2091,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6586106524?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:26"
+    "dataOferta" : "30/06/2026 11:26",
+    "destaque" : false
+  }, {
+    "id" : 25161,
+    "titulo" : "Minhas fábulas de Esopo",
+    "descricao" : "Minhas fábulas de Esopo",
+    "imagem" : "https://m.media-amazon.com/images/I/71kpJRnZsGS._SL1181_.jpg",
+    "precoOriginal" : " 104,90",
+    "precoPromocao" : " 58,00",
+    "tag" : "-44%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574064122?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:25",
+    "destaque" : false
   }, {
     "id" : 25042,
     "titulo" : "MONDIAL Mini Processador Turbo Pratic, Preto, 300W, 110V - MP-16-B",
@@ -1535,7 +2117,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08PPRYWZG?tag=curadomus-20",
     "grupo" : "Eletroportáteis",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:31"
+    "dataOferta" : "30/06/2026 11:31",
+    "destaque" : false
   }, {
     "id" : 25144,
     "titulo" : "MONDIAL Multiprocessador Turbo Chef 9 em 1, Preto, 1000W, 110V - MPN-01-BF",
@@ -1547,7 +2130,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09NX12VCH?tag=curadomus-20",
     "grupo" : "Eletrodomésticos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:54"
+    "dataOferta" : "30/06/2026 11:54",
+    "destaque" : false
+  }, {
+    "id" : 25228,
+    "titulo" : "MONDIAL Sanduicheira Fast Grill & Sandwich, Preto, 750W, 220V - S-12",
+    "descricao" : "MONDIAL Sanduicheira Fast Grill & Sandwich, Preto, 750W, 220V - S-12",
+    "imagem" : "https://m.media-amazon.com/images/I/716iLMhJVuL._AC_SL1500_.jpg",
+    "precoOriginal" : " 144,90",
+    "precoPromocao" : " 79,90",
+    "tag" : "-44%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B076FGX8GR?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:39",
+    "destaque" : false
   }, {
     "id" : 25139,
     "titulo" : "MONDIAL Ventilador de Mesa 30cm Super Power, Preto, 60W, 220V - VSP-30-B",
@@ -1559,7 +2156,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09B17MQLC?tag=curadomus-20",
     "grupo" : "Eletroportáteis",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:53"
+    "dataOferta" : "30/06/2026 11:53",
+    "destaque" : false
   }, {
     "id" : 24988,
     "titulo" : "Monitor Gamer AOC AGON G42 24\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 24G42HE",
@@ -1571,7 +2169,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FGDJNXPP?tag=curadomus-20",
     "grupo" : "Computadores e Informática",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:21"
+    "dataOferta" : "30/06/2026 11:21",
+    "destaque" : false
   }, {
     "id" : 25009,
     "titulo" : "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE",
@@ -1583,7 +2182,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FGDMDW1J?tag=curadomus-20",
     "grupo" : "Computadores e Informática",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:25"
+    "dataOferta" : "30/06/2026 11:25",
+    "destaque" : false
   }, {
     "id" : 25086,
     "titulo" : "Monitor Gamer AOC Destiny 24,5 Polegadas 25G3ZM",
@@ -1595,7 +2195,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CJ9NVNW6?tag=curadomus-20",
     "grupo" : "Computadores e Informática",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:41"
+    "dataOferta" : "30/06/2026 11:41",
+    "destaque" : false
   }, {
     "id" : 24879,
     "titulo" : "Mor - Churrasqueira Montana",
@@ -1607,7 +2208,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077Z2RPGN?tag=curadomus-20",
     "grupo" : "Jardim e Piscina",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:42"
+    "dataOferta" : "30/06/2026 10:42",
+    "destaque" : false
+  }, {
+    "id" : 25212,
+    "titulo" : "Multiprocessador Philco Concept 1000W 5 em 1 PMP11A 127v",
+    "descricao" : "Multiprocessador Philco Concept 1000W 5 em 1 PMP11A 127v",
+    "imagem" : "https://m.media-amazon.com/images/I/61VF1nQIuML._AC_SL1200_.jpg",
+    "precoOriginal" : " 409,00",
+    "precoPromocao" : " 294,63",
+    "tag" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0F9B1CHF6?tag=curadomus-20",
+    "grupo" : "Eletrodomésticos",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:37",
+    "destaque" : false
   }, {
     "id" : 24968,
     "titulo" : "Mustela Refil Gel Lavante Suave 400ml - Sabonete Líquido Corpo e Cabelo para bebês e crianças – feito com 93% de ingredientes de origem natural - Mustela Bebê e Criança",
@@ -1619,7 +2234,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D61LL8FW?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:17"
+    "dataOferta" : "30/06/2026 11:17",
+    "destaque" : false
   }, {
     "id" : 24900,
     "titulo" : "Na biblioteca da rua direita",
@@ -1631,7 +2247,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8594680031?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:01"
+    "dataOferta" : "30/06/2026 11:01",
+    "destaque" : false
   }, {
     "id" : 24854,
     "titulo" : "NESCAU Achoc Po Cilindro 670g",
@@ -1643,7 +2260,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CFM438ZQ?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 08:54"
+    "dataOferta" : "30/06/2026 08:54",
+    "destaque" : false
   }, {
     "id" : 24778,
     "titulo" : "Nestlé Creme De Leite Zero Lactose 200G",
@@ -1655,7 +2273,34 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07RM7X6M4?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 13:28"
+    "dataOferta" : "29/06/2026 13:28",
+    "destaque" : false
+  }, {
+    "id" : 25193,
+    "titulo" : "Nestlé Farinha Láctea Nestle Tradicional 360G",
+    "descricao" : "Nestlé Farinha Láctea Nestle Tradicional 360G",
+    "imagem" : "https://m.media-amazon.com/images/I/61UkOI1CSSL._AC_SL1440_.jpg",
+    "precoOriginal" : " 20,99",
+    "precoPromocao" : " 15,29",
+    "tag" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CBN8FLXM?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:33",
+    "destaque" : false
+  }, {
+    "id" : 25227,
+    "titulo" : "Neutrogena Sun Fresh Protetor Solar Corporal, FPS 70, 200ml | Embalagem família",
+    "descricao" : "Neutrogena Sun Fresh Protetor Solar Corporal, FPS 70, 200ml | Embalagem família",
+    "imagem" : "https://m.media-amazon.com/images/I/51MhSVQucUL._AC_SL1500_.jpg",
+    "precoOriginal" : " 113,99",
+    "precoPromocao" : " 69,82",
+    "tag" : "-38%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B079VVY5FG?tag=curadomus-20",
+    "grupo" : "Beleza",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:39",
+    "destaque" : false
   }, {
     "id" : 25146,
     "titulo" : "Neve Papel Higiênico Supreme Folha Tripla, 20m, Leve 32 Pague 28 Rolos",
@@ -1667,7 +2312,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08DZ8WLZ7?tag=curadomus-20",
     "grupo" : "Saúde e Bem-Estar",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:54"
+    "dataOferta" : "30/06/2026 11:54",
+    "destaque" : false
   }, {
     "id" : 25102,
     "titulo" : "NIVEA SUN Protetor Solar Facial Toque Seco Antissinais FPS 70 40ml - Com muito alta proteção contra raios UVA/UVB, controla o brilho e previne o envelhecimento precoce",
@@ -1679,7 +2325,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BD6755LC?tag=curadomus-20",
     "grupo" : "Beleza",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:45"
+    "dataOferta" : "30/06/2026 11:45",
+    "destaque" : false
+  }, {
+    "id" : 25173,
+    "titulo" : "O apanhador de sonhos",
+    "descricao" : "O apanhador de sonhos",
+    "imagem" : "https://m.media-amazon.com/images/I/A13Jc5yA8+L._SL1500_.jpg",
+    "precoOriginal" : " 69,90",
+    "precoPromocao" : " 54,37",
+    "tag" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574120367?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:27",
+    "destaque" : false
   }, {
     "id" : 24931,
     "titulo" : "O caracol",
@@ -1691,7 +2351,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508176597?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:09"
+    "dataOferta" : "30/06/2026 11:09",
+    "destaque" : false
   }, {
     "id" : 24899,
     "titulo" : "O carteiro chegou",
@@ -1703,7 +2364,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574062855?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:01"
+    "dataOferta" : "30/06/2026 11:01",
+    "destaque" : false
   }, {
     "id" : 24896,
     "titulo" : "O gigante egoísta",
@@ -1715,7 +2377,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8524916982?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:00"
+    "dataOferta" : "30/06/2026 11:00",
+    "destaque" : false
   }, {
     "id" : 24975,
     "titulo" : "O grande divórcio",
@@ -1727,7 +2390,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556891118?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:19"
+    "dataOferta" : "30/06/2026 11:19",
+    "destaque" : false
   }, {
     "id" : 24979,
     "titulo" : "O grúfalo",
@@ -1739,7 +2403,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574120286?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:19"
+    "dataOferta" : "30/06/2026 11:19",
+    "destaque" : false
   }, {
     "id" : 24893,
     "titulo" : "O jumentinho que carregou um rei",
@@ -1751,7 +2416,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8581323944?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:58"
+    "dataOferta" : "30/06/2026 10:58",
+    "destaque" : false
   }, {
     "id" : 24936,
     "titulo" : "O menino e o muro",
@@ -1763,7 +2429,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113536?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:09"
+    "dataOferta" : "30/06/2026 11:09",
+    "destaque" : false
   }, {
     "id" : 25054,
     "titulo" : "O Mágico de Oz",
@@ -1775,7 +2442,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6585310268?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:34"
+    "dataOferta" : "30/06/2026 11:34",
+    "destaque" : false
   }, {
     "id" : 24943,
     "titulo" : "O peixe pixote",
@@ -1787,7 +2455,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508111274?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:10"
+    "dataOferta" : "30/06/2026 11:10",
+    "destaque" : false
   }, {
     "id" : 24935,
     "titulo" : "O peru de peruca",
@@ -1799,7 +2468,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113331?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:09"
+    "dataOferta" : "30/06/2026 11:09",
+    "destaque" : false
   }, {
     "id" : 24927,
     "titulo" : "O pote de melado",
@@ -1811,7 +2481,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508172826?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:08"
+    "dataOferta" : "30/06/2026 11:08",
+    "destaque" : false
   }, {
     "id" : 24933,
     "titulo" : "O rabo do gato",
@@ -1823,7 +2494,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508172796?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:09"
+    "dataOferta" : "30/06/2026 11:09",
+    "destaque" : false
   }, {
     "id" : 24978,
     "titulo" : "O ratinho, o morango vermelho maduro e o grande urso esfomeado",
@@ -1835,7 +2507,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574121878?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:19"
+    "dataOferta" : "30/06/2026 11:19",
+    "destaque" : false
+  }, {
+    "id" : 25190,
+    "titulo" : "O segredo do anel e outros contos do bem-viver",
+    "descricao" : "O segredo do anel e outros contos do bem-viver",
+    "imagem" : "https://m.media-amazon.com/images/I/81AC5cHl3CL._SL1500_.jpg",
+    "precoOriginal" : " 78,50",
+    "precoPromocao" : " 55,64",
+    "tag" : "-29%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8584190341?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:32",
+    "destaque" : false
   }, {
     "id" : 24784,
     "titulo" : "O Silmarillion",
@@ -1847,7 +2533,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8595084378?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:01"
+    "dataOferta" : "29/06/2026 18:01",
+    "destaque" : false
   }, {
     "id" : 24929,
     "titulo" : "O susto do periquito",
@@ -1859,7 +2546,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508111339?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:08"
+    "dataOferta" : "30/06/2026 11:08",
+    "destaque" : false
   }, {
     "id" : 24763,
     "titulo" : "O tesouro da fé em versos para crianças: Poemas de nossa língua",
@@ -1871,7 +2559,34 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6588444729?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 13:24"
+    "dataOferta" : "29/06/2026 13:24",
+    "destaque" : false
+  }, {
+    "id" : 25178,
+    "titulo" : "O urso barulhento",
+    "descricao" : "O urso barulhento",
+    "imagem" : "https://m.media-amazon.com/images/I/81lYsEwCKyL._SL1297_.jpg",
+    "precoOriginal" : " 67,90",
+    "precoPromocao" : " 47,06",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574125660?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:29",
+    "destaque" : false
+  }, {
+    "id" : 25169,
+    "titulo" : "O urso corajoso",
+    "descricao" : "O urso corajoso",
+    "imagem" : "https://m.media-amazon.com/images/I/91sR7I3Z0VL._SL1500_.jpg",
+    "precoOriginal" : " 67,90",
+    "precoPromocao" : " 47,50",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574125342?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:27",
+    "destaque" : false
   }, {
     "id" : 25029,
     "titulo" : "OFF! Baby Gel Repelente Infantil de Insetos e Mosquitos, 117g",
@@ -1883,7 +2598,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08BWYTR6F?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:29"
+    "dataOferta" : "30/06/2026 11:29",
+    "destaque" : false
   }, {
     "id" : 25136,
     "titulo" : "OMO Sabão Em Pó Lavagem Perfeita 2.2Kg",
@@ -1895,7 +2611,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08R9XTH39?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:52"
+    "dataOferta" : "30/06/2026 11:52",
+    "destaque" : false
   }, {
     "id" : 24951,
     "titulo" : "Omo Sabão Líquido Lavagem Perfeita 3L",
@@ -1907,7 +2624,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DTVN396?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:12"
+    "dataOferta" : "30/06/2026 11:12",
+    "destaque" : false
   }, {
     "id" : 24781,
     "titulo" : "OMO Sabão Líquido Refil Omo Lavagem Perfeita Refil 900Ml",
@@ -1919,7 +2637,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07QCVG94Q?tag=curadomus-20",
     "grupo" : "Saúde e Bem-Estar",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 13:29"
+    "dataOferta" : "29/06/2026 13:29",
+    "destaque" : false
+  }, {
+    "id" : 25189,
+    "titulo" : "Oral-B Escova de Dente Clean Indicator, 4 Unidades",
+    "descricao" : "Oral-B Escova de Dente Clean Indicator, 4 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/61f8eFcG-IL._AC_SL1200_.jpg",
+    "precoOriginal" : " 30,73",
+    "precoPromocao" : " 23,49",
+    "tag" : "-23%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07FT5X4FV?tag=curadomus-20",
+    "grupo" : "Casa",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:32",
+    "destaque" : false
   }, {
     "id" : 24792,
     "titulo" : "Os quatro amores",
@@ -1931,7 +2663,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8578601955?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:03"
+    "dataOferta" : "29/06/2026 18:03",
+    "destaque" : false
   }, {
     "id" : 24894,
     "titulo" : "Paddington",
@@ -1943,7 +2676,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800504?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:59"
+    "dataOferta" : "30/06/2026 10:59",
+    "destaque" : false
   }, {
     "id" : 24906,
     "titulo" : "Paddington vai ao circo | Tradução altamente recomendável FNLIJ 2025",
@@ -1955,7 +2689,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800881?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:03"
+    "dataOferta" : "30/06/2026 11:03",
+    "destaque" : false
   }, {
     "id" : 24985,
     "titulo" : "Pais & Filhos - Caiu Perdeu, 54 Pçs, idade mínima recomendada - 6 anos",
@@ -1967,7 +2702,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07LHC55HY?tag=curadomus-20",
     "grupo" : "Brinquedos e Jogos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:20"
+    "dataOferta" : "30/06/2026 11:20",
+    "destaque" : false
+  }, {
+    "id" : 25168,
+    "titulo" : "Palavra sagrada poesia encantada",
+    "descricao" : "Palavra sagrada poesia encantada",
+    "imagem" : "https://m.media-amazon.com/images/I/61TK65AdSeL._SL1000_.jpg",
+    "precoOriginal" : " 52,90",
+    "precoPromocao" : " 37,90",
+    "tag" : "-28%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8538301217?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:26",
+    "destaque" : false
   }, {
     "id" : 24769,
     "titulo" : "PAMPERS SAB LIQ CPO GLICERINA 200ml",
@@ -1979,7 +2728,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CPT8CMSM?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 13:26"
+    "dataOferta" : "29/06/2026 13:26",
+    "destaque" : false
   }, {
     "id" : 25007,
     "titulo" : "PAMPERS SAB LIQ CPO GLICERINA 400ml",
@@ -1991,7 +2741,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CPTB83ZW?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:24"
+    "dataOferta" : "30/06/2026 11:24",
+    "destaque" : false
   }, {
     "id" : 25038,
     "titulo" : "Papa Bolinhas Portátil, para remoção de bolinhas das roupas, CST0146, Flash Limp",
@@ -2003,7 +2754,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07NQ8DTKQ?tag=curadomus-20",
     "grupo" : "Saúde e Bem-Estar",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:30"
+    "dataOferta" : "30/06/2026 11:30",
+    "destaque" : false
   }, {
     "id" : 24941,
     "titulo" : "Passeio na fazenda",
@@ -2015,7 +2767,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508177798?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:10"
+    "dataOferta" : "30/06/2026 11:10",
+    "destaque" : false
   }, {
     "id" : 25087,
     "titulo" : "Percarbonato de Sódio 100% Puro – Removedor de Manchas e Multiuso de Limpeza (Embalagem pode sofrer variações)",
@@ -2027,7 +2780,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GPN6CNRT?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:42"
+    "dataOferta" : "30/06/2026 11:42",
+    "destaque" : false
   }, {
     "id" : 24911,
     "titulo" : "Percarbonato de Sódio 1kg 100% Puro Tira Manchas em Pó Sem Cloro, Biodegradável e Seguro para Roupas Brancas, Coloridas e Limpeza Doméstica",
@@ -2039,7 +2793,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GJXCLVB9?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:04"
+    "dataOferta" : "30/06/2026 11:04",
+    "destaque" : false
   }, {
     "id" : 25128,
     "titulo" : "Percarbonato de Sódio 1kg 100% Puro Tira Manchas em Pó Sem Cloro, Biodegradável e Seguro para Roupas Brancas, Coloridas e Limpeza Doméstica Calisul",
@@ -2051,7 +2806,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FWCTHSWQ?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:51"
+    "dataOferta" : "30/06/2026 11:51",
+    "destaque" : false
+  }, {
+    "id" : 25181,
+    "titulo" : "Perigoso! Este livro contém coelhos!",
+    "descricao" : "Perigoso! Este livro contém coelhos!",
+    "imagem" : "https://m.media-amazon.com/images/I/71HsNbyBPBL._SL1200_.jpg",
+    "precoOriginal" : " 39,90",
+    "precoPromocao" : " 18,09",
+    "tag" : "-54%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6526113427?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:30",
+    "destaque" : true
   }, {
     "id" : 25008,
     "titulo" : "Pneu 185/65R15 aro 15 Barum Bravuris 5HM 88H By Continental",
@@ -2063,7 +2832,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B096YVD7RX?tag=curadomus-20",
     "grupo" : "Automotivo",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:25"
+    "dataOferta" : "30/06/2026 11:25",
+    "destaque" : false
   }, {
     "id" : 25109,
     "titulo" : "Polidor para Inox Electrolux 200ml",
@@ -2075,7 +2845,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0831R2MF5?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:47"
+    "dataOferta" : "30/06/2026 11:47",
+    "destaque" : false
   }, {
     "id" : 25046,
     "titulo" : "Pollyanna",
@@ -2087,7 +2858,34 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/859520117X?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:32"
+    "dataOferta" : "30/06/2026 11:32",
+    "destaque" : false
+  }, {
+    "id" : 25166,
+    "titulo" : "Poppy e sam: que horas são?",
+    "descricao" : "Poppy e sam: que horas são?",
+    "imagem" : "https://m.media-amazon.com/images/I/710sSb6IKlL._SL1000_.jpg",
+    "precoOriginal" : " 89,90",
+    "precoPromocao" : " 65,38",
+    "tag" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/1474976301?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:26",
+    "destaque" : false
+  }, {
+    "id" : 25171,
+    "titulo" : "Por favor, obrigado, desculpe",
+    "descricao" : "Por favor, obrigado, desculpe",
+    "imagem" : "https://m.media-amazon.com/images/I/A15thobD+vL._SL1500_.jpg",
+    "precoOriginal" : " 67,90",
+    "precoPromocao" : " 44,79",
+    "tag" : "-34%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/857412107X?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:27",
+    "destaque" : false
   }, {
     "id" : 24958,
     "titulo" : "Posso brincar também? (Nova edição)",
@@ -2099,7 +2897,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069760?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:14"
+    "dataOferta" : "30/06/2026 11:14",
+    "destaque" : false
   }, {
     "id" : 25040,
     "titulo" : "Pote Térmico Kids 295ml Sereia Contigo",
@@ -2111,7 +2910,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B096N1ZQD4?tag=curadomus-20",
     "grupo" : "Cozinha",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:31"
+    "dataOferta" : "30/06/2026 11:31",
+    "destaque" : false
   }, {
     "id" : 24959,
     "titulo" : "Preparado para brincar lá fora?",
@@ -2123,7 +2923,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574068756?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:15"
+    "dataOferta" : "30/06/2026 11:15",
+    "destaque" : false
   }, {
     "id" : 25004,
     "titulo" : "Primeiro dicionário escolar - Língua Portuguesa",
@@ -2135,7 +2936,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8504014096?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:24"
+    "dataOferta" : "30/06/2026 11:24",
+    "destaque" : false
   }, {
     "id" : 25110,
     "titulo" : "Protetor Solar Corpo e Rosto SUNDOWN® Praia e Piscina FPS 70, 200mL",
@@ -2147,7 +2949,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07G3BVVZW?tag=curadomus-20",
     "grupo" : "Beleza",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:47"
+    "dataOferta" : "30/06/2026 11:47",
+    "destaque" : false
   }, {
     "id" : 25013,
     "titulo" : "Píppi a bordo",
@@ -2159,7 +2962,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067628?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:26"
+    "dataOferta" : "30/06/2026 11:26",
+    "destaque" : false
   }, {
     "id" : 25014,
     "titulo" : "Píppi Meialonga (Edição revista e atualizada)",
@@ -2171,7 +2975,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6581776041?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:26"
+    "dataOferta" : "30/06/2026 11:26",
+    "destaque" : false
   }, {
     "id" : 24925,
     "titulo" : "Píppi nos mares do sul",
@@ -2183,7 +2988,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067326?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:07"
+    "dataOferta" : "30/06/2026 11:07",
+    "destaque" : false
   }, {
     "id" : 24947,
     "titulo" : "Que barulho é este?",
@@ -2195,7 +3001,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508177801?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:11"
+    "dataOferta" : "30/06/2026 11:11",
+    "destaque" : false
   }, {
     "id" : 24869,
     "titulo" : "Rikki-Tikki-Tavi",
@@ -2207,7 +3014,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6585310438?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:37"
+    "dataOferta" : "30/06/2026 10:37",
+    "destaque" : false
   }, {
     "id" : 24888,
     "titulo" : "Rosquinhas Para Amamentação Absorventes Peito Lavável - 4 Un",
@@ -2219,7 +3027,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D8LPBJFX?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:52"
+    "dataOferta" : "30/06/2026 10:52",
+    "destaque" : false
   }, {
     "id" : 25018,
     "titulo" : "Rouba monte silábico: Quantas sílabas tem a sua figura? E a do seu adversário?",
@@ -2231,7 +3040,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556163651?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:27"
+    "dataOferta" : "30/06/2026 11:27",
+    "destaque" : false
   }, {
     "id" : 25053,
     "titulo" : "Sabonete Líquido de Glicerina Baunilha JOHNSON'S® Baby 400mL",
@@ -2243,7 +3053,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GMJT9MRJ?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:33"
+    "dataOferta" : "30/06/2026 11:33",
+    "destaque" : false
   }, {
     "id" : 25031,
     "titulo" : "Sabonete Líquido Para Bebês Protex Baby Glicerina Natural 800ml",
@@ -2255,7 +3066,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D1DSFV8C?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:29"
+    "dataOferta" : "30/06/2026 11:29",
+    "destaque" : false
   }, {
     "id" : 25077,
     "titulo" : "Safety 1st, Banheira Smile com Suporte, Aqua Green",
@@ -2267,7 +3079,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09WFZ66SL?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:39"
+    "dataOferta" : "30/06/2026 11:39",
+    "destaque" : false
   }, {
     "id" : 24880,
     "titulo" : "Safety 1st, Cadeirinha Multifix, 0 a 36kg, com Isofix, Black Urban",
@@ -2279,7 +3092,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09BDZZV23?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:43"
+    "dataOferta" : "30/06/2026 10:43",
+    "destaque" : false
   }, {
     "id" : 24917,
     "titulo" : "Safety 1st, Travel System Magnific Trio, Grey Denin",
@@ -2291,7 +3105,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CRZ8FZBP?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:05"
+    "dataOferta" : "30/06/2026 11:05",
+    "destaque" : false
   }, {
     "id" : 25113,
     "titulo" : "Salton Espumante Brut 750 Ml",
@@ -2303,7 +3118,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B00RGKPDT0?tag=curadomus-20",
     "grupo" : "Bebidas Alcoólicas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:48"
+    "dataOferta" : "30/06/2026 11:48",
+    "destaque" : false
   }, {
     "id" : 24878,
     "titulo" : "Salton Espumante Demi Sec 750 Ml",
@@ -2315,7 +3131,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07XTQT7HB?tag=curadomus-20",
     "grupo" : "Bebidas Alcoólicas",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:42"
+    "dataOferta" : "30/06/2026 10:42",
+    "destaque" : false
   }, {
     "id" : 24965,
     "titulo" : "Samsung Lavadora de Roupas Digital Inverter Porta Black WW11T Inox 11kg 127V",
@@ -2327,7 +3144,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D9YS13X6?tag=curadomus-20",
     "grupo" : "Eletrodomésticos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:16"
+    "dataOferta" : "30/06/2026 11:16",
+    "destaque" : false
+  }, {
+    "id" : 25167,
+    "titulo" : "Se você quiser ver uma baleia",
+    "descricao" : "Se você quiser ver uma baleia",
+    "imagem" : "https://m.media-amazon.com/images/I/A1hanTrRsvL._SL1500_.jpg",
+    "precoOriginal" : " 69,90",
+    "precoPromocao" : " 53,88",
+    "tag" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8566642139?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:26",
+    "destaque" : false
   }, {
     "id" : 25142,
     "titulo" : "Secador de Cabelos Philco Bivolt 2200W PSC2450 Íons Tourmaline Bivolt",
@@ -2339,7 +3170,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D9R7NYPG?tag=curadomus-20",
     "grupo" : "Beleza",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:54"
+    "dataOferta" : "30/06/2026 11:54",
+    "destaque" : false
   }, {
     "id" : 24876,
     "titulo" : "Smart TV Stick Full HD Intelbras",
@@ -2351,7 +3183,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CH3QJBSB?tag=curadomus-20",
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:41"
+    "dataOferta" : "30/06/2026 10:41",
+    "destaque" : false
   }, {
     "id" : 25085,
     "titulo" : "soundcore P30i da Anker, Fone de Ouvido Bluetooth 5.4 com Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
@@ -2363,7 +3196,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CRTYZG5C?tag=curadomus-20",
     "grupo" : "Eletrônicos e Tecnologia",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:41"
+    "dataOferta" : "30/06/2026 11:41",
+    "destaque" : false
   }, {
     "id" : 24901,
     "titulo" : "Sr. Boaventura",
@@ -2375,7 +3209,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8595085684?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:01"
+    "dataOferta" : "30/06/2026 11:01",
+    "destaque" : false
   }, {
     "id" : 25129,
     "titulo" : "STABILO point 88 Caneta Ponta Fina – Estojo com 15 unidades – Em 15 cores.",
@@ -2387,7 +3222,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077PY5ZDN?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:51"
+    "dataOferta" : "30/06/2026 11:51",
+    "destaque" : false
   }, {
     "id" : 25130,
     "titulo" : "STABILO Swing Cool Pastel Marca Texto – Estojo com 6 unidades – Em 6 cores pasteis",
@@ -2399,7 +3235,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07PFXRG29?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:51"
+    "dataOferta" : "30/06/2026 11:51",
+    "destaque" : false
   }, {
     "id" : 25074,
     "titulo" : "STAEDTLER Giz de Cera, Jumbo com 12 cores - 2299 C12 PE,Multicolorido",
@@ -2411,7 +3248,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09TRVN94V?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:39"
+    "dataOferta" : "30/06/2026 11:39",
+    "destaque" : false
   }, {
     "id" : 25057,
     "titulo" : "Stanley Copo Quencher 2.0 | 887 ml",
@@ -2423,7 +3261,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BTHRMZV4?tag=curadomus-20",
     "grupo" : "Cozinha",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:35"
+    "dataOferta" : "30/06/2026 11:35",
+    "destaque" : false
+  }, {
+    "id" : 25204,
+    "titulo" : "Stanley Copo Quencher 2.0 | 887 ml",
+    "descricao" : "Stanley Copo Quencher 2.0 | 887 ml",
+    "imagem" : "https://m.media-amazon.com/images/I/41LwDmsAQqL._AC_SL1500_.jpg",
+    "precoOriginal" : " 319,00",
+    "precoPromocao" : " 201,60",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DY2NSYX6?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:35",
+    "destaque" : false
   }, {
     "id" : 25122,
     "titulo" : "SUGGAR FOGÃO COOK START PRETO MESA INOX 5 BOCAS 2 QUEIMADORES FAMÍLIA ACENDIMENTO AUTOMÁTICO FGICS520PT",
@@ -2435,7 +3287,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GPVLMP5D?tag=curadomus-20",
     "grupo" : "Eletrodomésticos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:49"
+    "dataOferta" : "30/06/2026 11:49",
+    "destaque" : false
   }, {
     "id" : 25132,
     "titulo" : "Suporte de Parede LUMAI em Aço Inoxidável com 5 Ganchos para Roupas e Toalhas, Instalação Adesiva ou Parafuso, Resistente à Ferrugem - Prata",
@@ -2447,7 +3300,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BVN198SY?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:52"
+    "dataOferta" : "30/06/2026 11:52",
+    "destaque" : false
   }, {
     "id" : 24799,
     "titulo" : "Tablete de Chocolate Talento Vermelho Avelã 85g c/12 - Garoto",
@@ -2459,7 +3313,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BFFTLMY9?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 18:06"
+    "dataOferta" : "29/06/2026 18:06",
+    "destaque" : false
   }, {
     "id" : 25037,
     "titulo" : "Tapete de Atividades Musical com Piano para Bebê, Arco de Brinquedos Interativos, Estampado e Cores Vibrantes (Verde)",
@@ -2471,7 +3326,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CX9Z6Z4H?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:30"
+    "dataOferta" : "30/06/2026 11:30",
+    "destaque" : false
   }, {
     "id" : 24924,
     "titulo" : "Tempera Guache 6 Cores 15ml, Acrilex, 020060000, Multicor",
@@ -2483,7 +3339,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077PZZTCN?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:07"
+    "dataOferta" : "30/06/2026 11:07",
+    "destaque" : false
   }, {
     "id" : 24919,
     "titulo" : "Tinta Fosca para Artesanato com 6 Cores, Acrilex, 032000000, Multicor",
@@ -2495,7 +3352,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077QBNC9H?tag=curadomus-20",
     "grupo" : "Papelaria e Escritório",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:06"
+    "dataOferta" : "30/06/2026 11:06",
+    "destaque" : false
   }, {
     "id" : 24920,
     "titulo" : "Tratado da oração e da meditação - Sem orelhas",
@@ -2507,7 +3365,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8532671373?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:06"
+    "dataOferta" : "30/06/2026 11:06",
+    "destaque" : false
   }, {
     "id" : 24990,
     "titulo" : "Travel System Cosco Kids, Reverse Duo, 0 a 15kg, Preto Bronze",
@@ -2519,7 +3378,8 @@
     "linkAfiliado" : "https://amzn.to/4g7F2Nd",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:21"
+    "dataOferta" : "30/06/2026 11:21",
+    "destaque" : false
   }, {
     "id" : 24992,
     "titulo" : "Travel System Safety 1st, Spark Plus Trio, com Isofix, 0 meses a 22 kg, Black Graphite",
@@ -2531,7 +3391,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DMTGT96Z?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:22"
+    "dataOferta" : "30/06/2026 11:22",
+    "destaque" : false
   }, {
     "id" : 24950,
     "titulo" : "Uff, o ursinho",
@@ -2543,7 +3404,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8533617690?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:12"
+    "dataOferta" : "30/06/2026 11:12",
+    "destaque" : false
   }, {
     "id" : 24928,
     "titulo" : "Um Dia Muito Mal-Humorado",
@@ -2555,7 +3417,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8538071025?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:08"
+    "dataOferta" : "30/06/2026 11:08",
+    "destaque" : false
   }, {
     "id" : 24860,
     "titulo" : "Um Natal Feliz",
@@ -2567,7 +3430,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/658531056X?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 10:28"
+    "dataOferta" : "30/06/2026 10:28",
+    "destaque" : false
   }, {
     "id" : 25055,
     "titulo" : "Uma lagarta muito comilona",
@@ -2579,7 +3443,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6554850929?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:35"
+    "dataOferta" : "30/06/2026 11:35",
+    "destaque" : false
   }, {
     "id" : 25068,
     "titulo" : "Vai dar tudo certo",
@@ -2591,7 +3456,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556893455?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:38"
+    "dataOferta" : "30/06/2026 11:38",
+    "destaque" : false
   }, {
     "id" : 24770,
     "titulo" : "Veja Limpador Perfumado Serras Brasileiras 2L",
@@ -2603,7 +3469,34 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07FGXYH9R?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "29/06/2026 13:26"
+    "dataOferta" : "29/06/2026 13:26",
+    "destaque" : false
+  }, {
+    "id" : 25200,
+    "titulo" : "Vitafor - Creatine Creatina Monohidratada - 300g",
+    "descricao" : "Vitafor - Creatine Creatina Monohidratada - 300g",
+    "imagem" : "https://m.media-amazon.com/images/I/51MhtOlCGVL._AC_SL1080_.jpg",
+    "precoOriginal" : " 109,00",
+    "precoPromocao" : " 72,00",
+    "tag" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07LCTTF8V?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:34",
+    "destaque" : false
+  }, {
+    "id" : 25179,
+    "titulo" : "Viveiros De Pássaros",
+    "descricao" : "Viveiros De Pássaros",
+    "imagem" : "https://m.media-amazon.com/images/I/81tFgmxnwsL._SL1481_.jpg",
+    "precoOriginal" : " 44,90",
+    "precoPromocao" : " 32,22",
+    "tag" : "-28%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8562500399?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:29",
+    "destaque" : false
   }, {
     "id" : 24962,
     "titulo" : "Vou dar um susto no meu amigo",
@@ -2615,7 +3508,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574068764?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:15"
+    "dataOferta" : "30/06/2026 11:15",
+    "destaque" : false
   }, {
     "id" : 24914,
     "titulo" : "WAP Aspirador de Pó Automotivo Car 12V2, Portátil, 420ml, com Recipiente Removível e Filtro Lavável, 180W 12VDC",
@@ -2627,7 +3521,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CLDRS18S?tag=curadomus-20",
     "grupo" : "Automotivo",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:04"
+    "dataOferta" : "30/06/2026 11:04",
+    "destaque" : false
   }, {
     "id" : 25051,
     "titulo" : "WAP Aspirador de Pó Robô ROBOT W90 3 em 1, Automático, 250ml, Sistema Antiqueda e Rodas Emborrachadas, 30W 3,6VDC Bivolt",
@@ -2639,7 +3534,8 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0B9PSBNYL?tag=curadomus-20",
     "grupo" : "Eletrodomésticos",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:33"
+    "dataOferta" : "30/06/2026 11:33",
+    "destaque" : false
   }, {
     "id" : 25065,
     "titulo" : "WAP Fritadeira Elétrica Air Fryer OVEN DIGITAL 12 Litros, com 10 Funções, sem Óleo, Antiaderente, 2000W 220V",
@@ -2651,6 +3547,20 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CH5PR9G9?tag=curadomus-20",
     "grupo" : "Eletroportáteis",
     "ativo" : true,
-    "dataOferta" : "30/06/2026 11:37"
+    "dataOferta" : "30/06/2026 11:37",
+    "destaque" : true
+  }, {
+    "id" : 25215,
+    "titulo" : "Whisky Johnnie Walker Green Label 750ml",
+    "descricao" : "Whisky Johnnie Walker Green Label 750ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51o-TPxHPiL._AC_SL1200_.jpg",
+    "precoOriginal" : " 576,90",
+    "precoPromocao" : " 449,99",
+    "tag" : "-21%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07ZJWSKS9?tag=curadomus-20",
+    "grupo" : "Bebidas Alcoólicas",
+    "ativo" : true,
+    "dataOferta" : "30/06/2026 13:37",
+    "destaque" : false
   } ]
 }
