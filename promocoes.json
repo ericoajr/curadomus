@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "02/07/2026 11:01",
+  "ultimaAtualizacao" : "02/07/2026 12:11",
   "ofertas" : [ {
     "id" : 26404,
     "titulo" : "3 Corações Cappuccino 3Corações Classic - 200G",
@@ -71,7 +71,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25730,
+    "id" : 26537,
     "titulo" : "A divina comédia - Box com 3 livros",
     "descricao" : "A divina comédia - Box com 3 livros",
     "imagem" : "https://m.media-amazon.com/images/I/61NSQSDR2+S._SL1000_.jpg",
@@ -81,7 +81,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08Y34HQGT?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:22",
+    "dataOferta" : "02/07/2026 12:05",
     "destaque" : true,
     "loja" : "Amazon"
   }, {
@@ -141,6 +141,20 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
+    "id" : 26531,
+    "titulo" : "A história do Menino Jesus",
+    "descricao" : "A história do Menino Jesus",
+    "imagem" : "https://m.media-amazon.com/images/I/91UxSSp4l8L._SL1500_.jpg",
+    "precoOriginal" : " 19,50",
+    "precoPromocao" : " 12,75",
+    "tag" : "-34%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8535619739?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "02/07/2026 12:03",
+    "destaque" : false,
+    "loja" : "Amazon"
+  }, {
     "id" : 25882,
     "titulo" : "A ilha negra",
     "descricao" : "A ilha negra",
@@ -197,7 +211,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25713,
+    "id" : 26522,
     "titulo" : "A porta aberta",
     "descricao" : "A porta aberta",
     "imagem" : "https://m.media-amazon.com/images/I/71URzqlvLEL._SL1500_.jpg",
@@ -207,7 +221,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6585310284?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:16",
+    "dataOferta" : "02/07/2026 12:01",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -225,17 +239,17 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25721,
+    "id" : 26529,
     "titulo" : "A Sopa Supimpa",
     "descricao" : "A Sopa Supimpa",
     "imagem" : "https://m.media-amazon.com/images/I/91WG42YiCgL._SL1500_.jpg",
     "precoOriginal" : " 54,00",
-    "precoPromocao" : " 52,52",
+    "precoPromocao" : " 43,66",
     "tag" : "-19%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8506087716?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:18",
+    "dataOferta" : "02/07/2026 12:02",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -295,7 +309,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25768,
+    "id" : 26569,
     "titulo" : "Ajax Limpador Festa Das Flores Lavanda 3 8L",
     "descricao" : "Ajax Limpador Festa Das Flores Lavanda 3 8L",
     "imagem" : "https://m.media-amazon.com/images/I/61gXffBz3GL._AC_SL1500_.jpg",
@@ -305,25 +319,11 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08MW9CCR4?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:40",
+    "dataOferta" : "02/07/2026 12:11",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25741,
-    "titulo" : "Aladim e a lâmpada maravilhosa",
-    "descricao" : "Aladim e a lâmpada maravilhosa",
-    "imagem" : "https://m.media-amazon.com/images/I/61bpki3ACJL._SL1200_.jpg",
-    "precoOriginal" : " 102,00",
-    "precoPromocao" : " 72,90",
-    "tag" : "-28%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/8526285831?tag=curadomus-20",
-    "grupo" : "Livros",
-    "ativo" : true,
-    "dataOferta" : "01/07/2026 09:26",
-    "destaque" : false,
-    "loja" : "Amazon"
-  }, {
-    "id" : 25738,
+    "id" : 26545,
     "titulo" : "Alice no país das maravilhas",
     "descricao" : "Alice no país das maravilhas",
     "imagem" : "https://m.media-amazon.com/images/I/71iQHP8dueL._SL1500_.jpg",
@@ -333,7 +333,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526278436?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:25",
+    "dataOferta" : "02/07/2026 12:06",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -519,7 +519,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25712,
+    "id" : 26521,
     "titulo" : "As aventuras de Caramelo: O descobrimento do Brasil - V.1",
     "descricao" : "As aventuras de Caramelo: O descobrimento do Brasil - V.1",
     "imagem" : "https://m.media-amazon.com/images/I/71T2j9YmSHL._SL1500_.jpg",
@@ -529,7 +529,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6585310055?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:15",
+    "dataOferta" : "02/07/2026 12:01",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -547,7 +547,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25740,
+    "id" : 26547,
     "titulo" : "As aventuras de Tom Sawyer",
     "descricao" : "As aventuras de Tom Sawyer",
     "imagem" : "https://m.media-amazon.com/images/I/81yMVzw9eTL._SL1500_.jpg",
@@ -557,7 +557,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526257285?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:25",
+    "dataOferta" : "02/07/2026 12:07",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -1653,7 +1653,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25760,
+    "id" : 26564,
     "titulo" : "Creme Dental Colgate Total Anti Tártaro 3 unidades 90g",
     "descricao" : "Creme Dental Colgate Total Anti Tártaro 3 unidades 90g",
     "imagem" : "https://m.media-amazon.com/images/I/618cxCZ8wHL._AC_SL1000_.jpg",
@@ -1663,7 +1663,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08BGQY8RN?tag=curadomus-20",
     "grupo" : "Saúde e Bem-Estar",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:36",
+    "dataOferta" : "02/07/2026 12:10",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -1807,7 +1807,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25732,
+    "id" : 26539,
     "titulo" : "Dom Quixote",
     "descricao" : "Dom Quixote",
     "imagem" : "https://m.media-amazon.com/images/I/71PtUNDep9L._SL1500_.jpg",
@@ -1817,7 +1817,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526282107?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:23",
+    "dataOferta" : "02/07/2026 12:05",
     "destaque" : true,
     "loja" : "Amazon"
   }, {
@@ -1849,7 +1849,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25770,
+    "id" : 26570,
     "titulo" : "Downy Amaciante Concentrado Brisa Intenso 1.5L, Rende 6L",
     "descricao" : "Downy Amaciante Concentrado Brisa Intenso 1.5L, Rende 6L",
     "imagem" : "https://m.media-amazon.com/images/I/61ecwWagIwL._AC_SL1200_.jpg",
@@ -1859,7 +1859,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09Q2RKTR8?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:44",
+    "dataOferta" : "02/07/2026 12:11",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -1891,7 +1891,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25722,
+    "id" : 26530,
     "titulo" : "Ei, Ei, Ei Vanderlei",
     "descricao" : "Ei, Ei, Ei Vanderlei",
     "imagem" : "https://m.media-amazon.com/images/I/81O2BpQ+C8L._SL1500_.jpg",
@@ -1901,7 +1901,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8506087694?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:18",
+    "dataOferta" : "02/07/2026 12:03",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -2577,17 +2577,17 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25729,
+    "id" : 26536,
     "titulo" : "Guindaste: Janelas Divertidas",
     "descricao" : "Guindaste: Janelas Divertidas",
     "imagem" : "https://m.media-amazon.com/images/I/71xAJjVazfL._SL1080_.jpg",
     "precoOriginal" : " 89,90",
-    "precoPromocao" : " 65,38",
-    "tag" : "-27%",
+    "precoPromocao" : " 52,30",
+    "tag" : "-41%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/1805315358?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:21",
+    "dataOferta" : "02/07/2026 12:04",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -2801,17 +2801,17 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25746,
+    "id" : 26552,
     "titulo" : "Histórias à brasileira, vol. 4: A donzela guerreira e outras",
     "descricao" : "Histórias à brasileira, vol. 4: A donzela guerreira e outras",
     "imagem" : "https://m.media-amazon.com/images/I/A1vnu545TAS._SL1500_.jpg",
     "precoOriginal" : " 87,90",
-    "precoPromocao" : " 72,96",
-    "tag" : "-16%",
+    "precoPromocao" : " 61,53",
+    "tag" : "-30%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574064149?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:27",
+    "dataOferta" : "02/07/2026 12:08",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -2969,7 +2969,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25761,
+    "id" : 26565,
     "titulo" : "Johnson's Baby Sabonete Líquido Recém Nascido, 200ml",
     "descricao" : "Johnson's Baby Sabonete Líquido Recém Nascido, 200ml",
     "imagem" : "https://m.media-amazon.com/images/I/61RtxYSf-dL._AC_SL1500_.jpg",
@@ -2979,7 +2979,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07D2FKWBT?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:37",
+    "dataOferta" : "02/07/2026 12:10",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -3011,17 +3011,17 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25747,
+    "id" : 26553,
     "titulo" : "Kalassi Snack De Arroz Queijo E Cebola Sem Glúten Pacote 1 X 100G",
     "descricao" : "Kalassi Snack De Arroz Queijo E Cebola Sem Glúten Pacote 1 X 100G",
     "imagem" : "https://m.media-amazon.com/images/I/51WSPV3uzYL._AC_SL1200_.jpg",
     "precoOriginal" : " 26,05",
-    "precoPromocao" : " 18,70",
-    "tag" : "-28%",
+    "precoPromocao" : " 20,99",
+    "tag" : "-19%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07YGTGSZW?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:27",
+    "dataOferta" : "02/07/2026 12:08",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -3067,7 +3067,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25756,
+    "id" : 26560,
     "titulo" : "L'OR Café Torrado E Moído Equilibrado Torras 100% Arábica L'Or Sachê 250 G",
     "descricao" : "L'OR Café Torrado E Moído Equilibrado Torras 100% Arábica L'Or Sachê 250 G",
     "imagem" : "https://m.media-amazon.com/images/I/51jK3I7YTuL._AC_SL1000_.jpg",
@@ -3077,7 +3077,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C6BLQD7G?tag=curadomus-20",
     "grupo" : "Alimentos e Bebidas",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:32",
+    "dataOferta" : "02/07/2026 12:09",
     "destaque" : true,
     "loja" : "Amazon"
   }, {
@@ -3207,7 +3207,7 @@
     "destaque" : true,
     "loja" : "Amazon"
   }, {
-    "id" : 25715,
+    "id" : 26523,
     "titulo" : "Limpador Perfumado Veja Banho de Cheiro 2L",
     "descricao" : "Limpador Perfumado Veja Banho de Cheiro 2L",
     "imagem" : "https://m.media-amazon.com/images/I/61jpqa9ZmcL._AC_SL1500_.jpg",
@@ -3217,7 +3217,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C7WGXZ8Q?tag=curadomus-20",
     "grupo" : "Casa",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:16",
+    "dataOferta" : "02/07/2026 12:02",
     "destaque" : true,
     "loja" : "Amazon"
   }, {
@@ -3571,7 +3571,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25727,
+    "id" : 26534,
     "titulo" : "Mitologia grega: Uma introdução para crianças",
     "descricao" : "Mitologia grega: Uma introdução para crianças",
     "imagem" : "https://m.media-amazon.com/images/I/81VFNUKVmYL._SL1172_.jpg",
@@ -3581,7 +3581,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8578882164?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:20",
+    "dataOferta" : "02/07/2026 12:04",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -3963,7 +3963,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25749,
+    "id" : 26555,
     "titulo" : "O Coelho de Veludo",
     "descricao" : "O Coelho de Veludo",
     "imagem" : "https://m.media-amazon.com/images/I/71H0d8sDDJL._SL1500_.jpg",
@@ -3973,7 +3973,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6558885301?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:28",
+    "dataOferta" : "02/07/2026 12:08",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4019,7 +4019,7 @@
     "destaque" : true,
     "loja" : "Amazon"
   }, {
-    "id" : 25734,
+    "id" : 26541,
     "titulo" : "O jardim secreto",
     "descricao" : "O jardim secreto",
     "imagem" : "https://m.media-amazon.com/images/I/71BYkFds5sL._SL1500_.jpg",
@@ -4029,21 +4029,21 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526268082?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:23",
+    "dataOferta" : "02/07/2026 12:06",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25742,
+    "id" : 26548,
     "titulo" : "O Livro Da Selva",
     "descricao" : "O Livro Da Selva",
     "imagem" : "https://m.media-amazon.com/images/I/91Y22uwbYQL._SL1500_.jpg",
     "precoOriginal" : " 102,00",
-    "precoPromocao" : " 65,90",
-    "tag" : "-35%",
+    "precoPromocao" : " 68,73",
+    "tag" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526272276?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:26",
+    "dataOferta" : "02/07/2026 12:07",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4075,7 +4075,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25739,
+    "id" : 26546,
     "titulo" : "O príncipe e o mendigo",
     "descricao" : "O príncipe e o mendigo",
     "imagem" : "https://m.media-amazon.com/images/I/81p6aZT8k6L._SL1500_.jpg",
@@ -4085,7 +4085,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526283480?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:25",
+    "dataOferta" : "02/07/2026 12:07",
     "destaque" : true,
     "loja" : "Amazon"
   }, {
@@ -4117,7 +4117,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25743,
+    "id" : 26549,
     "titulo" : "O rei Artur e os cavaleiros da Távola Redonda",
     "descricao" : "O rei Artur e os cavaleiros da Távola Redonda",
     "imagem" : "https://m.media-amazon.com/images/I/81PtTOdP+qL._SL1500_.jpg",
@@ -4127,7 +4127,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526285521?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:26",
+    "dataOferta" : "02/07/2026 12:07",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4187,7 +4187,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25736,
+    "id" : 26543,
     "titulo" : "Odisseia",
     "descricao" : "Odisseia",
     "imagem" : "https://m.media-amazon.com/images/I/91MiB9LvikL._SL1500_.jpg",
@@ -4197,7 +4197,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526268120?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:23",
+    "dataOferta" : "02/07/2026 12:06",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4313,7 +4313,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25744,
+    "id" : 26550,
     "titulo" : "Os doze trabalhos de Hércules",
     "descricao" : "Os doze trabalhos de Hércules",
     "imagem" : "https://m.media-amazon.com/images/I/914kFGgMVVL._SL1500_.jpg",
@@ -4323,11 +4323,11 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526268104?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:26",
+    "dataOferta" : "02/07/2026 12:07",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25737,
+    "id" : 26544,
     "titulo" : "Os miseráveis",
     "descricao" : "Os miseráveis",
     "imagem" : "https://m.media-amazon.com/images/I/91PmXoM5YGL._SL1500_.jpg",
@@ -4337,7 +4337,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526273752?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:25",
+    "dataOferta" : "02/07/2026 12:06",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4352,20 +4352,6 @@
     "grupo" : "Livros",
     "ativo" : true,
     "dataOferta" : "02/07/2026 11:00",
-    "destaque" : false,
-    "loja" : "Amazon"
-  }, {
-    "id" : 25733,
-    "titulo" : "Os três mosqueteiros",
-    "descricao" : "Os três mosqueteiros",
-    "imagem" : "https://m.media-amazon.com/images/I/718-yksedaL._SL1500_.jpg",
-    "precoOriginal" : " 102,00",
-    "precoPromocao" : " 65,44",
-    "tag" : "-35%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/8526283235?tag=curadomus-20",
-    "grupo" : "Livros",
-    "ativo" : true,
-    "dataOferta" : "01/07/2026 09:23",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4439,7 +4425,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25718,
+    "id" : 26526,
     "titulo" : "Parábolas do Senhor: O bom samaritano",
     "descricao" : "Parábolas do Senhor: O bom samaritano",
     "imagem" : "https://m.media-amazon.com/images/I/7143aDknmYL._SL1500_.jpg",
@@ -4449,7 +4435,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6589875219?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:17",
+    "dataOferta" : "02/07/2026 12:02",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4663,17 +4649,17 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25728,
+    "id" : 26535,
     "titulo" : "PRIMEIRAS PALAVRAS - PARA O DIA A DIA DAS CRIANÇAS",
     "descricao" : "PRIMEIRAS PALAVRAS - PARA O DIA A DIA DAS CRIANÇAS",
     "imagem" : "https://m.media-amazon.com/images/I/618ioIiJBHL._SL1000_.jpg",
     "precoOriginal" : " 99,90",
-    "precoPromocao" : " 72,65",
-    "tag" : "-27%",
+    "precoPromocao" : " 58,12",
+    "tag" : "-41%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/1474917178?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:20",
+    "dataOferta" : "02/07/2026 12:04",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4733,7 +4719,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25726,
+    "id" : 26533,
     "titulo" : "Quando me sinto irritado",
     "descricao" : "Quando me sinto irritado",
     "imagem" : "https://m.media-amazon.com/images/I/A17qd0yMf0L._SL1500_.jpg",
@@ -4743,7 +4729,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8538080709?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:20",
+    "dataOferta" : "02/07/2026 12:03",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4775,7 +4761,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25719,
+    "id" : 26527,
     "titulo" : "Que bicho será?",
     "descricao" : "Que bicho será?",
     "imagem" : "https://m.media-amazon.com/images/I/81gSPVHuC7L._SL1500_.jpg",
@@ -4785,22 +4771,22 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508181523?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:17",
+    "dataOferta" : "02/07/2026 12:02",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25735,
+    "id" : 26542,
     "titulo" : "Robin Hood",
     "descricao" : "Robin Hood",
     "imagem" : "https://m.media-amazon.com/images/I/91fm-PPcXgL._SL1500_.jpg",
     "precoOriginal" : " 102,00",
-    "precoPromocao" : " 64,38",
-    "tag" : "-36%",
+    "precoPromocao" : " 38,96",
+    "tag" : "-61%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526282204?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:23",
-    "destaque" : false,
+    "dataOferta" : "02/07/2026 12:06",
+    "destaque" : true,
     "loja" : "Amazon"
   }, {
     "id" : 26008,
@@ -4887,17 +4873,17 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25758,
+    "id" : 26562,
     "titulo" : "Sabonete Líquido Refil Glicerina Da Cabeça Aos Pés Johnson's Baby, 380ml",
     "descricao" : "Sabonete Líquido Refil Glicerina Da Cabeça Aos Pés Johnson's Baby, 380ml",
     "imagem" : "https://m.media-amazon.com/images/I/51Y016LQVeL._AC_SL1000_.jpg",
     "precoOriginal" : " 34,09",
-    "precoPromocao" : " 26,49",
-    "tag" : "-22%",
+    "precoPromocao" : " 20,96",
+    "tag" : "-38%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B085CZ2F4J?tag=curadomus-20",
     "grupo" : "Bebês",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:35",
+    "dataOferta" : "02/07/2026 12:09",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -4971,20 +4957,6 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25765,
-    "titulo" : "Salgadinho Batata Pringles Creme e Cebola 109g Lata",
-    "descricao" : "Salgadinho Batata Pringles Creme e Cebola 109g Lata",
-    "imagem" : "https://m.media-amazon.com/images/I/61fp8MtE3ML._AC_SL1417_.jpg",
-    "precoOriginal" : " 11,99",
-    "precoPromocao" : " 9,90",
-    "tag" : "-17%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BT4ZL8QW?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
-    "ativo" : true,
-    "dataOferta" : "01/07/2026 09:38",
-    "destaque" : false,
-    "loja" : "Amazon"
-  }, {
     "id" : 25961,
     "titulo" : "Salton Espumante Brut 750 Ml",
     "descricao" : "Salton Espumante Brut 750 Ml",
@@ -5027,7 +4999,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25748,
+    "id" : 26554,
     "titulo" : "Sempre Livre Absorvente Externo Adapt Plus Com Abas 32 Unidades",
     "descricao" : "Sempre Livre Absorvente Externo Adapt Plus Com Abas 32 Unidades",
     "imagem" : "https://m.media-amazon.com/images/I/81kOGE+lgIL._AC_SL1500_.jpg",
@@ -5037,7 +5009,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07GM25R4Z?tag=curadomus-20",
     "grupo" : "Saúde e Bem-Estar",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:28",
+    "dataOferta" : "02/07/2026 12:08",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -5237,17 +5209,17 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25745,
+    "id" : 26551,
     "titulo" : "Trsite Fim de Policarpo Quaresma Reencontro Infantil",
     "descricao" : "Trsite Fim de Policarpo Quaresma Reencontro Infantil",
     "imagem" : "https://m.media-amazon.com/images/I/61ofu9TFixL._SL1000_.jpg",
     "precoOriginal" : " 46,50",
-    "precoPromocao" : " 32,48",
-    "tag" : "-30%",
+    "precoPromocao" : " 36,90",
+    "tag" : "-20%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526264583?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:26",
+    "dataOferta" : "02/07/2026 12:07",
     "destaque" : false,
     "loja" : "Amazon"
   }, {
@@ -5405,7 +5377,7 @@
     "destaque" : false,
     "loja" : "Amazon"
   }, {
-    "id" : 25731,
+    "id" : 26538,
     "titulo" : "Vinte mil léguas submarinas",
     "descricao" : "Vinte mil léguas submarinas",
     "imagem" : "https://m.media-amazon.com/images/I/71WvnqpiFWL._SL1500_.jpg",
@@ -5415,7 +5387,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526251392?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "01/07/2026 09:22",
+    "dataOferta" : "02/07/2026 12:05",
     "destaque" : true,
     "loja" : "Amazon"
   }, {
