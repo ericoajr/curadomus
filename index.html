@@ -1,577 +1,237 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cura Domus - Curadoria para o Lar</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --primary-color: #2D6A4F;
-            --bg-color: #f5f2e9; /* Tom bege perfeitamente alinhado com as artes */
-            --text-color: #1A1A1A;
-            --card-bg: #ffffff;
-        }
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cura Domus — Curadoria e Ofertas para o Lar</title>
+<meta name="description" content="Curadoria de indicações e ofertas para famílias: beleza, utilidade e economia. Descontos verificados diariamente." />
+<meta property="og:title" content="Cura Domus — Curadoria para o Lar" />
+<meta property="og:description" content="Indicações e ofertas selecionadas para a sua família." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
 
-        body {
-            font-family: 'Inter', sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-color);
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            min-height: 100vh;
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        /* Estrutura Principal */
-        .main-wrapper {
-            width: 100%;
-            max-width: 960px; /* Largura ideal para leitura e navegação fluida */
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-        }
-
-        /* Cabeçalho Minimalista */
-        header {
-            text-align: center;
-            padding: 20px 0 5px 0;
-        }
-
-        .logo {
-            width: 100%;
-            max-width: 180px;
-            height: auto;
-            margin-bottom: 15px;
-        }
-
-        .tagline {
-            font-size: 1rem;
-            line-height: 1.5;
-            color: #4A4A4A;
-            max-width: 480px;
-            margin: 0 auto;
-        }
-
-        /* ==================== SEÇÃO DE COMUNIDADES ==================== */
-        .secao-comunidades {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            margin-bottom: 5px;
-        }
-
-        .titulo-comunidades {
-            font-size: 0.9rem;
-            font-weight: 700;
-            color: var(--primary-color);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-bottom: 4px;
-        }
-
-        .grid-comunidades {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 12px;
-        }
-
-        .link-nicho-bloco {
-            background: var(--card-bg);
-            border: 1px solid rgba(0,0,0,0.04);
-            border-radius: 14px;
-            padding: 10px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            text-decoration: none;
-            color: var(--text-color);
-            box-shadow: 0 4px 10px rgba(0,0,0,0.02);
-            transition: transform 0.2s, box-shadow 0.2s;
-        }
-
-        .link-nicho-bloco:active { transform: scale(0.98); }
-        .link-nicho-bloco:hover { box-shadow: 0 6px 12px rgba(0,0,0,0.04); }
-
-        .img-circulo-nicho {
-            width: 45px;
-            height: 45px;
-            border-radius: 50%;
-            object-fit: cover;
-            background: var(--bg-color);
-            flex-shrink: 0;
-        }
-
-        .texto-nicho-bloco {
-            font-size: 0.75rem;
-            font-weight: 600;
-            line-height: 1.2;
-            text-align: left;
-        }
-
-        /* ==================== CONTROLADORES E FILTRO ==================== */
-        .topo-promocoes {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 2px solid rgba(45, 106, 79, 0.15);
-            padding-bottom: 8px;
-            gap: 15px;
-            flex-wrap: wrap;
-            margin-top: 10px;
-        }
-
-        .bloco-titulo-status {
-            display: flex;
-            flex-direction: column;
-            gap: 4px;
-            text-align: left;
-        }
-
-        .titulo-secao {
-            font-size: 1.15rem;
-            font-weight: 700;
-            color: var(--primary-color);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin: 0;
-        }
-
-        /* Badge de última atualização */
-        .status-atualizacao {
-            font-size: 0.72rem;
-            color: #666;
-            font-weight: 500;
-        }
-
-        .filtro-wrapper {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .filtro-label {
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: #555;
-        }
-
-        .select-categorias {
-            font-family: 'Inter', sans-serif;
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: var(--text-color);
-            background-color: var(--card-bg);
-            border: 1px solid rgba(0, 0, 0, 0.15);
-            padding: 8px 32px 8px 12px;
-            border-radius: 8px;
-            cursor: pointer;
-            outline: none;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.02);
-            appearance: none; 
-            background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232D6A4F' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
-            background-repeat: no-repeat;
-            background-position: right 10px center;
-            background-size: 14px;
-            transition: border-color 0.2s;
-        }
-
-        .select-categorias:focus {
-            border-color: var(--primary-color);
-        }
-
-        /* ==================== SEÇÃO DE PROMOÇÕES ==================== */
-        .secao-promocoes {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-		.lista-promocoes {
-		    display: grid;
-		    grid-template-columns: 1fr; /* 1 card por linha no mobile */
-		    gap: 18px; 
-		}
-		
-		@media (min-width: 768px) {
-		    .lista-promocoes {
-		        grid-template-columns: repeat(2, 1fr); /* 2 cards por linha */
-		    }
-		}
-
-        /* Card Estilo Vitrine Sem Descrição */
-        .card-promo {
-            background: var(--card-bg);
-            border-radius: 16px;
-            overflow: hidden;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-            border: 1px solid rgba(0,0,0,0.04);
-            display: flex;
-            flex-direction: column;
-            animation: fadeIn 0.3s ease-in-out;
-        }
-
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(5px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        @media (min-width: 480px) {
-            .card-promo {
-                flex-direction: row; 
-                min-height: 140px; /* Reduzido a altura mínima porque agora tem menos texto */
-                height: auto;
-            }
-        }
-
-        .card-imagem-wrapper {
-            position: relative;
-            background: #fff;
-            min-width: 140px;
-            max-width: 140px;
-            height: 140px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 10px;
-            align-self: center;
-        }
-
-        @media (min-width: 480px) {
-            .card-imagem-wrapper {
-                height: auto;
-                align-self: stretch;
-            }
-        }
-
-        .card-imagem {
-            max-height: 120px;
-            max-width: 100%;
-            object-fit: contain;
-        }
-
-        .tag-promo {
-            position: absolute;
-            top: 8px;
-            left: 8px;
-            background: #E63946;
-            color: #fff;
-            padding: 3px 8px;
-            font-size: 0.7rem;
-            font-weight: 700;
-            border-radius: 6px;
-            z-index: 2;
-        }
-
-        .card-conteudo {
-            padding: 16px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            flex-grow: 1;
-            gap: 12px;
-        }
-
-        .card-header-info h3 {
-            font-size: 1rem;
-            margin: 0;
-            font-weight: 700;
-            color: var(--text-color);
-            line-height: 1.4;
-        }
-
-        /* Estilo para a data individual da oferta */
-        .card-data-oferta {
-            font-size: 0.68rem;
-            color: #888;
-            font-weight: 500;
-            margin-top: 4px;
-            display: block;
-        }
-
-        .card-footer-action {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 10px;
-            flex-wrap: wrap;
-            margin-top: auto;
-        }
-
-        .card-precos {
-            display: flex;
-            flex-direction: column;
-        }
-
-        .preco-antigo {
-            text-decoration: line-through;
-            color: #999;
-            font-size: 0.75rem;
-        }
-
-        .preco-novo {
-            color: var(--primary-color);
-            font-weight: 700;
-            font-size: 1.15rem;
-        }
-
-        .cupom-box-mini {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-            background: #E8F5E9;
-            border: 1px dashed var(--primary-color);
-            padding: 4px 8px;
-            border-radius: 6px;
-            font-size: 0.75rem;
-            color: var(--primary-color);
-        }
-
-        .btn-copiar-mini {
-            background: var(--primary-color);
-            color: white;
-            border: none;
-            padding: 2px 6px;
-            font-size: 0.7rem;
-            border-radius: 4px;
-            cursor: pointer;
-            font-weight: 600;
-        }
-
-        .btn-ir-loja {
-            background: var(--text-color);
-            color: #fff;
-            text-decoration: none;
-            padding: 10px 16px;
-            border-radius: 8px;
-            font-weight: 600;
-            font-size: 0.85rem;
-            text-align: center;
-            transition: background 0.2s;
-        }
-
-        .btn-ir-loja:hover {
-            background: #333;
-        }
-
-        .sem-promocoes {
-            text-align: center;
-            color: #666;
-            padding: 30px;
-            background: #ffffff66;
-            border-radius: 12px;
-            font-size: 0.9rem;
-        }
-
-        footer {
-            margin-top: 15px;
-            font-size: 0.7rem;
-            color: #999;
-            text-align: center;
-            line-height: 1.4;
-        }
-    </style>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          background: 'var(--background)',
+          foreground: 'var(--ink)',
+          card: 'var(--card)',
+          border: 'var(--border)',
+          input: 'var(--border)',
+          muted: 'var(--muted)',
+          'muted-foreground': 'var(--muted-ink)',
+          primary: 'var(--primary)',
+          'primary-foreground': '#fff',
+          accent: 'var(--accent)',
+          destructive: 'var(--destructive)',
+        },
+        boxShadow: {
+          soft: '0 1px 2px rgba(30,25,20,0.04), 0 2px 8px rgba(30,25,20,0.04)',
+          card: '0 10px 30px -12px rgba(30,25,20,0.18)',
+        },
+        fontFamily: {
+          serif: ['"Cormorant Garamond"', 'serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+<style>
+  :root {
+    --background: #FBF7F1;
+    --cream-deep: #F3ECDF;
+    --card: #FFFFFF;
+    --ink: #2B241E;
+    --muted: #EFE7DA;
+    --muted-ink: #7A6E60;
+    --border: #E7DFD1;
+    --primary: #6E5334;
+    --primary-deep: #4E3A22;
+    --accent: #C9A96A;
+    --destructive: #B4441F;
+  }
+  html, body { background: var(--background); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
+  .text-serif { font-family: "Cormorant Garamond", serif; letter-spacing: -0.01em; }
+  .text-primary { color: var(--primary); }
+  .bg-primary { background: var(--primary); }
+  .bg-destructive { background: var(--destructive); }
+  .border-primary\/40 { border-color: color-mix(in srgb, var(--primary) 40%, transparent); }
+  .border-primary\/50 { border-color: color-mix(in srgb, var(--primary) 50%, transparent); }
+  .bg-primary\/5 { background: color-mix(in srgb, var(--primary) 5%, transparent); }
+  .bg-primary\/10 { background: color-mix(in srgb, var(--primary) 10%, transparent); }
+  .text-primary-foreground { color: #fff; }
+  .ring-border { --tw-ring-color: var(--border); }
+  @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
+  .animate-fade-up { animation: fade-up .4s ease both; }
+</style>
 </head>
 <body>
-
-    <div class="main-wrapper">
-        
-        <header>
-            <img src="curadomus_logo.png" alt="Cura Domus" class="logo">
-            <div class="tagline">
-                Como pais de quatro filhos, garimpamos escolhas que unem a <strong>beleza, a utilidade e a economia</strong> que a sua família merece.
-            </div>
-        </header>
-
-        <section class="secao-comunidades">
-            <div class="titulo-comunidades">💬 Participe nos Nossos Grupos</div>
-            
-            <div class="grid-comunidades">
-                <a href="https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F" class="link-nicho-bloco">
-                    <img src="CuraDomus - FormacaoImaginario.png" class="img-circulo-nicho" alt="Formação do Imaginário">
-                    <span class="texto-nicho-bloco">Formação do Imaginário</span>
-                </a>
-
-                <a href="https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW" class="link-nicho-bloco">
-                    <img src="CuraDoums - EducacaoEscola.png" class="img-circulo-nicho" alt="Educação e Escola">
-                    <span class="texto-nicho-bloco">Educação e Escola</span>
-                </a>
-
-                <a href="https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" class="link-nicho-bloco">
-                    <img src="CuraDomus - GestaoLar.png" class="img-circulo-nicho" alt="Gestão do Lar">
-                    <span class="texto-nicho-bloco">Gestão do Lar</span>
-                </a>
-
-                <a href="https://chat.whatsapp.com/C84J6GtX87t6a0HFp2x5EX" class="link-nicho-bloco">
-                    <img src="CuraDomus - BebeInfancia.jpg" class="img-circulo-nicho" alt="Bebês e Primeira Infância">
-                    <span class="texto-nicho-bloco">Bebês e Infância</span>
-                </a>
-            </div>
-        </section>
-
-        <section class="secao-promocoes">
-            
-            <div class="topo-promocoes">
-                <div class="bloco-titulo-status">
-                    <h2 class="titulo-secao">⭐ Indicações de Hoje</h2>
-                    <span id="data-atualizacao" class="status-atualizacao">Carregando atualizações...</span>
-                </div>
-                <div class="filtro-wrapper">
-                    <label for="filtro-categoria" class="filtro-label">Filtrar:</label>
-                    <select id="filtro-categoria" class="select-categorias">
-                        <option value="TODAS">Todas as ofertas</option>
-                    </select>
-                </div>
-            </div>
-
-            <div id="container-promocoes" class="lista-promocoes">
-            </div>
-        </section>
-
-        <footer>
-            © 2026 Cura Domus<br>Construindo o legado das nossas famílias.
-        </footer>
+<div class="min-h-screen">
+  <!-- Hero -->
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 opacity-[0.04]" style="background-image: radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0); background-size:24px 24px"></div>
+    <div class="mx-auto max-w-5xl px-6 pt-14 pb-10 text-center">
+      <img src="https://id-preview--736ce8be-ff29-4b9b-b29a-a17fb67bfb54.lovable.app/__l5e/assets-v1/0fe52d4c-6205-49fe-ad9e-adafe9854c54/curadomus_selo.png" alt="Cura Domus" class="mx-auto h-28 w-28 object-contain sm:h-32 sm:w-32" />
+      <h1 class="mt-6 text-serif text-4xl leading-[1.05] text-primary sm:text-5xl md:text-6xl">
+        Curadoria para o lar,<br class="hidden sm:block" />
+        <span class="italic" style="color:var(--primary-deep)"> feita por uma família </span>
+        para a sua.
+      </h1>
+      <p class="mx-auto mt-5 max-w-xl text-[15px] leading-relaxed" style="color:var(--muted-ink)">
+        Como pais de quatro filhos, garimpamos escolhas que unem
+        <span class="font-medium" style="color:var(--ink)"> beleza, utilidade e economia </span>
+        que a sua família merece.
+      </p>
+      <div class="mt-6 inline-flex items-center gap-2 rounded-full border bg-card px-4 py-1.5 text-xs font-medium shadow-soft" style="border-color:var(--border); color:var(--muted-ink)">
+        <span class="relative flex h-2 w-2">
+          <span class="absolute inset-0 animate-ping rounded-full opacity-60" style="background:var(--primary)"></span>
+          <span class="relative h-2 w-2 rounded-full" style="background:var(--primary)"></span>
+        </span>
+        Ofertas verificadas diariamente
+      </div>
     </div>
+  </header>
 
-    <script>
-        let todasAsOfertas = [];
+  <main class="mx-auto max-w-5xl px-6 pb-24">
+    <!-- Comunidades -->
+    <section class="mb-14">
+      <div class="mb-5 flex items-end justify-between gap-4">
+        <div>
+          <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">Comunidades</div>
+          <h2 class="text-serif mt-1 text-2xl">Participe dos nossos grupos</h2>
+        </div>
+        <div class="hidden text-xs sm:block" style="color:var(--muted-ink)">Grupos de WhatsApp · gratuitos</div>
+      </div>
+      <div id="comunidades" class="grid grid-cols-2 gap-3 md:grid-cols-4"></div>
+    </section>
 
-        async function inicializarVitrine() {
-            try {
-                const resposta = await fetch('./promocoes.json');
-                if (!resposta.ok) throw new Error('Falha ao ler JSON');
-                
-                const dadosVitrine = await resposta.json();
-                
-                // Removido o filtro p.ativo aqui do JS, já que o Java já filtra por findByAtivoTrue() e por desconto > 10% antes de gerar o JSON.
-                todasAsOfertas = dadosVitrine.ofertas ? dadosVitrine.ofertas : [];
+    <!-- Ofertas -->
+    <section id="ofertas">
+      <div class="mb-6 flex flex-col gap-4 border-b pb-5 sm:flex-row sm:items-end sm:justify-between" style="border-color:var(--border)">
+        <div>
+          <div class="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">
+            ✦ Indicações de hoje
+          </div>
+          <h2 class="text-serif mt-1 text-3xl sm:text-4xl">Ofertas selecionadas</h2>
+          <p id="atualizacao" class="mt-1 text-xs" style="color:var(--muted-ink)"></p>
+        </div>
+        <div class="flex flex-col gap-2 sm:flex-row sm:items-center">
+          <input id="busca" placeholder="Buscar por produto…" class="w-full rounded-lg border bg-card px-3 py-2 text-sm outline-none transition sm:w-56" style="border-color:var(--border)" />
+          <select id="filtro" class="rounded-lg border bg-card px-3 py-2 text-sm font-medium outline-none transition" style="border-color:var(--border)">
+            <option value="TODAS">Todas as categorias</option>
+          </select>
+        </div>
+      </div>
+      <div id="lista"></div>
+    </section>
+  </main>
 
-                if (todasAsOfertas.length === 0) {
-                    document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Nenhuma recomendação em destaque agora. Acompanhe os grupos acima!</p>';
-                    document.getElementById('data-atualizacao').innerText = '';
-                    return;
-                }
+  <footer class="border-t" style="border-color:var(--border); background: color-mix(in srgb, var(--card) 40%, transparent)">
+    <div class="mx-auto flex max-w-5xl flex-col items-center gap-3 px-6 py-8 text-center">
+      <img src="https://id-preview--736ce8be-ff29-4b9b-b29a-a17fb67bfb54.lovable.app/__l5e/assets-v1/a8af880e-e44f-4517-af6f-432bceb7a0a7/curadomus_logo.png" alt="Cura Domus" class="h-10 opacity-80" />
+      <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
+    </div>
+  </footer>
+</div>
 
-                if (dadosVitrine.ultimaAtualizacao) {
-                    document.getElementById('data-atualizacao').innerText = `Atualizado em: ${dadosVitrine.ultimaAtualizacao}`;
-                } else {
-                    document.getElementById('data-atualizacao').innerText = 'Atualizado recentemente';
-                }
+<script>
+const BASE = "https://id-preview--736ce8be-ff29-4b9b-b29a-a17fb67bfb54.lovable.app";
+const comunidades = [
+  { nome: "Formação do Imaginário", img: BASE + "/__l5e/assets-v1/7087a89b-4a23-418f-804a-1b9eac09430b/imaginario.png", url: "https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F" },
+  { nome: "Educação e Escola",     img: BASE + "/__l5e/assets-v1/53a8f7df-6ea7-4c19-b133-8b1dba10198d/educacao.png",  url: "https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW" },
+  { nome: "Gestão do Lar",         img: BASE + "/__l5e/assets-v1/bef51ec5-9bf9-4b8a-8f12-8c5c6dd0f10d/gestao.png",    url: "https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" },
+  { nome: "Bebês e Infância",      img: BASE + "/__l5e/assets-v1/8989392c-5f62-46ae-af2b-0ad70e77a2e1/bebe.jpg",      url: "https://chat.whatsapp.com/C84J6GtX87t6a0HFp2x5EX" },
+];
 
-                configurarCombobox(todasAsOfertas);
-                renderizarCards(todasAsOfertas);
+const elCom = document.getElementById("comunidades");
+elCom.innerHTML = comunidades.map(c => `
+  <a href="${c.url}" target="_blank" rel="noopener noreferrer"
+     class="group relative flex flex-col items-center gap-3 rounded-2xl border bg-card p-5 text-center shadow-soft transition hover:-translate-y-0.5 hover:shadow-card"
+     style="border-color:var(--border)">
+    <img src="${c.img}" alt="${c.nome}" class="h-16 w-16 rounded-full object-cover ring-2 ring-border" />
+    <span class="text-[13px] font-semibold leading-tight">${c.nome}</span>
+  </a>`).join("");
 
-                document.getElementById('filtro-categoria').addEventListener('change', aplicarFiltro);
+let ofertas = [];
+const $lista = document.getElementById("lista");
+const $filtro = document.getElementById("filtro");
+const $busca = document.getElementById("busca");
+const $atual = document.getElementById("atualizacao");
 
-            } catch (erro) {
-                console.error(erro);
-                document.getElementById('container-promocoes').innerHTML = '<p class="sem-promocoes">Novas indicações chegando em breve. Acompanhe acima!</p>';
-                document.getElementById('data-atualizacao').innerText = '';
-            }
-        }
+function render() {
+  const q = $busca.value.trim().toLowerCase();
+  const f = $filtro.value;
+  const arr = ofertas.filter(o =>
+    (f === "TODAS" || (o.grupo||"").trim() === f) &&
+    (!q || o.titulo.toLowerCase().includes(q))
+  );
+  if (!arr.length) {
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Nenhuma oferta nesta categoria.</div>`;
+    return;
+  }
+  $lista.innerHTML = `<div class="grid grid-cols-1 gap-5 md:grid-cols-2">${arr.map(card).join("")}</div>`;
+  document.querySelectorAll("[data-cupom]").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      await navigator.clipboard.writeText(btn.dataset.cupom);
+      const t = btn.innerText;
+      btn.innerText = "✓ Copiado";
+      setTimeout(() => btn.innerText = t, 1600);
+    });
+  });
+}
 
-        function configurarCombobox(ofertas) {
-            const select = document.getElementById('filtro-categoria');
-            select.innerHTML = '<option value="TODAS">Todas as ofertas</option>';
-            
-            const gruposUnicos = new Set();
-            ofertas.forEach(item => {
-                if (item.grupo) gruposUnicos.add(item.grupo.trim());
-            });
+function card(p) {
+  const precoAntigo = (p.precoOriginal||"").replace(/\u00a0/g,"").trim();
+  const precoNovo   = (p.precoPromocao||"0,00").replace(/\u00a0/g,"").trim();
+  return `
+  <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
+    <div class="relative flex shrink-0 items-center justify-center p-4 sm:w-44" style="background:var(--cream-deep)">
+      ${p.tag ? `<span class="absolute left-3 top-3 rounded-md bg-destructive px-2 py-0.5 text-[11px] font-bold text-white shadow">${p.tag.trim()}</span>` : ""}
+      <img src="${p.imagem}" alt="${p.titulo}" loading="lazy" class="h-32 w-full object-contain transition duration-300 group-hover:scale-105 sm:h-36" />
+    </div>
+    <div class="flex flex-1 flex-col gap-3 p-5">
+      <div>
+        ${p.grupo ? `<div class="mb-1 inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider text-primary">🏷 ${p.grupo}</div>` : ""}
+        <h3 class="text-[15px] font-semibold leading-snug">${p.titulo}</h3>
+        ${p.dataOferta ? `<p class="mt-1 text-[11px]" style="color:var(--muted-ink)">Oferta de: ${p.dataOferta}</p>` : ""}
+      </div>
+      <div class="mt-auto flex flex-wrap items-end justify-between gap-3">
+        <div class="flex flex-col">
+          ${precoAntigo ? `<span class="text-xs line-through" style="color:var(--muted-ink)">R$ ${precoAntigo}</span>` : ""}
+          <span class="text-serif text-2xl font-bold leading-none text-primary">R$ ${precoNovo}</span>
+        </div>
+        ${p.cupom ? `<button data-cupom="${p.cupom}" class="inline-flex items-center gap-1.5 rounded-lg border border-dashed border-primary/50 bg-primary/5 px-2.5 py-1.5 text-xs font-semibold text-primary transition hover:bg-primary/10">⧉ ${p.cupom}</button>` : ""}
+        <a href="${p.linkAfiliado}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-soft transition hover:opacity-90">Aproveitar ↗</a>
+      </div>
+    </div>
+  </article>`;
+}
 
-            const gruposOrdenados = Array.from(gruposUnicos).sort((a, b) => a.localeCompare(b));
+fetch("promocoes.json").then(r => r.ok ? r.json() : Promise.reject())
+  .then(d => {
+    ofertas = d.ofertas || [];
+    if (d.ultimaAtualizacao) $atual.textContent = "Atualizado em: " + d.ultimaAtualizacao;
+    const grupos = [...new Set(ofertas.map(o => (o.grupo||"").trim()).filter(Boolean))].sort();
+    grupos.forEach(g => {
+      const opt = document.createElement("option");
+      opt.value = g; opt.textContent = g;
+      $filtro.appendChild(opt);
+    });
+    render();
+  })
+  .catch(() => {
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Coloque o arquivo <code>promocoes.json</code> na mesma pasta deste HTML.</div>`;
+  });
 
-            gruposOrdenados.forEach(grupo => {
-                const option = document.createElement('option');
-                option.value = grupo;
-                option.innerText = grupo;
-                select.appendChild(option);
-            });
-        }
-
-        function aplicarFiltro(evento) {
-            const categoriaSelecionada = evento.target.value;
-            
-            if (categoriaSelecionada === "TODAS") {
-                renderizarCards(todasAsOfertas);
-            } else {
-                const ofertasFiltradas = todasAsOfertas.filter(item => item.grupo && item.grupo.trim() === categoriaSelecionada);
-                renderizarCards(ofertasFiltradas);
-            }
-        }
-
-        function renderizarCards(listaParaExibir) {
-            const container = document.getElementById('container-promocoes');
-            container.innerHTML = ''; 
-
-            if (listaParaExibir.length === 0) {
-                container.innerHTML = '<p class="sem-promocoes">Nenhum item encontrado nesta categoria.</p>';
-                return;
-            }
-
-            listaParaExibir.forEach(promo => {
-                const card = document.createElement('div');
-                card.className = 'card-promo';
-
-                const componenteCupom = promo.cupom 
-                    ? `<div class="cupom-box-mini">
-                        <span>Cupom: <strong>${promo.cupom}</strong></span>
-                        <button class="btn-copiar-mini" onclick="copyCupom('${promo.cupom}', this)">Copiar</button>
-                       </div>`
-                    : '';
-
-                const tagEspecial = promo.tag ? `<span class="tag-promo">${promo.tag.trim()}</span>` : '';
-                
-                const precoOriginalLimpo = promo.precoOriginal ? promo.precoOriginal.replace(/\u00a0/g, '').trim() : null;
-                const precoPromocaoLimpo = promo.precoPromocao ? promo.precoPromocao.replace(/\u00a0/g, '').trim() : '0,00';
-                
-                // Trata a nova data da oferta vinda do DTO (Ex: "07/06/2026 15:30")
-                const componenteData = promo.dataOferta ? `<span class="card-data-oferta">Oferta de: ${promo.dataOferta}</span>` : '';
-
-                card.innerHTML = `
-                    <div class="card-imagem-wrapper">
-                        ${tagEspecial}
-                        <img src="${promo.imagem}" alt="${promo.titulo}" loading="lazy" class="card-imagem">
-                    </div>
-                    <div class="card-conteudo">
-                        <div class="card-header-info">
-                            <h3>${promo.titulo}</h3>
-                            ${componenteData}  <!-- Nova data renderizada discretamente aqui -->
-                        </div>
-                        
-                        <div class="card-footer-action">
-                            <div class="card-precos">
-                                ${precoOriginalLimpo ? `<span class="preco-antigo">R$ ${precoOriginalLimpo}</span>` : ''}
-                                <span class="preco-novo">R$ ${precoPromocaoLimpo}</span>
-                            </div>
-                            
-                            ${componenteCupom}
-
-                            <a href="${promo.linkAfiliado}" target="_blank" rel="noopener noreferrer" class="btn-ir-loja">
-                                Aproveitar
-                            </a>
-                        </div>
-                    </div>
-                `;
-                container.appendChild(card);
-            });
-        }
-
-        function copyCupom(codigo, botao) {
-            navigator.clipboard.writeText(codigo);
-            const textoOriginal = botao.innerText;
-            botao.innerText = 'Copiado';
-            botao.style.background = '#1b4332';
-            setTimeout(() => {
-                botao.innerText = textoOriginal;
-                botao.style.background = 'var(--primary-color)';
-            }, 1500);
-        }
-
-        window.addEventListener('DOMContentLoaded', inicializarVitrine);
-    </script>
+$busca.addEventListener("input", render);
+$filtro.addEventListener("change", render);
+</script>
 </body>
 </html>
