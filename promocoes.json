@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "18/07/2026 10:25",
+  "ultimaAtualizacao" : "18/07/2026 10:45",
   "ofertas" : [ {
     "id" : 41729,
     "titulo" : "+Mu Chocowheyfer Proteico Sabor Baunilha - Display com 12 unidades - 300g",
@@ -2370,6 +2370,21 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 25,50"
+  }, {
+    "id" : 41800,
+    "titulo" : "Capacete De Moto Masculino Preto Fosco New Liberty 4 Fechado",
+    "descricao" : "Capacete De Moto Masculino Preto Fosco New Liberty 4 Fechado",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_767623-MLB89704413626_082025-F-capacete-de-moto-masculino-preto-fosco-new-liberty-4-fechado.webp",
+    "precoOriginal" : " 129,90",
+    "precoPromocao" : " 99,90",
+    "tag" : "-23%",
+    "linkAfiliado" : "https://meli.la/1YYKFEp",
+    "grupo" : "Geral",
+    "ativo" : true,
+    "dataOferta" : "18/07/2026 10:45",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : null
   }, {
     "id" : 40884,
     "titulo" : "CAPPUCCINO DOCE DE LEITE 200G",
@@ -12616,5 +12631,15 @@
     "loja" : "Amazon",
     "precoAnterior" : " 499,99"
   } ],
-  "cupons" : [ ]
+  "cupons" : [ {
+    "loja" : "Mercado Livre",
+    "codigo" : "#CURADOMUSBAY10OFF",
+    "descricao" : "10% Off em produtos selecionados SportBay",
+    "validoAte" : "31/07/2026"
+  }, {
+    "loja" : "Mercado Livre",
+    "codigo" : "#CURADOMUSDARKLAB20",
+    "descricao" : "R$ 20 Off em produtos selecionados",
+    "validoAte" : "01/08/2026"
+  } ]
 }
