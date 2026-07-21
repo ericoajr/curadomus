@@ -188,6 +188,10 @@ function render() {
 function card(p) {
   const precoAntigo = (p.precoOriginal||"").replace(/\u00a0/g,"").trim();
   const precoNovo   = (p.precoPromocao||"0,00").replace(/\u00a0/g,"").trim();
+  // Usa a mensagem pronta que já vem do backend (com o número de dias correto,
+  // ex.: "Menor preço dos últimos 30 dias.") em vez de texto fixo no front —
+  // ver OfertaDTO#menorPrecoMensagem / alerta.menor-preco.dias no backend.
+  const menorPrecoTexto = (p.menorPrecoMensagem || "").trim();
   return `
   <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
     <div class="relative flex shrink-0 items-center justify-center p-4 sm:w-44" style="background:var(--cream-deep)">
@@ -198,9 +202,9 @@ function card(p) {
       <div>
         ${p.grupo ? `<div class="mb-1 inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider text-primary">🏷 ${p.grupo}</div>` : ""}
         <h3 class="text-[15px] font-semibold leading-snug">${p.titulo}</h3>
-        ${p.menorPrecoEmDias ? `<div class="mt-2 inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-2.5 py-1 text-[11px] font-semibold text-emerald-700">
+        ${menorPrecoTexto ? `<div class="mt-2 inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-2.5 py-1 text-[11px] font-semibold text-emerald-700">
           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline><polyline points="17 18 23 18 23 12"></polyline></svg>
-          Menor preço dos últimos dias.
+          ${menorPrecoTexto}
         </div>` : ""}
         ${p.dataOferta ? `<p class="mt-1 text-[11px]" style="color:var(--muted-ink)">Oferta de: ${p.dataOferta}</p>` : ""}
       </div>
