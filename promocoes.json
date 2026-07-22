@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "22/07/2026 18:52",
+  "ultimaAtualizacao" : "22/07/2026 19:22",
   "ofertas" : [ {
     "id" : 52833,
     "titulo" : "+Mu Chocowheyfer Proteico Sabor Baunilha - Display com 12 unidades - 300g",
@@ -181,6 +181,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53262,
+    "titulo" : "A divina comédia - Box com 3 livros",
+    "descricao" : "A divina comédia - Box com 3 livros",
+    "imagem" : "https://m.media-amazon.com/images/I/61NSQSDR2+S._SL1000_.jpg",
+    "precoOriginal" : " 89,90",
+    "precoPromocao" : " 48,90",
+    "tag" : "-45%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08Y34HQGT?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:03",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 48,89",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 51920,
     "titulo" : "A estrela, um sonho de infância",
     "descricao" : "A estrela, um sonho de infância",
@@ -253,23 +271,23 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 50848,
-    "titulo" : "A galinha ruiva",
-    "descricao" : "A galinha ruiva",
-    "imagem" : "https://m.media-amazon.com/images/I/51YAz-fxdOL._SL1000_.jpg",
-    "precoOriginal" : " 87,00",
-    "precoPromocao" : " 63,00",
-    "tag" : "-27%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/8516014290?tag=curadomus-20",
+    "id" : 53244,
+    "titulo" : "A força eterna do amor",
+    "descricao" : "A força eterna do amor",
+    "imagem" : "https://m.media-amazon.com/images/I/91aBUjSfs7L._SL1500_.jpg",
+    "precoOriginal" : " 89,90",
+    "precoPromocao" : " 57,22",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8587781383?tag=curadomus-20",
     "grupo" : "Livros",
     "ativo" : true,
-    "dataOferta" : "21/07/2026 18:15",
-    "destaque" : false,
+    "dataOferta" : "22/07/2026 19:00",
+    "destaque" : true,
     "loja" : "Amazon",
-    "precoAnterior" : " 69,75",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "precoAnterior" : " 63,97",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52716,
     "titulo" : "A história de Pedro Coelho",
@@ -288,24 +306,6 @@
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
-  }, {
-    "id" : 51446,
-    "titulo" : "A ilha negra",
-    "descricao" : "A ilha negra",
-    "imagem" : "https://m.media-amazon.com/images/I/913wOsJdQdL._SL1500_.jpg",
-    "precoOriginal" : " 89,90",
-    "precoPromocao" : " 66,12",
-    "tag" : "-26%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/8535906738?tag=curadomus-20",
-    "grupo" : "Livros",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 08:59",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 70,12",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
   }, {
     "id" : 52615,
     "titulo" : "A Irmã do Gildo",
@@ -375,9 +375,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 25,38",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52559,
     "titulo" : "A Regina e o mágico",
@@ -468,24 +468,6 @@
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
-  }, {
-    "id" : 51582,
-    "titulo" : "AB Brasil Achocolatado Com Flocos Crocantes Ovomaltine 600G",
-    "descricao" : "AB Brasil Achocolatado Com Flocos Crocantes Ovomaltine 600G",
-    "imagem" : "https://m.media-amazon.com/images/I/61DJFd9P-fL._AC_SL1200_.jpg",
-    "precoOriginal" : " 34,99",
-    "precoPromocao" : " 27,90",
-    "tag" : "-20%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07YBPJ8FG?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:05",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 34,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
   }, {
     "id" : 52578,
     "titulo" : "Abelhas",
@@ -666,24 +648,6 @@
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
-  }, {
-    "id" : 52339,
-    "titulo" : "Aparador de Pelos - Nariz e Orelhas Philips Series 1000 NT1620/15 - À Pilha",
-    "descricao" : "Aparador de Pelos - Nariz e Orelhas Philips Series 1000 NT1620/15 - À Pilha",
-    "imagem" : "https://m.media-amazon.com/images/I/51ud-dqKAIL._AC_SL1500_.jpg",
-    "precoOriginal" : " 99,90",
-    "precoPromocao" : " 76,90",
-    "tag" : "-23%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B09F3KNPJR?tag=curadomus-20",
-    "grupo" : "Beleza",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 10:06",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 119,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
   }, {
     "id" : 51375,
     "titulo" : "Aquecedor De Mamadeira Portátil Usb Sem Fio Recarregável",
@@ -951,9 +915,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 195,21",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 50907,
     "titulo" : "Atlas - Civilizações antigas",
@@ -987,9 +951,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 75,84",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 53169,
     "titulo" : "AUSTRALIAN GOLD PROTETOR CORPORAL GEL CREME KIDS FPS 70 120g",
@@ -1077,9 +1041,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 158,80",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 50711,
     "titulo" : "Balança Bioimpedância Digital Profissional Suporta Até 140kg via Bluethooth",
@@ -1167,9 +1131,9 @@
     "destaque" : true,
     "loja" : "Mercado Livre",
     "precoAnterior" : " 315,26",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52431,
     "titulo" : "Batedeira Planetária, Mondial, Preto, 700W, 220V - BP-03-B",
@@ -1275,27 +1239,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 819,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
-    "id" : 52190,
-    "titulo" : "Bicicleta aro 20 BMX Pro-X Série 1 freios V-Brake aros Aero",
-    "descricao" : "Bicicleta aro 20 BMX Pro-X Série 1 freios V-Brake aros Aero",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m7ba29tu3j9m9b",
-    "precoOriginal" : " 804,05",
-    "precoPromocao" : " 595,00",
-    "tag" : "-26%",
-    "linkAfiliado" : "https://s.shopee.com.br/1gH7Kk0NN3",
-    "grupo" : "Esporte, Aventura e Lazer",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:37",
-    "destaque" : false,
-    "loja" : "Shopee",
-    "precoAnterior" : " 599,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51325,
     "titulo" : "Bicicleta Aro 29 Alumínio Gott 21v Freio a Disco T-Force",
@@ -1311,27 +1257,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 748,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
-    "id" : 51705,
-    "titulo" : "Bicicleta Aro 29 KGT Shift Aço Carbono Freios a Disco 21 Marchas Suspensão Diant",
-    "descricao" : "Bicicleta Aro 29 KGT Shift Aço Carbono Freios a Disco 21 Marchas Suspensão Diant",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-820l7-mnmxcpjowkjlba",
-    "precoOriginal" : " 853,20",
-    "precoPromocao" : " 639,90",
-    "tag" : "-25%",
-    "linkAfiliado" : "https://s.shopee.com.br/7KvTx8lye5",
-    "grupo" : "Esporte, Aventura e Lazer",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:11",
-    "destaque" : false,
-    "loja" : "Shopee",
-    "precoAnterior" : " 699,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51479,
     "titulo" : "Bicicleta Bike Ergometrica Spinning Academia Fitness Profissional 120kg",
@@ -1581,9 +1509,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 73,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51328,
     "titulo" : "Boné Ny New York Yankees Unissex Blogueira Fitão Regulável",
@@ -1657,24 +1585,6 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 52250,
-    "titulo" : "BOX As Crônicas de Nárnia - Edição de Luxo",
-    "descricao" : "BOX As Crônicas de Nárnia - Edição de Luxo",
-    "imagem" : "https://m.media-amazon.com/images/I/81erRs9DQDL._SL1500_.jpg",
-    "precoOriginal" : " 399,90",
-    "precoPromocao" : " 291,74",
-    "tag" : "-27%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/6560050416?tag=curadomus-20",
-    "grupo" : "Livros",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:47",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 295,33",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
     "id" : 52253,
     "titulo" : "Brasil, Minha Terra!",
     "descricao" : "Brasil, Minha Terra!",
@@ -1747,6 +1657,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53314,
+    "titulo" : "Buba Garrafinha De Aluminio Animal Fun Macaco Colorido",
+    "descricao" : "Buba Garrafinha De Aluminio Animal Fun Macaco Colorido",
+    "imagem" : "https://m.media-amazon.com/images/I/51I9KBS9ALL._AC_SL1000_.jpg",
+    "precoOriginal" : " 70,90",
+    "precoPromocao" : " 41,99",
+    "tag" : "-40%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08JXP4NFR?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:13",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 41,99",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 50936,
     "titulo" : "Buba Kit Aspirador Nasal De Sucção E Seringa",
     "descricao" : "Buba Kit Aspirador Nasal De Sucção E Seringa",
@@ -1761,9 +1689,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 21,97",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51268,
     "titulo" : "Buba Kit Lixa De Unha Elétrico, Multicolorido",
@@ -1797,6 +1725,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 37,99",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53359,
+    "titulo" : "BUBA Massageador De Gengiva Com Case, Transparente",
+    "descricao" : "BUBA Massageador De Gengiva Com Case, Transparente",
+    "imagem" : "https://m.media-amazon.com/images/I/51GnjhXVVGL._AC_SL1000_.jpg",
+    "precoOriginal" : " 18,90",
+    "precoPromocao" : " 7,09",
+    "tag" : "-62%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07LH4PVWD?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:21",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 7,09",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -2161,24 +2107,6 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 51171,
-    "titulo" : "Cadeira de Escritório Tela Mesh Giratória Tok Boxbit assento estofado",
-    "descricao" : "Cadeira de Escritório Tela Mesh Giratória Tok Boxbit assento estofado",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-lyavzvonlrx140",
-    "precoOriginal" : " 254,05",
-    "precoPromocao" : " 188,00",
-    "tag" : "-26%",
-    "linkAfiliado" : "https://s.shopee.com.br/gOa0rZGPM",
-    "grupo" : "Papelaria e Escritório",
-    "ativo" : true,
-    "dataOferta" : "21/07/2026 22:26",
-    "destaque" : false,
-    "loja" : "Shopee",
-    "precoAnterior" : " 188,98",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
     "id" : 51567,
     "titulo" : "Cadeira de jogo profissional Ergonomia Altura ajustável Cadeira de esportes eletrônicos F19",
     "descricao" : "Cadeira de jogo profissional Ergonomia Altura ajustável Cadeira de esportes eletrônicos F19",
@@ -2247,9 +2175,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 409,75",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51855,
     "titulo" : "Cadeira Para Auto 0-36 Kg Mass Preta Litet - BB456",
@@ -2341,6 +2269,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53210,
+    "titulo" : "Caloi Bicicleta Infantil Power Rex, Aro 16, Preta",
+    "descricao" : "Caloi Bicicleta Infantil Power Rex, Aro 16, Preta",
+    "imagem" : "https://m.media-amazon.com/images/I/716y0CGPNLL._AC_SL1500_.jpg",
+    "precoOriginal" : " 779,00",
+    "precoPromocao" : " 438,82",
+    "tag" : "-43%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DQR3S8ZH?tag=curadomus-20",
+    "grupo" : "Brinquedos e Jogos",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 18:55",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 488,18",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 51678,
     "titulo" : "Calça Jeans Pantalona Wide Leg Feminina Cintura Alta Larga",
     "descricao" : "Calça Jeans Pantalona Wide Leg Feminina Cintura Alta Larga",
@@ -2391,9 +2337,9 @@
     "destaque" : true,
     "loja" : "Mercado Livre",
     "precoAnterior" : " 59,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51132,
     "titulo" : "Calça Wide Leg Jeans Feminina Marmorizada Cintura Alta 100% Algodão Premium",
@@ -2715,9 +2661,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 44,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52241,
     "titulo" : "Chapeuzinho Vermelho",
@@ -3007,6 +2953,42 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53304,
+    "titulo" : "Concha y Toro Reservado Cabernet Sauvignon 750ml",
+    "descricao" : "Concha y Toro Reservado Cabernet Sauvignon 750ml",
+    "imagem" : "https://m.media-amazon.com/images/I/61B-RdsyzBL._AC_SL1500_.jpg",
+    "precoOriginal" : " 39,90",
+    "precoPromocao" : " 24,96",
+    "tag" : "-37%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07XLMJHRN?tag=curadomus-20",
+    "grupo" : "Bebidas Alcoólicas",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:11",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 24,96",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53328,
+    "titulo" : "Concha y Toro Reservado Sweet Red 750ml",
+    "descricao" : "Concha y Toro Reservado Sweet Red 750ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51geGasW5AL._AC_SL1500_.jpg",
+    "precoOriginal" : " 36,90",
+    "precoPromocao" : " 21,00",
+    "tag" : "-43%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07XLMFLFH?tag=curadomus-20",
+    "grupo" : "Bebidas Alcoólicas",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:15",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 21,00",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 52659,
     "titulo" : "Confissões de Santo Agostinho - Edição de Luxo Almofadada",
     "descricao" : "Confissões de Santo Agostinho - Edição de Luxo Almofadada",
@@ -3057,9 +3039,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 26,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51021,
     "titulo" : "Conjunto Moletom Unissex Estampado Paris Calça e Blusa Com Capuz Bolso Canguru",
@@ -3345,9 +3327,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 61,71",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51309,
     "titulo" : "Cristianismo puro e simples",
@@ -3421,6 +3403,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53255,
+    "titulo" : "Dia de sol",
+    "descricao" : "Dia de sol",
+    "imagem" : "https://m.media-amazon.com/images/I/915z1YD9wSL._SL1500_.jpg",
+    "precoOriginal" : " 49,00",
+    "precoPromocao" : " 25,00",
+    "tag" : "-48%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508181833?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:02",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 25,00",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 52561,
     "titulo" : "Dia e noite",
     "descricao" : "Dia e noite",
@@ -3471,9 +3471,27 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 23,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53264,
+    "titulo" : "Dom Quixote",
+    "descricao" : "Dom Quixote",
+    "imagem" : "https://m.media-amazon.com/images/I/71PtUNDep9L._SL1500_.jpg",
+    "precoOriginal" : " 113,00",
+    "precoPromocao" : " 34,00",
+    "tag" : "-69%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526282107?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:03",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 34,00",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51888,
     "titulo" : "Dorminhoco",
@@ -3669,6 +3687,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 79,90",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53204,
+    "titulo" : "Electrolux Mixer Misturador Multiuso 3 em 1 400W 2 velocidades 3 acessórios mini processador capacidade resistente temperatura 600ml livre BPA EIB10 preto 220v",
+    "descricao" : "Electrolux Mixer Misturador Multiuso 3 em 1 400W 2 velocidades 3 acessórios mini processador capacidade resistente temperatura 600ml livre BPA EIB10 preto 220v",
+    "imagem" : "https://m.media-amazon.com/images/I/711xy6JhdXL._AC_SL1500_.jpg",
+    "precoOriginal" : " 269,90",
+    "precoPromocao" : " 199,00",
+    "tag" : "-51%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09B2PTMSZ?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 18:54",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 198,99",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -3871,24 +3907,6 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 51668,
-    "titulo" : "Esterilizador De Microondas para Mamadeiras Bicos e Chupetas Philips Avent Azul/Branco",
-    "descricao" : "Esterilizador De Microondas para Mamadeiras Bicos e Chupetas Philips Avent Azul/Branco",
-    "imagem" : "https://m.media-amazon.com/images/I/51UOsl4f9jL._AC_SL1500_.jpg",
-    "precoOriginal" : " 259,90",
-    "precoPromocao" : " 187,90",
-    "tag" : "-27%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07G8QLGSR?tag=curadomus-20",
-    "grupo" : "Bebês",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:10",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 191,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
     "id" : 52512,
     "titulo" : "Eu consigo!: Para crianças determinadas",
     "descricao" : "Eu consigo!: Para crianças determinadas",
@@ -3961,24 +3979,6 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 51196,
-    "titulo" : "Faca Para Churrasco Profissional Luxo Personalizado Seu time",
-    "descricao" : "Faca Para Churrasco Profissional Luxo Personalizado Seu time",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mfyfc5895i4l55",
-    "precoOriginal" : " 65,26",
-    "precoPromocao" : " 58,08",
-    "tag" : "-11%",
-    "linkAfiliado" : "https://s.shopee.com.br/AUsViwFQal",
-    "grupo" : "Cozinha",
-    "ativo" : true,
-    "dataOferta" : "21/07/2026 22:28",
-    "destaque" : false,
-    "loja" : "Shopee",
-    "precoAnterior" : " 59,08",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
     "id" : 51073,
     "titulo" : "Fatiador De Cozinha Multiuso Profissional , Aço Inoxidável 16 Em 1 , Cortador , Ralador , Legumes , Frutas , Alimentos",
     "descricao" : "Fatiador De Cozinha Multiuso Profissional , Aço Inoxidável 16 Em 1 , Cortador , Ralador , Legumes , Frutas , Alimentos",
@@ -4029,9 +4029,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 77,32",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51958,
     "titulo" : "Ferro De Passar Roupa A Vapor E A Seco Electrolux Esi10",
@@ -4083,9 +4083,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 47,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51047,
     "titulo" : "Fone de Ouvido Com fio Headset Gamer para PC Fone Gamer com Microfone Led Rgb PC USB Vídeogame",
@@ -4173,9 +4173,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 120,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 50955,
     "titulo" : "Fones de ouvido Bluetooth sem fio, BT510 elegantes e leves Fone De Ouvido Headset Bluetooth Sem Fio",
@@ -4267,24 +4267,6 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 51570,
-    "titulo" : "Fralda Pampers Supersequinha Tamanho M 90 Unidades",
-    "descricao" : "Fralda Pampers Supersequinha Tamanho M 90 Unidades",
-    "imagem" : "https://m.media-amazon.com/images/I/617TESrq0lL._AC_SL1200_.jpg",
-    "precoOriginal" : " 109,78",
-    "precoPromocao" : " 86,24",
-    "tag" : "-21%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07X4GWDZY?tag=curadomus-20",
-    "grupo" : "Fraldas",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:05",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 93,05",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
     "id" : 52589,
     "titulo" : "Fralda Pants Huggies Proteção Acolchoada, Tamanho M, 72 unidades, Estilo Roupinha, Cintura Macia, Fácil de Colocar",
     "descricao" : "Fralda Pants Huggies Proteção Acolchoada, Tamanho M, 72 unidades, Estilo Roupinha, Cintura Macia, Fácil de Colocar",
@@ -4299,6 +4281,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 74,90",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53331,
+    "titulo" : "Freso Carrinho de Bebê Confort Modelo Compacto, Leve e Dobrável, com Assento Reclinável até 150°, Freio Duplo, Cinto de 5 Pontos e Toldo com Proteção UV. Ideal para Crianças de 6 a 36 Meses, Perfeito para o Dia a Dia e Viagens",
+    "descricao" : "Freso Carrinho de Bebê Confort Modelo Compacto, Leve e Dobrável, com Assento Reclinável até 150°, Freio Duplo, Cinto de 5 Pontos e Toldo com Proteção UV. Ideal para Crianças de 6 a 36 Meses, Perfeito para o Dia a Dia e Viagens",
+    "imagem" : "https://m.media-amazon.com/images/I/61iQxRM96NL._AC_SL1500_.jpg",
+    "precoOriginal" : " 1.135,99",
+    "precoPromocao" : " 515,00",
+    "tag" : "-54%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0G547BSFY?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:15",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 515,00",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -4785,9 +4785,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 25,33",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52985,
     "titulo" : "Granado Sabonete Líquido Bebê, Tradicional, 500ml",
@@ -4843,24 +4843,6 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 52393,
-    "titulo" : "Granado Shampoo Bebê, Lavanda, 250ml",
-    "descricao" : "Granado Shampoo Bebê, Lavanda, 250ml",
-    "imagem" : "https://m.media-amazon.com/images/I/51C6yHuVIKL._AC_SL1000_.jpg",
-    "precoOriginal" : " 20,26",
-    "precoPromocao" : " 15,11",
-    "tag" : "-25%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B00TAC05EA?tag=curadomus-20",
-    "grupo" : "Beleza",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 10:19",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 19,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
     "id" : 52285,
     "titulo" : "Granado, Perfume, Vintage, Apotecário, 75 ml",
     "descricao" : "Granado, Perfume, Vintage, Apotecário, 75 ml",
@@ -4878,60 +4860,6 @@
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
-  }, {
-    "id" : 51624,
-    "titulo" : "Grill E Sanduicheira PGR21PI Maxx Clean 1000W Cinza Philco",
-    "descricao" : "Grill E Sanduicheira PGR21PI Maxx Clean 1000W Cinza Philco",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_742609-MLA95694260070_102025-F.webp",
-    "precoOriginal" : " 179,99",
-    "precoPromocao" : " 130,32",
-    "tag" : "-27%",
-    "linkAfiliado" : "https://meli.la/2siDK4T",
-    "grupo" : "Eletroportáteis",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:08",
-    "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : " 134,35",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
-    "id" : 51699,
-    "titulo" : "Heinz Molho de Tomate Rústico Tradicional em vidro, 320G",
-    "descricao" : "Heinz Molho de Tomate Rústico Tradicional em vidro, 320G",
-    "imagem" : "https://m.media-amazon.com/images/I/51miC7le9aL._AC_SL1000_.jpg",
-    "precoOriginal" : " 15,79",
-    "precoPromocao" : " 12,68",
-    "tag" : "-19%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DD8NFTHM?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:11",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 13,46",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
-    "id" : 52353,
-    "titulo" : "Hellmann's Ketchup Tradicional 380 g",
-    "descricao" : "Hellmann's Ketchup Tradicional 380 g",
-    "imagem" : "https://m.media-amazon.com/images/I/718nvjcFoTL._AC_SL1500_.jpg",
-    "precoOriginal" : " 13,49",
-    "precoPromocao" : " 11,00",
-    "tag" : "-18%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B086R92SJ1?tag=curadomus-20",
-    "grupo" : "Alimentos e Bebidas",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 10:09",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 13,49",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
   }, {
     "id" : 52091,
     "titulo" : "Hellmann’s Molho pra Chuchar sabor Cebola, Salsa e Limão",
@@ -5023,6 +4951,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53201,
+    "titulo" : "História do Brasil para crianças: vol. I – século XVI",
+    "descricao" : "História do Brasil para crianças: vol. I – século XVI",
+    "imagem" : "https://m.media-amazon.com/images/I/71ol17QwGKL._SL1500_.jpg",
+    "precoOriginal" : " 75,90",
+    "precoPromocao" : " 39,16",
+    "tag" : "-48%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6587404960?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 18:53",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 39,16",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 52506,
     "titulo" : "Histórias de Foxwood - A regata de Foxwood",
     "descricao" : "Histórias de Foxwood - A regata de Foxwood",
@@ -5037,6 +4983,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 28,40",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53270,
+    "titulo" : "Histórias à brasileira, vol. 2: Pedro Malasartes e outras",
+    "descricao" : "Histórias à brasileira, vol. 2: Pedro Malasartes e outras",
+    "imagem" : "https://m.media-amazon.com/images/I/A1-YXUj+zXS._SL1500_.jpg",
+    "precoOriginal" : " 87,90",
+    "precoPromocao" : " 61,53",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574062243?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:05",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 61,53",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -5113,6 +5077,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53266,
+    "titulo" : "Ilíada",
+    "descricao" : "Ilíada",
+    "imagem" : "https://m.media-amazon.com/images/I/91gyyNRQ5lL._SL1500_.jpg",
+    "precoOriginal" : " 113,00",
+    "precoPromocao" : " 76,79",
+    "tag" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526277103?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:04",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 76,79",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 51686,
     "titulo" : "Impressora 3x1 Multifuncional Epson Ecotank L3250 Wifi Bivol Preto",
     "descricao" : "Impressora 3x1 Multifuncional Epson Ecotank L3250 Wifi Bivol Preto",
@@ -5149,23 +5131,23 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 51660,
-    "titulo" : "Impressora multifuncional cor Epson EcoTank L3250",
-    "descricao" : "Impressora multifuncional cor Epson EcoTank L3250",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_867179-MLA99966959445_112025-F.webp",
-    "precoOriginal" : " 1.356,70",
-    "precoPromocao" : " 1.076,53",
-    "tag" : "-20%",
-    "linkAfiliado" : "https://meli.la/2NJn5JG",
-    "grupo" : "Computadores e Informática",
+    "id" : 53233,
+    "titulo" : "Integralmedica Creatina Hardcore 60 Cápsulas Pura Monohidratada | Auxilia no ganho de força",
+    "descricao" : "Integralmedica Creatina Hardcore 60 Cápsulas Pura Monohidratada | Auxilia no ganho de força",
+    "imagem" : "https://m.media-amazon.com/images/I/71fLf6T5cNL._AC_SL1500_.jpg",
+    "precoOriginal" : " 29,89",
+    "precoPromocao" : " 21,37",
+    "tag" : "-28%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07L5T3X9S?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
     "ativo" : true,
-    "dataOferta" : "22/07/2026 09:09",
+    "dataOferta" : "22/07/2026 18:58",
     "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : " 1.153,19",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "loja" : "Amazon",
+    "precoAnterior" : " 21,37",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52357,
     "titulo" : "Jameson - Whiskey Irlandês, 750 ml",
@@ -5217,9 +5199,9 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 2.346,43",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51595,
     "titulo" : "JBL, Fone de Ouvido Bluetooth Over-Ear, Tune 730BT, Sem Fio, Até 76 Horas de Bateria - Preto",
@@ -5343,9 +5325,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 189,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51546,
     "titulo" : "Jogo De Panelas Induçao Antiaderente Cerâmica 10 Peças Ppg  Pfoa Free Vanila Premium",
@@ -5361,27 +5343,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 407,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
-    "id" : 50737,
-    "titulo" : "Jogo De Panelas Indução Kit 10 Peças Revestimento Cerâmico Style Cook Marmol - Mimo Style Premium",
-    "descricao" : "Jogo De Panelas Indução Kit 10 Peças Revestimento Cerâmico Style Cook Marmol - Mimo Style Premium",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m76wd3k5ex586a",
-    "precoOriginal" : " 632,94",
-    "precoPromocao" : " 512,68",
-    "tag" : "-19%",
-    "linkAfiliado" : "https://s.shopee.com.br/1gH7CfjSo0",
-    "grupo" : "Cozinha",
-    "ativo" : true,
-    "dataOferta" : "21/07/2026 18:09",
-    "destaque" : false,
-    "loja" : "Shopee",
-    "precoAnterior" : " 570,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51129,
     "titulo" : "Jogo De Talheres Inox Com 24 Peças + Suporte Gaveteiro",
@@ -5505,9 +5469,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 22,89",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51526,
     "titulo" : "Jogo Taças Vidro 340Ml Diamond Bico Jaca Abacaxi Conjunto Taça Para Água Vinho Tinto Suco Diamante",
@@ -5757,9 +5721,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 159,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51919,
     "titulo" : "Kit 2 Camisa Polo Piquet Masculina Casual Premium",
@@ -5829,9 +5793,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 229,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 50663,
     "titulo" : "Kit 3 Camisas Masculinas 100% Algodão Premium Conforto Moda Casual Street Paris",
@@ -5850,24 +5814,6 @@
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
-  }, {
-    "id" : 51577,
-    "titulo" : "Kit 3 Camisas Polo Blusa Masculina Revenda Camiseta Atacado",
-    "descricao" : "Kit 3 Camisas Polo Blusa Masculina Revenda Camiseta Atacado",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_726028-MLB54177955518_032023-F-kit-3-camisas-polo-blusa-masculina-revenda-camiseta-atacado.webp",
-    "precoOriginal" : " 145,21",
-    "precoPromocao" : " 124,38",
-    "tag" : "-14%",
-    "linkAfiliado" : "https://meli.la/1BLrWTd",
-    "grupo" : "Vestuário",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:05",
-    "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : " 133,59",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
   }, {
     "id" : 51993,
     "titulo" : "Kit 3 Potes Dispenser Hermético 2l Multiuso Lavanderia Porta Sabão Em Pó Com Copo Medidor Bico Dosador E Travas",
@@ -6027,9 +5973,9 @@
     "destaque" : true,
     "loja" : "Mercado Livre",
     "precoAnterior" : " 138,22",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52375,
     "titulo" : "Kit 6 Cuecas Masculinas Boxer Algodão Sem Costura Lateral Polo Wear",
@@ -6117,9 +6063,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 159,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51471,
     "titulo" : "Kit Camisetas Masculinas Calvin Klein Jeans",
@@ -6369,9 +6315,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 39,83",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52172,
     "titulo" : "Kit Potes Herméticos Alimentos Marmita Fitness vidro Retangular 640ml / 370ml - GP Home",
@@ -6387,9 +6333,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 52,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 50728,
     "titulo" : "Kit Potes Herméticos Porta Mantimentos Acrílico Empilháveis Quadrado Resistente Cozinha Dispensa",
@@ -6499,42 +6445,6 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 51539,
-    "titulo" : "Lava-Louças Electrolux 14 Serviços Preta Experience com Função Higienizar Compras LL14P",
-    "descricao" : "Lava-Louças Electrolux 14 Serviços Preta Experience com Função Higienizar Compras LL14P",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_961151-MLA95638694336_102025-F.webp",
-    "precoOriginal" : " 4.259,00",
-    "precoPromocao" : " 3.605,59",
-    "tag" : "-15%",
-    "linkAfiliado" : "https://meli.la/2dSrxb2",
-    "grupo" : "Eletrodomésticos",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:03",
-    "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : " 3.671,54",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
-    "id" : 52340,
-    "titulo" : "Lava-Roupas em Pó Omo Puro Cuidado Caixa 2,2kg Tamanho Família",
-    "descricao" : "Lava-Roupas em Pó Omo Puro Cuidado Caixa 2,2kg Tamanho Família",
-    "imagem" : "https://m.media-amazon.com/images/I/717syvOckGL._AC_SL1500_.jpg",
-    "precoOriginal" : " 35,90",
-    "precoPromocao" : " 27,90",
-    "tag" : "-22%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0B99BCYCP?tag=curadomus-20",
-    "grupo" : "Casa",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 10:07",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 30,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
     "id" : 52416,
     "titulo" : "LEGO Classic - Caixa Média de Peças Criativas",
     "descricao" : "LEGO Classic - Caixa Média de Peças Criativas",
@@ -6642,24 +6552,6 @@
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
-  }, {
-    "id" : 52166,
-    "titulo" : "Licor Curaçau Blue Stock 720 Ml",
-    "descricao" : "Licor Curaçau Blue Stock 720 Ml",
-    "imagem" : "https://m.media-amazon.com/images/I/61BBWDhp8eL._AC_SL1500_.jpg",
-    "precoOriginal" : " 72,00",
-    "precoPromocao" : " 53,99",
-    "tag" : "-25%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07XLCTTH2?tag=curadomus-20",
-    "grupo" : "Bebidas Alcoólicas",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:35",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 56,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
   }, {
     "id" : 53008,
     "titulo" : "Licor Frangelico 700ml",
@@ -7669,6 +7561,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53358,
+    "titulo" : "Mustela Toalhas Compostáveis Com Perfume 60 Unidades - Lenços Umedecidos Perfumados E Suaves Para Higiene Do Rosto Ao Bumbum – Com 99% De Ingredientes Naturais – Bebê E Criança",
+    "descricao" : "Mustela Toalhas Compostáveis Com Perfume 60 Unidades - Lenços Umedecidos Perfumados E Suaves Para Higiene Do Rosto Ao Bumbum – Com 99% De Ingredientes Naturais – Bebê E Criança",
+    "imagem" : "https://m.media-amazon.com/images/I/514XlEN5KKL._AC_SL1000_.jpg",
+    "precoOriginal" : " 45,50",
+    "precoPromocao" : " 28,90",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0D2ZH3TCJ?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:21",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 28,90",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 51438,
     "titulo" : "Máquina De Costura Elgin Jx-4035 Genius Plus 31 Pontos Cor Branco",
     "descricao" : "Máquina De Costura Elgin Jx-4035 Genius Plus 31 Pontos Cor Branco",
@@ -7683,9 +7593,9 @@
     "destaque" : true,
     "loja" : "Mercado Livre",
     "precoAnterior" : " 834,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52437,
     "titulo" : "Máquina de Lavar Electrolux 15kg Branca Essential Care com Cesto Inox e Jet&Clean (LED15) - 127V",
@@ -7759,6 +7669,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53249,
+    "titulo" : "Nescafé Café Solúvel Tradição 100G",
+    "descricao" : "Nescafé Café Solúvel Tradição 100G",
+    "imagem" : "https://m.media-amazon.com/images/I/81WLH+YFr4L._AC_SL1500_.jpg",
+    "precoOriginal" : " 26,99",
+    "precoPromocao" : " 17,82",
+    "tag" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B001ZDDJIQ?tag=curadomus-20",
+    "grupo" : "Alimentos e Bebidas",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:01",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 17,82",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 52356,
     "titulo" : "Nestlé Creme De Leite Zero Lactose 200G",
     "descricao" : "Nestlé Creme De Leite Zero Lactose 200G",
@@ -7791,9 +7719,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 69,82",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52086,
     "titulo" : "Neutrogena Sun Fresh Protetor Solar Facial Derm Care, Pele Oleosa, Sem Cor, FPS 70, 40g",
@@ -7809,9 +7737,9 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 50,26",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52851,
     "titulo" : "NIVEA Desodorante Antitranspirante Stick Derma Protect Clinical 58g, Defesa Intensa 96h, Controle de Suor Extremo, Toque Suave, Protege a Pele",
@@ -7845,9 +7773,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 30,98",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51731,
     "titulo" : "NIVEA SUN Protetor Solar Kids & Babies Pele Sensível FPS 60 125ml - Infantil, muito alta proteção UVA/UVB, minimiza o surgimento de alergias, muito resistente à água com proteção imediata",
@@ -7975,6 +7903,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53203,
+    "titulo" : "O caminho para Belém",
+    "descricao" : "O caminho para Belém",
+    "imagem" : "https://m.media-amazon.com/images/I/71VuytCq+hL._SL1500_.jpg",
+    "precoOriginal" : " 34,90",
+    "precoPromocao" : " 24,54",
+    "tag" : "-29%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6585310527?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 18:54",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 24,54",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 52560,
     "titulo" : "O caracol",
     "descricao" : "O caracol",
@@ -8011,6 +7957,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53362,
+    "titulo" : "O casamento do passarinho",
+    "descricao" : "O casamento do passarinho",
+    "imagem" : "https://m.media-amazon.com/images/I/91sTeozghHL._SL1500_.jpg",
+    "precoOriginal" : " 77,90",
+    "precoPromocao" : " 54,53",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574069078?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:22",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 54,53",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 52505,
     "titulo" : "O Castelo",
     "descricao" : "O Castelo",
@@ -8025,6 +7989,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 23,22",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53273,
+    "titulo" : "O Coelho de Veludo",
+    "descricao" : "O Coelho de Veludo",
+    "imagem" : "https://m.media-amazon.com/images/I/71H0d8sDDJL._SL1500_.jpg",
+    "precoOriginal" : " 19,99",
+    "precoPromocao" : " 12,99",
+    "tag" : "-35%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6558885301?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:05",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 22,99",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -8259,9 +8241,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 28,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52570,
     "titulo" : "O peixe pixote",
@@ -8749,6 +8731,42 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53267,
+    "titulo" : "Os Lusíadas",
+    "descricao" : "Os Lusíadas",
+    "imagem" : "https://m.media-amazon.com/images/I/91NtCn5GQFL._SL1500_.jpg",
+    "precoOriginal" : " 113,00",
+    "precoPromocao" : " 77,78",
+    "tag" : "-31%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526277081?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:04",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 77,78",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53269,
+    "titulo" : "Os miseráveis",
+    "descricao" : "Os miseráveis",
+    "imagem" : "https://m.media-amazon.com/images/I/91PmXoM5YGL._SL1500_.jpg",
+    "precoOriginal" : " 113,00",
+    "precoPromocao" : " 66,00",
+    "tag" : "-41%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526273752?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:04",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 66,00",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 52904,
     "titulo" : "Os pequenos girassóis da mamãe",
     "descricao" : "Os pequenos girassóis da mamãe",
@@ -8781,6 +8799,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 29,99",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53265,
+    "titulo" : "Os três mosqueteiros",
+    "descricao" : "Os três mosqueteiros",
+    "imagem" : "https://m.media-amazon.com/images/I/718-yksedaL._SL1500_.jpg",
+    "precoOriginal" : " 113,00",
+    "precoPromocao" : " 66,98",
+    "tag" : "-40%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526283235?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:04",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 66,98",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -8983,24 +9019,6 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 52280,
-    "titulo" : "Paninho de Boca Bebê Papi Soft Estampado 28x28 cm – Contém 6 Unidades, Rosa",
-    "descricao" : "Paninho de Boca Bebê Papi Soft Estampado 28x28 cm – Contém 6 Unidades, Rosa",
-    "imagem" : "https://m.media-amazon.com/images/I/41FVVVY43-L._AC_SL1080_.jpg",
-    "precoOriginal" : " 26,51",
-    "precoPromocao" : " 21,18",
-    "tag" : "-20%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FS9NB4MY?tag=curadomus-20",
-    "grupo" : "Bebês",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:54",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 22,30",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
-  }, {
     "id" : 52832,
     "titulo" : "Pantufas Felpudas Impermeáveis ​​para Homem, Antiderrapantes, Macias e Quentes. Pantufas Masculinas",
     "descricao" : "Pantufas Felpudas Impermeáveis ​​para Homem, Antiderrapantes, Macias e Quentes. Pantufas Masculinas",
@@ -9015,6 +9033,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 39,00",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53254,
+    "titulo" : "Parábolas do Senhor: O bom samaritano",
+    "descricao" : "Parábolas do Senhor: O bom samaritano",
+    "imagem" : "https://m.media-amazon.com/images/I/7143aDknmYL._SL1500_.jpg",
+    "precoOriginal" : " 23,90",
+    "precoPromocao" : " 5,98",
+    "tag" : "-74%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6589875219?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:02",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 5,98",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -9141,9 +9177,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 109,91",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52434,
     "titulo" : "Philips Walita Cafeteira Espresso Superautomática Série 1200, 1500W, 15 Bar, 2 Bebidas, Moedor em Cerâmica, Display Touch, Preta, 110V (EP1220/15)",
@@ -9177,9 +9213,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 13,72",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 50979,
     "titulo" : "Play-Doh Kit com 10 cores básicas de massinha, refil",
@@ -9285,9 +9321,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 37,80",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52596,
     "titulo" : "Posso brincar também? (Nova edição)",
@@ -9357,6 +9393,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 47,20",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53261,
+    "titulo" : "PRIMEIRAS PALAVRAS - PARA O DIA A DIA DAS CRIANÇAS",
+    "descricao" : "PRIMEIRAS PALAVRAS - PARA O DIA A DIA DAS CRIANÇAS",
+    "imagem" : "https://m.media-amazon.com/images/I/618ioIiJBHL._SL1000_.jpg",
+    "precoOriginal" : " 99,90",
+    "precoPromocao" : " 67,57",
+    "tag" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/1474917178?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:03",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 67,57",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -9469,6 +9523,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53300,
+    "titulo" : "Pré treino, +Mu, Exquenta, Sabor Tropical, Com Cafeína, Palatinose e Taurina - 500g",
+    "descricao" : "Pré treino, +Mu, Exquenta, Sabor Tropical, Com Cafeína, Palatinose e Taurina - 500g",
+    "imagem" : "https://m.media-amazon.com/images/I/71an4bqbPjL._AC_SL1500_.jpg",
+    "precoOriginal" : " 179,99",
+    "precoPromocao" : " 97,00",
+    "tag" : "-46%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DG19K2NS?tag=curadomus-20",
+    "grupo" : "Saúde e Bem-Estar",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:10",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 97,00",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 51759,
     "titulo" : "Pufe Mesa Tecido Bouclê 45x38cm Porta Copos Estofado Redondo",
     "descricao" : "Pufe Mesa Tecido Bouclê 45x38cm Porta Copos Estofado Redondo",
@@ -9541,6 +9613,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53256,
+    "titulo" : "Que bicho será?",
+    "descricao" : "Que bicho será?",
+    "imagem" : "https://m.media-amazon.com/images/I/81gSPVHuC7L._SL1500_.jpg",
+    "precoOriginal" : " 49,00",
+    "precoPromocao" : " 21,90",
+    "tag" : "-55%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508181523?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:02",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 21,90",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 51915,
     "titulo" : "Relógio Casio Feminino Vintage Digital Mini Retrô Prata",
     "descricao" : "Relógio Casio Feminino Vintage Digital Mini Retrô Prata",
@@ -9591,9 +9681,9 @@
     "destaque" : true,
     "loja" : "Mercado Livre",
     "precoAnterior" : " 625,60",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52242,
     "titulo" : "Rikki-Tikki-Tavi",
@@ -9699,9 +9789,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 22,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52727,
     "titulo" : "Safety 1st, Banheira Smile com Suporte, Aqua Green",
@@ -9717,6 +9807,24 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 526,70",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53320,
+    "titulo" : "Safety 1st, Banheira Smile com Suporte, Grey",
+    "descricao" : "Safety 1st, Banheira Smile com Suporte, Grey",
+    "imagem" : "https://m.media-amazon.com/images/I/41ALEqeZv7L._AC_SL1000_.jpg",
+    "precoOriginal" : " 799,00",
+    "precoPromocao" : " 502,55",
+    "tag" : "-37%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09WG2D7DC?tag=curadomus-20",
+    "grupo" : "Bebês",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:14",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 529,00",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -9807,9 +9915,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 89,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 50856,
     "titulo" : "Sanduicheira Grill Antiaderente Black 750w 127/220v",
@@ -9825,9 +9933,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 79,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51683,
     "titulo" : "Sandália Babuche Antiderrapante Leve Macia Confortável",
@@ -9879,9 +9987,9 @@
     "destaque" : true,
     "loja" : "Mercado Livre",
     "precoAnterior" : " 99,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 50795,
     "titulo" : "Secador de Cabelos Philco Bivolt 2200W PSC2450 Íons Tourmaline Bivolt",
@@ -9933,9 +10041,9 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : " 16,55",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52597,
     "titulo" : "Será que eu divido o meu sorvete?",
@@ -9987,9 +10095,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 888,20",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52896,
     "titulo" : "Sofá Retrátil E Reclinável Com Molas 1,80m Livia Suede Preto",
@@ -10153,6 +10261,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53221,
+    "titulo" : "Stanley Garrafa Térmica Aerolight Transit Cream, 591ml",
+    "descricao" : "Stanley Garrafa Térmica Aerolight Transit Cream, 591ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51QhwYZEDGL._AC_SL1500_.jpg",
+    "precoOriginal" : " 259,00",
+    "precoPromocao" : " 160,13",
+    "tag" : "-38%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CZPSD2SC?tag=curadomus-20",
+    "grupo" : "Cozinha",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 18:56",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 160,13",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 52734,
     "titulo" : "Stanley Garrafa Térmica Aerolight Transit Rose Quartz, 591ml",
     "descricao" : "Stanley Garrafa Térmica Aerolight Transit Rose Quartz, 591ml",
@@ -10206,24 +10332,6 @@
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
-  }, {
-    "id" : 52300,
-    "titulo" : "Sustagen Kids Complemento Alimentar Sabor Morango - Lata 350G",
-    "descricao" : "Sustagen Kids Complemento Alimentar Sabor Morango - Lata 350G",
-    "imagem" : "https://m.media-amazon.com/images/I/61HjU1ze1EL._AC_SL1000_.jpg",
-    "precoOriginal" : " 40,57",
-    "precoPromocao" : " 31,37",
-    "tag" : "-22%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B00LF9TCHW?tag=curadomus-20",
-    "grupo" : "Saúde e Bem-Estar",
-    "ativo" : true,
-    "dataOferta" : "22/07/2026 09:58",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : " 31,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
   }, {
     "id" : 52706,
     "titulo" : "Tapete de Atividades Musical com Piano para Bebê, Arco de Brinquedos Interativos, Estampado e Cores Vibrantes (Verde)",
@@ -10329,6 +10437,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 94,53",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53316,
+    "titulo" : "Tiny Love, Arco Sunny Stroll, Tiny Princess",
+    "descricao" : "Tiny Love, Arco Sunny Stroll, Tiny Princess",
+    "imagem" : "https://m.media-amazon.com/images/I/81XbRs-hBeL._AC_SL1500_.jpg",
+    "precoOriginal" : " 219,00",
+    "precoPromocao" : " 129,97",
+    "tag" : "-40%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B085RTL71V?tag=curadomus-20",
+    "grupo" : "Brinquedos e Jogos",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:13",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 129,97",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
@@ -10491,9 +10617,9 @@
     "destaque" : true,
     "loja" : "Mercado Livre",
     "precoAnterior" : " 305,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51434,
     "titulo" : "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
@@ -10707,9 +10833,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 17,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52929,
     "titulo" : "Vai dar tudo certo",
@@ -10743,9 +10869,9 @@
     "destaque" : true,
     "loja" : "Shopee",
     "precoAnterior" : " 79,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 52034,
     "titulo" : "Veja Gotas de Perfume Citrino Alecrim Limpador Perfumado Concentrado 100 ml",
@@ -11107,23 +11233,23 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
-    "id" : 52294,
-    "titulo" : "Whisky Jack Daniel's Triple Mash Tennessee Whiskey 700ml",
-    "descricao" : "Whisky Jack Daniel's Triple Mash Tennessee Whiskey 700ml",
-    "imagem" : "https://m.media-amazon.com/images/I/71FhpnHM6tL._AC_SL1500_.jpg",
-    "precoOriginal" : " 249,90",
-    "precoPromocao" : " 201,72",
-    "tag" : "-19%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B09ZLSZ869?tag=curadomus-20",
+    "id" : 53208,
+    "titulo" : "Whisky Escocês Blended 10 Anos Ballantine's Garrafa 750ml",
+    "descricao" : "Whisky Escocês Blended 10 Anos Ballantine's Garrafa 750ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51HRjDCtpuL._AC_SL1000_.jpg",
+    "precoOriginal" : " 127,90",
+    "precoPromocao" : " 86,77",
+    "tag" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0D63KDTVT?tag=curadomus-20",
     "grupo" : "Bebidas Alcoólicas",
     "ativo" : true,
-    "dataOferta" : "22/07/2026 09:57",
+    "dataOferta" : "22/07/2026 18:54",
     "destaque" : false,
     "loja" : "Amazon",
-    "precoAnterior" : " 201,75",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 3,
-    "menorPrecoMensagem" : "Menor preço dos últimos 3 dias."
+    "precoAnterior" : " 86,77",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
   }, {
     "id" : 51864,
     "titulo" : "Whisky Johnnie Walker Black Label 12 Anos 750ml",
@@ -11197,6 +11323,24 @@
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
   }, {
+    "id" : 53245,
+    "titulo" : "Whisky Johnnie Walker Gold Label 750ml",
+    "descricao" : "Whisky Johnnie Walker Gold Label 750ml",
+    "imagem" : "https://m.media-amazon.com/images/I/71-PlCSymhL._AC_SL1500_.jpg",
+    "precoOriginal" : " 343,90",
+    "precoPromocao" : " 239,99",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DVT7GM9C?tag=curadomus-20",
+    "grupo" : "Bebidas Alcoólicas",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:00",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : null,
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
     "id" : 52013,
     "titulo" : "Whisky Johnnie Walker Red Label 1L",
     "descricao" : "Whisky Johnnie Walker Red Label 1L",
@@ -11211,6 +11355,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 78,20",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 53323,
+    "titulo" : "Whisky Johnnie Walker Red Label 750ml",
+    "descricao" : "Whisky Johnnie Walker Red Label 750ml",
+    "imagem" : "https://m.media-amazon.com/images/I/41C6vb-0vwL._AC_SL1000_.jpg",
+    "precoOriginal" : " 92,90",
+    "precoPromocao" : " 58,90",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0086LLUG8?tag=curadomus-20",
+    "grupo" : "Bebidas Alcoólicas",
+    "ativo" : true,
+    "dataOferta" : "22/07/2026 19:14",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 58,90",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
