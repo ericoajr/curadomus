@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "27/07/2026 21:21",
+  "ultimaAtualizacao" : "27/07/2026 21:23",
   "ofertas" : [ {
     "id" : 62579,
     "titulo" : "+Mu Chocowheyfer Proteico Sabor Baunilha - Display com 12 unidades - 300g",
@@ -3003,6 +3003,24 @@
     "destaque" : true,
     "loja" : "Amazon",
     "precoAnterior" : null,
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 7,
+    "menorPrecoMensagem" : "Menor preço dos últimos 7 dias."
+  }, {
+    "id" : 64040,
+    "titulo" : "Cerveja Heineken Garrafa 600ml - 12 unid.",
+    "descricao" : "Cerveja Heineken Garrafa 600ml - 12 unid.",
+    "imagem" : "https://m.media-amazon.com/images/I/518gnMhkgkL._AC_SL1001_.jpg",
+    "precoOriginal" : " 161,88",
+    "precoPromocao" : " 136,90",
+    "tag" : "-15%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07XS8WKYL?tag=curadomus-20",
+    "grupo" : "Bebidas Alcoólicas",
+    "ativo" : true,
+    "dataOferta" : "27/07/2026 21:23",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : " 149,99",
     "menorPrecoEmDias" : true,
     "menorPrecoDias" : 7,
     "menorPrecoMensagem" : "Menor preço dos últimos 7 dias."
@@ -8007,6 +8025,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : " 72,56",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 64035,
+    "titulo" : "MamyPoko Fralda-Calça Superproteção M 34 Unidades",
+    "descricao" : "MamyPoko Fralda-Calça Superproteção M 34 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/71K4ZODPSoL._AC_SL1500_.jpg",
+    "precoOriginal" : " 42,90",
+    "precoPromocao" : " 29,90",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DK3M6161?tag=curadomus-20",
+    "grupo" : "Fraldas",
+    "ativo" : true,
+    "dataOferta" : "27/07/2026 21:22",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : " 29,90",
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
