@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "03/08/2026 10:04",
+  "ultimaAtualizacao" : "03/08/2026 10:08",
   "ofertas" : [ {
     "id" : 75742,
     "titulo" : "+Mu Chocowheyfer Proteico Sabor Baunilha - Display com 12 unidades - 300g | 6g de Proteína, Zero adição de açúcares, Crocante, Para comer sem culpa",
@@ -1419,6 +1419,24 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "43,14",
+    "menorPrecoEmDias" : false,
+    "menorPrecoDias" : null,
+    "menorPrecoMensagem" : null
+  }, {
+    "id" : 76272,
+    "titulo" : "As extraordinárias viagens de Júlio Verne - Box com 6 livros",
+    "descricao" : "As extraordinárias viagens de Júlio Verne - Box com 6 livros",
+    "imagem" : "https://m.media-amazon.com/images/I/71wgomAPTQS._SL1350_.jpg",
+    "precoOriginal" : "179,00",
+    "precoPromocao" : "67,52",
+    "tag" : "-62%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08Y3CV67L?tag=curadomus-20",
+    "grupo" : "Livros",
+    "ativo" : true,
+    "dataOferta" : "03/08/2026 10:08",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : null,
     "menorPrecoEmDias" : false,
     "menorPrecoDias" : null,
     "menorPrecoMensagem" : null
