@@ -167,7 +167,7 @@ function render() {
   const q = $busca.value.trim().toLowerCase();
   const f = $filtro.value;
   const arr = ofertas.filter(o =>
-    (f === "TODAS" || (o.grupo||"").trim() === f) &&
+    (f === "TODAS" || (o.categoria||"").trim() === f) &&
     (!q || o.titulo.toLowerCase().includes(q))
   );
   if (!arr.length) {
@@ -200,7 +200,6 @@ function card(p) {
     </div>
     <div class="flex flex-1 flex-col gap-3 p-5">
       <div>
-        ${p.grupo ? `<div class="mb-1 inline-flex items-center gap-1 text-[10px] font-semibold uppercase tracking-wider text-primary">🏷 ${p.grupo}</div>` : ""}
         <h3 class="text-[15px] font-semibold leading-snug">${p.titulo}</h3>
         ${menorPrecoTexto ? `<div class="mt-2 inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-2.5 py-1 text-[11px] font-semibold text-emerald-700">
           <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline><polyline points="17 18 23 18 23 12"></polyline></svg>
@@ -224,7 +223,7 @@ fetch("promocoes.json").then(r => r.ok ? r.json() : Promise.reject())
   .then(d => {
     ofertas = d.ofertas || [];
     if (d.ultimaAtualizacao) $atual.textContent = "Atualizado em: " + d.ultimaAtualizacao;
-    const grupos = [...new Set(ofertas.map(o => (o.grupo||"").trim()).filter(Boolean))].sort();
+    const grupos = [...new Set(ofertas.map(o => (o.categoria||"").trim()).filter(Boolean))].sort();
     grupos.forEach(g => {
       const opt = document.createElement("option");
       opt.value = g; opt.textContent = g;
