@@ -70,6 +70,8 @@
   .ring-border { --tw-ring-color: var(--border); }
   @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
   .animate-fade-up { animation: fade-up .4s ease both; }
+  .modal-backdrop { background: rgba(43,36,30,.45); backdrop-filter: blur(2px); }
+  .hidden { display: none !important; }
 </style>
 </head>
 <body>
@@ -139,6 +141,21 @@
   </footer>
 </div>
 
+<!-- Modal Histórico -->
+<div id="modalHist" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop">
+  <div class="w-full max-w-lg rounded-2xl border bg-card p-5 shadow-card" style="border-color:var(--border)">
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">Histórico de preços</div>
+        <h3 id="histTitulo" class="text-serif mt-1 text-xl leading-snug"></h3>
+      </div>
+      <button id="histFechar" aria-label="Fechar" class="rounded-lg border px-2.5 py-1 text-sm font-semibold" style="border-color:var(--border); color:var(--muted-ink)">✕</button>
+    </div>
+    <div id="histGrafico" class="mt-4"></div>
+    <p id="histResumo" class="mt-3 text-xs" style="color:var(--muted-ink)"></p>
+  </div>
+</div>
+
 <script>
 const BASE = "https://id-preview--736ce8be-ff29-4b9b-b29a-a17fb67bfb54.lovable.app";
 const comunidades = [
@@ -183,7 +200,69 @@ function render() {
       setTimeout(() => btn.innerText = t, 1600);
     });
   });
+  document.querySelectorAll("[data-hist]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const d = JSON.parse(decodeURIComponent(btn.dataset.hist));
+      abrirHistorico(d.t, d.h);
+    });
+  });
 }
+
+const $modal = document.getElementById("modalHist");
+const $histTitulo = document.getElementById("histTitulo");
+const $histGrafico = document.getElementById("histGrafico");
+const $histResumo = document.getElementById("histResumo");
+
+function fmtBRL(v) {
+  return "R$ " + v.toFixed(2).replace(".", ",");
+}
+
+function graficoSVG(hist) {
+  const W = 460, H = 200, ML = 56, MR = 14, MT = 16, MB = 30;
+  const pts = hist.map(h => ({ d: h.data, v: Number(h.preco) })).filter(h => isFinite(h.v));
+  const vals = pts.map(p => p.v);
+  let min = Math.min(...vals), max = Math.max(...vals);
+  if (min === max) { min = min - 1; max = max + 1; }
+  const pad = (max - min) * 0.15; min -= pad; max += pad;
+  const x = i => ML + (pts.length === 1 ? (W-ML-MR)/2 : i * (W - ML - MR) / (pts.length - 1));
+  const y = v => MT + (H - MT - MB) * (1 - (v - min) / (max - min));
+  const linha = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(" ");
+  const area = `${linha} L${x(pts.length-1).toFixed(1)},${H-MB} L${x(0).toFixed(1)},${H-MB} Z`;
+  const grades = [0, .25, .5, .75, 1].map(t => {
+    const v = min + (max - min) * t, yy = y(v);
+    return `<line x1="${ML}" y1="${yy.toFixed(1)}" x2="${W-MR}" y2="${yy.toFixed(1)}" stroke="var(--border)" stroke-width="1"/>
+      <text x="${ML-8}" y="${(yy+3.5).toFixed(1)}" text-anchor="end" font-size="9" fill="var(--muted-ink)">${fmtBRL(v)}</text>`;
+  }).join("");
+  const passo = Math.max(1, Math.ceil(pts.length / 6));
+  const rotulos = pts.map((p, i) => (i % passo === 0 || i === pts.length - 1)
+    ? `<text x="${x(i).toFixed(1)}" y="${H-10}" text-anchor="middle" font-size="9" fill="var(--muted-ink)">${p.d.slice(0,5)}</text>` : "").join("");
+  const minIdx = vals.indexOf(Math.min(...vals));
+  const bolinhas = pts.map((p, i) => `<circle cx="${x(i).toFixed(1)}" cy="${y(p.v).toFixed(1)}" r="${i === minIdx ? 4.5 : 3}" fill="${i === minIdx ? "#059669" : "var(--primary)"}"><title>${p.d} · ${fmtBRL(p.v)}</title></circle>`).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" class="w-full" role="img" aria-label="Gráfico de histórico de preços">
+    <defs><linearGradient id="gArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="var(--primary)" stop-opacity="0"/>
+    </linearGradient></defs>
+    ${grades}
+    <path d="${area}" fill="url(#gArea)"/>
+    <path d="${linha}" fill="none" stroke="var(--primary)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    ${bolinhas}${rotulos}
+  </svg>`;
+}
+
+function abrirHistorico(titulo, hist) {
+  $histTitulo.textContent = titulo;
+  $histGrafico.innerHTML = graficoSVG(hist);
+  const vals = hist.map(h => Number(h.preco)).filter(v => isFinite(v));
+  const atual = vals[vals.length - 1], min = Math.min(...vals), max = Math.max(...vals);
+  $histResumo.textContent = `Atual ${fmtBRL(atual)} · Menor ${fmtBRL(min)} · Maior ${fmtBRL(max)} · ${hist.length} registros`;
+  $modal.classList.remove("hidden");
+}
+
+function fecharHistorico() { $modal.classList.add("hidden"); }
+document.getElementById("histFechar").addEventListener("click", fecharHistorico);
+$modal.addEventListener("click", e => { if (e.target === $modal) fecharHistorico(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") fecharHistorico(); });
 
 function card(p) {
   const precoAntigo = (p.precoOriginal||"").replace(/\u00a0/g,"").trim();
@@ -192,6 +271,8 @@ function card(p) {
   // ex.: "Menor preço dos últimos 30 dias.") em vez de texto fixo no front —
   // ver OfertaDTO#menorPrecoMensagem / alerta.menor-preco.dias no backend.
   const menorPrecoTexto = (p.menorPrecoMensagem || "").trim();
+  const hist = Array.isArray(p.historico) ? p.historico : [];
+  const temHist = hist.length > 1;
   return `
   <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
     <div class="relative flex shrink-0 items-center justify-center p-4 sm:w-44" style="background:var(--cream-deep)">
@@ -212,6 +293,10 @@ function card(p) {
           ${precoAntigo ? `<span class="text-xs line-through" style="color:var(--muted-ink)">R$ ${precoAntigo}</span>` : ""}
           <span class="text-serif text-2xl font-bold leading-none text-primary">R$ ${precoNovo}</span>
         </div>
+        ${temHist ? `<button data-hist="${encodeURIComponent(JSON.stringify({t:p.titulo,h:hist}))}" class="inline-flex items-center gap-1.5 rounded-lg border px-3 py-2 text-xs font-semibold text-primary transition hover:bg-primary/5" style="border-color:var(--border)">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+          Ver Histórico
+        </button>` : ""}
         ${p.cupom ? `<button data-cupom="${p.cupom}" class="inline-flex items-center gap-1.5 rounded-lg border border-dashed border-primary/50 bg-primary/5 px-2.5 py-1.5 text-xs font-semibold text-primary transition hover:bg-primary/10">⧉ ${p.cupom}</button>` : ""}
         <a href="${p.linkAfiliado}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-soft transition hover:opacity-90">Aproveitar ↗</a>
       </div>
