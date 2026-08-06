@@ -213,6 +213,20 @@ const $histTitulo = document.getElementById("histTitulo");
 const $histGrafico = document.getElementById("histGrafico");
 const $histResumo = document.getElementById("histResumo");
 
+// Aceita variações de nome vindas do backend e normaliza para {data, preco}
+function normalizarHistorico(p) {
+  const bruto = p.historico || p.historicoPrecos || p.historicoPreco || p.precos || p.priceHistory || [];
+  if (!Array.isArray(bruto)) return [];
+  return bruto.map(h => {
+    if (h == null) return null;
+    const data = h.data ?? h.dia ?? h.date ?? h.dataPreco ?? "";
+    let preco = h.preco ?? h.valor ?? h.price ?? h.precoPromocao ?? h.value;
+    if (typeof preco === "string") preco = Number(preco.replace(/[^\d,.-]/g, "").replace(/\.(?=\d{3}\b)/g, "").replace(",", "."));
+    preco = Number(preco);
+    return isFinite(preco) ? { data: String(data), preco } : null;
+  }).filter(Boolean);
+}
+
 function fmtBRL(v) {
   return "R$ " + v.toFixed(2).replace(".", ",");
 }
@@ -271,8 +285,8 @@ function card(p) {
   // ex.: "Menor preço dos últimos 30 dias.") em vez de texto fixo no front —
   // ver OfertaDTO#menorPrecoMensagem / alerta.menor-preco.dias no backend.
   const menorPrecoTexto = (p.menorPrecoMensagem || "").trim();
-  const hist = Array.isArray(p.historico) ? p.historico : [];
-  const temHist = hist.length > 1;
+  const hist = normalizarHistorico(p);
+  const temHist = hist.length > 0;
   return `
   <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
     <div class="relative flex shrink-0 items-center justify-center p-4 sm:w-44" style="background:var(--cream-deep)">
