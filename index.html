@@ -285,6 +285,9 @@ function card(p) {
   // ex.: "Menor preço dos últimos 30 dias.") em vez de texto fixo no front —
   // ver OfertaDTO#menorPrecoMensagem / alerta.menor-preco.dias no backend.
   const menorPrecoTexto = (p.menorPrecoMensagem || "").trim();
+  
+  
+  console.log(`Produto: ${p.nome}`, p.historico, normalizarHistorico(p));
   const hist = normalizarHistorico(p);
   const temHist = hist.length > 0;
   return `
