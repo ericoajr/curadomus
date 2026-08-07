@@ -242,8 +242,9 @@ function graficoSVG(hist) {
   const y = v => MT + (H - MT - MB) * (1 - (v - min) / (max - min));
   const linha = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(" ");
   const area = `${linha} L${x(pts.length-1).toFixed(1)},${H-MB} L${x(0).toFixed(1)},${H-MB} Z`;
-  const grades = [0, .25, .5, .75, 1].map(t => {
-    const v = min + (max - min) * t, yy = y(v);
+  const valoresUnicos = [...new Set(vals)].sort((a, b) => a - b);
+  const grades = valoresUnicos.map(v => {
+    const yy = y(v);
     return `<line x1="${ML}" y1="${yy.toFixed(1)}" x2="${W-MR}" y2="${yy.toFixed(1)}" stroke="var(--border)" stroke-width="1"/>
       <text x="${ML-8}" y="${(yy+3.5).toFixed(1)}" text-anchor="end" font-size="9" fill="var(--muted-ink)">${fmtBRL(v)}</text>`;
   }).join("");
