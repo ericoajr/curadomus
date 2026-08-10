@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "10/08/2026 16:43",
+  "ultimaAtualizacao" : "10/08/2026 18:44",
   "ofertas" : [ {
     "id" : 90046,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -499,7 +499,7 @@
       "preco" : 19.71
     } ]
   }, {
-    "id" : 89034,
+    "id" : 91529,
     "titulo" : "A fantástica fábrica de chocolate",
     "imagem" : "https://m.media-amazon.com/images/I/81dTvpaSTeL._SL1500_.jpg",
     "precoOriginal" : "59,90",
@@ -510,49 +510,13 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:28",
-    "destaque" : true,
+    "dataOferta" : "10/08/2026 18:33",
+    "destaque" : false,
     "loja" : "Amazon",
-    "precoAnterior" : "43,22",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 15,
-    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
-    "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 45.5
-    }, {
-      "data" : "28/07/2026",
-      "preco" : 45.5
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 43.22
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 43.22
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 43.22
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 43.22
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 43.22
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 43.22
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 43.22
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 43.22
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 32.69
-    } ]
+    "precoAnterior" : "32,69",
+    "menorPrecoEmDias" : false
   }, {
-    "id" : 89055,
+    "id" : 91587,
     "titulo" : "A fantástica fábrica de chocolate (Edição especial)",
     "imagem" : "https://m.media-amazon.com/images/I/81BX9xwJ1jL._SL1500_.jpg",
     "precoOriginal" : "59,90",
@@ -563,7 +527,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:32",
+    "dataOferta" : "10/08/2026 18:40",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "32,69",
@@ -773,7 +737,7 @@
     "precoAnterior" : "42,21",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89049,
+    "id" : 91562,
     "titulo" : "A teia de Charlotte",
     "imagem" : "https://m.media-amazon.com/images/I/91RdYbmF5PL._SL1500_.jpg",
     "precoOriginal" : "74,90",
@@ -784,7 +748,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:31",
+    "dataOferta" : "10/08/2026 18:38",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "49,78",
@@ -1424,7 +1388,7 @@
       "preco" : 21.06
     } ]
   }, {
-    "id" : 89032,
+    "id" : 91527,
     "titulo" : "As Aventuras De Dom Bosco",
     "imagem" : "https://m.media-amazon.com/images/I/61uwYWucaFS._SL1415_.jpg",
     "precoOriginal" : "127,90",
@@ -1435,13 +1399,13 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:27",
+    "dataOferta" : "10/08/2026 18:32",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "84,23",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89047,
+    "id" : 91560,
     "titulo" : "As aventuras de Pedro Coelho",
     "imagem" : "https://m.media-amazon.com/images/I/91oKrZABXJL._SL1500_.jpg",
     "precoOriginal" : "79,90",
@@ -1452,13 +1416,13 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:31",
+    "dataOferta" : "10/08/2026 18:37",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "49,90",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89064,
+    "id" : 91596,
     "titulo" : "As aventuras de Tom Sawyer - (Texto integral - Clássicos Autêntica)",
     "imagem" : "https://m.media-amazon.com/images/I/81mWTlcwsaL._SL1500_.jpg",
     "precoOriginal" : "54,90",
@@ -1469,7 +1433,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:34",
+    "dataOferta" : "10/08/2026 18:41",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "32,04",
@@ -3243,23 +3207,6 @@
     "precoAnterior" : "141,00",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89083,
-    "titulo" : "Buba, Esterilizador De Mamadeiras",
-    "imagem" : "https://m.media-amazon.com/images/I/41I3iAJTJCL._AC_SL1000_.jpg",
-    "precoOriginal" : "97,90",
-    "precoPromocao" : "67,06",
-    "tag" : "-31%",
-    "percentualDesconto" : 31.0,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CGSTKQN9?tag=curadomus-20",
-    "categoria" : "Bebês",
-    "categoriaId" : 7,
-    "ativo" : true,
-    "dataOferta" : "09/08/2026 18:37",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : "67,06",
-    "menorPrecoEmDias" : false
-  }, {
     "id" : 89648,
     "titulo" : "Buba, Kit Portatil Para Limpeza De Mamadeira",
     "imagem" : "https://m.media-amazon.com/images/I/51Ffqe7TdTL._AC_SL1000_.jpg",
@@ -4286,7 +4233,7 @@
     "precoAnterior" : "79,79",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89037,
+    "id" : 91532,
     "titulo" : "Cartas de um diabo a seu aprendiz",
     "imagem" : "https://m.media-amazon.com/images/I/91w74bA251L._SL1500_.jpg",
     "precoOriginal" : "64,90",
@@ -4297,7 +4244,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:28",
+    "dataOferta" : "10/08/2026 18:33",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "39,06",
@@ -4803,9 +4750,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 21.6
-    }, {
       "data" : "27/07/2026",
       "preco" : 21.6
     }, {
@@ -5625,7 +5569,7 @@
     "precoAnterior" : "32,80",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89038,
+    "id" : 91533,
     "titulo" : "Cristianismo puro e simples",
     "imagem" : "https://m.media-amazon.com/images/I/91WAGXw7Y4L._SL1500_.jpg",
     "precoOriginal" : "64,90",
@@ -5636,7 +5580,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:29",
+    "dataOferta" : "10/08/2026 18:33",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "34,09",
@@ -6596,7 +6540,7 @@
     "precoAnterior" : "34,08",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89065,
+    "id" : 91597,
     "titulo" : "Eu consigo!: Para crianças determinadas",
     "imagem" : "https://m.media-amazon.com/images/I/6185Cx7n4lL._SL1200_.jpg",
     "precoOriginal" : "34,90",
@@ -6607,7 +6551,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:34",
+    "dataOferta" : "10/08/2026 18:41",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "22,50",
@@ -6715,23 +6659,6 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "29,49",
-    "menorPrecoEmDias" : false
-  }, {
-    "id" : 89082,
-    "titulo" : "Faber-Castell Lápis De Cor Supersoft com 24 Cores - Ecolápis super mácio com cores mais vivas, excelente cobertura",
-    "imagem" : "https://m.media-amazon.com/images/I/61ZzxtsCXmL._AC_SL1000_.jpg",
-    "precoOriginal" : "75,17",
-    "precoPromocao" : "39,22",
-    "tag" : "-47%",
-    "percentualDesconto" : 47.0,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FMFXH7RT?tag=curadomus-20",
-    "categoria" : "Papelaria e Escritório",
-    "categoriaId" : 4,
-    "ativo" : true,
-    "dataOferta" : "09/08/2026 18:37",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : "39,22",
     "menorPrecoEmDias" : false
   }, {
     "id" : 90782,
@@ -7142,6 +7069,23 @@
     "precoAnterior" : "45,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 91611,
+    "titulo" : "Fralda Descartável Huggies Máxima Proteção Tamanho XG 140 unidades – aberta com tecnologia Xtra-Flex, canais em X que se adaptam aos movimentos e máxima proteção",
+    "imagem" : "https://m.media-amazon.com/images/I/81kCJKbN01L._AC_SL1500_.jpg",
+    "precoOriginal" : "229,90",
+    "precoPromocao" : "174,90",
+    "tag" : "-23%",
+    "percentualDesconto" : 23.0,
+    "linkAfiliado" : "https://amzn.to/4vFgxMb",
+    "categoria" : "Fraldas",
+    "categoriaId" : 9,
+    "ativo" : true,
+    "dataOferta" : "10/08/2026 18:43",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "229,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 90889,
     "titulo" : "Fralda Descartável Huggies Máxima Proteção Tamanho XXXL 128 unidades – Fralda aberta com tecnologia Xtra-Flex, canais em X que se adaptam aos movimentos e máxima proteção sem fralda caída",
     "imagem" : "https://m.media-amazon.com/images/I/81uxXKPfi0L._AC_SL1500_.jpg",
@@ -7178,9 +7122,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 99.9
-    }, {
       "data" : "27/07/2026",
       "preco" : 98.9
     }, {
@@ -7214,23 +7155,6 @@
       "data" : "09/08/2026",
       "preco" : 95.9
     } ]
-  }, {
-    "id" : 89081,
-    "titulo" : "Fralda Pampers Confort Sec Tamanho P 50 Unidades",
-    "imagem" : "https://m.media-amazon.com/images/I/61d4XyvDRzL._AC_SL1200_.jpg",
-    "precoOriginal" : "77,27",
-    "precoPromocao" : "53,99",
-    "tag" : "-30%",
-    "percentualDesconto" : 30.0,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07GMCX7P4?tag=curadomus-20",
-    "categoria" : "Fraldas",
-    "categoriaId" : 9,
-    "ativo" : true,
-    "dataOferta" : "09/08/2026 18:36",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : "53,99",
-    "menorPrecoEmDias" : false
   }, {
     "id" : 91444,
     "titulo" : "Fralda Pants Huggies Proteção Acolchoada, Tamanho G, 70 unidades, Estilo Roupinha, Cintura Macia, Fácil de Colocar",
@@ -8092,7 +8016,7 @@
     "precoAnterior" : "25,47",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89080,
+    "id" : 91612,
     "titulo" : "Granado Colônia Bebê, Tradicional, 100ml",
     "imagem" : "https://m.media-amazon.com/images/I/51mnExslh6L._AC_SL1000_.jpg",
     "precoOriginal" : "99,68",
@@ -8103,7 +8027,7 @@
     "categoria" : "Beleza",
     "categoriaId" : 33,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:36",
+    "dataOferta" : "10/08/2026 18:44",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "59,99",
@@ -8313,7 +8237,7 @@
     "precoAnterior" : "829,11",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89044,
+    "id" : 91557,
     "titulo" : "Guilherme Augusto Araújo Fernandes",
     "imagem" : "https://m.media-amazon.com/images/I/91UDvGeGBkL._SL1500_.jpg",
     "precoOriginal" : "67,90",
@@ -8324,7 +8248,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:30",
+    "dataOferta" : "10/08/2026 18:37",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "43,90",
@@ -8709,7 +8633,7 @@
     "precoAnterior" : "34,16",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89058,
+    "id" : 91590,
     "titulo" : "Histórias de Foxwood - A regata de Foxwood",
     "imagem" : "https://m.media-amazon.com/images/I/712PW2SrIML._SL1500_.jpg",
     "precoOriginal" : "39,90",
@@ -8720,13 +8644,13 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:33",
+    "dataOferta" : "10/08/2026 18:40",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "28,40",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89057,
+    "id" : 91589,
     "titulo" : "Histórias de Foxwood - Roubo em Foxwood",
     "imagem" : "https://m.media-amazon.com/images/I/71+aaYxoCiL._SL1500_.jpg",
     "precoOriginal" : "39,90",
@@ -8737,7 +8661,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:32",
+    "dataOferta" : "10/08/2026 18:40",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "29,27",
@@ -9626,23 +9550,6 @@
     "precoAnterior" : "39,90",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89088,
-    "titulo" : "Johnson's Baby Condicionador Para Bebê De Glicerina,200ml",
-    "imagem" : "https://m.media-amazon.com/images/I/41MJjQE+guL._AC_SL1000_.jpg",
-    "precoOriginal" : "28,89",
-    "precoPromocao" : "17,58",
-    "tag" : "-39%",
-    "percentualDesconto" : 39.0,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHSFK5T?tag=curadomus-20",
-    "categoria" : "Beleza",
-    "categoriaId" : 33,
-    "ativo" : true,
-    "dataOferta" : "09/08/2026 18:38",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : "17,58",
-    "menorPrecoEmDias" : false
-  }, {
     "id" : 90029,
     "titulo" : "Johnson's Baby Sabonete Líquido Glicerina da Cabeça aos Pés, 750ml",
     "imagem" : "https://m.media-amazon.com/images/I/51Mpgohw-eL._AC_SL1000_.jpg",
@@ -9714,23 +9621,6 @@
       "data" : "10/08/2026",
       "preco" : 29.59
     } ]
-  }, {
-    "id" : 89089,
-    "titulo" : "Johnson's Baby Shampoo Glicerina Para Bebê, 750ml",
-    "imagem" : "https://m.media-amazon.com/images/I/41r01KSc5DL._AC_SL1000_.jpg",
-    "precoOriginal" : "62,99",
-    "precoPromocao" : "34,65",
-    "tag" : "-44%",
-    "percentualDesconto" : 44.0,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHSCLPR?tag=curadomus-20",
-    "categoria" : "Bebês",
-    "categoriaId" : 7,
-    "ativo" : true,
-    "dataOferta" : "09/08/2026 18:38",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : "34,65",
-    "menorPrecoEmDias" : false
   }, {
     "id" : 91243,
     "titulo" : "Johnson's Baby Shampoo Infantil Cheiro Prolongado, 400ml, Azul",
@@ -11020,23 +10910,6 @@
     "precoAnterior" : "12,52",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89086,
-    "titulo" : "Likluc Xô Febre - compressas refrescantes para alivio da febre, Azul Oceano, Tamanho Único",
-    "imagem" : "https://m.media-amazon.com/images/I/71EMAbb3YKL._AC_SL1500_.jpg",
-    "precoOriginal" : "42,90",
-    "precoPromocao" : "33,60",
-    "tag" : "-21%",
-    "percentualDesconto" : 21.0,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07Z5B115H?tag=curadomus-20",
-    "categoria" : "Bebês",
-    "categoriaId" : 7,
-    "ativo" : true,
-    "dataOferta" : "09/08/2026 18:37",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : "31,37",
-    "menorPrecoEmDias" : false
-  }, {
     "id" : 91246,
     "titulo" : "Lillo Kit De Chupeta 100% Silicone Calming Brilha No Escuro Bico Simétrico 6+ Meses - Rosa",
     "imagem" : "https://m.media-amazon.com/images/I/61EsHIz4qeL._AC_SL1500_.jpg",
@@ -11913,7 +11786,7 @@
     "precoAnterior" : "57,50",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89029,
+    "id" : 91525,
     "titulo" : "Mimosa não quer tomar banho: 4",
     "imagem" : "https://m.media-amazon.com/images/I/914UD27fbtL._SL1500_.jpg",
     "precoOriginal" : "74,00",
@@ -11924,7 +11797,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:27",
+    "dataOferta" : "10/08/2026 18:32",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "57,50",
@@ -13171,7 +13044,7 @@
     "precoAnterior" : "49,00",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89048,
+    "id" : 91561,
     "titulo" : "O caracol e a baleia",
     "imagem" : "https://m.media-amazon.com/images/I/A1d0yJYO+FL._SL1500_.jpg",
     "precoOriginal" : "67,90",
@@ -13182,7 +13055,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:31",
+    "dataOferta" : "10/08/2026 18:38",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "46,24",
@@ -13205,7 +13078,7 @@
     "precoAnterior" : "67,43",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89059,
+    "id" : 91591,
     "titulo" : "O carteiro chegou",
     "imagem" : "https://m.media-amazon.com/images/I/81v84CBSC1L._SL1500_.jpg",
     "precoOriginal" : "89,90",
@@ -13216,7 +13089,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:33",
+    "dataOferta" : "10/08/2026 18:40",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "57,36",
@@ -13256,7 +13129,7 @@
     "precoAnterior" : "59,57",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89056,
+    "id" : 91588,
     "titulo" : "O Castelo",
     "imagem" : "https://m.media-amazon.com/images/I/6178yZKBsXL._SL1200_.jpg",
     "precoOriginal" : "39,90",
@@ -13267,7 +13140,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:32",
+    "dataOferta" : "10/08/2026 18:40",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "23,22",
@@ -13290,7 +13163,7 @@
     "precoAnterior" : "53,02",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89054,
+    "id" : 91567,
     "titulo" : "O cisne e o trompete",
     "imagem" : "https://m.media-amazon.com/images/I/81+idXavx2L._SL1500_.jpg",
     "precoOriginal" : "74,90",
@@ -13301,7 +13174,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:32",
+    "dataOferta" : "10/08/2026 18:39",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "50,32",
@@ -13324,7 +13197,7 @@
     "precoAnterior" : "12,99",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89051,
+    "id" : 91564,
     "titulo" : "O gigante egoísta",
     "imagem" : "https://m.media-amazon.com/images/I/718fvPqNafL._SL1240_.jpg",
     "precoOriginal" : "63,00",
@@ -13335,7 +13208,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:31",
+    "dataOferta" : "10/08/2026 18:38",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "34,80",
@@ -13443,7 +13316,7 @@
     "precoAnterior" : "59,23",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89045,
+    "id" : 91558,
     "titulo" : "O jumentinho que carregou um rei",
     "imagem" : "https://m.media-amazon.com/images/I/91LaKU75XhL._SL1500_.jpg",
     "precoOriginal" : "140,00",
@@ -13454,7 +13327,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:30",
+    "dataOferta" : "10/08/2026 18:37",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "78,12",
@@ -13477,7 +13350,7 @@
     "precoAnterior" : "65,90",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89053,
+    "id" : 91566,
     "titulo" : "O livro das virtudes para crianças",
     "imagem" : "https://m.media-amazon.com/images/I/91GMAlsrEcL._SL1500_.jpg",
     "precoOriginal" : "79,90",
@@ -13488,7 +13361,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:32",
+    "dataOferta" : "10/08/2026 18:38",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "52,98",
@@ -13511,7 +13384,7 @@
     "precoAnterior" : "78,79",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89050,
+    "id" : 91563,
     "titulo" : "O livro preferido de um garoto sabido",
     "imagem" : "https://m.media-amazon.com/images/I/91BlWzWsy7L._SL1500_.jpg",
     "precoOriginal" : "67,90",
@@ -13522,7 +13395,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:31",
+    "dataOferta" : "10/08/2026 18:38",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "40,15",
@@ -14004,21 +13877,21 @@
     "precoAnterior" : "53,38",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89042,
+    "id" : 91555,
     "titulo" : "O Varal das Letras",
     "imagem" : "https://m.media-amazon.com/images/I/71p7NlCiLsL._SL1200_.jpg",
     "precoOriginal" : "39,90",
-    "precoPromocao" : "27,46",
-    "tag" : "-31%",
-    "percentualDesconto" : 31.0,
+    "precoPromocao" : "27,87",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
     "linkAfiliado" : "https://www.amazon.com.br/dp/8538094505?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:30",
+    "dataOferta" : "10/08/2026 18:36",
     "destaque" : false,
     "loja" : "Amazon",
-    "precoAnterior" : "27,87",
+    "precoAnterior" : "27,46",
     "menorPrecoEmDias" : false
   }, {
     "id" : 91209,
@@ -14274,7 +14147,7 @@
     "precoAnterior" : "74,75",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89033,
+    "id" : 91528,
     "titulo" : "Os fantoches de Spelhorst: Um conto de Norendy: 1",
     "imagem" : "https://m.media-amazon.com/images/I/71wP1iWimSL._SL1227_.jpg",
     "precoOriginal" : "59,90",
@@ -14285,7 +14158,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:27",
+    "dataOferta" : "10/08/2026 18:32",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "44,90",
@@ -14342,7 +14215,7 @@
     "precoAnterior" : "20,22",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89039,
+    "id" : 91534,
     "titulo" : "Os quatro amores",
     "imagem" : "https://m.media-amazon.com/images/I/91adcZFpabL._SL1500_.jpg",
     "precoOriginal" : "64,90",
@@ -14353,7 +14226,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:29",
+    "dataOferta" : "10/08/2026 18:34",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "34,16",
@@ -14507,7 +14380,7 @@
     "precoAnterior" : "39,92",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89046,
+    "id" : 91559,
     "titulo" : "Paddington",
     "imagem" : "https://m.media-amazon.com/images/I/91wpGFMJsuL._SL1500_.jpg",
     "precoOriginal" : "54,90",
@@ -14518,7 +14391,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:30",
+    "dataOferta" : "10/08/2026 18:37",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "32,18",
@@ -14541,7 +14414,7 @@
     "precoAnterior" : "37,01",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89071,
+    "id" : 91603,
     "titulo" : "Paddington vai ao circo | Tradução altamente recomendável FNLIJ 2025",
     "imagem" : "https://m.media-amazon.com/images/I/71fbjj4U1qL._SL1500_.jpg",
     "precoOriginal" : "54,90",
@@ -14552,7 +14425,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:35",
+    "dataOferta" : "10/08/2026 18:42",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "33,27",
@@ -15940,7 +15813,7 @@
     "precoAnterior" : "21,99",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89040,
+    "id" : 91535,
     "titulo" : "Roverando",
     "imagem" : "https://m.media-amazon.com/images/I/911vrVC5s3L._SL1500_.jpg",
     "precoOriginal" : "54,90",
@@ -15951,7 +15824,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:29",
+    "dataOferta" : "10/08/2026 18:34",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "36,60",
@@ -17880,7 +17753,7 @@
     "precoAnterior" : "139,00",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 89043,
+    "id" : 91556,
     "titulo" : "Ursinho Pooh",
     "imagem" : "https://m.media-amazon.com/images/I/51F9vcujsRL._SL1500_.jpg",
     "precoOriginal" : "64,98",
@@ -17891,7 +17764,7 @@
     "categoria" : "Livros",
     "categoriaId" : 1,
     "ativo" : true,
-    "dataOferta" : "09/08/2026 18:30",
+    "dataOferta" : "10/08/2026 18:37",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "48,73",
