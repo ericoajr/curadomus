@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "10/08/2026 14:02",
+  "ultimaAtualizacao" : "10/08/2026 16:43",
   "ofertas" : [ {
     "id" : 90046,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -14179,6 +14179,22 @@
     "precoAnterior" : "52,46",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 91518,
+    "titulo" : "OMO Omo Lavagem Perfeita Sanitiza & Higieniza 2.2Kg",
+    "imagem" : "https://m.media-amazon.com/images/I/71Gb18PPs5L._AC_SL1500_.jpg",
+    "precoOriginal" : "35,90",
+    "precoPromocao" : "25,99",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08KTPQ6YC?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "10/08/2026 16:43",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 91164,
     "titulo" : "Oral-B Escova de Dente Sensitive Purification Gold Extra Macia 4 Unidades",
     "imagem" : "https://m.media-amazon.com/images/I/61FQj6BRz3L._AC_SL1000_.jpg",
@@ -17366,9 +17382,6 @@
     "menorPrecoDias" : 7,
     "menorPrecoMensagem" : "Menor preço dos últimos 7 dias.",
     "historico" : [ {
-      "data" : "03/08/2026",
-      "preco" : 52.32
-    }, {
       "data" : "05/08/2026",
       "preco" : 50.89
     }, {
