@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "10/08/2026 23:19",
+  "ultimaAtualizacao" : "11/08/2026 06:14",
   "ofertas" : [ {
     "id" : 90046,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -2472,9 +2472,6 @@
     "menorPrecoDias" : 7,
     "menorPrecoMensagem" : "Menor preço dos últimos 7 dias.",
     "historico" : [ {
-      "data" : "04/08/2026",
-      "preco" : 86.26
-    }, {
       "data" : "07/08/2026",
       "preco" : 86.14
     }, {
@@ -3747,6 +3744,22 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "29,90",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 92581,
+    "titulo" : "Café em Cápsula Torrado e Moído Kopenhagen Espresso Nescafé Dolce Gusto Caixa 60g 10 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/61SzGk+9AWL._AC_SL1000_.jpg",
+    "precoOriginal" : "26,39",
+    "precoPromocao" : "16,90",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FRW4XJR6?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:14",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 90483,
@@ -6496,6 +6509,23 @@
     "precoAnterior" : "61,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92549,
+    "titulo" : "Esterilizador De Microondas para Mamadeiras Bicos e Chupetas Philips Avent Azul/Branco",
+    "imagem" : "https://m.media-amazon.com/images/I/51UOsl4f9jL._AC_SL1500_.jpg",
+    "precoOriginal" : "259,90",
+    "precoPromocao" : "171,00",
+    "tag" : "-34%",
+    "percentualDesconto" : 34.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07G8QLGSR?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "10/08/2026 23:20",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "171,00",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 89877,
     "titulo" : "Estrelas e planetas",
     "imagem" : "https://m.media-amazon.com/images/I/911YBrZV20L._SL1500_.jpg",
@@ -6595,6 +6625,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "44,58",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 92547,
+    "titulo" : "Extrator de Leite Manual Essential Philips Avent | Com Recipiente de 125 ml, Almofada de Silicone, Portátil, Leve e Ergonômico",
+    "imagem" : "https://m.media-amazon.com/images/I/61eeN8cHNWL._AC_SL1500_.jpg",
+    "precoOriginal" : "239,90",
+    "precoPromocao" : "151,57",
+    "tag" : "-36%",
+    "percentualDesconto" : 36.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DCS72VX5?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "10/08/2026 23:19",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "151,57",
     "menorPrecoEmDias" : false
   }, {
     "id" : 91617,
@@ -6951,6 +6998,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "42,89",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 92584,
+    "titulo" : "Fone de Ouvido Sem Fio, JBL, Bluetooth, Wave Beam 2, Intra Auricular, Sem Fio, Resistente À Água e Poeira - Preto",
+    "imagem" : "https://m.media-amazon.com/images/I/61DFgTmj9xL._AC_SL1500_.jpg",
+    "precoOriginal" : "369,00",
+    "precoPromocao" : "279,00",
+    "tag" : "-24%",
+    "percentualDesconto" : 24.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DHL93XCN?tag=curadomus-20",
+    "categoria" : "Eletrônicos e Tecnologia",
+    "categoriaId" : 129,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:14",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "279,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 90097,
@@ -7565,6 +7629,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "75,97",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 92551,
+    "titulo" : "G-TECH Termômetro Infravermelho sem contato Easy Sensor THGTSC3",
+    "imagem" : "https://m.media-amazon.com/images/I/41PzsVLgUXL._AC_SY879_.jpg",
+    "precoOriginal" : "124,98",
+    "precoPromocao" : "92,35",
+    "tag" : "-26%",
+    "percentualDesconto" : 26.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DB6G98X5?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "10/08/2026 23:20",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "92,35",
     "menorPrecoEmDias" : false
   }, {
     "id" : 92260,
@@ -9546,9 +9627,6 @@
     "menorPrecoDias" : 7,
     "menorPrecoMensagem" : "Menor preço dos últimos 7 dias.",
     "historico" : [ {
-      "data" : "04/08/2026",
-      "preco" : 29.99
-    }, {
       "data" : "05/08/2026",
       "preco" : 29.99
     }, {
@@ -11489,8 +11567,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026"
-    }, {
       "data" : "28/07/2026"
     }, {
       "data" : "29/07/2026"
