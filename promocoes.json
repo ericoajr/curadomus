@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "11/08/2026 18:01",
+  "ultimaAtualizacao" : "11/08/2026 18:35",
   "ofertas" : [ {
     "id" : 92649,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -88,9 +88,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 45.22
-    }, {
       "data" : "29/07/2026",
       "preco" : 45.22
     }, {
@@ -198,9 +195,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 18.39
-    }, {
       "data" : "29/07/2026",
       "preco" : 18.39
     }, {
@@ -471,6 +465,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "32,69",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 94020,
+    "titulo" : "A formiguinha e a neve",
+    "imagem" : "https://m.media-amazon.com/images/I/511Venme4KL._SL1000_.jpg",
+    "precoOriginal" : "91,00",
+    "precoPromocao" : "61,55",
+    "tag" : "-32%",
+    "percentualDesconto" : 32.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8516013324?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:31",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "61,55",
     "menorPrecoEmDias" : false
   }, {
     "id" : 93038,
@@ -780,6 +791,62 @@
     "loja" : "Amazon",
     "precoAnterior" : "15,90",
     "menorPrecoEmDias" : false
+  }, {
+    "id" : 94049,
+    "titulo" : "Absorvente Intimus Toda Protegida Noturno Suave Com abas 45 un",
+    "imagem" : "https://m.media-amazon.com/images/I/61mN9e4PvWL._AC_SL1000_.jpg",
+    "precoOriginal" : "33,99",
+    "precoPromocao" : "22,48",
+    "tag" : "-31%",
+    "percentualDesconto" : 31.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0D8BXVYNJ?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:35",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "22,49",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 15,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "28/07/2026",
+      "preco" : 26.86
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 24.99
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 22.49
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 22.49
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 22.49
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 22.48
+    } ]
   }, {
     "id" : 92358,
     "titulo" : "Achocolatado em Cápsula Nescafé Dolce Gusto Chococino Classic com 10 cápsulas",
@@ -1107,6 +1174,23 @@
     "precoAnterior" : "19,00",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 94037,
+    "titulo" : "Aprendendo a pensar sobre - Coragem",
+    "imagem" : "https://m.media-amazon.com/images/I/61BRmEk8poL._SL1500_.jpg",
+    "precoOriginal" : "27,90",
+    "precoPromocao" : "18,05",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8580641705?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:33",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "18,05",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 92042,
     "titulo" : "Aprendendo Caligrafia - Volume Único",
     "imagem" : "https://m.media-amazon.com/images/I/61+1+-FwavL._SL1000_.jpg",
@@ -1157,6 +1241,63 @@
     "loja" : "Amazon",
     "precoAnterior" : "3.023,10",
     "menorPrecoEmDias" : false
+  }, {
+    "id" : 94041,
+    "titulo" : "Ar Condicionado Split Inverter Samsung WindFree AI Pro 12000 BTUs Quente e Frio 220V AR60H12C1AWNAZ",
+    "imagem" : "https://m.media-amazon.com/images/I/51vfDep1q-L._AC_SL1000_.jpg",
+    "precoOriginal" : "4.816,00",
+    "precoPromocao" : "2.659,00",
+    "tag" : "-44%",
+    "percentualDesconto" : 44.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0GZSHX2YG?tag=curadomus-20",
+    "categoria" : "Eletrodomésticos",
+    "categoriaId" : 101,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:34",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "2.869,00",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 15,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "27/07/2026"
+    }, {
+      "data" : "29/07/2026"
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 2725.0
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 2725.0
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 2869.0
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 2869.0
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 2869.0
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 2889.0
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 2869.0
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 2869.0
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 2869.0
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 2869.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 2659.0
+    } ]
   }, {
     "id" : 93713,
     "titulo" : "Armani Beauty, Stronger With You Eau de Toilette, Giorgio Armani Perfume Masculino, Fragrância Fougère Amadeirada com Notas Sálvia, Castanha, Baunilha e Lavanda",
@@ -1447,6 +1588,23 @@
     "precoAnterior" : "427,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 94025,
+    "titulo" : "Atlas - Civilizações antigas",
+    "imagem" : "https://m.media-amazon.com/images/I/71t7pqMu+NL._SL1200_.jpg",
+    "precoOriginal" : "119,90",
+    "precoPromocao" : "73,42",
+    "tag" : "-38%",
+    "percentualDesconto" : 38.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6526113915?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:31",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "59,95",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 93472,
     "titulo" : "Através do Brasil (2ª Edição)",
     "imagem" : "https://m.media-amazon.com/images/I/71pSveH8CcL._SL1482_.jpg",
@@ -1534,8 +1692,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026"
-    }, {
       "data" : "29/07/2026",
       "preco" : 23.09
     }, {
@@ -2181,6 +2337,23 @@
       "data" : "11/08/2026",
       "preco" : 15.98
     } ]
+  }, {
+    "id" : 94040,
+    "titulo" : "Black Skull Creatina Turbo 500g Refil",
+    "imagem" : "https://m.media-amazon.com/images/I/5102o18ZGbL._AC_SL1000_.jpg",
+    "precoOriginal" : "50,87",
+    "precoPromocao" : "35,00",
+    "tag" : "-31%",
+    "percentualDesconto" : 31.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BKTMTM8D?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:33",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "35,00",
+    "menorPrecoEmDias" : false
   }, {
     "id" : 93217,
     "titulo" : "Blusa Casaco Infantil Juvenil Feminino Menina Teddy Com Bolso E Capuz Inverno  Frio tamanho 2 Ao 16",
@@ -3299,6 +3472,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "589,90",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 94052,
+    "titulo" : "Cadeirinha Cosco Kids, Tour, 9 a 36 Kg, Preto Bronze",
+    "imagem" : "https://m.media-amazon.com/images/I/51d50KRv6pL._AC_SL1000_.jpg",
+    "precoOriginal" : "541,67",
+    "precoPromocao" : "420,00",
+    "tag" : "-22%",
+    "percentualDesconto" : 22.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0D6RSV3DF?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:35",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "420,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 92400,
@@ -4975,9 +5165,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 862.88
-    }, {
       "data" : "29/07/2026",
       "preco" : 862.88
     }, {
@@ -6781,9 +6968,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 79.9
-    }, {
       "data" : "29/07/2026",
       "preco" : 123.99
     }, {
@@ -7631,6 +7815,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "43,90",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 94022,
+    "titulo" : "HAO BOSCH Vinho Rose Piscine Stripes Listras 750Ml",
+    "imagem" : "https://m.media-amazon.com/images/I/6147Zyv2cqL._AC_SL1500_.jpg",
+    "precoOriginal" : "89,90",
+    "precoPromocao" : "65,19",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B06Y5TM366?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:31",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "49,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 93046,
@@ -8799,9 +9000,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 22.83
-    }, {
       "data" : "29/07/2026",
       "preco" : 22.83
     }, {
@@ -9704,6 +9902,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "23,42",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 94031,
+    "titulo" : "Kit Gillette Mach3 10 cargas + Necessaire, Higiene Pessoal, Cuidado com a barba, Lâminas e Aparelhos de Barbear",
+    "imagem" : "https://m.media-amazon.com/images/I/71bs+SxuZgL._AC_SL1200_.jpg",
+    "precoOriginal" : "101,89",
+    "precoPromocao" : "79,90",
+    "tag" : "-21%",
+    "percentualDesconto" : 21.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DR3BLGF5?tag=curadomus-20",
+    "categoria" : "Beleza",
+    "categoriaId" : 33,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:32",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "79,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 93040,
@@ -10898,6 +11113,23 @@
       "data" : "10/08/2026",
       "preco" : 6.2
     } ]
+  }, {
+    "id" : 94032,
+    "titulo" : "Maionese Receita Caseira Hemmer 500g",
+    "imagem" : "https://m.media-amazon.com/images/I/51Cg3VTgnQL._AC_SL1200_.jpg",
+    "precoOriginal" : "15,26",
+    "precoPromocao" : "10,99",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08KHSSBQP?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:32",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "10,99",
+    "menorPrecoEmDias" : false
   }, {
     "id" : 92714,
     "titulo" : "Mala De Viagem/Bordo 10KG,Nova Estilo Zíper Dupla Camada Anti-Roubo,Rodas Duplas 360Grau lançamento",
@@ -12267,6 +12499,23 @@
     "precoAnterior" : "54,53",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 94047,
+    "titulo" : "O caso girassol",
+    "imagem" : "https://m.media-amazon.com/images/I/91qsowQB4KL._SL1500_.jpg",
+    "precoOriginal" : "89,90",
+    "precoPromocao" : "66,12",
+    "tag" : "-26%",
+    "percentualDesconto" : 26.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8535910484?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:35",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "66,12",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 91588,
     "titulo" : "O Castelo",
     "imagem" : "https://m.media-amazon.com/images/I/6178yZKBsXL._SL1200_.jpg",
@@ -12902,6 +13151,23 @@
     "precoAnterior" : "54,04",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 94021,
+    "titulo" : "O segredo do anel e outros contos do bem-viver",
+    "imagem" : "https://m.media-amazon.com/images/I/81AC5cHl3CL._SL1500_.jpg",
+    "precoOriginal" : "78,50",
+    "precoPromocao" : "56,53",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8584190341?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:31",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "56,53",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 93343,
     "titulo" : "O Silmarillion",
     "imagem" : "https://m.media-amazon.com/images/I/81MoknVer8L._SL1500_.jpg",
@@ -13406,6 +13672,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "77,78",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 94046,
+    "titulo" : "Os miseráveis",
+    "imagem" : "https://m.media-amazon.com/images/I/91PmXoM5YGL._SL1500_.jpg",
+    "precoOriginal" : "113,00",
+    "precoPromocao" : "66,00",
+    "tag" : "-41%",
+    "percentualDesconto" : 41.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526273752?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:34",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "40,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 92089,
@@ -15772,9 +16055,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 839.2
-    }, {
       "data" : "29/07/2026",
       "preco" : 888.2
     }, {
@@ -16318,9 +16598,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 46.06
-    }, {
       "data" : "29/07/2026",
       "preco" : 46.07
     }, {
@@ -17062,6 +17339,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "56,25",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 94039,
+    "titulo" : "Vodka Absolut - 1 Litro",
+    "imagem" : "https://m.media-amazon.com/images/I/613sQ8zlsuL._AC_SL1500_.jpg",
+    "precoOriginal" : "136,90",
+    "precoPromocao" : "78,90",
+    "tag" : "-42%",
+    "percentualDesconto" : 42.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B004V54ZVK?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 18:33",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "78,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 93721,
