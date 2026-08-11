@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "11/08/2026 16:00",
+  "ultimaAtualizacao" : "11/08/2026 16:26",
   "ofertas" : [ {
     "id" : 92649,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -1056,6 +1056,22 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "49,92",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 93986,
+    "titulo" : "Anasol Conjunto Fps 50 Facial 60G + Fps 50 Corpo 200G",
+    "imagem" : "https://m.media-amazon.com/images/I/81JDHnqrnpL._AC_SL1500_.jpg",
+    "precoOriginal" : "54,54",
+    "precoPromocao" : "39,90",
+    "tag" : "-26%",
+    "percentualDesconto" : 26.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08P2GFHKL?tag=curadomus-20",
+    "categoria" : "Beleza",
+    "categoriaId" : 33,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 16:26",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 92068,
@@ -3857,6 +3873,22 @@
       "data" : "10/08/2026",
       "preco" : 15.9
     } ]
+  }, {
+    "id" : 93987,
+    "titulo" : "Café em Cápsula NESCAFÉ DOLCE GUSTO Mochaccino Canela 10 Cápsulas",
+    "imagem" : "https://m.media-amazon.com/images/I/51RITWg4ryL._AC_SL1000_.jpg",
+    "precoOriginal" : "21,99",
+    "precoPromocao" : "16,90",
+    "tag" : "-23%",
+    "percentualDesconto" : 23.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08KSVQ62G?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 16:26",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "menorPrecoEmDias" : false
   }, {
     "id" : 92641,
     "titulo" : "Café em Cápsula Nescafé Farmers Origins Brazil - compatível máquina Nespresso, 18 cápsulas 44g",
