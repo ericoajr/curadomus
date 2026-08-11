@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "11/08/2026 06:14",
+  "ultimaAtualizacao" : "11/08/2026 06:23",
   "ofertas" : [ {
     "id" : 90046,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -202,9 +202,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 45.99
-    }, {
       "data" : "28/07/2026",
       "preco" : 45.99
     }, {
@@ -1541,6 +1538,23 @@
     "precoAnterior" : "49,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92613,
+    "titulo" : "As aventuras de Tom Sawyer",
+    "imagem" : "https://m.media-amazon.com/images/I/81yMVzw9eTL._SL1500_.jpg",
+    "precoOriginal" : "113,00",
+    "precoPromocao" : "48,46",
+    "tag" : "-57%",
+    "percentualDesconto" : 57.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526257285?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:19",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "48,46",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 91596,
     "titulo" : "As aventuras de Tom Sawyer - (Texto integral - Clássicos Autêntica)",
     "imagem" : "https://m.media-amazon.com/images/I/81mWTlcwsaL._SL1500_.jpg",
@@ -2365,9 +2379,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 65.9
-    }, {
       "data" : "28/07/2026",
       "preco" : 65.9
     }, {
@@ -3387,9 +3398,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 509.9
-    }, {
       "data" : "28/07/2026",
       "preco" : 509.9
     }, {
@@ -3728,6 +3736,23 @@
       "data" : "10/08/2026",
       "preco" : 15.9
     } ]
+  }, {
+    "id" : 92641,
+    "titulo" : "Café em Cápsula Nescafé Farmers Origins Brazil - compatível máquina Nespresso, 18 cápsulas 44g",
+    "imagem" : "https://m.media-amazon.com/images/I/81FJv2Bod7L._AC_SL1500_.jpg",
+    "precoOriginal" : "39,29",
+    "precoPromocao" : "29,90",
+    "tag" : "-23%",
+    "percentualDesconto" : 23.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FWGN9SZL?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:23",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "31,90",
+    "menorPrecoEmDias" : false
   }, {
     "id" : 90968,
     "titulo" : "Café em Cápsula Nescafé Farmers Origins Colombia - compatível máquina Nespresso, 18 cápsulas 44g",
@@ -5725,6 +5750,23 @@
     "precoAnterior" : "47,45",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92619,
+    "titulo" : "Delta Q Café Torrado e Moído Colômbia 250g",
+    "imagem" : "https://m.media-amazon.com/images/I/71Vibxa2I0L._AC_SL1500_.jpg",
+    "precoOriginal" : "32,28",
+    "precoPromocao" : "22,69",
+    "tag" : "-29%",
+    "percentualDesconto" : 29.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B01IU6UNBG?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:20",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "21,55",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 90182,
     "titulo" : "Descascador De Frutas E Vegetais Com Cabo De Madeira , Faca De Descascar Cozinha Em Aço Inoxidável Abridor",
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-822yv-mo9facme41sd0c",
@@ -6339,6 +6381,23 @@
       "preco" : 209.0
     } ]
   }, {
+    "id" : 92594,
+    "titulo" : "Electrolux, Aspirador pó vertical com fio portátil de mão 2 em 1 potente 1450W cabo 6m capacidade 1,6L filtro HEPA Electrolux STK15 Cinza Urban Grey STK 127v",
+    "imagem" : "https://m.media-amazon.com/images/I/31RDw6Caq9L._AC_SL1000_.jpg",
+    "precoOriginal" : "319,00",
+    "precoPromocao" : "179,00",
+    "tag" : "-43%",
+    "percentualDesconto" : 43.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B094X2N4HV?tag=curadomus-20",
+    "categoria" : "Eletrodomésticos",
+    "categoriaId" : 101,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:16",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "179,00",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 89849,
     "titulo" : "ElectroluxAspirador pó vertical com fio portátil de mão 2 em 1 potente 1450W cabo 6m capacidade 1,6L filtro HEPA STK15 220V Cinza Urban Grey",
     "imagem" : "https://m.media-amazon.com/images/I/31RDw6Caq9L._AC_SL1000_.jpg",
@@ -6625,6 +6684,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "44,58",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 92629,
+    "titulo" : "Exposis Infantil, Repelente Gel de Mosquitos, com Icaridina, Até 10h de Proteção, 100ml",
+    "imagem" : "https://m.media-amazon.com/images/I/510a5JF9lWL._AC_SL1200_.jpg",
+    "precoOriginal" : "73,90",
+    "precoPromocao" : "44,09",
+    "tag" : "-40%",
+    "percentualDesconto" : 40.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B076J2G18D?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:21",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "42,49",
     "menorPrecoEmDias" : false
   }, {
     "id" : 92547,
@@ -7631,6 +7707,44 @@
     "precoAnterior" : "75,97",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92601,
+    "titulo" : "G-TECH INALADOR E NEBULIZADOR INFANTIL DCDOG",
+    "imagem" : "https://m.media-amazon.com/images/I/61VH-MhRQgL._AC_SL1500_.jpg",
+    "precoOriginal" : "162,90",
+    "precoPromocao" : "104,84",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DGNBJWZ1?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:17",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "104,85",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 7,
+    "menorPrecoMensagem" : "Menor preço dos últimos 7 dias.",
+    "historico" : [ {
+      "data" : "05/08/2026",
+      "preco" : 104.99
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 104.96
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 104.85
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 104.85
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 104.85
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 104.84
+    } ]
+  }, {
     "id" : 92551,
     "titulo" : "G-TECH Termômetro Infravermelho sem contato Easy Sensor THGTSC3",
     "imagem" : "https://m.media-amazon.com/images/I/41PzsVLgUXL._AC_SY879_.jpg",
@@ -8260,6 +8374,23 @@
     "precoAnterior" : "255,00",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92631,
+    "titulo" : "Growler 1,9L Preto",
+    "imagem" : "https://m.media-amazon.com/images/I/71aFn0xnL-L._AC_SL1500_.jpg",
+    "precoOriginal" : "359,90",
+    "precoPromocao" : "200,80",
+    "tag" : "-44%",
+    "percentualDesconto" : 44.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08YRXP1CM?tag=curadomus-20",
+    "categoria" : "Cozinha",
+    "categoriaId" : 102,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:22",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "200,80",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 90591,
     "titulo" : "Guarda Roupa Portátil Desmontável Organizador Prático Solteiro e Casal",
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m0epmdejhyn47a",
@@ -8362,6 +8493,23 @@
     "precoAnterior" : "11,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92642,
+    "titulo" : "Heinz Ketchup Picles 397g",
+    "imagem" : "https://m.media-amazon.com/images/I/51Iw9ZV3hvL._AC_SL1000_.jpg",
+    "precoOriginal" : "15,79",
+    "precoPromocao" : "11,99",
+    "tag" : "-24%",
+    "percentualDesconto" : 24.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09D8PB8WB?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:23",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "11,99",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 92198,
     "titulo" : "Heinz Ketchup Zero Açúcar 373g",
     "imagem" : "https://m.media-amazon.com/images/I/71MWwG5Bt-L._AC_SL1500_.jpg",
@@ -8411,6 +8559,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "9,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 92609,
+    "titulo" : "Hellmann’s Molho pra Chuchar sabor Cebola, Salsa e Limão",
+    "imagem" : "https://m.media-amazon.com/images/I/71PkS68NKsL._AC_SL1500_.jpg",
+    "precoOriginal" : "17,99",
+    "precoPromocao" : "12,59",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0GWFCSNTV?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:18",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "12,59",
     "menorPrecoEmDias" : false
   }, {
     "id" : 90350,
@@ -8668,6 +8833,23 @@
     "categoriaId" : 1,
     "ativo" : true,
     "dataOferta" : "10/08/2026 09:19",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "61,53",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 92614,
+    "titulo" : "Histórias à brasileira, vol. 4: A donzela guerreira e outras",
+    "imagem" : "https://m.media-amazon.com/images/I/A1vnu545TAS._SL1500_.jpg",
+    "precoOriginal" : "87,90",
+    "precoPromocao" : "61,53",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574064149?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:19",
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "61,53",
@@ -10604,6 +10786,23 @@
     "precoAnterior" : "278,00",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92639,
+    "titulo" : "L'OR Café L'Or Cápsula Caramelo - 1 Unidade De 10 Cápsulas",
+    "imagem" : "https://m.media-amazon.com/images/I/71XQTCKDDpL._AC_SL1500_.jpg",
+    "precoOriginal" : "29,76",
+    "precoPromocao" : "19,69",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B00O8U4QA8?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:23",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "19,69",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 90321,
     "titulo" : "L'OR Café Torrado E Moído Equilibrado Torras 100% Arábica L'Or Sachê 250 G",
     "imagem" : "https://m.media-amazon.com/images/I/51jK3I7YTuL._AC_SL1000_.jpg",
@@ -11012,6 +11211,23 @@
     "precoAnterior" : "16,97",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92634,
+    "titulo" : "Linea Geleia de Morango 230g (Sem Adição de Açúcar)",
+    "imagem" : "https://m.media-amazon.com/images/I/61H9KCFxY3L._AC_SL1000_.jpg",
+    "precoOriginal" : "28,47",
+    "precoPromocao" : "15,98",
+    "tag" : "-43%",
+    "percentualDesconto" : 43.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07Y4XP8FR?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:22",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "15,98",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 90595,
     "titulo" : "Linha Mamãe e Bebê Natura: Shampoo, Condicionador, Sabonete Líquido/Barra, Saboneteira ou Lenços Umedecidos",
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-mcn4jea5dtmaf3",
@@ -11387,9 +11603,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 18.79
-    }, {
       "data" : "28/07/2026",
       "preco" : 18.79
     }, {
@@ -12156,9 +12369,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 154.99
-    }, {
       "data" : "28/07/2026",
       "preco" : 154.99
     }, {
@@ -12378,6 +12588,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "75,63",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 92605,
+    "titulo" : "MONDIAL Ventilador de Mesa 40cm Super Power, Preto/Prata, 140W, 110V - VSP-40-B",
+    "imagem" : "https://m.media-amazon.com/images/I/81r2JL+Ru5L._AC_SL1500_.jpg",
+    "precoOriginal" : "189,90",
+    "precoPromocao" : "122,00",
+    "tag" : "-41%",
+    "percentualDesconto" : 41.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09B15RDJ6?tag=curadomus-20",
+    "categoria" : "Eletrodomésticos",
+    "categoriaId" : 101,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:18",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "136,16",
     "menorPrecoEmDias" : false
   }, {
     "id" : 92154,
@@ -13683,6 +13910,23 @@
     "precoAnterior" : "36,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92612,
+    "titulo" : "O príncipe e o mendigo",
+    "imagem" : "https://m.media-amazon.com/images/I/81p6aZT8k6L._SL1500_.jpg",
+    "precoOriginal" : "113,00",
+    "precoPromocao" : "47,00",
+    "tag" : "-58%",
+    "percentualDesconto" : 58.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526283480?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:19",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "47,00",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 91699,
     "titulo" : "O rabo do gato",
     "imagem" : "https://m.media-amazon.com/images/I/81jPRjUgkwL._SL1500_.jpg",
@@ -14423,6 +14667,23 @@
       "data" : "10/08/2026",
       "preco" : 26.8
     } ]
+  }, {
+    "id" : 92627,
+    "titulo" : "Pack Cerveja Spaten, Puro Malte, 269ml, Lata - 8 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/512l9934dfL._AC_SL1280_.jpg",
+    "precoOriginal" : "36,72",
+    "precoPromocao" : "23,92",
+    "tag" : "-34%",
+    "percentualDesconto" : 34.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CXV3LHQR?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:21",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "23,92",
+    "menorPrecoEmDias" : false
   }, {
     "id" : 90891,
     "titulo" : "Pack de Beats Green Mix 269ml, Lata, Caixa 8 Unidades",
@@ -15431,6 +15692,23 @@
     "precoAnterior" : "29,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92632,
+    "titulo" : "Pote Termico C/Colher - Gumy Verde, Buba, Verde",
+    "imagem" : "https://m.media-amazon.com/images/I/41D0T4KyttS._AC_SL1000_.jpg",
+    "precoOriginal" : "138,00",
+    "precoPromocao" : "80,88",
+    "tag" : "-41%",
+    "percentualDesconto" : 41.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08JXN4GM6?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:22",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "80,88",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 91457,
     "titulo" : "Prancha, Titanium blue, 35w, Azul, Bivolt, Britânia",
     "imagem" : "https://m.media-amazon.com/images/I/41maA41EACL._AC_SL1000_.jpg",
@@ -16406,6 +16684,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "3.266,01",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 92606,
+    "titulo" : "Sanduicheira Elétrica Cadence Click - 220V",
+    "imagem" : "https://m.media-amazon.com/images/I/51UxR8FHe-L._AC_SL1000_.jpg",
+    "precoOriginal" : "159,90",
+    "precoPromocao" : "82,98",
+    "tag" : "-48%",
+    "percentualDesconto" : 48.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CDJ5DQ7M?tag=curadomus-20",
+    "categoria" : "Eletroportáteis",
+    "categoriaId" : 225,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:18",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "82,98",
     "menorPrecoEmDias" : false
   }, {
     "id" : 92032,
@@ -17786,6 +18081,23 @@
     "precoAnterior" : "64,32",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92624,
+    "titulo" : "Tênis Casual Mizuno City Wall",
+    "imagem" : "https://m.media-amazon.com/images/I/61F9hLDrvDL._AC_SL1500_.jpg",
+    "precoOriginal" : "329,99",
+    "precoPromocao" : "187,35",
+    "tag" : "-43%",
+    "percentualDesconto" : 43.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FFTQCV2K?tag=curadomus-20",
+    "categoria" : "Calçados",
+    "categoriaId" : 10,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:21",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "183,55",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 90153,
     "titulo" : "Tênis De Corrida Flying 2 Com Sola Macia E Placa De Carbono , Tamanhos 34-44 .",
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-81zwe-mij1sfy7jjeu9c",
@@ -18510,6 +18822,23 @@
     "precoAnterior" : "159,85",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 92587,
+    "titulo" : "Whisky Ballantine's Finest Blended Escocês - 1 Litro",
+    "imagem" : "https://m.media-amazon.com/images/I/51fuirDimQL._AC_SL1000_.jpg",
+    "precoOriginal" : "105,90",
+    "precoPromocao" : "74,25",
+    "tag" : "-29%",
+    "percentualDesconto" : 29.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B01ERTTV5O?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 06:15",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "72,30",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 92142,
     "titulo" : "Whisky Ballantine's Finest Blended Escocês - 750 ml",
     "imagem" : "https://m.media-amazon.com/images/I/51eQv8xcN-L._AC_SL1000_.jpg",
@@ -18630,9 +18959,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "27/07/2026",
-      "preco" : 201.75
-    }, {
       "data" : "28/07/2026",
       "preco" : 201.78
     }, {
