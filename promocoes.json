@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "11/08/2026 21:42",
+  "ultimaAtualizacao" : "11/08/2026 21:47",
   "ofertas" : [ {
     "id" : 92649,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -513,6 +513,23 @@
     "precoAnterior" : "70,12",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 94692,
+    "titulo" : "A lua cheia na casa sonolenta",
+    "imagem" : "https://m.media-amazon.com/images/I/51sA9P8slAL._SL1291_.jpg",
+    "precoOriginal" : "104,00",
+    "precoPromocao" : "55,02",
+    "tag" : "-47%",
+    "percentualDesconto" : 47.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508191839?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 21:45",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "55,02",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 92422,
     "titulo" : "A lua é sempre redonda",
     "imagem" : "https://m.media-amazon.com/images/I/91zgYMyIheL._SL1500_.jpg",
@@ -684,23 +701,6 @@
       "data" : "11/08/2026",
       "preco" : 40.0
     } ]
-  }, {
-    "id" : 91846,
-    "titulo" : "Abigail",
-    "imagem" : "https://m.media-amazon.com/images/I/711Yo1x2bwL._SL1200_.jpg",
-    "precoOriginal" : "39,90",
-    "precoPromocao" : "27,87",
-    "tag" : "-30%",
-    "percentualDesconto" : 30.0,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/853805287X?tag=curadomus-20",
-    "categoria" : "Livros",
-    "categoriaId" : 1,
-    "ativo" : true,
-    "dataOferta" : "10/08/2026 21:41",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : "24,23",
-    "menorPrecoEmDias" : false
   }, {
     "id" : 93504,
     "titulo" : "Absorvente Intimus Toda Protegida Dia Suave Com abas - 42 un",
@@ -1062,6 +1062,23 @@
     "dataOferta" : "10/08/2026 22:09",
     "destaque" : false,
     "loja" : "Amazon",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 94694,
+    "titulo" : "Aniversário da vaca Mimosa: 0",
+    "imagem" : "https://m.media-amazon.com/images/I/A1iIS5-teFL._SL1500_.jpg",
+    "precoOriginal" : "74,00",
+    "precoPromocao" : "57,50",
+    "tag" : "-22%",
+    "percentualDesconto" : 22.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/856431133X?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 21:45",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "57,50",
     "menorPrecoEmDias" : false
   }, {
     "id" : 93406,
@@ -1696,62 +1713,6 @@
     "loja" : "Shopee",
     "precoAnterior" : "34,40",
     "menorPrecoEmDias" : false
-  }, {
-    "id" : 91848,
-    "titulo" : "Baby Dove Sabonete Líquido Da Cabeça Aos Pés Hidratação Enriquecida 400Ml",
-    "imagem" : "https://m.media-amazon.com/images/I/61-Ts5VmV9L._AC_SL1500_.jpg",
-    "precoOriginal" : "31,65",
-    "precoPromocao" : "21,99",
-    "tag" : "-30%",
-    "percentualDesconto" : 30.0,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B078HS3SKS?tag=curadomus-20",
-    "categoria" : "Bebês",
-    "categoriaId" : 7,
-    "ativo" : true,
-    "dataOferta" : "10/08/2026 21:41",
-    "destaque" : true,
-    "loja" : "Amazon",
-    "precoAnterior" : "22,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoDias" : 15,
-    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
-    "historico" : [ {
-      "data" : "29/07/2026",
-      "preco" : 23.09
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 23.09
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 23.09
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 21.99
-    } ]
   }, {
     "id" : 93874,
     "titulo" : "Baby Dove Sabonete Líquido De Glicerina Hidratação Relaxante Hora De Dormir Frasco 400 Ml",
@@ -13755,6 +13716,23 @@
     "precoAnterior" : "62,78",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 94693,
+    "titulo" : "O Hobbit + pôster",
+    "imagem" : "https://m.media-amazon.com/images/I/91M9xPIf10L._SL1500_.jpg",
+    "precoOriginal" : "74,90",
+    "precoPromocao" : "43,87",
+    "tag" : "-41%",
+    "percentualDesconto" : 41.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8595084742?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 21:45",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "43,87",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 93413,
     "titulo" : "O jardim secreto",
     "imagem" : "https://m.media-amazon.com/images/I/71BYkFds5sL._SL1500_.jpg",
@@ -14100,6 +14078,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "23,85",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 94702,
+    "titulo" : "O primeiro dia de Chu na escola",
+    "imagem" : "https://m.media-amazon.com/images/I/71yrCWN6m0L._SL1418_.jpg",
+    "precoOriginal" : "59,90",
+    "precoPromocao" : "36,90",
+    "tag" : "-38%",
+    "percentualDesconto" : 38.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/856250081X?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 21:47",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "36,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 92612,
@@ -15083,23 +15078,6 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "27,19",
-    "menorPrecoEmDias" : false
-  }, {
-    "id" : 91850,
-    "titulo" : "PAMPERS SHAMP GLICERINA 400ml",
-    "imagem" : "https://m.media-amazon.com/images/I/619RLZXxlGL._AC_SL1500_.jpg",
-    "precoOriginal" : "29,90",
-    "precoPromocao" : "20,79",
-    "tag" : "-30%",
-    "percentualDesconto" : 30.0,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CNQ6X388?tag=curadomus-20",
-    "categoria" : "Bebês",
-    "categoriaId" : 7,
-    "ativo" : true,
-    "dataOferta" : "10/08/2026 21:41",
-    "destaque" : false,
-    "loja" : "Amazon",
-    "precoAnterior" : "20,39",
     "menorPrecoEmDias" : false
   }, {
     "id" : 93260,
@@ -16343,6 +16321,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "71,27",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 94699,
+    "titulo" : "Que barulho é este?",
+    "imagem" : "https://m.media-amazon.com/images/I/81JeioulkLL._SL1500_.jpg",
+    "precoOriginal" : "49,00",
+    "precoPromocao" : "25,00",
+    "tag" : "-48%",
+    "percentualDesconto" : 48.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508177801?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "11/08/2026 21:46",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "25,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 93075,
