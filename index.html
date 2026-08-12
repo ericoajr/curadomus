@@ -68,6 +68,7 @@
   .bg-primary\/10 { background: color-mix(in srgb, var(--primary) 10%, transparent); }
   .text-primary-foreground { color: #fff; }
   .ring-border { --tw-ring-color: var(--border); }
+  .hover\:border-accent:hover { border-color: var(--accent); }
   @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
   .animate-fade-up { animation: fade-up .4s ease both; }
   .modal-backdrop { background: rgba(43,36,30,.45); backdrop-filter: blur(2px); }
@@ -80,7 +81,7 @@
   <header class="relative overflow-hidden">
     <div class="absolute inset-0 -z-10 opacity-[0.04]" style="background-image: radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0); background-size:24px 24px"></div>
     <div class="mx-auto max-w-5xl px-6 pt-14 pb-10 text-center">
-      <img src="https://id-preview--736ce8be-ff29-4b9b-b29a-a17fb67bfb54.lovable.app/__l5e/assets-v1/0fe52d4c-6205-49fe-ad9e-adafe9854c54/curadomus_selo.png" alt="Cura Domus" class="mx-auto h-28 w-28 object-contain sm:h-32 sm:w-32" />
+      <img src="curadomus_selo.png" alt="Cura Domus" class="mx-auto h-28 w-28 object-contain sm:h-32 sm:w-32" />
       <h1 class="mt-6 text-serif text-4xl leading-[1.05] text-primary sm:text-5xl md:text-6xl">
         Curadoria para o lar,<br class="hidden sm:block" />
         <span class="italic" style="color:var(--primary-deep)"> feita por uma família </span>
@@ -102,14 +103,14 @@
   <main class="mx-auto max-w-5xl px-6 pb-24">
     <!-- Comunidades -->
     <section class="mb-14">
-      <div class="mb-5 flex items-end justify-between gap-4">
+      <div class="mb-4 flex items-end justify-between gap-4">
         <div>
           <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">Comunidades</div>
           <h2 class="text-serif mt-1 text-2xl">Participe dos nossos grupos</h2>
         </div>
         <div class="hidden text-xs sm:block" style="color:var(--muted-ink)">Grupos de WhatsApp · gratuitos</div>
       </div>
-      <div id="comunidades" class="grid grid-cols-2 gap-3 md:grid-cols-4"></div>
+      <div id="comunidades" class="flex flex-wrap gap-2"></div>
     </section>
 
     <!-- Ofertas -->
@@ -124,9 +125,21 @@
         </div>
         <div class="flex flex-col gap-2 sm:flex-row sm:items-center">
           <input id="busca" placeholder="Buscar por produto…" class="w-full rounded-lg border bg-card px-3 py-2 text-sm outline-none transition sm:w-56" style="border-color:var(--border)" />
-          <select id="filtro" class="rounded-lg border bg-card px-3 py-2 text-sm font-medium outline-none transition" style="border-color:var(--border)">
-            <option value="TODAS">Todas as categorias</option>
-          </select>
+          <div id="cbWrap" class="relative">
+            <input type="hidden" id="filtro" value="TODAS" />
+            <button id="cbBtn" type="button" aria-haspopup="listbox" aria-expanded="false"
+              class="flex h-10 w-full items-center gap-2 rounded-full border bg-card px-4 text-sm font-semibold shadow-soft outline-none transition hover:border-accent sm:w-56"
+              style="border-color:var(--border)">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2H2v10l9.29 9.29a1 1 0 0 0 1.42 0l8.58-8.58a1 1 0 0 0 0-1.42Z"/><circle cx="7" cy="7" r="1.2" fill="var(--accent)" stroke="none"/></svg>
+              <span id="cbLabel" class="truncate">Todas as categorias</span>
+              <svg class="ml-auto shrink-0" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 15 5 5 5-5"/><path d="m7 9 5-5 5 5"/></svg>
+            </button>
+            <div id="cbMenu" role="listbox"
+              class="hidden absolute right-0 z-40 mt-2 max-h-72 w-full min-w-[15rem] overflow-auto rounded-2xl border bg-card p-1.5 shadow-card animate-fade-up"
+              style="border-color:var(--border)">
+              <div class="px-2.5 pb-1.5 pt-1 text-[10px] font-semibold uppercase tracking-[0.18em]" style="color:var(--muted-ink)">Categorias</div>
+            </div>
+          </div>
         </div>
       </div>
       <div id="lista"></div>
@@ -168,15 +181,56 @@ const comunidades = [
 const elCom = document.getElementById("comunidades");
 elCom.innerHTML = comunidades.map(c => `
   <a href="${c.url}" target="_blank" rel="noopener noreferrer"
-     class="group relative flex flex-col items-center gap-3 rounded-2xl border bg-card p-5 text-center shadow-soft transition hover:-translate-y-0.5 hover:shadow-card"
+     class="group inline-flex items-center gap-2 rounded-full border bg-card py-1.5 pl-1.5 pr-3.5 text-[13px] font-semibold shadow-soft transition hover:-translate-y-0.5 hover:shadow-card"
      style="border-color:var(--border)">
-    <img src="${c.img}" alt="${c.nome}" class="h-16 w-16 rounded-full object-cover ring-2 ring-border" />
-    <span class="text-[13px] font-semibold leading-tight">${c.nome}</span>
+    <img src="${c.img}" alt="${c.nome}" class="h-7 w-7 rounded-full object-cover ring-1 ring-border" />
+    <span class="leading-none">${c.nome}</span>
+    <span class="text-[11px] leading-none" style="color:var(--muted-ink)">&#8599;</span>
   </a>`).join("");
 
 let ofertas = [];
 const $lista = document.getElementById("lista");
 const $filtro = document.getElementById("filtro");
+const $cbBtn = document.getElementById("cbBtn");
+const $cbMenu = document.getElementById("cbMenu");
+const $cbLabel = document.getElementById("cbLabel");
+const $cbWrap = document.getElementById("cbWrap");
+
+function abrirMenu(abrir) {
+  $cbMenu.classList.toggle("hidden", !abrir);
+  $cbBtn.setAttribute("aria-expanded", String(abrir));
+}
+$cbBtn.addEventListener("click", () => abrirMenu($cbMenu.classList.contains("hidden")));
+document.addEventListener("click", e => { if (!$cbWrap.contains(e.target)) abrirMenu(false); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") abrirMenu(false); });
+
+function montarCategorias(lista) {
+  const opcoes = [["TODAS", "Todas as categorias"], ...lista.map(g => [g, g])];
+  $cbMenu.querySelectorAll("[data-opt]").forEach(n => n.remove());
+  opcoes.forEach(([valor, texto]) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.dataset.opt = valor;
+    b.setAttribute("role", "option");
+    b.className = "flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm font-medium transition hover:bg-[var(--cream-deep)]";
+    b.innerHTML = `<span class="flex-1 truncate">${texto}</span><span class="opt-check hidden" style="color:var(--accent)">&#10003;</span>`;
+    b.addEventListener("click", () => {
+      $filtro.value = valor;
+      $cbLabel.textContent = texto;
+      $cbMenu.querySelectorAll("[data-opt]").forEach(o => {
+        const ativo = o.dataset.opt === valor;
+        o.querySelector(".opt-check").classList.toggle("hidden", !ativo);
+        o.style.background = ativo ? "var(--cream-deep)" : "";
+        o.style.color = ativo ? "var(--primary)" : "";
+      });
+      abrirMenu(false);
+      render();
+    });
+    $cbMenu.appendChild(b);
+  });
+  $cbMenu.querySelector('[data-opt="TODAS"]').click();
+  abrirMenu(false);
+}
 const $busca = document.getElementById("busca");
 const $atual = document.getElementById("atualizacao");
 
@@ -341,12 +395,8 @@ fetch("promocoes.json").then(r => r.ok ? r.json() : Promise.reject())
   .then(d => {
     ofertas = d.ofertas || [];
     if (d.ultimaAtualizacao) $atual.textContent = "Atualizado em: " + d.ultimaAtualizacao;
-    const grupos = [...new Set(ofertas.map(o => (o.categoria||"").trim()).filter(Boolean))].sort();
-    grupos.forEach(g => {
-      const opt = document.createElement("option");
-      opt.value = g; opt.textContent = g;
-      $filtro.appendChild(opt);
-    });
+    const grupos = [...new Set(ofertas.map(o => (o.categoria||"").trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+    montarCategorias(grupos);
     render();
   })
   .catch(() => {
@@ -354,7 +404,7 @@ fetch("promocoes.json").then(r => r.ok ? r.json() : Promise.reject())
   });
 
 $busca.addEventListener("input", render);
-$filtro.addEventListener("change", render);
+montarCategorias([]);
 </script>
 </body>
 </html>
