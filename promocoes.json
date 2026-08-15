@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "15/08/2026 11:36",
+  "ultimaAtualizacao" : "15/08/2026 11:47",
   "ofertas" : [ {
     "id" : 100453,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -613,6 +613,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "26,22",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 101382,
+    "titulo" : "A Irmã do Gildo",
+    "imagem" : "https://m.media-amazon.com/images/I/81KQlEZDn6L._SL1500_.jpg",
+    "precoOriginal" : "62,90",
+    "precoPromocao" : "31,53",
+    "tag" : "-49%",
+    "percentualDesconto" : 49.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574126233?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:42",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "31,53",
     "menorPrecoEmDias" : false
   }, {
     "id" : 99449,
@@ -2715,6 +2732,23 @@
     "precoAnterior" : "34,78",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 101384,
+    "titulo" : "Buba Risque E Apague Colorido",
+    "imagem" : "https://m.media-amazon.com/images/I/51DjMnkJVvL._AC_SL1000_.jpg",
+    "precoOriginal" : "26,90",
+    "precoPromocao" : "18,31",
+    "tag" : "-31%",
+    "percentualDesconto" : 31.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07N7Q8F59?tag=curadomus-20",
+    "categoria" : "Brinquedos e Jogos",
+    "categoriaId" : 6,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:42",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "18,31",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 100312,
     "titulo" : "Buba Risque E Apague Com 10 Unidades Colorido",
     "imagem" : "https://m.media-amazon.com/images/I/71JqxgzRfqL._AC_SL1500_.jpg",
@@ -4157,6 +4191,62 @@
     "loja" : "Shopee",
     "precoAnterior" : "115,90",
     "menorPrecoEmDias" : false
+  }, {
+    "id" : 101389,
+    "titulo" : "Comfort Amaciante Concentrado Lavanda 1,5L",
+    "imagem" : "https://m.media-amazon.com/images/I/71cxwvUrWEL._AC_SL1500_.jpg",
+    "precoOriginal" : "36,99",
+    "precoPromocao" : "23,91",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CKKSJXM6?tag=curadomus-20",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:43",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "24,90",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 15,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "01/08/2026",
+      "preco" : 31.31
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 31.31
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 31.31
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 31.31
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 31.31
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 31.31
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 31.31
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 31.31
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 31.31
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 23.91
+    } ]
   }, {
     "id" : 100279,
     "titulo" : "Como contar crocodilos",
@@ -9134,6 +9224,23 @@
     "precoAnterior" : "29,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 101387,
+    "titulo" : "Kit com 5 Sacos para Lavagem de Roupas Delicadas e Íntimas – Protege Peças na Máquina de Lavar, Fecho com Zíper Reforçado, Multi-Tamanhos, Ideal para Lingerie, Meias e Camisetas",
+    "imagem" : "https://m.media-amazon.com/images/I/61afJKLn+wL._AC_SL1024_.jpg",
+    "precoOriginal" : "49,90",
+    "precoPromocao" : "34,92",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FTNP6VWW?tag=curadomus-20",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:43",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "34,92",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 100788,
     "titulo" : "Kit Conjunto De Potes de Vidro Resistente Organizadores De Cozinha Multiuso",
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m3xthku507y00f",
@@ -9664,6 +9771,62 @@
     "precoAnterior" : "13,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 101399,
+    "titulo" : "Lenços Umedecidos Pampers Aroma de Aloe Vera 192 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/61ZtoLSExdL._AC_SL1200_.jpg",
+    "precoOriginal" : "46,70",
+    "precoPromocao" : "31,99",
+    "tag" : "-31%",
+    "percentualDesconto" : 31.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B082L13YPQ?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:45",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "35,90",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 15,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "01/08/2026",
+      "preco" : 35.62
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 35.62
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 35.62
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 35.09
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 35.09
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 35.09
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 31.99
+    } ]
+  }, {
     "id" : 101355,
     "titulo" : "Libresse Pure Sensitive Absorvente com abas Ultrafino Dia 10 uni",
     "imagem" : "https://m.media-amazon.com/images/I/619nEhAb0PL._AC_SL1200_.jpg",
@@ -9781,6 +9944,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "35,90",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 101404,
+    "titulo" : "Linea Geleia de Frutas Vermelhas 230g | Sem Adição de Açúcar",
+    "imagem" : "https://m.media-amazon.com/images/I/61iZww9pcrL._AC_SL1000_.jpg",
+    "precoOriginal" : "28,47",
+    "precoPromocao" : "16,97",
+    "tag" : "-40%",
+    "percentualDesconto" : 40.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B095TL2MD3?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:46",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "16,97",
     "menorPrecoEmDias" : false
   }, {
     "id" : 100627,
@@ -11480,6 +11660,23 @@
     "precoAnterior" : "35,00",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 101393,
+    "titulo" : "O batalhão das letras",
+    "imagem" : "https://m.media-amazon.com/images/I/910qi8luhnL._SL1500_.jpg",
+    "precoOriginal" : "72,90",
+    "precoPromocao" : "47,28",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067601?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:44",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "47,28",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 99660,
     "titulo" : "O café da manhã da família 14",
     "imagem" : "https://m.media-amazon.com/images/I/71qG+bsFoUL._SL1500_.jpg",
@@ -12255,6 +12452,23 @@
     "precoAnterior" : "46,00",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 101395,
+    "titulo" : "O presépio de Francisco",
+    "imagem" : "https://m.media-amazon.com/images/I/71yiSgLN+SL._SL1500_.jpg",
+    "precoOriginal" : "34,90",
+    "precoPromocao" : "23,85",
+    "tag" : "-31%",
+    "percentualDesconto" : 31.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8584912851?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:44",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "23,85",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 99458,
     "titulo" : "O primeiro dia de Chu na escola",
     "imagem" : "https://m.media-amazon.com/images/I/71yrCWN6m0L._SL1418_.jpg",
@@ -12922,6 +13136,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "39,60",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 101379,
+    "titulo" : "Paddington",
+    "imagem" : "https://m.media-amazon.com/images/I/91wpGFMJsuL._SL1500_.jpg",
+    "precoOriginal" : "54,90",
+    "precoPromocao" : "32,18",
+    "tag" : "-41%",
+    "percentualDesconto" : 41.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6559800504?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:41",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "32,18",
     "menorPrecoEmDias" : false
   }, {
     "id" : 100269,
@@ -16350,6 +16581,23 @@
     "precoAnterior" : "66,28",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 101380,
+    "titulo" : "Vou dar um susto no meu amigo",
+    "imagem" : "https://m.media-amazon.com/images/I/71dU7eTL+UL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "48,93",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574068764?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:42",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "48,93",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 101262,
     "titulo" : "Vôo 714 para Sydney",
     "imagem" : "https://m.media-amazon.com/images/I/91QH-lFnrFL._SL1500_.jpg",
@@ -16500,6 +16748,23 @@
     "dataOferta" : "15/08/2026 10:58",
     "destaque" : false,
     "loja" : "Amazon",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 101406,
+    "titulo" : "Whisky Jack Daniel's Honey Tennessee Whiskey 700ml",
+    "imagem" : "https://m.media-amazon.com/images/I/71sUVEiuPlL._AC_SL1500_.jpg",
+    "precoOriginal" : "144,90",
+    "precoPromocao" : "105,59",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0089E2OJE?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "15/08/2026 11:46",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "105,59",
     "menorPrecoEmDias" : false
   }, {
     "id" : 101367,
