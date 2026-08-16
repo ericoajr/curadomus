@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "16/08/2026 13:45",
+  "ultimaAtualizacao" : "16/08/2026 13:46",
   "ofertas" : [ {
     "id" : 103535,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -7713,9 +7713,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "01/08/2026",
-      "preco" : 92.9
-    }, {
       "data" : "02/08/2026",
       "preco" : 92.9
     }, {
@@ -10418,9 +10415,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "01/08/2026",
-      "preco" : 22.83
-    }, {
       "data" : "02/08/2026",
       "preco" : 22.83
     }, {
@@ -15480,6 +15474,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "24,78",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 104279,
+    "titulo" : "OFF! Family Loção Repelente de Insetos e Mosquitos, 200ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51tOnEh+kZL._AC_SL1200_.jpg",
+    "precoOriginal" : "23,20",
+    "precoPromocao" : "15,58",
+    "tag" : "-32%",
+    "percentualDesconto" : 32.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08SFMNZF6?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "16/08/2026 13:46",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "15,58",
     "menorPrecoEmDias" : false
   }, {
     "id" : 104115,
