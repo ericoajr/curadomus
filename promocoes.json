@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "18/08/2026 15:30",
+  "ultimaAtualizacao" : "18/08/2026 16:01",
   "ofertas" : [ {
     "id" : 106030,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -5828,6 +5828,23 @@
     "precoAnterior" : "38,50",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 108461,
+    "titulo" : "Cortina Blackout Em Tecido 4 00 X 2 50 Corta Luz",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_941797-MLB87292939062_072025-F-cortina-blackout-em-tecido-4-00-x-2-50-corta-luz.webp",
+    "precoOriginal" : "169,90",
+    "precoPromocao" : "133,90",
+    "tag" : "-21%",
+    "percentualDesconto" : 21.0,
+    "linkAfiliado" : "https://meli.la/1PXPCBD",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 15:49",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "133,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 107223,
     "titulo" : "Cosco Kids, Cadeira de Refeição Cook, Cinza",
     "imagem" : "https://m.media-amazon.com/images/I/51OWUMdNjbL._AC_SL1000_.jpg",
@@ -11218,6 +11235,35 @@
     "precoAnterior" : "14,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 108465,
+    "titulo" : "Kit 8 Pilhas Recarregáveis + Carregador Rápido Bivolt Aa/aaa",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_996455-MLB77546660553_072024-F-kit-8-pilhas-recarregaveis--carregador-rapido-bivolt-aaaaa.webp",
+    "precoOriginal" : "150,00",
+    "precoPromocao" : "49,90",
+    "tag" : "-66%",
+    "percentualDesconto" : 66.0,
+    "linkAfiliado" : "https://meli.la/2DmSK56",
+    "categoria" : "Eletrônicos e Tecnologia",
+    "categoriaId" : 129,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:01",
+    "destaque" : true,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "55,99",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 15,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "15/08/2026",
+      "preco" : 55.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 55.99
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 49.9
+    } ]
+  }, {
     "id" : 107084,
     "titulo" : "Kit 8pçs Talheres de Silicone p/ Bebê c/ Ventosa, Colher, Garfo, Canudo e Babador Infantil",
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7rdyw-lyy3asttten617",
@@ -12762,9 +12808,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "03/08/2026",
-      "preco" : 47.9
-    }, {
       "data" : "05/08/2026",
       "preco" : 47.72
     }, {
@@ -20603,6 +20646,23 @@
     "destaque" : false,
     "loja" : "Mercado Livre",
     "precoAnterior" : "239,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 108464,
+    "titulo" : "Tênis Masculino Fresh Foam Arishi V4 Esportivo New Balance",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_660453-MLB110932155734_052026-F-tnis-masculino-fresh-foam-arishi-v4-esportivo-new-balance.webp",
+    "precoOriginal" : "714,28",
+    "precoPromocao" : "284,00",
+    "tag" : "-60%",
+    "percentualDesconto" : 60.0,
+    "linkAfiliado" : "https://meli.la/1ioMB5x",
+    "categoria" : "Calçados",
+    "categoriaId" : 10,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 15:58",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "284,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 107675,
