@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "18/08/2026 16:29",
+  "ultimaAtualizacao" : "18/08/2026 16:58",
   "ofertas" : [ {
     "id" : 106030,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -2466,6 +2466,23 @@
     "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 108483,
+    "titulo" : "Blusa Amamentação Cores Premium Camiseta Gestante Amamentar",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_753349-MLB105945834008_022026-F-blusa-amamentaco-cores-premium-camiseta-gestante-amamentar.webp",
+    "precoOriginal" : "50,00",
+    "precoPromocao" : "21,34",
+    "tag" : "-57%",
+    "percentualDesconto" : 57.0,
+    "linkAfiliado" : "https://meli.la/1JjXPef",
+    "categoria" : "Moda",
+    "categoriaId" : 5,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:55",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "21,34",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 106279,
     "titulo" : "Blusa Casaco Infantil Juvenil Feminino Menina Teddy Com Bolso E Capuz Inverno  Frio tamanho 2 Ao 16",
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lk-mlfp910jjbifeb",
@@ -3902,6 +3919,23 @@
     "precoAnterior" : "19,43",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 108484,
+    "titulo" : "Cadeira De Alimentação Portátil Para Bebê Refeição Infantil Liso Azul",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_969717-MLA111016541612_052026-F.webp",
+    "precoOriginal" : "586,11",
+    "precoPromocao" : "299,90",
+    "tag" : "-48%",
+    "percentualDesconto" : 48.0,
+    "linkAfiliado" : "https://meli.la/2AHfACQ",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:58",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "299,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 106270,
     "titulo" : "Cadeira de Escritório Ergonômica Com Apoio Lombar e Apoio de Cabeça Cinza com estofado de mesh",
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lq-mmfom4x7xblsea",
@@ -4582,6 +4616,23 @@
     "precoAnterior" : "30,37",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 108482,
+    "titulo" : "Camiseta Masculina Básica Slim Algodão - Várias Cores Ogochi",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_929638-MLB106952830522_022026-F-camiseta-masculina-basica-slim-algodo-varias-cores-ogochi.webp",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "43,82",
+    "tag" : "-37%",
+    "percentualDesconto" : 37.0,
+    "linkAfiliado" : "https://meli.la/1tdwqsK",
+    "categoria" : "Moda",
+    "categoriaId" : 5,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:51",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "43,82",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 106009,
     "titulo" : "Camiseta Nike Sportswear Just Do It Masculina",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_964899-MLB100382159692_122025-F-camiseta-nike-sportswear-just-do-it-masculina.webp",
@@ -4598,6 +4649,35 @@
     "loja" : "Mercado Livre",
     "precoAnterior" : "63,99",
     "menorPrecoEmDias" : false
+  }, {
+    "id" : 108478,
+    "titulo" : "Camiseta Polo Aramis Masculina Basic Piquet Preta",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_922255-MLB87713383909_072025-F-camiseta-polo-aramis-masculina-basic-piquet-preta.webp",
+    "precoOriginal" : "279,99",
+    "precoPromocao" : "147,89",
+    "tag" : "-47%",
+    "percentualDesconto" : 47.0,
+    "linkAfiliado" : "https://meli.la/1Hng3vL",
+    "categoria" : "Moda",
+    "categoriaId" : 5,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:42",
+    "destaque" : true,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "159,99",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 15,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "15/08/2026",
+      "preco" : 159.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 159.99
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 147.89
+    } ]
   }, {
     "id" : 106411,
     "titulo" : "Campainha - Cigarra - Bivolt De Embutir - 110V 220V -  Casa - Construção",
@@ -14409,6 +14489,23 @@
     "precoAnterior" : "49,00",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 108476,
+    "titulo" : "NAC 600mg - Fórmula Exclusiva com Máxima Concentração e Pureza - N-Acetil L-Cisteína - 60 Cápsulas",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_690214-MLA113495617962_072026-F.webp",
+    "precoOriginal" : "89,77",
+    "precoPromocao" : "36,62",
+    "tag" : "-59%",
+    "percentualDesconto" : 59.0,
+    "linkAfiliado" : "https://meli.la/2DzmYEo",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:36",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "36,62",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 107834,
     "titulo" : "Nescafe Dolce Gusto, Espresso, 10 Cápsulas",
     "imagem" : "https://m.media-amazon.com/images/I/51bF8KrLrzL._AC_SL1200_.jpg",
@@ -18286,6 +18383,23 @@
     "precoAnterior" : "549,00",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 108475,
+    "titulo" : "Processador Triturador Moedor De Alimentos Manual Alho 500ml",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_960678-MLB109373422399_032026-F-processador-triturador-moedor-de-alimentos-manual-alho-500ml.webp",
+    "precoOriginal" : "36,43",
+    "precoPromocao" : "15,20",
+    "tag" : "-58%",
+    "percentualDesconto" : 58.0,
+    "linkAfiliado" : "https://meli.la/2BV4pkR",
+    "categoria" : "Cozinha",
+    "categoriaId" : 102,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:33",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "15,20",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 108469,
     "titulo" : "Processador Walita Preto 1000w - Hr7304/92 Preto",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_808861-MLA107744383504_032026-F.webp",
@@ -19223,6 +19337,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "27,40",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 108477,
+    "titulo" : "Scanner Automotivo Bluetooth Obd2 Eml 327 Android Ios Obdii",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_886444-MLB95702648919_102025-F-scanner-automotivo-bluetooth-obd2-eml-327-android-ios-obdii.webp",
+    "precoOriginal" : "47,97",
+    "precoPromocao" : "16,72",
+    "tag" : "-65%",
+    "percentualDesconto" : 65.0,
+    "linkAfiliado" : "https://meli.la/1hjcYwm",
+    "categoria" : "Automotivo",
+    "categoriaId" : 65,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:39",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "15,99",
     "menorPrecoEmDias" : false
   }, {
     "id" : 105866,
@@ -20344,9 +20475,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "03/08/2026",
-      "preco" : 9.99
-    }, {
       "data" : "05/08/2026",
       "preco" : 9.99
     }, {
@@ -20393,6 +20521,22 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "13,29",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 108480,
+    "titulo" : "Tixan Ypê Lava Roupas Líquido Maciez 3L",
+    "imagem" : "https://m.media-amazon.com/images/I/51NyhMVA2dL._AC_SL1080_.jpg",
+    "precoOriginal" : "43,66",
+    "precoPromocao" : "31,49",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B088PDFK6H?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:45",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 106318,
@@ -20888,6 +21032,40 @@
     "destaque" : false,
     "loja" : "Mercado Livre",
     "precoAnterior" : "499,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 108479,
+    "titulo" : "Tênis Nike Sb Force 58 Masculino",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_930878-MLB99367495130_112025-F-tnis-nike-sb-force-58-masculino.webp",
+    "precoOriginal" : "449,99",
+    "precoPromocao" : "284,99",
+    "tag" : "-36%",
+    "percentualDesconto" : 36.0,
+    "linkAfiliado" : "https://meli.la/12QwHDu",
+    "categoria" : "Calçados",
+    "categoriaId" : 10,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:45",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "284,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 108481,
+    "titulo" : "Tênis Qix Combat 3 Vulcanizado | Preto Branco + Nf",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_605941-MLB106637566254_022026-F-tnis-qix-combat-3-vulcanizado-preto-branco-nf.webp",
+    "precoOriginal" : "218,99",
+    "precoPromocao" : "155,00",
+    "tag" : "-29%",
+    "percentualDesconto" : 29.0,
+    "linkAfiliado" : "https://meli.la/14YqFTL",
+    "categoria" : "Calçados",
+    "categoriaId" : 10,
+    "ativo" : true,
+    "dataOferta" : "18/08/2026 16:48",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "155,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 106323,
