@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "19/08/2026 18:05",
+  "ultimaAtualizacao" : "19/08/2026 18:37",
   "ofertas" : [ {
     "id" : 108808,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -1874,6 +1874,38 @@
       "preco" : 11.99
     } ]
   }, {
+    "id" : 110502,
+    "titulo" : "Batedeira Planetaria Britania 900w Bbp900a",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_937537-MLA114111696892_082026-F.webp",
+    "precoOriginal" : "444,15",
+    "precoPromocao" : "318,00",
+    "tag" : "-28%",
+    "percentualDesconto" : 28.0,
+    "linkAfiliado" : "https://meli.la/1Phqrcc",
+    "categoria" : "Eletroportáteis",
+    "categoriaId" : 225,
+    "ativo" : true,
+    "dataOferta" : "19/08/2026 18:14",
+    "destaque" : true,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "324,43",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 15,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "15/08/2026",
+      "preco" : 374.87
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 324.43
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 324.43
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 318.0
+    } ]
+  }, {
     "id" : 110359,
     "titulo" : "Batedeira Planetária, Mondial, 700W - BP-03-B",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_728880-MLA99495345066_112025-F.webp",
@@ -2279,6 +2311,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "69,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 110509,
+    "titulo" : "Boné Ny New York Yankees Unissex Blogueira Fitão Regulável",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_742048-MLB85253021021_052025-F-bone-ny-new-york-yankees-unissex-blogueira-fito-regulavel.webp",
+    "precoOriginal" : "49,99",
+    "precoPromocao" : "22,58",
+    "tag" : "-54%",
+    "percentualDesconto" : 54.0,
+    "linkAfiliado" : "https://meli.la/1pPnf2n",
+    "categoria" : "Moda",
+    "categoriaId" : 5,
+    "ativo" : true,
+    "dataOferta" : "19/08/2026 18:37",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "22,58",
     "menorPrecoEmDias" : false
   }, {
     "id" : 109273,
@@ -3276,6 +3325,23 @@
     "precoAnterior" : "59,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 110505,
+    "titulo" : "Calça Jeans Pantalona Wide Leg Feminina Cintura Alta Larga",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_840237-MLB110593856228_052026-F-calca-jeans-pantalona-wide-leg-feminina-cintura-alta-larga.webp",
+    "precoOriginal" : "109,90",
+    "precoPromocao" : "59,90",
+    "tag" : "-45%",
+    "percentualDesconto" : 45.0,
+    "linkAfiliado" : "https://meli.la/2Zz9Uwk",
+    "categoria" : "Moda",
+    "categoriaId" : 5,
+    "ativo" : true,
+    "dataOferta" : "19/08/2026 18:24",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "59,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 108961,
     "titulo" : "Calça Jogger Masculina Sarja Jeans 4 Bolsos Punho Elástico Cintura Ajustável Casual Streetwear Premium Outono Inverno",
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820m1-mr8x19379nuu58",
@@ -3376,23 +3442,6 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "61,98",
-    "menorPrecoEmDias" : false
-  }, {
-    "id" : 110436,
-    "titulo" : "Camera Infantil Digital Filmadora Infantil Mini Maquina Fotografica Infantil Fotografa E Filma Tira Foto De Verdade",
-    "imagem" : "https://cf.shopee.com.br/file/sg-11134201-8261e-mkhtcyljdcli32",
-    "precoOriginal" : "104,87",
-    "precoPromocao" : "40,90",
-    "tag" : "-61%",
-    "percentualDesconto" : 61.0,
-    "linkAfiliado" : "https://s.shopee.com.br/AKZovXNDRA",
-    "categoria" : "Bebês",
-    "categoriaId" : 7,
-    "ativo" : true,
-    "dataOferta" : "19/08/2026 16:46",
-    "destaque" : false,
-    "loja" : "Shopee",
-    "precoAnterior" : "40,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 110437,
@@ -4303,9 +4352,6 @@
     "menorPrecoDias" : 30,
     "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
     "historico" : [ {
-      "data" : "20/07/2026",
-      "preco" : 59.22
-    }, {
       "data" : "22/07/2026",
       "preco" : 59.22
     }, {
@@ -15622,6 +15668,23 @@
     "precoAnterior" : "74,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 110506,
+    "titulo" : "Sandália Babuche Antiderrapante Leve Macia Confortável",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_830677-MLB107505825713_022026-F-sandalia-babuche-antiderrapante-leve-macia-confortavel.webp",
+    "precoOriginal" : "74,90",
+    "precoPromocao" : "28,80",
+    "tag" : "-61%",
+    "percentualDesconto" : 61.0,
+    "linkAfiliado" : "https://meli.la/1ivu5U3",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "19/08/2026 18:27",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "28,80",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 109210,
     "titulo" : "Sandália Babuche Infantil Menina Leve e Confortável Escolar",
     "imagem" : "https://cf.shopee.com.br/file/br-11134201-820l8-mqycfzjax69zab",
@@ -16525,6 +16588,23 @@
       "preco" : 11.59
     } ]
   }, {
+    "id" : 110499,
+    "titulo" : "Tixan Ypê Lava Roupas Líquido Maciez 3L",
+    "imagem" : "https://m.media-amazon.com/images/I/51NyhMVA2dL._AC_SL1080_.jpg",
+    "precoOriginal" : "43,66",
+    "precoPromocao" : "31,49",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B088PDFK6H?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "19/08/2026 18:08",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "31,49",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 109096,
     "titulo" : "Toalha Banho Exuberance 70 x140 cm 420g 100% algodao",
     "imagem" : "https://cf.shopee.com.br/file/br-11134201-820lb-mqx9ng7ayeiuc3",
@@ -16761,6 +16841,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "19,80",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 110500,
+    "titulo" : "Tênis Casual Academia Feminino E Masculino Skate Sneakers",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_744415-MLB109713456038_042026-F-tnis-casual-academia-feminino-e-masculino-skate-sneakers.webp",
+    "precoOriginal" : "74,90",
+    "precoPromocao" : "49,99",
+    "tag" : "-33%",
+    "percentualDesconto" : 33.0,
+    "linkAfiliado" : "https://meli.la/15m9hpR",
+    "categoria" : "Calçados",
+    "categoriaId" : 10,
+    "ativo" : true,
+    "dataOferta" : "19/08/2026 18:08",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "49,99",
     "menorPrecoEmDias" : false
   }, {
     "id" : 109983,
