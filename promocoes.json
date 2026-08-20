@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "20/08/2026 20:06",
+  "ultimaAtualizacao" : "20/08/2026 20:35",
   "ofertas" : [ {
     "id" : 110938,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -1590,6 +1590,23 @@
     "precoAnterior" : "11,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 112571,
+    "titulo" : "Batedeira Planetária, Mondial, 700W - BP-03-B",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_728880-MLA99495345066_112025-F.webp",
+    "precoOriginal" : "489,90",
+    "precoPromocao" : "298,62",
+    "tag" : "-39%",
+    "percentualDesconto" : 39.0,
+    "linkAfiliado" : "https://meli.la/1SCDTNT",
+    "categoria" : "Eletroportáteis",
+    "categoriaId" : 225,
+    "ativo" : true,
+    "dataOferta" : "20/08/2026 20:25",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "275,53",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 110590,
     "titulo" : "Batedeira Planetária, Mondial, Preto, 700W, 110V - BP-03-B",
     "imagem" : "https://m.media-amazon.com/images/I/511jk8D3duS._AC_SL1000_.jpg",
@@ -3123,6 +3140,56 @@
     "loja" : "Amazon",
     "precoAnterior" : "919,00",
     "menorPrecoEmDias" : false
+  }, {
+    "id" : 112566,
+    "titulo" : "Cafeteira Expresso Dolce Gusto Arno Genio S Basic Automática Cinza Escuro",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_849194-MLA99496642800_112025-F.webp",
+    "precoOriginal" : "679,90",
+    "precoPromocao" : "427,40",
+    "tag" : "-37%",
+    "percentualDesconto" : 37.0,
+    "linkAfiliado" : "https://meli.la/2cXevck",
+    "categoria" : "Eletroportáteis",
+    "categoriaId" : 225,
+    "ativo" : true,
+    "dataOferta" : "20/08/2026 20:09",
+    "destaque" : true,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "439,90",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 30,
+    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
+    "historico" : [ {
+      "data" : "22/07/2026",
+      "preco" : 529.99
+    }, {
+      "data" : "23/07/2026",
+      "preco" : 499.0
+    }, {
+      "data" : "25/07/2026",
+      "preco" : 449.99
+    }, {
+      "data" : "26/07/2026",
+      "preco" : 449.99
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 439.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 449.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 449.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 459.99
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 439.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 427.4
+    } ]
   }, {
     "id" : 111813,
     "titulo" : "Café em Cápsula Compatível com Nespresso Nescafé Farmers Origins Brazil 10 Cápsulas",
@@ -6622,6 +6689,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "174,90",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 112572,
+    "titulo" : "Fralda Huggies Máx Proteção M 24 Un. Canais De Absorção 12h",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_786757-MLB109273395417_032026-F-fralda-huggies-max-protecao-m-24-un-canais-de-absorcao-12h.webp",
+    "precoOriginal" : "54,49",
+    "precoPromocao" : "42,86",
+    "tag" : "-21%",
+    "percentualDesconto" : 21.0,
+    "linkAfiliado" : "https://meli.la/1GXaxfb",
+    "categoria" : "Fraldas",
+    "categoriaId" : 9,
+    "ativo" : true,
+    "dataOferta" : "20/08/2026 20:28",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "42,86",
     "menorPrecoEmDias" : false
   }, {
     "id" : 112355,
@@ -14095,6 +14179,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "23,00",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 112567,
+    "titulo" : "Pipoqueira Britânia Pop Time Cor Branco",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_856383-MLA99964939339_112025-F.webp",
+    "precoOriginal" : "200,00",
+    "precoPromocao" : "153,98",
+    "tag" : "-23%",
+    "percentualDesconto" : 23.0,
+    "linkAfiliado" : "https://meli.la/1y8p21Z",
+    "categoria" : "Eletroportáteis",
+    "categoriaId" : 225,
+    "ativo" : true,
+    "dataOferta" : "20/08/2026 20:12",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "149,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 111032,
