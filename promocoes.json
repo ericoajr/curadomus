@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "23/08/2026 11:50",
+  "ultimaAtualizacao" : "23/08/2026 12:20",
   "ofertas" : [ {
     "id" : 116076,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -532,6 +532,23 @@
     "precoAnterior" : "32,69",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117862,
+    "titulo" : "A formiguinha e a neve",
+    "imagem" : "https://m.media-amazon.com/images/I/511Venme4KL._SL1000_.jpg",
+    "precoOriginal" : "91,00",
+    "precoPromocao" : "52,20",
+    "tag" : "-42%",
+    "percentualDesconto" : 42.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8516013324?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:10",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "52,20",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 115833,
     "titulo" : "A força eterna do amor",
     "imagem" : "https://m.media-amazon.com/images/I/91aBUjSfs7L._SL1500_.jpg",
@@ -634,6 +651,23 @@
     "precoAnterior" : "42,48",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117855,
+    "titulo" : "A palavra feia de Alberto",
+    "imagem" : "https://m.media-amazon.com/images/I/91cZJlfVLkL._SL1500_.jpg",
+    "precoOriginal" : "110,00",
+    "precoPromocao" : "28,00",
+    "tag" : "-74%",
+    "percentualDesconto" : 74.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508046677?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:09",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "28,00",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 116707,
     "titulo" : "A princesinha",
     "imagem" : "https://m.media-amazon.com/images/I/81zfvSPEdOL._SL1500_.jpg",
@@ -717,6 +751,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "49,78",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117856,
+    "titulo" : "A velhinha que dava nome às coisas",
+    "imagem" : "https://m.media-amazon.com/images/I/919etP0JpmL._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "43,90",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8585357851?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:09",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "43,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 115540,
@@ -1110,6 +1161,92 @@
     "loja" : "Amazon",
     "precoAnterior" : "57,50",
     "menorPrecoEmDias" : false
+  }, {
+    "id" : 117921,
+    "titulo" : "Anne IV",
+    "imagem" : "https://m.media-amazon.com/images/I/71XZiM-UZQL._SL1384_.jpg",
+    "precoOriginal" : "59,90",
+    "precoPromocao" : "35,23",
+    "tag" : "-41%",
+    "percentualDesconto" : 41.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08R87LC8F?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:20",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "37,90",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 30,
+    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
+    "historico" : [ {
+      "data" : "25/07/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "26/07/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 43.56
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 35.23
+    } ]
   }, {
     "id" : 116789,
     "titulo" : "Aperitivo Aperol 750ml",
@@ -1620,6 +1757,23 @@
     "precoAnterior" : "14,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117757,
+    "titulo" : "Baby Dove Sabonete Líquido Hidratação Glicerinada 400 ML",
+    "imagem" : "https://m.media-amazon.com/images/I/61bL8uVCTxL._AC_SL1500_.jpg",
+    "precoOriginal" : "33,99",
+    "precoPromocao" : "21,99",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07ZHGT9ZT?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:53",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "21,50",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 116342,
     "titulo" : "Babá Eletrônica com Monitor Visão Noturna Áudio Bidirecional Sensor de Temperatura Monitor Infantil Digital",
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7rdwc-lzz9hn7c0eaqdc",
@@ -1775,23 +1929,6 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "37,68",
-    "menorPrecoEmDias" : false
-  }, {
-    "id" : 115366,
-    "titulo" : "Batedeira Planetária, Mondial, 700W - BP-03-B",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_728880-MLA99495345066_112025-F.webp",
-    "precoOriginal" : "489,90",
-    "precoPromocao" : "298,62",
-    "tag" : "-39%",
-    "percentualDesconto" : 39.0,
-    "linkAfiliado" : "https://meli.la/1SCDTNT",
-    "categoria" : "Eletroportáteis",
-    "categoriaId" : 225,
-    "ativo" : true,
-    "dataOferta" : "22/08/2026 08:46",
-    "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : "298,62",
     "menorPrecoEmDias" : false
   }, {
     "id" : 117121,
@@ -2149,6 +2286,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "231,90",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117904,
+    "titulo" : "Black Skull Creatina Turbo 500g Refil",
+    "imagem" : "https://m.media-amazon.com/images/I/5102o18ZGbL._AC_SL1000_.jpg",
+    "precoOriginal" : "50,87",
+    "precoPromocao" : "36,90",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BKTMTM8D?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:17",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "36,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 117529,
@@ -2717,6 +2871,23 @@
     "precoAnterior" : "46,69",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117825,
+    "titulo" : "Buba Garrafinha Aventuras Princesa 400 Ml Rosa",
+    "imagem" : "https://m.media-amazon.com/images/I/61+O3VA6yhL._AC_SL1500_.jpg",
+    "precoOriginal" : "37,90",
+    "precoPromocao" : "23,94",
+    "tag" : "-36%",
+    "percentualDesconto" : 36.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BBJM19ZB?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:04",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "25,39",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 116637,
     "titulo" : "Buba Kit Aspirador Nasal De Sucção E Seringa",
     "imagem" : "https://m.media-amazon.com/images/I/41ApVRnrx0L._AC_SL1000_.jpg",
@@ -3002,6 +3173,23 @@
     "precoAnterior" : "15,01",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117756,
+    "titulo" : "Buba Mordedor Com Massageador De Gengiva Azul",
+    "imagem" : "https://m.media-amazon.com/images/I/51FJVjwLrXL._AC_SL1000_.jpg",
+    "precoOriginal" : "21,90",
+    "precoPromocao" : "15,90",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07CVQJ9T7?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:53",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "15,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 115633,
     "titulo" : "Buba Naninha Leazinho Marrom",
     "imagem" : "https://m.media-amazon.com/images/I/61eFlkcQJ4S._AC_SL1000_.jpg",
@@ -3105,6 +3293,23 @@
       "data" : "23/08/2026",
       "preco" : 80.17
     } ]
+  }, {
+    "id" : 117872,
+    "titulo" : "Buba Pote Termico C/Colher - Gumy Rosa Buba Rosa",
+    "imagem" : "https://m.media-amazon.com/images/I/41TOR1cRICL._AC_SL1000_.jpg",
+    "precoOriginal" : "151,90",
+    "precoPromocao" : "87,29",
+    "tag" : "-42%",
+    "percentualDesconto" : 42.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08JXND5C7?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:12",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "79,68",
+    "menorPrecoEmDias" : false
   }, {
     "id" : 117274,
     "titulo" : "Buba Pratinho Em Silicone Com Ventosa Verde",
@@ -3755,23 +3960,6 @@
     "precoAnterior" : "65,23",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 115361,
-    "titulo" : "Cafeteira Expresso Dolce Gusto Arno Genio S Basic Automática Cinza Escuro",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_849194-MLA99496642800_112025-F.webp",
-    "precoOriginal" : "679,90",
-    "precoPromocao" : "427,40",
-    "tag" : "-37%",
-    "percentualDesconto" : 37.0,
-    "linkAfiliado" : "https://meli.la/2cXevck",
-    "categoria" : "Eletroportáteis",
-    "categoriaId" : 225,
-    "ativo" : true,
-    "dataOferta" : "22/08/2026 08:31",
-    "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : "427,40",
-    "menorPrecoEmDias" : false
-  }, {
     "id" : 116614,
     "titulo" : "Café Acauã Orfeu em Grãos, 100% Arabica 250g",
     "imagem" : "https://m.media-amazon.com/images/I/51-vsQ5eYqL._AC_SL1000_.jpg",
@@ -4076,23 +4264,6 @@
     "destaque" : false,
     "loja" : "Mercado Livre",
     "precoAnterior" : "199,49",
-    "menorPrecoEmDias" : false
-  }, {
-    "id" : 115359,
-    "titulo" : "Camisa Vozinha Cabo Verde Torcedor Sportiza",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_978782-MLB112926576428_072026-F-camisa-vozinha-cabo-verde-torcedor-sportiza.webp",
-    "precoOriginal" : "99,89",
-    "precoPromocao" : "73,00",
-    "tag" : "-26%",
-    "percentualDesconto" : 26.0,
-    "linkAfiliado" : "https://meli.la/2VgBRwS",
-    "categoria" : "Moda",
-    "categoriaId" : 5,
-    "ativo" : true,
-    "dataOferta" : "22/08/2026 08:24",
-    "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : "73,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116302,
@@ -5643,6 +5814,23 @@
     "precoAnterior" : "734,62",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117835,
+    "titulo" : "Cotonetes Hastes Flexíveis Pote 150un",
+    "imagem" : "https://m.media-amazon.com/images/I/61MuO8uChZL._AC_SL1000_.jpg",
+    "precoOriginal" : "16,99",
+    "precoPromocao" : "13,39",
+    "tag" : "-21%",
+    "percentualDesconto" : 21.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B00EIMPZ1A?tag=curadomus-20",
+    "categoria" : "Beleza",
+    "categoriaId" : 33,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:05",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "13,39",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 116359,
     "titulo" : "Cozedor de Ovos Elétrico Portátil Cozinha à Vapor 110V Cor Aleatória",
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-mdg66onj1vipad",
@@ -5779,6 +5967,40 @@
     "precoAnterior" : "20,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117747,
+    "titulo" : "Creme dental Sensodyne Repair & Protect 100g",
+    "imagem" : "https://m.media-amazon.com/images/I/617uXlh7jzL._AC_SL1500_.jpg",
+    "precoOriginal" : "25,90",
+    "precoPromocao" : "18,99",
+    "tag" : "-26%",
+    "percentualDesconto" : 26.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07DG3J95G?tag=curadomus-20",
+    "categoria" : "Beleza",
+    "categoriaId" : 33,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:51",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "18,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117758,
+    "titulo" : "Creme Preventivo contra assaduras 90g – Baruel Baby",
+    "imagem" : "https://m.media-amazon.com/images/I/61RtvUJd1kL._AC_SL1500_.jpg",
+    "precoOriginal" : "27,49",
+    "precoPromocao" : "20,99",
+    "tag" : "-23%",
+    "percentualDesconto" : 23.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B093RCP1K4?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:53",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "20,99",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 115569,
     "titulo" : "Creme Preventivo de Assaduras Huggies Pele Protegida 80g",
     "imagem" : "https://m.media-amazon.com/images/I/51xC91ZOQBL._AC_SL1000_.jpg",
@@ -5867,23 +6089,6 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "35,05",
-    "menorPrecoEmDias" : false
-  }, {
-    "id" : 115370,
-    "titulo" : "Cubo Sensorial Educativo 10 Em 1 Para Habilidades Motoras",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_689624-MLB110978735735_042026-F-cubo-sensorial-educativo-10-em-1-para-habilidades-motoras.webp",
-    "precoOriginal" : "60,00",
-    "precoPromocao" : "36,80",
-    "tag" : "-38%",
-    "percentualDesconto" : 38.0,
-    "linkAfiliado" : "https://meli.la/2HuT9eo",
-    "categoria" : "Brinquedos e Jogos",
-    "categoriaId" : 6,
-    "ativo" : true,
-    "dataOferta" : "22/08/2026 08:59",
-    "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : "36,80",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116851,
@@ -6020,6 +6225,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "63,90",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117826,
+    "titulo" : "Desitin Proteção Diária Creme Preventivo De Assaduras Creamy, 57g",
+    "imagem" : "https://m.media-amazon.com/images/I/6100v+hZFgL._AC_SL1500_.jpg",
+    "precoOriginal" : "57,99",
+    "precoPromocao" : "38,35",
+    "tag" : "-33%",
+    "percentualDesconto" : 33.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHQZPZV?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:04",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "38,35",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116702,
@@ -6275,6 +6497,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "48,90",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117857,
+    "titulo" : "Dr. De Soto",
+    "imagem" : "https://m.media-amazon.com/images/I/91hHZ-LnbjL._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "47,53",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067008?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:09",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "47,53",
     "menorPrecoEmDias" : false
   }, {
     "id" : 115537,
@@ -7426,21 +7665,21 @@
     "precoAnterior" : "174,90",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 115367,
-    "titulo" : "Fralda Huggies Máx Proteção M 24 Un. Canais De Absorção 12h",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_786757-MLB109273395417_032026-F-fralda-huggies-max-protecao-m-24-un-canais-de-absorcao-12h.webp",
-    "precoOriginal" : "54,49",
-    "precoPromocao" : "42,86",
-    "tag" : "-21%",
-    "percentualDesconto" : 21.0,
-    "linkAfiliado" : "https://meli.la/1GXaxfb",
+    "id" : 117755,
+    "titulo" : "Fralda Huggies Supreme Care Roupinha XG - 64 fraldas",
+    "imagem" : "https://m.media-amazon.com/images/I/81rfab7At1L._AC_SL1500_.jpg",
+    "precoOriginal" : "131,78",
+    "precoPromocao" : "95,90",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BXM3TSS9?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
     "ativo" : true,
-    "dataOferta" : "22/08/2026 08:49",
+    "dataOferta" : "23/08/2026 11:53",
     "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : "42,86",
+    "loja" : "Amazon",
+    "precoAnterior" : "95,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116561,
@@ -7577,6 +7816,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "54,80",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117810,
+    "titulo" : "Frigobar 93 Litros Inverter Bivolt Preto com Porta na Cor Inox, Midea",
+    "imagem" : "https://m.media-amazon.com/images/I/51ZyKtoJUDL._AC_SL1000_.jpg",
+    "precoOriginal" : "1.349,00",
+    "precoPromocao" : "909,90",
+    "tag" : "-32%",
+    "percentualDesconto" : 32.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FJHZWJ3V?tag=curadomus-20",
+    "categoria" : "Eletrodomésticos",
+    "categoriaId" : 101,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:02",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "909,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 117658,
@@ -7747,6 +8003,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "163,89",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117895,
+    "titulo" : "G-Tech, Termômetro Digital de Ponta Flexível - Alimentado por pilha/bateria",
+    "imagem" : "https://m.media-amazon.com/images/I/31buJmSfVYL._AC_SL1000_.jpg",
+    "precoOriginal" : "26,50",
+    "precoPromocao" : "15,87",
+    "tag" : "-40%",
+    "percentualDesconto" : 40.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B076VYL3PX?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:16",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "15,87",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116404,
@@ -7970,6 +8243,23 @@
     "precoAnterior" : "20,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117792,
+    "titulo" : "Gillette Venus Aparelho de Depilação Descartável Suave com Aloe, 4 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/51+JCFscSlL._AC_SL1000_.jpg",
+    "precoOriginal" : "26,23",
+    "precoPromocao" : "17,99",
+    "tag" : "-31%",
+    "percentualDesconto" : 31.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07GQ8BV7L?tag=curadomus-20",
+    "categoria" : "Beleza",
+    "categoriaId" : 33,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:59",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "17,99",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 116044,
     "titulo" : "Gin Bombay Sapphire 750ml",
     "imagem" : "https://m.media-amazon.com/images/I/61UyC8OiP2L._AC_SL1500_.jpg",
@@ -8174,6 +8464,23 @@
     "precoAnterior" : "20,49",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117844,
+    "titulo" : "Granado Sabonete Líquido Glicerinado Bebê, 250ml",
+    "imagem" : "https://m.media-amazon.com/images/I/41MPcws2ekL._AC_SL1000_.jpg",
+    "precoOriginal" : "30,48",
+    "precoPromocao" : "21,99",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B000VWJMW4?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:07",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "21,99",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 116798,
     "titulo" : "Granado Shampoo Bebê, Lavanda, 250ml",
     "imagem" : "https://m.media-amazon.com/images/I/51C6yHuVIKL._AC_SL1000_.jpg",
@@ -8274,6 +8581,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "60,81",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117869,
+    "titulo" : "HAO BOSCH Vinho Rose Piscine Stripes Listras 750Ml",
+    "imagem" : "https://m.media-amazon.com/images/I/6147Zyv2cqL._AC_SL1500_.jpg",
+    "precoOriginal" : "89,90",
+    "precoPromocao" : "59,00",
+    "tag" : "-34%",
+    "percentualDesconto" : 34.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B06Y5TM366?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:11",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "59,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 115840,
@@ -8427,6 +8751,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "18,53",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117845,
+    "titulo" : "HIPOGLÓS® Transparente Creme Preventivo De Assaduras, 30g",
+    "imagem" : "https://m.media-amazon.com/images/I/518FaPzfPCL._AC_SL1000_.jpg",
+    "precoOriginal" : "33,89",
+    "precoPromocao" : "24,64",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B089YLCYBZ?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:07",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "24,64",
     "menorPrecoEmDias" : false
   }, {
     "id" : 115733,
@@ -8824,6 +9165,40 @@
     "precoAnterior" : "89,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117922,
+    "titulo" : "Ilíada",
+    "imagem" : "https://m.media-amazon.com/images/I/91gyyNRQ5lL._SL1500_.jpg",
+    "precoOriginal" : "113,00",
+    "precoPromocao" : "76,28",
+    "tag" : "-32%",
+    "percentualDesconto" : 32.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526277103?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:20",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "76,28",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117821,
+    "titulo" : "Impressora Epson EcoTank L1250 - Tanque de Tinta Colorida, Wi-Fi Direct, Comando de voz, Bivolt, Cor: Preto",
+    "imagem" : "https://m.media-amazon.com/images/I/51BeI0fbpzL._AC_SL1000_.jpg",
+    "precoOriginal" : "1.279,00",
+    "precoPromocao" : "879,99",
+    "tag" : "-42%",
+    "percentualDesconto" : 42.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DTTM47F9?tag=curadomus-20",
+    "categoria" : "Computadores e Informática",
+    "categoriaId" : 161,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:03",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "899,99",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 115386,
     "titulo" : "Impressora multifuncional cor Epson EcoTank L3250",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_867179-MLA99966959445_112025-F.webp",
@@ -8975,6 +9350,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "146,54",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117863,
+    "titulo" : "Jardim de versos",
+    "imagem" : "https://m.media-amazon.com/images/I/71yH6MAEckL._SL1360_.jpg",
+    "precoOriginal" : "78,00",
+    "precoPromocao" : "52,36",
+    "tag" : "-32%",
+    "percentualDesconto" : 32.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/853227997X?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:10",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "52,36",
     "menorPrecoEmDias" : false
   }, {
     "id" : 115958,
@@ -9572,6 +9964,23 @@
     "precoAnterior" : "24,59",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117779,
+    "titulo" : "Johnson's Baby Sabonete Líquido Relaxante Hora do Sono, 400ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51ZGkcF+raL._AC_SL1000_.jpg",
+    "precoOriginal" : "44,99",
+    "precoPromocao" : "29,05",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHRS6RN?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:57",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "29,05",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 115436,
     "titulo" : "Johnson's Baby Shampoo Glicerina Para Bebê, 750ml",
     "imagem" : "https://m.media-amazon.com/images/I/41r01KSc5DL._AC_SL1000_.jpg",
@@ -9944,23 +10353,6 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "69,89",
-    "menorPrecoEmDias" : false
-  }, {
-    "id" : 115360,
-    "titulo" : "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_626928-MLB82004918446_022025-F-kit-4-camiseta-dry-fit-sandrini-masculina-academia-caminhada.webp",
-    "precoOriginal" : "135,41",
-    "precoPromocao" : "59,99",
-    "tag" : "-55%",
-    "percentualDesconto" : 55.0,
-    "linkAfiliado" : "https://meli.la/1Ez6yXK",
-    "categoria" : "Moda",
-    "categoriaId" : 5,
-    "ativo" : true,
-    "dataOferta" : "22/08/2026 08:28",
-    "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : "59,99",
     "menorPrecoEmDias" : false
   }, {
     "id" : 117334,
@@ -11355,6 +11747,23 @@
     "precoAnterior" : "95,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117802,
+    "titulo" : "Licor Frangelico 700ml",
+    "imagem" : "https://m.media-amazon.com/images/I/61eABXoPVkL._AC_SL1500_.jpg",
+    "precoOriginal" : "167,90",
+    "precoPromocao" : "101,54",
+    "tag" : "-39%",
+    "percentualDesconto" : 39.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B003XI0N4E?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:00",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "101,54",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 115717,
     "titulo" : "Licor Seco de Whisky Caramelo & Baunilha Ballantine's Sweet Blend Garrafa 700ml",
     "imagem" : "https://m.media-amazon.com/images/I/618s7QDlcQL._AC_SL1500_.jpg",
@@ -12114,6 +12523,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "4,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117899,
+    "titulo" : "Maionese Receita Caseira Hemmer 500g",
+    "imagem" : "https://m.media-amazon.com/images/I/51Cg3VTgnQL._AC_SL1200_.jpg",
+    "precoOriginal" : "15,26",
+    "precoPromocao" : "10,99",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08KHSSBQP?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:17",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "10,99",
     "menorPrecoEmDias" : false
   }, {
     "id" : 117564,
@@ -13050,6 +13476,23 @@
     "precoAnterior" : "18,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117771,
+    "titulo" : "Mustela Creme Preventivo de Assaduras Vitaminado 1-2-3 108g - Pomada Antiassaduras para Bebês com Tripla Ação - 98% de Ingredientes de Origem Natural - Proteção e Hidratação",
+    "imagem" : "https://m.media-amazon.com/images/I/51kbhWXRwpS._AC_SL1000_.jpg",
+    "precoOriginal" : "100,24",
+    "precoPromocao" : "71,91",
+    "tag" : "-28%",
+    "percentualDesconto" : 28.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B00TQCAAQW?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:55",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "71,91",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 115603,
     "titulo" : "Mustela Protetor Solar 200ml FPS 50+ Filtro Solar Rosto e Corpo Para Bebês, Crianças e Adultos - Alta Proteção Solar com Fórmula Hipoalergênica para Todos os Tipos de Pele",
     "imagem" : "https://m.media-amazon.com/images/I/51J-gBLPqvL._AC_SL1000_.jpg",
@@ -13477,6 +13920,23 @@
     "precoAnterior" : "22,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117774,
+    "titulo" : "NIVEA SUN Protetor Solar Facial Toque Seco Antissinais FPS 70 40ml - Com muito alta proteção contra raios UVA/UVB, controla o brilho e previne o envelhecimento precoce",
+    "imagem" : "https://m.media-amazon.com/images/I/613ze9ScETL._AC_SL1500_.jpg",
+    "precoOriginal" : "50,90",
+    "precoPromocao" : "38,34",
+    "tag" : "-24%",
+    "percentualDesconto" : 24.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BD6755LC?tag=curadomus-20",
+    "categoria" : "Beleza",
+    "categoriaId" : 33,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:56",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "38,34",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 117698,
     "titulo" : "NIVEA SUN Protetor Solar Facial UV Face Controle de Oleosidade FPS 60 50ml, Muito Alta Proteção UVA/UVB, Efeito Matte, Controle do Brilho, Cuidado Diário",
     "imagem" : "https://m.media-amazon.com/images/I/71Si-xvHdGL._AC_SL1500_.jpg",
@@ -13628,6 +14088,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "35,00",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117902,
+    "titulo" : "O batalhão das letras",
+    "imagem" : "https://m.media-amazon.com/images/I/910qi8luhnL._SL1500_.jpg",
+    "precoOriginal" : "72,90",
+    "precoPromocao" : "47,28",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067601?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:17",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "47,28",
     "menorPrecoEmDias" : false
   }, {
     "id" : 115740,
@@ -14105,6 +14582,23 @@
     "precoAnterior" : "52,11",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117809,
+    "titulo" : "O peso da glória",
+    "imagem" : "https://m.media-amazon.com/images/I/91VlF54YAlL._SL1500_.jpg",
+    "precoOriginal" : "59,90",
+    "precoPromocao" : "36,90",
+    "tag" : "-38%",
+    "percentualDesconto" : 38.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8578600657?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:01",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "36,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 115531,
     "titulo" : "O piquenique do Gildo",
     "imagem" : "https://m.media-amazon.com/images/I/71JpfphllsL._SL1500_.jpg",
@@ -14241,6 +14735,23 @@
     "precoAnterior" : "54,04",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117868,
+    "titulo" : "O segredo do anel e outros contos do bem-viver",
+    "imagem" : "https://m.media-amazon.com/images/I/81AC5cHl3CL._SL1500_.jpg",
+    "precoOriginal" : "78,50",
+    "precoPromocao" : "54,38",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8584190341?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:11",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "54,38",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 117582,
     "titulo" : "O Silmarillion",
     "imagem" : "https://m.media-amazon.com/images/I/81MoknVer8L._SL1500_.jpg",
@@ -14375,6 +14886,40 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "47,53",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117854,
+    "titulo" : "O urso corajoso",
+    "imagem" : "https://m.media-amazon.com/images/I/91sR7I3Z0VL._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "45,12",
+    "tag" : "-33%",
+    "percentualDesconto" : 33.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574125342?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:09",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "45,12",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117851,
+    "titulo" : "O urso rabugento",
+    "imagem" : "https://m.media-amazon.com/images/I/91QJI9iGjLL._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "53,38",
+    "tag" : "-21%",
+    "percentualDesconto" : 21.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574124729?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:08",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "53,36",
     "menorPrecoEmDias" : false
   }, {
     "id" : 115397,
@@ -14734,6 +15279,101 @@
     "precoAnterior" : "112,09",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117775,
+    "titulo" : "ORFEU Café em Grãos Intenso Torra Escura 1 kg",
+    "imagem" : "https://m.media-amazon.com/images/I/51NhdIkrmYL._AC_SL1000_.jpg",
+    "precoOriginal" : "169,90",
+    "precoPromocao" : "116,70",
+    "tag" : "-31%",
+    "percentualDesconto" : 31.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07HWWTY3K?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:56",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "119,96",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 30,
+    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
+    "historico" : [ {
+      "data" : "25/07/2026",
+      "preco" : 132.43
+    }, {
+      "data" : "26/07/2026",
+      "preco" : 132.43
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 132.43
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 132.43
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 141.99
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 141.99
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 132.43
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 141.99
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 129.9
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 129.9
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 129.9
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 129.9
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 129.9
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 130.05
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 130.06
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 136.5
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 135.86
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 125.57
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 125.57
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 125.57
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 124.86
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 122.15
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 128.18
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 119.96
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 116.7
+    } ]
+  }, {
     "id" : 115898,
     "titulo" : "Os charutos do Faraó",
     "imagem" : "https://m.media-amazon.com/images/I/91q53ZH-KYL._SL1500_.jpg",
@@ -14817,6 +15457,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "36,76",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117915,
+    "titulo" : "Os sinos",
+    "imagem" : "https://m.media-amazon.com/images/I/813JMW9gQBL._SL1044_.jpg",
+    "precoOriginal" : "71,90",
+    "precoPromocao" : "13,90",
+    "tag" : "-80%",
+    "percentualDesconto" : 80.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8526016849?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:19",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "13,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116713,
@@ -15092,6 +15749,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "46,97",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117853,
+    "titulo" : "Palavra sagrada poesia encantada",
+    "imagem" : "https://m.media-amazon.com/images/I/61TK65AdSeL._SL1000_.jpg",
+    "precoOriginal" : "52,90",
+    "precoPromocao" : "33,98",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8538301217?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:09",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "33,98",
     "menorPrecoEmDias" : false
   }, {
     "id" : 115979,
@@ -15507,6 +16181,23 @@
     "precoAnterior" : "18,14",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117860,
+    "titulo" : "Perigoso! Este livro contém coelhos!",
+    "imagem" : "https://m.media-amazon.com/images/I/71HsNbyBPBL._SL1200_.jpg",
+    "precoOriginal" : "39,90",
+    "precoPromocao" : "19,75",
+    "tag" : "-50%",
+    "percentualDesconto" : 50.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6526113427?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:10",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "19,75",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 117302,
     "titulo" : "PHEBO Refil Sabonete Líquido Tradicional Odor De Rosas 320Ml Phebo",
     "imagem" : "https://m.media-amazon.com/images/I/61b7pcY32OL._AC_SL1000_.jpg",
@@ -15522,6 +16213,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "17,90",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117840,
+    "titulo" : "Philco Secador de Cabelos Bivolt 2200W PSC2450 Íons Tourmaline Bivolt Tecnologia iónica e Botão de t Plástico Preto com Dourado",
+    "imagem" : "https://m.media-amazon.com/images/I/519GvFTMYjL._AC_SL1200_.jpg",
+    "precoOriginal" : "177,45",
+    "precoPromocao" : "119,00",
+    "tag" : "-32%",
+    "percentualDesconto" : 32.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0D9R7NYPG?tag=curadomus-20",
+    "categoria" : "Beleza",
+    "categoriaId" : 33,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:06",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "119,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116840,
@@ -15557,6 +16265,92 @@
     "loja" : "Amazon",
     "precoAnterior" : "165,00",
     "menorPrecoEmDias" : false
+  }, {
+    "id" : 117884,
+    "titulo" : "Philips Walita Liquidificador Daily 2L 550W, Preto, 110V",
+    "imagem" : "https://m.media-amazon.com/images/I/6176iz1U53S._AC_SL1500_.jpg",
+    "precoOriginal" : "159,90",
+    "precoPromocao" : "108,83",
+    "tag" : "-31%",
+    "percentualDesconto" : 31.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07RSYMHXP?tag=curadomus-20",
+    "categoria" : "Eletroportáteis",
+    "categoriaId" : 225,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:14",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "108,84",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 30,
+    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
+    "historico" : [ {
+      "data" : "25/07/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "26/07/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "28/07/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 108.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 108.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 108.96
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 108.92
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 108.88
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 108.84
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 108.83
+    } ]
   }, {
     "id" : 116891,
     "titulo" : "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
@@ -15659,6 +16453,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "79,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117910,
+    "titulo" : "Pilha Alcalina AAA com 8 unidades Elgin Palito",
+    "imagem" : "https://m.media-amazon.com/images/I/61yW9+kFVWL._AC_SL1000_.jpg",
+    "precoOriginal" : "22,05",
+    "precoPromocao" : "15,69",
+    "tag" : "-28%",
+    "percentualDesconto" : 28.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09MSQGXFR?tag=curadomus-20",
+    "categoria" : "Eletrônicos e Tecnologia",
+    "categoriaId" : 129,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:18",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "15,69",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116393,
@@ -15880,6 +16691,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "26,81",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117852,
+    "titulo" : "Poppy E Sam: Que Horas São?",
+    "imagem" : "https://m.media-amazon.com/images/I/710sSb6IKlL._SL1000_.jpg",
+    "precoOriginal" : "89,90",
+    "precoPromocao" : "60,81",
+    "tag" : "-32%",
+    "percentualDesconto" : 32.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/1474976301?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:08",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "60,81",
     "menorPrecoEmDias" : false
   }, {
     "id" : 115722,
@@ -16188,6 +17016,23 @@
     "precoAnterior" : "62,97",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117796,
+    "titulo" : "Protetor Solar Corpo e Rosto SUNDOWN® Praia e Piscina FPS 70, 200mL",
+    "imagem" : "https://m.media-amazon.com/images/I/61GTcuWNkJL._AC_SL1500_.jpg",
+    "precoOriginal" : "103,99",
+    "precoPromocao" : "58,98",
+    "tag" : "-43%",
+    "percentualDesconto" : 43.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07G3BVVZW?tag=curadomus-20",
+    "categoria" : "Beleza",
+    "categoriaId" : 33,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:59",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "58,98",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 117126,
     "titulo" : "Protex Baby Delicate Care Sabonete Líquido Infantil Refil, 380ml",
     "imagem" : "https://m.media-amazon.com/images/I/51xjZk9-YjL._AC_SL1200_.jpg",
@@ -16203,6 +17048,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "14,00",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117754,
+    "titulo" : "Protex Baby Glicerina Natural Sabonete Líquido Infantil, 400ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51Emb9S9hgL._AC_SL1200_.jpg",
+    "precoOriginal" : "34,17",
+    "precoPromocao" : "27,00",
+    "tag" : "-22%",
+    "percentualDesconto" : 22.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09ZLS7X53?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:53",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "27,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116785,
@@ -16356,6 +17218,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "25,00",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117917,
+    "titulo" : "Que bicho será?",
+    "imagem" : "https://m.media-amazon.com/images/I/81gSPVHuC7L._SL1500_.jpg",
+    "precoOriginal" : "49,00",
+    "precoPromocao" : "21,90",
+    "tag" : "-55%",
+    "percentualDesconto" : 55.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508181523?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:19",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "21,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116791,
@@ -16596,6 +17475,23 @@
     "precoAnterior" : "28,19",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117787,
+    "titulo" : "Sabonete Líquido Glicerina Camomila JOHNSON’S® Baby, 400mL",
+    "imagem" : "https://m.media-amazon.com/images/I/61Uo03QkQ6L._AC_SL1500_.jpg",
+    "precoOriginal" : "44,99",
+    "precoPromocao" : "32,79",
+    "tag" : "-27%",
+    "percentualDesconto" : 27.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:58",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "32,79",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 117638,
     "titulo" : "Sabonete Líquido Glicerina Da Cabeça Aos Pés Johnson's Baby, 400ml",
     "imagem" : "https://m.media-amazon.com/images/I/41CGJiuDeKL._AC_SL1000_.jpg",
@@ -16826,6 +17722,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "59,70",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117805,
+    "titulo" : "Salton Espumante Brut 750 Ml",
+    "imagem" : "https://m.media-amazon.com/images/I/71sxEoLxCiL._AC_SL1500_.jpg",
+    "precoOriginal" : "54,00",
+    "precoPromocao" : "40,99",
+    "tag" : "-24%",
+    "percentualDesconto" : 24.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B00RGKPDT0?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:01",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "40,99",
     "menorPrecoEmDias" : false
   }, {
     "id" : 117340,
@@ -17234,6 +18147,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "1.519,05",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117795,
+    "titulo" : "Snob Papel toalha multiuso folha dupla branca hiper 360fls, 3 rolos",
+    "imagem" : "https://m.media-amazon.com/images/I/71QqJWEdmOL._AC_SL1500_.jpg",
+    "precoOriginal" : "25,99",
+    "precoPromocao" : "16,99",
+    "tag" : "-34%",
+    "percentualDesconto" : 34.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CFSDVHFR?tag=curadomus-20",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 11:59",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "16,99",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116740,
@@ -17993,23 +18923,6 @@
     "precoAnterior" : "29,92",
     "menorPrecoEmDias" : false
   }, {
-    "id" : 115371,
-    "titulo" : "Torneira Gourmet Luxo Flexível Cozinha Parede 2 Jatos Pia Metal Cor Aço Inox e Preto- Marca Camperluz",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_746561-MLA111291534913_052026-F.webp",
-    "precoOriginal" : "59,97",
-    "precoPromocao" : "28,78",
-    "tag" : "-52%",
-    "percentualDesconto" : 52.0,
-    "linkAfiliado" : "https://meli.la/2knGBaB",
-    "categoria" : "Ferramentas e Materiais de Construção",
-    "categoriaId" : 98,
-    "ativo" : true,
-    "dataOferta" : "22/08/2026 09:02",
-    "destaque" : false,
-    "loja" : "Mercado Livre",
-    "precoAnterior" : "24,67",
-    "menorPrecoEmDias" : false
-  }, {
     "id" : 116434,
     "titulo" : "Torre de Empilhamento Gira Gira Brinquedo Pedagógico Colorido",
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-8261k-mjqx0akhtbeqb7",
@@ -18110,6 +19023,23 @@
     "destaque" : false,
     "loja" : "Mercado Livre",
     "precoAnterior" : "25,34",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117861,
+    "titulo" : "Três ursos",
+    "imagem" : "https://m.media-amazon.com/images/I/A1zEOADHeML._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "47,53",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574122122?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:10",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "47,53",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116283,
@@ -18792,6 +19722,23 @@
     "precoAnterior" : "56,25",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117903,
+    "titulo" : "Vodka Absolut - 1 Litro",
+    "imagem" : "https://m.media-amazon.com/images/I/613sQ8zlsuL._AC_SL1500_.jpg",
+    "precoOriginal" : "136,90",
+    "precoPromocao" : "78,90",
+    "tag" : "-42%",
+    "percentualDesconto" : 42.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B004V54ZVK?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:17",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "78,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 117206,
     "titulo" : "Vodka Absolut Vanilia - 750 ml",
     "imagem" : "https://m.media-amazon.com/images/I/61kRgGBakLL._AC_SL1500_.jpg",
@@ -19340,6 +20287,23 @@
     "precoAnterior" : "239,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 117891,
+    "titulo" : "Whisky Johnnie Walker Green Label 750ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51o-TPxHPiL._AC_SL1200_.jpg",
+    "precoOriginal" : "576,90",
+    "precoPromocao" : "429,99",
+    "tag" : "-25%",
+    "percentualDesconto" : 25.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07ZJWSKS9?tag=curadomus-20",
+    "categoria" : "Bebidas Alcoólicas",
+    "categoriaId" : 8,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:15",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "399,99",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 115776,
     "titulo" : "Whisky Johnnie Walker Red Label 1L",
     "imagem" : "https://m.media-amazon.com/images/I/51zNcnEgdFL._AC_SL1000_.jpg",
@@ -19440,6 +20404,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "65,07",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 117811,
+    "titulo" : "WOLFF - Garrafa Térmica de Plástico com Cabo de Madeira Nórdica 1L Branca - Mesa Posta - Itens Para Casa - Utensílios de Cozinha - Perfeita Para Café e Chá",
+    "imagem" : "https://m.media-amazon.com/images/I/41oYLWpphGL._AC_SL1500_.jpg",
+    "precoOriginal" : "91,60",
+    "precoPromocao" : "58,00",
+    "tag" : "-36%",
+    "percentualDesconto" : 36.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09CC39PR1?tag=curadomus-20",
+    "categoria" : "Cozinha",
+    "categoriaId" : 102,
+    "ativo" : true,
+    "dataOferta" : "23/08/2026 12:02",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "58,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 116980,
