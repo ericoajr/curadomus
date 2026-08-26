@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "26/08/2026 11:11",
+  "ultimaAtualizacao" : "26/08/2026 11:43",
   "ofertas" : [ {
     "id" : 120913,
     "titulo" : "+Mu Chocowheyfer Proteico Caixa Mista - Display 12 unidades",
@@ -4342,6 +4342,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "39,98",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 123633,
+    "titulo" : "Calça Mom Jeans Feminina Cintura Alta Marmorizada",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_799787-MLB85664619217_062025-F-calca-mom-jeans-feminina-cintura-alta-marmorizada.webp",
+    "precoOriginal" : "99,99",
+    "precoPromocao" : "59,99",
+    "tag" : "-40%",
+    "percentualDesconto" : 40.0,
+    "linkAfiliado" : "https://meli.la/14Z9Rbw",
+    "categoria" : "Moda",
+    "categoriaId" : 5,
+    "ativo" : true,
+    "dataOferta" : "26/08/2026 11:14",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "42,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 121856,
@@ -14276,6 +14293,56 @@
     "precoAnterior" : "42,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 123642,
+    "titulo" : "Macacão Bebê Kit Com 2 Unidades Confortáveis",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_836741-MLB109920867631_042026-F-macacao-bebe-kit-com-2-unidades-confortaveis.webp",
+    "precoOriginal" : "78,90",
+    "precoPromocao" : "59,80",
+    "tag" : "-24%",
+    "percentualDesconto" : 24.0,
+    "linkAfiliado" : "https://meli.la/2t4gsdR",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "26/08/2026 11:43",
+    "destaque" : true,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "67,85",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 30,
+    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
+    "historico" : [ {
+      "data" : "27/07/2026",
+      "preco" : 67.61
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 67.85
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 67.85
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 67.85
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 67.85
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 67.85
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 67.85
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 67.85
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 67.85
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 59.8
+    } ]
+  }, {
     "id" : 121063,
     "titulo" : "Macacão Bebê Suspensório Menino Nika Baby",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_757284-MLB111040060643_042026-F-macacao-bebe-suspensorio-menino-nika-baby.webp",
@@ -15405,6 +15472,23 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "218,87",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 123635,
+    "titulo" : "Máquina De Costura Elgin Jx-4035 Genius Plus 31 Pontos Cor Branco",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_841781-MLA99935859263_112025-F.webp",
+    "precoOriginal" : "949,00",
+    "precoPromocao" : "589,00",
+    "tag" : "-37%",
+    "percentualDesconto" : 37.0,
+    "linkAfiliado" : "https://meli.la/1LNQiLT",
+    "categoria" : "Eletrodomésticos",
+    "categoriaId" : 101,
+    "ativo" : true,
+    "dataOferta" : "26/08/2026 11:21",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "589,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 122028,
@@ -20151,6 +20235,23 @@
       "preco" : 48.93
     } ]
   }, {
+    "id" : 123636,
+    "titulo" : "Secador de Cabelos Mondial Preto 2000W SCN-01",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_931087-MLA100025900529_122025-F.webp",
+    "precoOriginal" : "172,90",
+    "precoPromocao" : "102,88",
+    "tag" : "-40%",
+    "percentualDesconto" : 40.0,
+    "linkAfiliado" : "https://meli.la/2VmaWyF",
+    "categoria" : "Beleza",
+    "categoriaId" : 33,
+    "ativo" : true,
+    "dataOferta" : "26/08/2026 11:24",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "105,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 121814,
     "titulo" : "Secador De Sapato Inteligente Dobrável Tênis Elimina Umidade Mal Cheiro E Odor 110V / 220V",
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-823qs-mohgjj08s4y1cc",
@@ -21735,6 +21836,23 @@
     "precoAnterior" : "49,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 123634,
+    "titulo" : "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_632789-MLB116693864997_082026-F-tnis-casual-kappa-zenit-masculino-unissex-conforto.webp",
+    "precoOriginal" : "229,99",
+    "precoPromocao" : "89,89",
+    "tag" : "-60%",
+    "percentualDesconto" : 60.0,
+    "linkAfiliado" : "https://meli.la/1F9udbd",
+    "categoria" : "Calçados",
+    "categoriaId" : 10,
+    "ativo" : true,
+    "dataOferta" : "26/08/2026 11:18",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "98,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 121410,
     "titulo" : "Tênis De Corrida Flying 2 Com Sola Macia E Placa De Carbono , Tamanhos 34-44 .",
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-81zwe-mij1sfy7jjeu9c",
@@ -21852,6 +21970,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "251,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 123638,
+    "titulo" : "Tênis Nike Journey Run Masculino",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_992622-MLB100379760320_122025-F-tnis-nike-journey-run-masculino.webp",
+    "precoOriginal" : "799,99",
+    "precoPromocao" : "469,99",
+    "tag" : "-41%",
+    "percentualDesconto" : 41.0,
+    "linkAfiliado" : "https://meli.la/1ZYK82J",
+    "categoria" : "Calçados",
+    "categoriaId" : 10,
+    "ativo" : true,
+    "dataOferta" : "26/08/2026 11:30",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "469,99",
     "menorPrecoEmDias" : false
   }, {
     "id" : 123226,
