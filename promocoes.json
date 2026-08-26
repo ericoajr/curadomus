@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "25/08/2026 20:03",
+  "ultimaAtualizacao" : "25/08/2026 20:11",
   "ofertas" : [ {
     "id" : 120913,
     "titulo" : "+Mu Chocowheyfer Proteico Caixa Mista - Display 12 unidades",
@@ -1236,6 +1236,23 @@
     "precoAnterior" : "30,25",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 123192,
+    "titulo" : "Anatomicum",
+    "imagem" : "https://m.media-amazon.com/images/I/71lnfIPpuoL._SL1200_.jpg",
+    "precoOriginal" : "99,90",
+    "precoPromocao" : "59,90",
+    "tag" : "-40%",
+    "percentualDesconto" : 40.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6526126103?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "25/08/2026 20:11",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "59,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 120994,
     "titulo" : "Aniversário da vaca Mimosa: 0",
     "imagem" : "https://m.media-amazon.com/images/I/A1iIS5-teFL._SL1500_.jpg",
@@ -1354,6 +1371,59 @@
     "loja" : "Amazon",
     "precoAnterior" : "18,05",
     "menorPrecoEmDias" : false
+  }, {
+    "id" : 123167,
+    "titulo" : "Aquecedor A Ar, Mondial, Cinza/Branco, 2000W, 220V - A-08",
+    "imagem" : "https://m.media-amazon.com/images/I/61Af2D6mMzL._AC_SL1000_.jpg",
+    "precoOriginal" : "169,90",
+    "precoPromocao" : "89,90",
+    "tag" : "-47%",
+    "percentualDesconto" : 47.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B076CF5DFL?tag=curadomus-20",
+    "categoria" : "Ferramentas e Materiais de Construção",
+    "categoriaId" : 98,
+    "ativo" : true,
+    "dataOferta" : "25/08/2026 20:07",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "99,00",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 15,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "11/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 99.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 89.9
+    } ]
   }, {
     "id" : 121677,
     "titulo" : "Aquecedor De Mamadeira Portátil Usb Sem Fio Recarregável",
@@ -2273,9 +2343,6 @@
     "menorPrecoDias" : 30,
     "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
     "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 56.89
-    }, {
       "data" : "28/07/2026",
       "preco" : 61.2
     }, {
@@ -6520,6 +6587,23 @@
     "precoAnterior" : "16,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 123188,
+    "titulo" : "Dolce Gusto Nescafé Café Em Cápsula Dolcegusto Alpino Tradicional 10 Unidades 178G",
+    "imagem" : "https://m.media-amazon.com/images/I/61nVkdB6tqL._AC_SL1000_.jpg",
+    "precoOriginal" : "26,39",
+    "precoPromocao" : "19,90",
+    "tag" : "-24%",
+    "percentualDesconto" : 24.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CJ9YJYHR?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "25/08/2026 20:10",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "19,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 121527,
     "titulo" : "Dom Quixote",
     "imagem" : "https://m.media-amazon.com/images/I/71PtUNDep9L._SL1500_.jpg",
@@ -6776,9 +6860,6 @@
     "menorPrecoDias" : 30,
     "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
     "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 47.3
-    }, {
       "data" : "28/07/2026",
       "preco" : 47.3
     }, {
@@ -6875,6 +6956,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "34,30",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 123158,
+    "titulo" : "Electrolux Air Fryer Forno 5 x 1 12L 1700W Digital Espeto Giratório 2 Bandejas Antiaderentes 10 funções 7 Receitas aviso sonoro Fritadeira Elétrica sem Óleo Forno Bancada EAF90 Grafite 127V",
+    "imagem" : "https://m.media-amazon.com/images/I/5183mlQX54L._AC_SL1000_.jpg",
+    "precoOriginal" : "1.299,00",
+    "precoPromocao" : "749,00",
+    "tag" : "-42%",
+    "percentualDesconto" : 42.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BYK9KP3W?tag=curadomus-20",
+    "categoria" : "Eletroportáteis",
+    "categoriaId" : 225,
+    "ativo" : true,
+    "dataOferta" : "25/08/2026 20:05",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "749,00",
     "menorPrecoEmDias" : false
   }, {
     "id" : 122325,
@@ -10316,6 +10414,23 @@
     "precoAnterior" : "52,36",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 123163,
+    "titulo" : "JBL, Caixa de Som, Boombox 4, Bluetooth, Som Pro, AI Sound Boost, Graves Personalizáveis, Bateria de até 34H, IP68, Áudio Lossless Preta",
+    "imagem" : "https://m.media-amazon.com/images/I/61L44zANCCL._AC_SL1000_.jpg",
+    "precoOriginal" : "3.199,00",
+    "precoPromocao" : "2.438,49",
+    "tag" : "-23%",
+    "percentualDesconto" : 23.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0H127L18H?tag=curadomus-20",
+    "categoria" : "Eletrônicos e Tecnologia",
+    "categoriaId" : 129,
+    "ativo" : true,
+    "dataOferta" : "25/08/2026 20:06",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "2.438,49",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 121606,
     "titulo" : "Jim Beam Whisky Honey Bourbon 1L",
     "imagem" : "https://m.media-amazon.com/images/I/71DP7pMQG8L._AC_SL1500_.jpg",
@@ -12405,6 +12520,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "19,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 123162,
+    "titulo" : "L'OR, Café Solúvel Classique Pote de Vidro 130g",
+    "imagem" : "https://m.media-amazon.com/images/I/61rDxgi3prL._AC_SL1500_.jpg",
+    "precoOriginal" : "39,65",
+    "precoPromocao" : "25,18",
+    "tag" : "-36%",
+    "percentualDesconto" : 36.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0C4M2SYF8?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "25/08/2026 20:06",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "31,90",
     "menorPrecoEmDias" : false
   }, {
     "id" : 122108,
@@ -17214,6 +17346,23 @@
     "precoAnterior" : "26,80",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 123154,
+    "titulo" : "Percarbonato De Sódio Tira Mancha 100% Poder O2 Calisul 3 Kg",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_882295-MLB90543952460_082025-F-percarbonato-de-sodio-tira-mancha-100-poder-o2-calisul-3-kg.webp",
+    "precoOriginal" : "78,00",
+    "precoPromocao" : "59,42",
+    "tag" : "-23%",
+    "percentualDesconto" : 23.0,
+    "linkAfiliado" : "https://meli.la/1MfHAEc",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "ativo" : true,
+    "dataOferta" : "25/08/2026 20:04",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "59,42",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 121545,
     "titulo" : "Perdidos no mar",
     "imagem" : "https://m.media-amazon.com/images/I/91ekenbwPwS._SL1500_.jpg",
@@ -17966,6 +18115,23 @@
     "precoAnterior" : "9,68",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 123171,
+    "titulo" : "Processador Triturador Moedor De Alimentos Manual Alho 500ml",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_960678-MLB109373422399_032026-F-processador-triturador-moedor-de-alimentos-manual-alho-500ml.webp",
+    "precoOriginal" : "36,43",
+    "precoPromocao" : "15,20",
+    "tag" : "-58%",
+    "percentualDesconto" : 58.0,
+    "linkAfiliado" : "https://meli.la/2BV4pkR",
+    "categoria" : "Cozinha",
+    "categoriaId" : 102,
+    "ativo" : true,
+    "dataOferta" : "25/08/2026 20:07",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "15,20",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 123074,
     "titulo" : "Processador Walita Preto 1000w - Hr7304/92 Preto",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_808861-MLA107744383504_032026-F.webp",
@@ -18410,9 +18576,6 @@
     "menorPrecoDias" : 30,
     "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
     "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 16.79
-    }, {
       "data" : "28/07/2026",
       "preco" : 17.29
     }, {
@@ -18918,6 +19081,23 @@
     "precoAnterior" : "27,40",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 123187,
+    "titulo" : "Scanner Automotivo Bluetooth Obd2 Eml 327 Android Ios Obdii",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_886444-MLB95702648919_102025-F-scanner-automotivo-bluetooth-obd2-eml-327-android-ios-obdii.webp",
+    "precoOriginal" : "47,97",
+    "precoPromocao" : "16,72",
+    "tag" : "-65%",
+    "percentualDesconto" : 65.0,
+    "linkAfiliado" : "https://meli.la/1hjcYwm",
+    "categoria" : "Automotivo",
+    "categoriaId" : 65,
+    "ativo" : true,
+    "dataOferta" : "25/08/2026 20:10",
+    "destaque" : false,
+    "loja" : "Mercado Livre",
+    "precoAnterior" : "16,72",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 120678,
     "titulo" : "Secador de Cabelos Mondial Preto 2000W SCN-01",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_931087-MLA100025900529_122025-F.webp",
@@ -19106,9 +19286,6 @@
     "menorPrecoDias" : 30,
     "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
     "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 54.0
-    }, {
       "data" : "28/07/2026",
       "preco" : 49.9
     }, {
