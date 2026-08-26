@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "26/08/2026 08:24",
+  "ultimaAtualizacao" : "26/08/2026 09:43",
   "ofertas" : [ {
     "id" : 120913,
     "titulo" : "+Mu Chocowheyfer Proteico Caixa Mista - Display 12 unidades",
@@ -2112,9 +2112,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "11/08/2026",
-      "preco" : 34.97
-    }, {
       "data" : "12/08/2026",
       "preco" : 34.97
     }, {
@@ -10549,9 +10546,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "11/08/2026",
-      "preco" : 24.96
-    }, {
       "data" : "12/08/2026",
       "preco" : 24.92
     }, {
@@ -11268,9 +11262,6 @@
     "menorPrecoDias" : 15,
     "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
-      "data" : "11/08/2026",
-      "preco" : 13.8
-    }, {
       "data" : "12/08/2026",
       "preco" : 13.8
     }, {
@@ -18191,6 +18182,22 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "19,29",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 123627,
+    "titulo" : "Percarbonato de Sódio 1kg 100% Puro Tira Manchas em Pó Alvejante Biodegradável para Roupas Brancas Coloridas e Limpeza Doméstica",
+    "imagem" : "https://m.media-amazon.com/images/I/61z6KBYF8ZL._AC_SL1254_.jpg",
+    "precoOriginal" : "29,90",
+    "precoPromocao" : "19,90",
+    "tag" : "-33%",
+    "percentualDesconto" : 33.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0GZHTM4SM?tag=curadomus-20",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "ativo" : true,
+    "dataOferta" : "26/08/2026 09:43",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 121706,
