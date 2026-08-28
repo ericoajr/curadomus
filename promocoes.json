@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "28/08/2026 13:00",
+  "ultimaAtualizacao" : "28/08/2026 13:31",
   "ofertas" : [ {
     "id" : 126487,
     "titulo" : "05 Potes de Vidro Hermético Transparente Tampa Bambu Porta Alimentos",
@@ -188,6 +188,22 @@
     "categoriaId" : 2,
     "ativo" : true,
     "dataOferta" : "28/08/2026 09:41",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128238,
+    "titulo" : "3 Corações Cápsula de Cappuccino Napolitano TRES - 10 unid",
+    "imagem" : "https://m.media-amazon.com/images/I/6125SOWqg-L._AC_SL1200_.jpg",
+    "precoOriginal" : "24,69",
+    "precoPromocao" : "17,49",
+    "tag" : "-29%",
+    "percentualDesconto" : 29.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DDQNKR4C?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:29",
     "destaque" : false,
     "loja" : "Amazon",
     "menorPrecoEmDias" : false
@@ -474,6 +490,23 @@
       "data" : "27/08/2026",
       "preco" : 66.12
     } ]
+  }, {
+    "id" : 128220,
+    "titulo" : "A Irmã do Gildo",
+    "imagem" : "https://m.media-amazon.com/images/I/81KQlEZDn6L._SL1500_.jpg",
+    "precoOriginal" : "62,90",
+    "precoPromocao" : "34,45",
+    "tag" : "-45%",
+    "percentualDesconto" : 45.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574126233?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:26",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "34,45",
+    "menorPrecoEmDias" : false
   }, {
     "id" : 126729,
     "titulo" : "A lua cheia na casa sonolenta",
@@ -1086,6 +1119,23 @@
     "precoAnterior" : "49,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128197,
+    "titulo" : "As Crônicas de Nárnia - Coleção de Luxo: O Leão, a Feiticeira e o Guarda-roupa",
+    "imagem" : "https://m.media-amazon.com/images/I/71aJZfkkKaL._SL1334_.jpg",
+    "precoOriginal" : "64,90",
+    "precoPromocao" : "43,14",
+    "tag" : "-33%",
+    "percentualDesconto" : 33.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6555114746?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:23",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "42,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 127145,
     "titulo" : "As jóias da Castafiore",
     "imagem" : "https://m.media-amazon.com/images/I/91QLmq3IEEL._SL1500_.jpg",
@@ -1170,6 +1220,74 @@
     "loja" : "Shopee",
     "precoAnterior" : "409,99",
     "menorPrecoEmDias" : false
+  }, {
+    "id" : 128209,
+    "titulo" : "Atchim!",
+    "imagem" : "https://m.media-amazon.com/images/I/817KYlR5I4L._SL1500_.jpg",
+    "precoOriginal" : "49,00",
+    "precoPromocao" : "24,50",
+    "tag" : "-50%",
+    "percentualDesconto" : 50.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508040261?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:25",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "42,00",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 30,
+    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
+    "historico" : [ {
+      "data" : "30/07/2026"
+    }, {
+      "data" : "31/07/2026"
+    }, {
+      "data" : "01/08/2026"
+    }, {
+      "data" : "02/08/2026"
+    }, {
+      "data" : "04/08/2026"
+    }, {
+      "data" : "05/08/2026"
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 34.65
+    }, {
+      "data" : "08/08/2026"
+    }, {
+      "data" : "09/08/2026"
+    }, {
+      "data" : "10/08/2026"
+    }, {
+      "data" : "11/08/2026"
+    }, {
+      "data" : "14/08/2026"
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "16/08/2026"
+    }, {
+      "data" : "17/08/2026"
+    }, {
+      "data" : "19/08/2026"
+    }, {
+      "data" : "20/08/2026"
+    }, {
+      "data" : "21/08/2026"
+    }, {
+      "data" : "23/08/2026"
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 24.5
+    } ]
   }, {
     "id" : 126294,
     "titulo" : "Atlas - Civilizações antigas",
@@ -1509,6 +1627,23 @@
     "precoAnterior" : "293,54",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128240,
+    "titulo" : "Batedeira Planetária, Mondial, Preto, 700W, 110V - BP-03-B",
+    "imagem" : "https://m.media-amazon.com/images/I/511jk8D3duS._AC_SL1000_.jpg",
+    "precoOriginal" : "469,90",
+    "precoPromocao" : "275,53",
+    "tag" : "-41%",
+    "percentualDesconto" : 41.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07WGHXCJX?tag=curadomus-20",
+    "categoria" : "Eletroportáteis",
+    "categoriaId" : 225,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:29",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "275,53",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 127988,
     "titulo" : "Batedeira Planetária, Mondial, Preto, 700W, 220V - BP-03-B",
     "imagem" : "https://m.media-amazon.com/images/I/511jk8D3duS._AC_SL1000_.jpg",
@@ -1591,6 +1726,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "16,50",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128198,
+    "titulo" : "Bichodário",
+    "imagem" : "https://m.media-amazon.com/images/I/911Smew2DlL._SL1500_.jpg",
+    "precoOriginal" : "77,00",
+    "precoPromocao" : "34,99",
+    "tag" : "-54%",
+    "percentualDesconto" : 54.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8596007555?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:23",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "34,99",
     "menorPrecoEmDias" : false
   }, {
     "id" : 127378,
@@ -3852,6 +4004,22 @@
     "precoAnterior" : "35,05",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128190,
+    "titulo" : "Cartas do Papai Noel",
+    "imagem" : "https://m.media-amazon.com/images/I/81VLph3AxFL._SL1500_.jpg",
+    "precoOriginal" : "94,90",
+    "precoPromocao" : "62,46",
+    "tag" : "-34%",
+    "percentualDesconto" : 34.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8595085676?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:21",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 126569,
     "titulo" : "Casaco Cacharrel Teddy Blusa De Pelinho Inverno Peludo Sherpa Frio",
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820mb-mlxk2d6tkjd201",
@@ -4327,6 +4495,23 @@
     "precoAnterior" : "59,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128195,
+    "titulo" : "Coleção Anne de Green Gables com 8 livros mais Diário de aventuras",
+    "imagem" : "https://m.media-amazon.com/images/I/71sTkbq6KoL._SL1038_.jpg",
+    "precoOriginal" : "179,90",
+    "precoPromocao" : "66,48",
+    "tag" : "-63%",
+    "percentualDesconto" : 63.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08N9P9M5L?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:23",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "102,94",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 128093,
     "titulo" : "Colgate Luminous White Carvão Ativado Creme Dental Clareador, 4x70g",
     "imagem" : "https://m.media-amazon.com/images/I/8193hRZ3ttL._AC_SL1500_.jpg",
@@ -4510,6 +4695,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "32,79",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128235,
+    "titulo" : "Confissões de Santo Agostinho - Edição de Luxo Almofadada",
+    "imagem" : "https://m.media-amazon.com/images/I/91mYAMQ785L._SL1500_.jpg",
+    "precoOriginal" : "89,90",
+    "precoPromocao" : "51,90",
+    "tag" : "-42%",
+    "percentualDesconto" : 42.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6584956393?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:29",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "52,41",
     "menorPrecoEmDias" : false
   }, {
     "id" : 127440,
@@ -5112,6 +5314,22 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "40,05",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128185,
+    "titulo" : "Cristianismo puro e simples",
+    "imagem" : "https://m.media-amazon.com/images/I/91WAGXw7Y4L._SL1500_.jpg",
+    "precoOriginal" : "64,90",
+    "precoPromocao" : "35,05",
+    "tag" : "-45%",
+    "percentualDesconto" : 45.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8578601777?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:20",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 126480,
@@ -5845,6 +6063,22 @@
     "precoAnterior" : "56,99",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128217,
+    "titulo" : "Estamos em um livro! (Nova edição)",
+    "imagem" : "https://m.media-amazon.com/images/I/71BnSTuijdL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "41,94",
+    "tag" : "-40%",
+    "percentualDesconto" : 40.0,
+    "linkAfiliado" : "https://amzn.to/3QcFsrh",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:26",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 126987,
     "titulo" : "Estrelas e planetas",
     "imagem" : "https://m.media-amazon.com/images/I/911YBrZV20L._SL1500_.jpg",
@@ -6013,6 +6247,22 @@
     "destaque" : false,
     "loja" : "Shopee",
     "precoAnterior" : "299,00",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128187,
+    "titulo" : "Ferreiro do Bosque Maior",
+    "imagem" : "https://m.media-amazon.com/images/I/A1cABUC-21L._SL1500_.jpg",
+    "precoOriginal" : "59,90",
+    "precoPromocao" : "38,28",
+    "tag" : "-36%",
+    "percentualDesconto" : 36.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6555111291?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:21",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 127564,
@@ -6764,6 +7014,23 @@
     "precoAnterior" : "93,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128237,
+    "titulo" : "G-Tech Termômetro Infravermelho Ultracompacto De Testa Go",
+    "imagem" : "https://m.media-amazon.com/images/I/51E7Jwxi+SL._AC_SL1200_.jpg",
+    "precoOriginal" : "102,35",
+    "precoPromocao" : "46,99",
+    "tag" : "-54%",
+    "percentualDesconto" : 54.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08QDZHNQ2?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:29",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "46,99",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 127620,
     "titulo" : "G-Tech Umidificador Ultrassônico Modelo Allergy Free Hm 3L",
     "imagem" : "https://m.media-amazon.com/images/I/41dRwQGYZPL._AC_SL1000_.jpg",
@@ -7117,6 +7384,23 @@
     "precoAnterior" : "24,64",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128201,
+    "titulo" : "Granado Colônia Bebê, Tradicional, 100ml",
+    "imagem" : "https://m.media-amazon.com/images/I/51mnExslh6L._AC_SL1000_.jpg",
+    "precoOriginal" : "99,68",
+    "precoPromocao" : "62,91",
+    "tag" : "-36%",
+    "percentualDesconto" : 36.0,
+    "linkAfiliado" : "https://amzn.to/43VKOKF",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:23",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "69,90",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 127751,
     "titulo" : "Granado Creme Assaduras Dermocalmante Bebê, Peles Sensíveis, 50g",
     "imagem" : "https://m.media-amazon.com/images/I/41s7xphmGhL._AC_SL1000_.jpg",
@@ -7266,6 +7550,22 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "30,00",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128191,
+    "titulo" : "Guilherme Augusto Araújo Fernandes",
+    "imagem" : "https://m.media-amazon.com/images/I/91UDvGeGBkL._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "43,90",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8585357479?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:22",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 127798,
@@ -8058,6 +8358,23 @@
     "precoAnterior" : "29,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128225,
+    "titulo" : "Jogo de Cama 100% Algodão Solteiro Estampado Patrulha Canina Menino 1,40 m x 2,10 m Com 3 peças",
+    "imagem" : "https://m.media-amazon.com/images/I/61zstvURrnL._AC_SL1214_.jpg",
+    "precoOriginal" : "179,43",
+    "precoPromocao" : "113,77",
+    "tag" : "-36%",
+    "percentualDesconto" : 36.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CPQ48KMZ?tag=curadomus-20",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:27",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "113,77",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 126548,
     "titulo" : "Jogo De Frigideira Rotoprint Antiaderente 3 Peças",
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7reqe-m8hum901ty1z01",
@@ -8474,6 +8791,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "15,44",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128226,
+    "titulo" : "Jogo Pinguim Numa Fria Jogo Quebra Gelo Derrubando o Pinguim Divertido",
+    "imagem" : "https://m.media-amazon.com/images/I/61ca3mWyMyL._AC_SL1000_.jpg",
+    "precoOriginal" : "39,90",
+    "precoPromocao" : "22,15",
+    "tag" : "-44%",
+    "percentualDesconto" : 44.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08HZ9ZLSJ?tag=curadomus-20",
+    "categoria" : "Brinquedos e Jogos",
+    "categoriaId" : 6,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:27",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "22,15",
     "menorPrecoEmDias" : false
   }, {
     "id" : 127299,
@@ -10384,6 +10718,22 @@
     "precoAnterior" : "28,50",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128223,
+    "titulo" : "Macaco danado",
+    "imagem" : "https://m.media-amazon.com/images/I/A1wXsb+3VpL._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "37,55",
+    "tag" : "-44%",
+    "percentualDesconto" : 44.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574120472?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:27",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 126470,
     "titulo" : "Macacão Bebê Kit Com 2 Unidades Confortáveis",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_836741-MLB109920867631_042026-F-macacao-bebe-kit-com-2-unidades-confortaveis.webp",
@@ -10518,6 +10868,39 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "62,50",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128184,
+    "titulo" : "Matilda (Edição Especial)",
+    "imagem" : "https://m.media-amazon.com/images/I/71gD11TbWBL._SL1500_.jpg",
+    "precoOriginal" : "59,90",
+    "precoPromocao" : "39,77",
+    "tag" : "-33%",
+    "percentualDesconto" : 33.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6584824020?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:20",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "39,77",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128189,
+    "titulo" : "Mestre Giles d'Aldeia",
+    "imagem" : "https://m.media-amazon.com/images/I/91CXKeai-JL._SL1500_.jpg",
+    "precoOriginal" : "54,90",
+    "precoPromocao" : "31,19",
+    "tag" : "-43%",
+    "percentualDesconto" : 43.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6555111259?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:21",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 126768,
@@ -12148,6 +12531,22 @@
     "precoAnterior" : "83,60",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128192,
+    "titulo" : "O jumentinho que carregou um rei",
+    "imagem" : "https://m.media-amazon.com/images/I/91LaKU75XhL._SL1500_.jpg",
+    "precoOriginal" : "140,00",
+    "precoPromocao" : "71,25",
+    "tag" : "-49%",
+    "percentualDesconto" : 49.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8581323944?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:22",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 127134,
     "titulo" : "O Livro Da Selva",
     "imagem" : "https://m.media-amazon.com/images/I/91Y22uwbYQL._SL1500_.jpg",
@@ -12232,6 +12631,23 @@
     "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128194,
+    "titulo" : "O macaco e a mola",
+    "imagem" : "https://m.media-amazon.com/images/I/71v5lZMpKcL._SL1395_.jpg",
+    "precoOriginal" : "58,00",
+    "precoPromocao" : "43,17",
+    "tag" : "-25%",
+    "percentualDesconto" : 25.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508113358?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:22",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "43,17",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 126720,
     "titulo" : "O menino e o muro",
     "imagem" : "https://m.media-amazon.com/images/I/91iTuClvyEL._SL1500_.jpg",
@@ -12247,6 +12663,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "37,52",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128207,
+    "titulo" : "O mistério da lua",
+    "imagem" : "https://m.media-amazon.com/images/I/51bVzIpFHaL._SL1200_.jpg",
+    "precoOriginal" : "58,00",
+    "precoPromocao" : "29,80",
+    "tag" : "-48%",
+    "percentualDesconto" : 48.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508111312?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:25",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "29,80",
     "menorPrecoEmDias" : false
   }, {
     "id" : 127130,
@@ -12401,6 +12834,23 @@
     "precoAnterior" : "47,00",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128208,
+    "titulo" : "O rabo do gato",
+    "imagem" : "https://m.media-amazon.com/images/I/81jPRjUgkwL._SL1500_.jpg",
+    "precoOriginal" : "84,00",
+    "precoPromocao" : "42,00",
+    "tag" : "-50%",
+    "percentualDesconto" : 50.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508172796?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:25",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "42,00",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 126794,
     "titulo" : "O ratinho, o morango vermelho maduro e o grande urso esfomeado",
     "imagem" : "https://m.media-amazon.com/images/I/A1jBQ8onjaL._SL1500_.jpg",
@@ -12484,6 +12934,22 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "230,00",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128180,
+    "titulo" : "O Silmarillion",
+    "imagem" : "https://m.media-amazon.com/images/I/81MoknVer8L._SL1500_.jpg",
+    "precoOriginal" : "74,90",
+    "precoPromocao" : "48,64",
+    "tag" : "-35%",
+    "percentualDesconto" : 35.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8595084378?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:19",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 126713,
@@ -12720,6 +13186,22 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "88,75",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128243,
+    "titulo" : "OFF! Baby Gel Repelente Infantil de Insetos e Mosquitos, 117g",
+    "imagem" : "https://m.media-amazon.com/images/I/518G7TKbuKL._AC_SL1200_.jpg",
+    "precoOriginal" : "36,90",
+    "precoPromocao" : "24,78",
+    "tag" : "-32%",
+    "percentualDesconto" : 32.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08BWYTR6F?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:30",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 127929,
@@ -13483,6 +13965,59 @@
     "precoAnterior" : "19,00",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128248,
+    "titulo" : "Papa Bolinhas Portátil, para Remoção de Bolinhas das Roupas, CST0146, Flash Limp - ABS Verde Agua",
+    "imagem" : "https://m.media-amazon.com/images/I/41-K3fX2ksL._AC_SL1000_.jpg",
+    "precoOriginal" : "44,98",
+    "precoPromocao" : "27,28",
+    "tag" : "-39%",
+    "percentualDesconto" : 39.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07NQ8DTKQ?tag=curadomus-20",
+    "categoria" : "Saúde e Bem-Estar",
+    "categoriaId" : 97,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:31",
+    "destaque" : true,
+    "loja" : "Amazon",
+    "precoAnterior" : "29,88",
+    "menorPrecoEmDias" : true,
+    "menorPrecoDias" : 15,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "14/08/2026",
+      "preco" : 32.71
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 32.71
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 32.71
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 31.48
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 31.97
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 31.97
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 30.78
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 27.69
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 29.68
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 29.88
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 27.28
+    } ]
+  }, {
     "id" : 126724,
     "titulo" : "Passeio na fazenda",
     "imagem" : "https://m.media-amazon.com/images/I/81fJ42l5QTL._SL1500_.jpg",
@@ -14172,6 +14707,23 @@
     "precoAnterior" : "29,90",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128216,
+    "titulo" : "Posso brincar também? (Nova edição)",
+    "imagem" : "https://m.media-amazon.com/images/I/71kvgNp0FcL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "47,11",
+    "tag" : "-32%",
+    "percentualDesconto" : 32.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574069760?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:26",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "46,00",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 126335,
     "titulo" : "Prendedor de Roupas Classic 12 Peças, Lav6889,flash Limp,",
     "imagem" : "https://m.media-amazon.com/images/I/71qsMGqzurL._AC_SL1500_.jpg",
@@ -14676,6 +15228,23 @@
     "precoAnterior" : "55,34",
     "menorPrecoEmDias" : false
   }, {
+    "id" : 128188,
+    "titulo" : "Roverando",
+    "imagem" : "https://m.media-amazon.com/images/I/911vrVC5s3L._SL1500_.jpg",
+    "precoOriginal" : "54,90",
+    "precoPromocao" : "36,60",
+    "tag" : "-33%",
+    "percentualDesconto" : 33.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6555110937?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:21",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "36,60",
+    "menorPrecoEmDias" : false
+  }, {
     "id" : 126323,
     "titulo" : "Rumo à lua",
     "imagem" : "https://m.media-amazon.com/images/I/91E4TXOmtMS._SL1500_.jpg",
@@ -14795,6 +15364,22 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "33,99",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128241,
+    "titulo" : "Sabonete Líquido Glicerina Da Cabeça Aos Pés Johnson's Baby, 400ml",
+    "imagem" : "https://m.media-amazon.com/images/I/41CGJiuDeKL._AC_SL1000_.jpg",
+    "precoOriginal" : "40,99",
+    "precoPromocao" : "25,99",
+    "tag" : "-36%",
+    "percentualDesconto" : 36.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B077BY84XX?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:30",
+    "destaque" : false,
+    "loja" : "Amazon",
     "menorPrecoEmDias" : false
   }, {
     "id" : 128083,
@@ -16879,6 +17464,23 @@
     "destaque" : false,
     "loja" : "Amazon",
     "precoAnterior" : "46,78",
+    "menorPrecoEmDias" : false
+  }, {
+    "id" : 128218,
+    "titulo" : "Vou dar um susto no meu amigo",
+    "imagem" : "https://m.media-amazon.com/images/I/71dU7eTL+UL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "48,93",
+    "tag" : "-30%",
+    "percentualDesconto" : 30.0,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574068764?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "ativo" : true,
+    "dataOferta" : "28/08/2026 13:26",
+    "destaque" : false,
+    "loja" : "Amazon",
+    "precoAnterior" : "54,84",
     "menorPrecoEmDias" : false
   }, {
     "id" : 126680,
