@@ -73,6 +73,31 @@
   .animate-fade-up { animation: fade-up .4s ease both; }
   .modal-backdrop { background: rgba(43,36,30,.45); backdrop-filter: blur(2px); }
   .hidden { display: none !important; }
+
+  /* ===================== ABAS ===================== */
+  .tabs-nav {
+    display: flex; align-items: flex-end; gap: 4px;
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .tabs-nav::-webkit-scrollbar { display: none; }
+  .tab-btn {
+    appearance: none; background: none; border: none;
+    font-family: inherit; font-size: 0.88rem; font-weight: 600;
+    color: var(--muted-ink);
+    padding: 10px 14px 12px 14px;
+    cursor: pointer; white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .tab-btn:hover { color: var(--ink); }
+  .tab-btn.ativa { color: var(--primary); border-bottom-color: var(--accent); font-weight: 700; }
+  .tab-btn .contador {
+    background: var(--muted); color: var(--muted-ink);
+    font-size: .68rem; font-weight: 700;
+    padding: 2px 7px; border-radius: 999px;
+  }
+  .tab-btn.ativa .contador { background: var(--primary); color: #fff; }
 </style>
 </head>
 <body>
@@ -142,6 +167,16 @@
           </div>
         </div>
       </div>
+
+      <div id="tabsNav" class="tabs-nav mb-5 border-b" style="border-color:var(--border)">
+        <button type="button" data-aba="todas" class="tab-btn ativa">
+          Todas as ofertas <span class="contador" data-count="todas">0</span>
+        </button>
+        <button type="button" data-aba="destaques" class="tab-btn">
+          ✦ Destaques <span class="contador" data-count="destaques">0</span>
+        </button>
+      </div>
+
       <div id="lista"></div>
     </section>
   </main>
@@ -189,7 +224,36 @@ elCom.innerHTML = comunidades.map(c => `
   </a>`).join("");
 
 let ofertas = [];
+let abaAtiva = "todas";
 const $lista = document.getElementById("lista");
+const $tabsNav = document.getElementById("tabsNav");
+
+$tabsNav.addEventListener("click", (e) => {
+  const btn = e.target.closest(".tab-btn");
+  if (!btn) return;
+  $tabsNav.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("ativa"));
+  btn.classList.add("ativa");
+  abaAtiva = btn.dataset.aba;
+  render();
+});
+
+function aplicarAba(lista) {
+  if (abaAtiva !== "destaques") return lista;
+  const destacadas = lista.filter(o => o.destaque === true);
+  // Se ainda não houver nenhuma oferta marcada como destaque, mostra tudo
+  // em vez de deixar a aba vazia.
+  return destacadas.length ? destacadas : lista;
+}
+
+function atualizarContadoresAbas(baseFiltrada) {
+  const counts = {
+    todas: baseFiltrada.length,
+    destaques: baseFiltrada.filter(o => o.destaque === true).length || baseFiltrada.length,
+  };
+  $tabsNav.querySelectorAll(".contador").forEach(el => {
+    el.textContent = counts[el.dataset.count] ?? 0;
+  });
+}
 const $filtro = document.getElementById("filtro");
 const $cbBtn = document.getElementById("cbBtn");
 const $cbMenu = document.getElementById("cbMenu");
@@ -237,12 +301,17 @@ const $atual = document.getElementById("atualizacao");
 function render() {
   const q = $busca.value.trim().toLowerCase();
   const f = $filtro.value;
-  const arr = ofertas.filter(o =>
+  const base = ofertas.filter(o =>
     (f === "TODAS" || (o.categoria||"").trim() === f) &&
     (!q || o.titulo.toLowerCase().includes(q))
   );
+  atualizarContadoresAbas(base);
+  const arr = aplicarAba(base);
   if (!arr.length) {
-    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Nenhuma oferta nesta categoria.</div>`;
+    const msg = abaAtiva === "destaques"
+      ? "Nenhuma oferta em destaque no momento."
+      : "Nenhuma oferta nesta categoria.";
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">${msg}</div>`;
     return;
   }
   $lista.innerHTML = `<div class="grid grid-cols-1 gap-5 md:grid-cols-2">${arr.map(card).join("")}</div>`;
