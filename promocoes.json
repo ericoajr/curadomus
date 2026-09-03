@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "03/09/2026 10:37",
+  "ultimaAtualizacao" : "03/09/2026 11:06",
   "ofertas" : [ {
     "pid" : 5864,
     "id" : 140135,
@@ -2209,9 +2209,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FDCLCBZB?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "02/09/2026 13:28",
+    "dataOferta" : "03/09/2026 11:04",
     "destaque" : false,
-    "precoAnterior" : "20,99",
+    "precoAnterior" : "20,59",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "05/08/2026",
@@ -2277,6 +2277,9 @@
       "preco" : 20.99
     }, {
       "data" : "02/09/2026",
+      "preco" : 20.59
+    }, {
+      "data" : "03/09/2026",
       "preco" : 20.59
     } ]
   }, {
@@ -7045,6 +7048,88 @@
       "preco" : 13.0
     } ]
   }, {
+    "pid" : 4561,
+    "id" : 140813,
+    "titulo" : "Buba Redutor De Assento Dobravel",
+    "imagem" : "https://m.media-amazon.com/images/I/41E6n61jI6L._AC_SL1200_.jpg",
+    "precoOriginal" : "64,90",
+    "precoPromocao" : "34,00",
+    "tag" : "-47%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0B3F63QYX?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "03/09/2026 10:47",
+    "destaque" : true,
+    "precoAnterior" : "41,86",
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "historico" : [ {
+      "data" : "05/08/2026",
+      "preco" : 38.78
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 38.78
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "27/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 38.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 41.86
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 34.0
+    } ]
+  }, {
     "pid" : 508,
     "id" : 140556,
     "titulo" : "Buba Risque E Apague Colorido",
@@ -7138,15 +7223,16 @@
     "titulo" : "Buba Tapete Para Banho Dino Buba Colorido",
     "imagem" : "https://m.media-amazon.com/images/I/51rDXNu3rgL._AC_SL1500_.jpg",
     "precoOriginal" : "79,90",
-    "precoPromocao" : "51,90",
-    "tag" : "-35%",
+    "precoPromocao" : "38,85",
+    "tag" : "-51%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08S574X6D?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "02/09/2026 13:27",
-    "destaque" : false,
+    "dataOferta" : "03/09/2026 11:03",
+    "destaque" : true,
     "precoAnterior" : "51,90",
-    "menorPrecoEmDias" : false,
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
     "historico" : [ {
       "data" : "05/08/2026",
       "preco" : 38.86
@@ -7210,6 +7296,9 @@
     }, {
       "data" : "02/09/2026",
       "preco" : 51.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 38.85
     } ]
   }, {
     "pid" : 544,
@@ -7559,11 +7648,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CGBNCPC5?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "02/09/2026 13:04",
-    "destaque" : true,
-    "precoAnterior" : "406,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "dataOferta" : "03/09/2026 10:39",
+    "destaque" : false,
+    "precoAnterior" : "377,90",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
       "preco" : 492.0
@@ -7620,6 +7708,9 @@
       "preco" : 406.99
     }, {
       "data" : "02/09/2026",
+      "preco" : 377.9
+    }, {
+      "data" : "03/09/2026",
       "preco" : 377.9
     } ]
   }, {
@@ -7689,15 +7780,16 @@
     "titulo" : "Cadeira De Alimentação Portátil Para Bebê Refeição Infantil Liso Azul",
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_969717-MLA111016541612_052026-F.webp",
     "precoOriginal" : "586,11",
-    "precoPromocao" : "299,90",
-    "tag" : "-48%",
+    "precoPromocao" : "281,00",
+    "tag" : "-52%",
     "linkAfiliado" : "https://meli.la/2AHfACQ",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "02/09/2026 13:16",
-    "destaque" : false,
+    "dataOferta" : "03/09/2026 10:38",
+    "destaque" : true,
     "precoAnterior" : "299,90",
-    "menorPrecoEmDias" : false,
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
     "historico" : [ {
       "data" : "15/08/2026",
       "preco" : 299.9
@@ -7737,6 +7829,9 @@
     }, {
       "data" : "02/09/2026",
       "preco" : 299.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 281.0
     } ]
   }, {
     "pid" : 339,
@@ -20424,7 +20519,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHR9LSK?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "02/09/2026 13:21",
+    "dataOferta" : "03/09/2026 10:57",
     "destaque" : false,
     "precoAnterior" : "19,99",
     "menorPrecoEmDias" : false,
@@ -20490,6 +20585,9 @@
       "preco" : 19.99
     }, {
       "data" : "02/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "03/09/2026",
       "preco" : 19.99
     } ]
   }, {
@@ -22707,11 +22805,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D8TQPB66?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "02/09/2026 13:24",
-    "destaque" : true,
-    "precoAnterior" : "104,98",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "dataOferta" : "03/09/2026 11:00",
+    "destaque" : false,
+    "precoAnterior" : "74,52",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "05/08/2026",
       "preco" : 75.9
@@ -22770,6 +22867,9 @@
       "preco" : 104.98
     }, {
       "data" : "02/09/2026",
+      "preco" : 74.52
+    }, {
+      "data" : "03/09/2026",
       "preco" : 74.52
     } ]
   }, {
@@ -27124,9 +27224,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08KSW92KS?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "02/09/2026 13:25",
+    "dataOferta" : "03/09/2026 11:00",
     "destaque" : false,
-    "precoAnterior" : "17,02",
+    "precoAnterior" : "16,90",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "05/08/2026",
@@ -27190,6 +27290,9 @@
       "preco" : 17.02
     }, {
       "data" : "02/09/2026",
+      "preco" : 16.9
+    }, {
+      "data" : "03/09/2026",
       "preco" : 16.9
     } ]
   }, {
@@ -35143,11 +35246,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07F6RDZ66?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "02/09/2026 13:24",
-    "destaque" : true,
-    "precoAnterior" : "20,06",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "dataOferta" : "03/09/2026 11:00",
+    "destaque" : false,
+    "precoAnterior" : "16,99",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "05/08/2026",
       "preco" : 16.9
@@ -35210,6 +35312,9 @@
       "preco" : 20.06
     }, {
       "data" : "02/09/2026",
+      "preco" : 16.99
+    }, {
+      "data" : "03/09/2026",
       "preco" : 16.99
     } ]
   }, {
@@ -36077,11 +36182,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08JQNDGKS?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "02/09/2026 13:17",
-    "destaque" : true,
-    "precoAnterior" : "12,49",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "dataOferta" : "03/09/2026 10:53",
+    "destaque" : false,
+    "precoAnterior" : "8,74",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "05/08/2026",
       "preco" : 12.49
@@ -36143,6 +36247,9 @@
       "preco" : 12.49
     }, {
       "data" : "02/09/2026",
+      "preco" : 8.74
+    }, {
+      "data" : "03/09/2026",
       "preco" : 8.74
     } ]
   }, {
@@ -36854,6 +36961,82 @@
     }, {
       "data" : "03/09/2026",
       "preco" : 24.5
+    } ]
+  }, {
+    "pid" : 4436,
+    "id" : 140810,
+    "titulo" : "Red Bull Energético, Sugar Free, Sem Açúcar, 250ml, 4 latas",
+    "imagem" : "https://m.media-amazon.com/images/I/71MbncD1PLL._AC_SL1500_.jpg",
+    "precoOriginal" : "41,96",
+    "precoPromocao" : "31,16",
+    "tag" : "-25%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07XWX898Q?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "03/09/2026 10:42",
+    "destaque" : false,
+    "precoAnterior" : "31,16",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "05/08/2026",
+      "preco" : 30.72
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 30.72
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 33.96
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 33.96
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 30.76
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 28.69
+    }, {
+      "data" : "22/08/2026"
+    }, {
+      "data" : "24/08/2026"
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 33.96
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 31.16
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 31.16
     } ]
   }, {
     "pid" : 2780,
@@ -39071,9 +39254,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BGJ6VSDW?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "02/09/2026 13:09",
+    "dataOferta" : "03/09/2026 10:45",
     "destaque" : false,
-    "precoAnterior" : "49,35",
+    "precoAnterior" : "31,99",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "05/08/2026",
@@ -39139,6 +39322,9 @@
       "preco" : 49.35
     }, {
       "data" : "02/09/2026",
+      "preco" : 31.99
+    }, {
+      "data" : "03/09/2026",
       "preco" : 31.99
     } ]
   }, {
@@ -39699,7 +39885,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07PNK7TZK?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "02/09/2026 13:05",
+    "dataOferta" : "03/09/2026 10:40",
     "destaque" : false,
     "precoAnterior" : "45,81",
     "menorPrecoEmDias" : false,
@@ -39763,6 +39949,9 @@
       "preco" : 45.81
     }, {
       "data" : "02/09/2026",
+      "preco" : 45.81
+    }, {
+      "data" : "03/09/2026",
       "preco" : 45.81
     } ]
   }, {
@@ -41141,6 +41330,83 @@
     }, {
       "data" : "03/09/2026",
       "preco" : 32.23
+    } ]
+  }, {
+    "pid" : 4594,
+    "id" : 140816,
+    "titulo" : "Vespa (Menta) Eletrica 12V Bandeirante",
+    "imagem" : "https://m.media-amazon.com/images/I/61MFsmTmvNL._AC_SL1000_.jpg",
+    "precoOriginal" : "2.499,00",
+    "precoPromocao" : "1.749,30",
+    "tag" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0D3FKL3L5?tag=curadomus-20",
+    "categoria" : "Brinquedos e Jogos",
+    "categoriaId" : 6,
+    "dataOferta" : "03/09/2026 10:51",
+    "destaque" : true,
+    "precoAnterior" : "1.890,00",
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "historico" : [ {
+      "data" : "05/08/2026",
+      "preco" : 2305.41
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 2699.9
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 2649.9
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 2649.9
+    }, {
+      "data" : "10/08/2026"
+    }, {
+      "data" : "11/08/2026"
+    }, {
+      "data" : "12/08/2026"
+    }, {
+      "data" : "14/08/2026"
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "16/08/2026"
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 1989.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 1989.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 1989.99
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 2699.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 1989.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 1989.99
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 1989.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 1989.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 1989.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 1989.99
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 1890.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 1749.3
     } ]
   }, {
     "pid" : 8999,
