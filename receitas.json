@@ -33,6 +33,36 @@
       "dica": "Não jogue fora maçãs que estejam ficando passadas ou ligeiramente amassadas na fruteira. Elas são ideais para esta receita pois contêm mais açúcar natural, deixando o bolo ainda mais doce sem precisar aumentar o açúcar da massa.",
 
       "produtos": ["liquidificador-mondial-turbo-1200w", "forma-bolo-redonda-furo-tramontina"]
-    }
+    },
+	{
+	  "slug": "bolo-rosa-maria",
+	  "titulo": "Bolo Rosa Maria",
+	  "categoria": "Bolos e Doces",
+	  "imagem": "https://via.placeholder.com/480x320",
+	  "tempoPreparo": "15 min",
+	  "tempoForno": "40 min",
+	  "ingredientes": [
+	    "2 xícaras de farinha de trigo",
+	    "2 xícaras de açúcar",
+	    "1 xícara de nescau",
+	    "1 xícara de leite",
+	    "3 ovos",
+	    "150gr de manteiga",
+	    "1 colher (sopa) de fermento em pó"
+	  ],
+	  "modoPreparo": [
+		"Numa bacia, coloque a farinha, o nescau, o açúcar e o fermento. Faça uma cova no centro, coloque os ovos inteiros e mexa só no centro para unir um pouco.",
+		"Numa panela, coloque o leite com a manteiga e leve ao fogo até ferver.",
+	    "Despeje metade do leite dentro da massa e deixe a outra metade em fogo baixo. Misture o suficiente.",
+		"Depois despeje o restante do leite e mexa até começar a fazer bolhas.",
+	    "Coloque em uma forma untada e enfarinhada.",
+	    "Leve ao forno pré aquecido por cerca de 40 minutos.",
+	  ],
+
+	  "dica": "Pode substituir o achocolotado por um cacau 70% ou 100%.",
+
+	  "produtos": ["2786", "9156", "9157", "9158", "6467", "1420", "2991", "9159"]
+	}	
+	
   ]
 }
