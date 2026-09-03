@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Receitas — Cura Domus</title>
+<meta name="description" content="Receitas econômicas e práticas para o dia a dia da família, com sugestões dos ingredientes e utensílios que podem estar faltando na sua cozinha." />
+<meta property="og:title" content="Receitas — Cura Domus" />
+<meta property="og:description" content="Receitas econômicas selecionadas para a sua família." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/png" href="curadomus_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          background: 'var(--background)',
+          foreground: 'var(--ink)',
+          card: 'var(--card)',
+          border: 'var(--border)',
+          input: 'var(--border)',
+          muted: 'var(--muted)',
+          'muted-foreground': 'var(--muted-ink)',
+          primary: 'var(--primary)',
+          'primary-foreground': '#fff',
+          accent: 'var(--accent)',
+          destructive: 'var(--destructive)',
+        },
+        boxShadow: {
+          soft: '0 1px 2px rgba(30,25,20,0.04), 0 2px 8px rgba(30,25,20,0.04)',
+          card: '0 10px 30px -12px rgba(30,25,20,0.18)',
+        },
+        fontFamily: {
+          serif: ['"Cormorant Garamond"', 'serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+<style>
+  :root {
+    --background: #FBF7F1;
+    --cream-deep: #F3ECDF;
+    --card: #FFFFFF;
+    --ink: #2B241E;
+    --muted: #EFE7DA;
+    --muted-ink: #7A6E60;
+    --border: #E7DFD1;
+    --primary: #6E5334;
+    --primary-deep: #4E3A22;
+    --accent: #C9A96A;
+    --destructive: #B4441F;
+  }
+  html, body { background: var(--background); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
+  .text-serif { font-family: "Cormorant Garamond", serif; letter-spacing: -0.01em; }
+  .text-primary { color: var(--primary); }
+  .bg-primary { background: var(--primary); }
+  .text-primary-foreground { color: #fff; }
+  .hidden { display: none !important; }
+  .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
+  .animate-fade-up { animation: fade-up .4s ease both; }
+
+  /* ===================== ABAS ===================== */
+  .tabs-nav { display: flex; align-items: flex-end; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+  .tabs-nav::-webkit-scrollbar { display: none; }
+  .tab-btn {
+    appearance: none; background: none; border: none;
+    font-family: inherit; font-size: 0.88rem; font-weight: 600;
+    color: var(--muted-ink);
+    padding: 10px 14px 12px 14px;
+    cursor: pointer; white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .tab-btn:hover { color: var(--ink); }
+  .tab-btn.ativa { color: var(--primary); border-bottom-color: var(--accent); font-weight: 700; }
+  .tab-btn .contador {
+    background: var(--muted); color: var(--muted-ink);
+    font-size: .68rem; font-weight: 700;
+    padding: 2px 7px; border-radius: 999px;
+  }
+  .tab-btn.ativa .contador { background: var(--primary); color: #fff; }
+
+  /* ===================== BUSCA ===================== */
+  .hero-search {
+    width: 100%; max-width: 34rem;
+    display: flex; align-items: center; gap: 10px;
+    background: var(--card); border: 1.5px solid var(--border);
+    border-radius: 999px; padding: 4px 8px 4px 20px;
+    box-shadow: 0 10px 30px -12px rgba(30,25,20,0.18);
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .hero-search:focus-within { border-color: var(--accent); box-shadow: 0 12px 34px -10px rgba(30,25,20,0.24); }
+  .hero-search input {
+    flex: 1; min-width: 0; border: none; outline: none; background: none;
+    font-family: inherit; font-size: 0.95rem; color: var(--ink);
+    padding: 12px 0;
+  }
+  .hero-search input::placeholder { color: var(--muted-ink); }
+  .hero-search button {
+    flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center;
+    height: 42px; width: 42px; border-radius: 999px; background: var(--primary); color: #fff;
+  }
+</style>
+</head>
+<body>
+<div class="min-h-screen">
+
+  <nav class="border-b" style="border-color:var(--border)">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <a href="index.html" class="inline-flex items-center gap-2 text-xs font-semibold text-primary transition hover:opacity-80">
+        ← Voltar para o início
+      </a>
+      <img src="curadomus_logo.png" alt="Cura Domus" class="h-8 opacity-90" />
+    </div>
+  </nav>
+
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 opacity-[0.04]" style="background-image: radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0); background-size:24px 24px"></div>
+    <div class="mx-auto max-w-5xl px-6 pt-10 pb-8 text-center">
+      <div class="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">
+        ✦ Cozinha & Economia
+      </div>
+      <h1 class="text-serif mt-2 text-4xl leading-[1.05] text-primary sm:text-5xl">
+        Receitas para economizar<br class="hidden sm:block" />
+        <span class="italic" style="color:var(--primary-deep)"> sem abrir mão do sabor.</span>
+      </h1>
+      <p class="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed" style="color:var(--muted-ink)">
+        Receitas testadas pela nossa família, com reaproveitamento de ingredientes e dicas para o dia a dia.
+      </p>
+
+      <form id="buscaForm" class="mx-auto mt-7 hero-search" onsubmit="return false;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="busca" placeholder="Buscar por receita…" aria-label="Buscar por receita" />
+        <button type="submit" aria-label="Buscar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+      </form>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-6 pb-24">
+    <section id="receitas">
+      <div class="mb-5 flex items-end justify-between gap-4 border-b pb-3" style="border-color:var(--border)">
+        <p id="atualizacao" class="text-xs" style="color:var(--muted-ink)"></p>
+      </div>
+
+      <div id="tabsNav" class="tabs-nav mb-6 border-b" style="border-color:var(--border)">
+        <button type="button" data-aba="TODAS" class="tab-btn ativa">
+          Todas as receitas <span class="contador" data-count="TODAS">0</span>
+        </button>
+      </div>
+
+      <div id="lista"></div>
+    </section>
+  </main>
+
+  <footer class="border-t" style="border-color:var(--border); background: color-mix(in srgb, var(--card) 40%, transparent)">
+    <div class="mx-auto flex max-w-5xl flex-col items-center gap-3 px-6 py-8 text-center">
+      <img src="curadomus_logo.png" alt="Cura Domus" class="h-10 opacity-80" />
+      <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
+    </div>
+  </footer>
+</div>
+
+<script>
+let receitas = [];
+let categoriaAtiva = "TODAS";
+const $lista = document.getElementById("lista");
+const $tabsNav = document.getElementById("tabsNav");
+const $busca = document.getElementById("busca");
+const $atual = document.getElementById("atualizacao");
+
+function montarAbas(categorias) {
+  const opcoes = ["TODAS", ...categorias];
+  $tabsNav.innerHTML = opcoes.map(c => `
+    <button type="button" data-aba="${c}" class="tab-btn ${c === categoriaAtiva ? "ativa" : ""}">
+      ${c === "TODAS" ? "Todas as receitas" : c} <span class="contador" data-count="${c}">0</span>
+    </button>`).join("");
+}
+
+$tabsNav.addEventListener("click", (e) => {
+  const btn = e.target.closest(".tab-btn");
+  if (!btn) return;
+  categoriaAtiva = btn.dataset.aba;
+  $tabsNav.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("ativa", b === btn));
+  render();
+});
+
+function atualizarContadores(baseFiltrada) {
+  $tabsNav.querySelectorAll(".contador").forEach(el => {
+    const cat = el.dataset.count;
+    el.textContent = cat === "TODAS" ? baseFiltrada.length : baseFiltrada.filter(r => (r.categoria || "").trim() === cat).length;
+  });
+}
+
+function card(r) {
+  const meta = [
+    r.tempoPreparo ? `⏱ ${r.tempoPreparo}` : "",
+    r.tempoForno ? `🔥 ${r.tempoForno}` : "",
+    r.rendimento ? `🍰 ${r.rendimento}` : "",
+    r.custoMedio ? `💰 R$ ${r.custoMedio}` : "",
+  ].filter(Boolean).join(" · ");
+
+  return `
+  <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card" style="border-color:var(--border)">
+    <div class="relative aspect-[16/10] w-full overflow-hidden" style="background:var(--cream-deep)">
+      ${r.categoria ? `<span class="absolute left-3 top-3 rounded-full bg-primary px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-white shadow">${r.categoria}</span>` : ""}
+      <img src="${r.imagem}" alt="${r.titulo}" loading="lazy" class="h-full w-full object-cover transition duration-300 group-hover:scale-105" />
+    </div>
+    <div class="flex flex-1 flex-col gap-3 p-5">
+      <div>
+        <h3 class="text-serif text-xl font-semibold leading-snug text-primary">${r.titulo}</h3>
+        <p class="mt-1.5 text-sm leading-relaxed line-clamp-2" style="color:var(--muted-ink)">${r.resumo || ""}</p>
+      </div>
+      <p class="text-[11px]" style="color:var(--muted-ink)">${meta}</p>
+      <a href="receita.html?r=${encodeURIComponent(r.slug)}" class="mt-auto inline-flex w-fit items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-soft transition hover:opacity-90">Ver receita ↗</a>
+    </div>
+  </article>`;
+}
+
+function render() {
+  const q = $busca.value.trim().toLowerCase();
+  const base = receitas.filter(r =>
+    (categoriaAtiva === "TODAS" || (r.categoria || "").trim() === categoriaAtiva) &&
+    (!q || r.titulo.toLowerCase().includes(q) || (r.resumo || "").toLowerCase().includes(q))
+  );
+  atualizarContadores(receitas.filter(r => !q || r.titulo.toLowerCase().includes(q) || (r.resumo || "").toLowerCase().includes(q)));
+  if (!base.length) {
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Nenhuma receita encontrada.</div>`;
+    return;
+  }
+  $lista.innerHTML = `<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">${base.map(card).join("")}</div>`;
+}
+
+fetch("receitas.json").then(r => r.ok ? r.json() : Promise.reject())
+  .then(d => {
+    receitas = d.receitas || [];
+    if (d.ultimaAtualizacao) $atual.textContent = "Atualizado em: " + d.ultimaAtualizacao;
+    const categorias = [...new Set(receitas.map(r => (r.categoria || "").trim()).filter(Boolean))].sort((a, b) => a.localeCompare(b, "pt-BR"));
+    montarAbas(categorias);
+    render();
+  })
+  .catch(() => {
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Coloque o arquivo <code>receitas.json</code> na mesma pasta deste HTML.</div>`;
+  });
+
+$busca.addEventListener("input", render);
+</script>
+</body>
+</html>

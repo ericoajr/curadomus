@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cura Domus — Curadoria e Ofertas para o Lar</title>
+<meta name="description" content="Curadoria de indicações e ofertas para famílias: beleza, utilidade e economia. Descontos verificados diariamente." />
+<meta property="og:title" content="Cura Domus — Curadoria para o Lar" />
+<meta property="og:description" content="Indicações e ofertas selecionadas para a sua família." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/png" href="curadomus_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          background: 'var(--background)',
+          foreground: 'var(--ink)',
+          card: 'var(--card)',
+          border: 'var(--border)',
+          input: 'var(--border)',
+          muted: 'var(--muted)',
+          'muted-foreground': 'var(--muted-ink)',
+          primary: 'var(--primary)',
+          'primary-foreground': '#fff',
+          accent: 'var(--accent)',
+          destructive: 'var(--destructive)',
+        },
+        boxShadow: {
+          soft: '0 1px 2px rgba(30,25,20,0.04), 0 2px 8px rgba(30,25,20,0.04)',
+          card: '0 10px 30px -12px rgba(30,25,20,0.18)',
+        },
+        fontFamily: {
+          serif: ['"Cormorant Garamond"', 'serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+<style>
+  :root {
+    --background: #FBF7F1;
+    --cream-deep: #F3ECDF;
+    --card: #FFFFFF;
+    --ink: #2B241E;
+    --muted: #EFE7DA;
+    --muted-ink: #7A6E60;
+    --border: #E7DFD1;
+    --primary: #6E5334;
+    --primary-deep: #4E3A22;
+    --accent: #C9A96A;
+    --destructive: #B4441F;
+  }
+  html, body { background: var(--background); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
+  .text-serif { font-family: "Cormorant Garamond", serif; letter-spacing: -0.01em; }
+  .text-primary { color: var(--primary); }
+  .bg-primary { background: var(--primary); }
+  .bg-destructive { background: var(--destructive); }
+  .border-primary\/40 { border-color: color-mix(in srgb, var(--primary) 40%, transparent); }
+  .border-primary\/50 { border-color: color-mix(in srgb, var(--primary) 50%, transparent); }
+  .bg-primary\/5 { background: color-mix(in srgb, var(--primary) 5%, transparent); }
+  .bg-primary\/10 { background: color-mix(in srgb, var(--primary) 10%, transparent); }
+  .text-primary-foreground { color: #fff; }
+  .ring-border { --tw-ring-color: var(--border); }
+  .hover\:border-accent:hover { border-color: var(--accent); }
+  @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
+  .animate-fade-up { animation: fade-up .4s ease both; }
+  .modal-backdrop { background: rgba(43,36,30,.45); backdrop-filter: blur(2px); }
+  .hidden { display: none !important; }
+
+  /* ===================== ABAS ===================== */
+  .tabs-nav {
+    display: flex; align-items: flex-end; gap: 4px;
+    overflow-x: auto; scrollbar-width: none;
+  }
+  .tabs-nav::-webkit-scrollbar { display: none; }
+  .tab-btn {
+    appearance: none; background: none; border: none;
+    font-family: inherit; font-size: 0.88rem; font-weight: 600;
+    color: var(--muted-ink);
+    padding: 10px 14px 12px 14px;
+    cursor: pointer; white-space: nowrap;
+    border-bottom: 2px solid transparent;
+    transition: color .15s, border-color .15s;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .tab-btn:hover { color: var(--ink); }
+  .tab-btn.ativa { color: var(--primary); border-bottom-color: var(--accent); font-weight: 700; }
+  .tab-btn .contador {
+    background: var(--muted); color: var(--muted-ink);
+    font-size: .68rem; font-weight: 700;
+    padding: 2px 7px; border-radius: 999px;
+  }
+  .tab-btn.ativa .contador { background: var(--primary); color: #fff; }
+
+  /* ===================== BUSCA PRINCIPAL (hero) ===================== */
+  .hero-search {
+    width: 100%;
+    max-width: 34rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--card);
+    border: 1.5px solid var(--border);
+    border-radius: 999px;
+    padding: 4px 8px 4px 20px;
+    box-shadow: 0 10px 30px -12px rgba(30,25,20,0.18);
+    transition: border-color .15s, box-shadow .15s;
+  }
+  .hero-search:focus-within { border-color: var(--accent); box-shadow: 0 12px 34px -10px rgba(30,25,20,0.24); }
+  .hero-search input {
+    flex: 1; min-width: 0; border: none; outline: none; background: none;
+    font-family: inherit; font-size: 0.95rem; color: var(--ink);
+    padding: 12px 0;
+  }
+  .hero-search input::placeholder { color: var(--muted-ink); }
+  .hero-search button {
+    flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center;
+    height: 42px; width: 42px; border-radius: 999px; background: var(--primary); color: #fff;
+  }
+
+  /* ===================== COMUNIDADES (discreto) ===================== */
+  .comunidade-pill {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 5px 11px 5px 5px; border-radius: 999px;
+    background: var(--muted); color: var(--muted-ink);
+    font-size: 12px; font-weight: 500;
+    transition: background .15s, color .15s;
+  }
+  .comunidade-pill:hover { background: var(--cream-deep); color: var(--ink); }
+  .comunidade-pill img { height: 20px; width: 20px; border-radius: 999px; object-fit: cover; }
+</style>
+</head>
+<body>
+<div class="min-h-screen">
+  <nav class="border-b" style="border-color:var(--border)">
+    <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
+      <img src="curadomus_logo.png" alt="Cura Domus" class="h-8 opacity-90" />
+      <a href="blog.html" class="inline-flex items-center gap-2 text-xs font-semibold text-primary transition hover:opacity-80">
+        Receitas →
+      </a>
+    </div>
+  </nav>
+  <!-- Hero -->
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 opacity-[0.04]" style="background-image: radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0); background-size:24px 24px"></div>
+    <div class="mx-auto max-w-5xl px-6 pt-14 pb-10 text-center">
+      <img src="curadomus_selo.png" alt="Cura Domus" class="mx-auto h-28 w-28 object-contain sm:h-32 sm:w-32" />
+      <h1 class="mt-6 text-serif text-4xl leading-[1.05] text-primary sm:text-5xl md:text-6xl">
+        Curadoria para o lar,<br class="hidden sm:block" />
+        <span class="italic" style="color:var(--primary-deep)"> feita por uma família </span>
+        para a sua.
+      </h1>
+      <p class="mx-auto mt-5 max-w-xl text-[15px] leading-relaxed" style="color:var(--muted-ink)">
+        Garimpamos as melhores ofertas para a sua família.
+      </p>
+
+      <form id="heroBuscaForm" class="mx-auto mt-7 hero-search" onsubmit="return false;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        <input id="busca" placeholder="Buscar por produto…" aria-label="Buscar por produto" />
+        <button type="submit" aria-label="Buscar">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+        </button>
+      </form>
+
+      <div class="mt-5 inline-flex items-center gap-2 rounded-full border bg-card px-4 py-1.5 text-xs font-medium shadow-soft" style="border-color:var(--border); color:var(--muted-ink)">
+        <span class="relative flex h-2 w-2">
+          <span class="absolute inset-0 animate-ping rounded-full opacity-60" style="background:var(--primary)"></span>
+          <span class="relative h-2 w-2 rounded-full" style="background:var(--primary)"></span>
+        </span>
+        Ofertas verificadas diariamente
+      </div>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-6 pb-24">
+    <!-- Ofertas — agora o primeiro bloco de conteúdo, logo após a busca -->
+    <section id="ofertas">
+      <div class="mb-6 flex flex-col gap-4 border-b pb-5 sm:flex-row sm:items-end sm:justify-between" style="border-color:var(--border)">
+        <div>
+          <div class="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">
+            ✦ Indicações de hoje
+          </div>
+          <h2 class="text-serif mt-1 text-3xl sm:text-4xl">Ofertas selecionadas</h2>
+          <p id="atualizacao" class="mt-1 text-xs" style="color:var(--muted-ink)"></p>
+        </div>
+        <div id="cbWrap" class="relative">
+          <input type="hidden" id="filtro" value="TODAS" />
+          <button id="cbBtn" type="button" aria-haspopup="listbox" aria-expanded="false"
+            class="flex h-10 w-full items-center gap-2 rounded-full border bg-card px-4 text-sm font-semibold shadow-soft outline-none transition hover:border-accent sm:w-56"
+            style="border-color:var(--border)">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2H2v10l9.29 9.29a1 1 0 0 0 1.42 0l8.58-8.58a1 1 0 0 0 0-1.42Z"/><circle cx="7" cy="7" r="1.2" fill="var(--accent)" stroke="none"/></svg>
+            <span id="cbLabel" class="truncate">Todas as categorias</span>
+            <svg class="ml-auto shrink-0" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 15 5 5 5-5"/><path d="m7 9 5-5 5 5"/></svg>
+          </button>
+          <div id="cbMenu" role="listbox"
+            class="hidden absolute right-0 z-40 mt-2 max-h-72 w-full min-w-[15rem] overflow-auto rounded-2xl border bg-card p-1.5 shadow-card animate-fade-up"
+            style="border-color:var(--border)">
+            <div class="px-2.5 pb-1.5 pt-1 text-[10px] font-semibold uppercase tracking-[0.18em]" style="color:var(--muted-ink)">Categorias</div>
+          </div>
+        </div>
+      </div>
+
+      <div id="tabsNav" class="tabs-nav mb-5 border-b" style="border-color:var(--border)">
+        <button type="button" data-aba="todas" class="tab-btn ativa">
+          Todas as ofertas <span class="contador" data-count="todas">0</span>
+        </button>
+        <button type="button" data-aba="destaques" class="tab-btn">
+          ✦ Destaques <span class="contador" data-count="destaques">0</span>
+        </button>
+      </div>
+
+      <div id="lista"></div>
+    </section>
+
+    <!-- Comunidades — discreto, no fim, sem competir com a busca/ofertas -->
+    <section class="mt-16 border-t pt-8" style="border-color:var(--border)">
+      <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+        <span class="text-xs font-medium" style="color:var(--muted-ink)">Receba ofertas no WhatsApp:</span>
+        <div id="comunidades" class="flex flex-wrap gap-2"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t" style="border-color:var(--border); background: color-mix(in srgb, var(--card) 40%, transparent)">
+    <div class="mx-auto flex max-w-5xl flex-col items-center gap-3 px-6 py-8 text-center">
+      <img src="curadomus_logo.png" alt="Cura Domus" class="h-10 opacity-80" />
+      <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
+    </div>
+  </footer>
+</div>
+
+<!-- Modal Histórico -->
+<div id="modalHist" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop">
+  <div class="w-full max-w-lg rounded-2xl border bg-card p-5 shadow-card" style="border-color:var(--border)">
+    <div class="flex items-start justify-between gap-4">
+      <div>
+        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">Histórico de preços</div>
+        <h3 id="histTitulo" class="text-serif mt-1 text-xl leading-snug"></h3>
+      </div>
+      <button id="histFechar" aria-label="Fechar" class="rounded-lg border px-2.5 py-1 text-sm font-semibold" style="border-color:var(--border); color:var(--muted-ink)">✕</button>
+    </div>
+    <div id="histGrafico" class="mt-4"></div>
+    <p id="histResumo" class="mt-3 text-xs" style="color:var(--muted-ink)"></p>
+  </div>
+</div>
+
+<script>
+const BASE = "https://id-preview--736ce8be-ff29-4b9b-b29a-a17fb67bfb54.lovable.app";
+const comunidades = [
+  { nome: "Formação do Imaginário", img: "imaginario.png", url: "https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F" },
+  { nome: "Educação e Escola",     img:  "educacao.png",  url: "https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW" },
+  { nome: "Gestão do Lar",         img:  "gestao.png",    url: "https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" },
+  { nome: "Bebês e Infância",      img:  "bebe.jpg",      url: "https://chat.whatsapp.com/C84J6GtX87t6a0HFp2x5EX" },
+];
+
+const elCom = document.getElementById("comunidades");
+elCom.innerHTML = comunidades.map(c => `
+  <a href="${c.url}" target="_blank" rel="noopener noreferrer" class="comunidade-pill">
+    <img src="${c.img}" alt="${c.nome}" />
+    <span>${c.nome}</span>
+  </a>`).join("");
+
+let ofertas = [];
+let abaAtiva = "todas";
+const $lista = document.getElementById("lista");
+const $tabsNav = document.getElementById("tabsNav");
+
+$tabsNav.addEventListener("click", (e) => {
+  const btn = e.target.closest(".tab-btn");
+  if (!btn) return;
+  $tabsNav.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("ativa"));
+  btn.classList.add("ativa");
+  abaAtiva = btn.dataset.aba;
+  render();
+});
+
+function aplicarAba(lista) {
+  if (abaAtiva !== "destaques") return lista;
+  const destacadas = lista.filter(o => o.destaque === true);
+  // Se ainda não houver nenhuma oferta marcada como destaque, mostra tudo
+  // em vez de deixar a aba vazia.
+  return destacadas.length ? destacadas : lista;
+}
+
+function atualizarContadoresAbas(baseFiltrada) {
+  const counts = {
+    todas: baseFiltrada.length,
+    destaques: baseFiltrada.filter(o => o.destaque === true).length || baseFiltrada.length,
+  };
+  $tabsNav.querySelectorAll(".contador").forEach(el => {
+    el.textContent = counts[el.dataset.count] ?? 0;
+  });
+}
+const $filtro = document.getElementById("filtro");
+const $cbBtn = document.getElementById("cbBtn");
+const $cbMenu = document.getElementById("cbMenu");
+const $cbLabel = document.getElementById("cbLabel");
+const $cbWrap = document.getElementById("cbWrap");
+
+function abrirMenu(abrir) {
+  $cbMenu.classList.toggle("hidden", !abrir);
+  $cbBtn.setAttribute("aria-expanded", String(abrir));
+}
+$cbBtn.addEventListener("click", () => abrirMenu($cbMenu.classList.contains("hidden")));
+document.addEventListener("click", e => { if (!$cbWrap.contains(e.target)) abrirMenu(false); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") abrirMenu(false); });
+
+function montarCategorias(lista) {
+  const opcoes = [["TODAS", "Todas as categorias"], ...lista.map(g => [g, g])];
+  $cbMenu.querySelectorAll("[data-opt]").forEach(n => n.remove());
+  opcoes.forEach(([valor, texto]) => {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.dataset.opt = valor;
+    b.setAttribute("role", "option");
+    b.className = "flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm font-medium transition hover:bg-[var(--cream-deep)]";
+    b.innerHTML = `<span class="flex-1 truncate">${texto}</span><span class="opt-check hidden" style="color:var(--accent)">&#10003;</span>`;
+    b.addEventListener("click", () => {
+      $filtro.value = valor;
+      $cbLabel.textContent = texto;
+      $cbMenu.querySelectorAll("[data-opt]").forEach(o => {
+        const ativo = o.dataset.opt === valor;
+        o.querySelector(".opt-check").classList.toggle("hidden", !ativo);
+        o.style.background = ativo ? "var(--cream-deep)" : "";
+        o.style.color = ativo ? "var(--primary)" : "";
+      });
+      abrirMenu(false);
+      render();
+    });
+    $cbMenu.appendChild(b);
+  });
+  $cbMenu.querySelector('[data-opt="TODAS"]').click();
+  abrirMenu(false);
+}
+const $busca = document.getElementById("busca");
+const $atual = document.getElementById("atualizacao");
+
+function render() {
+  const q = $busca.value.trim().toLowerCase();
+  const f = $filtro.value;
+  const base = ofertas.filter(o =>
+    (f === "TODAS" || (o.categoria||"").trim() === f) &&
+    (!q || o.titulo.toLowerCase().includes(q))
+  );
+  atualizarContadoresAbas(base);
+  const arr = aplicarAba(base);
+  if (!arr.length) {
+    const msg = abaAtiva === "destaques"
+      ? "Nenhuma oferta em destaque no momento."
+      : "Nenhuma oferta nesta categoria.";
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">${msg}</div>`;
+    return;
+  }
+  $lista.innerHTML = `<div class="grid grid-cols-1 gap-5 md:grid-cols-2">${arr.map(card).join("")}</div>`;
+  document.querySelectorAll("[data-cupom]").forEach(btn => {
+    btn.addEventListener("click", async () => {
+      await navigator.clipboard.writeText(btn.dataset.cupom);
+      const t = btn.innerText;
+      btn.innerText = "✓ Copiado";
+      setTimeout(() => btn.innerText = t, 1600);
+    });
+  });
+  document.querySelectorAll("[data-hist]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const d = JSON.parse(decodeURIComponent(btn.dataset.hist));
+      abrirHistorico(d.t, d.h);
+    });
+  });
+}
+
+const $modal = document.getElementById("modalHist");
+const $histTitulo = document.getElementById("histTitulo");
+const $histGrafico = document.getElementById("histGrafico");
+const $histResumo = document.getElementById("histResumo");
+
+// Aceita variações de nome vindas do backend e normaliza para {data, preco}
+function normalizarHistorico(p) {
+  const bruto = p.historico || p.historicoPrecos || p.historicoPreco || p.precos || p.priceHistory || [];
+  if (!Array.isArray(bruto)) return [];
+  return bruto.map(h => {
+    if (h == null) return null;
+    const data = h.data ?? h.dia ?? h.date ?? h.dataPreco ?? "";
+    let preco = h.preco ?? h.valor ?? h.price ?? h.precoPromocao ?? h.value;
+    if (typeof preco === "string") preco = Number(preco.replace(/[^\d,.-]/g, "").replace(/\.(?=\d{3}\b)/g, "").replace(",", "."));
+    preco = Number(preco);
+    return isFinite(preco) ? { data: String(data), preco } : null;
+  }).filter(Boolean);
+}
+
+function fmtBRL(v) {
+  return "R$ " + v.toFixed(2).replace(".", ",");
+}
+
+function graficoSVG(hist) {
+  const W = 460, H = 200, ML = 56, MR = 14, MT = 16, MB = 30;
+  const pts = hist.map(h => ({ d: h.data, v: Number(h.preco) })).filter(h => isFinite(h.v));
+  const vals = pts.map(p => p.v);
+  let min = Math.min(...vals), max = Math.max(...vals);
+  if (min === max) { min = min - 1; max = max + 1; }
+  const pad = (max - min) * 0.15; min -= pad; max += pad;
+  const x = i => ML + (pts.length === 1 ? (W-ML-MR)/2 : i * (W - ML - MR) / (pts.length - 1));
+  const y = v => MT + (H - MT - MB) * (1 - (v - min) / (max - min));
+  const linha = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(" ");
+  const area = `${linha} L${x(pts.length-1).toFixed(1)},${H-MB} L${x(0).toFixed(1)},${H-MB} Z`;
+  const valoresUnicos = [...new Set(vals)].sort((a, b) => a - b);
+  // Ao percorrer os valores em ordem crescente, se o próximo colidir (em
+  // pixels) com o último rótulo mantido, ele SUBSTITUI esse último — assim
+  // sobra sempre o maior dos dois que se sobrepunham, não um rótulo fixo
+  // pro gráfico inteiro.
+  const DIST_MIN_ROTULO = 14;
+  const mantidos = [];
+  valoresUnicos.forEach(v => {
+    const yy = y(v);
+    if (mantidos.length && Math.abs(yy - mantidos[mantidos.length - 1].yy) < DIST_MIN_ROTULO) {
+      mantidos[mantidos.length - 1] = { v, yy };
+    } else {
+      mantidos.push({ v, yy });
+    }
+  });
+  const grades = mantidos.map(({ v, yy }) =>
+    `<line x1="${ML}" y1="${yy.toFixed(1)}" x2="${W-MR}" y2="${yy.toFixed(1)}" stroke="var(--border)" stroke-width="1"/>
+      <text x="${ML-8}" y="${(yy+3.5).toFixed(1)}" text-anchor="end" font-size="9" fill="var(--muted-ink)">${fmtBRL(v)}</text>`
+  ).join("");
+  const passo = Math.max(1, Math.ceil(pts.length / 6));
+  const rotulos = pts.map((p, i) => (i % passo === 0 || i === pts.length - 1)
+    ? `<text x="${x(i).toFixed(1)}" y="${H-10}" text-anchor="middle" font-size="9" fill="var(--muted-ink)">${p.d.slice(0,5)}</text>` : "").join("");
+  const minIdx = vals.indexOf(Math.min(...vals));
+  const bolinhas = pts.map((p, i) => `<circle cx="${x(i).toFixed(1)}" cy="${y(p.v).toFixed(1)}" r="${i === minIdx ? 4.5 : 3}" fill="${i === minIdx ? "#059669" : "var(--primary)"}"><title>${p.d} · ${fmtBRL(p.v)}</title></circle>`).join("");
+  return `<svg viewBox="0 0 ${W} ${H}" class="w-full" role="img" aria-label="Gráfico de histórico de preços">
+    <defs><linearGradient id="gArea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="var(--primary)" stop-opacity="0"/>
+    </linearGradient></defs>
+    ${grades}
+    <path d="${area}" fill="url(#gArea)"/>
+    <path d="${linha}" fill="none" stroke="var(--primary)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    ${bolinhas}${rotulos}
+  </svg>`;
+}
+
+function abrirHistorico(titulo, hist) {
+  $histTitulo.textContent = titulo;
+  $histGrafico.innerHTML = graficoSVG(hist);
+  const vals = hist.map(h => Number(h.preco)).filter(v => isFinite(v));
+  const atual = vals[vals.length - 1], min = Math.min(...vals), max = Math.max(...vals);
+  $histResumo.textContent = `Atual ${fmtBRL(atual)} · Menor ${fmtBRL(min)} · Maior ${fmtBRL(max)} · ${hist.length} registros`;
+  $modal.classList.remove("hidden");
+}
+
+function fecharHistorico() { $modal.classList.add("hidden"); }
+document.getElementById("histFechar").addEventListener("click", fecharHistorico);
+$modal.addEventListener("click", e => { if (e.target === $modal) fecharHistorico(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") fecharHistorico(); });
+
+function card(p) {
+  const precoAntigo = (p.precoOriginal||"").replace(/\u00a0/g,"").trim();
+  const precoNovo   = (p.precoPromocao||"0,00").replace(/\u00a0/g,"").trim();
+  // Usa a mensagem pronta que já vem do backend (com o número de dias correto,
+  // ex.: "Menor preço dos últimos 30 dias.") em vez de texto fixo no front —
+  // ver OfertaDTO#menorPrecoMensagem / alerta.menor-preco.dias no backend.
+  const menorPrecoTexto = (p.menorPrecoMensagem || "").trim();
+  
+  
+  console.log(`Produto: ${p.titulo}`, p.historico, normalizarHistorico(p));
+  const hist = normalizarHistorico(p);
+  const temHist = hist.length > 0;
+  return `
+  <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
+    <div class="relative flex shrink-0 items-center justify-center p-4 sm:w-44" style="background:var(--cream-deep)">
+      ${p.tag ? `<span class="absolute left-3 top-3 rounded-md bg-destructive px-2 py-0.5 text-[11px] font-bold text-white shadow">${p.tag.trim()}</span>` : ""}
+      <img src="${p.imagem}" alt="${p.titulo}" loading="lazy" class="h-32 w-full object-contain transition duration-300 group-hover:scale-105 sm:h-36" />
+    </div>
+    <div class="flex flex-1 flex-col gap-3 p-5">
+      <div>
+        <h3 class="text-[15px] font-semibold leading-snug">${p.titulo}</h3>
+        ${menorPrecoTexto ? `<div class="mt-2 inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-2.5 py-1 text-[11px] font-semibold text-emerald-700">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline><polyline points="17 18 23 18 23 12"></polyline></svg>
+          ${menorPrecoTexto}
+        </div>` : ""}
+        ${p.dataOferta ? `<p class="mt-1 text-[11px]" style="color:var(--muted-ink)">Oferta de: ${p.dataOferta}</p>` : ""}
+      </div>
+      <div class="mt-auto flex flex-wrap items-end justify-between gap-3">
+        <div class="flex flex-col">
+          ${precoAntigo ? `<span class="text-xs line-through" style="color:var(--muted-ink)">R$ ${precoAntigo}</span>` : ""}
+          <span class="text-serif text-2xl font-bold leading-none text-primary">R$ ${precoNovo}</span>
+        </div>
+        <div class="flex flex-wrap items-center gap-2">
+          ${temHist ? `<button data-hist="${encodeURIComponent(JSON.stringify({t:p.titulo,h:hist}))}" class="inline-flex items-center gap-1.5 rounded-lg border px-3 py-2 text-xs font-semibold text-primary transition hover:bg-primary/5" style="border-color:var(--border)">
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
+            Ver Histórico
+          </button>` : ""}
+          ${p.cupom ? `<button data-cupom="${p.cupom}" class="inline-flex items-center gap-1.5 rounded-lg border border-dashed border-primary/50 bg-primary/5 px-2.5 py-1.5 text-xs font-semibold text-primary transition hover:bg-primary/10">⧉ ${p.cupom}</button>` : ""}
+          <a href="${p.linkAfiliado}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-soft transition hover:opacity-90">Aproveitar ↗</a>
+        </div>
+      </div>
+    </div>
+  </article>`;
+}
+
+fetch("promocoes.json").then(r => r.ok ? r.json() : Promise.reject())
+  .then(d => {
+    ofertas = d.ofertas || [];
+    if (d.ultimaAtualizacao) $atual.textContent = "Atualizado em: " + d.ultimaAtualizacao;
+    const grupos = [...new Set(ofertas.map(o => (o.categoria||"").trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));
+    montarCategorias(grupos);
+    render();
+  })
+  .catch(() => {
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Coloque o arquivo <code>promocoes.json</code> na mesma pasta deste HTML.</div>`;
+  });
+
+$busca.addEventListener("input", render);
+montarCategorias([]);
+</script>
+</body>
+</html>

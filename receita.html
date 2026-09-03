@@ -1,0 +1,268 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title id="pageTitle">Receita — Cura Domus</title>
+<meta id="pageDescription" name="description" content="Receita da Cura Domus." />
+<link rel="icon" type="image/png" href="curadomus_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          background: 'var(--background)',
+          foreground: 'var(--ink)',
+          card: 'var(--card)',
+          border: 'var(--border)',
+          muted: 'var(--muted)',
+          'muted-foreground': 'var(--muted-ink)',
+          primary: 'var(--primary)',
+          'primary-foreground': '#fff',
+          accent: 'var(--accent)',
+          destructive: 'var(--destructive)',
+        },
+        boxShadow: {
+          soft: '0 1px 2px rgba(30,25,20,0.04), 0 2px 8px rgba(30,25,20,0.04)',
+          card: '0 10px 30px -12px rgba(30,25,20,0.18)',
+        },
+        fontFamily: {
+          serif: ['"Cormorant Garamond"', 'serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+<style>
+  :root {
+    --background: #FBF7F1;
+    --cream-deep: #F3ECDF;
+    --card: #FFFFFF;
+    --ink: #2B241E;
+    --muted: #EFE7DA;
+    --muted-ink: #7A6E60;
+    --border: #E7DFD1;
+    --primary: #6E5334;
+    --primary-deep: #4E3A22;
+    --accent: #C9A96A;
+    --destructive: #B4441F;
+  }
+  html, body { background: var(--background); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
+  .text-serif { font-family: "Cormorant Garamond", serif; letter-spacing: -0.01em; }
+  .text-primary { color: var(--primary); }
+  .bg-primary { background: var(--primary); }
+  .text-primary-foreground { color: #fff; }
+  .hidden { display: none !important; }
+  @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
+  .animate-fade-up { animation: fade-up .4s ease both; }
+</style>
+</head>
+<body>
+<div class="min-h-screen">
+
+  <nav class="border-b" style="border-color:var(--border)">
+    <div class="mx-auto flex max-w-4xl items-center justify-between px-6 py-4">
+      <a href="blog.html" class="inline-flex items-center gap-2 text-xs font-semibold text-primary transition hover:opacity-80">
+        ← Voltar para as receitas
+      </a>
+      <a href="index.html"><img src="curadomus_logo.png" alt="Cura Domus" class="h-8 opacity-90" /></a>
+    </div>
+  </nav>
+
+  <!-- Estado de carregamento -->
+  <div id="estadoCarregando" class="mx-auto max-w-4xl px-6 py-24 text-center text-sm" style="color:var(--muted-ink)">
+    Carregando receita…
+  </div>
+
+  <!-- Estado de erro -->
+  <div id="estadoErro" class="hidden mx-auto max-w-4xl px-6 py-24 text-center">
+    <h1 class="text-serif text-3xl text-primary">Receita não encontrada</h1>
+    <p class="mt-3 text-sm" style="color:var(--muted-ink)">Não conseguimos localizar essa receita. Ela pode ter sido removida ou o link está incorreto.</p>
+    <a href="blog.html" class="mt-6 inline-flex items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-soft transition hover:opacity-90">Ver todas as receitas</a>
+  </div>
+
+  <div id="conteudo" class="hidden">
+    <header class="mx-auto max-w-4xl px-6 pt-10 pb-8 text-center sm:text-left">
+      <div id="eyebrow" class="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary"></div>
+      <h1 id="titulo" class="text-serif mt-2 text-3xl sm:text-5xl font-medium leading-tight text-primary"></h1>
+      <p id="descricao" class="mt-3 text-base leading-relaxed" style="color:var(--muted-ink)"></p>
+
+      <div id="metaBar" class="mt-6 flex flex-wrap items-center justify-center gap-4 border-y py-3 text-xs sm:justify-start" style="border-color:var(--border); color:var(--muted-ink)"></div>
+    </header>
+
+    <main class="mx-auto max-w-4xl px-6 pb-24">
+      <div class="grid grid-cols-1 gap-10 md:grid-cols-12">
+
+        <aside class="md:col-span-5">
+          <div class="rounded-2xl border p-6 shadow-soft sticky top-6" style="border-color:var(--border); background:var(--card)">
+            <h2 class="text-serif text-2xl font-bold text-primary mb-4 border-b pb-2" style="border-color:var(--border)">
+              Ingredientes
+            </h2>
+            <ul id="ingredientes" class="space-y-3 text-sm"></ul>
+          </div>
+        </aside>
+
+        <article class="md:col-span-7 space-y-8">
+          <section>
+            <h2 class="text-serif text-2xl font-bold text-primary mb-4">Modo de Preparo</h2>
+            <ol id="modoPreparo" class="space-y-4 text-sm leading-relaxed"></ol>
+          </section>
+
+          <div id="dica" class="hidden rounded-xl border border-dashed p-4 text-xs leading-relaxed" style="border-color:var(--accent); background: color-mix(in srgb, var(--cream-deep) 40%, transparent)">
+            <span id="dicaTitulo" class="font-bold text-primary uppercase tracking-wider block mb-1"></span>
+            <span id="dicaTexto"></span>
+          </div>
+        </article>
+      </div>
+
+      <section id="secaoProdutos" class="hidden mt-16 border-t pt-10" style="border-color:var(--border)">
+        <div class="mb-6">
+          <div class="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">
+            ✦ Facilite seu preparo
+          </div>
+          <h2 class="text-serif mt-1 text-2xl sm:text-3xl">Faltou algum ingrediente ou utensílio? Compre aqui</h2>
+          <p class="mt-1 text-xs" style="color:var(--muted-ink)">Selecionamos os melhores preços para os itens dessa receita.</p>
+        </div>
+        <div id="produtosSugeridos" class="grid grid-cols-1 gap-5 md:grid-cols-2"></div>
+      </section>
+    </main>
+  </div>
+
+  <footer class="border-t" style="border-color:var(--border); background: color-mix(in srgb, var(--card) 40%, transparent)">
+    <div class="mx-auto flex max-w-4xl flex-col items-center gap-3 px-6 py-8 text-center">
+      <img src="curadomus_logo.png" alt="Cura Domus" class="h-10 opacity-80" />
+      <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
+    </div>
+  </footer>
+</div>
+
+<script>
+// ---------- Utilitários ----------
+function fmtBRL(v) {
+  const n = Number(v);
+  return isFinite(n) ? "R$ " + n.toFixed(2).replace(".", ",") : "";
+}
+
+function el(id) { return document.getElementById(id); }
+
+function mostrarErro() {
+  el("estadoCarregando").classList.add("hidden");
+  el("estadoErro").classList.remove("hidden");
+}
+
+// ---------- Card de produto (mesmo padrão usado nas ofertas do site) ----------
+function produtoCard(p) {
+  const precoAntigo = (p.precoOriginal || "").toString().replace(/\u00a0/g, "").trim();
+  const precoNovo = (p.precoPromocao || "0,00").toString().replace(/\u00a0/g, "").trim();
+  const menorPrecoTexto = (p.menorPrecoMensagem || "").trim();
+
+  return `
+  <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
+    <div class="relative flex shrink-0 items-center justify-center p-4 sm:w-40" style="background:var(--cream-deep)">
+      ${p.tag ? `<span class="absolute left-3 top-3 rounded-md bg-destructive px-2 py-0.5 text-[10px] font-bold text-white shadow">${p.tag.trim()}</span>` : ""}
+      <img src="${p.imagem}" alt="${p.titulo}" loading="lazy" class="h-28 w-full object-contain transition duration-300 group-hover:scale-105" />
+    </div>
+    <div class="flex flex-1 flex-col gap-2 p-4">
+      <div>
+        <h3 class="text-[14px] font-semibold leading-snug">${p.titulo}</h3>
+        ${menorPrecoTexto ? `<div class="mt-1.5 inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-semibold text-emerald-700">${menorPrecoTexto}</div>` : ""}
+      </div>
+      <div class="mt-auto flex items-end justify-between gap-2 pt-2">
+        <div class="flex flex-col">
+          ${precoAntigo ? `<span class="text-xs line-through" style="color:var(--muted-ink)">R$ ${precoAntigo}</span>` : ""}
+          <span class="text-serif text-xl font-bold leading-none text-primary">R$ ${precoNovo}</span>
+        </div>
+        <a href="${p.linkAfiliado || "#"}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1 rounded-lg bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground shadow-soft transition hover:opacity-90">Comprar ↗</a>
+      </div>
+    </div>
+  </article>`;
+}
+
+// ---------- Render principal ----------
+// Se o passo começa com "Algo curto:", deixa essa primeira parte em negrito
+// (mesmo efeito visual de antes, sem precisar de um campo separado no JSON).
+function formatarPasso(passo) {
+  const m = passo.match(/^([^:]{3,40}):\s*(.+)$/s);
+  return m ? `<strong>${m[1]}:</strong> ${m[2]}` : passo;
+}
+
+function renderReceita(receita) {
+  document.title = receita.titulo + " — Cura Domus";
+  el("pageDescription").setAttribute("content", receita.resumo || "");
+  el("eyebrow").textContent = "✦ " + (receita.categoria || "Receita");
+  el("titulo").textContent = receita.titulo;
+  el("descricao").textContent = receita.resumo || "";
+
+  const meta = [
+    receita.tempoPreparo ? `⏱ <strong>Preparo:</strong> ${receita.tempoPreparo}` : "",
+    receita.tempoForno ? `🔥 <strong>Forno:</strong> ${receita.tempoForno}` : "",
+    receita.rendimento ? `🍰 <strong>Rendimento:</strong> ${receita.rendimento}` : "",
+    receita.custoMedio ? `💰 <strong>Custo Médio:</strong> R$ ${receita.custoMedio}` : "",
+  ].filter(Boolean);
+  el("metaBar").innerHTML = meta.map((m, i) => `<span class="flex items-center gap-1.5">${m}</span>${i < meta.length - 1 ? "<span>•</span>" : ""}`).join("");
+
+  el("ingredientes").innerHTML = (receita.ingredientes || []).map((texto, i) => `
+    <li class="flex items-start gap-2">
+      <input type="checkbox" class="mt-1 accent-[var(--primary)] rounded cursor-pointer" id="ing-${i}">
+      <label for="ing-${i}" class="cursor-pointer">${texto}</label>
+    </li>`).join("");
+
+  el("modoPreparo").innerHTML = (receita.modoPreparo || []).map((passo, i) => `
+    <li class="flex gap-4">
+      <span class="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[var(--cream-deep)] font-semibold text-primary text-xs">${i + 1}</span>
+      <div>${formatarPasso(passo)}</div>
+    </li>`).join("");
+
+  if (receita.dica) {
+    el("dicaTitulo").textContent = "💡 Dica de Economia Doméstica";
+    el("dicaTexto").textContent = receita.dica;
+    el("dica").classList.remove("hidden");
+  }
+
+  el("estadoCarregando").classList.add("hidden");
+  el("conteudo").classList.remove("hidden");
+}
+
+// Cruza receita.produtos (lista de pids) com os itens de promocoes.json.
+// Se um pid não existir mais na lista de ofertas, ele é simplesmente
+// ignorado — assim a seção nunca aponta pra um produto fora do ar.
+function renderProdutosSugeridos(pids, ofertas) {
+  if (!pids || !pids.length) return;
+  const porPid = new Map(ofertas.map(o => [o.pid, o]));
+  const encontrados = pids.map(pid => porPid.get(pid)).filter(Boolean);
+
+  if (!encontrados.length) return;
+  el("produtosSugeridos").innerHTML = encontrados.map(produtoCard).join("");
+  el("secaoProdutos").classList.remove("hidden");
+}
+
+// ---------- Carregamento ----------
+const params = new URLSearchParams(location.search);
+const slug = params.get("r");
+
+if (!slug) {
+  mostrarErro();
+} else {
+  fetch("receitas.json")
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(d => {
+      const receita = (d.receitas || []).find(r => r.slug === slug);
+      if (!receita) throw new Error("Receita não encontrada");
+      renderReceita(receita);
+      // Produtos sugeridos são opcionais — se o fetch de promoções falhar,
+      // a receita continua sendo exibida normalmente, só sem essa seção.
+      fetch("promocoes.json")
+        .then(r => r.ok ? r.json() : Promise.reject())
+        .then(pd => renderProdutosSugeridos(receita.produtos, pd.ofertas || []))
+        .catch(() => {});
+    })
+    .catch(mostrarErro);
+}
+</script>
+</body>
+</html>
