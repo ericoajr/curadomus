@@ -159,7 +159,10 @@ function mostrarErro() {
 function produtoCard(p) {
   const precoAntigo = (p.precoOriginal || "").toString().replace(/\u00a0/g, "").trim();
   const precoNovo = (p.precoPromocao || "0,00").toString().replace(/\u00a0/g, "").trim();
-  const menorPrecoTexto = (p.menorPrecoMensagem || "").trim();
+  // menorPrecoMensagem: texto pronto, se algum dia vocês passarem a gerar um.
+  // menorPrecoEmDias: booleano que já vem do promocoes.json real.
+  const menorPrecoTexto = (p.menorPrecoMensagem || "").trim() ||
+    (p.menorPrecoEmDias ? "Menor preço dos últimos dias" : "");
 
   return `
   <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
@@ -233,8 +236,10 @@ function renderReceita(receita) {
 // ignorado — assim a seção nunca aponta pra um produto fora do ar.
 function renderProdutosSugeridos(pids, ofertas) {
   if (!pids || !pids.length) return;
-  const porPid = new Map(ofertas.map(o => [o.pid, o]));
-  const encontrados = pids.map(pid => porPid.get(pid)).filter(Boolean);
+  // Compara sempre como texto: o promocoes.json guarda pid como número
+  // (234, 5864...), então normalizamos os dois lados antes de cruzar.
+  const porPid = new Map(ofertas.map(o => [String(o.pid), o]));
+  const encontrados = pids.map(pid => porPid.get(String(pid))).filter(Boolean);
 
   if (!encontrados.length) return;
   el("produtosSugeridos").innerHTML = encontrados.map(produtoCard).join("");
