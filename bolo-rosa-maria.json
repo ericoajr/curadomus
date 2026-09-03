@@ -1,0 +1,45 @@
+{
+  "slug": "bolo-economico-maca-casca",
+  "titulo": "Bolo Econômico de Maçã com Casca e Canela",
+  "eyebrow": "Culinária Econômica",
+  "descricao": "Uma receita de reaproveitamento integral, fofinha e com custo estimado de menos de R$ 12,00 para a família toda.",
+  "tempoPreparo": "15 min",
+  "tempoForno": "40 min",
+  "rendimento": "10 porções",
+  "custoMedio": "11,80",
+  "ingredientes": [
+    { "id": "ing1", "texto": "3 maçãs médias (com casca)" },
+    { "id": "ing2", "texto": "3 ovos inteiros" },
+    { "id": "ing3", "texto": "1/2 xícara de óleo vegetal" },
+    { "id": "ing4", "texto": "1.5 xícara de açúcar refino ou demerara" },
+    { "id": "ing5", "texto": "2 xícaras de farinha de trigo" },
+    { "id": "ing6", "texto": "1 colher (sopa) de fermento em pó" },
+    { "id": "ing7", "texto": "1 colher (chá) de canela em pó" }
+  ],
+  "modoPreparo": [
+    {
+      "titulo": "Bata a base líquida",
+      "texto": "No liquidificador, bata as cascas das 3 maçãs, os ovos e o óleo até obter um creme liso e homogêneo."
+    },
+    {
+      "titulo": "Prepare as frutas",
+      "texto": "Pique a polpa das maçãs em cubos pequenos e reserve polvilhada com um pouco de canela."
+    },
+    {
+      "titulo": "Misture os secos",
+      "texto": "Em uma tigela grande, peneire a farinha de trigo e o açúcar. Adicione a mistura do liquidificador e mexa delicadamente."
+    },
+    {
+      "titulo": "Finalize e asse",
+      "texto": "Adicione as maçãs picadas e o fermento. Despeje em uma forma untada e asse em forno pré-aquecido a 180°C por 40 minutos."
+    }
+  ],
+  "dica": {
+    "titulo": "Dica de Saúde",
+    "texto": "Substitua o achocolotado por cacau 70%."
+  },
+  "produtosSugeridos": [
+    { "pid": "5864" },
+    { "pid": "4900" }
+  ]
+}
