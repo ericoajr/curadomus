@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "03/09/2026 10:07",
+  "ultimaAtualizacao" : "03/09/2026 10:37",
   "ofertas" : [ {
     "pid" : 5864,
     "id" : 140135,
@@ -554,6 +554,86 @@
     }, {
       "data" : "03/09/2026",
       "preco" : 17.49
+    } ]
+  }, {
+    "pid" : 3672,
+    "id" : 140789,
+    "titulo" : "5 Star display com 18 unidades de 40g",
+    "imagem" : "https://m.media-amazon.com/images/I/61OZuFw8iYL._AC_SL1500_.jpg",
+    "precoOriginal" : "86,22",
+    "precoPromocao" : "58,90",
+    "tag" : "-31%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07Y5H7R88?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "03/09/2026 10:13",
+    "destaque" : true,
+    "precoAnterior" : "73,50",
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 71.68
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 71.85
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 73.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 73.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 73.5
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 73.5
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 58.9
     } ]
   }, {
     "pid" : 249,
@@ -4785,6 +4865,85 @@
       "preco" : 43.02
     } ]
   }, {
+    "pid" : 4157,
+    "id" : 139553,
+    "titulo" : "BIC, Lápis de Cor Sextavado, Evolution, 24 Cores",
+    "imagem" : "https://m.media-amazon.com/images/I/61m1k3wVSWL._AC_SL1000_.jpg",
+    "precoOriginal" : "28,91",
+    "precoPromocao" : "16,50",
+    "tag" : "-42%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0778T3SRK?tag=curadomus-20",
+    "categoria" : "Papelaria e Escritório",
+    "categoriaId" : 4,
+    "dataOferta" : "03/09/2026 10:29",
+    "destaque" : false,
+    "precoAnterior" : "23,90",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "05/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 16.5
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 23.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 16.5
+    } ]
+  }, {
     "pid" : 84,
     "id" : 138778,
     "titulo" : "Bichodário",
@@ -7154,7 +7313,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09WBWZ238?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "02/09/2026 12:37",
+    "dataOferta" : "03/09/2026 10:11",
     "destaque" : false,
     "precoAnterior" : "66,89",
     "menorPrecoEmDias" : false,
@@ -7217,6 +7376,9 @@
       "preco" : 66.89
     }, {
       "data" : "02/09/2026",
+      "preco" : 66.89
+    }, {
+      "data" : "03/09/2026",
       "preco" : 66.89
     } ]
   }, {
@@ -12061,11 +12223,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07VJJL6YV?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "02/09/2026 12:59",
-    "destaque" : true,
-    "precoAnterior" : "44,93",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "dataOferta" : "03/09/2026 10:34",
+    "destaque" : false,
+    "precoAnterior" : "42,65",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
       "preco" : 49.8
@@ -12127,6 +12288,9 @@
       "preco" : 44.93
     }, {
       "data" : "02/09/2026",
+      "preco" : 42.65
+    }, {
+      "data" : "03/09/2026",
       "preco" : 42.65
     } ]
   }, {
@@ -22619,11 +22783,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BGJF5TNL?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "02/09/2026 12:53",
-    "destaque" : true,
-    "precoAnterior" : "85,90",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "dataOferta" : "03/09/2026 10:28",
+    "destaque" : false,
+    "precoAnterior" : "82,90",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
       "preco" : 102.05
@@ -22679,6 +22842,9 @@
       "preco" : 85.9
     }, {
       "data" : "02/09/2026",
+      "preco" : 82.9
+    }, {
+      "data" : "03/09/2026",
       "preco" : 82.9
     } ]
   }, {
@@ -24641,7 +24807,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B071FNWFJR?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "02/09/2026 12:56",
+    "dataOferta" : "03/09/2026 10:31",
     "destaque" : false,
     "precoAnterior" : "43,01",
     "menorPrecoEmDias" : false,
@@ -24707,6 +24873,9 @@
       "preco" : 43.01
     }, {
       "data" : "02/09/2026",
+      "preco" : 43.01
+    }, {
+      "data" : "03/09/2026",
       "preco" : 43.01
     } ]
   }, {
@@ -29563,6 +29732,84 @@
       "preco" : 48.94
     } ]
   }, {
+    "pid" : 4192,
+    "id" : 140804,
+    "titulo" : "O nabo gigante",
+    "imagem" : "https://m.media-amazon.com/images/I/71hrN8miBlL._SL1200_.jpg",
+    "precoOriginal" : "39,90",
+    "precoPromocao" : "23,35",
+    "tag" : "-41%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6555005351?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "03/09/2026 10:36",
+    "destaque" : false,
+    "precoAnterior" : "21,01",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "05/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 21.57
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 21.57
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 21.57
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "26/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 21.01
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 23.35
+    } ]
+  }, {
     "pid" : 2690,
     "id" : 140722,
     "titulo" : "O nome das coisas: Passeio na fazenda",
@@ -34415,11 +34662,10 @@
     "linkAfiliado" : "https://meli.la/1MfHAEc",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "02/09/2026 12:51",
-    "destaque" : true,
-    "precoAnterior" : "59,42",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
+    "dataOferta" : "03/09/2026 10:13",
+    "destaque" : false,
+    "precoAnterior" : "58,64",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "15/08/2026",
       "preco" : 68.0
@@ -34458,6 +34704,9 @@
       "preco" : 59.42
     }, {
       "data" : "02/09/2026",
+      "preco" : 58.64
+    }, {
+      "data" : "03/09/2026",
       "preco" : 58.64
     } ]
   }, {
@@ -37454,6 +37703,88 @@
       "preco" : 10.78
     } ]
   }, {
+    "pid" : 3597,
+    "id" : 140788,
+    "titulo" : "Sabonete Líquido para Bebê, 400 Ml, Buba Care",
+    "imagem" : "https://m.media-amazon.com/images/I/41YAM06qfqL._AC_SL1000_.jpg",
+    "precoOriginal" : "32,90",
+    "precoPromocao" : "25,60",
+    "tag" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CSF1ZK6Y?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "03/09/2026 10:11",
+    "destaque" : false,
+    "precoAnterior" : "25,60",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "07/08/2026",
+      "preco" : 26.4
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 26.3
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 27.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 27.0
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 26.4
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 26.83
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 26.3
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 26.3
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 26.3
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 26.82
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 26.82
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 26.4
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 26.3
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 26.3
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 26.3
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 25.8
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 25.8
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 26.35
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 26.35
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 25.89
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 25.6
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 25.6
+    } ]
+  }, {
     "pid" : 3069,
     "id" : 139359,
     "titulo" : "Sabonete Líquido Refil Glicerina Da Cabeça Aos Pés Johnson's Baby, 380ml",
@@ -38816,16 +39147,15 @@
     "titulo" : "Suplemento Infantil Ascenda Sem Sabor 800G",
     "imagem" : "https://m.media-amazon.com/images/I/51DchdAdFqL._AC_SL1000_.jpg",
     "precoOriginal" : "124,39",
-    "precoPromocao" : "69,90",
-    "tag" : "-43%",
+    "precoPromocao" : "88,82",
+    "tag" : "-28%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09K2Y66Q3?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "02/09/2026 12:38",
-    "destaque" : true,
-    "precoAnterior" : "88,81",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "dataOferta" : "03/09/2026 10:11",
+    "destaque" : false,
+    "precoAnterior" : "69,90",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
       "preco" : 83.19
@@ -38889,6 +39219,9 @@
     }, {
       "data" : "02/09/2026",
       "preco" : 69.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 88.82
     } ]
   }, {
     "pid" : 5588,
@@ -39443,11 +39776,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07PPQ5WW7?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "02/09/2026 12:57",
-    "destaque" : true,
-    "precoAnterior" : "47,52",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
+    "dataOferta" : "03/09/2026 10:32",
+    "destaque" : false,
+    "precoAnterior" : "45,81",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "05/08/2026",
       "preco" : 64.89
@@ -39507,6 +39839,9 @@
       "preco" : 47.52
     }, {
       "data" : "02/09/2026",
+      "preco" : 45.81
+    }, {
+      "data" : "03/09/2026",
       "preco" : 45.81
     } ]
   }, {
