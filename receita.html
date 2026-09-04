@@ -222,7 +222,7 @@ function renderReceita(receita) {
     </li>`).join("");
 
   if (receita.dica) {
-    el("dicaTitulo").textContent = "💡 Dica de Economia Doméstica";
+    el("dicaTitulo").textContent = "💡 Dica";
     el("dicaTexto").textContent = receita.dica;
     el("dica").classList.remove("hidden");
   }
