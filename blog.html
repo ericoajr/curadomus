@@ -250,7 +250,7 @@ fetch("receitas.json").then(r => r.ok ? r.json() : Promise.reject())
     render();
   })
   .catch(() => {
-    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Coloque o arquivo <code>receitas.json</code> na mesma pasta deste HTML.</div>`;
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Nenhuma receita encontrada.</div>`;
   });
 
 $busca.addEventListener("input", render);
