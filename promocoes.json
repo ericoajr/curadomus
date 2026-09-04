@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "04/09/2026 14:52",
+  "ultimaAtualizacao" : "04/09/2026 15:52",
   "ofertas" : [ {
     "pid" : 234,
     "id" : 144316,
@@ -356,6 +356,87 @@
       "preco" : 19.49
     } ]
   }, {
+    "pid" : 976,
+    "id" : 146500,
+    "titulo" : "3 Corações Café Torrado e Moído Tradicional, 500g vácuo",
+    "imagem" : "https://m.media-amazon.com/images/I/61bthJCibtL._AC_SL1200_.jpg",
+    "precoOriginal" : "48,06",
+    "precoPromocao" : "29,89",
+    "tag" : "-37%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08S1NXKS1?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "04/09/2026 15:22",
+    "destaque" : false,
+    "precoAnterior" : "29,89",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026"
+    }, {
+      "data" : "07/08/2026"
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "09/08/2026"
+    }, {
+      "data" : "10/08/2026"
+    }, {
+      "data" : "12/08/2026"
+    }, {
+      "data" : "13/08/2026"
+    }, {
+      "data" : "14/08/2026"
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "16/08/2026"
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 30.89
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "27/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 25.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 25.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 25.99
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 29.89
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 29.89
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 29.89
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 29.89
+    } ]
+  }, {
     "pid" : 3063,
     "id" : 145408,
     "titulo" : "3 Corações Cappuccino 3Corações Classic - 200G, Pote",
@@ -512,15 +593,16 @@
     "titulo" : "3 Corações Cappuccino Sabor Cookies n' Cream, 200g",
     "imagem" : "https://m.media-amazon.com/images/I/61oKn298oOL._AC_SL1200_.jpg",
     "precoOriginal" : "22,90",
-    "precoPromocao" : "18,39",
-    "tag" : "-19%",
+    "precoPromocao" : "15,99",
+    "tag" : "-30%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CN3K431G?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 08:44",
-    "destaque" : false,
+    "dataOferta" : "04/09/2026 15:06",
+    "destaque" : true,
     "precoAnterior" : "18,39",
-    "menorPrecoEmDias" : false,
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
     "historico" : [ {
       "data" : "06/08/2026",
       "preco" : 18.39
@@ -595,7 +677,7 @@
       "preco" : 18.39
     }, {
       "data" : "04/09/2026",
-      "preco" : 18.39
+      "preco" : 15.99
     } ]
   }, {
     "pid" : 547,
@@ -608,7 +690,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DDQNKR4C?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 08:43",
+    "dataOferta" : "04/09/2026 15:06",
     "destaque" : false,
     "precoAnterior" : "17,49",
     "menorPrecoEmDias" : false,
@@ -2145,7 +2227,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6585310020?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:52",
+    "dataOferta" : "04/09/2026 15:14",
     "destaque" : false,
     "precoAnterior" : "20,86",
     "menorPrecoEmDias" : false,
@@ -2318,7 +2400,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8535906738?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:40",
+    "dataOferta" : "04/09/2026 15:04",
     "destaque" : false,
     "precoAnterior" : "62,93",
     "menorPrecoEmDias" : false,
@@ -4758,7 +4840,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8537636355?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:52",
+    "dataOferta" : "04/09/2026 15:15",
     "destaque" : false,
     "precoAnterior" : "14,33",
     "menorPrecoEmDias" : false,
@@ -6474,6 +6556,97 @@
       "preco" : 82.85
     } ]
   }, {
+    "pid" : 1097,
+    "id" : 146539,
+    "titulo" : "Azeite de Oliva Andorinha Extra Virgem Pet 2L",
+    "imagem" : "https://m.media-amazon.com/images/I/61gbGO8TzAL._AC_SL1500_.jpg",
+    "precoOriginal" : "129,90",
+    "precoPromocao" : "108,19",
+    "tag" : "-16%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BHTL6DJ1?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "04/09/2026 15:31",
+    "destaque" : false,
+    "precoAnterior" : "108,19",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 154.7
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 154.7
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 154.7
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 154.7
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 154.7
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 154.7
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 119.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 108.19
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 108.19
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 108.19
+    } ]
+  }, {
     "pid" : 3077,
     "id" : 145422,
     "titulo" : "Azeite Italiano Extra Virgem Paganini 500ml",
@@ -6602,7 +6775,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B078HS3SKS?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:31",
+    "dataOferta" : "04/09/2026 14:54",
     "destaque" : false,
     "precoAnterior" : "21,59",
     "menorPrecoEmDias" : false,
@@ -6677,14 +6850,14 @@
     "titulo" : "Baby Dove Sabonete Líquido Hidratação Glicerinada 400 ML",
     "imagem" : "https://m.media-amazon.com/images/I/61bL8uVCTxL._AC_SL1500_.jpg",
     "precoOriginal" : "33,99",
-    "precoPromocao" : "20,94",
-    "tag" : "-39%",
+    "precoPromocao" : "21,59",
+    "tag" : "-36%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07ZHGT9ZT?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:48",
+    "dataOferta" : "04/09/2026 15:33",
     "destaque" : false,
-    "precoAnterior" : "20,50",
+    "precoAnterior" : "20,94",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
@@ -6759,7 +6932,7 @@
       "preco" : 20.5
     }, {
       "data" : "04/09/2026",
-      "preco" : 20.94
+      "preco" : 21.59
     } ]
   }, {
     "pid" : 6322,
@@ -7176,7 +7349,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B005K7J1Z8?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 09:02",
+    "dataOferta" : "04/09/2026 15:24",
     "destaque" : false,
     "precoAnterior" : "13,19",
     "menorPrecoEmDias" : false,
@@ -7263,7 +7436,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B003OH8F6M?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 09:01",
+    "dataOferta" : "04/09/2026 15:23",
     "destaque" : false,
     "precoAnterior" : "11,99",
     "menorPrecoEmDias" : false,
@@ -7822,9 +7995,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B096KDKNNQ?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:49",
+    "dataOferta" : "04/09/2026 15:34",
     "destaque" : false,
-    "precoAnterior" : "39,98",
+    "precoAnterior" : "44,99",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
@@ -7913,7 +8086,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07MQG6SWC?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:46",
+    "dataOferta" : "04/09/2026 15:08",
     "destaque" : false,
     "precoAnterior" : "43,02",
     "menorPrecoEmDias" : false,
@@ -9020,7 +9193,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GPYTDSFH?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:50",
+    "dataOferta" : "04/09/2026 15:12",
     "destaque" : false,
     "precoAnterior" : "266,88",
     "menorPrecoEmDias" : false,
@@ -9591,7 +9764,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DTN9W36?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 10:01",
+    "dataOferta" : "04/09/2026 15:48",
     "destaque" : false,
     "precoAnterior" : "24,99",
     "menorPrecoEmDias" : false,
@@ -9674,13 +9847,14 @@
     "titulo" : "Brilhante Limpeza Total - Sabão Em Pó 2 2Kg",
     "imagem" : "https://m.media-amazon.com/images/I/71BFq1TmFoL._AC_SL1500_.jpg",
     "precoOriginal" : "25,49",
-    "precoPromocao" : "19,99",
-    "tag" : "-21%",
+    "precoPromocao" : "17,90",
+    "tag" : "-29%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0B94SLNXK?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 10:03",
+    "dataOferta" : "04/09/2026 15:51",
     "destaque" : true,
+    "precoAnterior" : "19,99",
     "menorPrecoEmDias" : true,
     "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
     "historico" : [ {
@@ -9737,7 +9911,7 @@
       "data" : "03/09/2026"
     }, {
       "data" : "04/09/2026",
-      "preco" : 19.99
+      "preco" : 17.9
     } ]
   }, {
     "pid" : 8770,
@@ -10014,7 +10188,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BBJTNTKH?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:42",
+    "dataOferta" : "04/09/2026 15:05",
     "destaque" : false,
     "precoAnterior" : "18,40",
     "menorPrecoEmDias" : false,
@@ -10266,7 +10440,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BBJM19ZB?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:59",
+    "dataOferta" : "04/09/2026 15:45",
     "destaque" : false,
     "precoAnterior" : "27,78",
     "menorPrecoEmDias" : false,
@@ -10439,7 +10613,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B086JCX68G?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:32",
+    "dataOferta" : "04/09/2026 14:56",
     "destaque" : false,
     "precoAnterior" : "27,00",
     "menorPrecoEmDias" : false,
@@ -11005,7 +11179,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07CVQJ9T7?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:48",
+    "dataOferta" : "04/09/2026 15:33",
     "destaque" : false,
     "precoAnterior" : "15,90",
     "menorPrecoEmDias" : false,
@@ -11431,7 +11605,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07N7Q8F59?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
     "categoriaId" : 6,
-    "dataOferta" : "04/09/2026 08:37",
+    "dataOferta" : "04/09/2026 15:00",
     "destaque" : false,
     "precoAnterior" : "18,90",
     "menorPrecoEmDias" : false,
@@ -11780,7 +11954,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B087NNJ55R?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:43",
+    "dataOferta" : "04/09/2026 15:05",
     "destaque" : false,
     "precoAnterior" : "44,60",
     "menorPrecoEmDias" : false,
@@ -12023,6 +12197,94 @@
     }, {
       "data" : "04/09/2026",
       "preco" : 42.0
+    } ]
+  }, {
+    "pid" : 1461,
+    "id" : 144737,
+    "titulo" : "Buba, Bicicleta De Equilíbrio Com Som Rosa",
+    "imagem" : "https://m.media-amazon.com/images/I/51OHwUHdnJL._AC_SL1000_.jpg",
+    "precoOriginal" : "308,90",
+    "precoPromocao" : "140,99",
+    "tag" : "-54%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DFMX9RHP?tag=curadomus-20",
+    "categoria" : "Brinquedos e Jogos",
+    "categoriaId" : 6,
+    "dataOferta" : "04/09/2026 15:49",
+    "destaque" : false,
+    "precoAnterior" : "161,47",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 141.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 160.64
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 157.17
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 161.47
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 160.55
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 168.54
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 168.54
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 168.54
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 168.55
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 161.47
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 161.47
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 161.47
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 140.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 140.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 140.99
     } ]
   }, {
     "pid" : 8483,
@@ -12857,6 +13119,43 @@
     }, {
       "data" : "04/09/2026",
       "preco" : 31.14
+    } ]
+  }, {
+    "pid" : 9003,
+    "id" : 146549,
+    "titulo" : "Cadeira De Alimentação Bebê Portátil - Cadeirão I Love Baby®",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_620832-MLB105597059225_012026-F-cadeira-de-alimentacao-bebe-portatil--cadeirao-i-love-baby.webp",
+    "precoOriginal" : "272,85",
+    "precoPromocao" : "199,40",
+    "tag" : "-26%",
+    "linkAfiliado" : "https://meli.la/2bd14DR",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "04/09/2026 15:42",
+    "destaque" : false,
+    "precoAnterior" : "217,74",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "27/08/2026",
+      "preco" : 189.9
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 189.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 259.21
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 259.21
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 217.74
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 217.74
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 199.4
     } ]
   }, {
     "pid" : 4707,
@@ -13943,6 +14242,98 @@
     }, {
       "data" : "04/09/2026",
       "preco" : 919.0
+    } ]
+  }, {
+    "pid" : 1062,
+    "id" : 146526,
+    "titulo" : "Cadeira Portátil Cake - Voyage (Cinza)",
+    "imagem" : "https://m.media-amazon.com/images/I/411RLi5HuAL._AC_SL1000_.jpg",
+    "precoOriginal" : "196,49",
+    "precoPromocao" : "149,87",
+    "tag" : "-23%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B097NKHF3N?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "04/09/2026 15:28",
+    "destaque" : true,
+    "precoAnterior" : "157,73",
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 157.82
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 158.08
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 158.08
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 158.08
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 158.08
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 158.08
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 158.08
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 158.08
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 191.37
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 185.33
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 191.37
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 191.37
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 191.37
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 158.16
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 158.16
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 158.16
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 157.87
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 185.33
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 157.73
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 157.73
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 157.73
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 157.73
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 157.73
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 157.73
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 149.87
     } ]
   }, {
     "pid" : 1902,
@@ -15177,7 +15568,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B01MDUHLAE?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:51",
+    "dataOferta" : "04/09/2026 15:37",
     "destaque" : false,
     "precoAnterior" : "108,97",
     "menorPrecoEmDias" : false,
@@ -15420,7 +15811,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D51LLZSN?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 09:57",
+    "dataOferta" : "04/09/2026 15:44",
     "destaque" : false,
     "precoAnterior" : "213,88",
     "menorPrecoEmDias" : false,
@@ -16643,6 +17034,61 @@
       "preco" : 16.49
     } ]
   }, {
+    "pid" : 1002,
+    "id" : 146512,
+    "titulo" : "Cascola Cascorez Extra, Cola branca extra forte de fácil aplicação, Cola de PVA com secagem transparente, Cascorez Extra para colagens de alto desempenho, 1x500g",
+    "imagem" : "https://m.media-amazon.com/images/I/51V95kxhYjL._SL1500_.jpg",
+    "precoOriginal" : "25,23",
+    "precoPromocao" : "18,16",
+    "tag" : "-28%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B075X4K638?tag=curadomus-20",
+    "categoria" : "Papelaria e Escritório",
+    "categoriaId" : 4,
+    "dataOferta" : "04/09/2026 15:26",
+    "destaque" : false,
+    "precoAnterior" : "18,16",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "19/08/2026",
+      "preco" : 17.09
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 19.12
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 19.12
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 19.12
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 18.16
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 18.16
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 18.16
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 18.16
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 18.16
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 18.16
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 18.16
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 18.16
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 18.16
+    } ]
+  }, {
     "pid" : 1630,
     "id" : 144827,
     "titulo" : "Caça ao tesouro",
@@ -17106,14 +17552,14 @@
     "titulo" : "Cetrilan Creme Para Prevenção de Assaduras 120g",
     "imagem" : "https://m.media-amazon.com/images/I/41haSkx3BGL._AC_SL1000_.jpg",
     "precoOriginal" : "93,02",
-    "precoPromocao" : "68,98",
+    "precoPromocao" : "69,00",
     "tag" : "-25%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0B9HWK12S?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:29",
+    "dataOferta" : "04/09/2026 14:53",
     "destaque" : false,
-    "precoAnterior" : "69,00",
+    "precoAnterior" : "68,98",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
@@ -17186,7 +17632,7 @@
       "preco" : 69.0
     }, {
       "data" : "04/09/2026",
-      "preco" : 68.98
+      "preco" : 69.0
     } ]
   }, {
     "pid" : 4681,
@@ -18520,7 +18966,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DD2N22F?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "04/09/2026 10:03",
+    "dataOferta" : "04/09/2026 15:50",
     "destaque" : false,
     "precoAnterior" : "12,74",
     "menorPrecoEmDias" : false,
@@ -18596,6 +19042,97 @@
     }, {
       "data" : "04/09/2026",
       "preco" : 12.74
+    } ]
+  }, {
+    "pid" : 999,
+    "id" : 146509,
+    "titulo" : "Cola Glitter 23 g, Acrilex, 02923, Multicor",
+    "imagem" : "https://m.media-amazon.com/images/I/61Lb7mvDbgL._AC_SL1000_.jpg",
+    "precoOriginal" : "26,67",
+    "precoPromocao" : "21,60",
+    "tag" : "-19%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B077J1CFZH?tag=curadomus-20",
+    "categoria" : "Papelaria e Escritório",
+    "categoriaId" : 4,
+    "dataOferta" : "04/09/2026 15:26",
+    "destaque" : false,
+    "precoAnterior" : "21,60",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 21.6
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 21.6
     } ]
   }, {
     "pid" : 259,
@@ -19306,7 +19843,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584956393?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:38",
+    "dataOferta" : "04/09/2026 15:01",
     "destaque" : false,
     "precoAnterior" : "32,43",
     "menorPrecoEmDias" : false,
@@ -19455,7 +19992,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B00WJNITLS?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:51",
+    "dataOferta" : "04/09/2026 15:36",
     "destaque" : false,
     "precoAnterior" : "39,90",
     "menorPrecoEmDias" : false,
@@ -20020,7 +20557,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B093RCP1K4?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:48",
+    "dataOferta" : "04/09/2026 15:34",
     "destaque" : false,
     "precoAnterior" : "20,99",
     "menorPrecoEmDias" : false,
@@ -20100,9 +20637,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07X41XJ87?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:36",
+    "dataOferta" : "04/09/2026 14:59",
     "destaque" : false,
-    "precoAnterior" : "24,99",
+    "precoAnterior" : "24,95",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
@@ -20440,7 +20977,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DPGLKWCR?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 10:02",
+    "dataOferta" : "04/09/2026 15:49",
     "destaque" : false,
     "precoAnterior" : "32,90",
     "menorPrecoEmDias" : false,
@@ -21027,7 +21564,7 @@
     "linkAfiliado" : "https://amzn.to/4v63Z0w",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:47",
+    "dataOferta" : "04/09/2026 15:09",
     "destaque" : false,
     "precoAnterior" : "52,96",
     "menorPrecoEmDias" : false,
@@ -21118,7 +21655,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHQZPZV?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:59",
+    "dataOferta" : "04/09/2026 15:46",
     "destaque" : false,
     "precoAnterior" : "36,42",
     "menorPrecoEmDias" : false,
@@ -22020,6 +22557,83 @@
       "preco" : 20.89
     } ]
   }, {
+    "pid" : 1060,
+    "id" : 146524,
+    "titulo" : "Downy Amaciante Concentrado Brisa de Verão 3L Rende 12L",
+    "imagem" : "https://m.media-amazon.com/images/I/61NJbm2a9tL._AC_SL1200_.jpg",
+    "precoOriginal" : "73,75",
+    "precoPromocao" : "54,99",
+    "tag" : "-25%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07MBXDB51?tag=curadomus-20",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "dataOferta" : "04/09/2026 15:28",
+    "destaque" : false,
+    "precoAnterior" : "54,99",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 51.06
+    }, {
+      "data" : "07/08/2026"
+    }, {
+      "data" : "08/08/2026"
+    }, {
+      "data" : "09/08/2026"
+    }, {
+      "data" : "10/08/2026"
+    }, {
+      "data" : "12/08/2026"
+    }, {
+      "data" : "13/08/2026"
+    }, {
+      "data" : "14/08/2026"
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "16/08/2026"
+    }, {
+      "data" : "18/08/2026"
+    }, {
+      "data" : "19/08/2026"
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 54.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 54.99
+    } ]
+  }, {
     "pid" : 3343,
     "id" : 145542,
     "titulo" : "Downy Amaciante Concentrado Brisa Intenso 1.5L, Rende 6L",
@@ -22433,7 +23047,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CS7XK3DX?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 09:46",
+    "dataOferta" : "04/09/2026 15:31",
     "destaque" : false,
     "precoAnterior" : "54,99",
     "menorPrecoEmDias" : false,
@@ -22519,7 +23133,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08FD3B2KQ?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 08:38",
+    "dataOferta" : "04/09/2026 15:01",
     "destaque" : false,
     "precoAnterior" : "33,65",
     "menorPrecoEmDias" : false,
@@ -22780,7 +23394,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6552171234?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:30",
+    "dataOferta" : "04/09/2026 14:53",
     "destaque" : false,
     "precoAnterior" : "39,64",
     "menorPrecoEmDias" : false,
@@ -24365,7 +24979,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B01NCUSC7V?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:49",
+    "dataOferta" : "04/09/2026 15:11",
     "destaque" : false,
     "precoAnterior" : "54,95",
     "menorPrecoEmDias" : false,
@@ -24793,7 +25407,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07FN7VP5Y?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:34",
+    "dataOferta" : "04/09/2026 14:57",
     "destaque" : false,
     "precoAnterior" : "50,90",
     "menorPrecoEmDias" : false,
@@ -24943,7 +25557,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DWYJMD7Q?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:59",
+    "dataOferta" : "04/09/2026 15:21",
     "destaque" : false,
     "precoAnterior" : "157,40",
     "menorPrecoEmDias" : false,
@@ -25082,9 +25696,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BXM3TSS9?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 09:48",
+    "dataOferta" : "04/09/2026 15:33",
     "destaque" : false,
-    "precoAnterior" : "91,13",
+    "precoAnterior" : "93,04",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "07/08/2026",
@@ -25328,6 +25942,91 @@
       "preco" : 61.99
     } ]
   }, {
+    "pid" : 748,
+    "id" : 144571,
+    "titulo" : "Fralda Pampers Pants Ajuste Total Tamanho G, Fácil de Vestir, 72 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/61eK738WhLL._AC_SL1200_.jpg",
+    "precoOriginal" : "146,23",
+    "precoPromocao" : "120,90",
+    "tag" : "-17%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BV7JLHVN?tag=curadomus-20",
+    "categoria" : "Fraldas",
+    "categoriaId" : 9,
+    "dataOferta" : "04/09/2026 15:16",
+    "destaque" : false,
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "07/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 100.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 100.99
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 125.99
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 125.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 125.99
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 125.99
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 125.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 125.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 125.99
+    }, {
+      "data" : "27/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 134.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 120.9
+    }, {
+      "data" : "03/09/2026"
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 120.9
+    } ]
+  }, {
     "pid" : 1590,
     "id" : 144786,
     "titulo" : "Fralda Pampers Pants Ajuste Total Tamanho M, Fácil de Vestir, 84 Unidades",
@@ -25422,7 +26121,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07X83MH7M?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:40",
+    "dataOferta" : "04/09/2026 15:03",
     "destaque" : false,
     "precoAnterior" : "115,90",
     "menorPrecoEmDias" : false,
@@ -25840,7 +26539,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07GR5T4RF?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:53",
+    "dataOferta" : "04/09/2026 15:15",
     "destaque" : false,
     "precoAnterior" : "79,99",
     "menorPrecoEmDias" : false,
@@ -26123,7 +26822,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B099KPQQWF?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:58",
+    "dataOferta" : "04/09/2026 15:21",
     "destaque" : false,
     "precoAnterior" : "37,80",
     "menorPrecoEmDias" : false,
@@ -26887,6 +27586,97 @@
       "preco" : 69.9
     } ]
   }, {
+    "pid" : 771,
+    "id" : 146496,
+    "titulo" : "Granado Creme Assaduras Dermocalmante Bebê, Peles Sensíveis, 300g",
+    "imagem" : "https://m.media-amazon.com/images/I/51J0y1mq1gL._AC_SL1000_.jpg",
+    "precoOriginal" : "88,63",
+    "precoPromocao" : "46,19",
+    "tag" : "-47%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07NPY7VDL?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "04/09/2026 15:17",
+    "destaque" : false,
+    "precoAnterior" : "46,19",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 42.89
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 62.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 62.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 63.48
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 65.5
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 64.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 65.5
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 65.47
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 64.9
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 65.47
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 65.47
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 65.47
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 46.19
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 46.19
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 46.19
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 46.19
+    } ]
+  }, {
     "pid" : 1897,
     "id" : 144979,
     "titulo" : "Granado Creme Assaduras Dermocalmante Bebê, Peles Sensíveis, 50g",
@@ -27154,7 +27944,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C3JSS2M9?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:42",
+    "dataOferta" : "04/09/2026 15:05",
     "destaque" : false,
     "precoAnterior" : "20,47",
     "menorPrecoEmDias" : false,
@@ -27312,7 +28102,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08LK15F8N?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:52",
+    "dataOferta" : "04/09/2026 15:37",
     "destaque" : false,
     "precoAnterior" : "25,75",
     "menorPrecoEmDias" : false,
@@ -28194,7 +28984,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GSC5NLYW?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 09:54",
+    "dataOferta" : "04/09/2026 15:40",
     "destaque" : false,
     "precoAnterior" : "11,99",
     "menorPrecoEmDias" : false,
@@ -28275,6 +29065,96 @@
       "preco" : 11.99
     } ]
   }, {
+    "pid" : 1059,
+    "id" : 146523,
+    "titulo" : "Heinz Ketchup Zero Açúcar 530g",
+    "imagem" : "https://m.media-amazon.com/images/I/51p4AdcN8vL._AC_SL1000_.jpg",
+    "precoOriginal" : "17,89",
+    "precoPromocao" : "13,99",
+    "tag" : "-21%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0GR1W4GCP?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "04/09/2026 15:28",
+    "destaque" : false,
+    "precoAnterior" : "13,99",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 11.99
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 11.99
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 17.89
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 17.89
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 17.89
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 17.89
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "27/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 14.49
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 13.99
+    } ]
+  }, {
     "pid" : 611,
     "id" : 144538,
     "titulo" : "Heinz Kit Temperos para Hambúrguer e Batata 150g",
@@ -28285,7 +29165,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FFNC1T6Z?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 08:48",
+    "dataOferta" : "04/09/2026 15:11",
     "destaque" : false,
     "precoAnterior" : "22,69",
     "menorPrecoEmDias" : false,
@@ -28537,7 +29417,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B097BY8K4S?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 08:49",
+    "dataOferta" : "04/09/2026 15:12",
     "destaque" : false,
     "precoAnterior" : "19,78",
     "menorPrecoEmDias" : false,
@@ -28713,7 +29593,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07YN9SQR9?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 08:58",
+    "dataOferta" : "04/09/2026 15:20",
     "destaque" : false,
     "precoAnterior" : "15,87",
     "menorPrecoEmDias" : false,
@@ -28801,7 +29681,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07Y3WXDTN?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 08:49",
+    "dataOferta" : "04/09/2026 15:12",
     "destaque" : false,
     "precoAnterior" : "28,49",
     "menorPrecoEmDias" : false,
@@ -29288,7 +30168,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C9W32C1J?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:59",
+    "dataOferta" : "04/09/2026 15:46",
     "destaque" : false,
     "precoAnterior" : "53,98",
     "menorPrecoEmDias" : false,
@@ -29610,6 +30490,96 @@
     }, {
       "data" : "04/09/2026",
       "preco" : 43.99
+    } ]
+  }, {
+    "pid" : 752,
+    "id" : 146494,
+    "titulo" : "HIPOGLÓS® Creme Preventivo De Assaduras, 40g",
+    "imagem" : "https://m.media-amazon.com/images/I/51QMN1Euz1L._AC_SL1000_.jpg",
+    "precoOriginal" : "32,79",
+    "precoPromocao" : "19,55",
+    "tag" : "-40%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CHZ9XXPX?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "04/09/2026 15:16",
+    "destaque" : false,
+    "precoAnterior" : "19,55",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 20.86
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 20.86
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 20.87
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 18.53
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 18.53
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 18.53
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 18.53
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 18.53
+    }, {
+      "data" : "27/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 18.53
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 18.53
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 19.56
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 19.56
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 19.55
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 19.55
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 19.55
     } ]
   }, {
     "pid" : 1601,
@@ -30223,8 +31193,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FBC2GVT1?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:34",
+    "dataOferta" : "04/09/2026 14:58",
     "destaque" : false,
+    "precoAnterior" : "92,90",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "07/08/2026",
@@ -30303,7 +31274,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FBBWQB4G?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:50",
+    "dataOferta" : "04/09/2026 15:13",
     "destaque" : false,
     "precoAnterior" : "88,30",
     "menorPrecoEmDias" : false,
@@ -30386,15 +31357,16 @@
     "titulo" : "Huggies Fralda Descartável Premium Natural Care P - 36 Un",
     "imagem" : "https://m.media-amazon.com/images/I/71S1KDg3CYL._AC_SL1500_.jpg",
     "precoOriginal" : "53,40",
-    "precoPromocao" : "39,59",
-    "tag" : "-25%",
+    "precoPromocao" : "38,99",
+    "tag" : "-26%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B095R95SNW?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:46",
-    "destaque" : false,
+    "dataOferta" : "04/09/2026 15:09",
+    "destaque" : true,
     "precoAnterior" : "39,59",
-    "menorPrecoEmDias" : false,
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
     "historico" : [ {
       "data" : "07/08/2026",
       "preco" : 39.9
@@ -30466,7 +31438,7 @@
       "preco" : 39.59
     }, {
       "data" : "04/09/2026",
-      "preco" : 39.59
+      "preco" : 38.99
     } ]
   }, {
     "pid" : 297,
@@ -30648,7 +31620,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BKLM298N?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:44",
+    "dataOferta" : "04/09/2026 15:07",
     "destaque" : false,
     "precoAnterior" : "89,90",
     "menorPrecoEmDias" : false,
@@ -30732,7 +31704,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BFXJ12QQ?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "04/09/2026 08:53",
+    "dataOferta" : "04/09/2026 15:15",
     "destaque" : false,
     "precoAnterior" : "159,90",
     "menorPrecoEmDias" : false,
@@ -30808,6 +31780,88 @@
     }, {
       "data" : "04/09/2026",
       "preco" : 159.9
+    } ]
+  }, {
+    "pid" : 1100,
+    "id" : 146542,
+    "titulo" : "Huggies Fralda Tripla Proteção G 78 Un",
+    "imagem" : "https://m.media-amazon.com/images/I/61V7ZbDxkIL._AC_SL1000_.jpg",
+    "precoOriginal" : "109,03",
+    "precoPromocao" : "84,64",
+    "tag" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07FNMB4QN?tag=curadomus-20",
+    "categoria" : "Fraldas",
+    "categoriaId" : 9,
+    "dataOferta" : "04/09/2026 15:31",
+    "destaque" : false,
+    "precoAnterior" : "84,64",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "07/08/2026"
+    }, {
+      "data" : "08/08/2026"
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 83.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 83.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 83.9
+    }, {
+      "data" : "13/08/2026"
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 83.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 83.9
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 84.64
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 84.64
     } ]
   }, {
     "pid" : 2729,
@@ -31880,16 +32934,15 @@
     "titulo" : "Jogo Pinguim Numa Fria Jogo Quebra Gelo Derrubando o Pinguim Divertido",
     "imagem" : "https://m.media-amazon.com/images/I/61ca3mWyMyL._AC_SL1000_.jpg",
     "precoOriginal" : "39,90",
-    "precoPromocao" : "21,50",
-    "tag" : "-46%",
+    "precoPromocao" : "21,97",
+    "tag" : "-44%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08HZ9ZLSJ?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
     "categoriaId" : 6,
-    "dataOferta" : "04/09/2026 08:33",
-    "destaque" : true,
-    "precoAnterior" : "21,98",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "dataOferta" : "04/09/2026 14:56",
+    "destaque" : false,
+    "precoAnterior" : "21,50",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
       "preco" : 22.83
@@ -31961,7 +33014,7 @@
       "preco" : 21.98
     }, {
       "data" : "04/09/2026",
-      "preco" : 21.5
+      "preco" : 21.97
     } ]
   }, {
     "pid" : 6202,
@@ -32481,7 +33534,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHRS6RN?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:52",
+    "dataOferta" : "04/09/2026 15:37",
     "destaque" : false,
     "precoAnterior" : "24,98",
     "menorPrecoEmDias" : false,
@@ -32911,7 +33964,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHSHRMG?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:55",
+    "dataOferta" : "04/09/2026 15:17",
     "destaque" : false,
     "precoAnterior" : "43,46",
     "menorPrecoEmDias" : false,
@@ -32990,6 +34043,97 @@
     }, {
       "data" : "04/09/2026",
       "preco" : 43.46
+    } ]
+  }, {
+    "pid" : 1072,
+    "id" : 146531,
+    "titulo" : "JOHNSON'S® Baby Sabonete Líquido de Glicerina Camomila 750mL",
+    "imagem" : "https://m.media-amazon.com/images/I/61K5hrmtDLL._AC_SL1500_.jpg",
+    "precoOriginal" : "78,99",
+    "precoPromocao" : "50,91",
+    "tag" : "-35%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0G3QFG9M4?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "04/09/2026 15:29",
+    "destaque" : false,
+    "precoAnterior" : "50,91",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 44.89
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 44.89
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 44.89
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 44.89
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 53.06
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 53.04
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 53.07
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 56.64
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 52.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 56.13
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 56.18
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 56.18
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 57.48
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 50.91
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 50.91
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 50.91
     } ]
   }, {
     "pid" : 3706,
@@ -34996,7 +36140,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FTNP6VWW?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 09:55",
+    "dataOferta" : "04/09/2026 15:41",
     "destaque" : false,
     "precoAnterior" : "34,92",
     "menorPrecoEmDias" : false,
@@ -35597,7 +36741,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FMLBQ136?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 08:59",
+    "dataOferta" : "04/09/2026 15:21",
     "destaque" : false,
     "precoAnterior" : "22,90",
     "menorPrecoEmDias" : false,
@@ -36170,6 +37314,94 @@
     }, {
       "data" : "04/09/2026",
       "preco" : 32.9
+    } ]
+  }, {
+    "pid" : 994,
+    "id" : 146504,
+    "titulo" : "Lar dos Animais: Florestas Tropicais",
+    "imagem" : "https://m.media-amazon.com/images/I/71Ctvcl2QoL._SL1000_.jpg",
+    "precoOriginal" : "19,90",
+    "precoPromocao" : "12,43",
+    "tag" : "-37%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6556171166?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "04/09/2026 15:25",
+    "destaque" : false,
+    "precoAnterior" : "12,43",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "07/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 19.0
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 13.09
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 12.43
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 12.43
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 12.43
     } ]
   }, {
     "pid" : 7828,
@@ -37881,6 +39113,49 @@
       "preco" : 26.22
     } ]
   }, {
+    "pid" : 8905,
+    "id" : 146487,
+    "titulo" : "Lorenzetti Loren Shower Ultra Multitemperaturas de 220V 7500w ducha branca",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_906215-MLA96637759000_112025-F.webp",
+    "precoOriginal" : "199,00",
+    "precoPromocao" : "122,60",
+    "tag" : "-38%",
+    "linkAfiliado" : "https://meli.la/2HeSNoo",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "dataOferta" : "04/09/2026 14:59",
+    "destaque" : false,
+    "precoAnterior" : "109,00",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "24/08/2026",
+      "preco" : 115.6
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 115.6
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 131.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 131.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 131.0
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 157.13
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 122.6
+    } ]
+  }, {
     "pid" : 1441,
     "id" : 144718,
     "titulo" : "Loção Hidratante Relaxante Para Uso Diário Johnson's Baby Hora Do Sono, 200mL",
@@ -37891,7 +39166,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHRV94V?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:59",
+    "dataOferta" : "04/09/2026 15:46",
     "destaque" : false,
     "precoAnterior" : "29,98",
     "menorPrecoEmDias" : false,
@@ -37978,7 +39253,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BVN198SY?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 10:03",
+    "dataOferta" : "04/09/2026 15:50",
     "destaque" : false,
     "precoAnterior" : "47,38",
     "menorPrecoEmDias" : false,
@@ -38065,11 +39340,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08X1P11KS?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 09:03",
-    "destaque" : true,
-    "precoAnterior" : "16,25",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "dataOferta" : "04/09/2026 15:24",
+    "destaque" : false,
+    "precoAnterior" : "13,00",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
       "preco" : 13.8
@@ -38157,11 +39431,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CP2XNQL5?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 09:02",
-    "destaque" : true,
-    "precoAnterior" : "24,15",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "dataOferta" : "04/09/2026 15:24",
+    "destaque" : false,
+    "precoAnterior" : "23,25",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
       "preco" : 24.5
@@ -38670,12 +39943,12 @@
     "titulo" : "Macaco danado",
     "imagem" : "https://m.media-amazon.com/images/I/A1wXsb+3VpL._SL1500_.jpg",
     "precoOriginal" : "67,90",
-    "precoPromocao" : "37,67",
+    "precoPromocao" : "37,88",
     "tag" : "-44%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574120472?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:30",
+    "dataOferta" : "04/09/2026 14:54",
     "destaque" : false,
     "precoAnterior" : "37,67",
     "menorPrecoEmDias" : false,
@@ -38746,7 +40019,7 @@
       "preco" : 37.67
     }, {
       "data" : "04/09/2026",
-      "preco" : 37.67
+      "preco" : 37.88
     } ]
   }, {
     "pid" : 4553,
@@ -40568,14 +41841,14 @@
     "titulo" : "Meu reino por um cavalo",
     "imagem" : "https://m.media-amazon.com/images/I/81HDMGXVbwL._SL1500_.jpg",
     "precoOriginal" : "68,90",
-    "precoPromocao" : "54,12",
-    "tag" : "-21%",
+    "precoPromocao" : "50,00",
+    "tag" : "-27%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8526008935?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 09:02",
+    "dataOferta" : "04/09/2026 15:24",
     "destaque" : false,
-    "precoAnterior" : "50,00",
+    "precoAnterior" : "54,12",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "07/08/2026",
@@ -40648,7 +41921,7 @@
       "preco" : 50.0
     }, {
       "data" : "04/09/2026",
-      "preco" : 54.12
+      "preco" : 50.0
     } ]
   }, {
     "pid" : 967,
@@ -40661,7 +41934,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07GC7TF7W?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:59",
+    "dataOferta" : "04/09/2026 15:21",
     "destaque" : false,
     "precoAnterior" : "5,99",
     "menorPrecoEmDias" : false,
@@ -40826,7 +42099,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6586106389?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:41",
+    "dataOferta" : "04/09/2026 15:04",
     "destaque" : false,
     "precoAnterior" : "57,50",
     "menorPrecoEmDias" : false,
@@ -41087,7 +42360,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6586106532?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:41",
+    "dataOferta" : "04/09/2026 15:04",
     "destaque" : false,
     "precoAnterior" : "57,50",
     "menorPrecoEmDias" : false,
@@ -41612,11 +42885,10 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B00TQCAAQW?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:50",
-    "destaque" : true,
-    "precoAnterior" : "69,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "dataOferta" : "04/09/2026 15:36",
+    "destaque" : false,
+    "precoAnterior" : "69,00",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
       "preco" : 78.9
@@ -41704,7 +42976,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08NQNXMPL?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:36",
+    "dataOferta" : "04/09/2026 14:59",
     "destaque" : false,
     "precoAnterior" : "71,09",
     "menorPrecoEmDias" : false,
@@ -41943,7 +43215,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07BFQGJ9M?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:42",
+    "dataOferta" : "04/09/2026 15:05",
     "destaque" : false,
     "precoAnterior" : "133,62",
     "menorPrecoEmDias" : false,
@@ -42705,7 +43977,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08K3PF8Q7?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 10:00",
+    "dataOferta" : "04/09/2026 15:47",
     "destaque" : false,
     "precoAnterior" : "60,59",
     "menorPrecoEmDias" : false,
@@ -43611,7 +44883,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6585310713?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:56",
+    "dataOferta" : "04/09/2026 15:18",
     "destaque" : false,
     "precoAnterior" : "25,62",
     "menorPrecoEmDias" : false,
@@ -44366,7 +45638,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556891118?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:29",
+    "dataOferta" : "04/09/2026 14:53",
     "destaque" : false,
     "precoAnterior" : "39,64",
     "menorPrecoEmDias" : false,
@@ -44621,7 +45893,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574120286?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:30",
+    "dataOferta" : "04/09/2026 14:53",
     "destaque" : false,
     "precoAnterior" : "42,36",
     "menorPrecoEmDias" : false,
@@ -45723,7 +46995,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6585310268?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:56",
+    "dataOferta" : "04/09/2026 15:18",
     "destaque" : false,
     "precoAnterior" : "48,94",
     "menorPrecoEmDias" : false,
@@ -46314,7 +47586,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559882950?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:56",
+    "dataOferta" : "04/09/2026 15:18",
     "destaque" : false,
     "precoAnterior" : "51,99",
     "menorPrecoEmDias" : false,
@@ -46472,12 +47744,12 @@
     "titulo" : "O peso da glória",
     "imagem" : "https://m.media-amazon.com/images/I/91VlF54YAlL._SL1500_.jpg",
     "precoOriginal" : "59,90",
-    "precoPromocao" : "39,43",
-    "tag" : "-34%",
+    "precoPromocao" : "38,76",
+    "tag" : "-35%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8578600657?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 09:57",
+    "dataOferta" : "04/09/2026 15:43",
     "destaque" : false,
     "precoAnterior" : "39,43",
     "menorPrecoEmDias" : false,
@@ -46537,7 +47809,7 @@
       "preco" : 39.43
     }, {
       "data" : "04/09/2026",
-      "preco" : 39.43
+      "preco" : 38.76
     } ]
   }, {
     "pid" : 348,
@@ -47154,7 +48426,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574121878?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:30",
+    "dataOferta" : "04/09/2026 14:53",
     "destaque" : false,
     "precoAnterior" : "45,12",
     "menorPrecoEmDias" : false,
@@ -48860,7 +50132,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08BWYTR6F?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:46",
+    "dataOferta" : "04/09/2026 15:09",
     "destaque" : false,
     "precoAnterior" : "24,78",
     "menorPrecoEmDias" : false,
@@ -49773,7 +51045,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07HWWTY3K?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 09:51",
+    "dataOferta" : "04/09/2026 15:37",
     "destaque" : false,
     "precoAnterior" : "116,70",
     "menorPrecoEmDias" : false,
@@ -50367,7 +51639,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8538058991?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:56",
+    "dataOferta" : "04/09/2026 15:18",
     "destaque" : false,
     "precoAnterior" : "24,22",
     "menorPrecoEmDias" : false,
@@ -51233,7 +52505,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07LHC55HY?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
     "categoriaId" : 6,
-    "dataOferta" : "04/09/2026 08:33",
+    "dataOferta" : "04/09/2026 14:56",
     "destaque" : false,
     "precoAnterior" : "20,24",
     "menorPrecoEmDias" : false,
@@ -51570,7 +52842,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CNTVD72S?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:47",
+    "dataOferta" : "04/09/2026 15:09",
     "destaque" : false,
     "precoAnterior" : "17,99",
     "menorPrecoEmDias" : false,
@@ -52815,6 +54087,97 @@
       "preco" : 19.89
     } ]
   }, {
+    "pid" : 1099,
+    "id" : 146541,
+    "titulo" : "Percarbonato de Sódio 100% Puro – Removedor de Manchas e Multiuso de Limpeza (Embalagem pode sofrer variações)",
+    "imagem" : "https://m.media-amazon.com/images/I/61YPLcEYbhL._AC_SX569_.jpg",
+    "precoOriginal" : "29,90",
+    "precoPromocao" : "24,69",
+    "tag" : "-17%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0GPN6CNRT?tag=curadomus-20",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "dataOferta" : "04/09/2026 15:31",
+    "destaque" : false,
+    "precoAnterior" : "24,69",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026",
+      "preco" : 27.0
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 27.0
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 26.8
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 27.0
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 26.5
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 26.5
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 26.5
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 26.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 26.9
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 26.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 26.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 26.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 24.69
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 24.69
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 24.69
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 24.69
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 24.69
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 24.69
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 24.69
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 24.69
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 24.69
+    } ]
+  }, {
     "pid" : 8967,
     "id" : 146391,
     "titulo" : "Percarbonato de Sódio 1kg 100% Puro Tira Manchas em Pó Alvejante Biodegradável para Roupas Brancas Coloridas e Limpeza Doméstica",
@@ -52866,7 +54229,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FWCTHSWQ?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 10:02",
+    "dataOferta" : "04/09/2026 15:49",
     "destaque" : false,
     "precoAnterior" : "28,00",
     "menorPrecoEmDias" : false,
@@ -54119,7 +55482,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07F6RDZ67?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:36",
+    "dataOferta" : "04/09/2026 14:59",
     "destaque" : false,
     "precoAnterior" : "12,79",
     "menorPrecoEmDias" : false,
@@ -54711,7 +56074,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8504014096?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:38",
+    "dataOferta" : "04/09/2026 15:01",
     "destaque" : false,
     "precoAnterior" : "46,16",
     "menorPrecoEmDias" : false,
@@ -55062,7 +56425,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09ZLS7X53?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:48",
+    "dataOferta" : "04/09/2026 15:33",
     "destaque" : false,
     "precoAnterior" : "19,59",
     "menorPrecoEmDias" : false,
@@ -55150,7 +56513,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D1DSFV8C?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:46",
+    "dataOferta" : "04/09/2026 15:09",
     "destaque" : false,
     "precoAnterior" : "27,99",
     "menorPrecoEmDias" : false,
@@ -55555,7 +56918,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067628?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:41",
+    "dataOferta" : "04/09/2026 15:04",
     "destaque" : false,
     "precoAnterior" : "43,90",
     "menorPrecoEmDias" : false,
@@ -55643,7 +57006,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6581776041?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:41",
+    "dataOferta" : "04/09/2026 15:04",
     "destaque" : false,
     "precoAnterior" : "47,53",
     "menorPrecoEmDias" : false,
@@ -56574,7 +57937,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556163651?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:42",
+    "dataOferta" : "04/09/2026 15:05",
     "destaque" : false,
     "precoAnterior" : "40,80",
     "menorPrecoEmDias" : false,
@@ -57005,7 +58368,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GMJT9MRJ?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:55",
+    "dataOferta" : "04/09/2026 15:17",
     "destaque" : false,
     "precoAnterior" : "27,29",
     "menorPrecoEmDias" : false,
@@ -57253,7 +58616,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D6BXNRZQ?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:53",
+    "dataOferta" : "04/09/2026 15:39",
     "destaque" : false,
     "precoAnterior" : "27,29",
     "menorPrecoEmDias" : false,
@@ -57343,7 +58706,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077BY84XX?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:45",
+    "dataOferta" : "04/09/2026 15:08",
     "destaque" : false,
     "precoAnterior" : "25,99",
     "menorPrecoEmDias" : false,
@@ -57915,7 +59278,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C9W3MZV2?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 09:52",
+    "dataOferta" : "04/09/2026 15:38",
     "destaque" : false,
     "precoAnterior" : "39,82",
     "menorPrecoEmDias" : false,
@@ -58081,6 +59444,90 @@
       "preco" : 22.99
     } ]
   }, {
+    "pid" : 1026,
+    "id" : 146521,
+    "titulo" : "Safety 1st, Banheira Smile com Suporte, Aqua Green",
+    "imagem" : "https://m.media-amazon.com/images/I/41XYiSMFUdL._AC_SL1000_.jpg",
+    "precoOriginal" : "799,00",
+    "precoPromocao" : "453,05",
+    "tag" : "-43%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09WFZ66SL?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "04/09/2026 15:27",
+    "destaque" : false,
+    "precoAnterior" : "453,05",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "06/08/2026"
+    }, {
+      "data" : "07/08/2026"
+    }, {
+      "data" : "08/08/2026"
+    }, {
+      "data" : "09/08/2026"
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 500.56
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 518.32
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 519.37
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 519.92
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 519.96
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 520.05
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 519.98
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 519.89
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 588.91
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 588.91
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 619.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 619.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 588.91
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 588.91
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 588.91
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 588.91
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 588.91
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 692.45
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 453.05
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 453.05
+    } ]
+  }, {
     "pid" : 496,
     "id" : 144453,
     "titulo" : "Safety 1st, Berço Mini Play, Grey Denim",
@@ -58091,7 +59538,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B081T9WZHG?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:35",
+    "dataOferta" : "04/09/2026 14:59",
     "destaque" : false,
     "precoAnterior" : "413,29",
     "menorPrecoEmDias" : false,
@@ -58355,7 +59802,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GTRKK1R2?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "04/09/2026 09:52",
+    "dataOferta" : "04/09/2026 15:38",
     "destaque" : false,
     "precoAnterior" : "24,80",
     "menorPrecoEmDias" : false,
@@ -59205,7 +60652,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07D11F42M?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:48",
+    "dataOferta" : "04/09/2026 15:10",
     "destaque" : false,
     "precoAnterior" : "103,30",
     "menorPrecoEmDias" : false,
@@ -59716,9 +61163,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CFSDVHFR?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "04/09/2026 09:55",
+    "dataOferta" : "04/09/2026 15:41",
     "destaque" : false,
-    "precoAnterior" : "17,49",
+    "precoAnterior" : "18,99",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
@@ -59976,7 +61423,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077PY5ZDN?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "04/09/2026 10:02",
+    "dataOferta" : "04/09/2026 15:50",
     "destaque" : false,
     "precoAnterior" : "120,56",
     "menorPrecoEmDias" : false,
@@ -60067,7 +61514,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07PFXRG29?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "04/09/2026 10:03",
+    "dataOferta" : "04/09/2026 15:50",
     "destaque" : false,
     "precoAnterior" : "58,89",
     "menorPrecoEmDias" : false,
@@ -60145,95 +61592,94 @@
       "preco" : 58.89
     } ]
   }, {
-    "pid" : 366,
-    "id" : 144426,
-    "titulo" : "STAEDTLER Massa de Modelar 12 Cores - 8429 C12 PE - Macia, Misturável, Não Mancha e Não Gruda – Fácil de Limpar, Ideal para Crianças e Atividades Criativas",
-    "imagem" : "https://m.media-amazon.com/images/I/71QOlc9TJqL._AC_SL1500_.jpg",
-    "precoOriginal" : "10,85",
-    "precoPromocao" : "7,50",
+    "pid" : 1006,
+    "id" : 146517,
+    "titulo" : "STAEDTLER Giz de Cera, Jumbo com 12 cores - 2299 C12 PE,Multicolorido",
+    "imagem" : "https://m.media-amazon.com/images/I/61Dvgo4SR3L._AC_SL1000_.jpg",
+    "precoOriginal" : "12,73",
+    "precoPromocao" : "8,90",
     "tag" : "-30%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B09TRRFYB8?tag=curadomus-20",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09TRVN94V?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "04/09/2026 08:32",
+    "dataOferta" : "04/09/2026 15:27",
     "destaque" : false,
-    "precoAnterior" : "15,48",
+    "precoAnterior" : "8,90",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "06/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
       "data" : "07/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
       "data" : "08/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
       "data" : "09/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
       "data" : "10/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
       "data" : "12/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
       "data" : "13/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
       "data" : "14/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
       "data" : "15/08/2026",
-      "preco" : 7.5
+      "preco" : 6.9
     }, {
       "data" : "16/08/2026",
-      "preco" : 7.5
+      "preco" : 6.9
     }, {
       "data" : "18/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
       "data" : "19/08/2026",
-      "preco" : 14.98
+      "preco" : 6.9
     }, {
-      "data" : "21/08/2026",
-      "preco" : 7.5
+      "data" : "20/08/2026",
+      "preco" : 6.9
     }, {
       "data" : "22/08/2026",
-      "preco" : 7.5
+      "preco" : 6.9
     }, {
       "data" : "23/08/2026",
-      "preco" : 7.5
+      "preco" : 6.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 6.9
     }, {
       "data" : "25/08/2026",
-      "preco" : 7.5
+      "preco" : 6.9
     }, {
-      "data" : "26/08/2026",
-      "preco" : 7.5
+      "data" : "27/08/2026"
     }, {
-      "data" : "27/08/2026",
-      "preco" : 7.5
+      "data" : "28/08/2026",
+      "preco" : 6.9
     }, {
       "data" : "29/08/2026",
-      "preco" : 7.5
+      "preco" : 6.9
     }, {
       "data" : "30/08/2026",
-      "preco" : 7.5
+      "preco" : 6.9
     }, {
       "data" : "31/08/2026",
-      "preco" : 7.5
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 15.48
+      "preco" : 6.9
     }, {
       "data" : "02/09/2026",
-      "preco" : 15.48
+      "preco" : 8.9
     }, {
       "data" : "03/09/2026",
-      "preco" : 15.48
+      "preco" : 8.9
     }, {
       "data" : "04/09/2026",
-      "preco" : 7.5
+      "preco" : 8.9
     } ]
   }, {
     "pid" : 4547,
@@ -62495,7 +63941,7 @@
     "linkAfiliado" : "https://amzn.to/4g7F2Nd",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "04/09/2026 08:35",
+    "dataOferta" : "04/09/2026 14:58",
     "destaque" : false,
     "precoAnterior" : "824,57",
     "menorPrecoEmDias" : false,
@@ -63002,7 +64448,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559883752?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 08:56",
+    "dataOferta" : "04/09/2026 15:18",
     "destaque" : false,
     "precoAnterior" : "34,47",
     "menorPrecoEmDias" : false,
@@ -63498,6 +64944,94 @@
     }, {
       "data" : "04/09/2026",
       "preco" : 50.29
+    } ]
+  }, {
+    "pid" : 992,
+    "id" : 146502,
+    "titulo" : "Vai dar tudo certo",
+    "imagem" : "https://m.media-amazon.com/images/I/91KBHzp4h4L._SL1500_.jpg",
+    "precoOriginal" : "54,90",
+    "precoPromocao" : "31,14",
+    "tag" : "-43%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6556893455?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "04/09/2026 15:25",
+    "destaque" : false,
+    "precoAnterior" : "31,14",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "07/08/2026",
+      "preco" : 36.48
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 45.19
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 36.48
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 36.48
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 45.19
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 31.14
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 31.14
     } ]
   }, {
     "pid" : 5488,
@@ -65176,7 +66710,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556898813?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "04/09/2026 09:02",
+    "dataOferta" : "04/09/2026 15:24",
     "destaque" : false,
     "precoAnterior" : "42,48",
     "menorPrecoEmDias" : false,
