@@ -65,7 +65,68 @@
 		"1420", "1662", "1730", "2658", "2786", "2991", "6467", 
 		"9154", "9155", "9156", "9157", "9158", "9159", "9346", 
 		"9347", "9348", "9349", "9350"]
-	}	
+	},
+	{
+	  "slug": "strogonoff-de-tilapia",
+	  "titulo": "Strogonoff de Tilápia",
+	  "categoria": "Pratos Principais",
+	  "resumo": "Um strogonoff prático e delicioso feito com tiras de tilápia, sucesso garantido no planejamento semanal da família.",
+	  "imagem": "https://via.placeholder.com/480x320",
+	  "tempoPreparo": "30 min",
+	  "rendimento": "6 porções",
+	  "custoMedio": "45,00",
+	  "ingredientes": [
+	    "800g de tilápia em tiras de 1 cm",
+	    "Suco de limão (para marinar)",
+	    "Azeite (para refogar)",
+	    "1 cebola picada",
+	    "4 dentes de alho picados",
+	    "1 lata de tomate pelado batida (ou passada no processador manual)",
+	    "1 colher (chá) de mostarda de Dijon (ou tradicional)",
+	    "1 colher (chá) de molho inglês",
+	    "150g de champignon cortado ao meio (ou 200g de cogumelo paris fresco em fatias)",
+	    "200g de nata, creme de leite fresco ou 1 caixa de creme de leite",
+	    "Sal e pimenta-do-reino a gosto",
+	    "Cheiro verde a gosto",
+	    "Um pouco de água"
+	  ],
+	  "modoPreparo": [
+	    "Marinada rápida: Tempere a tilápia com limão, sal e pimenta-do-reino. Deixe marinar apenas enquanto pica os outros ingredientes.",
+	    "Refogado base: Em uma panela, refogue a cebola no azeite. Em seguida, acrescente o alho e o tomate pelado.",
+	    "Sabor do molho: Adicione a mostarda, o molho inglês, sal, pimenta e um pouco de água. Deixe cozinhar por 3 minutos.",
+	    "Cremosidade: Adicione a nata (ou creme de leite) e o champignon, misturando bem ao molho.",
+	    "Cozimento do peixe: Por fim, coloque a tilápia e deixe cozinhar por uns 20 minutos. Não mexa muito para não esfarelar o peixe.",
+	    "Finalização: Ao fim do preparo, adicione o cheiro verde a gosto para trazer frescor ao prato."
+	  ],
+	  "dica": "Sirva com arroz branco e batata palha.",
+	  "produtos": []
+	},
+	{
+	  "slug": "cappuccino-caseiro",
+	  "titulo": "Cappuccino Caseiro",
+	  "categoria": "Bebidas",
+	  "resumo": "Uma mistura prática e deliciosa para ter cappuccino sempre à mão. Fácil de fazer e adaptável ao seu gosto.",
+	  "imagem": "https://via.placeholder.com/480x320",
+	  "tempoPreparo": "5 min",
+	  "rendimento": "1 pote grande",
+	  "custoMedio": "25,00",
+	  "ingredientes": [
+	    "3 xícaras de leite em pó",
+	    "6 colheres (chá) de café solúvel",
+	    "2 colheres (chá) de canela em pó",
+	    "4 colheres (sopa) de chocolate em pó (70% cacau ou de sua preferência)",
+	    "1 colher (chá) de bicarbonato de sódio",
+	    "1/2 xícara de açúcar refinado ou cristal (opcional)"
+	  ],
+	  "modoPreparo": [
+	    "Integração dos secos: Junte todos os ingredientes em um recipiente.",
+	    "Textura perfeita: Para um resultado mais fino, leve e homogêneo, o pó pode ser peneirado ou triturado no liquidificador.",
+	    "Armazenamento: Guarde a mistura em um pote com fechamento hermético para conservar a validade e o sabor.",
+	    "Para servir: Misture algumas colheres do pó pronto em uma xícara com água quente ou leite quente."
+	  ],
+	  "dica": "A quantidade de café solúvel na receita original é de 6 colheres (chá), mas você pode adicionar 2 ou 3 colheres a mais se gostar de um sabor de café mais acentuado.",
+	  "produtos": []
+	}
 	
   ]
 }
