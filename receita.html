@@ -240,7 +240,7 @@ function renderProdutosSugeridos(pids, ofertas) {
   // (234, 5864...), então normalizamos os dois lados antes de cruzar.
   const porPid = new Map(ofertas.map(o => [String(o.pid), o]));
   const encontrados = pids.map(pid => porPid.get(String(pid))).filter(Boolean);
-
+alert(encontrados.length)
   if (!encontrados.length) return;
   el("produtosSugeridos").innerHTML = encontrados.map(produtoCard).join("");
   el("secaoProdutos").classList.remove("hidden");
