@@ -1,5 +1,5 @@
 {
-  "ultimaAtualizacao" : "05/09/2026 14:06",
+  "ultimaAtualizacao" : "05/09/2026 15:06",
   "ofertas" : [ {
     "pid" : 234,
     "id" : 148764,
@@ -11,7 +11,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8550802751?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:22",
+    "dataOferta" : "05/09/2026 14:38",
     "destaque" : false,
     "precoAnterior" : "37,11",
     "menorPrecoEmDias" : false,
@@ -193,7 +193,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B086F848JG?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "05/09/2026 08:17",
+    "dataOferta" : "05/09/2026 14:33",
     "destaque" : false,
     "precoAnterior" : "18,99",
     "menorPrecoEmDias" : false,
@@ -946,7 +946,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113439?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:25",
+    "dataOferta" : "05/09/2026 14:41",
     "destaque" : false,
     "precoAnterior" : "32,90",
     "menorPrecoEmDias" : false,
@@ -1119,7 +1119,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508176651?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:23",
+    "dataOferta" : "05/09/2026 14:39",
     "destaque" : false,
     "precoAnterior" : "42,00",
     "menorPrecoEmDias" : false,
@@ -1210,7 +1210,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574125709?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:37",
+    "dataOferta" : "05/09/2026 14:54",
     "destaque" : false,
     "precoAnterior" : "39,82",
     "menorPrecoEmDias" : false,
@@ -1710,6 +1710,97 @@
       "preco" : 19.71
     } ]
   }, {
+    "pid" : 8,
+    "id" : 150953,
+    "titulo" : "A fantástica fábrica de chocolate",
+    "imagem" : "https://m.media-amazon.com/images/I/81dTvpaSTeL._SL1500_.jpg",
+    "precoOriginal" : "59,90",
+    "precoPromocao" : "32,69",
+    "tag" : "-45%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6584824055?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "05/09/2026 14:20",
+    "destaque" : false,
+    "precoAnterior" : "32,69",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "07/08/2026",
+      "preco" : 43.22
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 43.22
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 32.69
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 32.69
+    } ]
+  }, {
     "pid" : 35,
     "id" : 148397,
     "titulo" : "A fantástica fábrica de chocolate (Edição especial)",
@@ -1720,7 +1811,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584824012?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:10",
+    "dataOferta" : "05/09/2026 14:25",
     "destaque" : false,
     "precoAnterior" : "34,03",
     "menorPrecoEmDias" : false,
@@ -2415,7 +2506,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574126233?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:36",
+    "dataOferta" : "05/09/2026 14:54",
     "destaque" : false,
     "precoAnterior" : "35,11",
     "menorPrecoEmDias" : false,
@@ -2503,7 +2594,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508191839?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:25",
+    "dataOferta" : "05/09/2026 14:41",
     "destaque" : false,
     "precoAnterior" : "73,75",
     "menorPrecoEmDias" : false,
@@ -2940,7 +3031,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113498?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:22",
+    "dataOferta" : "05/09/2026 14:38",
     "destaque" : false,
     "precoAnterior" : "32,90",
     "menorPrecoEmDias" : false,
@@ -3196,7 +3287,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800458?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:09",
+    "dataOferta" : "05/09/2026 14:24",
     "destaque" : false,
     "precoAnterior" : "44,94",
     "menorPrecoEmDias" : false,
@@ -3452,12 +3543,12 @@
     "titulo" : "A árvore generosa",
     "imagem" : "https://m.media-amazon.com/images/I/81tPByJE0NL._SL1500_.jpg",
     "precoOriginal" : "74,90",
-    "precoPromocao" : "41,44",
-    "tag" : "-44%",
+    "precoPromocao" : "42,14",
+    "tag" : "-43%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067539?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:10",
+    "dataOferta" : "05/09/2026 14:24",
     "destaque" : false,
     "precoAnterior" : "41,44",
     "menorPrecoEmDias" : false,
@@ -3532,7 +3623,7 @@
       "preco" : 41.44
     }, {
       "data" : "05/09/2026",
-      "preco" : 41.44
+      "preco" : 42.14
     } ]
   }, {
     "pid" : 8259,
@@ -5166,7 +5257,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/658910817X?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:05",
+    "dataOferta" : "05/09/2026 14:19",
     "destaque" : false,
     "precoAnterior" : "80,01",
     "menorPrecoEmDias" : false,
@@ -5257,7 +5348,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574066095?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:09",
+    "dataOferta" : "05/09/2026 14:24",
     "destaque" : false,
     "precoAnterior" : "49,90",
     "menorPrecoEmDias" : false,
@@ -5430,7 +5521,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555114746?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:13",
+    "dataOferta" : "05/09/2026 14:29",
     "destaque" : false,
     "precoAnterior" : "43,14",
     "menorPrecoEmDias" : false,
@@ -5688,7 +5779,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/850817666X?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:24",
+    "dataOferta" : "05/09/2026 14:40",
     "destaque" : false,
     "precoAnterior" : "42,00",
     "menorPrecoEmDias" : false,
@@ -5994,7 +6085,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508040261?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:24",
+    "dataOferta" : "05/09/2026 14:40",
     "destaque" : false,
     "precoAnterior" : "24,50",
     "menorPrecoEmDias" : false,
@@ -6655,6 +6746,39 @@
       "preco" : 46.99
     } ]
   }, {
+    "pid" : 9157,
+    "id" : 150905,
+    "titulo" : "Açúcar Refinado DA BARRA Pct 1kg",
+    "imagem" : "https://m.media-amazon.com/images/I/81LfRlA0ftL._AC_SL1500_.jpg",
+    "precoOriginal" : "7,50",
+    "precoPromocao" : "3,19",
+    "tag" : "-57%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08434QZT2?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "05/09/2026 14:10",
+    "destaque" : false,
+    "precoAnterior" : "3,19",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "31/08/2026",
+      "preco" : 2.88
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 2.88
+    }, {
+      "data" : "02/09/2026"
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 3.19
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 3.19
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 3.19
+    } ]
+  }, {
     "pid" : 359,
     "id" : 148868,
     "titulo" : "Baby Dove Sabonete Líquido Da Cabeça Aos Pés Hidratação Enriquecida 400Ml",
@@ -6665,7 +6789,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B078HS3SKS?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:39",
+    "dataOferta" : "05/09/2026 14:56",
     "destaque" : false,
     "precoAnterior" : "21,59",
     "menorPrecoEmDias" : false,
@@ -7762,7 +7886,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067199?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:37",
+    "dataOferta" : "05/09/2026 14:54",
     "destaque" : false,
     "precoAnterior" : "39,79",
     "menorPrecoEmDias" : false,
@@ -8286,7 +8410,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8596007555?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:15",
+    "dataOferta" : "05/09/2026 14:30",
     "destaque" : false,
     "precoAnterior" : "42,75",
     "menorPrecoEmDias" : false,
@@ -10433,7 +10557,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B086JCX68G?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:41",
+    "dataOferta" : "05/09/2026 14:58",
     "destaque" : false,
     "precoAnterior" : "27,00",
     "menorPrecoEmDias" : false,
@@ -11348,7 +11472,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07N7Q8F59?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
     "categoriaId" : 6,
-    "dataOferta" : "05/09/2026 08:46",
+    "dataOferta" : "05/09/2026 15:03",
     "destaque" : false,
     "precoAnterior" : "18,90",
     "menorPrecoEmDias" : false,
@@ -12025,7 +12149,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CGSTKQN9?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:16",
+    "dataOferta" : "05/09/2026 14:31",
     "destaque" : false,
     "precoAnterior" : "76,00",
     "menorPrecoEmDias" : false,
@@ -12842,7 +12966,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0DDVP2W3M?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:36",
+    "dataOferta" : "05/09/2026 14:53",
     "destaque" : false,
     "precoAnterior" : "498,39",
     "menorPrecoEmDias" : false,
@@ -15526,7 +15650,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077J2FKQN?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "05/09/2026 08:20",
+    "dataOferta" : "05/09/2026 14:36",
     "destaque" : false,
     "precoAnterior" : "14,99",
     "menorPrecoEmDias" : false,
@@ -16151,15 +16275,16 @@
     "titulo" : "Cartas de um diabo a seu aprendiz",
     "imagem" : "https://m.media-amazon.com/images/I/91w74bA251L._SL1500_.jpg",
     "precoOriginal" : "69,90",
-    "precoPromocao" : "35,05",
-    "tag" : "-49%",
+    "precoPromocao" : "34,40",
+    "tag" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/857860184X?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:06",
-    "destaque" : false,
+    "dataOferta" : "05/09/2026 14:21",
+    "destaque" : true,
     "precoAnterior" : "35,05",
-    "menorPrecoEmDias" : false,
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
     "historico" : [ {
       "data" : "07/08/2026",
       "preco" : 39.06
@@ -16234,7 +16359,7 @@
       "preco" : 35.05
     }, {
       "data" : "05/09/2026",
-      "preco" : 35.05
+      "preco" : 34.4
     } ]
   }, {
     "pid" : 19,
@@ -16598,6 +16723,37 @@
     }, {
       "data" : "05/09/2026",
       "preco" : 19.41
+    } ]
+  }, {
+    "pid" : 9193,
+    "id" : 150915,
+    "titulo" : "Cereal Matinal Nescau Extra Cacau 170g",
+    "imagem" : "https://m.media-amazon.com/images/I/81NZfNFn9PL._AC_SL1500_.jpg",
+    "precoOriginal" : "12,89",
+    "precoPromocao" : "9,90",
+    "tag" : "-23%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0C9V2DY7B?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "05/09/2026 14:12",
+    "destaque" : false,
+    "precoAnterior" : "9,90",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "01/09/2026",
+      "preco" : 8.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 9.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 9.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 9.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 9.9
     } ]
   }, {
     "pid" : 7005,
@@ -18407,17 +18563,103 @@
       "preco" : 21.6
     } ]
   }, {
+    "pid" : 259,
+    "id" : 150961,
+    "titulo" : "Coleção a Casa da Árvore - 16 Volumes",
+    "imagem" : "https://m.media-amazon.com/images/I/81ed92xVmIL._SL1500_.jpg",
+    "precoOriginal" : "250,00",
+    "precoPromocao" : "209,90",
+    "tag" : "-16%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/000050890X?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "05/09/2026 14:43",
+    "destaque" : false,
+    "precoAnterior" : "209,90",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "07/08/2026",
+      "preco" : 213.74
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 213.74
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 213.74
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "31/08/2026"
+    }, {
+      "data" : "01/09/2026"
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 209.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 209.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 209.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 209.9
+    } ]
+  }, {
     "pid" : 66,
     "id" : 148447,
     "titulo" : "Coleção Anne de Green Gables com 8 livros mais Diário de aventuras",
     "imagem" : "https://m.media-amazon.com/images/I/71sTkbq6KoL._SL1038_.jpg",
     "precoOriginal" : "179,90",
-    "precoPromocao" : "66,48",
-    "tag" : "-63%",
+    "precoPromocao" : "116,00",
+    "tag" : "-35%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08N9P9M5L?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:12",
+    "dataOferta" : "05/09/2026 14:27",
     "destaque" : false,
     "precoAnterior" : "66,48",
     "menorPrecoEmDias" : false,
@@ -18492,7 +18734,7 @@
       "preco" : 66.48
     }, {
       "data" : "05/09/2026",
-      "preco" : 66.48
+      "preco" : 116.0
     } ]
   }, {
     "pid" : 8915,
@@ -18890,7 +19132,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584956393?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:47",
+    "dataOferta" : "05/09/2026 15:05",
     "destaque" : false,
     "precoAnterior" : "32,43",
     "menorPrecoEmDias" : false,
@@ -19622,7 +19864,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07X41XJ87?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:45",
+    "dataOferta" : "05/09/2026 15:02",
     "destaque" : false,
     "precoAnterior" : "24,95",
     "menorPrecoEmDias" : false,
@@ -19804,7 +20046,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8578601777?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:06",
+    "dataOferta" : "05/09/2026 14:21",
     "destaque" : false,
     "precoAnterior" : "29,99",
     "menorPrecoEmDias" : false,
@@ -19879,6 +20121,86 @@
     }, {
       "data" : "05/09/2026",
       "preco" : 29.99
+    } ]
+  }, {
+    "pid" : 8679,
+    "id" : 150963,
+    "titulo" : "Cubo Sensorial Educativo 10 Em 1 Para Habilidades Motoras",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_689624-MLB110978735735_042026-F-cubo-sensorial-educativo-10-em-1-para-habilidades-motoras.webp",
+    "precoOriginal" : "60,00",
+    "precoPromocao" : "37,84",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://meli.la/2HuT9eo",
+    "categoria" : "Brinquedos e Jogos",
+    "categoriaId" : 6,
+    "dataOferta" : "05/09/2026 14:48",
+    "destaque" : false,
+    "precoAnterior" : "37,84",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "19/08/2026",
+      "preco" : 36.8
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 36.8
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 36.8
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 36.8
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 36.8
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 36.8
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 36.8
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 36.8
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 37.84
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 37.84
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 37.84
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 37.84
+    } ]
+  }, {
+    "pid" : 9283,
+    "id" : 150926,
+    "titulo" : "Cápsulas de Café Baggio Café Aroma Chocolate com Avelã, compatível com Nespresso, contém 20 cápsulas",
+    "imagem" : "https://m.media-amazon.com/images/I/6171fzPQ0iL._AC_SL1500_.jpg",
+    "precoOriginal" : "51,80",
+    "precoPromocao" : "32,90",
+    "tag" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CH92DPFY?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "05/09/2026 14:14",
+    "destaque" : false,
+    "precoAnterior" : "32,90",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "03/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 32.9
     } ]
   }, {
     "pid" : 1462,
@@ -20659,7 +20981,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508172885?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:23",
+    "dataOferta" : "05/09/2026 14:39",
     "destaque" : false,
     "precoAnterior" : "42,00",
     "menorPrecoEmDias" : false,
@@ -21986,7 +22308,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08FD3B2KQ?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "05/09/2026 08:47",
+    "dataOferta" : "05/09/2026 15:04",
     "destaque" : false,
     "precoAnterior" : "33,65",
     "menorPrecoEmDias" : false,
@@ -22238,6 +22560,97 @@
       "preco" : 47.53
     } ]
   }, {
+    "pid" : 353,
+    "id" : 150966,
+    "titulo" : "Edmundo e o resmungo – Da autora de “Enquanto Ana espera” e “É para o meu bem”",
+    "imagem" : "https://m.media-amazon.com/images/I/816CuhjetnL._SL1500_.jpg",
+    "precoOriginal" : "74,90",
+    "precoPromocao" : "39,64",
+    "tag" : "-47%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6552171234?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "05/09/2026 14:55",
+    "destaque" : false,
+    "precoAnterior" : "39,64",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "07/08/2026",
+      "preco" : 35.53
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 39.64
+    } ]
+  }, {
     "pid" : 2703,
     "id" : 149729,
     "titulo" : "Ei, Ei, Ei Vanderlei",
@@ -22330,7 +22743,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069965?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:32",
+    "dataOferta" : "05/09/2026 14:49",
     "destaque" : false,
     "precoAnterior" : "51,64",
     "menorPrecoEmDias" : false,
@@ -22679,7 +23092,7 @@
     "linkAfiliado" : "https://amzn.to/3QcFsrh",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:33",
+    "dataOferta" : "05/09/2026 14:49",
     "destaque" : false,
     "precoAnterior" : "49,84",
     "menorPrecoEmDias" : false,
@@ -22891,7 +23304,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8538006363?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:21",
+    "dataOferta" : "05/09/2026 14:37",
     "destaque" : false,
     "precoAnterior" : "28,31",
     "menorPrecoEmDias" : false,
@@ -23158,7 +23571,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555111291?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:07",
+    "dataOferta" : "05/09/2026 14:22",
     "destaque" : false,
     "precoAnterior" : "39,52",
     "menorPrecoEmDias" : false,
@@ -24027,7 +24440,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07FN7VP5Y?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "05/09/2026 08:43",
+    "dataOferta" : "05/09/2026 14:59",
     "destaque" : false,
     "precoAnterior" : "50,90",
     "menorPrecoEmDias" : false,
@@ -24501,7 +24914,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07GMCX7P4?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "05/09/2026 08:15",
+    "dataOferta" : "05/09/2026 14:31",
     "destaque" : false,
     "precoAnterior" : "57,99",
     "menorPrecoEmDias" : false,
@@ -24840,7 +25253,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07GQ136TS?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "05/09/2026 08:30",
+    "dataOferta" : "05/09/2026 14:46",
     "destaque" : false,
     "precoAnterior" : "57,72",
     "menorPrecoEmDias" : false,
@@ -25013,7 +25426,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08GZNWJ17?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "05/09/2026 08:30",
+    "dataOferta" : "05/09/2026 14:46",
     "destaque" : false,
     "precoAnterior" : "74,90",
     "menorPrecoEmDias" : false,
@@ -25265,6 +25678,34 @@
     }, {
       "data" : "05/09/2026",
       "preco" : 22.76
+    } ]
+  }, {
+    "pid" : 9253,
+    "id" : 150924,
+    "titulo" : "Fralda Turma da Mônica Baby Mega XG 42 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/61wE7KZt2vL._AC_SL1500_.jpg",
+    "precoOriginal" : "50,04",
+    "precoPromocao" : "37,80",
+    "tag" : "-24%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B099KV2733?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "05/09/2026 14:14",
+    "destaque" : false,
+    "precoAnterior" : "37,80",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "02/09/2026",
+      "preco" : 37.8
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 37.8
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 37.8
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 37.8
     } ]
   }, {
     "pid" : 965,
@@ -25632,7 +26073,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508176635?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:24",
+    "dataOferta" : "05/09/2026 14:41",
     "destaque" : false,
     "precoAnterior" : "49,02",
     "menorPrecoEmDias" : false,
@@ -25811,7 +26252,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/857412320X?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:37",
+    "dataOferta" : "05/09/2026 14:54",
     "destaque" : false,
     "precoAnterior" : "35,16",
     "menorPrecoEmDias" : false,
@@ -25899,7 +26340,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CGCDZRBL?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "05/09/2026 08:13",
+    "dataOferta" : "05/09/2026 14:28",
     "destaque" : false,
     "precoAnterior" : "9,90",
     "menorPrecoEmDias" : false,
@@ -26060,12 +26501,12 @@
     "titulo" : "Granado Colônia Bebê, Tradicional, 100ml",
     "imagem" : "https://m.media-amazon.com/images/I/51mnExslh6L._AC_SL1000_.jpg",
     "precoOriginal" : "99,68",
-    "precoPromocao" : "62,91",
-    "tag" : "-24%",
+    "precoPromocao" : "69,90",
+    "tag" : "-29%",
     "linkAfiliado" : "https://amzn.to/43VKOKF",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:15",
+    "dataOferta" : "05/09/2026 14:31",
     "destaque" : false,
     "precoAnterior" : "62,91",
     "menorPrecoEmDias" : false,
@@ -26140,7 +26581,7 @@
       "preco" : 62.91
     }, {
       "data" : "05/09/2026",
-      "preco" : 62.91
+      "preco" : 69.9
     } ]
   }, {
     "pid" : 771,
@@ -29700,7 +30141,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069892?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:32",
+    "dataOferta" : "05/09/2026 14:49",
     "destaque" : false,
     "precoAnterior" : "46,47",
     "menorPrecoEmDias" : false,
@@ -29791,7 +30232,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FBC2GVT1?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "05/09/2026 08:44",
+    "dataOferta" : "05/09/2026 15:01",
     "destaque" : false,
     "precoAnterior" : "92,90",
     "menorPrecoEmDias" : false,
@@ -30057,7 +30498,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B095R9CKYR?tag=curadomus-20",
     "categoria" : "Fraldas",
     "categoriaId" : 9,
-    "dataOferta" : "05/09/2026 08:29",
+    "dataOferta" : "05/09/2026 14:45",
     "destaque" : false,
     "precoAnterior" : "29,90",
     "menorPrecoEmDias" : false,
@@ -30759,7 +31200,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584824470?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:05",
+    "dataOferta" : "05/09/2026 14:20",
     "destaque" : false,
     "precoAnterior" : "39,80",
     "menorPrecoEmDias" : false,
@@ -31848,7 +32289,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHSFK5T?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:17",
+    "dataOferta" : "05/09/2026 14:32",
     "destaque" : false,
     "precoAnterior" : "20,99",
     "menorPrecoEmDias" : false,
@@ -33136,7 +33577,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GRFP6315?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "05/09/2026 08:04",
+    "dataOferta" : "05/09/2026 14:19",
     "destaque" : false,
     "precoAnterior" : "44,89",
     "menorPrecoEmDias" : false,
@@ -34779,6 +35220,34 @@
       "preco" : 34.92
     } ]
   }, {
+    "pid" : 9220,
+    "id" : 150920,
+    "titulo" : "Kit Extrator Manual Essential Philips Avent – 1 un Extrator de leite com almofada de silicone, 1 un Bico, 5 un de Saco de armazenamento e 4 un de Absorvente de seio descatáveis - Livre de BPA",
+    "imagem" : "https://m.media-amazon.com/images/I/51cnnEx9n5L._AC_SL1080_.jpg",
+    "precoOriginal" : "349,90",
+    "precoPromocao" : "269,89",
+    "tag" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0GVGFQ1GG?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "05/09/2026 14:13",
+    "destaque" : false,
+    "precoAnterior" : "269,89",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "02/09/2026",
+      "preco" : 269.89
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 269.89
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 269.89
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 269.89
+    } ]
+  }, {
     "pid" : 5040,
     "id" : 150430,
     "titulo" : "Kit Higiene Bucal",
@@ -35556,6 +36025,49 @@
     }, {
       "data" : "05/09/2026",
       "preco" : 33.81
+    } ]
+  }, {
+    "pid" : 8997,
+    "id" : 150884,
+    "titulo" : "Lacta Sonho de Valsa - Wafer Recheado Sabor Chocolate Pacote 1kg",
+    "imagem" : "https://m.media-amazon.com/images/I/71VrdcxqTXL._AC_SL1500_.jpg",
+    "precoOriginal" : "94,50",
+    "precoPromocao" : "64,70",
+    "tag" : "-31%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B008S5ICJ0?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "05/09/2026 14:06",
+    "destaque" : false,
+    "precoAnterior" : "64,70",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "27/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 67.55
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 67.55
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 67.55
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 64.7
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 64.7
     } ]
   }, {
     "pid" : 8261,
@@ -36524,6 +37036,49 @@
     }, {
       "data" : "05/09/2026",
       "preco" : 31.37
+    } ]
+  }, {
+    "pid" : 9007,
+    "id" : 150887,
+    "titulo" : "Lillo Caneca Aprendizado C/ Alça Evolution Bebedor SIL 150 ml - Menino, Lillo, Azul/Laranja",
+    "imagem" : "https://m.media-amazon.com/images/I/61o06R0iS-L._AC_SL1200_.jpg",
+    "precoOriginal" : "45,78",
+    "precoPromocao" : "33,86",
+    "tag" : "-26%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08V2M2MQV?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "05/09/2026 14:07",
+    "destaque" : false,
+    "precoAnterior" : "33,86",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "27/08/2026",
+      "preco" : 33.86
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 33.86
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 33.86
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 33.86
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 35.98
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 33.86
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 33.86
     } ]
   }, {
     "pid" : 4748,
@@ -37548,6 +38103,52 @@
       "preco" : 26.22
     } ]
   }, {
+    "pid" : 8905,
+    "id" : 150971,
+    "titulo" : "Lorenzetti Loren Shower Ultra Multitemperaturas de 220V 7500w ducha branca",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_906215-MLA96637759000_112025-F.webp",
+    "precoOriginal" : "178,99",
+    "precoPromocao" : "122,00",
+    "tag" : "-31%",
+    "linkAfiliado" : "https://meli.la/2HeSNoo",
+    "categoria" : "Casa",
+    "categoriaId" : 3,
+    "dataOferta" : "05/09/2026 15:04",
+    "destaque" : false,
+    "precoAnterior" : "122,60",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "24/08/2026",
+      "preco" : 115.6
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 115.6
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 131.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 131.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 131.0
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 157.13
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 109.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 122.6
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 122.0
+    } ]
+  }, {
     "pid" : 1441,
     "id" : 149244,
     "titulo" : "Loção Hidratante Relaxante Para Uso Diário Johnson's Baby Hora Do Sono, 200mL",
@@ -38272,7 +38873,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574120472?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:39",
+    "dataOferta" : "05/09/2026 14:56",
     "destaque" : false,
     "precoAnterior" : "37,88",
     "menorPrecoEmDias" : false,
@@ -39321,7 +39922,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09BBDVPB1?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:28",
+    "dataOferta" : "05/09/2026 14:44",
     "destaque" : false,
     "precoAnterior" : "29,90",
     "menorPrecoEmDias" : false,
@@ -39679,7 +40280,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07CR5RKQK?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "05/09/2026 08:21",
+    "dataOferta" : "05/09/2026 14:37",
     "destaque" : false,
     "precoAnterior" : "11,65",
     "menorPrecoEmDias" : false,
@@ -39767,7 +40368,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584824020?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:06",
+    "dataOferta" : "05/09/2026 14:21",
     "destaque" : false,
     "precoAnterior" : "39,77",
     "menorPrecoEmDias" : false,
@@ -39934,7 +40535,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555111259?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:07",
+    "dataOferta" : "05/09/2026 14:22",
     "destaque" : false,
     "precoAnterior" : "39,93",
     "menorPrecoEmDias" : false,
@@ -40542,7 +41143,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6586106788?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:14",
+    "dataOferta" : "05/09/2026 14:30",
     "destaque" : false,
     "precoAnterior" : "55,50",
     "menorPrecoEmDias" : false,
@@ -40633,7 +41234,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6586106370?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:04",
+    "dataOferta" : "05/09/2026 14:19",
     "destaque" : false,
     "precoAnterior" : "57,50",
     "menorPrecoEmDias" : false,
@@ -40966,7 +41567,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CCWPKQYN?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "05/09/2026 08:48",
+    "dataOferta" : "05/09/2026 15:05",
     "destaque" : false,
     "precoAnterior" : "25,55",
     "menorPrecoEmDias" : false,
@@ -41441,7 +42042,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08NQNXMPL?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:45",
+    "dataOferta" : "05/09/2026 15:02",
     "destaque" : false,
     "precoAnterior" : "71,09",
     "menorPrecoEmDias" : false,
@@ -41521,7 +42122,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08YK3CVLY?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:35",
+    "dataOferta" : "05/09/2026 14:51",
     "destaque" : false,
     "precoAnterior" : "109,99",
     "menorPrecoEmDias" : false,
@@ -43112,7 +43713,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508171870?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:24",
+    "dataOferta" : "05/09/2026 14:40",
     "destaque" : false,
     "precoAnterior" : "24,50",
     "menorPrecoEmDias" : false,
@@ -43188,7 +43789,7 @@
     "linkAfiliado" : "https://amzn.to/3RWwGy6",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:24",
+    "dataOferta" : "05/09/2026 14:40",
     "destaque" : false,
     "precoAnterior" : "24,50",
     "menorPrecoEmDias" : false,
@@ -43544,7 +44145,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508176597?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:23",
+    "dataOferta" : "05/09/2026 14:39",
     "destaque" : false,
     "precoAnterior" : "42,00",
     "menorPrecoEmDias" : false,
@@ -43635,7 +44236,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574126241?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:09",
+    "dataOferta" : "05/09/2026 14:24",
     "destaque" : false,
     "precoAnterior" : "39,38",
     "menorPrecoEmDias" : false,
@@ -43726,7 +44327,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574062855?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:11",
+    "dataOferta" : "05/09/2026 14:26",
     "destaque" : false,
     "precoAnterior" : "59,75",
     "menorPrecoEmDias" : false,
@@ -43890,7 +44491,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555005882?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:10",
+    "dataOferta" : "05/09/2026 14:26",
     "destaque" : false,
     "precoAnterior" : "27,93",
     "menorPrecoEmDias" : false,
@@ -44063,7 +44664,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559801020?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:10",
+    "dataOferta" : "05/09/2026 14:25",
     "destaque" : false,
     "precoAnterior" : "42,90",
     "menorPrecoEmDias" : false,
@@ -44154,7 +44755,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8524916982?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:09",
+    "dataOferta" : "05/09/2026 14:24",
     "destaque" : false,
     "precoAnterior" : "46,60",
     "menorPrecoEmDias" : false,
@@ -44233,7 +44834,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556891118?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:38",
+    "dataOferta" : "05/09/2026 14:55",
     "destaque" : false,
     "precoAnterior" : "39,30",
     "menorPrecoEmDias" : false,
@@ -44491,7 +45092,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574120286?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:38",
+    "dataOferta" : "05/09/2026 14:56",
     "destaque" : false,
     "precoAnterior" : "42,36",
     "menorPrecoEmDias" : false,
@@ -44664,7 +45265,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8595084742?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:25",
+    "dataOferta" : "05/09/2026 14:41",
     "destaque" : false,
     "precoAnterior" : "49,78",
     "menorPrecoEmDias" : false,
@@ -44840,9 +45441,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8581323944?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:08",
+    "dataOferta" : "05/09/2026 14:23",
     "destaque" : false,
-    "precoAnterior" : "67,58",
+    "precoAnterior" : "78,12",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "07/08/2026",
@@ -45360,7 +45961,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113358?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:12",
+    "dataOferta" : "05/09/2026 14:27",
     "destaque" : false,
     "precoAnterior" : "45,24",
     "menorPrecoEmDias" : false,
@@ -45433,12 +46034,12 @@
     "titulo" : "O menino e o muro",
     "imagem" : "https://m.media-amazon.com/images/I/91iTuClvyEL._SL1500_.jpg",
     "precoOriginal" : "58,00",
-    "precoPromocao" : "44,99",
+    "precoPromocao" : "45,24",
     "tag" : "-22%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113536?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:23",
+    "dataOferta" : "05/09/2026 14:40",
     "destaque" : false,
     "precoAnterior" : "44,99",
     "menorPrecoEmDias" : false,
@@ -45516,7 +46117,7 @@
       "preco" : 44.99
     }, {
       "data" : "05/09/2026",
-      "preco" : 44.99
+      "preco" : 45.24
     } ]
   }, {
     "pid" : 231,
@@ -45529,7 +46130,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508111312?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:22",
+    "dataOferta" : "05/09/2026 14:38",
     "destaque" : false,
     "precoAnterior" : "29,80",
     "menorPrecoEmDias" : false,
@@ -45957,7 +46558,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508111274?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:25",
+    "dataOferta" : "05/09/2026 14:41",
     "destaque" : false,
     "precoAnterior" : "29,90",
     "menorPrecoEmDias" : false,
@@ -46138,7 +46739,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113331?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:23",
+    "dataOferta" : "05/09/2026 14:39",
     "destaque" : false,
     "precoAnterior" : "31,90",
     "menorPrecoEmDias" : false,
@@ -46293,7 +46894,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556540889?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:37",
+    "dataOferta" : "05/09/2026 14:54",
     "destaque" : false,
     "precoAnterior" : "34,86",
     "menorPrecoEmDias" : false,
@@ -46384,7 +46985,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508172826?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:22",
+    "dataOferta" : "05/09/2026 14:38",
     "destaque" : false,
     "precoAnterior" : "42,00",
     "menorPrecoEmDias" : false,
@@ -46651,7 +47252,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/856250081X?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:27",
+    "dataOferta" : "05/09/2026 14:43",
     "destaque" : false,
     "precoAnterior" : "36,90",
     "menorPrecoEmDias" : false,
@@ -46821,7 +47422,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508172796?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:23",
+    "dataOferta" : "05/09/2026 14:39",
     "destaque" : false,
     "precoAnterior" : "42,00",
     "menorPrecoEmDias" : false,
@@ -46909,7 +47510,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574121878?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:38",
+    "dataOferta" : "05/09/2026 14:55",
     "destaque" : false,
     "precoAnterior" : "45,12",
     "menorPrecoEmDias" : false,
@@ -47339,7 +47940,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555112514??tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:07",
+    "dataOferta" : "05/09/2026 14:23",
     "destaque" : false,
     "precoAnterior" : "198,88",
     "menorPrecoEmDias" : false,
@@ -47430,7 +48031,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8595084378?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:04",
+    "dataOferta" : "05/09/2026 14:19",
     "destaque" : false,
     "precoAnterior" : "48,64",
     "menorPrecoEmDias" : false,
@@ -47517,7 +48118,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508111290?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:22",
+    "dataOferta" : "05/09/2026 14:37",
     "destaque" : false,
     "precoAnterior" : "38,91",
     "menorPrecoEmDias" : false,
@@ -47608,7 +48209,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508111339?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:22",
+    "dataOferta" : "05/09/2026 14:38",
     "destaque" : false,
     "precoAnterior" : "29,90",
     "menorPrecoEmDias" : false,
@@ -48299,7 +48900,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8538094505?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:08",
+    "dataOferta" : "05/09/2026 14:23",
     "destaque" : false,
     "precoAnterior" : "25,06",
     "menorPrecoEmDias" : false,
@@ -49454,7 +50055,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0783NPFQ2?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "05/09/2026 08:17",
+    "dataOferta" : "05/09/2026 14:33",
     "destaque" : false,
     "precoAnterior" : "35,99",
     "menorPrecoEmDias" : false,
@@ -50233,7 +50834,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8578601955?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:06",
+    "dataOferta" : "05/09/2026 14:21",
     "destaque" : false,
     "precoAnterior" : "41,90",
     "menorPrecoEmDias" : false,
@@ -50655,7 +51256,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07YBNQKJ9?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "05/09/2026 08:28",
+    "dataOferta" : "05/09/2026 14:44",
     "destaque" : false,
     "precoAnterior" : "25,11",
     "menorPrecoEmDias" : false,
@@ -50926,7 +51527,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800504?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:08",
+    "dataOferta" : "05/09/2026 14:23",
     "destaque" : false,
     "precoAnterior" : "30,56",
     "menorPrecoEmDias" : false,
@@ -51104,7 +51705,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800881?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:14",
+    "dataOferta" : "05/09/2026 14:29",
     "destaque" : false,
     "precoAnterior" : "39,93",
     "menorPrecoEmDias" : false,
@@ -51195,9 +51796,9 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07LHC55HY?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
     "categoriaId" : 6,
-    "dataOferta" : "05/09/2026 08:42",
+    "dataOferta" : "05/09/2026 14:58",
     "destaque" : false,
-    "precoAnterior" : "19,99",
+    "precoAnterior" : "20,51",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "07/08/2026",
@@ -51831,7 +52432,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508177798?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:24",
+    "dataOferta" : "05/09/2026 14:40",
     "destaque" : false,
     "precoAnterior" : "24,50",
     "menorPrecoEmDias" : false,
@@ -53237,7 +53838,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C75GP7VP?tag=curadomus-20",
     "categoria" : "Casa",
     "categoriaId" : 3,
-    "dataOferta" : "05/09/2026 08:19",
+    "dataOferta" : "05/09/2026 14:34",
     "destaque" : false,
     "precoAnterior" : "45,90",
     "menorPrecoEmDias" : false,
@@ -53996,7 +54597,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07F6RDZ67?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:45",
+    "dataOferta" : "05/09/2026 15:02",
     "destaque" : false,
     "precoAnterior" : "12,79",
     "menorPrecoEmDias" : false,
@@ -54340,7 +54941,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069760?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:32",
+    "dataOferta" : "05/09/2026 14:48",
     "destaque" : false,
     "precoAnterior" : "47,11",
     "menorPrecoEmDias" : false,
@@ -54665,7 +55266,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8504014096?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:46",
+    "dataOferta" : "05/09/2026 15:04",
     "destaque" : false,
     "precoAnterior" : "46,16",
     "menorPrecoEmDias" : false,
@@ -54756,7 +55357,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077QB2GBQ?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "05/09/2026 08:20",
+    "dataOferta" : "05/09/2026 14:36",
     "destaque" : false,
     "precoAnterior" : "9,68",
     "menorPrecoEmDias" : false,
@@ -55780,7 +56381,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067326?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:20",
+    "dataOferta" : "05/09/2026 14:37",
     "destaque" : false,
     "precoAnterior" : "48,99",
     "menorPrecoEmDias" : false,
@@ -56127,7 +56728,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508177801?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:27",
+    "dataOferta" : "05/09/2026 14:43",
     "destaque" : false,
     "precoAnterior" : "24,50",
     "menorPrecoEmDias" : false,
@@ -56722,7 +57323,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555110937?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:07",
+    "dataOferta" : "05/09/2026 14:22",
     "destaque" : false,
     "precoAnterior" : "34,76",
     "menorPrecoEmDias" : false,
@@ -58244,7 +58845,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B081T9WZHG?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:44",
+    "dataOferta" : "05/09/2026 15:01",
     "destaque" : false,
     "precoAnterior" : "413,29",
     "menorPrecoEmDias" : false,
@@ -58420,7 +59021,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CRZ8FZBP?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:18",
+    "dataOferta" : "05/09/2026 14:34",
     "destaque" : false,
     "precoAnterior" : "1.200,00",
     "menorPrecoEmDias" : false,
@@ -59051,7 +59652,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067040?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:32",
+    "dataOferta" : "05/09/2026 14:48",
     "destaque" : false,
     "precoAnterior" : "47,28",
     "menorPrecoEmDias" : false,
@@ -59993,7 +60594,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8595085684?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:11",
+    "dataOferta" : "05/09/2026 14:27",
     "destaque" : false,
     "precoAnterior" : "43,26",
     "menorPrecoEmDias" : false,
@@ -60434,7 +61035,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09TRRFYB8?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "05/09/2026 08:40",
+    "dataOferta" : "05/09/2026 14:57",
     "destaque" : false,
     "precoAnterior" : "7,50",
     "menorPrecoEmDias" : false,
@@ -60955,7 +61556,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0778SGJ2N?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "05/09/2026 08:21",
+    "dataOferta" : "05/09/2026 14:37",
     "destaque" : false,
     "precoAnterior" : "10,92",
     "menorPrecoEmDias" : false,
@@ -61134,7 +61735,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077QBNC9H?tag=curadomus-20",
     "categoria" : "Papelaria e Escritório",
     "categoriaId" : 4,
-    "dataOferta" : "05/09/2026 08:19",
+    "dataOferta" : "05/09/2026 14:35",
     "destaque" : false,
     "precoAnterior" : "39,30",
     "menorPrecoEmDias" : false,
@@ -61207,6 +61808,70 @@
     }, {
       "data" : "05/09/2026",
       "preco" : 39.3
+    } ]
+  }, {
+    "pid" : 8532,
+    "id" : 150958,
+    "titulo" : "Tinta Guache 12 Cores 15 Ml Não Tóxica Acrilex + 2 Pincéis",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_896595-MLB95982331396_102025-F-tinta-guache-12-cores-15-ml-nao-toxica-acrilex--2-pinceis.webp",
+    "precoOriginal" : "41,65",
+    "precoPromocao" : "21,58",
+    "tag" : "-48%",
+    "linkAfiliado" : "https://meli.la/2o7VQra",
+    "categoria" : "Papelaria e Escritório",
+    "categoriaId" : 4,
+    "dataOferta" : "05/09/2026 14:36",
+    "destaque" : false,
+    "precoAnterior" : "21,58",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "15/08/2026",
+      "preco" : 17.77
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 17.77
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 17.77
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 17.77
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 17.77
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 17.77
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 17.77
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 21.58
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 21.58
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 21.58
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 21.58
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 21.58
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 21.58
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 21.58
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 21.58
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 21.58
     } ]
   }, {
     "pid" : 2770,
@@ -62432,6 +63097,70 @@
       "preco" : 66.14
     } ]
   }, {
+    "pid" : 8530,
+    "id" : 150956,
+    "titulo" : "Trave Futebol Kit 2 Mini Golzinhos Gol Infantil Bola E Bomba Branco",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_656560-MLA99992295847_112025-F.webp",
+    "precoOriginal" : "119,90",
+    "precoPromocao" : "64,90",
+    "tag" : "-45%",
+    "linkAfiliado" : "https://meli.la/1s7zkW4",
+    "categoria" : "Brinquedos e Jogos",
+    "categoriaId" : 6,
+    "dataOferta" : "05/09/2026 14:29",
+    "destaque" : false,
+    "precoAnterior" : "64,90",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "15/08/2026",
+      "preco" : 61.29
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 51.29
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 51.29
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 51.29
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 0.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 0.0
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 51.29
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 0.0
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 0.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 62.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 62.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 64.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 64.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 64.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 64.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 64.9
+    } ]
+  }, {
     "pid" : 490,
     "id" : 148894,
     "titulo" : "Travel System Cosco Kids, Reverse Duo, 0 a 15kg, Preto Bronze",
@@ -62442,7 +63171,7 @@
     "linkAfiliado" : "https://amzn.to/4g7F2Nd",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "05/09/2026 08:44",
+    "dataOferta" : "05/09/2026 15:01",
     "destaque" : false,
     "precoAnterior" : "824,57",
     "menorPrecoEmDias" : false,
@@ -63051,7 +63780,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8538071025?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:22",
+    "dataOferta" : "05/09/2026 14:38",
     "destaque" : false,
     "precoAnterior" : "26,49",
     "menorPrecoEmDias" : false,
@@ -63142,7 +63871,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067997?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:32",
+    "dataOferta" : "05/09/2026 14:48",
     "destaque" : false,
     "precoAnterior" : "46,14",
     "menorPrecoEmDias" : false,
@@ -63318,7 +64047,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8580633540?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:08",
+    "dataOferta" : "05/09/2026 14:23",
     "destaque" : false,
     "precoAnterior" : "50,29",
     "menorPrecoEmDias" : false,
@@ -64531,7 +65260,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574068764?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "05/09/2026 08:33",
+    "dataOferta" : "05/09/2026 14:50",
     "destaque" : false,
     "precoAnterior" : "45,50",
     "menorPrecoEmDias" : false,
@@ -65022,7 +65751,7 @@
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BRT9LFPJ?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
     "categoriaId" : 2,
-    "dataOferta" : "05/09/2026 08:48",
+    "dataOferta" : "05/09/2026 15:05",
     "destaque" : false,
     "precoAnterior" : "28,31",
     "menorPrecoEmDias" : false,
