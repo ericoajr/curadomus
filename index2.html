@@ -1,32 +1,33 @@
+html
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Cura Domus — Economia real para famílias</title>
+  <title>Cura Domus — Curadoria para o lar</title>
 
   <meta
     name="description"
     content="Ofertas analisadas, histórico de preços e curadoria feita por uma família para ajudar outras famílias a economizar."
-  />
+  >
 
-  <meta property="og:title" content="Cura Domus — Curadoria para o lar" />
+  <meta property="og:title" content="Cura Domus — Curadoria para o lar">
   <meta
     property="og:description"
     content="Ofertas analisadas e oportunidades selecionadas para famílias."
-  />
-  <meta property="og:type" content="website" />
+  >
+  <meta property="og:type" content="website">
 
-  <link rel="icon" type="image/png" href="curadomus_logo.png" />
+  <link rel="icon" type="image/png" href="curadomus_logo.png">
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap"
     rel="stylesheet"
-  />
+  >
 
   <script src="https://cdn.tailwindcss.com"></script>
 
@@ -38,12 +39,10 @@
             background: "var(--background)",
             ink: "var(--ink)",
             card: "var(--card)",
-            border: "var(--border)",
             primary: "var(--primary)",
-            primaryDeep: "var(--primary-deep)",
             mutedInk: "var(--muted-ink)",
             cream: "var(--cream)",
-            accent: "var(--accent)"
+            border: "var(--border)"
           },
           fontFamily: {
             serif: ['"Cormorant Garamond"', "serif"],
@@ -153,27 +152,63 @@
 
     .category-btn.active {
       color: var(--primary);
-      border-color: var(--accent);
+      border-color: var(--accent) !important;
       background: var(--cream);
     }
 
+    /* MODAL */
+
     .modal-backdrop {
-      background: rgba(43, 36, 30, .48);
-      backdrop-filter: blur(3px);
+      background: rgba(43, 36, 30, .52);
+      backdrop-filter: blur(4px);
+      overflow-y: auto;
+    }
+
+    .modal-panel {
+      width: min(100%, 680px);
+      max-height: calc(100dvh - 32px);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .modal-header {
+      flex-shrink: 0;
+    }
+
+    .modal-history-scroll {
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      padding-right: 4px;
+    }
+
+    .modal-history-scroll::-webkit-scrollbar {
+      width: 7px;
+    }
+
+    .modal-history-scroll::-webkit-scrollbar-thumb {
+      background: var(--border);
+      border-radius: 999px;
+    }
+
+    @media (max-width: 640px) {
+      .modal-backdrop {
+        align-items: flex-start !important;
+        padding: 12px !important;
+      }
+
+      .modal-panel {
+        max-height: calc(100dvh - 24px);
+        border-radius: 22px;
+      }
     }
   </style>
 </head>
 
 <body>
   <div class="min-h-screen">
-	<nav class="border-b" style="border-color:var(--border)">
-	  <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-	    <img src="curadomus_logo.png" alt="Cura Domus" class="h-8 opacity-90" />
-	    <a href="receitas.html" class="inline-flex items-center gap-2 text-xs font-semibold text-primary transition hover:opacity-80">
-	      Receitas →
-	    </a>
-	  </div>
-	</nav>
+
     <!-- HERO -->
     <header class="relative overflow-hidden">
       <div class="hero-pattern absolute inset-0 -z-10 opacity-[.035]"></div>
@@ -183,7 +218,7 @@
           src="curadomus_selo.png"
           alt="Cura Domus"
           class="mx-auto h-28 w-28 object-contain sm:h-32 sm:w-32"
-        />
+        >
 
         <p class="mt-5 text-xs font-bold uppercase tracking-[.22em] text-primary">
           Cura Domus
@@ -191,7 +226,7 @@
 
         <h1 class="text-serif mx-auto mt-3 max-w-4xl text-5xl leading-[.98] text-primary sm:text-6xl md:text-7xl">
           Curadoria para o lar,
-          <br />
+          <br>
           <span class="italic text-primaryDeep">feita por uma família</span>
           para a sua.
         </h1>
@@ -213,7 +248,7 @@
           <a
             href="#como-funciona"
             class="rounded-full border bg-card px-7 py-3.5 text-sm font-bold text-primary transition hover:bg-cream"
-            style="border-color: var(--border)"
+            style="border-color:var(--border)"
           >
             Como avaliamos as ofertas
           </a>
@@ -223,9 +258,11 @@
           <span class="rounded-full border bg-card px-4 py-2 text-xs font-semibold text-mutedInk" style="border-color:var(--border)">
             ✓ Histórico de preços
           </span>
+
           <span class="rounded-full border bg-card px-4 py-2 text-xs font-semibold text-mutedInk" style="border-color:var(--border)">
             ✓ Curadoria familiar
           </span>
+
           <span class="rounded-full border bg-card px-4 py-2 text-xs font-semibold text-mutedInk" style="border-color:var(--border)">
             ✓ Ofertas analisadas
           </span>
@@ -282,7 +319,7 @@
         </div>
       </section>
 
-      <!-- DESTAQUES -->
+      <!-- OFERTAS -->
       <section id="ofertas" class="mt-20 scroll-mt-8">
         <div class="flex flex-col gap-5 border-b pb-6 sm:flex-row sm:items-end sm:justify-between" style="border-color:var(--border)">
           <div>
@@ -302,7 +339,6 @@
           </div>
         </div>
 
-        <!-- BUSCA -->
         <form id="buscaForm" class="mx-auto mt-8 search-box" onsubmit="return false;">
           <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2">
             <circle cx="11" cy="11" r="8"></circle>
@@ -314,7 +350,7 @@
             type="search"
             placeholder="Buscar por produto, livro ou categoria..."
             aria-label="Buscar por produto"
-          />
+          >
 
           <button type="submit" aria-label="Buscar">
             <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
@@ -324,13 +360,10 @@
           </button>
         </form>
 
-        <!-- CATEGORIAS -->
         <div id="categorias" class="mt-6 flex gap-2 overflow-x-auto pb-2"></div>
 
         <div class="mt-8 flex items-center justify-between gap-4">
-          <div>
-            <p id="resultadoInfo" class="text-sm text-mutedInk"></p>
-          </div>
+          <p id="resultadoInfo" class="text-sm text-mutedInk"></p>
 
           <button
             id="btnDestaques"
@@ -356,7 +389,7 @@
         </div>
       </section>
 
-      <!-- WHATSAPP -->
+      <!-- COMUNIDADES -->
       <section id="comunidades" class="mt-24 scroll-mt-8">
         <div class="rounded-3xl bg-primary px-6 py-10 text-center text-white sm:px-10">
           <p class="text-xs font-bold uppercase tracking-[.2em] text-white/70">
@@ -368,15 +401,15 @@
           </h2>
 
           <p class="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-white/80">
-            Escolha o grupo que mais combina com a sua família. A comunidade é
-            gratuita e organizada por interesses.
+            Escolha o grupo que mais combina com a sua família.
+            A comunidade é gratuita e organizada por interesses.
           </p>
 
           <div id="comunidadesLista" class="mx-auto mt-8 grid max-w-4xl gap-3 sm:grid-cols-2"></div>
 
           <p class="mx-auto mt-7 max-w-2xl text-xs leading-relaxed text-white/60">
-            Ao entrar, você poderá sair a qualquer momento. Os grupos são
-            utilizados para compartilhar conteúdos relacionados às suas categorias.
+            Ao entrar, você poderá sair a qualquer momento.
+            Os grupos são utilizados para compartilhar conteúdos relacionados às categorias.
           </p>
         </div>
       </section>
@@ -394,12 +427,11 @@
           claros. Preços, estoque, frete e condições podem mudar a qualquer momento.
         </p>
       </section>
-
     </main>
 
     <footer class="border-t bg-card/50" style="border-color:var(--border)">
       <div class="mx-auto flex max-w-6xl flex-col items-center gap-3 px-6 py-10 text-center">
-        <img src="curadomus_logo.png" alt="Cura Domus" class="h-12 opacity-80" />
+        <img src="curadomus_logo.png" alt="Cura Domus" class="h-12 opacity-80">
 
         <p class="text-xs text-mutedInk">
           O cuidado do lar como um ato de amor.
@@ -413,35 +445,56 @@
   </div>
 
   <!-- MODAL DE HISTÓRICO -->
-  <div id="modalHistorico" class="modal-backdrop fixed inset-0 z-50 hidden items-center justify-center p-4">
-    <div class="w-full max-w-2xl rounded-3xl border bg-card p-6 shadow-card" style="border-color:var(--border)">
-      <div class="flex items-start justify-between gap-4">
-        <div>
+  <div
+    id="modalHistorico"
+    class="modal-backdrop fixed inset-0 z-50 hidden items-center justify-center p-3 sm:p-5"
+  >
+    <div
+      class="modal-panel rounded-3xl border bg-card p-5 shadow-card sm:p-6"
+      style="border-color:var(--border)"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitulo"
+    >
+      <div class="modal-header flex items-start justify-between gap-4">
+        <div class="min-w-0 flex-1">
           <p class="text-xs font-bold uppercase tracking-[.18em] text-primary">
             Histórico de preços
           </p>
 
-          <h2 id="modalTitulo" class="text-serif mt-2 text-2xl leading-tight"></h2>
+          <h2
+            id="modalTitulo"
+            class="text-serif mt-2 max-h-20 overflow-hidden text-2xl leading-tight sm:text-3xl"
+          ></h2>
         </div>
 
         <button
           id="fecharModal"
           type="button"
-          class="rounded-lg border px-3 py-1 text-sm text-mutedInk"
+          aria-label="Fechar histórico"
+          class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border text-base font-bold text-mutedInk transition hover:bg-cream"
           style="border-color:var(--border)"
         >
           ✕
         </button>
       </div>
 
-      <div id="historicoResumo" class="mt-5 grid grid-cols-3 gap-2"></div>
+      <div
+        id="historicoResumo"
+        class="mt-5 grid shrink-0 grid-cols-3 gap-2"
+      ></div>
 
-      <div class="mt-6 overflow-x-auto">
+      <div class="modal-history-scroll mt-5">
         <table class="w-full text-left text-xs">
           <thead>
             <tr class="border-b text-mutedInk" style="border-color:var(--border)">
-              <th class="px-2 py-3">Data</th>
-              <th class="px-2 py-3">Preço</th>
+              <th class="sticky top-0 bg-card px-2 py-3 font-bold">
+                Data
+              </th>
+
+              <th class="sticky top-0 bg-card px-2 py-3 text-right font-bold">
+                Preço
+              </th>
             </tr>
           </thead>
 
@@ -449,9 +502,9 @@
         </table>
       </div>
 
-      <p class="mt-5 text-xs leading-relaxed text-mutedInk">
-        O histórico representa os registros coletados pela Cura Domus. Ele não
-        garante que o preço ou o estoque permaneçam disponíveis.
+      <p class="mt-5 shrink-0 text-xs leading-relaxed text-mutedInk">
+        O histórico representa os registros coletados pela Cura Domus.
+        Preços, estoque e condições podem mudar a qualquer momento.
       </p>
     </div>
   </div>
@@ -513,7 +566,7 @@
       try {
         const url = new URL(value, window.location.href);
 
-        if (url.protocol !== "http:" && url.protocol !== "https:") {
+        if (!["http:", "https:"].includes(url.protocol)) {
           return "#";
         }
 
@@ -568,7 +621,8 @@
     }
 
     function possuiDestaque(produto) {
-      return produto.destaque === true || produto.menorPrecoEmDias === true;
+      return produto.destaque === true ||
+        produto.menorPrecoEmDias === true;
     }
 
     function obterListaFiltrada() {
@@ -576,23 +630,15 @@
 
       return ofertas.filter(produto => {
         const categoria = String(produto.categoria || "").trim();
+
         const textoBusca = normalizarTexto(
           `${produto.titulo || ""} ${categoria}`
         );
 
-        const correspondeCategoria =
-          categoriaAtiva === "TODAS" || categoria === categoriaAtiva;
-
-        const correspondeBusca =
-          !busca || textoBusca.includes(busca);
-
-        const correspondeDestaque =
-          !apenasDestaques || possuiDestaque(produto);
-
         return (
-          correspondeCategoria &&
-          correspondeBusca &&
-          correspondeDestaque
+          (categoriaAtiva === "TODAS" || categoria === categoriaAtiva) &&
+          (!busca || textoBusca.includes(busca)) &&
+          (!apenasDestaques || possuiDestaque(produto))
         );
       });
     }
@@ -609,8 +655,17 @@
         const menorA = obterMenorPreco(a);
         const menorB = obterMenorPreco(b);
 
-        const atualA = parseFloat(String(a.precoPromocao || "0").replace(",", "."));
-        const atualB = parseFloat(String(b.precoPromocao || "0").replace(",", "."));
+        const atualA = Number(
+          String(a.precoPromocao || "0")
+            .replace(/\./g, "")
+            .replace(",", ".")
+        );
+
+        const atualB = Number(
+          String(b.precoPromocao || "0")
+            .replace(/\./g, "")
+            .replace(",", ".")
+        );
 
         const distanciaA = menorA ? atualA / menorA : 999;
         const distanciaB = menorB ? atualB / menorB : 999;
@@ -630,10 +685,7 @@
       ];
 
       $categorias.innerHTML = categorias.map(categoria => {
-        const texto = categoria === "TODAS"
-          ? "Todas"
-          : categoria;
-
+        const texto = categoria === "TODAS" ? "Todas" : categoria;
         const ativa = categoria === categoriaAtiva ? "active" : "";
 
         return `
@@ -665,17 +717,20 @@
         <a
           href="${safeUrl(comunidade.url)}"
           target="_blank"
-          rel="sponsored noopener noreferrer"
+          rel="noopener noreferrer"
           class="flex items-center gap-4 rounded-2xl border border-white/20 bg-white/10 p-4 text-left transition hover:bg-white/20"
         >
           <img
             src="${safeUrl(comunidade.img)}"
             alt="${escapeHTML(comunidade.nome)}"
             class="h-12 w-12 rounded-full object-cover"
-          />
+          >
 
           <span class="flex-1">
-            <strong class="block text-sm">${escapeHTML(comunidade.nome)}</strong>
+            <strong class="block text-sm">
+              ${escapeHTML(comunidade.nome)}
+            </strong>
+
             <small class="mt-1 block text-xs text-white/70">
               ${escapeHTML(comunidade.descricao)}
             </small>
@@ -699,8 +754,10 @@
       const historico = extrairHistorico(produto);
       const menorPreco = obterMenorPreco(produto);
 
-      const precoNumerico = parseFloat(
-        String(produto.precoPromocao || "0").replace(",", ".")
+      const precoNumerico = Number(
+        String(produto.precoPromocao || "0")
+          .replace(/\./g, "")
+          .replace(",", ".")
       );
 
       const estaNoMenorPreco =
@@ -720,27 +777,40 @@
         seloHistorico = `Menor registro: ${formatarBRL(menorPreco)}`;
       }
 
+      const dadosHistorico = escapeHTML(JSON.stringify({
+        titulo: produto.titulo || "Histórico de preços",
+        historico
+      }));
+
       return `
         <article class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
           <div class="relative flex shrink-0 items-center justify-center p-5 sm:w-44" style="background:var(--cream)">
-            ${tag ? `
-              <span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">
-                ${tag}
-              </span>
-            ` : ""}
+            ${
+              tag
+                ? `
+                  <span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">
+                    ${tag}
+                  </span>
+                `
+                : ""
+            }
 
-            ${destaque ? `
-              <span class="absolute right-3 top-3 rounded-md bg-emerald-100 px-2 py-1 text-[10px] font-bold text-emerald-700">
-                Destaque
-              </span>
-            ` : ""}
+            ${
+              destaque
+                ? `
+                  <span class="absolute right-3 top-3 rounded-md bg-emerald-100 px-2 py-1 text-[10px] font-bold text-emerald-700">
+                    Destaque
+                  </span>
+                `
+                : ""
+            }
 
             <img
               src="${imagem}"
               alt="${titulo}"
               loading="lazy"
               class="h-32 w-full object-contain sm:h-36"
-            />
+            >
           </div>
 
           <div class="flex flex-1 flex-col gap-3 p-5">
@@ -753,20 +823,28 @@
                 ${titulo}
               </h3>
 
-              ${seloHistorico ? `
-                <div class="mt-3 inline-flex rounded-full bg-emerald-100 px-3 py-1 text-[11px] font-bold text-emerald-700">
-                  ✓ ${escapeHTML(seloHistorico)}
-                </div>
-              ` : ""}
+              ${
+                seloHistorico
+                  ? `
+                    <div class="mt-3 inline-flex rounded-full bg-emerald-100 px-3 py-1 text-[11px] font-bold text-emerald-700">
+                      ✓ ${escapeHTML(seloHistorico)}
+                    </div>
+                  `
+                  : ""
+              }
             </div>
 
             <div class="mt-auto flex flex-wrap items-end justify-between gap-3">
               <div>
-                ${precoOriginal ? `
-                  <span class="block text-xs text-mutedInk line-through">
-                    R$ ${precoOriginal}
-                  </span>
-                ` : ""}
+                ${
+                  precoOriginal
+                    ? `
+                      <span class="block text-xs text-mutedInk line-through">
+                        R$ ${precoOriginal}
+                      </span>
+                    `
+                    : ""
+                }
 
                 <strong class="text-serif text-3xl text-primary">
                   R$ ${precoAtual}
@@ -774,19 +852,20 @@
               </div>
 
               <div class="flex flex-wrap gap-2">
-                ${historico.length ? `
-                  <button
-                    type="button"
-                    data-historico='${escapeHTML(JSON.stringify({
-                      titulo: produto.titulo,
-                      historico
-                    }))}'
-                    class="rounded-lg border px-3 py-2 text-xs font-bold text-primary transition hover:bg-cream"
-                    style="border-color:var(--border)"
-                  >
-                    Ver histórico
-                  </button>
-                ` : ""}
+                ${
+                  historico.length
+                    ? `
+                      <button
+                        type="button"
+                        data-historico="${dadosHistorico}"
+                        class="rounded-lg border px-3 py-2 text-xs font-bold text-primary transition hover:bg-cream"
+                        style="border-color:var(--border)"
+                      >
+                        Ver histórico
+                      </button>
+                    `
+                    : ""
+                }
 
                 <a
                   href="${link}"
@@ -806,16 +885,16 @@
     function renderizarOfertas() {
       const filtradas = ordenarOfertas(obterListaFiltrada());
 
-      const buscaAtiva =
+      const possuiFiltro =
         $busca.value.trim() ||
         categoriaAtiva !== "TODAS" ||
         apenasDestaques;
 
-      const quantidade = buscaAtiva
+      const limite = possuiFiltro
         ? quantidadeExibida
         : Math.min(quantidadeExibida, LIMITE_INICIAL);
 
-      const exibidas = filtradas.slice(0, quantidade);
+      const exibidas = filtradas.slice(0, limite);
 
       $resultadoInfo.textContent =
         `${filtradas.length} oferta${filtradas.length === 1 ? "" : "s"} encontrada${filtradas.length === 1 ? "" : "s"}`;
@@ -833,15 +912,20 @@
 
       $lista.innerHTML = exibidas.map(criarCard).join("");
 
-      const podeCarregarMais = quantidade < filtradas.length;
-
-      $carregarMais.classList.toggle("hidden", !podeCarregarMais);
+      $carregarMais.classList.toggle(
+        "hidden",
+        limite >= filtradas.length
+      );
 
       document.querySelectorAll("[data-historico]").forEach(botao => {
         botao.addEventListener("click", () => {
           try {
             const dados = JSON.parse(botao.dataset.historico);
-            abrirModalHistorico(dados.titulo, dados.historico);
+
+            abrirModalHistorico(
+              dados.titulo,
+              dados.historico
+            );
           } catch {
             console.warn("Não foi possível abrir o histórico.");
           }
@@ -855,37 +939,86 @@
       const tabela = document.getElementById("historicoTabela");
       const resumo = document.getElementById("historicoResumo");
 
-      const precos = historico.map(item => Number(item.preco));
+      const dadosValidos = Array.isArray(historico)
+        ? historico
+            .map(item => ({
+              data: item?.data || "",
+              preco: Number(item?.preco)
+            }))
+            .filter(item =>
+              item.data &&
+              Number.isFinite(item.preco)
+            )
+        : [];
+
+      modalTitulo.textContent =
+        titulo || "Histórico de preços";
+
+      if (!dadosValidos.length) {
+        resumo.innerHTML = `
+          <div class="col-span-3 rounded-2xl bg-cream p-4 text-center text-sm text-mutedInk">
+            Histórico insuficiente para este produto.
+          </div>
+        `;
+
+        tabela.innerHTML = "";
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+        return;
+      }
+
+      const precos = dadosValidos.map(item => item.preco);
       const atual = precos[precos.length - 1];
       const menor = Math.min(...precos);
       const maior = Math.max(...precos);
 
-      modalTitulo.textContent = titulo;
-
       resumo.innerHTML = `
-        <div class="rounded-xl bg-cream p-3">
-          <small class="block text-[10px] uppercase text-mutedInk">Atual</small>
-          <strong class="mt-1 block text-sm text-primary">${formatarBRL(atual)}</strong>
+        <div class="rounded-2xl bg-cream p-3 sm:p-4">
+          <small class="block text-[10px] font-bold uppercase tracking-wide text-mutedInk">
+            Atual
+          </small>
+
+          <strong class="mt-1 block text-sm text-primary sm:text-base">
+            ${formatarBRL(atual)}
+          </strong>
         </div>
 
-        <div class="rounded-xl bg-emerald-50 p-3">
-          <small class="block text-[10px] uppercase text-emerald-700">Menor</small>
-          <strong class="mt-1 block text-sm text-emerald-700">${formatarBRL(menor)}</strong>
+        <div class="rounded-2xl bg-emerald-50 p-3 sm:p-4">
+          <small class="block text-[10px] font-bold uppercase tracking-wide text-emerald-700">
+            Menor
+          </small>
+
+          <strong class="mt-1 block text-sm text-emerald-700 sm:text-base">
+            ${formatarBRL(menor)}
+          </strong>
         </div>
 
-        <div class="rounded-xl bg-cream p-3">
-          <small class="block text-[10px] uppercase text-mutedInk">Maior</small>
-          <strong class="mt-1 block text-sm text-primary">${formatarBRL(maior)}</strong>
+        <div class="rounded-2xl bg-cream p-3 sm:p-4">
+          <small class="block text-[10px] font-bold uppercase tracking-wide text-mutedInk">
+            Maior
+          </small>
+
+          <strong class="mt-1 block text-sm text-primary sm:text-base">
+            ${formatarBRL(maior)}
+          </strong>
         </div>
       `;
 
-      tabela.innerHTML = historico
+      const historicoExibido = dadosValidos
         .slice()
         .reverse()
+        .slice(0, 15);
+
+      tabela.innerHTML = historicoExibido
         .map(item => `
           <tr class="border-b" style="border-color:var(--border)">
-            <td class="px-2 py-3 text-mutedInk">${escapeHTML(item.data)}</td>
-            <td class="px-2 py-3 font-bold text-primary">${formatarBRL(item.preco)}</td>
+            <td class="px-2 py-3 text-mutedInk">
+              ${escapeHTML(item.data)}
+            </td>
+
+            <td class="px-2 py-3 text-right font-bold text-primary">
+              ${formatarBRL(item.preco)}
+            </td>
           </tr>
         `)
         .join("");
@@ -896,32 +1029,17 @@
 
     function fecharModalHistorico() {
       const modal = document.getElementById("modalHistorico");
+
       modal.classList.add("hidden");
       modal.classList.remove("flex");
     }
 
-    $busca.addEventListener("input", () => {
-      quantidadeExibida = LIMITE_INICIAL;
-      renderizarOfertas();
-    });
-
-    $btnDestaques.addEventListener("click", () => {
-      apenasDestaques = !apenasDestaques;
-      quantidadeExibida = LIMITE_INICIAL;
-
-      $btnDestaques.classList.toggle("active", apenasDestaques);
-      renderizarOfertas();
-    });
-
-    $carregarMais.addEventListener("click", () => {
-      quantidadeExibida += LIMITE_POR_CARGA;
-      renderizarOfertas();
-    });
-
-    document.getElementById("fecharModal")
+    document
+      .getElementById("fecharModal")
       .addEventListener("click", fecharModalHistorico);
 
-    document.getElementById("modalHistorico")
+    document
+      .getElementById("modalHistorico")
       .addEventListener("click", event => {
         if (event.target.id === "modalHistorico") {
           fecharModalHistorico();
@@ -934,12 +1052,65 @@
       }
     });
 
-    renderizarComunidades();
+    document.getElementById("busca").addEventListener("input", () => {
+      quantidadeExibida = LIMITE_INICIAL;
+      renderizarOfertas();
+    });
+
+    document.getElementById("btnDestaques").addEventListener("click", event => {
+      apenasDestaques = !apenasDestaques;
+      quantidadeExibida = LIMITE_INICIAL;
+
+      event.currentTarget.classList.toggle(
+        "active",
+        apenasDestaques
+      );
+
+      renderizarOfertas();
+    });
+
+    document.getElementById("carregarMais").addEventListener("click", () => {
+      quantidadeExibida += LIMITE_POR_CARGA;
+      renderizarOfertas();
+    });
+
+    function inicializarComunidades() {
+      const container = document.getElementById("comunidadesLista");
+
+      container.innerHTML = comunidades.map(comunidade => `
+        <a
+          href="${safeUrl(comunidade.url)}"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center gap-4 rounded-2xl border border-white/20 bg-white/10 p-4 text-left transition hover:bg-white/20"
+        >
+          <img
+            src="${safeUrl(comunidade.img)}"
+            alt="${escapeHTML(comunidade.nome)}"
+            class="h-12 w-12 rounded-full object-cover"
+          >
+
+          <span class="flex-1">
+            <strong class="block text-sm">
+              ${escapeHTML(comunidade.nome)}
+            </strong>
+
+            <small class="mt-1 block text-xs text-white/70">
+              ${escapeHTML(comunidade.descricao)}
+            </small>
+          </span>
+
+          <span class="text-xl">→</span>
+        </a>
+      `).join("");
+    }
+
+    inicializarComunidades();
 
     fetch("promocoes.json")
       .then(response => {
         if (!response.ok) {
-          throw new Error("Não foi possível carregar as ofertas.");
+          throw new Error("Não foi possível carregar o arquivo promocoes.json.");
         }
 
         return response.json();
@@ -950,8 +1121,8 @@
           : [];
 
         if (data.ultimaAtualizacao) {
-          $atualizacao.textContent =
-            `Última atualização: ${escapeHTML(data.ultimaAtualizacao)}`;
+          document.getElementById("atualizacao").textContent =
+            `Última atualização: ${data.ultimaAtualizacao}`;
         }
 
         renderizarCategorias();
@@ -963,6 +1134,7 @@
         $lista.innerHTML = `
           <div class="md:col-span-2 rounded-2xl border border-dashed p-10 text-center text-sm text-mutedInk" style="border-color:var(--border)">
             Não foi possível carregar as ofertas no momento.
+            Verifique se o arquivo <code>promocoes.json</code> está na mesma pasta deste HTML.
           </div>
         `;
       });
