@@ -1,523 +1,964 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Cura Domus — Curadoria e Ofertas para o Lar</title>
-<meta name="description" content="Curadoria de indicações e ofertas para famílias: beleza, utilidade e economia. Descontos verificados diariamente." />
-<meta property="og:title" content="Cura Domus — Curadoria para o Lar" />
-<meta property="og:description" content="Indicações e ofertas selecionadas para a sua família." />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary_large_image" />
-<link rel="icon" type="image/png" href="curadomus_logo.png">
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" />
-<script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          background: 'var(--background)',
-          foreground: 'var(--ink)',
-          card: 'var(--card)',
-          border: 'var(--border)',
-          input: 'var(--border)',
-          muted: 'var(--muted)',
-          'muted-foreground': 'var(--muted-ink)',
-          primary: 'var(--primary)',
-          'primary-foreground': '#fff',
-          accent: 'var(--accent)',
-          destructive: 'var(--destructive)',
-        },
-        boxShadow: {
-          soft: '0 1px 2px rgba(30,25,20,0.04), 0 2px 8px rgba(30,25,20,0.04)',
-          card: '0 10px 30px -12px rgba(30,25,20,0.18)',
-        },
-        fontFamily: {
-          serif: ['"Cormorant Garamond"', 'serif'],
-          sans: ['Inter', 'system-ui', 'sans-serif'],
-        },
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Cura Domus — Economia real para famílias</title>
+
+  <meta
+    name="description"
+    content="Ofertas analisadas, histórico de preços e curadoria feita por uma família para ajudar outras famílias a economizar."
+  />
+
+  <meta property="og:title" content="Cura Domus — Curadoria para o lar" />
+  <meta
+    property="og:description"
+    content="Ofertas analisadas e oportunidades selecionadas para famílias."
+  />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" type="image/png" href="curadomus_logo.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: "var(--background)",
+            ink: "var(--ink)",
+            card: "var(--card)",
+            border: "var(--border)",
+            primary: "var(--primary)",
+            primaryDeep: "var(--primary-deep)",
+            mutedInk: "var(--muted-ink)",
+            cream: "var(--cream)",
+            accent: "var(--accent)"
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', "serif"],
+            sans: ["Inter", "system-ui", "sans-serif"]
+          },
+          boxShadow: {
+            soft: "0 2px 10px rgba(43,36,30,.06)",
+            card: "0 12px 32px rgba(43,36,30,.12)"
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    :root {
+      --background: #fbf7f1;
+      --cream: #f3ecdf;
+      --card: #ffffff;
+      --ink: #2b241e;
+      --muted-ink: #7a6e60;
+      --border: #e7dfd1;
+      --primary: #6e5334;
+      --primary-deep: #4e3a22;
+      --accent: #c9a96a;
+      --green: #087f5b;
+      --red: #b4441f;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: Inter, system-ui, sans-serif;
+    }
+
+    .text-serif {
+      font-family: "Cormorant Garamond", serif;
+      letter-spacing: -.015em;
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    .fade-up {
+      animation: fade-up .35s ease both;
+    }
+
+    @keyframes fade-up {
+      from {
+        opacity: 0;
+        transform: translateY(8px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
       }
     }
-  }
-</script>
-<style>
-  :root {
-    --background: #FBF7F1;
-    --cream-deep: #F3ECDF;
-    --card: #FFFFFF;
-    --ink: #2B241E;
-    --muted: #EFE7DA;
-    --muted-ink: #7A6E60;
-    --border: #E7DFD1;
-    --primary: #6E5334;
-    --primary-deep: #4E3A22;
-    --accent: #C9A96A;
-    --destructive: #B4441F;
-  }
-  html, body { background: var(--background); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
-  .text-serif { font-family: "Cormorant Garamond", serif; letter-spacing: -0.01em; }
-  .text-primary { color: var(--primary); }
-  .bg-primary { background: var(--primary); }
-  .bg-destructive { background: var(--destructive); }
-  .border-primary\/40 { border-color: color-mix(in srgb, var(--primary) 40%, transparent); }
-  .border-primary\/50 { border-color: color-mix(in srgb, var(--primary) 50%, transparent); }
-  .bg-primary\/5 { background: color-mix(in srgb, var(--primary) 5%, transparent); }
-  .bg-primary\/10 { background: color-mix(in srgb, var(--primary) 10%, transparent); }
-  .text-primary-foreground { color: #fff; }
-  .ring-border { --tw-ring-color: var(--border); }
-  .hover\:border-accent:hover { border-color: var(--accent); }
-  @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
-  .animate-fade-up { animation: fade-up .4s ease both; }
-  .modal-backdrop { background: rgba(43,36,30,.45); backdrop-filter: blur(2px); }
-  .hidden { display: none !important; }
 
-  /* ===================== ABAS ===================== */
-  .tabs-nav {
-    display: flex; align-items: flex-end; gap: 4px;
-    overflow-x: auto; scrollbar-width: none;
-  }
-  .tabs-nav::-webkit-scrollbar { display: none; }
-  .tab-btn {
-    appearance: none; background: none; border: none;
-    font-family: inherit; font-size: 0.88rem; font-weight: 600;
-    color: var(--muted-ink);
-    padding: 10px 14px 12px 14px;
-    cursor: pointer; white-space: nowrap;
-    border-bottom: 2px solid transparent;
-    transition: color .15s, border-color .15s;
-    display: inline-flex; align-items: center; gap: 6px;
-  }
-  .tab-btn:hover { color: var(--ink); }
-  .tab-btn.ativa { color: var(--primary); border-bottom-color: var(--accent); font-weight: 700; }
-  .tab-btn .contador {
-    background: var(--muted); color: var(--muted-ink);
-    font-size: .68rem; font-weight: 700;
-    padding: 2px 7px; border-radius: 999px;
-  }
-  .tab-btn.ativa .contador { background: var(--primary); color: #fff; }
-
-  /* ===================== BUSCA PRINCIPAL (hero) ===================== */
-  .hero-search {
-    width: 100%;
-    max-width: 34rem;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    background: var(--card);
-    border: 1.5px solid var(--border);
-    border-radius: 999px;
-    padding: 4px 8px 4px 20px;
-    box-shadow: 0 10px 30px -12px rgba(30,25,20,0.18);
-    transition: border-color .15s, box-shadow .15s;
-  }
-  .hero-search:focus-within { border-color: var(--accent); box-shadow: 0 12px 34px -10px rgba(30,25,20,0.24); }
-  .hero-search input {
-    flex: 1; min-width: 0; border: none; outline: none; background: none;
-    font-family: inherit; font-size: 0.95rem; color: var(--ink);
-    padding: 12px 0;
-  }
-  .hero-search input::placeholder { color: var(--muted-ink); }
-  .hero-search button {
-    flex-shrink: 0; display: inline-flex; align-items: center; justify-content: center;
-    height: 42px; width: 42px; border-radius: 999px; background: var(--primary); color: #fff;
-  }
-
-  /* ===================== COMUNIDADES (discreto) ===================== */
-  .comunidade-pill {
-    display: inline-flex; align-items: center; gap: 6px;
-    padding: 5px 11px 5px 5px; border-radius: 999px;
-    background: var(--muted); color: var(--muted-ink);
-    font-size: 12px; font-weight: 500;
-    transition: background .15s, color .15s;
-  }
-  .comunidade-pill:hover { background: var(--cream-deep); color: var(--ink); }
-  .comunidade-pill img { height: 20px; width: 20px; border-radius: 999px; object-fit: cover; }
-</style>
-</head>
-<body>
-<div class="min-h-screen">
-  <nav class="border-b" style="border-color:var(--border)">
-    <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-      <img src="curadomus_logo.png" alt="Cura Domus" class="h-8 opacity-90" />
-      <a href="receitas.html" class="inline-flex items-center gap-2 text-xs font-semibold text-primary transition hover:opacity-80">
-        Receitas →
-      </a>
-    </div>
-  </nav>
-  <!-- Hero -->
-  <header class="relative overflow-hidden">
-    <div class="absolute inset-0 -z-10 opacity-[0.04]" style="background-image: radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0); background-size:24px 24px"></div>
-    <div class="mx-auto max-w-5xl px-6 pt-14 pb-10 text-center">
-      <img src="curadomus_selo.png" alt="Cura Domus" class="mx-auto h-28 w-28 object-contain sm:h-32 sm:w-32" />
-      <h1 class="mt-6 text-serif text-4xl leading-[1.05] text-primary sm:text-5xl md:text-6xl">
-        Curadoria para o lar,<br class="hidden sm:block" />
-        <span class="italic" style="color:var(--primary-deep)"> feita por uma família </span>
-        para a sua.
-      </h1>
-      <p class="mx-auto mt-5 max-w-xl text-[15px] leading-relaxed" style="color:var(--muted-ink)">
-        Garimpamos as melhores ofertas para a sua família.
-      </p>
-
-      <form id="heroBuscaForm" class="mx-auto mt-7 hero-search" onsubmit="return false;">
-        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        <input id="busca" placeholder="Buscar por produto…" aria-label="Buscar por produto" />
-        <button type="submit" aria-label="Buscar">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
-        </button>
-      </form>
-
-      <div class="mt-5 inline-flex items-center gap-2 rounded-full border bg-card px-4 py-1.5 text-xs font-medium shadow-soft" style="border-color:var(--border); color:var(--muted-ink)">
-        <span class="relative flex h-2 w-2">
-          <span class="absolute inset-0 animate-ping rounded-full opacity-60" style="background:var(--primary)"></span>
-          <span class="relative h-2 w-2 rounded-full" style="background:var(--primary)"></span>
-        </span>
-        Ofertas verificadas diariamente
-      </div>
-    </div>
-  </header>
-
-  <main class="mx-auto max-w-5xl px-6 pb-24">
-    <!-- Ofertas — agora o primeiro bloco de conteúdo, logo após a busca -->
-    <section id="ofertas">
-      <div class="mb-6 flex flex-col gap-4 border-b pb-5 sm:flex-row sm:items-end sm:justify-between" style="border-color:var(--border)">
-        <div>
-          <div class="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">
-            ✦ Indicações de hoje
-          </div>
-          <h2 class="text-serif mt-1 text-3xl sm:text-4xl">Ofertas selecionadas</h2>
-          <p id="atualizacao" class="mt-1 text-xs" style="color:var(--muted-ink)"></p>
-        </div>
-        <div id="cbWrap" class="relative">
-          <input type="hidden" id="filtro" value="TODAS" />
-          <button id="cbBtn" type="button" aria-haspopup="listbox" aria-expanded="false"
-            class="flex h-10 w-full items-center gap-2 rounded-full border bg-card px-4 text-sm font-semibold shadow-soft outline-none transition hover:border-accent sm:w-56"
-            style="border-color:var(--border)">
-            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2H2v10l9.29 9.29a1 1 0 0 0 1.42 0l8.58-8.58a1 1 0 0 0 0-1.42Z"/><circle cx="7" cy="7" r="1.2" fill="var(--accent)" stroke="none"/></svg>
-            <span id="cbLabel" class="truncate">Todas as categorias</span>
-            <svg class="ml-auto shrink-0" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m7 15 5 5 5-5"/><path d="m7 9 5-5 5 5"/></svg>
-          </button>
-          <div id="cbMenu" role="listbox"
-            class="hidden absolute right-0 z-40 mt-2 max-h-72 w-full min-w-[15rem] overflow-auto rounded-2xl border bg-card p-1.5 shadow-card animate-fade-up"
-            style="border-color:var(--border)">
-            <div class="px-2.5 pb-1.5 pt-1 text-[10px] font-semibold uppercase tracking-[0.18em]" style="color:var(--muted-ink)">Categorias</div>
-          </div>
-        </div>
-      </div>
-
-      <div id="tabsNav" class="tabs-nav mb-5 border-b" style="border-color:var(--border)">
-        <button type="button" data-aba="todas" class="tab-btn ativa">
-          Todas as ofertas <span class="contador" data-count="todas">0</span>
-        </button>
-        <button type="button" data-aba="destaques" class="tab-btn">
-          ✦ Destaques <span class="contador" data-count="destaques">0</span>
-        </button>
-      </div>
-
-      <div id="lista"></div>
-    </section>
-
-    <!-- Comunidades — discreto, no fim, sem competir com a busca/ofertas -->
-    <section class="mt-16 border-t pt-8" style="border-color:var(--border)">
-      <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
-        <span class="text-xs font-medium" style="color:var(--muted-ink)">Receba ofertas no WhatsApp:</span>
-        <div id="comunidades" class="flex flex-wrap gap-2"></div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="border-t" style="border-color:var(--border); background: color-mix(in srgb, var(--card) 40%, transparent)">
-    <div class="mx-auto flex max-w-5xl flex-col items-center gap-3 px-6 py-8 text-center">
-      <img src="curadomus_logo.png" alt="Cura Domus" class="h-10 opacity-80" />
-      <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
-    </div>
-  </footer>
-</div>
-
-<!-- Modal Histórico -->
-<div id="modalHist" class="hidden fixed inset-0 z-50 flex items-center justify-center p-4 modal-backdrop">
-  <div class="w-full max-w-lg rounded-2xl border bg-card p-5 shadow-card" style="border-color:var(--border)">
-    <div class="flex items-start justify-between gap-4">
-      <div>
-        <div class="text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">Histórico de preços</div>
-        <h3 id="histTitulo" class="text-serif mt-1 text-xl leading-snug"></h3>
-      </div>
-      <button id="histFechar" aria-label="Fechar" class="rounded-lg border px-2.5 py-1 text-sm font-semibold" style="border-color:var(--border); color:var(--muted-ink)">✕</button>
-    </div>
-    <div id="histGrafico" class="mt-4"></div>
-    <p id="histResumo" class="mt-3 text-xs" style="color:var(--muted-ink)"></p>
-  </div>
-</div>
-
-<script>
-const BASE = "https://id-preview--736ce8be-ff29-4b9b-b29a-a17fb67bfb54.lovable.app";
-const comunidades = [
-  { nome: "Formação do Imaginário", img: "imaginario.png", url: "https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F" },
-  { nome: "Educação e Escola",     img:  "educacao.png",  url: "https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW" },
-  { nome: "Gestão do Lar",         img:  "gestao.png",    url: "https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" },
-  { nome: "Bebês e Infância",      img:  "bebe.jpg",      url: "https://chat.whatsapp.com/C84J6GtX87t6a0HFp2x5EX" },
-];
-
-const elCom = document.getElementById("comunidades");
-elCom.innerHTML = comunidades.map(c => `
-  <a href="${c.url}" target="_blank" rel="noopener noreferrer" class="comunidade-pill">
-    <img src="${c.img}" alt="${c.nome}" />
-    <span>${c.nome}</span>
-  </a>`).join("");
-
-let ofertas = [];
-let abaAtiva = "todas";
-const $lista = document.getElementById("lista");
-const $tabsNav = document.getElementById("tabsNav");
-
-$tabsNav.addEventListener("click", (e) => {
-  const btn = e.target.closest(".tab-btn");
-  if (!btn) return;
-  $tabsNav.querySelectorAll(".tab-btn").forEach(b => b.classList.remove("ativa"));
-  btn.classList.add("ativa");
-  abaAtiva = btn.dataset.aba;
-  render();
-});
-
-function aplicarAba(lista) {
-  if (abaAtiva !== "destaques") return lista;
-  const destacadas = lista.filter(o => o.destaque === true);
-  // Se ainda não houver nenhuma oferta marcada como destaque, mostra tudo
-  // em vez de deixar a aba vazia.
-  return destacadas.length ? destacadas : lista;
-}
-
-function atualizarContadoresAbas(baseFiltrada) {
-  const counts = {
-    todas: baseFiltrada.length,
-    destaques: baseFiltrada.filter(o => o.destaque === true).length || baseFiltrada.length,
-  };
-  $tabsNav.querySelectorAll(".contador").forEach(el => {
-    el.textContent = counts[el.dataset.count] ?? 0;
-  });
-}
-const $filtro = document.getElementById("filtro");
-const $cbBtn = document.getElementById("cbBtn");
-const $cbMenu = document.getElementById("cbMenu");
-const $cbLabel = document.getElementById("cbLabel");
-const $cbWrap = document.getElementById("cbWrap");
-
-function abrirMenu(abrir) {
-  $cbMenu.classList.toggle("hidden", !abrir);
-  $cbBtn.setAttribute("aria-expanded", String(abrir));
-}
-$cbBtn.addEventListener("click", () => abrirMenu($cbMenu.classList.contains("hidden")));
-document.addEventListener("click", e => { if (!$cbWrap.contains(e.target)) abrirMenu(false); });
-document.addEventListener("keydown", e => { if (e.key === "Escape") abrirMenu(false); });
-
-function montarCategorias(lista) {
-  const opcoes = [["TODAS", "Todas as categorias"], ...lista.map(g => [g, g])];
-  $cbMenu.querySelectorAll("[data-opt]").forEach(n => n.remove());
-  opcoes.forEach(([valor, texto]) => {
-    const b = document.createElement("button");
-    b.type = "button";
-    b.dataset.opt = valor;
-    b.setAttribute("role", "option");
-    b.className = "flex w-full items-center gap-2 rounded-xl px-3 py-2 text-left text-sm font-medium transition hover:bg-[var(--cream-deep)]";
-    b.innerHTML = `<span class="flex-1 truncate">${texto}</span><span class="opt-check hidden" style="color:var(--accent)">&#10003;</span>`;
-    b.addEventListener("click", () => {
-      $filtro.value = valor;
-      $cbLabel.textContent = texto;
-      $cbMenu.querySelectorAll("[data-opt]").forEach(o => {
-        const ativo = o.dataset.opt === valor;
-        o.querySelector(".opt-check").classList.toggle("hidden", !ativo);
-        o.style.background = ativo ? "var(--cream-deep)" : "";
-        o.style.color = ativo ? "var(--primary)" : "";
-      });
-      abrirMenu(false);
-      render();
-    });
-    $cbMenu.appendChild(b);
-  });
-  $cbMenu.querySelector('[data-opt="TODAS"]').click();
-  abrirMenu(false);
-}
-const $busca = document.getElementById("busca");
-const $atual = document.getElementById("atualizacao");
-
-function render() {
-  const q = $busca.value.trim().toLowerCase();
-  const f = $filtro.value;
-  const base = ofertas.filter(o =>
-    (f === "TODAS" || (o.categoria||"").trim() === f) &&
-    (!q || o.titulo.toLowerCase().includes(q))
-  );
-  atualizarContadoresAbas(base);
-  const arr = aplicarAba(base);
-  if (!arr.length) {
-    const msg = abaAtiva === "destaques"
-      ? "Nenhuma oferta em destaque no momento."
-      : "Nenhuma oferta nesta categoria.";
-    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">${msg}</div>`;
-    return;
-  }
-  $lista.innerHTML = `<div class="grid grid-cols-1 gap-5 md:grid-cols-2">${arr.map(card).join("")}</div>`;
-  document.querySelectorAll("[data-cupom]").forEach(btn => {
-    btn.addEventListener("click", async () => {
-      await navigator.clipboard.writeText(btn.dataset.cupom);
-      const t = btn.innerText;
-      btn.innerText = "✓ Copiado";
-      setTimeout(() => btn.innerText = t, 1600);
-    });
-  });
-  document.querySelectorAll("[data-hist]").forEach(btn => {
-    btn.addEventListener("click", () => {
-      const d = JSON.parse(decodeURIComponent(btn.dataset.hist));
-      abrirHistorico(d.t, d.h);
-    });
-  });
-}
-
-const $modal = document.getElementById("modalHist");
-const $histTitulo = document.getElementById("histTitulo");
-const $histGrafico = document.getElementById("histGrafico");
-const $histResumo = document.getElementById("histResumo");
-
-// Aceita variações de nome vindas do backend e normaliza para {data, preco}
-function normalizarHistorico(p) {
-  const bruto = p.historico || p.historicoPrecos || p.historicoPreco || p.precos || p.priceHistory || [];
-  if (!Array.isArray(bruto)) return [];
-  return bruto.map(h => {
-    if (h == null) return null;
-    const data = h.data ?? h.dia ?? h.date ?? h.dataPreco ?? "";
-    let preco = h.preco ?? h.valor ?? h.price ?? h.precoPromocao ?? h.value;
-    if (typeof preco === "string") preco = Number(preco.replace(/[^\d,.-]/g, "").replace(/\.(?=\d{3}\b)/g, "").replace(",", "."));
-    preco = Number(preco);
-    return isFinite(preco) ? { data: String(data), preco } : null;
-  }).filter(Boolean);
-}
-
-function fmtBRL(v) {
-  return "R$ " + v.toFixed(2).replace(".", ",");
-}
-
-function graficoSVG(hist) {
-  const W = 460, H = 200, ML = 56, MR = 14, MT = 16, MB = 30;
-  const pts = hist.map(h => ({ d: h.data, v: Number(h.preco) })).filter(h => isFinite(h.v));
-  const vals = pts.map(p => p.v);
-  let min = Math.min(...vals), max = Math.max(...vals);
-  if (min === max) { min = min - 1; max = max + 1; }
-  const pad = (max - min) * 0.15; min -= pad; max += pad;
-  const x = i => ML + (pts.length === 1 ? (W-ML-MR)/2 : i * (W - ML - MR) / (pts.length - 1));
-  const y = v => MT + (H - MT - MB) * (1 - (v - min) / (max - min));
-  const linha = pts.map((p, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(p.v).toFixed(1)}`).join(" ");
-  const area = `${linha} L${x(pts.length-1).toFixed(1)},${H-MB} L${x(0).toFixed(1)},${H-MB} Z`;
-  const valoresUnicos = [...new Set(vals)].sort((a, b) => a - b);
-  // Ao percorrer os valores em ordem crescente, se o próximo colidir (em
-  // pixels) com o último rótulo mantido, ele SUBSTITUI esse último — assim
-  // sobra sempre o maior dos dois que se sobrepunham, não um rótulo fixo
-  // pro gráfico inteiro.
-  const DIST_MIN_ROTULO = 14;
-  const mantidos = [];
-  valoresUnicos.forEach(v => {
-    const yy = y(v);
-    if (mantidos.length && Math.abs(yy - mantidos[mantidos.length - 1].yy) < DIST_MIN_ROTULO) {
-      mantidos[mantidos.length - 1] = { v, yy };
-    } else {
-      mantidos.push({ v, yy });
+    .hero-pattern {
+      background-image:
+        radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0);
+      background-size: 24px 24px;
     }
-  });
-  const grades = mantidos.map(({ v, yy }) =>
-    `<line x1="${ML}" y1="${yy.toFixed(1)}" x2="${W-MR}" y2="${yy.toFixed(1)}" stroke="var(--border)" stroke-width="1"/>
-      <text x="${ML-8}" y="${(yy+3.5).toFixed(1)}" text-anchor="end" font-size="9" fill="var(--muted-ink)">${fmtBRL(v)}</text>`
-  ).join("");
-  const passo = Math.max(1, Math.ceil(pts.length / 6));
-  const rotulos = pts.map((p, i) => (i % passo === 0 || i === pts.length - 1)
-    ? `<text x="${x(i).toFixed(1)}" y="${H-10}" text-anchor="middle" font-size="9" fill="var(--muted-ink)">${p.d.slice(0,5)}</text>` : "").join("");
-  const minIdx = vals.indexOf(Math.min(...vals));
-  const bolinhas = pts.map((p, i) => `<circle cx="${x(i).toFixed(1)}" cy="${y(p.v).toFixed(1)}" r="${i === minIdx ? 4.5 : 3}" fill="${i === minIdx ? "#059669" : "var(--primary)"}"><title>${p.d} · ${fmtBRL(p.v)}</title></circle>`).join("");
-  return `<svg viewBox="0 0 ${W} ${H}" class="w-full" role="img" aria-label="Gráfico de histórico de preços">
-    <defs><linearGradient id="gArea" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="var(--primary)" stop-opacity="0.20"/>
-      <stop offset="100%" stop-color="var(--primary)" stop-opacity="0"/>
-    </linearGradient></defs>
-    ${grades}
-    <path d="${area}" fill="url(#gArea)"/>
-    <path d="${linha}" fill="none" stroke="var(--primary)" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
-    ${bolinhas}${rotulos}
-  </svg>`;
-}
 
-function abrirHistorico(titulo, hist) {
-  $histTitulo.textContent = titulo;
-  $histGrafico.innerHTML = graficoSVG(hist);
-  const vals = hist.map(h => Number(h.preco)).filter(v => isFinite(v));
-  const atual = vals[vals.length - 1], min = Math.min(...vals), max = Math.max(...vals);
-  $histResumo.textContent = `Atual ${fmtBRL(atual)} · Menor ${fmtBRL(min)} · Maior ${fmtBRL(max)} · ${hist.length} registros`;
-  $modal.classList.remove("hidden");
-}
+    .search-box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      max-width: 620px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 8px 6px 20px;
+      box-shadow: var(--shadow-soft);
+    }
 
-function fecharHistorico() { $modal.classList.add("hidden"); }
-document.getElementById("histFechar").addEventListener("click", fecharHistorico);
-$modal.addEventListener("click", e => { if (e.target === $modal) fecharHistorico(); });
-document.addEventListener("keydown", e => { if (e.key === "Escape") fecharHistorico(); });
+    .search-box input {
+      flex: 1;
+      min-width: 0;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      color: var(--ink);
+      padding: 10px 0;
+      font-size: .95rem;
+    }
 
-function card(p) {
-  const precoAntigo = (p.precoOriginal||"").replace(/\u00a0/g,"").trim();
-  const precoNovo   = (p.precoPromocao||"0,00").replace(/\u00a0/g,"").trim();
-  // Usa a mensagem pronta que já vem do backend (com o número de dias correto,
-  // ex.: "Menor preço dos últimos 30 dias.") em vez de texto fixo no front —
-  // ver OfertaDTO#menorPrecoMensagem / alerta.menor-preco.dias no backend.
-  const menorPrecoTexto = (p.menorPrecoMensagem || "").trim();
-  
-  
-  console.log(`Produto: ${p.titulo}`, p.historico, normalizarHistorico(p));
-  const hist = normalizarHistorico(p);
-  const temHist = hist.length > 0;
-  return `
-  <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
-    <div class="relative flex shrink-0 items-center justify-center p-4 sm:w-44" style="background:var(--cream-deep)">
-      ${p.tag ? `<span class="absolute left-3 top-3 rounded-md bg-destructive px-2 py-0.5 text-[11px] font-bold text-white shadow">${p.tag.trim()}</span>` : ""}
-      <img src="${p.imagem}" alt="${p.titulo}" loading="lazy" class="h-32 w-full object-contain transition duration-300 group-hover:scale-105 sm:h-36" />
-    </div>
-    <div class="flex flex-1 flex-col gap-3 p-5">
-      <div>
-        <h3 class="text-[15px] font-semibold leading-snug">${p.titulo}</h3>
-        ${menorPrecoTexto ? `<div class="mt-2 inline-flex items-center gap-1.5 rounded-full bg-emerald-100 px-2.5 py-1 text-[11px] font-semibold text-emerald-700">
-          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"></polyline><polyline points="17 18 23 18 23 12"></polyline></svg>
-          ${menorPrecoTexto}
-        </div>` : ""}
-        ${p.dataOferta ? `<p class="mt-1 text-[11px]" style="color:var(--muted-ink)">Oferta de: ${p.dataOferta}</p>` : ""}
-      </div>
-      <div class="mt-auto flex flex-wrap items-end justify-between gap-3">
-        <div class="flex flex-col">
-          ${precoAntigo ? `<span class="text-xs line-through" style="color:var(--muted-ink)">R$ ${precoAntigo}</span>` : ""}
-          <span class="text-serif text-2xl font-bold leading-none text-primary">R$ ${precoNovo}</span>
+    .search-box button {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      border: 0;
+      background: var(--primary);
+      color: white;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+    }
+
+    .category-btn.active {
+      color: var(--primary);
+      border-color: var(--accent);
+      background: var(--cream);
+    }
+
+    .modal-backdrop {
+      background: rgba(43, 36, 30, .48);
+      backdrop-filter: blur(3px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="min-h-screen">
+
+    <!-- HERO -->
+    <header class="relative overflow-hidden">
+      <div class="hero-pattern absolute inset-0 -z-10 opacity-[.035]"></div>
+
+      <div class="mx-auto max-w-6xl px-6 pb-14 pt-12 text-center">
+        <img
+          src="curadomus_selo.png"
+          alt="Cura Domus"
+          class="mx-auto h-28 w-28 object-contain sm:h-32 sm:w-32"
+        />
+
+        <p class="mt-5 text-xs font-bold uppercase tracking-[.22em] text-primary">
+          Cura Domus
+        </p>
+
+        <h1 class="text-serif mx-auto mt-3 max-w-4xl text-5xl leading-[.98] text-primary sm:text-6xl md:text-7xl">
+          Curadoria para o lar,
+          <br />
+          <span class="italic text-primaryDeep">feita por uma família</span>
+          para a sua.
+        </h1>
+
+        <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-mutedInk">
+          Somos uma família católica, aberta à vida, com quatro filhos.
+          Analisamos ofertas, histórico de preços e condições para ajudar
+          outras famílias a economizar de verdade.
+        </p>
+
+        <div class="mt-8 flex flex-col justify-center gap-3 sm:flex-row">
+          <a
+            href="#comunidades"
+            class="rounded-full bg-primary px-7 py-3.5 text-sm font-bold text-white shadow-soft transition hover:opacity-90"
+          >
+            Entrar na comunidade gratuita
+          </a>
+
+          <a
+            href="#como-funciona"
+            class="rounded-full border bg-card px-7 py-3.5 text-sm font-bold text-primary transition hover:bg-cream"
+            style="border-color: var(--border)"
+          >
+            Como avaliamos as ofertas
+          </a>
         </div>
-        <div class="flex flex-wrap items-center gap-2">
-          ${temHist ? `<button data-hist="${encodeURIComponent(JSON.stringify({t:p.titulo,h:hist}))}" class="inline-flex items-center gap-1.5 rounded-lg border px-3 py-2 text-xs font-semibold text-primary transition hover:bg-primary/5" style="border-color:var(--border)">
-            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
-            Ver Histórico
-          </button>` : ""}
-          ${p.cupom ? `<button data-cupom="${p.cupom}" class="inline-flex items-center gap-1.5 rounded-lg border border-dashed border-primary/50 bg-primary/5 px-2.5 py-1.5 text-xs font-semibold text-primary transition hover:bg-primary/10">⧉ ${p.cupom}</button>` : ""}
-          <a href="${p.linkAfiliado}" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-soft transition hover:opacity-90">Aproveitar ↗</a>
+
+        <div class="mx-auto mt-8 flex max-w-xl flex-wrap justify-center gap-2">
+          <span class="rounded-full border bg-card px-4 py-2 text-xs font-semibold text-mutedInk" style="border-color:var(--border)">
+            ✓ Histórico de preços
+          </span>
+          <span class="rounded-full border bg-card px-4 py-2 text-xs font-semibold text-mutedInk" style="border-color:var(--border)">
+            ✓ Curadoria familiar
+          </span>
+          <span class="rounded-full border bg-card px-4 py-2 text-xs font-semibold text-mutedInk" style="border-color:var(--border)">
+            ✓ Ofertas analisadas
+          </span>
         </div>
       </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-6 pb-24">
+
+      <!-- COMO FUNCIONA -->
+      <section id="como-funciona" class="scroll-mt-8">
+        <div class="mb-7 text-center">
+          <p class="text-xs font-bold uppercase tracking-[.2em] text-primary">
+            Nosso método
+          </p>
+
+          <h2 class="text-serif mt-2 text-4xl sm:text-5xl">
+            Nem todo desconto é uma boa oferta
+          </h2>
+
+          <p class="mx-auto mt-3 max-w-2xl text-sm leading-relaxed text-mutedInk">
+            Por isso, não compartilhamos qualquer promoção. Antes de recomendar,
+            verificamos se o preço realmente faz sentido.
+          </p>
+        </div>
+
+        <div class="grid gap-4 md:grid-cols-3">
+          <article class="rounded-2xl border bg-card p-6 shadow-soft" style="border-color:var(--border)">
+            <div class="text-3xl">1</div>
+            <h3 class="mt-4 text-lg font-bold">Encontramos</h3>
+            <p class="mt-2 text-sm leading-relaxed text-mutedInk">
+              Procuramos produtos úteis para o lar, crianças, educação,
+              formação e rotina familiar.
+            </p>
+          </article>
+
+          <article class="rounded-2xl border bg-card p-6 shadow-soft" style="border-color:var(--border)">
+            <div class="text-3xl">2</div>
+            <h3 class="mt-4 text-lg font-bold">Analisamos</h3>
+            <p class="mt-2 text-sm leading-relaxed text-mutedInk">
+              Consultamos histórico de preços, loja, frete, condições e
+              relevância do produto.
+            </p>
+          </article>
+
+          <article class="rounded-2xl border bg-card p-6 shadow-soft" style="border-color:var(--border)">
+            <div class="text-3xl">3</div>
+            <h3 class="mt-4 text-lg font-bold">Compartilhamos</h3>
+            <p class="mt-2 text-sm leading-relaxed text-mutedInk">
+              Enviamos para a comunidade aquilo que consideramos uma boa
+              oportunidade para a família.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <!-- DESTAQUES -->
+      <section id="ofertas" class="mt-20 scroll-mt-8">
+        <div class="flex flex-col gap-5 border-b pb-6 sm:flex-row sm:items-end sm:justify-between" style="border-color:var(--border)">
+          <div>
+            <p class="text-xs font-bold uppercase tracking-[.2em] text-primary">
+              Curadoria atual
+            </p>
+
+            <h2 class="text-serif mt-2 text-4xl">
+              Ofertas selecionadas
+            </h2>
+
+            <p id="atualizacao" class="mt-2 text-xs text-mutedInk"></p>
+          </div>
+
+          <div class="rounded-xl bg-cream px-4 py-3 text-xs leading-relaxed text-mutedInk">
+            Exibimos primeiro as ofertas com melhor histórico recente.
+          </div>
+        </div>
+
+        <!-- BUSCA -->
+        <form id="buscaForm" class="mx-auto mt-8 search-box" onsubmit="return false;">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
+
+          <input
+            id="busca"
+            type="search"
+            placeholder="Buscar por produto, livro ou categoria..."
+            aria-label="Buscar por produto"
+          />
+
+          <button type="submit" aria-label="Buscar">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+          </button>
+        </form>
+
+        <!-- CATEGORIAS -->
+        <div id="categorias" class="mt-6 flex gap-2 overflow-x-auto pb-2"></div>
+
+        <div class="mt-8 flex items-center justify-between gap-4">
+          <div>
+            <p id="resultadoInfo" class="text-sm text-mutedInk"></p>
+          </div>
+
+          <button
+            id="btnDestaques"
+            type="button"
+            class="category-btn rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
+            style="border-color:var(--border)"
+          >
+            ✦ Apenas destaques
+          </button>
+        </div>
+
+        <div id="lista" class="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2"></div>
+
+        <div class="mt-8 text-center">
+          <button
+            id="carregarMais"
+            type="button"
+            class="hidden rounded-full border bg-card px-6 py-3 text-sm font-bold text-primary transition hover:bg-cream"
+            style="border-color:var(--border)"
+          >
+            Carregar mais ofertas
+          </button>
+        </div>
+      </section>
+
+      <!-- WHATSAPP -->
+      <section id="comunidades" class="mt-24 scroll-mt-8">
+        <div class="rounded-3xl bg-primary px-6 py-10 text-center text-white sm:px-10">
+          <p class="text-xs font-bold uppercase tracking-[.2em] text-white/70">
+            Comunidade Cura Domus
+          </p>
+
+          <h2 class="text-serif mt-3 text-4xl sm:text-5xl">
+            Receba as ofertas no WhatsApp
+          </h2>
+
+          <p class="mx-auto mt-4 max-w-2xl text-sm leading-relaxed text-white/80">
+            Escolha o grupo que mais combina com a sua família. A comunidade é
+            gratuita e organizada por interesses.
+          </p>
+
+          <div id="comunidadesLista" class="mx-auto mt-8 grid max-w-4xl gap-3 sm:grid-cols-2"></div>
+
+          <p class="mx-auto mt-7 max-w-2xl text-xs leading-relaxed text-white/60">
+            Ao entrar, você poderá sair a qualquer momento. Os grupos são
+            utilizados para compartilhar conteúdos relacionados às suas categorias.
+          </p>
+        </div>
+      </section>
+
+      <!-- TRANSPARÊNCIA -->
+      <section class="mt-16 rounded-2xl border bg-card p-6 text-center sm:p-8" style="border-color:var(--border)">
+        <h2 class="text-serif text-3xl">
+          Transparência acima de tudo
+        </h2>
+
+        <p class="mx-auto mt-3 max-w-3xl text-xs leading-relaxed text-mutedInk">
+          Alguns links desta página são links de afiliado. Se você comprar por
+          eles, poderemos receber uma comissão, sem custo adicional para você.
+          Isso não altera nosso compromisso de avaliar as ofertas com critérios
+          claros. Preços, estoque, frete e condições podem mudar a qualquer momento.
+        </p>
+      </section>
+
+    </main>
+
+    <footer class="border-t bg-card/50" style="border-color:var(--border)">
+      <div class="mx-auto flex max-w-6xl flex-col items-center gap-3 px-6 py-10 text-center">
+        <img src="curadomus_logo.png" alt="Cura Domus" class="h-12 opacity-80" />
+
+        <p class="text-xs text-mutedInk">
+          O cuidado do lar como um ato de amor.
+        </p>
+
+        <p class="text-xs text-mutedInk">
+          © 2026 Cura Domus · Construindo o legado das nossas famílias.
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- MODAL DE HISTÓRICO -->
+  <div id="modalHistorico" class="modal-backdrop fixed inset-0 z-50 hidden items-center justify-center p-4">
+    <div class="w-full max-w-2xl rounded-3xl border bg-card p-6 shadow-card" style="border-color:var(--border)">
+      <div class="flex items-start justify-between gap-4">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-[.18em] text-primary">
+            Histórico de preços
+          </p>
+
+          <h2 id="modalTitulo" class="text-serif mt-2 text-2xl leading-tight"></h2>
+        </div>
+
+        <button
+          id="fecharModal"
+          type="button"
+          class="rounded-lg border px-3 py-1 text-sm text-mutedInk"
+          style="border-color:var(--border)"
+        >
+          ✕
+        </button>
+      </div>
+
+      <div id="historicoResumo" class="mt-5 grid grid-cols-3 gap-2"></div>
+
+      <div class="mt-6 overflow-x-auto">
+        <table class="w-full text-left text-xs">
+          <thead>
+            <tr class="border-b text-mutedInk" style="border-color:var(--border)">
+              <th class="px-2 py-3">Data</th>
+              <th class="px-2 py-3">Preço</th>
+            </tr>
+          </thead>
+
+          <tbody id="historicoTabela"></tbody>
+        </table>
+      </div>
+
+      <p class="mt-5 text-xs leading-relaxed text-mutedInk">
+        O histórico representa os registros coletados pela Cura Domus. Ele não
+        garante que o preço ou o estoque permaneçam disponíveis.
+      </p>
     </div>
-  </article>`;
-}
+  </div>
 
-fetch("promocoes.json").then(r => r.ok ? r.json() : Promise.reject())
-  .then(d => {
-    ofertas = d.ofertas || [];
-    if (d.ultimaAtualizacao) $atual.textContent = "Atualizado em: " + d.ultimaAtualizacao;
-    const grupos = [...new Set(ofertas.map(o => (o.categoria||"").trim()).filter(Boolean))].sort((a,b)=>a.localeCompare(b,"pt-BR"));
-    montarCategorias(grupos);
-    render();
-  })
-  .catch(() => {
-    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Coloque o arquivo <code>promocoes.json</code> na mesma pasta deste HTML.</div>`;
-  });
+  <script>
+    const LIMITE_INICIAL = 12;
+    const LIMITE_POR_CARGA = 12;
 
-$busca.addEventListener("input", render);
-montarCategorias([]);
-</script>
+    const comunidades = [
+      {
+        nome: "Formação do Imaginário",
+        descricao: "Livros e conteúdos para a formação das crianças.",
+        img: "imaginario.png",
+        url: "https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F"
+      },
+      {
+        nome: "Educação e Escola",
+        descricao: "Papelaria, materiais e oportunidades para estudar.",
+        img: "educacao.png",
+        url: "https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW"
+      },
+      {
+        nome: "Gestão do Lar",
+        descricao: "Casa, limpeza, organização e utilidades.",
+        img: "gestao.png",
+        url: "https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl"
+      },
+      {
+        nome: "Bebês e Infância",
+        descricao: "Produtos para bebês, crianças e maternidade.",
+        img: "bebe.jpg",
+        url: "https://chat.whatsapp.com/C84J6GtX87t6a0HFp2x5EX"
+      }
+    ];
+
+    let ofertas = [];
+    let categoriaAtiva = "TODAS";
+    let apenasDestaques = false;
+    let quantidadeExibida = LIMITE_INICIAL;
+
+    const $lista = document.getElementById("lista");
+    const $busca = document.getElementById("busca");
+    const $categorias = document.getElementById("categorias");
+    const $resultadoInfo = document.getElementById("resultadoInfo");
+    const $carregarMais = document.getElementById("carregarMais");
+    const $btnDestaques = document.getElementById("btnDestaques");
+    const $atualizacao = document.getElementById("atualizacao");
+
+    function escapeHTML(value = "") {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function safeUrl(value = "") {
+      try {
+        const url = new URL(value, window.location.href);
+
+        if (url.protocol !== "http:" && url.protocol !== "https:") {
+          return "#";
+        }
+
+        return escapeHTML(url.href);
+      } catch {
+        return "#";
+      }
+    }
+
+    function normalizarTexto(value = "") {
+      return String(value)
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+    }
+
+    function formatarBRL(valor) {
+      return Number(valor).toLocaleString("pt-BR", {
+        style: "currency",
+        currency: "BRL"
+      });
+    }
+
+    function extrairHistorico(produto) {
+      const historico = Array.isArray(produto.historico)
+        ? produto.historico
+        : [];
+
+      return historico
+        .map(item => ({
+          data: item?.data || "",
+          preco: Number(item?.preco)
+        }))
+        .filter(item => item.data && Number.isFinite(item.preco));
+    }
+
+    function obterMenorPreco(produto) {
+      const historico = extrairHistorico(produto);
+      const precos = historico.map(item => item.preco);
+
+      const precoAtual = Number(
+        String(produto.precoPromocao || "0")
+          .replace(/\./g, "")
+          .replace(",", ".")
+      );
+
+      if (Number.isFinite(precoAtual) && precoAtual > 0) {
+        precos.push(precoAtual);
+      }
+
+      return precos.length ? Math.min(...precos) : null;
+    }
+
+    function possuiDestaque(produto) {
+      return produto.destaque === true || produto.menorPrecoEmDias === true;
+    }
+
+    function obterListaFiltrada() {
+      const busca = normalizarTexto($busca.value.trim());
+
+      return ofertas.filter(produto => {
+        const categoria = String(produto.categoria || "").trim();
+        const textoBusca = normalizarTexto(
+          `${produto.titulo || ""} ${categoria}`
+        );
+
+        const correspondeCategoria =
+          categoriaAtiva === "TODAS" || categoria === categoriaAtiva;
+
+        const correspondeBusca =
+          !busca || textoBusca.includes(busca);
+
+        const correspondeDestaque =
+          !apenasDestaques || possuiDestaque(produto);
+
+        return (
+          correspondeCategoria &&
+          correspondeBusca &&
+          correspondeDestaque
+        );
+      });
+    }
+
+    function ordenarOfertas(lista) {
+      return [...lista].sort((a, b) => {
+        const destaqueA = possuiDestaque(a) ? 1 : 0;
+        const destaqueB = possuiDestaque(b) ? 1 : 0;
+
+        if (destaqueA !== destaqueB) {
+          return destaqueB - destaqueA;
+        }
+
+        const menorA = obterMenorPreco(a);
+        const menorB = obterMenorPreco(b);
+
+        const atualA = parseFloat(String(a.precoPromocao || "0").replace(",", "."));
+        const atualB = parseFloat(String(b.precoPromocao || "0").replace(",", "."));
+
+        const distanciaA = menorA ? atualA / menorA : 999;
+        const distanciaB = menorB ? atualB / menorB : 999;
+
+        return distanciaA - distanciaB;
+      });
+    }
+
+    function renderizarCategorias() {
+      const categorias = [
+        "TODAS",
+        ...new Set(
+          ofertas
+            .map(item => String(item.categoria || "").trim())
+            .filter(Boolean)
+        )
+      ];
+
+      $categorias.innerHTML = categorias.map(categoria => {
+        const texto = categoria === "TODAS"
+          ? "Todas"
+          : categoria;
+
+        const ativa = categoria === categoriaAtiva ? "active" : "";
+
+        return `
+          <button
+            type="button"
+            data-categoria="${escapeHTML(categoria)}"
+            class="category-btn ${ativa} whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
+            style="border-color:var(--border)"
+          >
+            ${escapeHTML(texto)}
+          </button>
+        `;
+      }).join("");
+
+      $categorias.querySelectorAll("[data-categoria]").forEach(botao => {
+        botao.addEventListener("click", () => {
+          categoriaAtiva = botao.dataset.categoria;
+          quantidadeExibida = LIMITE_INICIAL;
+          renderizarCategorias();
+          renderizarOfertas();
+        });
+      });
+    }
+
+    function renderizarComunidades() {
+      const container = document.getElementById("comunidadesLista");
+
+      container.innerHTML = comunidades.map(comunidade => `
+        <a
+          href="${safeUrl(comunidade.url)}"
+          target="_blank"
+          rel="sponsored noopener noreferrer"
+          class="flex items-center gap-4 rounded-2xl border border-white/20 bg-white/10 p-4 text-left transition hover:bg-white/20"
+        >
+          <img
+            src="${safeUrl(comunidade.img)}"
+            alt="${escapeHTML(comunidade.nome)}"
+            class="h-12 w-12 rounded-full object-cover"
+          />
+
+          <span class="flex-1">
+            <strong class="block text-sm">${escapeHTML(comunidade.nome)}</strong>
+            <small class="mt-1 block text-xs text-white/70">
+              ${escapeHTML(comunidade.descricao)}
+            </small>
+          </span>
+
+          <span class="text-xl">→</span>
+        </a>
+      `).join("");
+    }
+
+    function criarCard(produto) {
+      const titulo = escapeHTML(produto.titulo || "Oferta");
+      const imagem = safeUrl(produto.imagem || "");
+      const link = safeUrl(produto.linkAfiliado || "#");
+      const categoria = escapeHTML(produto.categoria || "");
+
+      const precoAtual = escapeHTML(produto.precoPromocao || "");
+      const precoOriginal = escapeHTML(produto.precoOriginal || "");
+      const tag = escapeHTML(produto.tag || "");
+
+      const historico = extrairHistorico(produto);
+      const menorPreco = obterMenorPreco(produto);
+
+      const precoNumerico = parseFloat(
+        String(produto.precoPromocao || "0").replace(",", ".")
+      );
+
+      const estaNoMenorPreco =
+        menorPreco !== null &&
+        Number.isFinite(precoNumerico) &&
+        Math.abs(precoNumerico - menorPreco) < 0.01;
+
+      const destaque = possuiDestaque(produto);
+
+      let seloHistorico = "";
+
+      if (produto.menorPrecoMensagem) {
+        seloHistorico = produto.menorPrecoMensagem;
+      } else if (estaNoMenorPreco) {
+        seloHistorico = "Menor preço registrado no histórico";
+      } else if (menorPreco !== null && precoNumerico > menorPreco) {
+        seloHistorico = `Menor registro: ${formatarBRL(menorPreco)}`;
+      }
+
+      return `
+        <article class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
+          <div class="relative flex shrink-0 items-center justify-center p-5 sm:w-44" style="background:var(--cream)">
+            ${tag ? `
+              <span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">
+                ${tag}
+              </span>
+            ` : ""}
+
+            ${destaque ? `
+              <span class="absolute right-3 top-3 rounded-md bg-emerald-100 px-2 py-1 text-[10px] font-bold text-emerald-700">
+                Destaque
+              </span>
+            ` : ""}
+
+            <img
+              src="${imagem}"
+              alt="${titulo}"
+              loading="lazy"
+              class="h-32 w-full object-contain sm:h-36"
+            />
+          </div>
+
+          <div class="flex flex-1 flex-col gap-3 p-5">
+            <div>
+              <p class="mb-2 text-[10px] font-bold uppercase tracking-[.16em] text-mutedInk">
+                ${categoria}
+              </p>
+
+              <h3 class="text-[15px] font-bold leading-snug">
+                ${titulo}
+              </h3>
+
+              ${seloHistorico ? `
+                <div class="mt-3 inline-flex rounded-full bg-emerald-100 px-3 py-1 text-[11px] font-bold text-emerald-700">
+                  ✓ ${escapeHTML(seloHistorico)}
+                </div>
+              ` : ""}
+            </div>
+
+            <div class="mt-auto flex flex-wrap items-end justify-between gap-3">
+              <div>
+                ${precoOriginal ? `
+                  <span class="block text-xs text-mutedInk line-through">
+                    R$ ${precoOriginal}
+                  </span>
+                ` : ""}
+
+                <strong class="text-serif text-3xl text-primary">
+                  R$ ${precoAtual}
+                </strong>
+              </div>
+
+              <div class="flex flex-wrap gap-2">
+                ${historico.length ? `
+                  <button
+                    type="button"
+                    data-historico='${escapeHTML(JSON.stringify({
+                      titulo: produto.titulo,
+                      historico
+                    }))}'
+                    class="rounded-lg border px-3 py-2 text-xs font-bold text-primary transition hover:bg-cream"
+                    style="border-color:var(--border)"
+                  >
+                    Ver histórico
+                  </button>
+                ` : ""}
+
+                <a
+                  href="${link}"
+                  target="_blank"
+                  rel="sponsored nofollow noopener noreferrer"
+                  class="rounded-lg bg-primary px-4 py-2 text-sm font-bold text-white transition hover:opacity-90"
+                >
+                  Ver oferta ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderizarOfertas() {
+      const filtradas = ordenarOfertas(obterListaFiltrada());
+
+      const buscaAtiva =
+        $busca.value.trim() ||
+        categoriaAtiva !== "TODAS" ||
+        apenasDestaques;
+
+      const quantidade = buscaAtiva
+        ? quantidadeExibida
+        : Math.min(quantidadeExibida, LIMITE_INICIAL);
+
+      const exibidas = filtradas.slice(0, quantidade);
+
+      $resultadoInfo.textContent =
+        `${filtradas.length} oferta${filtradas.length === 1 ? "" : "s"} encontrada${filtradas.length === 1 ? "" : "s"}`;
+
+      if (!exibidas.length) {
+        $lista.innerHTML = `
+          <div class="md:col-span-2 rounded-2xl border border-dashed p-10 text-center text-sm text-mutedInk" style="border-color:var(--border)">
+            Nenhuma oferta encontrada com esses filtros.
+          </div>
+        `;
+
+        $carregarMais.classList.add("hidden");
+        return;
+      }
+
+      $lista.innerHTML = exibidas.map(criarCard).join("");
+
+      const podeCarregarMais = quantidade < filtradas.length;
+
+      $carregarMais.classList.toggle("hidden", !podeCarregarMais);
+
+      document.querySelectorAll("[data-historico]").forEach(botao => {
+        botao.addEventListener("click", () => {
+          try {
+            const dados = JSON.parse(botao.dataset.historico);
+            abrirModalHistorico(dados.titulo, dados.historico);
+          } catch {
+            console.warn("Não foi possível abrir o histórico.");
+          }
+        });
+      });
+    }
+
+    function abrirModalHistorico(titulo, historico) {
+      const modal = document.getElementById("modalHistorico");
+      const modalTitulo = document.getElementById("modalTitulo");
+      const tabela = document.getElementById("historicoTabela");
+      const resumo = document.getElementById("historicoResumo");
+
+      const precos = historico.map(item => Number(item.preco));
+      const atual = precos[precos.length - 1];
+      const menor = Math.min(...precos);
+      const maior = Math.max(...precos);
+
+      modalTitulo.textContent = titulo;
+
+      resumo.innerHTML = `
+        <div class="rounded-xl bg-cream p-3">
+          <small class="block text-[10px] uppercase text-mutedInk">Atual</small>
+          <strong class="mt-1 block text-sm text-primary">${formatarBRL(atual)}</strong>
+        </div>
+
+        <div class="rounded-xl bg-emerald-50 p-3">
+          <small class="block text-[10px] uppercase text-emerald-700">Menor</small>
+          <strong class="mt-1 block text-sm text-emerald-700">${formatarBRL(menor)}</strong>
+        </div>
+
+        <div class="rounded-xl bg-cream p-3">
+          <small class="block text-[10px] uppercase text-mutedInk">Maior</small>
+          <strong class="mt-1 block text-sm text-primary">${formatarBRL(maior)}</strong>
+        </div>
+      `;
+
+      tabela.innerHTML = historico
+        .slice()
+        .reverse()
+        .map(item => `
+          <tr class="border-b" style="border-color:var(--border)">
+            <td class="px-2 py-3 text-mutedInk">${escapeHTML(item.data)}</td>
+            <td class="px-2 py-3 font-bold text-primary">${formatarBRL(item.preco)}</td>
+          </tr>
+        `)
+        .join("");
+
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+    }
+
+    function fecharModalHistorico() {
+      const modal = document.getElementById("modalHistorico");
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+    }
+
+    $busca.addEventListener("input", () => {
+      quantidadeExibida = LIMITE_INICIAL;
+      renderizarOfertas();
+    });
+
+    $btnDestaques.addEventListener("click", () => {
+      apenasDestaques = !apenasDestaques;
+      quantidadeExibida = LIMITE_INICIAL;
+
+      $btnDestaques.classList.toggle("active", apenasDestaques);
+      renderizarOfertas();
+    });
+
+    $carregarMais.addEventListener("click", () => {
+      quantidadeExibida += LIMITE_POR_CARGA;
+      renderizarOfertas();
+    });
+
+    document.getElementById("fecharModal")
+      .addEventListener("click", fecharModalHistorico);
+
+    document.getElementById("modalHistorico")
+      .addEventListener("click", event => {
+        if (event.target.id === "modalHistorico") {
+          fecharModalHistorico();
+        }
+      });
+
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") {
+        fecharModalHistorico();
+      }
+    });
+
+    renderizarComunidades();
+
+    fetch("promocoes.json")
+      .then(response => {
+        if (!response.ok) {
+          throw new Error("Não foi possível carregar as ofertas.");
+        }
+
+        return response.json();
+      })
+      .then(data => {
+        ofertas = Array.isArray(data.ofertas)
+          ? data.ofertas
+          : [];
+
+        if (data.ultimaAtualizacao) {
+          $atualizacao.textContent =
+            `Última atualização: ${escapeHTML(data.ultimaAtualizacao)}`;
+        }
+
+        renderizarCategorias();
+        renderizarOfertas();
+      })
+      .catch(error => {
+        console.error(error);
+
+        $lista.innerHTML = `
+          <div class="md:col-span-2 rounded-2xl border border-dashed p-10 text-center text-sm text-mutedInk" style="border-color:var(--border)">
+            Não foi possível carregar as ofertas no momento.
+          </div>
+        `;
+      });
+  </script>
 </body>
 </html>
