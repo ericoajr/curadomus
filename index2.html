@@ -891,16 +891,7 @@
     function renderizarOfertas() {
       const filtradas = ordenarOfertas(obterListaFiltrada());
 
-      const possuiFiltro =
-        $busca.value.trim() ||
-        categoriaAtiva !== "TODAS" ||
-        apenasDestaques;
-
-      const limite = possuiFiltro
-        ? quantidadeExibida
-        : Math.min(quantidadeExibida, LIMITE_INICIAL);
-
-      const exibidas = filtradas.slice(0, limite);
+      const exibidas = filtradas.slice(0, quantidadeExibida);
 
       $resultadoInfo.textContent =
         `${filtradas.length} oferta${filtradas.length === 1 ? "" : "s"} encontrada${filtradas.length === 1 ? "" : "s"}`;
