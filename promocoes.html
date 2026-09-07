@@ -1,0 +1,710 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Promoções — Cura Domus</title>
+
+  <meta
+    name="description"
+    content="Ofertas analisadas, histórico de preços e curadoria feita por uma família para ajudar outras famílias a economizar."
+  >
+
+  <meta property="og:title" content="Promoções — Cura Domus">
+  <meta
+    property="og:description"
+    content="Ofertas analisadas e oportunidades selecionadas para famílias."
+  >
+  <meta property="og:type" content="website">
+
+  <link rel="icon" type="image/png" href="curadomus_logo.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            background: "var(--background)",
+            ink: "var(--ink)",
+            card: "var(--card)",
+            primary: "var(--primary)",
+            mutedInk: "var(--muted-ink)",
+            cream: "var(--cream)",
+            border: "var(--border)"
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', "serif"],
+            sans: ["Inter", "system-ui", "sans-serif"]
+          },
+          boxShadow: {
+            soft: "0 2px 10px rgba(43,36,30,.06)",
+            card: "0 12px 32px rgba(43,36,30,.12)"
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    :root {
+      --background: #fbf7f1;
+      --cream: #f3ecdf;
+      --card: #ffffff;
+      --ink: #2b241e;
+      --muted-ink: #7a6e60;
+      --border: #e7dfd1;
+      --primary: #6e5334;
+      --primary-deep: #4e3a22;
+      --accent: #c9a96a;
+      --green: #087f5b;
+      --red: #b4441f;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--background);
+      color: var(--ink);
+      font-family: Inter, system-ui, sans-serif;
+    }
+
+    .text-serif {
+      font-family: "Cormorant Garamond", serif;
+      letter-spacing: -.015em;
+    }
+
+    .hidden { display: none !important; }
+
+    .fade-up { animation: fade-up .35s ease both; }
+
+    @keyframes fade-up {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hero-pattern {
+      background-image: radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0);
+      background-size: 24px 24px;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+      max-width: 620px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 6px 8px 6px 20px;
+      box-shadow: 0 10px 30px -12px rgba(30,25,20,0.18);
+    }
+
+    .search-box input {
+      flex: 1;
+      min-width: 0;
+      border: 0;
+      outline: 0;
+      background: transparent;
+      color: var(--ink);
+      padding: 10px 0;
+      font-size: .95rem;
+    }
+
+    .search-box button {
+      width: 42px;
+      height: 42px;
+      border-radius: 999px;
+      border: 0;
+      background: var(--primary);
+      color: white;
+      display: grid;
+      place-items: center;
+      cursor: pointer;
+    }
+
+    .category-btn.active {
+      color: var(--primary);
+      border-color: var(--accent) !important;
+      background: var(--cream);
+    }
+
+    /* MODAL */
+    .modal-backdrop {
+      background: rgba(43, 36, 30, .52);
+      backdrop-filter: blur(4px);
+      overflow-y: auto;
+    }
+
+    .modal-panel {
+      width: min(100%, 680px);
+      max-height: calc(100dvh - 32px);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .modal-header { flex-shrink: 0; }
+
+    .modal-history-scroll {
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior: contain;
+      padding-right: 4px;
+    }
+
+    .modal-history-scroll::-webkit-scrollbar { width: 7px; }
+    .modal-history-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 999px; }
+
+    @media (max-width: 640px) {
+      .modal-backdrop { align-items: flex-start !important; padding: 12px !important; }
+      .modal-panel { max-height: calc(100dvh - 24px); border-radius: 22px; }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="min-h-screen">
+    <nav class="border-b" style="border-color:var(--border)">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <a href="index.html" class="inline-flex items-center gap-2 text-xs font-semibold text-primary transition hover:opacity-80">
+          ← Voltar para o início
+        </a>
+        <div class="flex items-center gap-5">
+          <a href="receitas.html" class="text-xs font-semibold text-primary transition hover:opacity-80">Receitas →</a>
+          <img src="curadomus_logo.png" alt="Cura Domus" class="h-8 opacity-90" />
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="relative overflow-hidden">
+      <div class="hero-pattern absolute inset-0 -z-10 opacity-[.035]"></div>
+
+      <div class="mx-auto max-w-6xl px-6 pb-10 pt-12 text-center">
+        <p class="text-xs font-bold uppercase tracking-[.22em] text-primary">
+          ✦ Curadoria atual
+        </p>
+
+        <h1 class="text-serif mx-auto mt-3 max-w-4xl text-5xl leading-[.98] text-primary sm:text-6xl">
+          Promoções selecionadas
+          <br>
+          <span class="italic text-primaryDeep">para o seu lar.</span>
+        </h1>
+
+        <p class="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-mutedInk">
+          Analisamos histórico de preços, loja, frete e condições antes de recomendar.
+          Aqui só entra o que realmente vale a pena.
+        </p>
+      </div>
+    </header>
+
+    <main class="mx-auto max-w-6xl px-6 pb-24">
+      <!-- OFERTAS -->
+      <section id="ofertas" class="scroll-mt-8">
+        <div class="flex flex-col gap-5 border-b pb-6 sm:flex-row sm:items-end sm:justify-between" style="border-color:var(--border)">
+          <div>
+            <p id="atualizacao" class="mt-2 text-xs text-mutedInk"></p>
+          </div>
+
+          <div class="rounded-xl bg-cream px-4 py-3 text-xs leading-relaxed text-mutedInk">
+            Exibimos primeiro as ofertas com melhor histórico recente.
+          </div>
+        </div>
+
+        <form id="buscaForm" class="mx-auto mt-8 search-box" onsubmit="return false;">
+          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
+
+          <input
+            id="busca"
+            type="search"
+            placeholder="Buscar por produto, livro ou categoria..."
+            aria-label="Buscar por produto"
+          >
+
+          <button type="submit" aria-label="Buscar">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </svg>
+          </button>
+        </form>
+
+        <div id="categorias" class="mt-6 flex gap-2 overflow-x-auto pb-2"></div>
+
+        <div class="mt-8 flex items-center justify-between gap-4">
+          <p id="resultadoInfo" class="text-sm text-mutedInk"></p>
+
+          <button
+            id="btnDestaques"
+            type="button"
+            class="category-btn rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
+            style="border-color:var(--border)"
+          >
+            ✦ Apenas destaques
+          </button>
+        </div>
+
+        <div id="lista" class="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2"></div>
+
+        <div class="mt-8 text-center">
+          <button
+            id="carregarMais"
+            type="button"
+            class="hidden rounded-full border bg-card px-6 py-3 text-sm font-bold text-primary transition hover:bg-cream"
+            style="border-color:var(--border)"
+          >
+            Carregar mais ofertas
+          </button>
+        </div>
+      </section>
+
+      <!-- CTA COMUNIDADE -->
+      <section class="mt-20 scroll-mt-8">
+        <div class="rounded-3xl bg-primary px-6 py-10 text-center text-white sm:px-10">
+          <h2 class="text-serif mt-1 text-3xl sm:text-4xl">
+            Quer receber essas ofertas no WhatsApp?
+          </h2>
+          <p class="mx-auto mt-3 max-w-xl text-sm leading-relaxed text-white/80">
+            Entre gratuitamente em uma das nossas comunidades por interesse.
+          </p>
+          <a
+            href="index.html#comunidades"
+            class="mt-6 inline-flex items-center gap-1.5 rounded-full bg-white px-6 py-3 text-sm font-bold text-primary shadow-soft transition hover:opacity-90"
+          >
+            Ver comunidades →
+          </a>
+        </div>
+      </section>
+
+      <!-- TRANSPARÊNCIA -->
+      <section class="mt-16 rounded-2xl border bg-card p-6 text-center sm:p-8" style="border-color:var(--border)">
+        <h2 class="text-serif text-3xl">
+          Transparência acima de tudo
+        </h2>
+
+        <p class="mx-auto mt-3 max-w-3xl text-xs leading-relaxed text-mutedInk">
+          Alguns links desta página são links de afiliado. Se você comprar por
+          eles, poderemos receber uma comissão, sem custo adicional para você.
+          Isso não altera nosso compromisso de avaliar as ofertas com critérios
+          claros. Preços, estoque, frete e condições podem mudar a qualquer momento.
+        </p>
+      </section>
+    </main>
+
+    <footer class="border-t bg-card/50" style="border-color:var(--border)">
+      <div class="mx-auto flex max-w-6xl flex-col items-center gap-3 px-6 py-10 text-center">
+        <img src="curadomus_logo.png" alt="Cura Domus" class="h-12 opacity-80">
+        <p class="text-xs text-mutedInk">
+          © 2026 Cura Domus · Construindo o legado das nossas famílias.
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <!-- MODAL DE HISTÓRICO -->
+  <div
+    id="modalHistorico"
+    class="modal-backdrop fixed inset-0 z-50 hidden items-center justify-center p-3 sm:p-5"
+  >
+    <div
+      class="modal-panel rounded-3xl border bg-card p-5 shadow-card sm:p-6"
+      style="border-color:var(--border)"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modalTitulo"
+    >
+      <div class="modal-header flex items-start justify-between gap-4">
+        <div class="min-w-0 flex-1">
+          <p class="text-xs font-bold uppercase tracking-[.18em] text-primary">
+            Histórico de preços
+          </p>
+
+          <h2
+            id="modalTitulo"
+            class="text-serif mt-2 max-h-20 overflow-hidden text-2xl leading-tight sm:text-3xl"
+          ></h2>
+        </div>
+
+        <button
+          id="fecharModal"
+          type="button"
+          aria-label="Fechar histórico"
+          class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border text-base font-bold text-mutedInk transition hover:bg-cream"
+          style="border-color:var(--border)"
+        >
+          ✕
+        </button>
+      </div>
+
+      <div id="historicoResumo" class="mt-5 grid shrink-0 grid-cols-3 gap-2"></div>
+
+      <div class="modal-history-scroll mt-5">
+        <table class="w-full text-left text-xs">
+          <thead>
+            <tr class="border-b text-mutedInk" style="border-color:var(--border)">
+              <th class="sticky top-0 bg-card px-2 py-3 font-bold">Data</th>
+              <th class="sticky top-0 bg-card px-2 py-3 text-right font-bold">Preço</th>
+            </tr>
+          </thead>
+          <tbody id="historicoTabela"></tbody>
+        </table>
+      </div>
+
+      <p class="mt-5 shrink-0 text-xs leading-relaxed text-mutedInk">
+        O histórico representa os registros coletados pela Cura Domus.
+        Preços, estoque e condições podem mudar a qualquer momento.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    const LIMITE_INICIAL = 12;
+    const LIMITE_POR_CARGA = 12;
+
+    let ofertas = [];
+    let categoriaAtiva = "TODAS";
+    let apenasDestaques = false;
+    let quantidadeExibida = LIMITE_INICIAL;
+
+    const $lista = document.getElementById("lista");
+    const $busca = document.getElementById("busca");
+    const $categorias = document.getElementById("categorias");
+    const $resultadoInfo = document.getElementById("resultadoInfo");
+    const $carregarMais = document.getElementById("carregarMais");
+    const $btnDestaques = document.getElementById("btnDestaques");
+
+    function escapeHTML(value = "") {
+      return String(value)
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    function safeUrl(value = "") {
+      try {
+        const url = new URL(value, window.location.href);
+        if (!["http:", "https:"].includes(url.protocol)) return "#";
+        return escapeHTML(url.href);
+      } catch {
+        return "#";
+      }
+    }
+
+    function normalizarTexto(value = "") {
+      return String(value)
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .toLowerCase();
+    }
+
+    function formatarBRL(valor) {
+      return Number(valor).toLocaleString("pt-BR", { style: "currency", currency: "BRL" });
+    }
+
+    function extrairHistorico(produto) {
+      const historico = Array.isArray(produto.historico) ? produto.historico : [];
+      return historico
+        .map(item => ({ data: item?.data || "", preco: Number(item?.preco) }))
+        .filter(item => item.data && Number.isFinite(item.preco));
+    }
+
+    function obterMenorPreco(produto) {
+      const historico = extrairHistorico(produto);
+      const precos = historico.map(item => item.preco);
+      const precoAtual = Number(String(produto.precoPromocao || "0").replace(/\./g, "").replace(",", "."));
+      if (Number.isFinite(precoAtual) && precoAtual > 0) precos.push(precoAtual);
+      return precos.length ? Math.min(...precos) : null;
+    }
+
+    function possuiDestaque(produto) {
+      return produto.destaque === true || produto.menorPrecoEmDias === true;
+    }
+
+    function obterListaFiltrada() {
+      const busca = normalizarTexto($busca.value.trim());
+      return ofertas.filter(produto => {
+        const categoria = String(produto.categoria || "").trim();
+        const textoBusca = normalizarTexto(`${produto.titulo || ""} ${categoria}`);
+        return (
+          (categoriaAtiva === "TODAS" || categoria === categoriaAtiva) &&
+          (!busca || textoBusca.includes(busca)) &&
+          (!apenasDestaques || possuiDestaque(produto))
+        );
+      });
+    }
+
+    function ordenarOfertas(lista) {
+      return [...lista].sort((a, b) => {
+        const destaqueA = possuiDestaque(a) ? 1 : 0;
+        const destaqueB = possuiDestaque(b) ? 1 : 0;
+        if (destaqueA !== destaqueB) return destaqueB - destaqueA;
+
+        const menorA = obterMenorPreco(a);
+        const menorB = obterMenorPreco(b);
+        const atualA = Number(String(a.precoPromocao || "0").replace(/\./g, "").replace(",", "."));
+        const atualB = Number(String(b.precoPromocao || "0").replace(/\./g, "").replace(",", "."));
+        const distanciaA = menorA ? atualA / menorA : 999;
+        const distanciaB = menorB ? atualB / menorB : 999;
+        return distanciaA - distanciaB;
+      });
+    }
+
+    function renderizarCategorias() {
+      const categorias = [
+        "TODAS",
+        ...new Set(ofertas.map(item => String(item.categoria || "").trim()).filter(Boolean))
+      ];
+
+      $categorias.innerHTML = categorias.map(categoria => {
+        const texto = categoria === "TODAS" ? "Todas" : categoria;
+        const ativa = categoria === categoriaAtiva ? "active" : "";
+        return `
+          <button type="button" data-categoria="${escapeHTML(categoria)}"
+            class="category-btn ${ativa} whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
+            style="border-color:var(--border)">
+            ${escapeHTML(texto)}
+          </button>
+        `;
+      }).join("");
+
+      $categorias.querySelectorAll("[data-categoria]").forEach(botao => {
+        botao.addEventListener("click", () => {
+          categoriaAtiva = botao.dataset.categoria;
+          quantidadeExibida = LIMITE_INICIAL;
+          renderizarCategorias();
+          renderizarOfertas();
+        });
+      });
+    }
+
+    function criarCard(produto) {
+      const titulo = escapeHTML(produto.titulo || "Oferta");
+      const imagem = safeUrl(produto.imagem || "");
+      const link = safeUrl(produto.linkAfiliado || "#");
+      const categoria = escapeHTML(produto.categoria || "");
+      const precoAtual = escapeHTML(produto.precoPromocao || "");
+      const precoOriginal = escapeHTML(produto.precoOriginal || "");
+      const tag = escapeHTML(produto.tag || "");
+      const historico = extrairHistorico(produto);
+      const menorPreco = obterMenorPreco(produto);
+
+      const precoNumerico = Number(String(produto.precoPromocao || "0").replace(/\./g, "").replace(",", "."));
+      const estaNoMenorPreco = menorPreco !== null && Number.isFinite(precoNumerico) && Math.abs(precoNumerico - menorPreco) < 0.01;
+      const destaque = possuiDestaque(produto);
+
+      let seloHistorico = "";
+      if (produto.menorPrecoMensagem) {
+        seloHistorico = produto.menorPrecoMensagem;
+      } else if (estaNoMenorPreco) {
+        seloHistorico = "Menor preço registrado no histórico";
+      } else if (menorPreco !== null && precoNumerico > menorPreco) {
+        seloHistorico = `Menor registro: ${formatarBRL(menorPreco)}`;
+      }
+
+      const dadosHistorico = escapeHTML(JSON.stringify({ titulo: produto.titulo || "Histórico de preços", historico }));
+
+      return `
+        <article class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
+          <div class="relative flex shrink-0 items-center justify-center p-5 sm:w-44" style="background:var(--cream)">
+            ${tag ? `<span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">${tag}</span>` : ""}
+            ${destaque ? `<span class="absolute right-3 top-3 rounded-md bg-emerald-100 px-2 py-1 text-[10px] font-bold text-emerald-700">Destaque</span>` : ""}
+            <img src="${imagem}" alt="${titulo}" loading="lazy" class="h-32 w-full object-contain sm:h-36">
+          </div>
+
+          <div class="flex flex-1 flex-col gap-3 p-5">
+            <div>
+              <p class="mb-2 text-[10px] font-bold uppercase tracking-[.16em] text-mutedInk">${categoria}</p>
+              <h3 class="text-[15px] font-bold leading-snug">${titulo}</h3>
+              ${seloHistorico ? `<div class="mt-3 inline-flex rounded-full bg-emerald-100 px-3 py-1 text-[11px] font-bold text-emerald-700">✓ ${escapeHTML(seloHistorico)}</div>` : ""}
+            </div>
+
+            <div class="mt-auto flex flex-wrap items-end justify-between gap-3">
+              <div>
+                ${precoOriginal ? `<span class="block text-xs text-mutedInk line-through">R$ ${precoOriginal}</span>` : ""}
+                <strong class="text-serif text-3xl text-primary">R$ ${precoAtual}</strong>
+              </div>
+
+              <div class="flex flex-wrap gap-2">
+                ${historico.length ? `
+                  <button type="button" data-historico="${dadosHistorico}"
+                    class="rounded-lg border px-3 py-2 text-xs font-bold text-primary transition hover:bg-cream"
+                    style="border-color:var(--border)">
+                    Ver histórico
+                  </button>
+                ` : ""}
+
+                <a href="${link}" target="_blank" rel="sponsored nofollow noopener noreferrer"
+                  class="rounded-lg bg-primary px-4 py-2 text-sm font-bold text-white transition hover:opacity-90">
+                  Ver oferta ↗
+                </a>
+              </div>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function renderizarOfertas() {
+      const filtradas = ordenarOfertas(obterListaFiltrada());
+      const exibidas = filtradas.slice(0, quantidadeExibida);
+
+      $resultadoInfo.textContent = `${filtradas.length} oferta${filtradas.length === 1 ? "" : "s"} encontrada${filtradas.length === 1 ? "" : "s"}`;
+
+      if (!exibidas.length) {
+        $lista.innerHTML = `
+          <div class="md:col-span-2 rounded-2xl border border-dashed p-10 text-center text-sm text-mutedInk" style="border-color:var(--border)">
+            Nenhuma oferta encontrada com esses filtros.
+          </div>
+        `;
+        $carregarMais.classList.add("hidden");
+        return;
+      }
+
+      $lista.innerHTML = exibidas.map(criarCard).join("");
+      $carregarMais.classList.toggle("hidden", quantidadeExibida >= filtradas.length);
+
+      document.querySelectorAll("[data-historico]").forEach(botao => {
+        botao.addEventListener("click", () => {
+          try {
+            const dados = JSON.parse(botao.dataset.historico);
+            abrirModalHistorico(dados.titulo, dados.historico);
+          } catch {
+            console.warn("Não foi possível abrir o histórico.");
+          }
+        });
+      });
+    }
+
+    function abrirModalHistorico(titulo, historico) {
+      const modal = document.getElementById("modalHistorico");
+      const modalTitulo = document.getElementById("modalTitulo");
+      const tabela = document.getElementById("historicoTabela");
+      const resumo = document.getElementById("historicoResumo");
+
+      const dadosValidos = Array.isArray(historico)
+        ? historico
+            .map(item => ({ data: item?.data || "", preco: Number(item?.preco) }))
+            .filter(item => item.data && Number.isFinite(item.preco))
+        : [];
+
+      modalTitulo.textContent = titulo || "Histórico de preços";
+
+      if (!dadosValidos.length) {
+        resumo.innerHTML = `
+          <div class="col-span-3 rounded-2xl bg-cream p-4 text-center text-sm text-mutedInk">
+            Histórico insuficiente para este produto.
+          </div>
+        `;
+        tabela.innerHTML = "";
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+        return;
+      }
+
+      const precos = dadosValidos.map(item => item.preco);
+      const atual = precos[precos.length - 1];
+      const menor = Math.min(...precos);
+      const maior = Math.max(...precos);
+
+      resumo.innerHTML = `
+        <div class="rounded-2xl bg-cream p-3 sm:p-4">
+          <small class="block text-[10px] font-bold uppercase tracking-wide text-mutedInk">Atual</small>
+          <strong class="mt-1 block text-sm text-primary sm:text-base">${formatarBRL(atual)}</strong>
+        </div>
+        <div class="rounded-2xl bg-emerald-50 p-3 sm:p-4">
+          <small class="block text-[10px] font-bold uppercase tracking-wide text-emerald-700">Menor</small>
+          <strong class="mt-1 block text-sm text-emerald-700 sm:text-base">${formatarBRL(menor)}</strong>
+        </div>
+        <div class="rounded-2xl bg-cream p-3 sm:p-4">
+          <small class="block text-[10px] font-bold uppercase tracking-wide text-mutedInk">Maior</small>
+          <strong class="mt-1 block text-sm text-primary sm:text-base">${formatarBRL(maior)}</strong>
+        </div>
+      `;
+
+      const historicoExibido = dadosValidos.slice().reverse().slice(0, 15);
+
+      tabela.innerHTML = historicoExibido.map(item => `
+        <tr class="border-b" style="border-color:var(--border)">
+          <td class="px-2 py-3 text-mutedInk">${escapeHTML(item.data)}</td>
+          <td class="px-2 py-3 text-right font-bold text-primary">${formatarBRL(item.preco)}</td>
+        </tr>
+      `).join("");
+
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+    }
+
+    function fecharModalHistorico() {
+      const modal = document.getElementById("modalHistorico");
+      modal.classList.add("hidden");
+      modal.classList.remove("flex");
+    }
+
+    document.getElementById("fecharModal").addEventListener("click", fecharModalHistorico);
+    document.getElementById("modalHistorico").addEventListener("click", event => {
+      if (event.target.id === "modalHistorico") fecharModalHistorico();
+    });
+    document.addEventListener("keydown", event => {
+      if (event.key === "Escape") fecharModalHistorico();
+    });
+
+    document.getElementById("busca").addEventListener("input", () => {
+      quantidadeExibida = LIMITE_INICIAL;
+      renderizarOfertas();
+    });
+
+    document.getElementById("btnDestaques").addEventListener("click", event => {
+      apenasDestaques = !apenasDestaques;
+      quantidadeExibida = LIMITE_INICIAL;
+      event.currentTarget.classList.toggle("active", apenasDestaques);
+      renderizarOfertas();
+    });
+
+    document.getElementById("carregarMais").addEventListener("click", () => {
+      quantidadeExibida += LIMITE_POR_CARGA;
+      renderizarOfertas();
+    });
+
+    fetch("promocoes.json")
+      .then(response => {
+        if (!response.ok) throw new Error("Não foi possível carregar o arquivo promocoes.json.");
+        return response.json();
+      })
+      .then(data => {
+        ofertas = Array.isArray(data.ofertas) ? data.ofertas : [];
+        if (data.ultimaAtualizacao) {
+          document.getElementById("atualizacao").textContent = `Última atualização: ${data.ultimaAtualizacao}`;
+        }
+        renderizarCategorias();
+        renderizarOfertas();
+      })
+      .catch(error => {
+        console.error(error);
+        $lista.innerHTML = `
+          <div class="md:col-span-2 rounded-2xl border border-dashed p-10 text-center text-sm text-mutedInk" style="border-color:var(--border)">
+            Não foi possível carregar as ofertas no momento.
+            Verifique se o arquivo <code>promocoes.json</code> está na mesma pasta deste HTML.
+          </div>
+        `;
+      });
+  </script>
+</body>
+</html>

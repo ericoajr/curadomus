@@ -1,40 +1,7 @@
 {
   "ultimaAtualizacao": "03/09/2026",
   "receitas": [
-    {
-      "slug": "bolo-economico-maca-casca",
-      "titulo": "Bolo Econômico de Maçã com Casca e Canela",
-      "categoria": "Bolos e Doces",
-      "resumo": "Receita de reaproveitamento integral, fofinha e com custo estimado de menos de R$ 12,00 para a família toda.",
-      "imagem": "https://via.placeholder.com/480x320",
-      "tempoPreparo": "15 min",
-      "tempoForno": "40 min",
-      "rendimento": "10 porções",
-      "custoMedio": "11,80",
-      "destaque": true,
-
-      "ingredientes": [
-        "3 maçãs médias (com casca)",
-        "3 ovos inteiros",
-        "1/2 xícara de óleo vegetal",
-        "1.5 xícara de açúcar refino ou demerara",
-        "2 xícaras de farinha de trigo",
-        "1 colher (sopa) de fermento em pó",
-        "1 colher (chá) de canela em pó"
-      ],
-
-      "modoPreparo": [
-        "Bata a base líquida: no liquidificador, bata as cascas das 3 maçãs, os ovos e o óleo até obter um creme liso e homogêneo.",
-        "Prepare as frutas: pique a polpa das maçãs em cubos pequenos e reserve polvilhada com um pouco de canela.",
-        "Misture os secos: em uma tigela grande, peneire a farinha de trigo e o açúcar. Adicione a mistura do liquidificador e mexa delicadamente.",
-        "Finalize e asse: adicione as maçãs picadas e o fermento. Despeje em uma forma untada e asse em forno pré-aquecido a 180°C por 40 minutos."
-      ],
-
-      "dica": "Não jogue fora maçãs que estejam ficando passadas ou ligeiramente amassadas na fruteira. Elas são ideais para esta receita pois contêm mais açúcar natural, deixando o bolo ainda mais doce sem precisar aumentar o açúcar da massa.",
-
-      "produtos": ["liquidificador-mondial-turbo-1200w", "forma-bolo-redonda-furo-tramontina"]
-    },
-	{
+ 	{
 	  "slug": "bolo-rosa-maria",
 	  "titulo": "Bolo Rosa Maria",
 	  "categoria": "Bolos e Doces",
@@ -126,7 +93,88 @@
 	  ],
 	  "dica": "A quantidade de café solúvel na receita original é de 6 colheres (chá), mas você pode adicionar 2 ou 3 colheres a mais se gostar de um sabor de café mais acentuado.",
 	  "produtos": []
+	},
+	{
+	  "slug": "bolo-de-fuba-molhado",
+	  "titulo": "Bolo de Fubá Molhado (ou Cozido)",
+	  "categoria": "Bolos e Doces",
+	  "resumo": "Um delicioso bolo de fubá com massa molhadinha, super fácil e prático para o café da tarde.",
+	  "imagem": "http://curadomus.com.br/images/bolo-de-fuba-molhado.jpg",
+	  "tempoPreparo": "25 min",
+	  "tempoForno": "35 min",
+	  "ingredientes": [
+	    "1 xícara (chá) de fubá",
+	    "1 xícara (chá) de leite bem quente",
+	    "3 ovos",
+	    "1/2 xícara (chá) de óleo",
+	    "1 xícara (chá) de açúcar",
+	    "1/4 xícara (chá) de parmesão ou muçarela ralado",
+	    "1 colher (sopa) de fermento químico"
+	  ],
+	  "modoPreparo": [
+	    "Coloque o leite para ferver. Assim que ferver, coloque no fubá, misture bem e deixe esfriar por 10 minutos.",
+	    "No liquidificador, coloque o óleo, os ovos, o açúcar, o queijo (parmesão ou muçarela) e o fubá que já absorveu todo o leite.",
+	    "Bata bem até a mistura ficar homogênea.",
+	    "Misture o fermento e bata mais um pouco apenas para incorporar.",
+	    "Coloque a massa em uma forma untada.",
+	    "Leve ao forno preaquecido a 180ºC por volta de 35 minutos."
+	  ],
+	  "dica": "Coloque pedaços de goiabada no meio da massa.",
+	  "produtos": []
+	},
+	{
+	  "slug": "waffle-de-pao-de-queijo",
+	  "titulo": "Waffle de Pão de Queijo",
+	  "categoria": "Lanches",
+	  "resumo": "Uma receita fácil e prática de waffle com sabor de pão de queijo, ideal para o café da manhã ou lanche.",
+	  "imagem": "http://curadomus.com.br/images/waffle-de-pao-de-queijo.jpg",
+	  "tempoPreparo": "10 min",
+	  "rendimento": "5 waffles",
+	  "ingredientes": [
+	    "1 xícara (240 ml) de leite",
+	    "1/2 xícara de manteiga",
+	    "1 e 1/3 xícara de polvilho doce",
+	    "1 colher (chá) de sal",
+	    "2 ovos",
+	    "1/2 xícara de queijo minas frescal ralado (ou outro queijo de sua preferência)",
+	    "2 colheres (sopa) de maisena ou fécula de batata",
+	    "1 colher (sopa) de chia"
+	  ],
+	  "modoPreparo": [
+	    "Ferva o leite e a manteiga.",
+	    "Enquanto isso, coloque numa tigela o polvilho doce e o sal.",
+	    "Depois de fervidos, despeje os líquidos na tigela e misture bem.",
+	    "Aguarde esfriar um pouco e misture os ovos, um a um.",
+	    "Por fim, junte o queijo ralado, a maisena e a chia. Misture bem."
+	  ],
+	  "dica": "Podem ser feitos na sanduicheira. Também podem ser congelados prontos e descongelados em forno ou torradeira. Recomendação de idade: a partir de 12 meses.",
+	  "produtos": []
+	},
+	{
+	  "slug": "bolo-de-milho",
+	  "titulo": "Bolo de Milho",
+	  "categoria": "Bolos e Doces",
+	  "resumo": "Uma receita tradicional e especial de bolo de milho de liquidificador, feita com muito amor.",
+	  "imagem": "http://curadomus.com.br/images/bolo-de-milho.jpg",
+	  "tempoPreparo": "10 min",
+	  "tempoForno": "40 min",
+	  "ingredientes": [
+	    "2 latas de milho verde",
+	    "2 xícaras de açúcar",
+	    "1 xícara de leite de vaca",
+	    "1 vidro pequeno de leite de coco",
+	    "4 colheres de sopa de manteiga ou margarina",
+	    "4 colheres de sopa de farinha de trigo",
+	    "5 ovos",
+	    "1 colher de sopa de fermento"
+	  ],
+	  "modoPreparo": [
+	    "Coloque todos os ingredientes no liquidificador.",
+	    "Bata tudo muito bem, até que a mistura fique homogênea.",
+	    "Despeje a massa em uma forma untada e enfarinhada.",
+	    "Leve para assar em forno preaquecido (geralmente a 180ºC) até dourar e firmar."
+	  ],
+	  "produtos": []
 	}
-	
   ]
 }

@@ -71,9 +71,7 @@
       --red: #b4441f;
     }
 
-    html {
-      scroll-behavior: smooth;
-    }
+    html { scroll-behavior: smooth; }
 
     body {
       margin: 0;
@@ -87,134 +85,35 @@
       letter-spacing: -.015em;
     }
 
-    .hidden {
-      display: none !important;
-    }
+    .hidden { display: none !important; }
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 
-    .fade-up {
-      animation: fade-up .35s ease both;
-    }
+    .fade-up { animation: fade-up .35s ease both; }
 
     @keyframes fade-up {
-      from {
-        opacity: 0;
-        transform: translateY(8px);
-      }
-
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
     }
 
     .hero-pattern {
-      background-image:
-        radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0);
+      background-image: radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0);
       background-size: 24px 24px;
-    }
-
-    .search-box {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      width: 100%;
-      max-width: 620px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 999px;
-      padding: 6px 8px 6px 20px;
-      box-shadow: var(--shadow-soft);
-    }
-
-    .search-box input {
-      flex: 1;
-      min-width: 0;
-      border: 0;
-      outline: 0;
-      background: transparent;
-      color: var(--ink);
-      padding: 10px 0;
-      font-size: .95rem;
-    }
-
-    .search-box button {
-      width: 42px;
-      height: 42px;
-      border-radius: 999px;
-      border: 0;
-      background: var(--primary);
-      color: white;
-      display: grid;
-      place-items: center;
-      cursor: pointer;
-    }
-
-    .category-btn.active {
-      color: var(--primary);
-      border-color: var(--accent) !important;
-      background: var(--cream);
-    }
-
-    /* MODAL */
-
-    .modal-backdrop {
-      background: rgba(43, 36, 30, .52);
-      backdrop-filter: blur(4px);
-      overflow-y: auto;
-    }
-
-    .modal-panel {
-      width: min(100%, 680px);
-      max-height: calc(100dvh - 32px);
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-
-    .modal-header {
-      flex-shrink: 0;
-    }
-
-    .modal-history-scroll {
-      min-height: 0;
-      overflow-y: auto;
-      overscroll-behavior: contain;
-      padding-right: 4px;
-    }
-
-    .modal-history-scroll::-webkit-scrollbar {
-      width: 7px;
-    }
-
-    .modal-history-scroll::-webkit-scrollbar-thumb {
-      background: var(--border);
-      border-radius: 999px;
-    }
-
-    @media (max-width: 640px) {
-      .modal-backdrop {
-        align-items: flex-start !important;
-        padding: 12px !important;
-      }
-
-      .modal-panel {
-        max-height: calc(100dvh - 24px);
-        border-radius: 22px;
-      }
     }
   </style>
 </head>
 
 <body>
   <div class="min-h-screen">
-	<nav class="border-b" style="border-color:var(--border)">
-	  <div class="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
-	    <img src="curadomus_logo.png" alt="Cura Domus" class="h-8 opacity-90" />
-	    <a href="receitas.html" class="inline-flex items-center gap-2 text-xs font-semibold text-primary transition hover:opacity-80">
-	      Receitas →
-	    </a>
-	  </div>
-	</nav>
+    <nav class="border-b" style="border-color:var(--border)">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
+        <img src="curadomus_logo.png" alt="Cura Domus" class="h-8 opacity-90" />
+        <div class="flex items-center gap-5">
+          <a href="promocoes.html" class="text-xs font-semibold text-primary transition hover:opacity-80">Promoções →</a>
+          <a href="receitas.html" class="text-xs font-semibold text-primary transition hover:opacity-80">Receitas →</a>
+        </div>
+      </div>
+    </nav>
+
     <!-- HERO -->
     <header class="relative overflow-hidden">
       <div class="hero-pattern absolute inset-0 -z-10 opacity-[.035]"></div>
@@ -264,11 +163,9 @@
           <span class="rounded-full border bg-card px-4 py-2 text-xs font-semibold text-mutedInk" style="border-color:var(--border)">
             ✓ Histórico de preços
           </span>
-
           <span class="rounded-full border bg-card px-4 py-2 text-xs font-semibold text-mutedInk" style="border-color:var(--border)">
             ✓ Curadoria familiar
           </span>
-
           <span class="rounded-full border bg-card px-4 py-2 text-xs font-semibold text-mutedInk" style="border-color:var(--border)">
             ✓ Ofertas analisadas
           </span>
@@ -325,73 +222,76 @@
         </div>
       </section>
 
-      <!-- OFERTAS -->
-      <section id="ofertas" class="mt-20 scroll-mt-8">
-        <div class="flex flex-col gap-5 border-b pb-6 sm:flex-row sm:items-end sm:justify-between" style="border-color:var(--border)">
-          <div>
-            <p class="text-xs font-bold uppercase tracking-[.2em] text-primary">
-              Curadoria atual
-            </p>
-
-            <h2 class="text-serif mt-2 text-4xl">
-              Ofertas selecionadas
-            </h2>
-
-            <p id="atualizacao" class="mt-2 text-xs text-mutedInk"></p>
+      <!-- VITRINE: PROMOÇÕES -->
+      <section id="promocoes" class="mt-24 scroll-mt-8">
+        <div class="rounded-3xl border p-6 sm:p-10" style="border-color:var(--border); background: linear-gradient(180deg, var(--cream), var(--background))">
+          <div class="flex flex-col gap-4 text-center sm:text-left sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p class="text-xs font-bold uppercase tracking-[.2em] text-primary">
+                Curadoria atual
+              </p>
+              <h2 class="text-serif mt-2 text-4xl sm:text-5xl text-primary">
+                Ofertas selecionadas
+              </h2>
+              <p id="promoAtualizacao" class="mt-2 text-xs text-mutedInk"></p>
+            </div>
+            <a
+              href="promocoes.html"
+              class="hidden shrink-0 items-center gap-1.5 rounded-full bg-primary px-6 py-3 text-sm font-bold text-white shadow-soft transition hover:opacity-90 sm:inline-flex"
+            >
+              Ver todas as promoções →
+            </a>
           </div>
 
-          <div class="rounded-xl bg-cream px-4 py-3 text-xs leading-relaxed text-mutedInk">
-            Exibimos primeiro as ofertas com melhor histórico recente.
+          <div id="promoLista" class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4"></div>
+
+          <div class="mt-8 text-center sm:hidden">
+            <a
+              href="promocoes.html"
+              class="inline-flex items-center gap-1.5 rounded-full bg-primary px-6 py-3 text-sm font-bold text-white shadow-soft transition hover:opacity-90"
+            >
+              Ver todas as promoções →
+            </a>
           </div>
         </div>
+      </section>
 
-        <form id="buscaForm" class="mx-auto mt-8 search-box" onsubmit="return false;">
-          <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="var(--muted-ink)" stroke-width="2">
-            <circle cx="11" cy="11" r="8"></circle>
-            <path d="m21 21-4.3-4.3"></path>
-          </svg>
+      <!-- VITRINE: RECEITAS -->
+      <section id="receitas-vitrine" class="mt-16 scroll-mt-8">
+        <div class="rounded-3xl border p-6 sm:p-10" style="border-color:var(--border); background:var(--card)">
+          <div class="flex flex-col gap-4 text-center sm:text-left sm:flex-row sm:items-end sm:justify-between">
+            <div>
+              <p class="text-xs font-bold uppercase tracking-[.2em] text-primary">
+                Cozinha & Economia
+              </p>
+              <h2 class="text-serif mt-2 text-4xl sm:text-5xl text-primary">
+                Receitas para economizar
+              </h2>
+              <p class="mt-2 max-w-lg text-sm leading-relaxed text-mutedInk">
+                Testadas pela nossa família, com reaproveitamento de ingredientes
+                e custo real calculado.
+              </p>
+            </div>
+            <a
+              href="receitas.html"
+              class="hidden shrink-0 items-center gap-1.5 rounded-full border bg-card px-6 py-3 text-sm font-bold text-primary shadow-soft transition hover:bg-cream sm:inline-flex"
+              style="border-color:var(--border)"
+            >
+              Ver todas as receitas →
+            </a>
+          </div>
 
-          <input
-            id="busca"
-            type="search"
-            placeholder="Buscar por produto, livro ou categoria..."
-            aria-label="Buscar por produto"
-          >
+          <div id="receitasLista" class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-3"></div>
 
-          <button type="submit" aria-label="Buscar">
-            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
-              <circle cx="11" cy="11" r="8"></circle>
-              <path d="m21 21-4.3-4.3"></path>
-            </svg>
-          </button>
-        </form>
-
-        <div id="categorias" class="mt-6 flex gap-2 overflow-x-auto pb-2"></div>
-
-        <div class="mt-8 flex items-center justify-between gap-4">
-          <p id="resultadoInfo" class="text-sm text-mutedInk"></p>
-
-          <button
-            id="btnDestaques"
-            type="button"
-            class="category-btn rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
-            style="border-color:var(--border)"
-          >
-            ✦ Apenas destaques
-          </button>
-        </div>
-
-        <div id="lista" class="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2"></div>
-
-        <div class="mt-8 text-center">
-          <button
-            id="carregarMais"
-            type="button"
-            class="hidden rounded-full border bg-card px-6 py-3 text-sm font-bold text-primary transition hover:bg-cream"
-            style="border-color:var(--border)"
-          >
-            Carregar mais ofertas
-          </button>
+          <div class="mt-8 text-center sm:hidden">
+            <a
+              href="receitas.html"
+              class="inline-flex items-center gap-1.5 rounded-full border bg-card px-6 py-3 text-sm font-bold text-primary shadow-soft transition hover:bg-cream"
+              style="border-color:var(--border)"
+            >
+              Ver todas as receitas →
+            </a>
+          </div>
         </div>
       </section>
 
@@ -427,7 +327,7 @@
         </h2>
 
         <p class="mx-auto mt-3 max-w-3xl text-xs leading-relaxed text-mutedInk">
-          Alguns links desta página são links de afiliado. Se você comprar por
+          Alguns links deste site são links de afiliado. Se você comprar por
           eles, poderemos receber uma comissão, sem custo adicional para você.
           Isso não altera nosso compromisso de avaliar as ofertas com critérios
           claros. Preços, estoque, frete e condições podem mudar a qualquer momento.
@@ -450,75 +350,7 @@
     </footer>
   </div>
 
-  <!-- MODAL DE HISTÓRICO -->
-  <div
-    id="modalHistorico"
-    class="modal-backdrop fixed inset-0 z-50 hidden items-center justify-center p-3 sm:p-5"
-  >
-    <div
-      class="modal-panel rounded-3xl border bg-card p-5 shadow-card sm:p-6"
-      style="border-color:var(--border)"
-      role="dialog"
-      aria-modal="true"
-      aria-labelledby="modalTitulo"
-    >
-      <div class="modal-header flex items-start justify-between gap-4">
-        <div class="min-w-0 flex-1">
-          <p class="text-xs font-bold uppercase tracking-[.18em] text-primary">
-            Histórico de preços
-          </p>
-
-          <h2
-            id="modalTitulo"
-            class="text-serif mt-2 max-h-20 overflow-hidden text-2xl leading-tight sm:text-3xl"
-          ></h2>
-        </div>
-
-        <button
-          id="fecharModal"
-          type="button"
-          aria-label="Fechar histórico"
-          class="flex h-9 w-9 shrink-0 items-center justify-center rounded-full border text-base font-bold text-mutedInk transition hover:bg-cream"
-          style="border-color:var(--border)"
-        >
-          ✕
-        </button>
-      </div>
-
-      <div
-        id="historicoResumo"
-        class="mt-5 grid shrink-0 grid-cols-3 gap-2"
-      ></div>
-
-      <div class="modal-history-scroll mt-5">
-        <table class="w-full text-left text-xs">
-          <thead>
-            <tr class="border-b text-mutedInk" style="border-color:var(--border)">
-              <th class="sticky top-0 bg-card px-2 py-3 font-bold">
-                Data
-              </th>
-
-              <th class="sticky top-0 bg-card px-2 py-3 text-right font-bold">
-                Preço
-              </th>
-            </tr>
-          </thead>
-
-          <tbody id="historicoTabela"></tbody>
-        </table>
-      </div>
-
-      <p class="mt-5 shrink-0 text-xs leading-relaxed text-mutedInk">
-        O histórico representa os registros coletados pela Cura Domus.
-        Preços, estoque e condições podem mudar a qualquer momento.
-      </p>
-    </div>
-  </div>
-
   <script>
-    const LIMITE_INICIAL = 12;
-    const LIMITE_POR_CARGA = 12;
-
     const comunidades = [
       {
         nome: "Formação do Imaginário",
@@ -546,19 +378,6 @@
       }
     ];
 
-    let ofertas = [];
-    let categoriaAtiva = "TODAS";
-    let apenasDestaques = false;
-    let quantidadeExibida = LIMITE_INICIAL;
-
-    const $lista = document.getElementById("lista");
-    const $busca = document.getElementById("busca");
-    const $categorias = document.getElementById("categorias");
-    const $resultadoInfo = document.getElementById("resultadoInfo");
-    const $carregarMais = document.getElementById("carregarMais");
-    const $btnDestaques = document.getElementById("btnDestaques");
-    const $atualizacao = document.getElementById("atualizacao");
-
     function escapeHTML(value = "") {
       return String(value)
         .replace(/&/g, "&amp;")
@@ -571,532 +390,23 @@
     function safeUrl(value = "") {
       try {
         const url = new URL(value, window.location.href);
-
-        if (!["http:", "https:"].includes(url.protocol)) {
-          return "#";
-        }
-
+        if (!["http:", "https:"].includes(url.protocol)) return "#";
         return escapeHTML(url.href);
       } catch {
         return "#";
       }
     }
 
-    function normalizarTexto(value = "") {
-      return String(value)
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase();
-    }
-
-    function formatarBRL(valor) {
-      return Number(valor).toLocaleString("pt-BR", {
-        style: "currency",
-        currency: "BRL"
-      });
-    }
-
-    function extrairHistorico(produto) {
-      const historico = Array.isArray(produto.historico)
-        ? produto.historico
-        : [];
-
-      return historico
-        .map(item => ({
-          data: item?.data || "",
-          preco: Number(item?.preco)
-        }))
-        .filter(item => item.data && Number.isFinite(item.preco));
-    }
-
-    function obterMenorPreco(produto) {
-      const historico = extrairHistorico(produto);
-      const precos = historico.map(item => item.preco);
-
-      const precoAtual = Number(
-        String(produto.precoPromocao || "0")
-          .replace(/\./g, "")
-          .replace(",", ".")
-      );
-
-      if (Number.isFinite(precoAtual) && precoAtual > 0) {
-        precos.push(precoAtual);
-      }
-
-      return precos.length ? Math.min(...precos) : null;
-    }
-
-    function possuiDestaque(produto) {
-      return produto.destaque === true ||
-        produto.menorPrecoEmDias === true;
-    }
-
-    function obterListaFiltrada() {
-      const busca = normalizarTexto($busca.value.trim());
-
-      return ofertas.filter(produto => {
-        const categoria = String(produto.categoria || "").trim();
-
-        const textoBusca = normalizarTexto(
-          `${produto.titulo || ""} ${categoria}`
-        );
-
-        return (
-          (categoriaAtiva === "TODAS" || categoria === categoriaAtiva) &&
-          (!busca || textoBusca.includes(busca)) &&
-          (!apenasDestaques || possuiDestaque(produto))
-        );
-      });
-    }
-
-    function ordenarOfertas(lista) {
-      return [...lista].sort((a, b) => {
-        const destaqueA = possuiDestaque(a) ? 1 : 0;
-        const destaqueB = possuiDestaque(b) ? 1 : 0;
-
-        if (destaqueA !== destaqueB) {
-          return destaqueB - destaqueA;
-        }
-
-        const menorA = obterMenorPreco(a);
-        const menorB = obterMenorPreco(b);
-
-        const atualA = Number(
-          String(a.precoPromocao || "0")
-            .replace(/\./g, "")
-            .replace(",", ".")
-        );
-
-        const atualB = Number(
-          String(b.precoPromocao || "0")
-            .replace(/\./g, "")
-            .replace(",", ".")
-        );
-
-        const distanciaA = menorA ? atualA / menorA : 999;
-        const distanciaB = menorB ? atualB / menorB : 999;
-
-        return distanciaA - distanciaB;
-      });
-    }
-
-    function renderizarCategorias() {
-      const categorias = [
-        "TODAS",
-        ...new Set(
-          ofertas
-            .map(item => String(item.categoria || "").trim())
-            .filter(Boolean)
-        )
-      ];
-
-      $categorias.innerHTML = categorias.map(categoria => {
-        const texto = categoria === "TODAS" ? "Todas" : categoria;
-        const ativa = categoria === categoriaAtiva ? "active" : "";
-
-        return `
-          <button
-            type="button"
-            data-categoria="${escapeHTML(categoria)}"
-            class="category-btn ${ativa} whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
-            style="border-color:var(--border)"
-          >
-            ${escapeHTML(texto)}
-          </button>
-        `;
-      }).join("");
-
-      $categorias.querySelectorAll("[data-categoria]").forEach(botao => {
-        botao.addEventListener("click", () => {
-          categoriaAtiva = botao.dataset.categoria;
-          quantidadeExibida = LIMITE_INICIAL;
-          renderizarCategorias();
-          renderizarOfertas();
-        });
-      });
-    }
-
-    function renderizarComunidades() {
-      const container = document.getElementById("comunidadesLista");
-
-      container.innerHTML = comunidades.map(comunidade => `
-        <a
-          href="${safeUrl(comunidade.url)}"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="flex items-center gap-4 rounded-2xl border border-white/20 bg-white/10 p-4 text-left transition hover:bg-white/20"
-        >
-          <img
-            src="${safeUrl(comunidade.img)}"
-            alt="${escapeHTML(comunidade.nome)}"
-            class="h-12 w-12 rounded-full object-cover"
-          >
-
-          <span class="flex-1">
-            <strong class="block text-sm">
-              ${escapeHTML(comunidade.nome)}
-            </strong>
-
-            <small class="mt-1 block text-xs text-white/70">
-              ${escapeHTML(comunidade.descricao)}
-            </small>
-          </span>
-
-          <span class="text-xl">→</span>
-        </a>
-      `).join("");
-    }
-
-    function criarCard(produto) {
-      const titulo = escapeHTML(produto.titulo || "Oferta");
-      const imagem = safeUrl(produto.imagem || "");
-      const link = safeUrl(produto.linkAfiliado || "#");
-      const categoria = escapeHTML(produto.categoria || "");
-
-      const precoAtual = escapeHTML(produto.precoPromocao || "");
-      const precoOriginal = escapeHTML(produto.precoOriginal || "");
-      const tag = escapeHTML(produto.tag || "");
-
-      const historico = extrairHistorico(produto);
-      const menorPreco = obterMenorPreco(produto);
-
-      const precoNumerico = Number(
-        String(produto.precoPromocao || "0")
-          .replace(/\./g, "")
-          .replace(",", ".")
-      );
-
-      const estaNoMenorPreco =
-        menorPreco !== null &&
-        Number.isFinite(precoNumerico) &&
-        Math.abs(precoNumerico - menorPreco) < 0.01;
-
-      const destaque = possuiDestaque(produto);
-
-      let seloHistorico = "";
-
-      if (produto.menorPrecoMensagem) {
-        seloHistorico = produto.menorPrecoMensagem;
-      } else if (estaNoMenorPreco) {
-        seloHistorico = "Menor preço registrado no histórico";
-      } else if (menorPreco !== null && precoNumerico > menorPreco) {
-        seloHistorico = `Menor registro: ${formatarBRL(menorPreco)}`;
-      }
-
-      const dadosHistorico = escapeHTML(JSON.stringify({
-        titulo: produto.titulo || "Histórico de preços",
-        historico
-      }));
-
-      return `
-        <article class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
-          <div class="relative flex shrink-0 items-center justify-center p-5 sm:w-44" style="background:var(--cream)">
-            ${
-              tag
-                ? `
-                  <span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">
-                    ${tag}
-                  </span>
-                `
-                : ""
-            }
-
-            ${
-              destaque
-                ? `
-                  <span class="absolute right-3 top-3 rounded-md bg-emerald-100 px-2 py-1 text-[10px] font-bold text-emerald-700">
-                    Destaque
-                  </span>
-                `
-                : ""
-            }
-
-            <img
-              src="${imagem}"
-              alt="${titulo}"
-              loading="lazy"
-              class="h-32 w-full object-contain sm:h-36"
-            >
-          </div>
-
-          <div class="flex flex-1 flex-col gap-3 p-5">
-            <div>
-              <p class="mb-2 text-[10px] font-bold uppercase tracking-[.16em] text-mutedInk">
-                ${categoria}
-              </p>
-
-              <h3 class="text-[15px] font-bold leading-snug">
-                ${titulo}
-              </h3>
-
-              ${
-                seloHistorico
-                  ? `
-                    <div class="mt-3 inline-flex rounded-full bg-emerald-100 px-3 py-1 text-[11px] font-bold text-emerald-700">
-                      ✓ ${escapeHTML(seloHistorico)}
-                    </div>
-                  `
-                  : ""
-              }
-            </div>
-
-            <div class="mt-auto flex flex-wrap items-end justify-between gap-3">
-              <div>
-                ${
-                  precoOriginal
-                    ? `
-                      <span class="block text-xs text-mutedInk line-through">
-                        R$ ${precoOriginal}
-                      </span>
-                    `
-                    : ""
-                }
-
-                <strong class="text-serif text-3xl text-primary">
-                  R$ ${precoAtual}
-                </strong>
-              </div>
-
-              <div class="flex flex-wrap gap-2">
-                ${
-                  historico.length
-                    ? `
-                      <button
-                        type="button"
-                        data-historico="${dadosHistorico}"
-                        class="rounded-lg border px-3 py-2 text-xs font-bold text-primary transition hover:bg-cream"
-                        style="border-color:var(--border)"
-                      >
-                        Ver histórico
-                      </button>
-                    `
-                    : ""
-                }
-
-                <a
-                  href="${link}"
-                  target="_blank"
-                  rel="sponsored nofollow noopener noreferrer"
-                  class="rounded-lg bg-primary px-4 py-2 text-sm font-bold text-white transition hover:opacity-90"
-                >
-                  Ver oferta ↗
-                </a>
-              </div>
-            </div>
-          </div>
-        </article>
-      `;
-    }
-
-    function renderizarOfertas() {
-      const filtradas = ordenarOfertas(obterListaFiltrada());
-
-      const exibidas = filtradas.slice(0, quantidadeExibida);
-
-      $resultadoInfo.textContent =
-        `${filtradas.length} oferta${filtradas.length === 1 ? "" : "s"} encontrada${filtradas.length === 1 ? "" : "s"}`;
-
-      if (!exibidas.length) {
-        $lista.innerHTML = `
-          <div class="md:col-span-2 rounded-2xl border border-dashed p-10 text-center text-sm text-mutedInk" style="border-color:var(--border)">
-            Nenhuma oferta encontrada com esses filtros.
-          </div>
-        `;
-
-        $carregarMais.classList.add("hidden");
-        return;
-      }
-
-      $lista.innerHTML = exibidas.map(criarCard).join("");
-
-      $carregarMais.classList.toggle(
-        "hidden",
-        quantidadeExibida >= filtradas.length
-      );
-
-      document.querySelectorAll("[data-historico]").forEach(botao => {
-        botao.addEventListener("click", () => {
-          try {
-            const dados = JSON.parse(botao.dataset.historico);
-
-            abrirModalHistorico(
-              dados.titulo,
-              dados.historico
-            );
-          } catch {
-            console.warn("Não foi possível abrir o histórico.");
-          }
-        });
-      });
-    }
-
-    function abrirModalHistorico(titulo, historico) {
-      const modal = document.getElementById("modalHistorico");
-      const modalTitulo = document.getElementById("modalTitulo");
-      const tabela = document.getElementById("historicoTabela");
-      const resumo = document.getElementById("historicoResumo");
-
-      const dadosValidos = Array.isArray(historico)
-        ? historico
-            .map(item => ({
-              data: item?.data || "",
-              preco: Number(item?.preco)
-            }))
-            .filter(item =>
-              item.data &&
-              Number.isFinite(item.preco)
-            )
-        : [];
-
-      modalTitulo.textContent =
-        titulo || "Histórico de preços";
-
-      if (!dadosValidos.length) {
-        resumo.innerHTML = `
-          <div class="col-span-3 rounded-2xl bg-cream p-4 text-center text-sm text-mutedInk">
-            Histórico insuficiente para este produto.
-          </div>
-        `;
-
-        tabela.innerHTML = "";
-        modal.classList.remove("hidden");
-        modal.classList.add("flex");
-        return;
-      }
-
-      const precos = dadosValidos.map(item => item.preco);
-      const atual = precos[precos.length - 1];
-      const menor = Math.min(...precos);
-      const maior = Math.max(...precos);
-
-      resumo.innerHTML = `
-        <div class="rounded-2xl bg-cream p-3 sm:p-4">
-          <small class="block text-[10px] font-bold uppercase tracking-wide text-mutedInk">
-            Atual
-          </small>
-
-          <strong class="mt-1 block text-sm text-primary sm:text-base">
-            ${formatarBRL(atual)}
-          </strong>
-        </div>
-
-        <div class="rounded-2xl bg-emerald-50 p-3 sm:p-4">
-          <small class="block text-[10px] font-bold uppercase tracking-wide text-emerald-700">
-            Menor
-          </small>
-
-          <strong class="mt-1 block text-sm text-emerald-700 sm:text-base">
-            ${formatarBRL(menor)}
-          </strong>
-        </div>
-
-        <div class="rounded-2xl bg-cream p-3 sm:p-4">
-          <small class="block text-[10px] font-bold uppercase tracking-wide text-mutedInk">
-            Maior
-          </small>
-
-          <strong class="mt-1 block text-sm text-primary sm:text-base">
-            ${formatarBRL(maior)}
-          </strong>
-        </div>
-      `;
-
-      const historicoExibido = dadosValidos
-        .slice()
-        .reverse()
-        .slice(0, 15);
-
-      tabela.innerHTML = historicoExibido
-        .map(item => `
-          <tr class="border-b" style="border-color:var(--border)">
-            <td class="px-2 py-3 text-mutedInk">
-              ${escapeHTML(item.data)}
-            </td>
-
-            <td class="px-2 py-3 text-right font-bold text-primary">
-              ${formatarBRL(item.preco)}
-            </td>
-          </tr>
-        `)
-        .join("");
-
-      modal.classList.remove("hidden");
-      modal.classList.add("flex");
-    }
-
-    function fecharModalHistorico() {
-      const modal = document.getElementById("modalHistorico");
-
-      modal.classList.add("hidden");
-      modal.classList.remove("flex");
-    }
-
-    document
-      .getElementById("fecharModal")
-      .addEventListener("click", fecharModalHistorico);
-
-    document
-      .getElementById("modalHistorico")
-      .addEventListener("click", event => {
-        if (event.target.id === "modalHistorico") {
-          fecharModalHistorico();
-        }
-      });
-
-    document.addEventListener("keydown", event => {
-      if (event.key === "Escape") {
-        fecharModalHistorico();
-      }
-    });
-
-    document.getElementById("busca").addEventListener("input", () => {
-      quantidadeExibida = LIMITE_INICIAL;
-      renderizarOfertas();
-    });
-
-    document.getElementById("btnDestaques").addEventListener("click", event => {
-      apenasDestaques = !apenasDestaques;
-      quantidadeExibida = LIMITE_INICIAL;
-
-      event.currentTarget.classList.toggle(
-        "active",
-        apenasDestaques
-      );
-
-      renderizarOfertas();
-    });
-
-    document.getElementById("carregarMais").addEventListener("click", () => {
-      quantidadeExibida += LIMITE_POR_CARGA;
-      renderizarOfertas();
-    });
-
     function inicializarComunidades() {
       const container = document.getElementById("comunidadesLista");
-
       container.innerHTML = comunidades.map(comunidade => `
-        <a
-          href="${safeUrl(comunidade.url)}"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="flex items-center gap-4 rounded-2xl border border-white/20 bg-white/10 p-4 text-left transition hover:bg-white/20"
-        >
-          <img
-            src="${safeUrl(comunidade.img)}"
-            alt="${escapeHTML(comunidade.nome)}"
-            class="h-12 w-12 rounded-full object-cover"
-          >
-
+        <a href="${safeUrl(comunidade.url)}" target="_blank" rel="noopener noreferrer"
+          class="flex items-center gap-4 rounded-2xl border border-white/20 bg-white/10 p-4 text-left transition hover:bg-white/20">
+          <img src="${safeUrl(comunidade.img)}" alt="${escapeHTML(comunidade.nome)}" class="h-12 w-12 rounded-full object-cover">
           <span class="flex-1">
-            <strong class="block text-sm">
-              ${escapeHTML(comunidade.nome)}
-            </strong>
-
-            <small class="mt-1 block text-xs text-white/70">
-              ${escapeHTML(comunidade.descricao)}
-            </small>
+            <strong class="block text-sm">${escapeHTML(comunidade.nome)}</strong>
+            <small class="mt-1 block text-xs text-white/70">${escapeHTML(comunidade.descricao)}</small>
           </span>
-
           <span class="text-xl">→</span>
         </a>
       `).join("");
@@ -1104,36 +414,99 @@
 
     inicializarComunidades();
 
-    fetch("promocoes.json")
-      .then(response => {
-        if (!response.ok) {
-          throw new Error("Não foi possível carregar o arquivo promocoes.json.");
-        }
+    // ---------- Vitrine de Promoções (top destaques) ----------
+    function possuiDestaque(produto) {
+      return produto.destaque === true || produto.menorPrecoEmDias === true;
+    }
 
-        return response.json();
-      })
-      .then(data => {
-        ofertas = Array.isArray(data.ofertas)
-          ? data.ofertas
-          : [];
+    function cardPromoTeaser(p) {
+      const titulo = escapeHTML(p.titulo || "Oferta");
+      const imagem = safeUrl(p.imagem || "");
+      const link = safeUrl(p.linkAfiliado || "#");
+      const precoAtual = escapeHTML(p.precoPromocao || "");
+      const precoOriginal = escapeHTML(p.precoOriginal || "");
+      const tag = escapeHTML(p.tag || "");
 
-        if (data.ultimaAtualizacao) {
-          document.getElementById("atualizacao").textContent =
-            `Última atualização: ${data.ultimaAtualizacao}`;
-        }
-
-        renderizarCategorias();
-        renderizarOfertas();
-      })
-      .catch(error => {
-        console.error(error);
-
-        $lista.innerHTML = `
-          <div class="md:col-span-2 rounded-2xl border border-dashed p-10 text-center text-sm text-mutedInk" style="border-color:var(--border)">
-            Não foi possível carregar as ofertas no momento.
-            Verifique se o arquivo <code>promocoes.json</code> está na mesma pasta deste HTML.
+      return `
+        <article class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card" style="border-color:var(--border)">
+          <div class="relative flex items-center justify-center p-4" style="background:var(--cream)">
+            ${tag ? `<span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">${tag}</span>` : ""}
+            <img src="${imagem}" alt="${titulo}" loading="lazy" class="h-28 w-full object-contain">
           </div>
-        `;
+          <div class="flex flex-1 flex-col gap-2 p-4">
+            <h3 class="text-[13px] font-bold leading-snug line-clamp-2">${titulo}</h3>
+            <div class="mt-auto flex items-end justify-between gap-2 pt-2">
+              <div class="flex flex-col">
+                ${precoOriginal ? `<span class="text-xs text-mutedInk line-through">R$ ${precoOriginal}</span>` : ""}
+                <span class="text-serif text-xl font-bold leading-none text-primary">R$ ${precoAtual}</span>
+              </div>
+              <a href="${link}" target="_blank" rel="sponsored nofollow noopener noreferrer"
+                class="inline-flex items-center gap-1 rounded-lg bg-primary px-3 py-1.5 text-xs font-bold text-white transition hover:opacity-90">
+                Ver ↗
+              </a>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    fetch("promocoes.json")
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(data => {
+        const ofertas = Array.isArray(data.ofertas) ? data.ofertas : [];
+        if (data.ultimaAtualizacao) {
+          document.getElementById("promoAtualizacao").textContent = `Última atualização: ${data.ultimaAtualizacao}`;
+        }
+        const destaques = ofertas.filter(possuiDestaque);
+        const base = (destaques.length ? destaques : ofertas).slice(0, 4);
+        document.getElementById("promoLista").innerHTML = base.length
+          ? base.map(cardPromoTeaser).join("")
+          : `<p class="sm:col-span-4 text-center text-sm text-mutedInk">Nenhuma promoção no momento.</p>`;
+      })
+      .catch(() => {
+        document.getElementById("promoLista").innerHTML =
+          `<p class="sm:col-span-4 text-center text-sm text-mutedInk">Não foi possível carregar as promoções agora.</p>`;
+      });
+
+    // ---------- Vitrine de Receitas (destaques ou primeiras 3) ----------
+    function cardReceitaTeaser(r) {
+      const meta = [
+        r.tempoPreparo ? `⏱ ${r.tempoPreparo}` : "",
+        r.custoMedio ? `💰 R$ ${r.custoMedio}` : "",
+      ].filter(Boolean).join(" · ");
+
+      return `
+        <article class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card" style="border-color:var(--border)">
+          <div class="relative aspect-[16/10] w-full overflow-hidden" style="background:var(--cream)">
+            ${r.categoria ? `<span class="absolute left-3 top-3 rounded-full bg-primary px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-white shadow">${escapeHTML(r.categoria)}</span>` : ""}
+            <img src="${safeUrl(r.imagem || "")}" alt="${escapeHTML(r.titulo)}" loading="lazy" class="h-full w-full object-cover">
+          </div>
+          <div class="flex flex-1 flex-col gap-2 p-5">
+            <h3 class="text-serif text-xl font-bold leading-snug text-primary">${escapeHTML(r.titulo)}</h3>
+            <p class="text-sm leading-relaxed text-mutedInk line-clamp-2">${escapeHTML(r.resumo || "")}</p>
+            <p class="text-[11px] text-mutedInk">${meta}</p>
+            <a href="receita.html?r=${encodeURIComponent(r.slug)}"
+              class="mt-auto inline-flex w-fit items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-bold text-white shadow-soft transition hover:opacity-90">
+              Ver receita ↗
+            </a>
+          </div>
+        </article>
+      `;
+    }
+
+    fetch("receitas.json")
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(data => {
+        const receitas = Array.isArray(data.receitas) ? data.receitas : [];
+        const destaques = receitas.filter(r => r.destaque === true);
+        const base = (destaques.length ? destaques : receitas).slice(0, 3);
+        document.getElementById("receitasLista").innerHTML = base.length
+          ? base.map(cardReceitaTeaser).join("")
+          : `<p class="sm:col-span-3 text-center text-sm text-mutedInk">Nenhuma receita publicada ainda.</p>`;
+      })
+      .catch(() => {
+        document.getElementById("receitasLista").innerHTML =
+          `<p class="sm:col-span-3 text-center text-sm text-mutedInk">Não foi possível carregar as receitas agora.</p>`;
       });
   </script>
 </body>
