@@ -31,8 +31,9 @@
 
 	  "produtos": [
 		"1420", "1662", "1730", "2658", "2786", "2991", "6467", 
-		"9154", "9155", "9156", "9157", "9158", "9159", "9346", 
-		"9347", "9348", "9349", "9350"]
+		"9156", "9157", "9158", "9159", "9346", 
+		"9348", "9350",
+		"9154", "9155", "9347", "9349"]
 	},
 	{
 	  "slug": "strogonoff-de-tilapia",
@@ -124,7 +125,10 @@
 	    "Leve ao forno preaquecido a 180ºC por volta de 35 minutos."
 	  ],
 	  "dica": "Coloque pedaços de goiabada no meio da massa.",
-	  "produtos": []
+	  "produtos": [
+		
+		"9154", "9155", "9347", "9349"
+	  ]
 	},
 	{
 	  "slug": "waffle-de-pao-de-queijo",
@@ -153,7 +157,9 @@
 	    "Por fim, junte o queijo ralado, a maisena e a chia. Misture bem."
 	  ],
 	  "dica": "Podem ser feitos na sanduicheira. Também podem ser congelados prontos e descongelados em forno ou torradeira.",
-	  "produtos": []
+	  "produtos": [
+		"9154", "9155", "9347", "9349"
+	  ]
 	},
 	{
 	  "slug": "bolo-de-milho",
