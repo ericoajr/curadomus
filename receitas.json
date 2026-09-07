@@ -4,6 +4,7 @@
  	{
 	  "slug": "bolo-rosa-maria",
 	  "titulo": "Bolo Rosa Maria",
+	  "fonte": "D. Regina, vó do meu marido",
 	  "categoria": "Bolos e Doces",
 	  "imagem": "http://curadomus.com.br/images/bolo-de-chocolate.jpg",
 	  "tempoPreparo": "15 min",
@@ -36,6 +37,7 @@
 	{
 	  "slug": "strogonoff-de-tilapia",
 	  "titulo": "Strogonoff de Tilápia",
+	  "fonte": "Instagram @eu_preparo",
 	  "categoria": "Pratos Principais",
 	  "resumo": "Um strogonoff prático e delicioso feito com tiras de tilápia, sucesso garantido no planejamento semanal da família.",
 	  "imagem": "http://curadomus.com.br/images/strogonoff-de-tilapia.jpg",
@@ -71,6 +73,7 @@
 	{
 	  "slug": "cappuccino-caseiro",
 	  "titulo": "Cappuccino Caseiro",
+	  "fonte": "Instagram @tachia.salgado",
 	  "categoria": "Bebidas",
 	  "resumo": "Uma mistura prática e deliciosa para ter cappuccino sempre à mão. Fácil de fazer e adaptável ao seu gosto.",
 	  "imagem": "http://curadomus.com.br/images/cappuccino.jpg",
@@ -96,11 +99,12 @@
 	},
 	{
 	  "slug": "bolo-de-fuba-molhado",
-	  "titulo": "Bolo de Fubá Molhado (ou Cozido)",
+	  "titulo": "Bolo de Fubá Molhado",
+	  "fonte": "Instagram @panelaterapia",
 	  "categoria": "Bolos e Doces",
 	  "resumo": "Um delicioso bolo de fubá com massa molhadinha, super fácil e prático para o café da tarde.",
 	  "imagem": "http://curadomus.com.br/images/bolo-de-fuba-molhado.jpg",
-	  "tempoPreparo": "25 min",
+	  "tempoPreparo": "15 min",
 	  "tempoForno": "35 min",
 	  "ingredientes": [
 	    "1 xícara (chá) de fubá",
@@ -125,6 +129,7 @@
 	{
 	  "slug": "waffle-de-pao-de-queijo",
 	  "titulo": "Waffle de Pão de Queijo",
+	  "fonte": "Instagram @comidinhasdadiana",
 	  "categoria": "Lanches",
 	  "resumo": "Uma receita fácil e prática de waffle com sabor de pão de queijo, ideal para o café da manhã ou lanche.",
 	  "imagem": "http://curadomus.com.br/images/waffle-de-pao-de-queijo.jpg",
@@ -147,12 +152,13 @@
 	    "Aguarde esfriar um pouco e misture os ovos, um a um.",
 	    "Por fim, junte o queijo ralado, a maisena e a chia. Misture bem."
 	  ],
-	  "dica": "Podem ser feitos na sanduicheira. Também podem ser congelados prontos e descongelados em forno ou torradeira. Recomendação de idade: a partir de 12 meses.",
+	  "dica": "Podem ser feitos na sanduicheira. Também podem ser congelados prontos e descongelados em forno ou torradeira.",
 	  "produtos": []
 	},
 	{
 	  "slug": "bolo-de-milho",
 	  "titulo": "Bolo de Milho",
+	  "fonte": "D. Lourdes, vó do meu marido.",
 	  "categoria": "Bolos e Doces",
 	  "resumo": "Uma receita tradicional e especial de bolo de milho de liquidificador, feita com muito amor.",
 	  "imagem": "http://curadomus.com.br/images/bolo-de-milho.jpg",
