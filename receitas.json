@@ -30,10 +30,12 @@
 	  "dica": "Substitua o achocolotado por um cacau 70% ou 100% para ficar mais saudável.",
 
 	  "produtos": [
-		"farinha-de-trigo", "acucar", "achocolatado", "cacau-em-po", "leite", "fermento-em-po"
-		
-		
-		
+		"farinha-de-trigo", 
+		"acucar", 
+		"achocolatado", 
+		"cacau-em-po", 
+		"leite", 
+		"fermento-em-po"
 		]
 	},
 	{
@@ -103,7 +105,7 @@
 	  "produtos": [
 		"leite-em-po", 
 		"cafe-soluvel",
-		"canela-em-po"
+		"canela-em-po",
 		"cacau-em-po","achocolatado-em-po", 
 		"bicarbonato-em-po",
 		"acucar"
@@ -137,10 +139,10 @@
 	  ],
 	  "dica": "Coloque pedaços de goiabada no meio da massa.",
 	  "produtos": [
-		"9583", "9584", "9585", "9586","9587",
-		"9154", "9155", "9347", "9349",
-		"9157","9553","9554",
-		"9162"
+		"fuba-flocao",
+		"leite",
+		"acucar",
+		"fermento-quimico"
 	  ]
 	},
 	{
@@ -174,7 +176,7 @@
 		"leite",
 		"polvilho-doce", 
 		"queijo-ralado", 
-		"maisena", 
+		"maisena", "fecula-de-batata",
 		"chia"
 	  ]
 	},
