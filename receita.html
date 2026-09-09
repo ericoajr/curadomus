@@ -247,6 +247,7 @@ function renderReceita(receita) {
 function renderProdutosSugeridos(tagsReceita, ofertas) {
   if (!tagsReceita || !tagsReceita.length) return;
   
+  alert(tagsReceita);
   // Converte as tags da receita para um formato padrão (lowercase, sem espaços extras) para comparação
   const tagsParaBusca = tagsReceita.map(t => String(t).trim().toLowerCase());
 
