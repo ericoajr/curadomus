@@ -1,81 +1,462 @@
 {
-  "ultimaAtualizacao" : "08/09/2026 21:35",
+  "ultimaAtualizacao" : "08/09/2026 23:17",
   "ofertas" : [ {
-    "pid" : 8386,
-    "id" : 161051,
-    "titulo" : "3 Corações Cappuccino Sabor Chocolate, 200g",
-    "imagem" : "https://m.media-amazon.com/images/I/61R6jv+8TwL._AC_SL1200_.jpg",
-    "precoOriginal" : "21,72",
-    "precoPromocao" : "14,99",
-    "tag" : "-30%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B00MU6E8BY?tag=curadomus-20",
-    "categoria" : "Alimentos e Bebidas",
-    "categoriaId" : 2,
-    "dataOferta" : "08/09/2026 15:56",
-    "destaque" : true,
-    "precoAnterior" : "15,99",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "pid" : 234,
+    "id" : 161545,
+    "titulo" : "12 regras para a vida: Um antídoto para o caos",
+    "imagem" : "https://m.media-amazon.com/images/I/71geoUmEoQL._SL1500_.jpg",
+    "precoOriginal" : "66,50",
+    "precoPromocao" : "37,11",
+    "desconto" : "-44%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8550802751?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:57",
+    "destaque" : false,
+    "precoAnterior" : "37,11",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 42.58
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 42.58
+    }, {
       "data" : "13/08/2026",
-      "preco" : 16.82
+      "preco" : 37.11
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 37.11
     }, {
       "data" : "15/08/2026",
-      "preco" : 17.01
+      "preco" : 37.11
     }, {
       "data" : "16/08/2026",
-      "preco" : 17.01
+      "preco" : 37.11
     }, {
-      "data" : "18/08/2026",
-      "preco" : 17.01
+      "data" : "19/08/2026",
+      "preco" : 37.11
     }, {
       "data" : "20/08/2026",
-      "preco" : 17.01
+      "preco" : 37.11
     }, {
       "data" : "21/08/2026",
-      "preco" : 17.01
+      "preco" : 37.11
     }, {
-      "data" : "23/08/2026",
-      "preco" : 17.01
+      "data" : "22/08/2026",
+      "preco" : 37.11
     }, {
       "data" : "24/08/2026",
-      "preco" : 16.39
+      "preco" : 37.11
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 37.11
     }, {
       "data" : "26/08/2026",
-      "preco" : 16.39
+      "preco" : 37.11
     }, {
-      "data" : "27/08/2026"
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 16.39
+      "data" : "27/08/2026",
+      "preco" : 37.11
     }, {
       "data" : "29/08/2026",
-      "preco" : 16.39
+      "preco" : 37.11
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 37.11
     }, {
       "data" : "31/08/2026",
-      "preco" : 16.39
+      "preco" : 37.11
     }, {
       "data" : "01/09/2026",
-      "preco" : 16.39
+      "preco" : 37.11
     }, {
       "data" : "02/09/2026",
-      "preco" : 16.39
+      "preco" : 37.11
     }, {
       "data" : "03/09/2026",
-      "preco" : 16.39
+      "preco" : 37.11
     }, {
       "data" : "04/09/2026",
-      "preco" : 15.99
+      "preco" : 37.11
     }, {
       "data" : "05/09/2026",
-      "preco" : 15.99
+      "preco" : 37.11
     }, {
       "data" : "06/09/2026",
-      "preco" : 15.99
+      "preco" : 37.11
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 37.11
     }, {
       "data" : "08/09/2026",
-      "preco" : 14.99
-    } ]
+      "preco" : 37.11
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 1650,
+    "id" : 161583,
+    "titulo" : "3 Corações Café Torrado e Moído Gourmet Cerrado Mineiro, 250G",
+    "imagem" : "https://m.media-amazon.com/images/I/51eNFkBYn2L._AC_SL1200_.jpg",
+    "precoOriginal" : "37,16",
+    "precoPromocao" : "29,00",
+    "desconto" : "-21%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B086F8J671?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:03",
+    "destaque" : false,
+    "precoAnterior" : "29,00",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 29.99
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 29.99
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 29.99
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 28.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 28.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 29.99
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 29.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 29.0
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 249,
+    "id" : 161561,
+    "titulo" : "A arara cantora",
+    "imagem" : "https://m.media-amazon.com/images/I/61NEXQZjy6L._SL1500_.jpg",
+    "precoOriginal" : "58,00",
+    "precoPromocao" : "46,17",
+    "desconto" : "-20%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508113439?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:59",
+    "destaque" : false,
+    "precoAnterior" : "45,24",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 43.92
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 43.92
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 43.92
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 43.92
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 37.76
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 37.76
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 37.76
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 37.76
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 15.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 43.86
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 46.17
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 238,
+    "id" : 161550,
+    "titulo" : "A boca do sapo",
+    "imagem" : "https://m.media-amazon.com/images/I/81zPCskugmL._SL1500_.jpg",
+    "precoOriginal" : "84,00",
+    "precoPromocao" : "42,00",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508176651?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:58",
+    "destaque" : false,
+    "precoAnterior" : "42,00",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 42.0
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 344,
+    "id" : 161667,
+    "titulo" : "A carta do Gildo",
+    "imagem" : "https://m.media-amazon.com/images/I/81kwG6gNp8L._SL1500_.jpg",
+    "precoOriginal" : "62,90",
+    "precoPromocao" : "39,82",
+    "desconto" : "-36%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574125709?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:13",
+    "destaque" : false,
+    "precoAnterior" : "39,82",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 41.8
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 39.82
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 39.82
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 39.82
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 39.82
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 39.82
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 39.82
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 39.82
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 8,
     "id" : 161086,
@@ -83,7 +464,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/81dTvpaSTeL._SL1500_.jpg",
     "precoOriginal" : "59,90",
     "precoPromocao" : "32,69",
-    "tag" : "-45%",
+    "desconto" : "-45%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584824055?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -166,7 +547,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 32.69
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 35,
     "id" : 161103,
@@ -174,7 +556,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/81BX9xwJ1jL._SL1500_.jpg",
     "precoOriginal" : "59,90",
     "precoPromocao" : "32,69",
-    "tag" : "-45%",
+    "desconto" : "-45%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584824012?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -257,7 +639,274 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 32.69
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 532,
+    "id" : 161686,
+    "titulo" : "A ilha negra",
+    "imagem" : "https://m.media-amazon.com/images/I/913wOsJdQdL._SL1500_.jpg",
+    "precoOriginal" : "89,90",
+    "precoPromocao" : "62,93",
+    "desconto" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8535906738?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:16",
+    "destaque" : false,
+    "precoAnterior" : "62,93",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 70.12
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 70.12
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 70.12
+    }, {
+      "data" : "14/08/2026"
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "16/08/2026"
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 70.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 70.0
+    }, {
+      "data" : "21/08/2026"
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 77.17
+    }, {
+      "data" : "23/08/2026"
+    }, {
+      "data" : "25/08/2026"
+    }, {
+      "data" : "26/08/2026"
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 66.12
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 66.12
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 66.12
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 66.12
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 66.12
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 74.81
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 62.93
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 62.93
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 62.93
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 62.93
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 62.93
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 62.93
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 250,
+    "id" : 161562,
+    "titulo" : "A lua cheia na casa sonolenta",
+    "imagem" : "https://m.media-amazon.com/images/I/51sA9P8slAL._SL1291_.jpg",
+    "precoOriginal" : "104,00",
+    "precoPromocao" : "78,37",
+    "desconto" : "-24%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508191839?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 22:00",
+    "destaque" : false,
+    "precoAnterior" : "78,37",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 55.02
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 62.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 62.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 62.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 62.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 62.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 62.0
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 73.75
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 74.93
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 78.37
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 78.37
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 73.75
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 73.75
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 73.75
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 78.37
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 78.37
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 233,
+    "id" : 161544,
+    "titulo" : "A Regina e o mágico",
+    "imagem" : "https://m.media-amazon.com/images/I/51CgItZa4bL._SL1000_.jpg",
+    "precoOriginal" : "58,00",
+    "precoPromocao" : "39,67",
+    "desconto" : "-31%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508113498?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:57",
+    "destaque" : false,
+    "precoAnterior" : "46,17",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026"
+    }, {
+      "data" : "11/08/2026"
+    }, {
+      "data" : "12/08/2026"
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 35.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 43.86
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 43.86
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 43.86
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 43.86
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 39.67
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 28,
     "id" : 161098,
@@ -265,7 +914,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/91RdYbmF5PL._SL1500_.jpg",
     "precoOriginal" : "74,90",
     "precoPromocao" : "44,94",
-    "tag" : "-40%",
+    "desconto" : "-40%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800458?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -348,25 +997,717 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 44.94
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
-    "pid" : 9636,
-    "id" : 161081,
-    "titulo" : "Ar-Condicionado Electrolux Split 18.000 BTUs Color Adapt Frio com Wi-fi (YI18F/YE18F) 220V",
-    "imagem" : "https://m.media-amazon.com/images/I/515GghlFTKL._AC_SL1482_.jpg",
-    "precoOriginal" : "4.277,94",
-    "precoPromocao" : "2.539,00",
-    "tag" : "-40%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CLQ1QXCF?tag=curadomus-20",
-    "categoria" : "Casa",
-    "categoriaId" : 3,
-    "dataOferta" : "08/09/2026 16:59",
+    "pid" : 1571,
+    "id" : 161575,
+    "titulo" : "Achocolatado em Cápsula Nescafé Dolce Gusto Chococino Classic com 10 cápsulas",
+    "imagem" : "https://m.media-amazon.com/images/I/61-KJnl-WBL._AC_SL1000_.jpg",
+    "precoOriginal" : "26,39",
+    "precoPromocao" : "21,99",
+    "desconto" : "-16%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FV5TLY9Z?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:01",
     "destaque" : false,
+    "precoAnterior" : "17,90",
     "menorPrecoEmDias" : false,
     "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 16.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 16.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 16.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 16.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 23.9
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 23.9
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 20.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 23.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 23.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 26.39
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 26.39
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 26.39
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 26.39
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 26.39
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 26.39
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 20.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 17.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 17.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 17.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 17.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 17.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 17.9
+    }, {
       "data" : "08/09/2026",
-      "preco" : 2539.0
-    } ]
+      "preco" : 21.99
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 1662,
+    "id" : 161585,
+    "titulo" : "Achocolatado Em Pó NESCAU 60% 180g",
+    "imagem" : "https://m.media-amazon.com/images/I/71UvbUfQFJL._AC_SL1500_.jpg",
+    "precoOriginal" : "18,19",
+    "precoPromocao" : "14,99",
+    "desconto" : "-17%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DJWJ7R15?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:03",
+    "destaque" : false,
+    "precoAnterior" : "14,99",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 14.62
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 14.62
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 14.62
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 14.62
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 14.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 14.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 14.99
+    } ],
+    "tags" : [ "achocolatado-em-po" ]
+  }, {
+    "pid" : 252,
+    "id" : 161564,
+    "titulo" : "Aniversário da vaca Mimosa: 0",
+    "imagem" : "https://m.media-amazon.com/images/I/A1iIS5-teFL._SL1500_.jpg",
+    "precoOriginal" : "74,00",
+    "precoPromocao" : "57,50",
+    "desconto" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/856431133X?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 22:00",
+    "destaque" : false,
+    "precoAnterior" : "57,50",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 55.5
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 57.5
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 75,
+    "id" : 161530,
+    "titulo" : "As Crônicas de Nárnia - Coleção de Luxo: O Leão, a Feiticeira e o Guarda-roupa",
+    "imagem" : "https://m.media-amazon.com/images/I/71aJZfkkKaL._SL1334_.jpg",
+    "precoOriginal" : "64,90",
+    "precoPromocao" : "43,14",
+    "desconto" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6555114746?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:55",
+    "destaque" : false,
+    "precoAnterior" : "43,14",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.9
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 43.14
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 43.14
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 242,
+    "id" : 161554,
+    "titulo" : "As pintas do preá",
+    "imagem" : "https://m.media-amazon.com/images/I/81Fev0Bf1vL._SL1500_.jpg",
+    "precoOriginal" : "84,00",
+    "precoPromocao" : "42,00",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/850817666X?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:58",
+    "destaque" : false,
+    "precoAnterior" : "42,00",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 40.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 42.0
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 243,
+    "id" : 161555,
+    "titulo" : "Atchim!",
+    "imagem" : "https://m.media-amazon.com/images/I/817KYlR5I4L._SL1500_.jpg",
+    "precoOriginal" : "49,00",
+    "precoPromocao" : "24,50",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508040261?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:58",
+    "destaque" : false,
+    "precoAnterior" : "24,50",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026"
+    }, {
+      "data" : "11/08/2026"
+    }, {
+      "data" : "14/08/2026"
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "16/08/2026"
+    }, {
+      "data" : "17/08/2026"
+    }, {
+      "data" : "19/08/2026"
+    }, {
+      "data" : "20/08/2026"
+    }, {
+      "data" : "21/08/2026"
+    }, {
+      "data" : "23/08/2026"
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "07/09/2026"
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 24.5
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 347,
+    "id" : 161671,
+    "titulo" : "Bem lá no alto",
+    "imagem" : "https://m.media-amazon.com/images/I/81rqIZqHufL._SL1500_.jpg",
+    "precoOriginal" : "64,90",
+    "precoPromocao" : "39,79",
+    "desconto" : "-38%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067199?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:14",
+    "destaque" : false,
+    "precoAnterior" : "39,79",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 31.41
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 31.41
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 31.41
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 39.79
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 39.79
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 84,
+    "id" : 161534,
+    "titulo" : "Bichodário",
+    "imagem" : "https://m.media-amazon.com/images/I/911Smew2DlL._SL1500_.jpg",
+    "precoOriginal" : "77,00",
+    "precoPromocao" : "42,75",
+    "desconto" : "-44%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8596007555?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:55",
+    "destaque" : false,
+    "precoAnterior" : "42,75",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 57.0
+    }, {
+      "data" : "13/08/2026"
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 60.0
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 60.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 60.0
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 60.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 60.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 57.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 55.64
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 34.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 42.75
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 42.75
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 42.75
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 42.75
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 42.75
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 541,
     "id" : 161120,
@@ -374,7 +1715,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/61-4y+JP1YL._AC_SL1000_.jpg",
     "precoOriginal" : "27,90",
     "precoPromocao" : "18,40",
-    "tag" : "-34%",
+    "desconto" : "-34%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0BBJTNTKH?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -457,221 +1798,176 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 18.4
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
-    "pid" : 5066,
-    "id" : 161059,
-    "titulo" : "Buba Mantinha Ovelhinha Azul Buba Azul",
-    "imagem" : "https://m.media-amazon.com/images/I/61wmHxoZfsL._AC_SL1000_.jpg",
-    "precoOriginal" : "64,90",
-    "precoPromocao" : "35,75",
-    "tag" : "-44%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B09888TC4W?tag=curadomus-20",
+    "pid" : 4707,
+    "id" : 161571,
+    "titulo" : "Cadeira De Alimentação Infantil Bebê Evolutiva 4 Em 1",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_796444-MLB113846562951_062026-F-cadeira-de-alimentacao-infantil-bebe-evolutiva-4-em-1.webp",
+    "precoOriginal" : "588,00",
+    "precoPromocao" : "366,94",
+    "desconto" : "-37%",
+    "linkAfiliado" : "https://meli.la/2HQ8mF3",
     "categoria" : "Bebês",
     "categoriaId" : 7,
-    "dataOferta" : "08/09/2026 16:03",
+    "dataOferta" : "08/09/2026 22:01",
     "destaque" : false,
+    "precoAnterior" : "366,94",
     "menorPrecoEmDias" : false,
     "historico" : [ {
-      "data" : "10/08/2026",
-      "preco" : 41.21
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 40.2
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 39.64
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 39.64
-    }, {
       "data" : "15/08/2026",
-      "preco" : 38.75
+      "preco" : 540.96
     }, {
-      "data" : "16/08/2026",
-      "preco" : 38.75
+      "data" : "17/08/2026",
+      "preco" : 540.96
     }, {
       "data" : "18/08/2026",
-      "preco" : 38.75
+      "preco" : 540.96
     }, {
-      "data" : "20/08/2026",
-      "preco" : 36.75
+      "data" : "19/08/2026",
+      "preco" : 578.0
     }, {
       "data" : "21/08/2026",
-      "preco" : 36.92
+      "preco" : 578.0
     }, {
-      "data" : "23/08/2026",
-      "preco" : 36.55
+      "data" : "22/08/2026",
+      "preco" : 588.0
     }, {
       "data" : "24/08/2026",
-      "preco" : 36.21
+      "preco" : 376.94
     }, {
       "data" : "25/08/2026",
-      "preco" : 36.21
+      "preco" : 346.78
     }, {
-      "data" : "27/08/2026",
-      "preco" : 35.82
+      "data" : "26/08/2026",
+      "preco" : 346.78
     }, {
       "data" : "28/08/2026",
-      "preco" : 36.21
+      "preco" : 346.78
     }, {
       "data" : "29/08/2026",
-      "preco" : 35.48
+      "preco" : 346.78
     }, {
       "data" : "30/08/2026",
-      "preco" : 35.48
+      "preco" : 346.78
     }, {
       "data" : "01/09/2026",
-      "preco" : 35.12
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 33.5
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 33.5
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 35.75
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 35.75
-    }, {
-      "data" : "07/09/2026"
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 35.75
-    } ]
-  }, {
-    "pid" : 9003,
-    "id" : 161034,
-    "titulo" : "Cadeira De Alimentação Bebê Portátil - Cadeirão I Love Baby®",
-    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_620832-MLB105597059225_012026-F-cadeira-de-alimentacao-bebe-portatil--cadeirao-i-love-baby.webp",
-    "precoOriginal" : "272,85",
-    "precoPromocao" : "184,99",
-    "tag" : "-32%",
-    "linkAfiliado" : "https://meli.la/2bd14DR",
-    "categoria" : "Bebês",
-    "categoriaId" : 7,
-    "dataOferta" : "08/09/2026 15:12",
-    "destaque" : false,
-    "precoAnterior" : "184,99",
-    "menorPrecoEmDias" : false,
-    "historico" : [ {
-      "data" : "27/08/2026",
-      "preco" : 189.9
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 189.9
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 259.21
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 259.21
+      "preco" : 346.78
     }, {
       "data" : "02/09/2026",
-      "preco" : 217.74
+      "preco" : 346.78
     }, {
       "data" : "03/09/2026",
-      "preco" : 217.74
+      "preco" : 346.78
     }, {
       "data" : "04/09/2026",
-      "preco" : 199.4
+      "preco" : 346.78
     }, {
       "data" : "05/09/2026",
-      "preco" : 199.4
+      "preco" : 346.78
     }, {
       "data" : "06/09/2026",
-      "preco" : 168.69
+      "preco" : 346.78
     }, {
       "data" : "07/09/2026",
-      "preco" : 184.99
+      "preco" : 346.78
     }, {
       "data" : "08/09/2026",
-      "preco" : 184.99
-    } ]
+      "preco" : 366.94
+    } ],
+    "tags" : [ ]
   }, {
-    "pid" : 5096,
-    "id" : 161061,
-    "titulo" : "Cadeira Para Auto KidFit Adapt Plus 2 em 1 Preto - 7079728860070",
-    "imagem" : "https://m.media-amazon.com/images/I/51zybo4VRIL._AC_SL1000_.jpg",
-    "precoOriginal" : "1.199,00",
-    "precoPromocao" : "918,00",
-    "tag" : "-23%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0BS4C1TTM?tag=curadomus-20",
-    "categoria" : "Bebês",
-    "categoriaId" : 7,
-    "dataOferta" : "08/09/2026 16:04",
-    "destaque" : true,
-    "precoAnterior" : "919,00",
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
+    "pid" : 1597,
+    "id" : 161582,
+    "titulo" : "Café em Cápsula Compatível com Nespresso Nescafé Farmers Origins Brazil 10 Cápsulas",
+    "imagem" : "https://m.media-amazon.com/images/I/71+Ev9ND3KL._AC_SL1500_.jpg",
+    "precoOriginal" : "23,39",
+    "precoPromocao" : "16,90",
+    "desconto" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0D8CM9LNB?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:03",
+    "destaque" : false,
+    "precoAnterior" : "16,05",
+    "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "10/08/2026",
-      "preco" : 997.0
+      "preco" : 15.9
     }, {
-      "data" : "11/08/2026",
-      "preco" : 968.0
+      "data" : "12/08/2026",
+      "preco" : 15.9
     }, {
       "data" : "13/08/2026",
-      "preco" : 968.0
+      "preco" : 15.9
     }, {
       "data" : "14/08/2026",
-      "preco" : 919.0
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 919.0
+      "preco" : 15.9
     }, {
       "data" : "16/08/2026",
-      "preco" : 919.0
+      "preco" : 17.07
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 16.99
     }, {
       "data" : "18/08/2026",
-      "preco" : 919.0
+      "preco" : 16.99
     }, {
       "data" : "20/08/2026",
-      "preco" : 919.0
+      "preco" : 17.07
     }, {
       "data" : "21/08/2026",
-      "preco" : 919.0
+      "preco" : 17.07
     }, {
-      "data" : "23/08/2026",
-      "preco" : 1079.1
+      "data" : "22/08/2026",
+      "preco" : 17.07
     }, {
       "data" : "24/08/2026",
-      "preco" : 1199.0
+      "preco" : 16.9
     }, {
       "data" : "25/08/2026",
-      "preco" : 1199.0
+      "preco" : 16.9
     }, {
-      "data" : "27/08/2026"
+      "data" : "26/08/2026"
     }, {
       "data" : "28/08/2026",
-      "preco" : 919.0
+      "preco" : 16.9
     }, {
       "data" : "29/08/2026",
-      "preco" : 919.0
+      "preco" : 16.9
     }, {
       "data" : "30/08/2026",
-      "preco" : 919.0
+      "preco" : 16.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 16.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 16.9
     }, {
       "data" : "02/09/2026",
-      "preco" : 919.0
+      "preco" : 16.9
     }, {
       "data" : "03/09/2026",
-      "preco" : 919.0
+      "preco" : 16.9
     }, {
       "data" : "04/09/2026",
-      "preco" : 919.0
+      "preco" : 16.9
     }, {
       "data" : "05/09/2026",
-      "preco" : 919.0
+      "preco" : 16.9
     }, {
       "data" : "06/09/2026",
-      "preco" : 919.0
+      "preco" : 16.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 16.05
     }, {
       "data" : "08/09/2026",
-      "preco" : 918.0
-    } ]
+      "preco" : 16.9
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 12,
     "id" : 161089,
@@ -679,7 +1975,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/91w74bA251L._SL1500_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "35,05",
-    "tag" : "-49%",
+    "desconto" : "-49%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/857860184X?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -762,7 +2058,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 35.05
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 6605,
     "id" : 161116,
@@ -770,7 +2067,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/61m4KR9M7hL._AC_SL1376_.jpg",
     "precoOriginal" : "69,99",
     "precoPromocao" : "44,33",
-    "tag" : "-36%",
+    "desconto" : "-36%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B086P4VNKL?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
     "categoriaId" : 6,
@@ -848,7 +2145,184 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 44.33
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 259,
+    "id" : 161603,
+    "titulo" : "Coleção a Casa da Árvore - 16 Volumes",
+    "imagem" : "https://m.media-amazon.com/images/I/81ed92xVmIL._SL1500_.jpg",
+    "precoOriginal" : "250,00",
+    "precoPromocao" : "209,90",
+    "desconto" : "-16%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/000050890X?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 22:28",
+    "destaque" : false,
+    "precoAnterior" : "209,90",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 225.0
+    }, {
+      "data" : "31/08/2026"
+    }, {
+      "data" : "01/09/2026"
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 209.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 209.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 209.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 209.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 209.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 209.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 209.9
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 516,
+    "id" : 161683,
+    "titulo" : "Confissões de Santo Agostinho - Edição de Luxo Almofadada",
+    "imagem" : "https://m.media-amazon.com/images/I/91mYAMQ785L._SL1500_.jpg",
+    "precoOriginal" : "89,90",
+    "precoPromocao" : "32,43",
+    "desconto" : "-63%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6584956393?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:16",
+    "destaque" : false,
+    "precoAnterior" : "32,43",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 33.46
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 33.46
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 36.74
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 36.74
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 36.74
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 52.41
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 51.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 51.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 51.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 32.43
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 32.43
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 32.43
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 32.43
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 32.43
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 32.43
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 32.43
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 13,
     "id" : 161090,
@@ -856,7 +2330,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/91WAGXw7Y4L._SL1500_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "29,99",
-    "tag" : "-57%",
+    "desconto" : "-57%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8578601777?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -935,7 +2409,99 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 29.99
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 1462,
+    "id" : 161573,
+    "titulo" : "Cápsulas de Café Clássico Baggio Café, compatível com Nespresso, contém 20 cápsulas",
+    "imagem" : "https://m.media-amazon.com/images/I/61c0hnt-WkL._AC_SL1500_.jpg",
+    "precoOriginal" : "51,80",
+    "precoPromocao" : "37,90",
+    "desconto" : "-26%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0DPGLKWCR?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:01",
+    "destaque" : false,
+    "precoAnterior" : "51,80",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "26/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 49.27
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 49.31
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 32.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 51.8
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 37.9
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 600,
     "id" : 161128,
@@ -943,7 +2509,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/61SFbZ1eikL._AC_SL1500_.jpg",
     "precoOriginal" : "101,99",
     "precoPromocao" : "71,39",
-    "tag" : "-30%",
+    "desconto" : "-30%",
     "linkAfiliado" : "https://amzn.to/4v63Z0w",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -1026,7 +2592,549 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 71.39
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 236,
+    "id" : 161547,
+    "titulo" : "Dia e noite",
+    "imagem" : "https://m.media-amazon.com/images/I/81D7i0u5XyL._SL1500_.jpg",
+    "precoOriginal" : "84,00",
+    "precoPromocao" : "42,00",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508172885?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:57",
+    "destaque" : false,
+    "precoAnterior" : "42,00",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 34.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 42.0
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 353,
+    "id" : 161675,
+    "titulo" : "Edmundo e o resmungo – Da autora de “Enquanto Ana espera” e “É para o meu bem”",
+    "imagem" : "https://m.media-amazon.com/images/I/816CuhjetnL._SL1500_.jpg",
+    "precoOriginal" : "74,90",
+    "precoPromocao" : "39,64",
+    "desconto" : "-47%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6552171234?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:15",
+    "destaque" : false,
+    "precoAnterior" : "39,64",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 39.64
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 319,
+    "id" : 161645,
+    "titulo" : "Elefantes não dançam! (Nova edição)",
+    "imagem" : "https://m.media-amazon.com/images/I/61heinxmnKL._SL1383_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "51,64",
+    "desconto" : "-26%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574069965?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:04",
+    "destaque" : false,
+    "precoAnterior" : "51,64",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 51.64
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 321,
+    "id" : 161647,
+    "titulo" : "Estamos em um livro! (Nova edição)",
+    "imagem" : "https://m.media-amazon.com/images/I/71BnSTuijdL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "49,84",
+    "desconto" : "-28%",
+    "linkAfiliado" : "https://amzn.to/3QcFsrh",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:04",
+    "destaque" : false,
+    "precoAnterior" : "49,84",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 58.25
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 58.25
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 58.25
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 58.25
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 58.25
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 58.25
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 58.25
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "27/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 49.84
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 49.84
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 49.84
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 49.84
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 49.84
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 227,
+    "id" : 161538,
+    "titulo" : "Eu e o Meu Papai!",
+    "imagem" : "https://m.media-amazon.com/images/I/71YLDIHRyHL._SL1300_.jpg",
+    "precoOriginal" : "39,90",
+    "precoPromocao" : "28,31",
+    "desconto" : "-29%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8538006363?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:56",
+    "destaque" : false,
+    "precoAnterior" : "28,31",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 21.55
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 21.55
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 23.47
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 23.47
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 23.47
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 23.47
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 21.57
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 21.57
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 21.57
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 21.57
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 25.82
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 25.82
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 28.33
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 28.31
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 28.31
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 346,
+    "id" : 161670,
+    "titulo" : "Gildo",
+    "imagem" : "https://m.media-amazon.com/images/I/71dztBZAEXL._SL1297_.jpg",
+    "precoOriginal" : "64,90",
+    "precoPromocao" : "34,80",
+    "desconto" : "-46%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/857412320X?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:14",
+    "destaque" : true,
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 45 dias.",
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 37.02
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 35.16
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 35.16
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 35.16
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 35.16
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 35.16
+    }, {
+      "data" : "07/09/2026"
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 34.8
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 539,
     "id" : 161119,
@@ -1034,7 +3142,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/51Tlp1J09pL._AC_SL1000_.jpg",
     "precoOriginal" : "31,45",
     "precoPromocao" : "25,59",
-    "tag" : "-18%",
+    "desconto" : "-18%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C3JSS2M9?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -1111,7 +3219,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 25.59
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 752,
     "id" : 161139,
@@ -1119,7 +3228,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/51QMN1Euz1L._AC_SL1000_.jpg",
     "precoOriginal" : "32,79",
     "precoPromocao" : "17,99",
-    "tag" : "-45%",
+    "desconto" : "-45%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CHZ9XXPX?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -1201,7 +3310,97 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 17.99
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 318,
+    "id" : 161644,
+    "titulo" : "Hoje eu vou voar!",
+    "imagem" : "https://m.media-amazon.com/images/I/71sET+Mf4KL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "46,47",
+    "desconto" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574069892?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:03",
+    "destaque" : false,
+    "precoAnterior" : "46,47",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 46.47
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 46.47
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 46.47
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 46.47
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 46.47
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 46.47
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 757,
     "id" : 161140,
@@ -1209,7 +3408,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/41wdZf5ZrqL._AC_SL1000_.jpg",
     "precoOriginal" : "72,99",
     "precoPromocao" : "43,46",
-    "tag" : "-40%",
+    "desconto" : "-40%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHSHRMG?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -1292,7 +3491,100 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 43.46
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 356,
+    "id" : 161678,
+    "titulo" : "Macaco danado",
+    "imagem" : "https://m.media-amazon.com/images/I/A1wXsb+3VpL._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "37,45",
+    "desconto" : "-44%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574120472?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:15",
+    "destaque" : true,
+    "precoAnterior" : "45,12",
+    "menorPrecoEmDias" : true,
+    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 36.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 37.45
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 37.55
+    }, {
+      "data" : "27/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 37.55
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 37.55
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 37.55
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 37.55
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 37.67
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 37.67
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 37.88
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 37.88
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 37.88
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 37.88
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 37.45
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 4553,
     "id" : 161286,
@@ -1300,7 +3592,7 @@
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_757284-MLB111040060643_042026-F-macacao-bebe-suspensorio-menino-nika-baby.webp",
     "precoOriginal" : "59,90",
     "precoPromocao" : "47,28",
-    "tag" : "-21%",
+    "desconto" : "-21%",
     "linkAfiliado" : "https://meli.la/2eSLrfz",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -1368,86 +3660,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 47.28
-    } ]
-  }, {
-    "pid" : 7404,
-    "id" : 161071,
-    "titulo" : "Macacão de dormir para bebês Cotton Sleep and Play, Pack of 2 Simple Joys by Carter'sMeninas",
-    "imagem" : "https://m.media-amazon.com/images/I/81akbZpB4SL._AC_SL1500_.jpg",
-    "precoOriginal" : "137,67",
-    "precoPromocao" : "115,52",
-    "tag" : "-16%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07ZPPSND6?tag=curadomus-20",
-    "categoria" : "Bebês",
-    "categoriaId" : 7,
-    "dataOferta" : "08/09/2026 16:20",
-    "destaque" : false,
-    "precoAnterior" : "115,52",
-    "menorPrecoEmDias" : false,
-    "historico" : [ {
-      "data" : "10/08/2026",
-      "preco" : 143.52
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 143.52
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 146.27
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 146.27
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 146.27
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 146.27
-    }, {
-      "data" : "18/08/2026",
-      "preco" : 146.27
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 145.31
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 145.31
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 145.31
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 145.31
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 145.25
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 145.25
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 144.9
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 144.9
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 144.9
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 115.52
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 115.52
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 115.52
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 115.52
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 115.52
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 11,
     "id" : 161088,
@@ -1455,7 +3669,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/71gD11TbWBL._SL1500_.jpg",
     "precoOriginal" : "59,90",
     "precoPromocao" : "39,77",
-    "tag" : "-33%",
+    "desconto" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584824020?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -1538,7 +3752,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 39.77
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 4883,
     "id" : 161113,
@@ -1546,7 +3761,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/51O0jgSkUKL._AC_SL1200_.jpg",
     "precoOriginal" : "149,90",
     "precoPromocao" : "75,90",
-    "tag" : "-49%",
+    "desconto" : "-49%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CTD56FW3?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
     "categoriaId" : 6,
@@ -1620,27 +3835,717 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 75.9
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
-    "pid" : 9543,
-    "id" : 161058,
-    "titulo" : "Nescafé Café Solúvel Tradição 100G",
-    "imagem" : "https://m.media-amazon.com/images/I/81MBqtxU5vL._AC_SL1500_.jpg",
-    "precoOriginal" : "26,99",
-    "precoPromocao" : "17,81",
-    "tag" : "-34%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B001ZDDJIQ?tag=curadomus-20",
-    "categoria" : "Alimentos e Bebidas",
-    "categoriaId" : 2,
-    "dataOferta" : "08/09/2026 16:02",
+    "pid" : 322,
+    "id" : 161648,
+    "titulo" : "Meu amigo está triste",
+    "imagem" : "https://m.media-amazon.com/images/I/71xrqjB-oOL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "48,93",
+    "desconto" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067059?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:04",
     "destaque" : false,
+    "precoAnterior" : "48,93",
     "menorPrecoEmDias" : false,
     "historico" : [ {
-      "data" : "07/09/2026"
+      "data" : "10/08/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 56.52
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 56.52
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 56.52
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 48.93
     }, {
       "data" : "08/09/2026",
-      "preco" : 17.81
-    } ]
+      "preco" : 48.93
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 81,
+    "id" : 161533,
+    "titulo" : "Mimosa está entediada: 9",
+    "imagem" : "https://m.media-amazon.com/images/I/91HNRdhuUWL._SL1500_.jpg",
+    "precoOriginal" : "74,00",
+    "precoPromocao" : "55,50",
+    "desconto" : "-25%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6586106788?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:55",
+    "destaque" : false,
+    "precoAnterior" : "55,50",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 64.03
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 64.03
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 63.96
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 63.96
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 64.47
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 64.47
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 64.47
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 64.47
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 64.47
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 64.47
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 64.47
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 64.47
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 64.47
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 64.43
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 64.43
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 64.43
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 64.43
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 64.43
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 64.43
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 55.5
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 55.5
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 55.5
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 55.5
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 55.5
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 55.5
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 535,
+    "id" : 161699,
+    "titulo" : "Mimosa procura um tesouro - vol. 5",
+    "imagem" : "https://m.media-amazon.com/images/I/A1q3BHQy6TL._SL1500_.jpg",
+    "precoOriginal" : "74,00",
+    "precoPromocao" : "57,50",
+    "desconto" : "-22%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6586106532?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:17",
+    "destaque" : false,
+    "precoAnterior" : "57,50",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 57.5
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 57.5
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 1665,
+    "id" : 161587,
+    "titulo" : "Nesfit 0 Adição Açucar Cereal Matinal 220g",
+    "imagem" : "https://m.media-amazon.com/images/I/81odbW8intL._AC_SL1500_.jpg",
+    "precoOriginal" : "16,79",
+    "precoPromocao" : "13,90",
+    "desconto" : "-17%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08KSX6V9L?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:03",
+    "destaque" : false,
+    "precoAnterior" : "13,20",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 14.69
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 16.79
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 14.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 14.29
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 14.29
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 12.59
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 12.59
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 12.59
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 12.59
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 12.59
+    }, {
+      "data" : "26/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 13.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 16.39
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 16.79
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 16.79
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 14.29
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 13.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 13.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 13.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 13.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 13.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 13.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 13.9
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 1450,
+    "id" : 161570,
+    "titulo" : "Neslac Comfor Zero Lactose - Composto Lácteo, Fórmula infantil, 700g",
+    "imagem" : "https://m.media-amazon.com/images/I/71Ziq9OkyEL._AC_SL1500_.jpg",
+    "precoOriginal" : "76,69",
+    "precoPromocao" : "60,59",
+    "desconto" : "-20%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08K3PF8Q7?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:01",
+    "destaque" : false,
+    "precoAnterior" : "60,59",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 76.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 81.29
+    }, {
+      "data" : "27/08/2026"
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 60.59
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 60.59
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 1663,
+    "id" : 161586,
+    "titulo" : "Nestlé Farinha Láctea Nestle Tradicional 360G",
+    "imagem" : "https://m.media-amazon.com/images/I/710H7s4ewcL._AC_SL1500_.jpg",
+    "precoOriginal" : "20,99",
+    "precoPromocao" : "16,79",
+    "desconto" : "-20%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CBN8FLXM?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:03",
+    "destaque" : false,
+    "precoAnterior" : "16,79",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 16.79
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 16.79
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 16.79
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 16.79
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 16.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 16.99
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 16.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 15.74
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 16.79
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 16.79
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 14.39
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 14.39
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 14.39
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 14.39
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 14.39
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 12.95
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 16.79
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 241,
+    "id" : 161553,
+    "titulo" : "O amigo",
+    "imagem" : "https://m.media-amazon.com/images/I/81EkTWaP8JL._SL1500_.jpg",
+    "precoOriginal" : "49,00",
+    "precoPromocao" : "24,50",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508171870?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:58",
+    "destaque" : false,
+    "precoAnterior" : "24,50",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026"
+    }, {
+      "data" : "11/08/2026"
+    }, {
+      "data" : "13/08/2026"
+    }, {
+      "data" : "14/08/2026"
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "16/08/2026"
+    }, {
+      "data" : "18/08/2026"
+    }, {
+      "data" : "19/08/2026"
+    }, {
+      "data" : "21/08/2026"
+    }, {
+      "data" : "22/08/2026"
+    }, {
+      "data" : "23/08/2026"
+    }, {
+      "data" : "25/08/2026"
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 24.5
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 244,
+    "id" : 161556,
+    "titulo" : "O aniversário",
+    "imagem" : "https://m.media-amazon.com/images/I/91+pSG021JL._SL1500_.jpg",
+    "precoOriginal" : "49,00",
+    "precoPromocao" : "24,50",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://amzn.to/3RWwGy6",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:59",
+    "destaque" : false,
+    "precoAnterior" : "24,50",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 35.0
+    }, {
+      "data" : "26/08/2026"
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 24.5
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 9,
     "id" : 161087,
@@ -1648,7 +4553,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/81QndDwqAtL._SL1500_.jpg",
     "precoOriginal" : "59,90",
     "precoPromocao" : "41,93",
-    "tag" : "-30%",
+    "desconto" : "-30%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6584824519?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -1728,7 +4633,100 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 41.93
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 235,
+    "id" : 161546,
+    "titulo" : "O caracol",
+    "imagem" : "https://m.media-amazon.com/images/I/71UvoVLgoEL._SL1500_.jpg",
+    "precoOriginal" : "84,00",
+    "precoPromocao" : "42,00",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508176597?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:57",
+    "destaque" : false,
+    "precoAnterior" : "42,00",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 49.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 42.0
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 27,
     "id" : 161097,
@@ -1736,7 +4734,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/A1d0yJYO+FL._SL1500_.jpg",
     "precoOriginal" : "67,90",
     "precoPromocao" : "47,53",
-    "tag" : "-30%",
+    "desconto" : "-30%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574126241?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -1819,7 +4817,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 47.53
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 39,
     "id" : 161105,
@@ -1827,7 +4826,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/81v84CBSC1L._SL1500_.jpg",
     "precoOriginal" : "89,90",
     "precoPromocao" : "53,90",
-    "tag" : "-40%",
+    "desconto" : "-40%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574062855?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -1911,7 +4910,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 53.9
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 36,
     "id" : 161104,
@@ -1919,7 +4919,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/6178yZKBsXL._SL1200_.jpg",
     "precoOriginal" : "39,90",
     "precoPromocao" : "27,91",
-    "tag" : "-30%",
+    "desconto" : "-30%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555005882?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2002,7 +5002,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 27.91
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 34,
     "id" : 161102,
@@ -2010,7 +5011,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/81+idXavx2L._SL1500_.jpg",
     "precoOriginal" : "74,90",
     "precoPromocao" : "42,90",
-    "tag" : "-42%",
+    "desconto" : "-42%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559801020?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2093,7 +5094,281 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 42.9
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 350,
+    "id" : 161673,
+    "titulo" : "O grande divórcio",
+    "imagem" : "https://m.media-amazon.com/images/I/81X5a4WR7QS._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "39,30",
+    "desconto" : "-43%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6556891118?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:14",
+    "destaque" : false,
+    "precoAnterior" : "39,30",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 36.79
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 39.64
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 39.3
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 39.3
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 39.3
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 39.3
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 39.3
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 355,
+    "id" : 161677,
+    "titulo" : "O grúfalo",
+    "imagem" : "https://m.media-amazon.com/images/I/A1Yw3SMln2L._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "42,36",
+    "desconto" : "-37%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574120286?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:15",
+    "destaque" : false,
+    "precoAnterior" : "42,36",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 42.36
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 42.36
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 251,
+    "id" : 161563,
+    "titulo" : "O Hobbit + pôster",
+    "imagem" : "https://m.media-amazon.com/images/I/91M9xPIf10L._SL1500_.jpg",
+    "precoOriginal" : "74,90",
+    "precoPromocao" : "49,78",
+    "desconto" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8595084742?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 22:00",
+    "destaque" : false,
+    "precoAnterior" : "49,78",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 43.87
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 43.87
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 43.87
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 43.87
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 43.87
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 43.87
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 41.2
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 41.2
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 43.87
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 49.78
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 49.78
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 24,
     "id" : 161095,
@@ -2101,7 +5376,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/91LaKU75XhL._SL1500_.jpg",
     "precoOriginal" : "140,00",
     "precoPromocao" : "78,12",
-    "tag" : "-44%",
+    "desconto" : "-44%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8581323944?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2178,7 +5453,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 78.12
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 33,
     "id" : 161101,
@@ -2186,7 +5462,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/91GMAlsrEcL._SL1500_.jpg",
     "precoOriginal" : "79,90",
     "precoPromocao" : "52,98",
-    "tag" : "-33%",
+    "desconto" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556402583?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2269,7 +5545,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 52.98
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 29,
     "id" : 161099,
@@ -2277,7 +5554,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/91BlWzWsy7L._SL1500_.jpg",
     "precoOriginal" : "67,90",
     "precoPromocao" : "40,15",
-    "tag" : "-40%",
+    "desconto" : "-40%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6556540439?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2360,91 +5637,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 40.15
-    } ]
-  }, {
-    "pid" : 2760,
-    "id" : 161047,
-    "titulo" : "O lótus azul",
-    "imagem" : "https://m.media-amazon.com/images/I/81kq2aMmy1S._SL1500_.jpg",
-    "precoOriginal" : "89,90",
-    "precoPromocao" : "74,92",
-    "tag" : "-16%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/8535906711?tag=curadomus-20",
-    "categoria" : "Livros",
-    "categoriaId" : 1,
-    "dataOferta" : "08/09/2026 15:48",
-    "destaque" : false,
-    "precoAnterior" : "69,38",
-    "menorPrecoEmDias" : false,
-    "historico" : [ {
-      "data" : "10/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "26/08/2026"
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 65.38
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 69.38
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 69.38
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 69.38
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 69.38
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 69.38
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 69.38
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 74.92
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 65,
     "id" : 161108,
@@ -2452,7 +5646,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/71v5lZMpKcL._SL1395_.jpg",
     "precoOriginal" : "58,00",
     "precoPromocao" : "42,24",
-    "tag" : "-27%",
+    "desconto" : "-27%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113358?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2525,7 +5719,632 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 42.24
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 240,
+    "id" : 161552,
+    "titulo" : "O menino e o muro",
+    "imagem" : "https://m.media-amazon.com/images/I/91iTuClvyEL._SL1500_.jpg",
+    "precoOriginal" : "58,00",
+    "precoPromocao" : "48,34",
+    "desconto" : "-16%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508113536?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:58",
+    "destaque" : false,
+    "precoAnterior" : "45,24",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 45.21
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 46.63
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 45.21
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 45.21
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 46.63
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 44.26
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 43.86
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 44.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 48.34
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 44.99
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 48.34
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 231,
+    "id" : 161542,
+    "titulo" : "O mistério da lua",
+    "imagem" : "https://m.media-amazon.com/images/I/51bVzIpFHaL._SL1200_.jpg",
+    "precoOriginal" : "58,00",
+    "precoPromocao" : "29,80",
+    "desconto" : "-48%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508111312?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:57",
+    "destaque" : false,
+    "precoAnterior" : "29,80",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 40.13
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 40.13
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 40.13
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 40.13
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 29.8
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 29.8
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 239,
+    "id" : 161551,
+    "titulo" : "O peru de peruca",
+    "imagem" : "https://m.media-amazon.com/images/I/71wGAXmFy8L._SL1407_.jpg",
+    "precoOriginal" : "58,00",
+    "precoPromocao" : "41,26",
+    "desconto" : "-28%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508113331?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:58",
+    "destaque" : false,
+    "precoAnterior" : "41,26",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 37.49
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 37.49
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "16/08/2026"
+    }, {
+      "data" : "18/08/2026"
+    }, {
+      "data" : "19/08/2026"
+    }, {
+      "data" : "21/08/2026"
+    }, {
+      "data" : "22/08/2026"
+    }, {
+      "data" : "23/08/2026"
+    }, {
+      "data" : "25/08/2026"
+    }, {
+      "data" : "26/08/2026"
+    }, {
+      "data" : "27/08/2026"
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 41.26
+    }, {
+      "data" : "30/08/2026"
+    }, {
+      "data" : "31/08/2026"
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 31.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 31.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 31.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 31.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 31.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 31.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 31.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 41.26
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 348,
+    "id" : 161672,
+    "titulo" : "O piquenique do Gildo",
+    "imagem" : "https://m.media-amazon.com/images/I/71JpfphllsL._SL1500_.jpg",
+    "precoOriginal" : "62,90",
+    "precoPromocao" : "34,86",
+    "desconto" : "-44%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6556540889?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:14",
+    "destaque" : false,
+    "precoAnterior" : "34,86",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 36.7
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 34.86
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 34.86
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 34.86
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 34.86
+    }, {
+      "data" : "06/09/2026"
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 34.86
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 34.86
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 229,
+    "id" : 161540,
+    "titulo" : "O pote de melado",
+    "imagem" : "https://m.media-amazon.com/images/I/A1DmsMwAi6L._SL1500_.jpg",
+    "precoOriginal" : "84,00",
+    "precoPromocao" : "42,00",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508172826?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:56",
+    "destaque" : false,
+    "precoAnterior" : "42,00",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 42.0
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 237,
+    "id" : 161548,
+    "titulo" : "O rabo do gato",
+    "imagem" : "https://m.media-amazon.com/images/I/81jPRjUgkwL._SL1500_.jpg",
+    "precoOriginal" : "84,00",
+    "precoPromocao" : "42,00",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508172796?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:58",
+    "destaque" : false,
+    "precoAnterior" : "42,00",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 42.0
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 354,
+    "id" : 161676,
+    "titulo" : "O ratinho, o morango vermelho maduro e o grande urso esfomeado",
+    "imagem" : "https://m.media-amazon.com/images/I/A1jBQ8onjaL._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "45,12",
+    "desconto" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574121878?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:15",
+    "destaque" : false,
+    "precoAnterior" : "45,12",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 33.89
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 33.89
+    }, {
+      "data" : "13/08/2026"
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 33.89
+    }, {
+      "data" : "15/08/2026"
+    }, {
+      "data" : "16/08/2026"
+    }, {
+      "data" : "18/08/2026"
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 45.12
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 45.12
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 20,
     "id" : 161092,
@@ -2533,7 +6352,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/61N4u6ijSeL._SL1200_.jpg",
     "precoOriginal" : "299,90",
     "precoPromocao" : "191,00",
-    "tag" : "-36%",
+    "desconto" : "-36%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555112514??tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2616,7 +6435,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 191.0
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 1,
     "id" : 161083,
@@ -2624,7 +6444,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/81MoknVer8L._SL1500_.jpg",
     "precoOriginal" : "74,90",
     "precoPromocao" : "48,64",
-    "tag" : "-35%",
+    "desconto" : "-35%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8595084378?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2706,7 +6526,190 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 48.64
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 228,
+    "id" : 161539,
+    "titulo" : "O sonho da vaca",
+    "imagem" : "https://m.media-amazon.com/images/I/81iRVqQqcvL._SL1500_.jpg",
+    "precoOriginal" : "58,00",
+    "precoPromocao" : "38,91",
+    "desconto" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508111290?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:56",
+    "destaque" : false,
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 29.44
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 39.67
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 43.86
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 44.26
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 38.91
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 38.91
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 45.24
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 38.91
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 38.91
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 38.91
+    }, {
+      "data" : "07/09/2026"
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 38.91
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 232,
+    "id" : 161543,
+    "titulo" : "O susto do periquito",
+    "imagem" : "https://m.media-amazon.com/images/I/81-eZyqFkSL._SL1500_.jpg",
+    "precoOriginal" : "58,00",
+    "precoPromocao" : "29,90",
+    "desconto" : "-48%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508111339?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:57",
+    "destaque" : false,
+    "precoAnterior" : "29,90",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 34.15
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 46.17
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 34.15
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 34.15
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 29.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 29.9
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 21,
     "id" : 161093,
@@ -2714,7 +6717,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/71p7NlCiLsL._SL1200_.jpg",
     "precoOriginal" : "39,90",
     "precoPromocao" : "25,06",
-    "tag" : "-37%",
+    "desconto" : "-37%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8538094505?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2794,7 +6797,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 25.06
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 597,
     "id" : 161126,
@@ -2802,7 +6806,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/518G7TKbuKL._AC_SL1200_.jpg",
     "precoOriginal" : "36,90",
     "precoPromocao" : "24,78",
-    "tag" : "-32%",
+    "desconto" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08BWYTR6F?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -2884,7 +6888,100 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 24.78
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 1688,
+    "id" : 161595,
+    "titulo" : "Orfeu Café Bourbon Amarelo em Grãos, 100% Arabica, Torra Média Clara 250g",
+    "imagem" : "https://m.media-amazon.com/images/I/51MolDqECmL._AC_SL1000_.jpg",
+    "precoOriginal" : "48,40",
+    "precoPromocao" : "34,85",
+    "desconto" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B084WLM5TF?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:05",
+    "destaque" : false,
+    "precoAnterior" : "34,85",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 38.8
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 38.8
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 38.8
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 38.8
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 38.8
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 38.8
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 38.8
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 38.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 38.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 38.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 38.99
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 44.0
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 36.69
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 36.69
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 36.69
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 36.69
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 36.69
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 34.85
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 34.85
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 34.85
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 34.85
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 34.85
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 34.85
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 34.85
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 14,
     "id" : 161091,
@@ -2892,7 +6989,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/91adcZFpabL._SL1500_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "41,90",
-    "tag" : "-40%",
+    "desconto" : "-40%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8578601955?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -2975,7 +7072,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 41.9
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 25,
     "id" : 161096,
@@ -2983,7 +7081,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/91wpGFMJsuL._SL1500_.jpg",
     "precoOriginal" : "54,90",
     "precoPromocao" : "32,18",
-    "tag" : "-41%",
+    "desconto" : "-41%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800504?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -3063,7 +7161,100 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 32.18
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 76,
+    "id" : 161531,
+    "titulo" : "Paddington vai ao circo | Tradução altamente recomendável FNLIJ 2025",
+    "imagem" : "https://m.media-amazon.com/images/I/71fbjj4U1qL._SL1500_.jpg",
+    "precoOriginal" : "54,90",
+    "precoPromocao" : "39,93",
+    "desconto" : "-27%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/6559800881?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:55",
+    "destaque" : false,
+    "precoAnterior" : "39,93",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 33.27
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 37.52
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 39.93
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 39.93
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 39.93
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 39.93
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 39.93
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 39.93
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 39.93
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 39.93
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 601,
     "id" : 161129,
@@ -3071,7 +7262,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/71RZR03zWyL._AC_SL1500_.jpg",
     "precoOriginal" : "25,90",
     "precoPromocao" : "17,99",
-    "tag" : "-30%",
+    "desconto" : "-30%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CNTVD72S?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -3140,7 +7331,99 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 17.99
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 245,
+    "id" : 161557,
+    "titulo" : "Passeio na fazenda",
+    "imagem" : "https://m.media-amazon.com/images/I/81fJ42l5QTL._SL1500_.jpg",
+    "precoOriginal" : "49,00",
+    "precoPromocao" : "24,50",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508177798?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:59",
+    "destaque" : false,
+    "precoAnterior" : "24,50",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "26/08/2026"
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 24.5
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 5319,
     "id" : 161115,
@@ -3148,7 +7431,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/71PFjBadk-L._AC_SL1500_.jpg",
     "precoOriginal" : "59,99",
     "precoPromocao" : "36,99",
-    "tag" : "-38%",
+    "desconto" : "-38%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09SVRB79R?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
     "categoriaId" : 6,
@@ -3222,7 +7505,284 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 36.99
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 315,
+    "id" : 161641,
+    "titulo" : "Posso brincar também? (Nova edição)",
+    "imagem" : "https://m.media-amazon.com/images/I/71kvgNp0FcL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "47,10",
+    "desconto" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574069760?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:03",
+    "destaque" : false,
+    "precoAnterior" : "47,10",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 56.52
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 54.52
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 54.52
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 51.64
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 47.15
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 47.15
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 47.15
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 47.15
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 47.15
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 47.15
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 47.15
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 46.0
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 47.11
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 47.11
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 47.11
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 47.11
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 47.11
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 47.11
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 47.11
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 47.11
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 47.1
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 47.1
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 47.1
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 320,
+    "id" : 161646,
+    "titulo" : "Preparado para brincar lá fora?",
+    "imagem" : "https://m.media-amazon.com/images/I/81uzmFo2GhL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "41,94",
+    "desconto" : "-40%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574068756?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:04",
+    "destaque" : false,
+    "precoAnterior" : "41,94",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 47.2
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 47.2
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 47.2
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 47.2
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 47.2
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 47.2
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 41.94
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 41.94
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 511,
+    "id" : 161682,
+    "titulo" : "Primeiro dicionário escolar - Língua Portuguesa",
+    "imagem" : "https://m.media-amazon.com/images/I/71Kg5ZbLphL._SL1500_.jpg",
+    "precoOriginal" : "89,90",
+    "precoPromocao" : "46,16",
+    "desconto" : "-48%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8504014096?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:16",
+    "destaque" : false,
+    "precoAnterior" : "46,16",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 54.0
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 54.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 54.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 54.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 54.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 54.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 60.37
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 46.16
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 46.16
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 46.16
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 46.16
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 46.16
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 46.16
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 46.16
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 599,
     "id" : 161127,
@@ -3230,7 +7790,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/61akH2rcdHL._AC_SL1200_.jpg",
     "precoOriginal" : "44,36",
     "precoPromocao" : "27,79",
-    "tag" : "-37%",
+    "desconto" : "-37%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0D1DSFV8C?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -3310,7 +7870,282 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 27.79
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 533,
+    "id" : 161687,
+    "titulo" : "Píppi a bordo",
+    "imagem" : "https://m.media-amazon.com/images/I/91PxVWsjpKL._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "43,90",
+    "desconto" : "-35%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067628?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:17",
+    "destaque" : false,
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "07/09/2026"
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 43.9
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 222,
+    "id" : 161537,
+    "titulo" : "Píppi nos mares do sul",
+    "imagem" : "https://m.media-amazon.com/images/I/A1Ox0-+4V7S._SL1500_.jpg",
+    "precoOriginal" : "67,90",
+    "precoPromocao" : "55,95",
+    "desconto" : "-17%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067326?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:56",
+    "destaque" : false,
+    "precoAnterior" : "55,95",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 43.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 48.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 48.99
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 55.95
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 55.95
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 258,
+    "id" : 161567,
+    "titulo" : "Que barulho é este?",
+    "imagem" : "https://m.media-amazon.com/images/I/81JeioulkLL._SL1500_.jpg",
+    "precoOriginal" : "49,00",
+    "precoPromocao" : "24,50",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8508177801?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 22:00",
+    "destaque" : false,
+    "precoAnterior" : "24,50",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 25.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 24.5
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 24.5
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 590,
     "id" : 161123,
@@ -3318,7 +8153,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/41CGJiuDeKL._AC_SL1000_.jpg",
     "precoOriginal" : "40,99",
     "precoPromocao" : "27,29",
-    "tag" : "-33%",
+    "desconto" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077BY84XX?tag=curadomus-20",
     "categoria" : "Bebês",
     "categoriaId" : 7,
@@ -3400,86 +8235,174 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 27.29
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
-    "pid" : 8327,
-    "id" : 161050,
-    "titulo" : "Salgadinho Batata Frita Pringles Tripack Festa do Futebol 322g",
-    "imagem" : "https://m.media-amazon.com/images/I/61SfzYSXHbL._AC_SL1080_.jpg",
-    "precoOriginal" : "32,90",
-    "precoPromocao" : "24,90",
-    "tag" : "-24%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0GTRLTK16?tag=curadomus-20",
-    "categoria" : "Alimentos e Bebidas",
-    "categoriaId" : 2,
-    "dataOferta" : "08/09/2026 15:55",
+    "pid" : 4647,
+    "id" : 161466,
+    "titulo" : "Sandália Babuche Antiderrapante Leve Macia Confortável",
+    "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_830677-MLB107505825713_022026-F-sandalia-babuche-antiderrapante-leve-macia-confortavel.webp",
+    "precoOriginal" : "74,90",
+    "precoPromocao" : "31,75",
+    "desconto" : "-57%",
+    "linkAfiliado" : "https://meli.la/1ivu5U3",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "08/09/2026 21:45",
     "destaque" : false,
-    "precoAnterior" : "24,90",
+    "precoAnterior" : "31,75",
     "menorPrecoEmDias" : false,
     "historico" : [ {
-      "data" : "12/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 24.9
+      "data" : "15/08/2026",
+      "preco" : 31.92
     }, {
       "data" : "17/08/2026",
-      "preco" : 24.9
+      "preco" : 30.67
     }, {
       "data" : "18/08/2026",
-      "preco" : 24.9
+      "preco" : 28.8
     }, {
-      "data" : "20/08/2026",
-      "preco" : 32.9
+      "data" : "19/08/2026",
+      "preco" : 28.8
     }, {
       "data" : "21/08/2026",
-      "preco" : 32.9
+      "preco" : 28.8
     }, {
-      "data" : "23/08/2026",
-      "preco" : 32.9
+      "data" : "22/08/2026",
+      "preco" : 64.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 28.8
     }, {
       "data" : "25/08/2026",
-      "preco" : 32.9
+      "preco" : 31.92
     }, {
       "data" : "26/08/2026",
-      "preco" : 28.88
+      "preco" : 31.92
     }, {
-      "data" : "27/08/2026",
-      "preco" : 28.88
+      "data" : "28/08/2026",
+      "preco" : 31.92
     }, {
       "data" : "29/08/2026",
-      "preco" : 28.88
+      "preco" : 31.92
     }, {
-      "data" : "31/08/2026",
-      "preco" : 28.88
+      "data" : "30/08/2026",
+      "preco" : 31.92
     }, {
       "data" : "01/09/2026",
-      "preco" : 28.88
+      "preco" : 31.75
     }, {
       "data" : "02/09/2026",
-      "preco" : 24.9
+      "preco" : 31.75
     }, {
       "data" : "03/09/2026",
-      "preco" : 24.9
+      "preco" : 31.75
     }, {
       "data" : "04/09/2026",
-      "preco" : 24.9
+      "preco" : 31.75
     }, {
       "data" : "05/09/2026",
-      "preco" : 24.9
+      "preco" : 31.75
     }, {
       "data" : "06/09/2026",
-      "preco" : 24.9
+      "preco" : 31.75
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 31.75
     }, {
       "data" : "08/09/2026",
-      "preco" : 24.9
-    } ]
+      "preco" : 31.75
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 316,
+    "id" : 161642,
+    "titulo" : "Será que eu divido o meu sorvete?",
+    "imagem" : "https://m.media-amazon.com/images/I/71SAYv284mL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "47,28",
+    "desconto" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067040?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:03",
+    "destaque" : false,
+    "precoAnterior" : "47,28",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 47.28
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 47.28
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 42,
     "id" : 161107,
@@ -3487,7 +8410,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/915KyRnQqzL._SL1500_.jpg",
     "precoOriginal" : "74,90",
     "precoPromocao" : "43,26",
-    "tag" : "-42%",
+    "desconto" : "-42%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8595085684?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -3569,7 +8492,8 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 43.26
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 224,
     "id" : 161110,
@@ -3577,7 +8501,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/71GjcX4QQWL._AC_SL1500_.jpg",
     "precoOriginal" : "15,17",
     "precoPromocao" : "10,92",
-    "tag" : "-28%",
+    "desconto" : "-28%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0778SGJ2N?tag=curadomus-20",
     "categoria" : "Papelaria",
     "categoriaId" : 4,
@@ -3657,95 +8581,278 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 10.92
-    } ]
+    } ],
+    "tags" : [ ]
   }, {
-    "pid" : 2769,
-    "id" : 161048,
-    "titulo" : "Tintim - Tintim no País do Ouro Negro",
-    "imagem" : "https://m.media-amazon.com/images/I/91gMTI7IOLS._SL1500_.jpg",
-    "precoOriginal" : "89,90",
-    "precoPromocao" : "66,56",
-    "tag" : "-25%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/8535909613?tag=curadomus-20",
+    "pid" : 317,
+    "id" : 161643,
+    "titulo" : "Tem um pássaro na sua cabeça! (Nova edição)",
+    "imagem" : "https://m.media-amazon.com/images/I/71f+vORlCyL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "48,93",
+    "desconto" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574069981?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
-    "dataOferta" : "08/09/2026 15:50",
+    "dataOferta" : "08/09/2026 23:03",
     "destaque" : false,
-    "precoAnterior" : "66,56",
+    "precoAnterior" : "48,93",
     "menorPrecoEmDias" : false,
     "historico" : [ {
       "data" : "10/08/2026",
-      "preco" : 72.12
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 72.12
+      "preco" : 56.52
     }, {
       "data" : "12/08/2026",
-      "preco" : 72.12
+      "preco" : 49.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 49.0
     }, {
       "data" : "14/08/2026",
-      "preco" : 72.12
+      "preco" : 49.0
     }, {
       "data" : "15/08/2026",
-      "preco" : 72.12
+      "preco" : 49.0
     }, {
       "data" : "16/08/2026",
-      "preco" : 72.12
+      "preco" : 49.0
     }, {
-      "data" : "17/08/2026",
-      "preco" : 66.62
+      "data" : "18/08/2026",
+      "preco" : 49.0
     }, {
       "data" : "19/08/2026",
-      "preco" : 66.62
+      "preco" : 49.0
     }, {
       "data" : "21/08/2026",
-      "preco" : 66.62
+      "preco" : 48.93
     }, {
       "data" : "22/08/2026",
-      "preco" : 66.62
+      "preco" : 48.93
     }, {
       "data" : "23/08/2026",
-      "preco" : 66.62
+      "preco" : 48.93
     }, {
       "data" : "25/08/2026",
-      "preco" : 66.62
+      "preco" : 48.93
     }, {
       "data" : "26/08/2026",
-      "preco" : 66.61
+      "preco" : 48.93
     }, {
       "data" : "27/08/2026",
-      "preco" : 66.56
+      "preco" : 48.93
     }, {
       "data" : "29/08/2026",
-      "preco" : 66.56
+      "preco" : 48.93
     }, {
       "data" : "30/08/2026",
-      "preco" : 66.56
+      "preco" : 48.93
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 48.93
     }, {
       "data" : "01/09/2026",
-      "preco" : 66.56
+      "preco" : 48.93
     }, {
       "data" : "02/09/2026",
-      "preco" : 66.56
+      "preco" : 48.93
     }, {
       "data" : "03/09/2026",
-      "preco" : 66.56
+      "preco" : 48.93
     }, {
       "data" : "04/09/2026",
-      "preco" : 66.56
+      "preco" : 48.93
     }, {
       "data" : "05/09/2026",
-      "preco" : 66.56
+      "preco" : 48.93
     }, {
       "data" : "06/09/2026",
-      "preco" : 66.56
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 66.56
+      "preco" : 48.93
     }, {
       "data" : "08/09/2026",
-      "preco" : 66.56
-    } ]
+      "preco" : 48.93
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 230,
+    "id" : 161541,
+    "titulo" : "Um Dia Muito Mal-Humorado",
+    "imagem" : "https://m.media-amazon.com/images/I/61e1oEZ6SxL._SL1200_.jpg",
+    "precoOriginal" : "39,90",
+    "precoPromocao" : "26,48",
+    "desconto" : "-33%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8538071025?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 21:56",
+    "destaque" : false,
+    "precoAnterior" : "26,48",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 20.35
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 26.51
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 26.51
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 26.51
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 26.51
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 26.5
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 26.5
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 26.49
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 26.49
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 26.49
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 26.49
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 26.49
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 26.49
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 26.49
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 26.49
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 26.49
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 26.48
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 26.48
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 314,
+    "id" : 161640,
+    "titulo" : "Um grandalhão pegou a minha bola",
+    "imagem" : "https://m.media-amazon.com/images/I/717iWAynxlL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "47,28",
+    "desconto" : "-32%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574067997?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:03",
+    "destaque" : false,
+    "precoAnterior" : "46,14",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 46.14
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 46.14
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 46.14
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 46.14
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 46.14
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 47.28
+    } ],
+    "tags" : [ ]
   }, {
     "pid" : 22,
     "id" : 161094,
@@ -3753,7 +8860,7 @@
     "imagem" : "https://m.media-amazon.com/images/I/51F9vcujsRL._SL1500_.jpg",
     "precoOriginal" : "64,98",
     "precoPromocao" : "50,29",
-    "tag" : "-22%",
+    "desconto" : "-22%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8580633540?tag=curadomus-20",
     "categoria" : "Livros",
     "categoriaId" : 1,
@@ -3836,7 +8943,189 @@
     }, {
       "data" : "08/09/2026",
       "preco" : 50.29
-    } ]
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 323,
+    "id" : 161649,
+    "titulo" : "Vou dar um susto no meu amigo",
+    "imagem" : "https://m.media-amazon.com/images/I/71dU7eTL+UL._SL1500_.jpg",
+    "precoOriginal" : "69,90",
+    "precoPromocao" : "48,93",
+    "desconto" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/8574068764?tag=curadomus-20",
+    "categoria" : "Livros",
+    "categoriaId" : 1,
+    "dataOferta" : "08/09/2026 23:04",
+    "destaque" : false,
+    "precoAnterior" : "48,93",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 54.84
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 45.5
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 45.5
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 45.5
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 45.5
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 48.93
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 48.93
+    } ],
+    "tags" : [ ]
+  }, {
+    "pid" : 1436,
+    "id" : 161569,
+    "titulo" : "X Roots Bicarbonato de Sódio 1kg — Ingrediente multiuso para culinária, limpeza e cuidados pessoais",
+    "imagem" : "https://m.media-amazon.com/images/I/61oTmvAQy-L._AC_SL1500_.jpg",
+    "precoOriginal" : "19,90",
+    "precoPromocao" : "16,06",
+    "desconto" : "-19%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0B9P6WJ18?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "08/09/2026 22:01",
+    "destaque" : false,
+    "precoAnterior" : "16,06",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "10/08/2026",
+      "preco" : 16.92
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 16.92
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 16.92
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 16.92
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 16.92
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 16.92
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 16.92
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 16.92
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 19.8
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 19.8
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 16.92
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 19.54
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 16.06
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 16.06
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 16.06
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 16.06
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 16.06
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 19.8
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 19.8
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 19.8
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 19.8
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 16.06
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 16.06
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 16.06
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 16.06
+    } ],
+    "tags" : [ "bicarbonato-em-po" ]
   } ],
   "cupons" : [ ]
 }
