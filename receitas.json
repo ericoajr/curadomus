@@ -1,10 +1,10 @@
 {
-  "ultimaAtualizacao": "03/09/2026",
+  "ultimaAtualizacao": "07/09/2026",
   "receitas": [
  	{
 	  "slug": "bolo-rosa-maria",
 	  "titulo": "Bolo Rosa Maria",
-	  "fonte": "D. Regina, vó do meu marido",
+	  "fonte": "Vó Regina.",
 	  "categoria": "Bolos e Doces",
 	  "imagem": "http://curadomus.com.br/images/bolo-de-chocolate.jpg",
 	  "tempoPreparo": "15 min",
@@ -30,11 +30,8 @@
 	  "dica": "Substitua o achocolotado por um cacau 70% ou 100% para ficar mais saudável.",
 
 	  "produtos": [
-		"9160", "9161",
-		"2786","9158","9554","9156","9157","9553",
-		"1730","2991","1662","1420","2658","6467","3221", "9159", 
-		"9154", "9155","9346","9347","9348", "9349",
-		"9162"]
+		"farinha-de-trigo", "acucar", "achocolatado", "cacau-em-po", "leite", "fermento-em-po"
+		]
 	},
 	{
 	  "slug": "strogonoff-de-tilapia",
@@ -71,7 +68,9 @@
 	  "dica": "Sirva com arroz branco e batata palha.",
 	  "produtos": [
 		"518","1097","3077","3209","3863",
-		"808", "2785"]
+		"9574", "9575",
+		"808", "2785", "9572", "9573"
+		"9570"]
 	},
 	{
 	  "slug": "cappuccino-caseiro",
@@ -135,8 +134,10 @@
 	  ],
 	  "dica": "Coloque pedaços de goiabada no meio da massa.",
 	  "produtos": [
-		
-		"9154", "9155", "9347", "9349"
+		"9583", "9584", "9585", "9586","9587",
+		"9154", "9155", "9347", "9349",
+		"9157","9553","9554",
+		"9162"
 	  ]
 	},
 	{
@@ -167,13 +168,16 @@
 	  ],
 	  "dica": "Podem ser feitos na sanduicheira. Também podem ser congelados prontos e descongelados em forno ou torradeira.",
 	  "produtos": [
-		"9154", "9155", "9347", "9349"
+		"9154", "9155", "9347", "9349",
+		"9591", "9592", "9593", 
+		"9598", "9599", "9600",
+		"520", "9594", "9595", "9596", "9597"
 	  ]
 	},
 	{
 	  "slug": "bolo-de-milho",
 	  "titulo": "Bolo de Milho",
-	  "fonte": "D. Lourdes, vó do meu marido.",
+	  "fonte": "Vó Lourdes.",
 	  "categoria": "Bolos e Doces",
 	  "resumo": "Uma receita tradicional e especial de bolo de milho de liquidificador, feita com muito amor.",
 	  "imagem": "http://curadomus.com.br/images/bolo-de-milho.jpg",
@@ -195,7 +199,19 @@
 	    "Despeje a massa em uma forma untada e enfarinhada.",
 	    "Leve para assar em forno preaquecido a 180ºC até dourar e firmar."
 	  ],
-	  "produtos": []
+	  "produtos": [
+		"9601",
+		"2786","9158","9554","9156","9157","9553",
+		"9154", "9155","9346","9347","9348", "9349",
+		
+		
+		
+		
+	    "9154", "9155", "9347", "9349",
+	    "9591", "9592", "9593", 
+	    "9598", "9599", "9600",
+	    "520", "9594", "9595", "9596", "9597"
+	  ]
 	}
   ]
 }

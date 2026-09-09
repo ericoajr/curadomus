@@ -170,7 +170,7 @@ function produtoCard(p) {
   return `
   <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
     <div class="relative flex shrink-0 items-center justify-center p-4 sm:w-40" style="background:var(--cream-deep)">
-      ${p.tag ? `<span class="absolute left-3 top-3 rounded-md bg-destructive px-2 py-0.5 text-[10px] font-bold text-white shadow">${p.tag.trim()}</span>` : ""}
+      ${p.desconto ? `<span class="absolute left-3 top-3 rounded-md bg-destructive px-2 py-0.5 text-[10px] font-bold text-white shadow">${p.desconto.trim()}</span>` : ""}
       <img src="${p.imagem}" alt="${p.titulo}" loading="lazy" class="h-28 w-full object-contain transition duration-300 group-hover:scale-105" />
     </div>
     <div class="flex flex-1 flex-col gap-2 p-4">
@@ -243,17 +243,32 @@ function renderReceita(receita) {
   el("conteudo").classList.remove("hidden");
 }
 
-// Cruza receita.produtos (lista de pids) com os itens de promocoes.json.
-// Se um pid não existir mais na lista de ofertas, ele é simplesmente
-// ignorado — assim a seção nunca aponta pra um produto fora do ar.
-function renderProdutosSugeridos(pids, ofertas) {
-  if (!pids || !pids.length) return;
-  // Compara sempre como texto: o promocoes.json guarda pid como número
-  // (234, 5864...), então normalizamos os dois lados antes de cruzar.
-  const porPid = new Map(ofertas.map(o => [String(o.pid), o]));
-  const encontrados = pids.map(pid => porPid.get(String(pid))).filter(Boolean);
+// Cruza receita.tags (lista de strings) com as tags de promocoes.json.
+function renderProdutosSugeridos(tagsReceita, ofertas) {
+  if (!tagsReceita || !tagsReceita.length) return;
+  
+  // Converte as tags da receita para um formato padrão (lowercase, sem espaços extras) para comparação
+  const tagsParaBusca = tagsReceita.map(t => String(t).trim().toLowerCase());
+
+  const encontrados = [];
+
+  for (const oferta of ofertas) {
+    if (!oferta.tags || !Array.isArray(oferta.tags)) continue;
+
+    // Converte as tags da oferta para o mesmo formato
+    const tagsDaOferta = oferta.tags.map(t => String(t).trim().toLowerCase());
+
+    // Verifica se existe alguma intersecção entre as tags da receita e as tags da oferta
+    const temTagEmComum = tagsDaOferta.some(tag => tagsParaBusca.includes(tag));
+
+    if (temTagEmComum) {
+      encontrados.push(oferta);
+    }
+  }
 
   if (!encontrados.length) return;
+  
+  // Renderiza apenas os produtos encontrados usando a função existente produtoCard
   el("produtosSugeridos").innerHTML = encontrados.map(produtoCard).join("");
   el("secaoProdutos").classList.remove("hidden");
 }
@@ -270,12 +285,13 @@ if (!slug) {
     .then(d => {
       const receita = (d.receitas || []).find(r => r.slug === slug);
       if (!receita) throw new Error("Receita não encontrada");
+      
       renderReceita(receita);
-      // Produtos sugeridos são opcionais — se o fetch de promoções falhar,
-      // a receita continua sendo exibida normalmente, só sem essa seção.
+      
       fetch("promocoes.json")
         .then(r => r.ok ? r.json() : Promise.reject())
-        .then(pd => renderProdutosSugeridos(receita.produtos, pd.ofertas || []))
+        // Mudança aqui: passamos receita.tags ao invés de receita.produtos
+        .then(pd => renderProdutosSugeridos(receita.tags, pd.ofertas || [])) 
         .catch(() => {});
     })
     .catch(mostrarErro);

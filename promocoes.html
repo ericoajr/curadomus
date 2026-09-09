@@ -502,7 +502,7 @@
       const categoria = escapeHTML(produto.categoria || "");
       const precoAtual = escapeHTML(produto.precoPromocao || "");
       const precoOriginal = escapeHTML(produto.precoOriginal || "");
-      const tag = escapeHTML(produto.tag || "");
+      const desconto = escapeHTML(produto.desconto || "");
       const historico = extrairHistorico(produto);
       const menorPreco = obterMenorPreco(produto);
 
@@ -524,7 +524,7 @@
       return `
         <article class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
           <div class="relative flex shrink-0 items-center justify-center p-5 sm:w-44" style="background:var(--cream)">
-            ${tag ? `<span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">${tag}</span>` : ""}
+            ${desconto ? `<span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">${desconto}</span>` : ""}
             ${destaque ? `<span class="absolute right-3 top-3 rounded-md bg-emerald-100 px-2 py-1 text-[10px] font-bold text-emerald-700">Destaque</span>` : ""}
             <img src="${imagem}" alt="${titulo}" loading="lazy" class="h-32 w-full object-contain sm:h-36">
           </div>
