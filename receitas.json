@@ -31,6 +31,9 @@
 
 	  "produtos": [
 		"farinha-de-trigo", "acucar", "achocolatado", "cacau-em-po", "leite", "fermento-em-po"
+		
+		
+		
 		]
 	},
 	{
@@ -67,10 +70,10 @@
 	  ],
 	  "dica": "Sirva com arroz branco e batata palha.",
 	  "produtos": [
-		"518","1097","3077","3209","3863",
-		"9574", "9575",
-		"808", "2785", "9572", "9573"
-		"9570"]
+		"azeite",
+		"tomate-pelado",
+		"mostarda-dijon", "mostarda",
+		"molho-ingles"]
 	},
 	{
 	  "slug": "cappuccino-caseiro",
@@ -98,12 +101,12 @@
 	  ],
 	  "dica": "A quantidade de café solúvel na receita original é de 6 colheres (chá), mas você pode adicionar 2 ou 3 colheres a mais se gostar de um sabor de café mais acentuado.",
 	  "produtos": [
-		"3212", "3377", "4327", "4905","4906","7656","9538","9539","9540","9541",
-		"2544","4288","4770","7811","8037","9542","9543","9545",
-		"517","2915","9547","9548","9549","9550",
-		"1730","2991","1662","1420","2658","6467","3221", "9159", 
-		"203","1436","9551","9552",
-		"9157","9553","9554"
+		"leite-em-po", 
+		"cafe-soluvel",
+		"canela-em-po"
+		"cacau-em-po","achocolatado-em-po", 
+		"bicarbonato-em-po",
+		"acucar"
 		]
 	},
 	{
@@ -168,10 +171,11 @@
 	  ],
 	  "dica": "Podem ser feitos na sanduicheira. Também podem ser congelados prontos e descongelados em forno ou torradeira.",
 	  "produtos": [
-		"9154", "9155", "9347", "9349",
-		"9591", "9592", "9593", 
-		"9598", "9599", "9600",
-		"520", "9594", "9595", "9596", "9597"
+		"leite",
+		"polvilho-doce", 
+		"queijo-ralado", 
+		"maisena", 
+		"chia"
 	  ]
 	},
 	{
@@ -200,17 +204,12 @@
 	    "Leve para assar em forno preaquecido a 180ºC até dourar e firmar."
 	  ],
 	  "produtos": [
-		"9601",
-		"2786","9158","9554","9156","9157","9553",
-		"9154", "9155","9346","9347","9348", "9349",
-		
-		
-		
-		
-	    "9154", "9155", "9347", "9349",
-	    "9591", "9592", "9593", 
-	    "9598", "9599", "9600",
-	    "520", "9594", "9595", "9596", "9597"
+		"milho-verde",
+		"acucar",
+		"leite",
+		"leite-de-coco",
+	    "farinha-de-trigo",
+	    "fermento-quimico" 
 	  ]
 	}
   ]
