@@ -247,7 +247,6 @@ function renderReceita(receita) {
 function renderProdutosSugeridos(tagsReceita, ofertas) {
   if (!tagsReceita || !tagsReceita.length) return;
   
-  alert(tagsReceita);
   // Converte as tags da receita para um formato padrão (lowercase, sem espaços extras) para comparação
   const tagsParaBusca = tagsReceita.map(t => String(t).trim().toLowerCase());
 
@@ -292,7 +291,7 @@ if (!slug) {
       fetch("promocoes.json")
         .then(r => r.ok ? r.json() : Promise.reject())
         // Mudança aqui: passamos receita.tags ao invés de receita.produtos
-        .then(pd => renderProdutosSugeridos(receita.tags, pd.ofertas || [])) 
+        .then(pd => renderProdutosSugeridos(receita.produtos, pd.ofertas || [])) 
         .catch(() => {});
     })
     .catch(mostrarErro);
