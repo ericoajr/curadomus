@@ -3,118 +3,21 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Cura Domus — Entre no grupo e receba as ofertas em primeira mão</title>
+<title>Cura Domus — Escolha o grupo da sua família</title>
 <meta name="description" content="Você viu no Instagram, agora receba direto no WhatsApp: ofertas verificadas, alertas de menor preço histórico e curadoria de família, todo dia." />
+<link rel="canonical" href="https://curadomus.com.br/html/cta.html" />
 <meta property="og:title" content="Cura Domus — Receba as ofertas no seu WhatsApp" />
 <meta property="og:description" content="As ofertas que você vê no Instagram, direto no seu WhatsApp. Sem spam, sem custo, saia quando quiser." />
 <meta property="og:type" content="website" />
+<meta property="og:url" content="https://curadomus.com.br/html/cta.html" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="icon" type="image/png" href="curadomus_logo.png">
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="/assets/css/cura-domus.css" />
 <script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          background: 'var(--background)',
-          foreground: 'var(--ink)',
-          card: 'var(--card)',
-          border: 'var(--border)',
-          muted: 'var(--muted)',
-          'muted-foreground': 'var(--muted-ink)',
-          primary: 'var(--primary)',
-          'primary-foreground': '#fff',
-          accent: 'var(--accent)',
-          whats: 'var(--whats)',
-        },
-        boxShadow: {
-          soft: '0 1px 2px rgba(30,25,20,0.04), 0 2px 8px rgba(30,25,20,0.04)',
-          card: '0 10px 30px -12px rgba(30,25,20,0.18)',
-        },
-        fontFamily: {
-          serif: ['"Cormorant Garamond"', 'serif'],
-          sans: ['Inter', 'system-ui', 'sans-serif'],
-        },
-      }
-    }
-  }
-</script>
-<style>
-  /* Mesma paleta do site principal (index.html) — esta página herda a
-     identidade visual da Cura Domus, só muda o objetivo: 1 CTA, sem grid
-     de ofertas, sem distração. */
-  :root {
-    --background: #FBF7F1;
-    --cream-deep: #F3ECDF;
-    --card: #FFFFFF;
-    --ink: #2B241E;
-    --muted: #EFE7DA;
-    --muted-ink: #7A6E60;
-    --border: #E7DFD1;
-    --primary: #6E5334;
-    --primary-deep: #4E3A22;
-    --accent: #C9A96A;
-    --whats: #25D366;
-    --whats-deep: #128C4A;
-  }
-  html, body { background: var(--background); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
-  .text-serif { font-family: "Cormorant Garamond", serif; letter-spacing: -0.01em; }
-  .text-primary { color: var(--primary); }
-  .bg-primary { background: var(--primary); }
-  .bg-whats { background: var(--whats); }
-  .text-whats { color: var(--whats); }
-  .border-primary\/40 { border-color: color-mix(in srgb, var(--primary) 40%, transparent); }
-  .bg-primary\/5 { background: color-mix(in srgb, var(--primary) 5%, transparent); }
-  .bg-primary\/10 { background: color-mix(in srgb, var(--primary) 10%, transparent); }
-  .bg-whats\/10 { background: color-mix(in srgb, var(--whats) 10%, transparent); }
-  .text-primary-foreground { color: #fff; }
-
-  @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
-  .animate-fade-up { animation: fade-up .5s ease both; }
-
-  /* Sinal de "ao vivo" no badge do topo — reaproveita o padrão do site principal */
-  @keyframes ping { 75%,100% { transform: scale(2); opacity:0; } }
-  .animate-ping-slow { animation: ping 1.8s cubic-bezier(0,0,0.2,1) infinite; }
-
-  /* --- Elemento de assinatura: prévia de conversa do WhatsApp ---
-     Em vez de estatística genérica ou ícone decorativo, mostramos o que a
-     pessoa realmente recebe: 3 balões de mensagem no estilo real do
-     WhatsApp, entrando em sequência. Isso concretiza a promessa da página
-     ("o que tem dentro do grupo") em vez de apenas prometer em texto. */
-  .chat-shell {
-    background: #E5DDD0;
-    background-image:
-      radial-gradient(circle at 8px 8px, rgba(0,0,0,0.035) 1px, transparent 0);
-    background-size: 22px 22px;
-  }
-  .bubble {
-    opacity: 0;
-    transform: translateY(10px) scale(0.98);
-    animation: bubble-in .45s ease forwards;
-  }
-  .bubble:nth-child(1) { animation-delay: .15s; }
-  .bubble:nth-child(2) { animation-delay: .85s; }
-  .bubble:nth-child(3) { animation-delay: 1.55s; }
-  @keyframes bubble-in { to { opacity: 1; transform: translateY(0) scale(1); } }
-
-  @media (prefers-reduced-motion: reduce) {
-    .animate-fade-up, .bubble, .animate-ping-slow { animation: none !important; opacity: 1 !important; transform: none !important; }
-  }
-
-  /* --- CTA principal: cards de grupo em destaque máximo ---
-     Verde do WhatsApp sólido, grandes, com leve "respiração" (pulse) pra
-     puxar o olho assim que a seção entra na tela. */
-  @keyframes pulse-soft { 0%,100% { box-shadow: 0 10px 30px -10px rgba(37,211,102,0.45); } 50% { box-shadow: 0 14px 38px -8px rgba(37,211,102,0.65); } }
-  .grupo-card { animation: pulse-soft 2.6s ease-in-out infinite; }
-  .grupo-card:hover, .grupo-card:focus-visible { animation-play-state: paused; }
-  @media (prefers-reduced-motion: reduce) { .grupo-card { animation: none !important; } }
-
-  /* Barra fixa inferior — reforça o CTA sem precisar rolar a página inteira */
-  .sticky-cta { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; }
-</style>
+<script src="/assets/js/tailwind-config.js"></script>
 </head>
 <body>
 <div class="min-h-screen">
@@ -145,7 +48,7 @@
       </p>
     </section>
 
-    <!-- CTA principal: escolha do grupo — logo após o hero, sem nada no meio -->
+    <!-- Escolha do grupo — leva para a landing page específica de cada tema -->
     <section id="grupos" class="mt-9">
       <div class="text-center">
         <div class="inline-flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-[0.18em] text-whats-deep" style="color:var(--whats-deep)">
@@ -156,7 +59,7 @@
           Entrada gratuita e imediata
         </div>
         <h2 class="text-serif mt-2 text-3xl text-primary sm:text-[2.15rem]">Escolha o grupo da sua família</h2>
-        <p class="mt-2 text-[13.5px]" style="color:var(--muted-ink)">Toque no seu grupo — abre direto no WhatsApp.</p>
+        <p class="mt-2 text-[13.5px]" style="color:var(--muted-ink)">Toque no seu grupo para ver as ofertas e entrar no WhatsApp.</p>
       </div>
 
       <div id="listaGrupos" class="mt-6 grid grid-cols-1 gap-3.5 sm:grid-cols-2"></div>
@@ -184,7 +87,7 @@
       </div>
     </section>
 
-    <!-- Prévia da conversa — agora secundária, reforça a decisão já tomada -->
+    <!-- Prévia da conversa — reforça a decisão já tomada -->
     <section class="mt-12 animate-fade-up">
       <p class="mb-3 text-center text-[11px] font-medium uppercase tracking-wide" style="color:var(--muted-ink)">
         O que chega no grupo
@@ -210,6 +113,29 @@
           </div>
         </div>
       </div>
+      <p class="mx-auto mt-3 max-w-xs text-center text-[11px]" style="color:var(--muted-ink)">Exemplos de como as mensagens chegam — os produtos mudam todo dia.</p>
+    </section>
+
+    <!-- Como funciona -->
+    <section class="mt-14">
+      <h2 class="text-serif text-center text-2xl text-primary">Como funciona</h2>
+      <div class="mx-auto mt-6 grid max-w-lg grid-cols-1 gap-4 sm:grid-cols-3">
+        <div class="flex flex-col items-center text-center gap-2">
+          <span class="passo-numero">1</span>
+          <p class="text-[13px] font-semibold">A gente encontra</p>
+          <p class="text-[12.5px] leading-snug" style="color:var(--muted-ink)">Acompanhamos os preços dos produtos relevantes para cada grupo.</p>
+        </div>
+        <div class="flex flex-col items-center text-center gap-2">
+          <span class="passo-numero">2</span>
+          <p class="text-[13px] font-semibold">A gente verifica</p>
+          <p class="text-[12.5px] leading-snug" style="color:var(--muted-ink)">Comparamos com o histórico para ver se a oferta realmente vale a pena.</p>
+        </div>
+        <div class="flex flex-col items-center text-center gap-2">
+          <span class="passo-numero">3</span>
+          <p class="text-[13px] font-semibold">A gente avisa</p>
+          <p class="text-[12.5px] leading-snug" style="color:var(--muted-ink)">Quando encontra algo bom, manda o alerta direto no grupo escolhido.</p>
+        </div>
+      </div>
     </section>
 
     <!-- FAQ curto -->
@@ -227,6 +153,10 @@
         <details class="group rounded-xl border bg-card px-4 py-3" style="border-color:var(--border)">
           <summary class="cursor-pointer list-none text-sm font-semibold">Posso sair depois?</summary>
           <p class="mt-2 text-[13px] leading-relaxed" style="color:var(--muted-ink)">Quando quiser, direto pelo WhatsApp — não precisa avisar ninguém.</p>
+        </details>
+        <details class="group rounded-xl border bg-card px-4 py-3" style="border-color:var(--border)">
+          <summary class="cursor-pointer list-none text-sm font-semibold">Como vocês sabem se uma oferta vale a pena?</summary>
+          <p class="mt-2 text-[13px] leading-relaxed" style="color:var(--muted-ink)">A gente acompanha o histórico de preço dos produtos e usa isso para identificar quando um preço está realmente bom — sem prometer que é sempre o menor preço histórico.</p>
         </details>
       </div>
     </section>
@@ -250,42 +180,27 @@
   <div class="h-16 sm:hidden"></div>
 </div>
 
+<script src="/assets/js/grupos-data.js"></script>
 <script>
-// Mesmos grupos do site principal (index.html) — mantém uma única fonte de
-// verdade "de fato" (copiados de lá). Se a intenção for ter um grupo único
-// dedicado a quem vem do Instagram (diferente dos grupos temáticos da home),
-// troque este array por um único item.
-const grupos = [
-  { nome: "Formação do Imaginário", img: "imaginario.png", url: "https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F" },
-  { nome: "Educação e Escola",     img: "educacao.png",   url: "https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW" },
-  { nome: "Gestão do Lar",         img: "gestao.png",     url: "https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" },
-  { nome: "Bebês e Infância",      img: "bebe.jpg",       url: "https://chat.whatsapp.com/C84J6GtX87t6a0HFp2x5EX" },
-];
-
+// Monta os cards de grupo a partir da fonte única de dados
+// (assets/js/grupos-data.js). Cada card agora leva para a landing page
+// específica do grupo — não mais direto pro WhatsApp — para que a pessoa
+// veja o benefício daquele grupo antes de entrar.
 const el = document.getElementById("listaGrupos");
+const grupos = Object.values(window.GRUPOS_CURA_DOMUS);
 el.innerHTML = grupos.map(g => `
-  <a href="${g.url}" target="_blank" rel="noopener noreferrer"
+  <a href="${g.href}" data-utm data-group-click="${g.slug}"
      class="grupo-card group flex items-center gap-3.5 rounded-2xl bg-whats p-4 text-white transition hover:-translate-y-0.5 hover:bg-whats-deep focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white">
-    <img src="${g.img}" alt="${g.nome}" class="h-14 w-14 shrink-0 rounded-full object-cover ring-2 ring-white/70" />
+    <img src="${g.imagemCard}" alt="${g.nome}" class="h-14 w-14 shrink-0 rounded-full object-cover ring-2 ring-white/70" />
     <span class="flex-1 text-left leading-tight">
       <span class="block text-[15px] font-bold">${g.nome}</span>
-      <span class="mt-0.5 block text-[11.5px] font-medium text-white/85">Toque para entrar no grupo</span>
+      <span class="mt-0.5 block text-[11.5px] font-medium text-white/85">Toque para ver as ofertas</span>
     </span>
     <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-white/20 text-white transition group-hover:scale-110 group-hover:bg-white/30">
-      <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M11.98 2C6.47 2 2 6.36 2 11.72c0 1.87.55 3.62 1.5 5.1L2 22l5.4-1.42a10.4 10.4 0 0 0 4.58 1.06h.01c5.5 0 9.97-4.36 9.97-9.72C21.96 6.36 17.49 2 11.98 2Zm5.62 13.9c-.28.28-1 .9-1.9 1.34-.49.24-1.12.27-1.81.11-.42-.13-.95-.31-1.64-.61-2.89-1.25-4.78-4.16-4.92-4.35-.14-.2-1.17-1.57-1.17-3 0-1.42.74-2.14 1-2.42.26-.28.57-.35.76-.35h.54c.17.01.4-.06.63.49.23.56.79 1.94.86 2.08.07.15.11.31.02.5-.09.19-.14.31-.28.47-.14.17-.28.37-.42.5-.14.14-.28.34-.12.57.16.27.71 1.17 1.53 1.9 1.06.95 1.94 1.24 2.22 1.38.28.13.44.12.6-.07.16-.19.69-.81.88-1.09.19-.28.37-.24.63-.14.26.09 1.64.77 1.92.91.28.14.46.21.53.33.08.12.08.68-.16 1.34Z"/></svg>
+      <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
     </span>
   </a>`).join("");
-
-// Barra fixa: só aparece depois que o usuário rola para além da seção de
-// grupos (evita duplicar o CTA na primeira dobra) e some quando a seção
-// de grupos volta a ficar visível (ex.: usuário rolou de volta pra cima).
-const gruposSection = document.getElementById("grupos");
-const stickyBar = document.getElementById("stickyCta");
-const observer = new IntersectionObserver(
-  ([entry]) => { stickyBar.style.display = entry.isIntersecting ? "none" : "flex"; },
-  { threshold: 0 }
-);
-observer.observe(gruposSection);
 </script>
+<script src="/assets/js/tracking.js"></script>
 </body>
 </html>

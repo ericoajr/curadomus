@@ -3,11 +3,11 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Cura Domus · Gestão do Lar — ofertas para casa no WhatsApp</title>
-<meta name="description" content="Grupo gratuito no WhatsApp com ofertas verificadas para a casa: cozinha, organização e utilidades. A gente garimpa, verifica e avisa." />
+<title>Cura Domus · Gestão do Lar — ofertas no WhatsApp</title>
+<meta name="description" content="Grupo gratuito no WhatsApp com ofertas verificadas de cozinha, organização e utilidades domésticas. O Cura Domus acompanha preços, verifica e avisa." />
 <link rel="canonical" href="https://curadomus.com.br/html/lar.html" />
-<meta property="og:title" content="Cura Domus · Gestão do Lar — ofertas para casa no WhatsApp" />
-<meta property="og:description" content="Grupo gratuito no WhatsApp com ofertas verificadas para a casa: cozinha, organização e utilidades. A gente garimpa, verifica e avisa." />
+<meta property="og:title" content="Cura Domus · Gestão do Lar — ofertas no WhatsApp" />
+<meta property="og:description" content="Grupo gratuito no WhatsApp com ofertas verificadas de cozinha, organização e utilidades domésticas. O Cura Domus acompanha preços, verifica e avisa." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://curadomus.com.br/html/lar.html" />
 <meta property="og:image" content="https://curadomus.com.br/html/gestao.png" />
@@ -17,91 +17,11 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" />
+<link rel="stylesheet" href="/assets/css/cura-domus.css" />
 <script src="https://cdn.tailwindcss.com"></script>
-<script>
-  tailwind.config = {
-    theme: {
-      extend: {
-        colors: {
-          background: 'var(--background)',
-          foreground: 'var(--ink)',
-          card: 'var(--card)',
-          border: 'var(--border)',
-          muted: 'var(--muted)',
-          'muted-foreground': 'var(--muted-ink)',
-          primary: 'var(--primary)',
-          'primary-foreground': '#fff',
-          accent: 'var(--accent)',
-          whats: 'var(--whats)',
-        },
-        boxShadow: {
-          soft: '0 1px 2px rgba(30,25,20,0.04), 0 2px 8px rgba(30,25,20,0.04)',
-          card: '0 10px 30px -12px rgba(30,25,20,0.18)',
-        },
-        fontFamily: {
-          serif: ['"Cormorant Garamond"', 'serif'],
-          sans: ['Inter', 'system-ui', 'sans-serif'],
-        },
-      }
-    }
-  }
-</script>
-<style>
-  /* Mesma paleta do site principal — identidade visual da Cura Domus. */
-  :root {
-    --background: #FBF7F1;
-    --cream-deep: #F3ECDF;
-    --card: #FFFFFF;
-    --ink: #2B241E;
-    --muted: #EFE7DA;
-    --muted-ink: #7A6E60;
-    --border: #E7DFD1;
-    --primary: #6E5334;
-    --primary-deep: #4E3A22;
-    --accent: #C9A96A;
-    --whats: #25D366;
-    --whats-deep: #128C4A;
-  }
-  html, body { background: var(--background); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
-  .text-serif { font-family: "Cormorant Garamond", serif; letter-spacing: -0.01em; }
-  .text-primary { color: var(--primary); }
-  .bg-primary { background: var(--primary); }
-  .bg-whats { background: var(--whats); }
-  .text-whats { color: var(--whats); }
-  .bg-primary\/10 { background: color-mix(in srgb, var(--primary) 10%, transparent); }
-  .bg-whats\/10 { background: color-mix(in srgb, var(--whats) 10%, transparent); }
-  .text-primary-foreground { color: #fff; }
-
-  @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
-  .animate-fade-up { animation: fade-up .5s ease both; }
-
-  @keyframes ping { 75%,100% { transform: scale(2); opacity:0; } }
-  .animate-ping-slow { animation: ping 1.8s cubic-bezier(0,0,0.2,1) infinite; }
-
-  /* Prévia de conversa do WhatsApp — mostra o que chega no grupo. */
-  .chat-shell {
-    background: #E5DDD0;
-    background-image: radial-gradient(circle at 8px 8px, rgba(0,0,0,0.035) 1px, transparent 0);
-    background-size: 22px 22px;
-  }
-  .bubble { opacity: 0; transform: translateY(10px) scale(0.98); animation: bubble-in .45s ease forwards; }
-  .bubble:nth-child(1) { animation-delay: .15s; }
-  .bubble:nth-child(2) { animation-delay: .85s; }
-  .bubble:nth-child(3) { animation-delay: 1.55s; }
-  @keyframes bubble-in { to { opacity: 1; transform: translateY(0) scale(1); } }
-
-  @keyframes pulse-soft { 0%,100% { box-shadow: 0 10px 30px -10px rgba(37,211,102,0.45); } 50% { box-shadow: 0 14px 38px -8px rgba(37,211,102,0.65); } }
-  .grupo-card { animation: pulse-soft 2.6s ease-in-out infinite; }
-  .grupo-card:hover, .grupo-card:focus-visible { animation-play-state: paused; }
-
-  @media (prefers-reduced-motion: reduce) {
-    .animate-fade-up, .bubble, .animate-ping-slow, .grupo-card { animation: none !important; opacity: 1 !important; transform: none !important; }
-  }
-
-  .sticky-cta { position: fixed; left: 0; right: 0; bottom: 0; z-index: 40; }
-</style>
+<script src="/assets/js/tailwind-config.js"></script>
 </head>
-<body>
+<body data-grupo="lar">
 <div class="min-h-screen">
 
   <header class="mx-auto max-w-3xl px-6 pt-10 text-center">
@@ -111,35 +31,33 @@
   <main class="mx-auto max-w-3xl px-6 pb-20">
 
     <section class="pt-6 text-center">
-      <img src="gestao.png" alt="Selo Gestão do Lar — Cura Domus" class="mx-auto h-24 w-24 rounded-full object-cover shadow-card" />
-
-      <div class="mt-5 inline-flex items-center gap-2 rounded-full border bg-card px-4 py-1.5 text-xs font-medium shadow-soft" style="border-color:var(--border); color:var(--muted-ink)">
+      <span class="badge-grupo">
         <span class="relative flex h-2 w-2">
           <span class="absolute inline-flex h-full w-full animate-ping-slow rounded-full opacity-75" style="background:var(--whats)"></span>
           <span class="relative inline-flex h-2 w-2 rounded-full" style="background:var(--whats)"></span>
         </span>
-        Grupo Gestão do Lar · entrada gratuita
-      </div>
+        Gestão do Lar · Grupo gratuito
+      </span>
 
       <h1 class="mt-5 text-serif text-4xl leading-[1.08] text-primary sm:text-5xl">
-        A casa funcionando,<br />
-        <span class="italic" style="color:var(--primary-deep)">com o preço no lugar certo.</span>
+        A rotina da casa mais prática,<br />
+        <span class="italic" style="color:var(--primary-deep)">pagando menos.</span>
       </h1>
 
-      <p class="mx-auto mt-5 max-w-lg text-[15px] leading-relaxed" style="color:var(--muted-ink)">Cozinha, organização, limpeza e utilidades: a gente acompanha os preços e avisa quando a queda é real.</p>
+      <p class="mx-auto mt-5 max-w-lg text-[15px] leading-relaxed" style="color:var(--muted-ink)">Cozinha, organização e utilidades domésticas: a gente garimpa, confere o histórico de preço e avisa no grupo na hora.</p>
 
       <div class="mt-7 flex justify-center"><a href="https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" data-utm data-whats="hero" target="_blank" rel="noopener noreferrer"
         class="grupo-card inline-flex w-full max-w-sm items-center justify-center gap-2.5 rounded-2xl bg-whats px-6 py-4 text-[15px] font-bold text-white transition hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" style="outline-color:var(--whats-deep)">
         <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M11.98 2C6.47 2 2 6.36 2 11.72c0 1.87.55 3.62 1.5 5.1L2 22l5.4-1.42a10.4 10.4 0 0 0 4.58 1.06h.01c5.5 0 9.97-4.36 9.97-9.72C21.96 6.36 17.49 2 11.98 2Zm5.62 13.9c-.28.28-1 .9-1.9 1.34-.49.24-1.12.27-1.81.11-.42-.13-.95-.31-1.64-.61-2.89-1.25-4.78-4.16-4.92-4.35-.14-.2-1.17-1.57-1.17-3 0-1.42.74-2.14 1-2.42.26-.28.57-.35.76-.35h.54c.17.01.4-.06.63.49.23.56.79 1.94.86 2.08.07.15.11.31.02.5-.09.19-.14.31-.28.47-.14.17-.28.37-.42.5-.14.14-.28.34-.12.57.16.27.71 1.17 1.53 1.9 1.06.95 1.94 1.24 2.22 1.38.28.13.44.12.6-.07.16-.19.69-.81.88-1.09.19-.28.37-.24.63-.14.26.09 1.64.77 1.92.91.28.14.46.21.53.33.08.12.08.68-.16 1.34Z"/></svg>
-        Entrar no grupo Gestão do Lar
+        QUERO RECEBER OFERTAS PARA CASA
       </a></div>
-      <p class="mt-2.5 text-[12px]" style="color:var(--muted-ink)">Abre direto no WhatsApp · saia quando quiser</p>
+      <p class="mt-2.5 text-[12px]" style="color:var(--muted-ink)">Grátis · abre no WhatsApp · saia quando quiser</p>
     </section>
 
     <section class="mt-12 grid grid-cols-1 gap-3 sm:grid-cols-3">
       <div class="flex items-center gap-2.5 rounded-xl border bg-card px-3.5 py-3" style="border-color:var(--border)">
-        <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg></div>
-        <p class="text-[12.5px] leading-snug"><strong class="font-semibold">Rotina mais leve</strong> Itens que resolvem o dia a dia da casa.</p>
+        <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18M3 15h18M3 3h18v18H3z"/></svg></div>
+        <p class="text-[12.5px] leading-snug"><strong class="font-semibold">Foco na casa</strong> Cozinha, organização e rotina.</p>
       </div>
       <div class="flex items-center gap-2.5 rounded-xl border bg-card px-3.5 py-3" style="border-color:var(--border)">
         <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 2 7l10 5 10-5-10-5Z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></svg></div>
@@ -162,20 +80,33 @@
           </div>
         </div>
         <div class="chat-shell space-y-2 px-3 py-3.5">
-          <div class="bubble ml-auto max-w-[88%] rounded-xl rounded-tr-sm bg-white px-2.5 py-1.5 text-left text-[11.5px] leading-snug shadow-soft">🔻 <strong>Menor preço em 30 dias.</strong><br />Air fryer 5L — de R$ 349,90 por R$ 219,90.</div>
-          <div class="bubble ml-auto max-w-[88%] rounded-xl rounded-tr-sm bg-white px-2.5 py-1.5 text-left text-[11.5px] leading-snug shadow-soft">🧺 Kit de organizadores de armário — achado do dia.</div>
-          <div class="bubble ml-auto max-w-[88%] rounded-xl rounded-tr-sm bg-white px-2.5 py-1.5 text-left text-[11.5px] leading-snug shadow-soft">🧼 Recarga de produto de limpeza com cupom — link aqui embaixo.</div>
+          <div class="bubble ml-auto max-w-[88%] rounded-xl rounded-tr-sm bg-white px-2.5 py-1.5 text-left text-[11.5px] leading-snug shadow-soft">🏠 <strong>Air fryer 5L</strong> com 37% off — separei pra vocês.</div>
+          <div class="bubble ml-auto max-w-[88%] rounded-xl rounded-tr-sm bg-white px-2.5 py-1.5 text-left text-[11.5px] leading-snug shadow-soft">🔻 Menor preço em 30 dias num organizador de armário.</div>
+          <div class="bubble ml-auto max-w-[88%] rounded-xl rounded-tr-sm bg-white px-2.5 py-1.5 text-left text-[11.5px] leading-snug shadow-soft">🧺 Cesto organizador com cupom — link aqui embaixo.</div>
         </div>
       </div>
       <p class="mx-auto mt-3 max-w-xs text-center text-[11px]" style="color:var(--muted-ink)">Exemplos de como as mensagens chegam — os produtos mudam todo dia.</p>
     </section>
 
-    <section class="mt-12">
-      <h2 class="text-serif text-center text-2xl text-primary">Garimpar, verificar e avisar</h2>
-      <p class="mx-auto mt-3 max-w-lg text-center text-[14px] leading-relaxed" style="color:var(--muted-ink)">
-        Procuramos as ofertas de casa e organização, conferimos o histórico de preço e só
-        então avisamos no grupo. Você recebe pronto e decide se aproveita.
-      </p>
+    <section class="mt-14">
+      <h2 class="text-serif text-center text-2xl text-primary">Como funciona</h2>
+      <div class="mx-auto mt-6 grid max-w-lg grid-cols-1 gap-4 sm:grid-cols-3">
+        <div class="flex flex-col items-center text-center gap-2">
+          <span class="passo-numero">1</span>
+          <p class="text-[13px] font-semibold">A gente encontra</p>
+          <p class="text-[12.5px] leading-snug" style="color:var(--muted-ink)">Acompanhamos os preços de produtos para a casa.</p>
+        </div>
+        <div class="flex flex-col items-center text-center gap-2">
+          <span class="passo-numero">2</span>
+          <p class="text-[13px] font-semibold">A gente verifica</p>
+          <p class="text-[12.5px] leading-snug" style="color:var(--muted-ink)">Comparamos com o histórico para ver se a oferta vale mesmo a pena.</p>
+        </div>
+        <div class="flex flex-col items-center text-center gap-2">
+          <span class="passo-numero">3</span>
+          <p class="text-[13px] font-semibold">A gente avisa</p>
+          <p class="text-[12.5px] leading-snug" style="color:var(--muted-ink)">Quando encontra algo bom, manda o alerta direto no grupo.</p>
+        </div>
+      </div>
     </section>
 
     <section class="mt-14 border-t pt-8" style="border-color:var(--border)">
@@ -187,24 +118,28 @@
         </details>
         <details class="group rounded-xl border bg-card px-4 py-3" style="border-color:var(--border)">
           <summary class="cursor-pointer list-none text-sm font-semibold">Vou receber muita mensagem?</summary>
-          <p class="mt-2 text-[13px] leading-relaxed" style="color:var(--muted-ink)">Só ofertas relevantes de casa e organização — sem spam, sem corrente.</p>
+          <p class="mt-2 text-[13px] leading-relaxed" style="color:var(--muted-ink)">Só ofertas relevantes pra casa e organização — sem spam, sem corrente.</p>
         </details>
         <details class="group rounded-xl border bg-card px-4 py-3" style="border-color:var(--border)">
           <summary class="cursor-pointer list-none text-sm font-semibold">Posso sair depois?</summary>
           <p class="mt-2 text-[13px] leading-relaxed" style="color:var(--muted-ink)">Quando quiser, direto pelo WhatsApp — não precisa avisar ninguém.</p>
+        </details>
+        <details class="group rounded-xl border bg-card px-4 py-3" style="border-color:var(--border)">
+          <summary class="cursor-pointer list-none text-sm font-semibold">Como vocês sabem se uma oferta vale a pena?</summary>
+          <p class="mt-2 text-[13px] leading-relaxed" style="color:var(--muted-ink)">A gente acompanha o histórico de preço dos produtos e usa isso para identificar quando um preço está realmente bom — sem prometer que é sempre o menor preço histórico.</p>
         </details>
       </div>
     </section>
 
     <section class="mt-12 text-center">
       <h2 class="text-serif text-3xl text-primary">Pronto pra entrar?</h2>
-      <p class="mx-auto mt-2 max-w-md text-[14px]" style="color:var(--muted-ink)">Um toque e você já está recebendo as ofertas de casa e organização.</p>
+      <p class="mx-auto mt-2 max-w-md text-[14px]" style="color:var(--muted-ink)">Um toque e você já está recebendo as ofertas pra deixar a rotina de casa mais prática.</p>
       <div class="mt-6 flex justify-center"><a href="https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" data-utm data-whats="final" target="_blank" rel="noopener noreferrer"
         class="grupo-card inline-flex w-full max-w-sm items-center justify-center gap-2.5 rounded-2xl bg-whats px-6 py-4 text-[15px] font-bold text-white transition hover:-translate-y-0.5 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" style="outline-color:var(--whats-deep)">
         <svg width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M11.98 2C6.47 2 2 6.36 2 11.72c0 1.87.55 3.62 1.5 5.1L2 22l5.4-1.42a10.4 10.4 0 0 0 4.58 1.06h.01c5.5 0 9.97-4.36 9.97-9.72C21.96 6.36 17.49 2 11.98 2Zm5.62 13.9c-.28.28-1 .9-1.9 1.34-.49.24-1.12.27-1.81.11-.42-.13-.95-.31-1.64-.61-2.89-1.25-4.78-4.16-4.92-4.35-.14-.2-1.17-1.57-1.17-3 0-1.42.74-2.14 1-2.42.26-.28.57-.35.76-.35h.54c.17.01.4-.06.63.49.23.56.79 1.94.86 2.08.07.15.11.31.02.5-.09.19-.14.31-.28.47-.14.17-.28.37-.42.5-.14.14-.28.34-.12.57.16.27.71 1.17 1.53 1.9 1.06.95 1.94 1.24 2.22 1.38.28.13.44.12.6-.07.16-.19.69-.81.88-1.09.19-.28.37-.24.63-.14.26.09 1.64.77 1.92.91.28.14.46.21.53.33.08.12.08.68-.16 1.34Z"/></svg>
         Entrar no grupo Gestão do Lar
       </a></div>
-      <p class="mt-6 text-[12.5px]"><a href="index.html" data-utm class="underline" style="color:var(--muted-ink)">Ver os outros grupos da Cura Domus</a></p>
+      <p class="mt-6 text-[12.5px]"><a href="cta.html" data-utm class="underline" style="color:var(--muted-ink)">Ver os outros grupos da Cura Domus</a></p>
     </section>
 
   </main>
@@ -217,61 +152,12 @@
   </footer>
 
   <div id="stickyCta" class="sticky-cta hidden items-center justify-between gap-3 border-t bg-whats px-5 py-3 shadow-card" style="border-color:var(--whats-deep)">
-    <span class="text-[13px] font-semibold leading-tight text-white">Grupo Gestão do Lar</span>
+    <span class="text-[13px] font-semibold leading-tight text-white">Receba ofertas para casa</span>
     <a href="https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl" data-utm data-whats="sticky" target="_blank" rel="noopener noreferrer" class="shrink-0 rounded-full bg-white px-4 py-2 text-[12.5px] font-bold transition hover:opacity-90" style="color:var(--whats-deep)">Entrar agora</a>
   </div>
   <div class="h-16"></div>
 </div>
 
-<script>
-
-// --- Parâmetros de campanha -------------------------------------------------
-// Preserva utm_* / gclid / fbclid na navegação interna e repassa nos links
-// do WhatsApp. Os eventos saem pelo dataLayer (GA4, GTM, Meta — é só plugar).
-const CAMPANHA = ["utm_source","utm_medium","utm_campaign","utm_content","utm_term","gclid","fbclid"];
-const params = new URLSearchParams(location.search);
-const utms = {};
-CAMPANHA.forEach(k => { const v = params.get(k); if (v) utms[k] = v; });
-
-function comUtms(href) {
-  try {
-    const u = new URL(href, location.href);
-    Object.entries(utms).forEach(([k, v]) => u.searchParams.set(k, v));
-    return u.toString();
-  } catch { return href; }
-}
-
-window.dataLayer = window.dataLayer || [];
-function track(evento, dados = {}) {
-  window.dataLayer.push({ event: evento, ...utms, ...dados });
-}
-
-// Aplica os UTMs a todo link marcado com data-utm (internos e do WhatsApp).
-document.querySelectorAll("a[data-utm]").forEach(a => { a.href = comUtms(a.getAttribute("href")); });
-
-// Profundidade de rolagem (25/50/75/100).
-const marcos = [25, 50, 75, 100];
-const vistos = new Set();
-addEventListener("scroll", () => {
-  const h = document.documentElement;
-  const pct = Math.round(((h.scrollTop + innerHeight) / h.scrollHeight) * 100);
-  marcos.forEach(m => { if (pct >= m && !vistos.has(m)) { vistos.add(m); track("scroll", { percent_scrolled: m }); } });
-}, { passive: true });
-
-track("view_group_page", { grupo: "lar" });
-
-document.querySelectorAll("a[data-whats]").forEach(a => {
-  a.addEventListener("click", () => {
-    track("click_whatsapp", { grupo: "lar", local: a.dataset.whats });
-    track("cta_click", { grupo: "lar", local: a.dataset.whats });
-  });
-});
-
-const heroCta = document.querySelector('a[data-whats="hero"]');
-const stickyBar = document.getElementById("stickyCta");
-new IntersectionObserver(([entry]) => {
-  stickyBar.style.display = entry.isIntersecting ? "none" : "flex";
-}, { threshold: 0 }).observe(heroCta);
-</script>
+<script src="/assets/js/tracking.js"></script>
 </body>
 </html>
