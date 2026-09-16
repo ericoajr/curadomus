@@ -1,194 +1,6 @@
 {
   "ultimaAtualizacao" : "15/09/2026 20:06",
   "ofertas" : [ {
-    "id" : 186064,
-    "titulo" : "A fantástica fábrica de chocolate",
-    "imagem" : "https://m.media-amazon.com/images/I/81dTvpaSTeL._SL1500_.jpg",
-    "precoOriginal" : "59,90",
-    "precoPromocao" : "32,69",
-    "desconto" : "-45%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/6584824055?tag=curadomus-20",
-    "categoria" : "Livros",
-    "categoriaId" : 1,
-    "dataOferta" : "15/09/2026 19:55",
-    "destaque" : false,
-    "precoAnterior" : "32,69",
-    "menorPrecoEmDias" : false,
-    "historico" : [ {
-      "data" : "18/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 32.69
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 32.69
-    } ],
-    "tags" : [ ]
-  }, {
-    "id" : 186107,
-    "titulo" : "A Regina e o mágico",
-    "imagem" : "https://m.media-amazon.com/images/I/51CgItZa4bL._SL1000_.jpg",
-    "precoOriginal" : "58,00",
-    "precoPromocao" : "43,17",
-    "desconto" : "-25%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/8508113498?tag=curadomus-20",
-    "categoria" : "Livros",
-    "categoriaId" : 1,
-    "dataOferta" : "15/09/2026 19:56",
-    "destaque" : false,
-    "precoAnterior" : "46,17",
-    "menorPrecoEmDias" : false,
-    "historico" : [ {
-      "data" : "17/08/2026",
-      "preco" : 35.9
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 35.9
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 39.67
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 39.67
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 39.67
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 43.86
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 43.86
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 43.86
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 43.86
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 46.17
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 46.17
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 45.24
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 45.24
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 32.9
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 32.9
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 32.9
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 45.24
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 46.17
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 39.67
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 46.6
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 46.37
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 45.24
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 45.24
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 47.14
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 46.17
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 43.17
-    } ],
-    "tags" : [ ]
-  }, {
     "id" : 186077,
     "titulo" : "Buba, Mordedor Com Agua Buba Zoo Unicórnio",
     "imagem" : "https://m.media-amazon.com/images/I/51kuKxyE2lL._AC_SL1000_.jpg",
@@ -265,6 +77,36 @@
     }, {
       "data" : "15/09/2026",
       "preco" : 22.79
+    } ],
+    "tags" : [ ]
+  }, {
+    "id" : 186084,
+    "titulo" : "CAFÉ LOR SOLÚVEL ULTIMO VIDRO 84G",
+    "imagem" : "https://m.media-amazon.com/images/I/61jYx2RULbL._AC_SL1200_.jpg",
+    "precoOriginal" : "37,88",
+    "precoPromocao" : "37,88",
+    "desconto" : "-4%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0F199FD2G?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "categoriaId" : 2,
+    "dataOferta" : "15/09/2026 15:53",
+    "destaque" : false,
+    "precoAnterior" : "37,88",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "07/09/2026",
+      "preco" : 18.84
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 18.84
+    }, {
+      "data" : "10/09/2026"
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 37.88
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 37.88
     } ],
     "tags" : [ ]
   }, {
@@ -365,6 +207,69 @@
     } ],
     "tags" : [ ]
   }, {
+    "id" : 186099,
+    "titulo" : "Cremer Fralda Luxo Branca 70 X 70 Cm Pc Com 5 Unidades (Embalagem Pode Variar)",
+    "imagem" : "https://m.media-amazon.com/images/I/614gO4pQrtL._AC_SL1000_.jpg",
+    "precoOriginal" : "39,99",
+    "precoPromocao" : "35,99",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07D2G84RT?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "15/09/2026 16:05",
+    "destaque" : false,
+    "precoAnterior" : "35,99",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "24/08/2026",
+      "preco" : 28.29
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 28.29
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 28.29
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 28.29
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 28.29
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 28.29
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 39.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 39.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 39.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 39.99
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 39.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 39.99
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 39.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 39.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 35.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 35.99
+    } ],
+    "tags" : [ ]
+  }, {
     "id" : 186104,
     "titulo" : "Cápsulas de Café Forte Orfeu, Compatíveis com Nespresso, Contem 20 cápsulas",
     "imagem" : "https://m.media-amazon.com/images/I/51TW6LaY1-L._AC_SL1000_.jpg",
@@ -417,6 +322,90 @@
     }, {
       "data" : "15/09/2026",
       "preco" : 5.29
+    } ],
+    "tags" : [ ]
+  }, {
+    "id" : 186070,
+    "titulo" : "Johnson's Sabonete Líquido Infantil, 180 ml",
+    "imagem" : "https://m.media-amazon.com/images/I/71EGDT06EkL._AC_SL1500_.jpg",
+    "precoOriginal" : "13,15",
+    "precoPromocao" : "12,49",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHSGC5C?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "15/09/2026 15:38",
+    "destaque" : false,
+    "precoAnterior" : "13,15",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "17/08/2026",
+      "preco" : 12.69
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 12.69
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 12.69
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 12.69
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 12.69
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 12.69
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 12.69
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 12.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 12.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 12.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 12.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 12.94
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 13.29
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 13.29
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 13.29
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 13.29
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 12.63
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 13.15
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 13.15
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 13.15
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 12.49
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 13.15
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 12.49
     } ],
     "tags" : [ ]
   }, {
@@ -595,6 +584,81 @@
     } ],
     "tags" : [ ]
   }, {
+    "id" : 186073,
+    "titulo" : "Pote Termico C/Colher - Gumy Verde, Buba, Verde",
+    "imagem" : "https://m.media-amazon.com/images/I/41D0T4KyttS._AC_SL1000_.jpg",
+    "precoOriginal" : "138,00",
+    "precoPromocao" : "75,10",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08JXN4GM6?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "15/09/2026 15:41",
+    "destaque" : false,
+    "precoAnterior" : "75,10",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "18/08/2026",
+      "preco" : 78.88
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 78.88
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 81.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 78.89
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 78.5
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 78.5
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 78.5
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 78.5
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 78.5
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 78.5
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 80.75
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 75.1
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 75.1
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 75.1
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 75.09
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 75.09
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 75.1
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 75.1
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 75.1
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 75.1
+    } ],
+    "tags" : [ ]
+  }, {
     "id" : 186094,
     "titulo" : "Sabonete Líquido de Glicerina Baunilha JOHNSON'S® Baby 200mL",
     "imagem" : "https://m.media-amazon.com/images/I/61TqADalesL._AC_SL1500_.jpg",
@@ -750,6 +814,87 @@
     }, {
       "data" : "15/09/2026",
       "preco" : 27.29
+    } ],
+    "tags" : [ ]
+  }, {
+    "id" : 186096,
+    "titulo" : "Sabonete Líquido Huggies Extra Suave - 200ml",
+    "imagem" : "https://m.media-amazon.com/images/I/618Va1pb8xL._AC_SL1500_.jpg",
+    "precoOriginal" : "19,94",
+    "precoPromocao" : "13,49",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07FSTR3JS?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "categoriaId" : 7,
+    "dataOferta" : "15/09/2026 16:03",
+    "destaque" : false,
+    "precoAnterior" : "14,99",
+    "menorPrecoEmDias" : false,
+    "historico" : [ {
+      "data" : "17/08/2026",
+      "preco" : 13.49
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 13.49
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 13.48
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 13.48
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 13.49
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 13.49
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 15.49
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 14.24
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 14.24
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 14.24
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 14.26
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 14.25
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 14.25
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 14.25
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 13.49
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 13.49
     } ],
     "tags" : [ ]
   } ],
