@@ -1,20 +1,16 @@
 {
-  "ultimaAtualizacao" : "18/09/2026 22:38",
+  "ultimaAtualizacao" : "18/09/2026 23:27",
   "ofertas" : [ {
     "id" : 196028,
     "titulo" : "O Hobbit + pôster",
     "imagem" : "https://m.media-amazon.com/images/I/91M9xPIf10L._SL1500_.jpg",
     "precoOriginal" : "74,90",
     "precoPromocao" : "40,75",
-    "precoAnterior" : "42,89",
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/8595084742?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : true,
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 60 dias.",
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 43.87
@@ -165,21 +161,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 70,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Novo menor preço histórico.",
-      "sinais" : [ "novo menor preço histórico", "queda de 5% desde o último envio", "17% abaixo da média", "18% abaixo da mediana", "preço nunca observado anteriormente", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : true,
-      "menorPrecoJanela" : true,
-      "diasMenorPrecoJanela" : 60,
-      "quedaRecente" : true,
-      "percentualQueda" : 0.04989508043833062,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.17253282794097743,
-      "percentualAbaixoMediana" : 0.1813981518682202,
-      "precoInedito" : true,
-      "ocorrenciasPrecoAtual" : 0
+      "motivoPrincipal" : "Novo menor preço histórico."
     }
   }, {
     "id" : 196074,
@@ -187,15 +170,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81ztc-mkffqmlva3nkb7",
     "precoOriginal" : "80,64",
     "precoPromocao" : "58,87",
-    "precoAnterior" : "58,87",
     "desconto" : "-27%",
     "linkAfiliado" : "https://s.shopee.com.br/4AySBI4CfB",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:07",
     "destaque" : true,
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 60 dias.",
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 72.99
@@ -355,21 +334,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 63,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Novo menor preço histórico.",
-      "sinais" : [ "novo menor preço histórico", "14% abaixo da média", "19% abaixo da mediana", "preço nunca observado anteriormente", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : true,
-      "menorPrecoJanela" : true,
-      "diasMenorPrecoJanela" : 60,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.144547837272008,
-      "percentualAbaixoMediana" : 0.19012243774934656,
-      "precoInedito" : true,
-      "ocorrenciasPrecoAtual" : 0
+      "motivoPrincipal" : "Novo menor preço histórico."
     }
   }, {
     "id" : 195978,
@@ -377,15 +343,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81zu8-ml5enh4ks6it7e",
     "precoOriginal" : "150,44",
     "precoPromocao" : "67,70",
-    "precoAnterior" : "67,70",
     "desconto" : "-55%",
     "linkAfiliado" : "https://s.shopee.com.br/903hw9HXvn",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:03",
     "destaque" : true,
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 30 dias.",
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 74.9
@@ -545,21 +507,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 62,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Novo menor preço histórico.",
-      "sinais" : [ "novo menor preço histórico", "11% abaixo da média", "10% abaixo da mediana", "preço nunca observado anteriormente", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : true,
-      "menorPrecoJanela" : true,
-      "diasMenorPrecoJanela" : 30,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.11107328697174548,
-      "percentualAbaixoMediana" : 0.09612817089452606,
-      "precoInedito" : true,
-      "ocorrenciasPrecoAtual" : 0
+      "motivoPrincipal" : "Novo menor preço histórico."
     }
   }, {
     "id" : 195926,
@@ -567,15 +516,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-lsf2ra3r2fwt16",
     "precoOriginal" : "99,98",
     "precoPromocao" : "57,99",
-    "precoAnterior" : "57,99",
     "desconto" : "-42%",
     "linkAfiliado" : "https://s.shopee.com.br/7fYKLZPzWM",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 21:21",
     "destaque" : true,
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 60 dias.",
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 58.98
@@ -735,21 +680,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 50,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Novo menor preço histórico.",
-      "sinais" : [ "novo menor preço histórico", "9% abaixo da média", "preço nunca observado anteriormente", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : true,
-      "menorPrecoJanela" : true,
-      "diasMenorPrecoJanela" : 60,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.08693674517876614,
-      "percentualAbaixoMediana" : 0.016952025767079167,
-      "precoInedito" : true,
-      "ocorrenciasPrecoAtual" : 0
+      "motivoPrincipal" : "Novo menor preço histórico."
     }
   }, {
     "id" : 196195,
@@ -757,15 +689,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lr-mpxy82d0505ccb",
     "precoOriginal" : "18,87",
     "precoPromocao" : "10,00",
-    "precoAnterior" : "9,90",
     "desconto" : "-47%",
     "linkAfiliado" : "https://s.shopee.com.br/4VbIZwsvHY",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:11",
     "destaque" : true,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 14.99
@@ -925,21 +853,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 45,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Preço 21% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "21% abaixo da média", "23% abaixo da mediana", "preço nunca observado anteriormente", "tendência de queda no histórico", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.2144997527128851,
-      "percentualAbaixoMediana" : 0.23017705927636645,
-      "precoInedito" : true,
-      "ocorrenciasPrecoAtual" : 0
+      "motivoPrincipal" : "Preço 21% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 195882,
@@ -947,20 +862,13 @@
     "imagem" : "https://m.media-amazon.com/images/I/71cCMavIaCL._SL1500_.jpg",
     "precoOriginal" : null,
     "precoPromocao" : "58,81",
-    "precoAnterior" : "58,81",
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/6501119197?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:19",
     "destaque" : true,
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 60 dias.",
     "historico" : [ {
       "data" : "21/07/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "22/07/2026",
       "preco" : 61.2
     }, {
       "data" : "23/07/2026",
@@ -969,16 +877,7 @@
       "data" : "25/07/2026",
       "preco" : 61.2
     }, {
-      "data" : "26/07/2026",
-      "preco" : 61.2
-    }, {
       "data" : "27/07/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "30/07/2026",
       "preco" : 61.2
     }, {
       "data" : "31/07/2026",
@@ -990,143 +889,19 @@
       "data" : "02/08/2026",
       "preco" : 61.2
     }, {
-      "data" : "04/08/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 61.2
-    }, {
       "data" : "09/08/2026",
       "preco" : 61.2
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 61.01
-    }, {
-      "data" : "18/08/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 60.85
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 60.85
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 60.85
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 60.85
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 60.85
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 60.85
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 60.81
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 60.81
     }, {
       "data" : "09/09/2026",
       "preco" : 60.81
     }, {
-      "data" : "10/09/2026",
-      "preco" : 61.2
-    }, {
       "data" : "11/09/2026",
       "preco" : 61.2
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "13/09/2026",
-      "preco" : null
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 61.2
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 58.81
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 58.81
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 45,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Novo menor preço histórico.",
-      "sinais" : [ "novo menor preço histórico", "3% abaixo da média", "3% abaixo da mediana", "preço nunca observado anteriormente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : true,
-      "menorPrecoJanela" : true,
-      "diasMenorPrecoJanela" : 60,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.03452781991423864,
-      "percentualAbaixoMediana" : 0.0328893274132544,
-      "precoInedito" : true,
-      "ocorrenciasPrecoAtual" : 0
+      "motivoPrincipal" : "Novo menor preço histórico."
     }
   }, {
     "id" : 196036,
@@ -1134,15 +909,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m2387n4cm3fo30",
     "precoOriginal" : "177,39",
     "precoPromocao" : "54,99",
-    "precoAnterior" : "59,99",
     "desconto" : "-69%",
     "linkAfiliado" : "https://s.shopee.com.br/9AN88TGMzR",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : true,
-    "menorPrecoEmDias" : true,
-    "menorPrecoMensagem" : "Menor preço dos últimos 15 dias.",
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 59.99
@@ -1302,21 +1073,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 42,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Menor preço dos últimos 15 dias.",
-      "sinais" : [ "menor preço dos últimos 15 dias", "queda de 8% desde o último envio", "9% abaixo da média", "8% abaixo da mediana", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : true,
-      "diasMenorPrecoJanela" : 15,
-      "quedaRecente" : true,
-      "percentualQueda" : 0.0833472245374229,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.08897179287366613,
-      "percentualAbaixoMediana" : 0.0833472245374229,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 9
+      "motivoPrincipal" : "Menor preço dos últimos 15 dias."
     }
   }, {
     "id" : 196276,
@@ -1324,15 +1082,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7qukw-ljvdf48upax64c",
     "precoOriginal" : "39,95",
     "precoPromocao" : "29,96",
-    "precoAnterior" : "29,96",
     "desconto" : "-25%",
     "linkAfiliado" : "https://s.shopee.com.br/4LI89Bioup",
     "categoria" : "Alimentos e Bebidas",
-    "categoriaId" : 2,
     "dataOferta" : "18/09/2026 22:21",
     "destaque" : true,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "28/07/2026",
       "preco" : 33.99
@@ -1477,21 +1231,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 38,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Preço 14% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "14% abaixo da média", "12% abaixo da mediana", "preço nunca observado anteriormente", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.14139237684820555,
-      "percentualAbaixoMediana" : 0.11856428361282732,
-      "precoInedito" : true,
-      "ocorrenciasPrecoAtual" : 0
+      "motivoPrincipal" : "Preço 14% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 196280,
@@ -1499,15 +1240,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mh21bd5tnw8w8b",
     "precoOriginal" : "19,99",
     "precoPromocao" : "13,99",
-    "precoAnterior" : "13,99",
     "desconto" : "-30%",
     "linkAfiliado" : "https://s.shopee.com.br/qiG0kymY7",
     "categoria" : "Alimentos e Bebidas",
-    "categoriaId" : 2,
     "dataOferta" : "18/09/2026 22:21",
     "destaque" : true,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "28/07/2026",
       "preco" : 14.99
@@ -1652,21 +1389,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 25,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Preço 19% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "19% abaixo da média", "30% abaixo da mediana", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.19241870309794099,
-      "percentualAbaixoMediana" : 0.30015007503751867,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 12
+      "motivoPrincipal" : "Preço 19% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 196019,
@@ -1674,15 +1398,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/51sA9P8slAL._SL1291_.jpg",
     "precoOriginal" : "104,00",
     "precoPromocao" : "62,00",
-    "precoAnterior" : "62,00",
     "desconto" : "-40%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508191839?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : true,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 55.02
@@ -1836,21 +1556,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 25,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Preço 10% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "10% abaixo da média", "16% abaixo da mediana", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.10253144035018633,
-      "percentualAbaixoMediana" : 0.15932203389830507,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 8
+      "motivoPrincipal" : "Preço 10% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 195893,
@@ -1858,15 +1565,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/81iRVqQqcvL._SL1500_.jpg",
     "precoOriginal" : "58,00",
     "precoPromocao" : "38,91",
-    "precoAnterior" : "38,91",
     "desconto" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508111290?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:20",
     "destaque" : true,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 39.67
@@ -1985,9 +1688,6 @@
       "data" : "06/09/2026",
       "preco" : 38.91
     }, {
-      "data" : "07/09/2026",
-      "preco" : null
-    }, {
       "data" : "08/09/2026",
       "preco" : 38.91
     }, {
@@ -2023,21 +1723,318 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 20,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Preço 8% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "8% abaixo da média", "11% abaixo da mediana", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.08277858449469142,
-      "percentualAbaixoMediana" : 0.11285909712722304,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 9
+      "motivoPrincipal" : "Preço 8% abaixo da média dos últimos 30 dias."
+    }
+  }, {
+    "id" : 196295,
+    "titulo" : "Cobertura Chocolate ao Leite Garoto Confeitaria 1kg",
+    "imagem" : "https://cf.shopee.com.br/file/br-11134207-820md-mpposnlcq3gg4c",
+    "precoOriginal" : "70,24",
+    "precoPromocao" : "59,70",
+    "desconto" : "-15%",
+    "linkAfiliado" : "https://s.shopee.com.br/7KvnNtEUet",
+    "categoria" : "Alimentos e Bebidas",
+    "dataOferta" : "18/09/2026 22:39",
+    "destaque" : true,
+    "historico" : [ {
+      "data" : "30/07/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 62.99
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 62.7
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 62.7
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 62.7
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 62.7
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 62.7
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 62.7
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 62.7
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 62.7
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 64.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 59.7
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 59.7
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 59.7
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 59.7
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "BOA",
+      "motivoPrincipal" : "Preço 6% abaixo da média dos últimos 30 dias."
+    }
+  }, {
+    "id" : 196291,
+    "titulo" : "Paçoquita Quadrada Embalada Display De 1Kg Com 50 Unidades De 20g",
+    "imagem" : "https://cf.shopee.com.br/file/sg-11134201-824hy-mpl9wf6hc0shf7",
+    "precoOriginal" : "42,84",
+    "precoPromocao" : "26,99",
+    "desconto" : "-37%",
+    "linkAfiliado" : "https://s.shopee.com.br/BSZDZI6xU",
+    "categoria" : "Alimentos e Bebidas",
+    "dataOferta" : "18/09/2026 22:38",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "28/07/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 38.1
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 38.1
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 38.1
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 23.74
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 36.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 25.82
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 42.99
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 34.31
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 26.99
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "MUITO_BOA",
+      "motivoPrincipal" : "Preço 19% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 195947,
@@ -2045,15 +2042,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mg45udk2lyio40",
     "precoOriginal" : "117,29",
     "precoPromocao" : "19,94",
-    "precoAnterior" : "19,94",
     "desconto" : "-83%",
     "linkAfiliado" : "https://s.shopee.com.br/4AySB8dJcz",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:01",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 19.94
@@ -2213,21 +2206,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 15,
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Preço 16% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "16% abaixo da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.1552703423604355,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço 16% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 195879,
@@ -2235,15 +2215,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71aJZfkkKaL._SL1334_.jpg",
     "precoOriginal" : "64,90",
     "precoPromocao" : "40,97",
-    "precoAnterior" : "40,97",
     "desconto" : "-36%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6555114746?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:19",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 43.14
@@ -2378,7 +2354,7 @@
       "preco" : 43.14
     }, {
       "data" : "13/09/2026",
-      "preco" : null
+      "preco" : 43.14
     }, {
       "data" : "14/09/2026",
       "preco" : 40.97
@@ -2397,21 +2373,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 22,
       "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço 5% abaixo da mediana histórica.",
-      "sinais" : [ "4% abaixo da média", "5% abaixo da mediana", "tendência de queda no histórico", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.044320037322136664,
-      "percentualAbaixoMediana" : 0.05030134445989805,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 3
+      "motivoPrincipal" : "Preço 5% abaixo da mediana histórica."
     }
   }, {
     "id" : 196182,
@@ -2419,15 +2382,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lm-mqdb9tob0xdu3d",
     "precoOriginal" : "31,71",
     "precoPromocao" : "16,49",
-    "precoAnterior" : "16,49",
     "desconto" : "-48%",
     "linkAfiliado" : "https://s.shopee.com.br/2g9eOZhL9x",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:10",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 16.99
@@ -2587,21 +2546,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 17,
       "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço 3% abaixo da mediana histórica.",
-      "sinais" : [ "2% abaixo da média", "3% abaixo da mediana", "tendência de queda no histórico", "preço apareceu algumas vezes recentemente", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.021752026893415096,
-      "percentualAbaixoMediana" : 0.029429075927015894,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 4
+      "motivoPrincipal" : "Preço 3% abaixo da mediana histórica."
     }
   }, {
     "id" : 195994,
@@ -2609,15 +2555,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/91+pSG021JL._SL1500_.jpg",
     "precoOriginal" : "49,00",
     "precoPromocao" : "24,50",
-    "precoAnterior" : "24,50",
     "desconto" : "-50%",
     "linkAfiliado" : "https://amzn.to/3RWwGy6",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:04",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 35.0
@@ -2703,9 +2645,6 @@
       "data" : "25/08/2026",
       "preco" : 35.0
     }, {
-      "data" : "26/08/2026",
-      "preco" : null
-    }, {
       "data" : "27/08/2026",
       "preco" : 24.5
     }, {
@@ -2761,7 +2700,7 @@
       "preco" : 24.5
     }, {
       "data" : "16/09/2026",
-      "preco" : null
+      "preco" : 24.5
     }, {
       "data" : "17/09/2026",
       "preco" : 24.5
@@ -2771,21 +2710,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 15,
       "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço 9% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "9% abaixo da média", "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.08522727272727279,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 18
+      "motivoPrincipal" : "Preço 9% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 195989,
@@ -2793,93 +2719,14 @@
     "imagem" : "https://m.media-amazon.com/images/I/817KYlR5I4L._SL1500_.jpg",
     "precoOriginal" : "49,00",
     "precoPromocao" : "24,50",
-    "precoAnterior" : "24,50",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508040261?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:04",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
-      "data" : "21/07/2026",
-      "preco" : null
-    }, {
-      "data" : "22/07/2026",
-      "preco" : null
-    }, {
-      "data" : "23/07/2026",
-      "preco" : null
-    }, {
-      "data" : "25/07/2026",
-      "preco" : null
-    }, {
-      "data" : "27/07/2026",
-      "preco" : null
-    }, {
-      "data" : "28/07/2026",
-      "preco" : null
-    }, {
-      "data" : "29/07/2026",
-      "preco" : null
-    }, {
-      "data" : "30/07/2026",
-      "preco" : null
-    }, {
-      "data" : "31/07/2026",
-      "preco" : null
-    }, {
-      "data" : "01/08/2026",
-      "preco" : null
-    }, {
-      "data" : "02/08/2026",
-      "preco" : null
-    }, {
-      "data" : "04/08/2026",
-      "preco" : null
-    }, {
-      "data" : "05/08/2026",
-      "preco" : null
-    }, {
       "data" : "07/08/2026",
       "preco" : 34.65
-    }, {
-      "data" : "08/08/2026",
-      "preco" : null
-    }, {
-      "data" : "09/08/2026",
-      "preco" : null
-    }, {
-      "data" : "10/08/2026",
-      "preco" : null
-    }, {
-      "data" : "11/08/2026",
-      "preco" : null
-    }, {
-      "data" : "14/08/2026",
-      "preco" : null
-    }, {
-      "data" : "15/08/2026",
-      "preco" : null
-    }, {
-      "data" : "16/08/2026",
-      "preco" : null
-    }, {
-      "data" : "17/08/2026",
-      "preco" : null
-    }, {
-      "data" : "19/08/2026",
-      "preco" : null
-    }, {
-      "data" : "20/08/2026",
-      "preco" : null
-    }, {
-      "data" : "21/08/2026",
-      "preco" : null
-    }, {
-      "data" : "23/08/2026",
-      "preco" : null
     }, {
       "data" : "26/08/2026",
       "preco" : 42.0
@@ -2914,9 +2761,6 @@
       "data" : "06/09/2026",
       "preco" : 24.5
     }, {
-      "data" : "07/09/2026",
-      "preco" : null
-    }, {
       "data" : "08/09/2026",
       "preco" : 24.5
     }, {
@@ -2949,21 +2793,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 15,
       "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço 7% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "7% abaixo da média", "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.0699300699300699,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 17
+      "motivoPrincipal" : "Preço 7% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 196064,
@@ -2971,15 +2802,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mfvhv2o7wtfk77",
     "precoOriginal" : "39,80",
     "precoPromocao" : "19,90",
-    "precoAnterior" : "19,90",
     "desconto" : "-50%",
     "linkAfiliado" : "https://s.shopee.com.br/9pcovhRJ3A",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:06",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 24.99
@@ -3139,21 +2966,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 10,
       "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço 6% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "6% abaixo da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.062025382748808484,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 20
+      "motivoPrincipal" : "Preço 6% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 195979,
@@ -3161,100 +2975,12 @@
     "imagem" : "https://m.media-amazon.com/images/I/81EkTWaP8JL._SL1500_.jpg",
     "precoOriginal" : "49,00",
     "precoPromocao" : "24,50",
-    "precoAnterior" : "24,50",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508171870?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:03",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
-      "data" : "21/07/2026",
-      "preco" : null
-    }, {
-      "data" : "22/07/2026",
-      "preco" : null
-    }, {
-      "data" : "23/07/2026",
-      "preco" : null
-    }, {
-      "data" : "25/07/2026",
-      "preco" : null
-    }, {
-      "data" : "26/07/2026",
-      "preco" : null
-    }, {
-      "data" : "27/07/2026",
-      "preco" : null
-    }, {
-      "data" : "29/07/2026",
-      "preco" : null
-    }, {
-      "data" : "30/07/2026",
-      "preco" : null
-    }, {
-      "data" : "31/07/2026",
-      "preco" : null
-    }, {
-      "data" : "01/08/2026",
-      "preco" : null
-    }, {
-      "data" : "02/08/2026",
-      "preco" : null
-    }, {
-      "data" : "04/08/2026",
-      "preco" : null
-    }, {
-      "data" : "05/08/2026",
-      "preco" : null
-    }, {
-      "data" : "07/08/2026",
-      "preco" : null
-    }, {
-      "data" : "08/08/2026",
-      "preco" : null
-    }, {
-      "data" : "09/08/2026",
-      "preco" : null
-    }, {
-      "data" : "10/08/2026",
-      "preco" : null
-    }, {
-      "data" : "11/08/2026",
-      "preco" : null
-    }, {
-      "data" : "13/08/2026",
-      "preco" : null
-    }, {
-      "data" : "14/08/2026",
-      "preco" : null
-    }, {
-      "data" : "15/08/2026",
-      "preco" : null
-    }, {
-      "data" : "16/08/2026",
-      "preco" : null
-    }, {
-      "data" : "18/08/2026",
-      "preco" : null
-    }, {
-      "data" : "19/08/2026",
-      "preco" : null
-    }, {
-      "data" : "21/08/2026",
-      "preco" : null
-    }, {
-      "data" : "22/08/2026",
-      "preco" : null
-    }, {
-      "data" : "23/08/2026",
-      "preco" : null
-    }, {
-      "data" : "25/08/2026",
-      "preco" : null
-    }, {
       "data" : "26/08/2026",
       "preco" : 42.0
     }, {
@@ -3323,21 +3049,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 10,
       "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "3% abaixo da média", "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.034482758620689655,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 19
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195942,
@@ -3345,15 +3058,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71UvoVLgoEL._SL1500_.jpg",
     "precoOriginal" : "84,00",
     "precoPromocao" : "42,00",
-    "precoAnterior" : "42,00",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508176597?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:01",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 49.0
@@ -3500,7 +3209,7 @@
       "preco" : 42.0
     }, {
       "data" : "16/09/2026",
-      "preco" : null
+      "preco" : 42.0
     }, {
       "data" : "17/09/2026",
       "preco" : 42.0
@@ -3510,21 +3219,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 10,
       "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "3% abaixo da média", "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.032258064516129004,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 20
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195884,
@@ -3532,15 +3228,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/911Smew2DlL._SL1500_.jpg",
     "precoOriginal" : "77,00",
     "precoPromocao" : "42,75",
-    "precoAnterior" : "42,75",
     "desconto" : "-44%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8596007555?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:20",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 51.64
@@ -3596,23 +3288,8 @@
       "data" : "12/08/2026",
       "preco" : 57.0
     }, {
-      "data" : "13/08/2026",
-      "preco" : null
-    }, {
       "data" : "15/08/2026",
       "preco" : 51.64
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 60.0
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 60.0
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 60.0
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 60.0
     }, {
       "data" : "21/08/2026",
       "preco" : 60.0
@@ -3691,21 +3368,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 10,
       "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "2% abaixo da média", "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.022472835034573535,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 13
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196277,
@@ -3713,15 +3377,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mhgjwi5hl2bqa7",
     "precoOriginal" : "39,99",
     "precoPromocao" : "29,99",
-    "precoAnterior" : "29,99",
     "desconto" : "-25%",
     "linkAfiliado" : "https://s.shopee.com.br/7VF9v2rt12",
     "categoria" : "Alimentos e Bebidas",
-    "categoriaId" : 2,
     "dataOferta" : "18/09/2026 22:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "28/07/2026",
       "preco" : 29.29
@@ -3866,21 +3526,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 8,
       "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço 9% abaixo da média dos últimos 30 dias.",
-      "sinais" : [ "9% abaixo da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.08611446565014728,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 8
+      "motivoPrincipal" : "Preço 9% abaixo da média dos últimos 30 dias."
     }
   }, {
     "id" : 196062,
@@ -3888,15 +3535,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71lKKG5DUQL._SL1122_.jpg",
     "precoOriginal" : "179,90",
     "precoPromocao" : "120,36",
-    "precoAnterior" : "120,36",
     "desconto" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8546902739?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:06",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 119.14
@@ -4050,21 +3693,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 15,
       "classificacao" : "INTERESSANTE",
-      "motivoPrincipal" : "Preço 2% abaixo da mediana histórica.",
-      "sinais" : [ "3% abaixo da média", "2% abaixo da mediana", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.027321385278155846,
-      "percentualAbaixoMediana" : 0.021622500406437952,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 3
+      "motivoPrincipal" : "Preço 2% abaixo da mediana histórica."
     }
   }, {
     "id" : 196116,
@@ -4072,15 +3702,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71kvgNp0FcL._SL1500_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "46,00",
-    "precoAnterior" : "46,00",
     "desconto" : "-34%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069760?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:08",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 48.93
@@ -4234,21 +3860,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 7,
       "classificacao" : "INTERESSANTE",
-      "motivoPrincipal" : "Preço 2% abaixo da mediana histórica.",
-      "sinais" : [ "2% abaixo da mediana", "preço apareceu algumas vezes recentemente", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0182477857219081,
-      "percentualAbaixoMediana" : 0.023561876459350446,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 7
+      "motivoPrincipal" : "Preço 2% abaixo da mediana histórica."
     }
   }, {
     "id" : 196023,
@@ -4256,15 +3869,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820m5-mo7pypmcmww19c",
     "precoOriginal" : "29,78",
     "precoPromocao" : "13,70",
-    "precoAnterior" : "13,70",
     "desconto" : "-54%",
     "linkAfiliado" : "https://s.shopee.com.br/20txbILvfr",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 14.8
@@ -4424,21 +4033,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "INTERESSANTE",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "5% abaixo da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0476313079299691,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 24
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196051,
@@ -4446,15 +4042,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/81JeioulkLL._SL1500_.jpg",
     "precoOriginal" : "49,00",
     "precoPromocao" : "24,50",
-    "precoAnterior" : "24,50",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508177801?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:06",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 25.0
@@ -4580,7 +4172,7 @@
       "preco" : 24.5
     }, {
       "data" : "09/09/2026",
-      "preco" : null
+      "preco" : 24.5
     }, {
       "data" : "11/09/2026",
       "preco" : 24.5
@@ -4608,21 +4200,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "INTERESSANTE",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "3% abaixo da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.03289473684210522,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 18
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195910,
@@ -4630,15 +4209,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m7augbm6ixf693",
     "precoOriginal" : "169,32",
     "precoPromocao" : "99,90",
-    "precoAnterior" : "99,90",
     "desconto" : "-41%",
     "linkAfiliado" : "https://s.shopee.com.br/5VTplWn3R8",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 21:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 79.9
@@ -4801,21 +4376,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "INTERESSANTE",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "3% abaixo da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.03124663290593692,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 17
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195883,
@@ -4823,15 +4385,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/91HNRdhuUWL._SL1500_.jpg",
     "precoOriginal" : "74,00",
     "precoPromocao" : "62,47",
-    "precoAnterior" : "64,36",
     "desconto" : "-15%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6586106788?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:19",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 55.5
@@ -4988,21 +4546,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "INTERESSANTE",
-      "motivoPrincipal" : "Preço 2% abaixo da mediana histórica.",
-      "sinais" : [ "preço acima da média", "2% abaixo da mediana", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.010992431032765676,
-      "percentualAbaixoMediana" : 0.022149174297566035,
-      "precoInedito" : true,
-      "ocorrenciasPrecoAtual" : 0
+      "motivoPrincipal" : "Preço 2% abaixo da mediana histórica."
     }
   }, {
     "id" : 195919,
@@ -5010,15 +4555,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/51CgItZa4bL._SL1000_.jpg",
     "precoOriginal" : "58,00",
     "precoPromocao" : "43,17",
-    "precoAnterior" : "43,17",
     "desconto" : "-25%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113498?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 44.59
@@ -5054,25 +4595,7 @@
       "preco" : 46.17
     }, {
       "data" : "04/08/2026",
-      "preco" : 43.17
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 43.17
-    }, {
-      "data" : "07/08/2026",
-      "preco" : null
-    }, {
-      "data" : "08/08/2026",
-      "preco" : null
-    }, {
-      "data" : "10/08/2026",
-      "preco" : null
-    }, {
-      "data" : "11/08/2026",
-      "preco" : null
-    }, {
-      "data" : "12/08/2026",
-      "preco" : null
+      "preco" : 46.17
     }, {
       "data" : "13/08/2026",
       "preco" : 35.9
@@ -5172,21 +4695,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "INTERESSANTE",
-      "motivoPrincipal" : "Preço 3% abaixo da mediana histórica. Ainda assim, 31% acima do menor preço do período.",
-      "sinais" : [ "preço acima da média", "3% abaixo da mediana", "desconto anunciado pelo marketplace" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.01205536269780447,
-      "percentualAbaixoMediana" : 0.030976430976430876,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 1
+      "motivoPrincipal" : "Preço 3% abaixo da mediana histórica. Ainda assim, 31% acima do menor preço do período."
     }
   }, {
     "id" : 196136,
@@ -5194,15 +4704,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-lukt0145h7j9a7",
     "precoOriginal" : "122,21",
     "precoPromocao" : "108,77",
-    "precoAnterior" : "108,77",
     "desconto" : "-11%",
     "linkAfiliado" : "https://s.shopee.com.br/60Q6MgA9j3",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:09",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 113.5
@@ -5362,21 +4868,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 3,
       "classificacao" : "INTERESSANTE",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "3% abaixo da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.031625284400039484,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 18
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195953,
@@ -5384,15 +4877,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/81jPRjUgkwL._SL1500_.jpg",
     "precoOriginal" : "84,00",
     "precoPromocao" : "42,00",
-    "precoAnterior" : "42,00",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508172796?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:01",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 46.0
@@ -5546,21 +5035,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "MODERADA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.017985611510791304,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 21
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195898,
@@ -5568,15 +5044,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/A1DmsMwAi6L._SL1500_.jpg",
     "precoOriginal" : "84,00",
     "precoPromocao" : "42,00",
-    "precoAnterior" : "42,00",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508172826?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 46.0
@@ -5730,21 +5202,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "MODERADA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.017985611510791304,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 21
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196266,
@@ -5752,15 +5211,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lm-mqaqs4306s5d80",
     "precoOriginal" : "99,83",
     "precoPromocao" : "57,90",
-    "precoAnterior" : "57,90",
     "desconto" : "-42%",
     "linkAfiliado" : "https://s.shopee.com.br/7prpCwM6kQ",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 61.9
@@ -5920,21 +5375,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "MODERADA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.006356066865823366,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 22
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195999,
@@ -5942,15 +5384,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/81fJ42l5QTL._SL1500_.jpg",
     "precoOriginal" : "49,00",
     "precoPromocao" : "24,50",
-    "precoAnterior" : "24,50",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508177798?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:04",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 25.0
@@ -6036,9 +5474,6 @@
       "data" : "25/08/2026",
       "preco" : 25.0
     }, {
-      "data" : "26/08/2026",
-      "preco" : null
-    }, {
       "data" : "27/08/2026",
       "preco" : 24.5
     }, {
@@ -6107,21 +5542,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "MODERADA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.004065040650406562,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 20
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196127,
@@ -6129,15 +5551,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71f+vORlCyL._SL1500_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "48,93",
-    "precoAnterior" : "48,93",
     "desconto" : "-30%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069981?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:08",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 47.23
@@ -6291,21 +5709,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 5,
       "classificacao" : "MODERADA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 5.722133211262343E-5,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195986,
@@ -6313,15 +5718,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mfsag8ufrwg597",
     "precoOriginal" : "77,89",
     "precoPromocao" : "66,21",
-    "precoAnterior" : "66,21",
     "desconto" : "-15%",
     "linkAfiliado" : "https://s.shopee.com.br/4LHsNZvRpg",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:04",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 68.9
@@ -6481,21 +5882,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 3,
       "classificacao" : "MODERADA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 0.00894772731052607,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 21
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195875,
@@ -6503,22 +5891,12 @@
     "imagem" : "https://m.media-amazon.com/images/I/81d7k8ELepL._SL1500_.jpg",
     "precoOriginal" : null,
     "precoPromocao" : "21,37",
-    "precoAnterior" : "21,37",
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/853562533X?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:18",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
-      "data" : "21/07/2026",
-      "preco" : 19.5
-    }, {
-      "data" : "23/07/2026",
-      "preco" : 19.5
-    }, {
       "data" : "24/07/2026",
       "preco" : 19.5
     }, {
@@ -6534,152 +5912,13 @@
       "data" : "29/07/2026",
       "preco" : 19.5
     }, {
-      "data" : "30/07/2026",
-      "preco" : 19.5
-    }, {
       "data" : "31/07/2026",
       "preco" : 20.52
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 20.52
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 20.52
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 20.53
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 20.52
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 20.49
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 20.49
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 20.49
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 21.5
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 20.67
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 20.64
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 20.64
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 21.5
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 21.5
-    }, {
-      "data" : "18/08/2026",
-      "preco" : 21.5
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 21.5
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 21.37
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 21.37
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "MODERADA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "tendência de queda no histórico", "preço recorrente (apareceu muitas vezes)", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : true,
-      "percentualAbaixoMedia" : 2.4327257756645736E-4,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195955,
@@ -6687,15 +5926,11 @@
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-82581-mr7bu143p9mqe3",
     "precoOriginal" : "100,48",
     "precoPromocao" : "85,41",
-    "precoAnterior" : "85,41",
     "desconto" : "-15%",
     "linkAfiliado" : "https://s.shopee.com.br/2qT4aof1R9",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:01",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 89.9
@@ -6855,21 +6090,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.018058488894944873,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 17
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195887,
@@ -6877,15 +6099,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71XdHx+-0-L._SL1500_.jpg",
     "precoOriginal" : "21,00",
     "precoPromocao" : "14,34",
-    "precoAnterior" : "14,34",
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/8532671373?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:20",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 14.34
@@ -7008,7 +6226,7 @@
       "preco" : 14.34
     }, {
       "data" : "09/09/2026",
-      "preco" : null
+      "preco" : 14.34
     }, {
       "data" : "10/09/2026",
       "preco" : 14.34
@@ -7019,14 +6237,11 @@
       "data" : "12/09/2026",
       "preco" : 14.34
     }, {
-      "data" : "13/09/2026",
-      "preco" : null
-    }, {
       "data" : "14/09/2026",
       "preco" : 14.34
     }, {
       "data" : "15/09/2026",
-      "preco" : null
+      "preco" : 14.34
     }, {
       "data" : "16/09/2026",
       "preco" : 14.34
@@ -7039,21 +6254,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.016020764342611692,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 22
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196111,
@@ -7061,15 +6263,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/717iWAynxlL._SL1500_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "47,28",
-    "precoAnterior" : "47,28",
     "desconto" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067997?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:08",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 48.93
@@ -7220,21 +6418,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.015984015984015998,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 8
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196126,
@@ -7242,15 +6427,11 @@
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-8259z-mr7btx0u2lmo52",
     "precoOriginal" : "124,43",
     "precoPromocao" : "89,59",
-    "precoAnterior" : "89,59",
     "desconto" : "-28%",
     "linkAfiliado" : "https://s.shopee.com.br/AAFfKKuIGS",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:08",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 89.59
@@ -7410,21 +6591,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0158189607821597,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 19
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196207,
@@ -7432,15 +6600,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lm-moo1fbllw6wwa9",
     "precoOriginal" : "1.350,93",
     "precoPromocao" : "797,05",
-    "precoAnterior" : "797,05",
     "desconto" : "-41%",
     "linkAfiliado" : "https://s.shopee.com.br/5fnFz2MNyR",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:11",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 797.11
@@ -7600,21 +6764,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.005734490149215912,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195880,
@@ -7622,15 +6773,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m6peqntiscvk4c",
     "precoOriginal" : "31,25",
     "precoPromocao" : "12,50",
-    "precoAnterior" : "12,50",
     "desconto" : "-60%",
     "linkAfiliado" : "https://s.shopee.com.br/5AqzMuoK6K",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 21:19",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 12.6
@@ -7784,21 +6931,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.004314636574842387,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 18
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195961,
@@ -7806,15 +6940,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lm-mohh8j4tjpc0e3",
     "precoOriginal" : "29,65",
     "precoPromocao" : "16,90",
-    "precoAnterior" : "16,90",
     "desconto" : "-43%",
     "linkAfiliado" : "https://s.shopee.com.br/111QPRm09w",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:02",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 19.9
@@ -7974,21 +7104,145 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.004081454481960785,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 18
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
+    }
+  }, {
+    "id" : 196292,
+    "titulo" : "Amaciante Profissional 5L Comfort",
+    "imagem" : "https://cf.shopee.com.br/file/sg-11134201-820lo-mnuwutvgw0sj4e",
+    "precoOriginal" : "92,80",
+    "precoPromocao" : "65,89",
+    "desconto" : "-29%",
+    "linkAfiliado" : "https://s.shopee.com.br/7VF9xiUcfj",
+    "categoria" : "Casa",
+    "dataOferta" : "18/09/2026 22:39",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "28/07/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 62.59
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 93.4
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 93.4
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 93.4
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 62.89
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 62.89
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 62.89
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 64.89
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 65.89
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 65.89
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 65.89
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 65.89
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 65.89
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 65.89
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 65.89
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 65.89
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 65.89
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 65.89
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "FRACA",
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196189,
@@ -7996,15 +7250,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lf-moew4qbal5ad43",
     "precoOriginal" : "504,35",
     "precoPromocao" : "116,00",
-    "precoAnterior" : "116,00",
     "desconto" : "-77%",
     "linkAfiliado" : "https://s.shopee.com.br/8Ko18zeKUv",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:10",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 119.99
@@ -8164,21 +7414,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0028272331321159156,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196246,
@@ -8186,15 +7423,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mfuyvh3tpce838",
     "precoOriginal" : "39,71",
     "precoPromocao" : "13,90",
-    "precoAnterior" : "13,90",
     "desconto" : "-65%",
     "linkAfiliado" : "https://s.shopee.com.br/3g2BgKbRFN",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:13",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 13.9
@@ -8351,21 +7584,154 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.002657454158915707,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 26
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
+    }
+  }, {
+    "id" : 196296,
+    "titulo" : "Game Stick M15 Pro 4k 64GB com 2 controles sem fio +20.000 jogos",
+    "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7rcee-m6gw6aktximz1a",
+    "precoOriginal" : "302,41",
+    "precoPromocao" : "123,99",
+    "desconto" : "-59%",
+    "linkAfiliado" : "https://s.shopee.com.br/AAG1yKGUPq",
+    "categoria" : "Brinquedos e Jogos",
+    "dataOferta" : "18/09/2026 22:39",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "01/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 115.99
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 115.99
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 114.99
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 123.99
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 123.99
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "FRACA",
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196279,
@@ -8373,15 +7739,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m0of7k0d409p95",
     "precoOriginal" : "79,99",
     "precoPromocao" : "79,99",
-    "precoAnterior" : "79,99",
     "desconto" : null,
     "linkAfiliado" : "https://s.shopee.com.br/9zwUvZvUWD",
     "categoria" : "Alimentos e Bebidas",
-    "categoriaId" : 2,
     "dataOferta" : "18/09/2026 22:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "28/07/2026",
       "preco" : 73.99
@@ -8508,21 +7870,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196278,
@@ -8530,15 +7879,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mihxaapj5iir8e",
     "precoOriginal" : "79,90",
     "precoPromocao" : "79,90",
-    "precoAnterior" : "79,90",
     "desconto" : null,
     "linkAfiliado" : "https://s.shopee.com.br/6AjmKfhkBa",
     "categoria" : "Alimentos e Bebidas",
-    "categoriaId" : 2,
     "dataOferta" : "18/09/2026 22:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "28/07/2026",
       "preco" : 79.8
@@ -8683,21 +8028,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196274,
@@ -8705,15 +8037,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mf9safvn0cue0c",
     "precoOriginal" : "68,43",
     "precoPromocao" : "47,90",
-    "precoAnterior" : "47,90",
     "desconto" : "-30%",
     "linkAfiliado" : "https://s.shopee.com.br/7fYSfYlHDT",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "23/07/2026",
       "preco" : 47.9
@@ -8867,21 +8195,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196268,
@@ -8889,15 +8204,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820ma-mnaajh51pszkd2",
     "precoOriginal" : "124,90",
     "precoPromocao" : "124,90",
-    "precoAnterior" : "124,90",
     "desconto" : null,
     "linkAfiliado" : "https://s.shopee.com.br/18yAwaUpj",
     "categoria" : "Alimentos e Bebidas",
-    "categoriaId" : 2,
     "dataOferta" : "18/09/2026 22:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 126.9
@@ -9057,21 +8368,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196200,
@@ -9079,15 +8377,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lj-mqvxcnrv84joe4",
     "precoOriginal" : "106,53",
     "precoPromocao" : "79,90",
-    "precoAnterior" : "79,90",
     "desconto" : "-25%",
     "linkAfiliado" : "https://s.shopee.com.br/40f1zxtfeo",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:11",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 76.47
@@ -9247,21 +8541,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196176,
@@ -9269,15 +8550,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/91OHanv3b0L._SL1500_.jpg",
     "precoOriginal" : "64,90",
     "precoPromocao" : "43,14",
-    "precoAnterior" : "43,14",
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069051?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:10",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 43.14
@@ -9420,9 +8697,6 @@
       "data" : "14/09/2026",
       "preco" : 43.14
     }, {
-      "data" : "15/09/2026",
-      "preco" : null
-    }, {
       "data" : "16/09/2026",
       "preco" : 43.14
     }, {
@@ -9434,21 +8708,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196132,
@@ -9456,15 +8717,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820l7-mosaklf7t2bk60",
     "precoOriginal" : "52,03",
     "precoPromocao" : "35,90",
-    "precoAnterior" : "35,90",
     "desconto" : "-31%",
     "linkAfiliado" : "https://s.shopee.com.br/70IdYW6Lh5",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:09",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 35.9
@@ -9624,21 +8881,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196122,
@@ -9646,15 +8890,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71SAYv284mL._SL1500_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "47,28",
-    "precoAnterior" : "47,28",
     "desconto" : "-32%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574067040?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:08",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 48.93
@@ -9808,21 +9048,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196100,
@@ -9830,15 +9057,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/61uxEBPP0EL._SL1500_.jpg",
     "precoOriginal" : "26,90",
     "precoPromocao" : "19,19",
-    "precoAnterior" : "19,19",
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/6551890156?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:08",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 24.2
@@ -9992,21 +9215,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196094,
@@ -10014,31 +9224,12 @@
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_629678-MLB93563718661_092025-F-trocador-americano-de-cmoda-rosa-rosa-3-pecas.webp",
     "precoOriginal" : "60,29",
     "precoPromocao" : "50,29",
-    "precoAnterior" : "50,29",
     "desconto" : "-16%",
     "linkAfiliado" : "https://meli.la/1UorY2k",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:07",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
-      "data" : "22/07/2026",
-      "preco" : 60.29
-    }, {
-      "data" : "23/07/2026",
-      "preco" : 60.29
-    }, {
-      "data" : "25/07/2026",
-      "preco" : 60.29
-    }, {
-      "data" : "26/07/2026",
-      "preco" : 60.29
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 60.29
-    }, {
       "data" : "15/08/2026",
       "preco" : 50.29
     }, {
@@ -10131,21 +9322,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196088,
@@ -10153,15 +9331,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81zts-ml2h7h5nltkwc5",
     "precoOriginal" : "74,88",
     "precoPromocao" : "59,90",
-    "precoAnterior" : "59,90",
     "desconto" : "-20%",
     "linkAfiliado" : "https://s.shopee.com.br/5fnFy3XpOc",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:07",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 59.9
@@ -10321,21 +9495,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196082,
@@ -10343,15 +9504,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-lsrfhx3warln7d",
     "precoOriginal" : "39,87",
     "precoPromocao" : "29,90",
-    "precoAnterior" : "29,90",
     "desconto" : "-25%",
     "linkAfiliado" : "https://s.shopee.com.br/2VqECESHgd",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:07",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 29.9
@@ -10451,21 +9608,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196073,
@@ -10473,15 +9617,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-mcn4jea5dtmaf3",
     "precoOriginal" : "37,20",
     "precoPromocao" : "27,90",
-    "precoAnterior" : "27,90",
     "desconto" : "-25%",
     "linkAfiliado" : "https://s.shopee.com.br/3VilO46k0z",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:06",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 27.9
@@ -10641,21 +9781,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196053,
@@ -10663,15 +9790,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820m2-mqexnc7lqfwj88",
     "precoOriginal" : "99,52",
     "precoPromocao" : "65,68",
-    "precoAnterior" : "65,68",
     "desconto" : "-34%",
     "linkAfiliado" : "https://s.shopee.com.br/111QPSlSZc",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:06",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 65.68
@@ -10831,21 +9954,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196034,
@@ -10853,15 +9963,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/A1iIS5-teFL._SL1500_.jpg",
     "precoOriginal" : "74,00",
     "precoPromocao" : "57,50",
-    "precoAnterior" : "57,50",
     "desconto" : "-22%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/856431133X?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 57.5
@@ -11018,21 +10124,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 26
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196018,
@@ -11040,15 +10133,11 @@
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7rffl-m3zbdqna4dhzc0",
     "precoOriginal" : "97,32",
     "precoPromocao" : "18,49",
-    "precoAnterior" : "18,49",
     "desconto" : "-81%",
     "linkAfiliado" : "https://s.shopee.com.br/4qE8yVB8v8",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 16.49
@@ -11208,21 +10297,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195894,
@@ -11230,15 +10306,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m8na2pgw51n51c",
     "precoOriginal" : "60,11",
     "precoPromocao" : "49,89",
-    "precoAnterior" : "49,89",
     "desconto" : "-17%",
     "linkAfiliado" : "https://s.shopee.com.br/qi0Cx4ote",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 21:20",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 49.89
@@ -11401,21 +10473,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 195877,
@@ -11423,15 +10482,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/81mWTlcwsaL._SL1500_.jpg",
     "precoOriginal" : "54,90",
     "precoPromocao" : "22,42",
-    "precoAnterior" : "22,42",
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/855130285X?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:18",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 33.0
@@ -11585,21 +10640,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque.",
-      "sinais" : [ "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : 0.0,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 26
+      "motivoPrincipal" : "Preço dentro do padrão histórico recente, sem grande destaque."
     }
   }, {
     "id" : 196208,
@@ -11607,15 +10649,11 @@
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7rdwc-lzz9hn7c0eaqdc",
     "precoOriginal" : "604,98",
     "precoPromocao" : "241,99",
-    "precoAnterior" : "241,99",
     "desconto" : "-60%",
     "linkAfiliado" : "https://s.shopee.com.br/AAFfLJ5FqK",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:11",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 261.99
@@ -11775,21 +10813,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -6.122114762083655E-6,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195990,
@@ -11797,15 +10822,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820lt-mmjcdy97kbuofc",
     "precoOriginal" : "111,40",
     "precoPromocao" : "38,99",
-    "precoAnterior" : "38,99",
     "desconto" : "-65%",
     "linkAfiliado" : "https://s.shopee.com.br/50XZAnsuTs",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:04",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 38.99
@@ -11965,21 +10986,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -9.508143725100818E-4,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 26
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196210,
@@ -11987,15 +10995,11 @@
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-824im-mdy0b4724mbkc6",
     "precoOriginal" : "80,22",
     "precoPromocao" : "36,90",
-    "precoAnterior" : "36,90",
     "desconto" : "-54%",
     "linkAfiliado" : "https://s.shopee.com.br/9fJOkO79rL",
     "categoria" : "Brinquedos e Jogos",
-    "categoriaId" : 6,
     "dataOferta" : "18/09/2026 22:11",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 36.53
@@ -12152,21 +11156,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.0011153649051940612,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 24
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195996,
@@ -12174,15 +11165,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-mcjkoeu65udd4c",
     "precoOriginal" : "121,04",
     "precoPromocao" : "68,99",
-    "precoAnterior" : "68,99",
     "desconto" : "-43%",
     "linkAfiliado" : "https://s.shopee.com.br/5q6gAKpjn8",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:04",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 69.99
@@ -12342,21 +11329,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.0011824587617505938,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 26
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196022,
@@ -12364,15 +11338,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81zto-ml5989e7ml8nf8",
     "precoOriginal" : "67,43",
     "precoPromocao" : "49,90",
-    "precoAnterior" : "49,90",
     "desconto" : "-26%",
     "linkAfiliado" : "https://s.shopee.com.br/qi0D9QN2U",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 48.38
@@ -12532,21 +11502,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.0022316447221602956,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196215,
@@ -12554,15 +11511,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820m2-mr7ern9irqbr01",
     "precoOriginal" : "555,54",
     "precoPromocao" : "349,99",
-    "precoAnterior" : "349,99",
     "desconto" : "-37%",
     "linkAfiliado" : "https://s.shopee.com.br/4qE8zVPYfo",
     "categoria" : "Brinquedos e Jogos",
-    "categoriaId" : 6,
     "dataOferta" : "18/09/2026 22:11",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 334.99
@@ -12719,21 +11672,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.004075920933934083,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 25
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196169,
@@ -12741,15 +11681,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81ztc-ml2gsdt5zshub5",
     "precoOriginal" : "120,16",
     "precoPromocao" : "76,90",
-    "precoAnterior" : "76,90",
     "desconto" : "-36%",
     "linkAfiliado" : "https://s.shopee.com.br/4qE8yYE3XR",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:10",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 76.9
@@ -12909,21 +11845,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.004708284742350923,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 24
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195945,
@@ -12931,15 +11854,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81ztr-ml2ht5dwxpmr20",
     "precoOriginal" : "81,00",
     "precoPromocao" : "72,90",
-    "precoAnterior" : "72,90",
     "desconto" : "-10%",
     "linkAfiliado" : "https://s.shopee.com.br/40f1ypdwxw",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:01",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 67.87
@@ -13099,21 +12018,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.005024355871450018,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 24
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196183,
@@ -13121,15 +12027,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820mg-mrbsbnr5651i14",
     "precoOriginal" : "29,94",
     "precoPromocao" : "14,97",
-    "precoAnterior" : "14,97",
     "desconto" : "-50%",
     "linkAfiliado" : "https://s.shopee.com.br/3B5uzUfR94",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:10",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 14.97
@@ -13289,21 +12191,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.005372733378106116,
-      "percentualAbaixoMediana" : -0.005372733378106116,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 27
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196119,
@@ -13311,15 +12200,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mfvhxi15yww53c",
     "precoOriginal" : "129,61",
     "precoPromocao" : "69,99",
-    "precoAnterior" : "69,99",
     "desconto" : "-46%",
     "linkAfiliado" : "https://s.shopee.com.br/9pcoviZhZf",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:08",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 66.49
@@ -13479,21 +12364,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.005587394837247125,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 24
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195984,
@@ -13501,15 +12373,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/81Fev0Bf1vL._SL1500_.jpg",
     "precoOriginal" : "84,00",
     "precoPromocao" : "42,00",
-    "precoAnterior" : "42,00",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/850817666X?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:04",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 40.0
@@ -13663,21 +12531,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.009242144177449221,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 21
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196140,
@@ -13685,15 +12540,11 @@
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7rau5-mau62igmy63506",
     "precoOriginal" : "146,90",
     "precoPromocao" : "99,89",
-    "precoAnterior" : "99,89",
     "desconto" : "-32%",
     "linkAfiliado" : "https://s.shopee.com.br/3VilO5Jfno",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:09",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 99.98
@@ -13853,21 +12704,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.010384706160018924,
-      "percentualAbaixoMediana" : 1.001001001001513E-4,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 26
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195913,
@@ -13875,15 +12713,11 @@
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7rdwa-mccb5id6es7v2d",
     "precoOriginal" : "119,76",
     "precoPromocao" : "59,88",
-    "precoAnterior" : "59,88",
     "desconto" : "-50%",
     "linkAfiliado" : "https://s.shopee.com.br/qi0D0q0Ne",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 21:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 59.89
@@ -14046,21 +12880,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.011056357405508256,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 24
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195946,
@@ -14068,34 +12889,12 @@
     "imagem" : "https://http2.mlstatic.com/D_NQ_NP_2X_657292-MLA110183862353_042026-F-trocador-organizador-de-fralda-portatil-e-dobravel-com-bolso.webp",
     "precoOriginal" : "35,20",
     "precoPromocao" : "28,16",
-    "precoAnterior" : "28,16",
     "desconto" : "-20%",
     "linkAfiliado" : "https://meli.la/15Vqhor",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:01",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
-      "data" : "21/07/2026",
-      "preco" : 35.2
-    }, {
-      "data" : "22/07/2026",
-      "preco" : 35.2
-    }, {
-      "data" : "23/07/2026",
-      "preco" : 35.2
-    }, {
-      "data" : "25/07/2026",
-      "preco" : 35.2
-    }, {
-      "data" : "26/07/2026",
-      "preco" : 35.2
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 35.2
-    }, {
       "data" : "15/08/2026",
       "preco" : 25.34
     }, {
@@ -14188,21 +12987,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.012163211317825,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 22
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196179,
@@ -14210,15 +12996,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-lv8xe4u0mjyn59",
     "precoOriginal" : "983,08",
     "precoPromocao" : "639,00",
-    "precoAnterior" : "586,00",
     "desconto" : "-35%",
     "linkAfiliado" : "https://s.shopee.com.br/8pkHjtypQr",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:10",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 689.0
@@ -14378,21 +13160,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.012323556281563619,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 24
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196133,
@@ -14400,15 +13169,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71sET+Mf4KL._SL1500_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "48,93",
-    "precoAnterior" : "48,93",
     "desconto" : "-30%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069892?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:09",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 48.93
@@ -14559,21 +13324,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.014278251784781483,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 18
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196206,
@@ -14581,15 +13333,11 @@
     "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7rd5h-lwvulhmfmpsp71",
     "precoOriginal" : "60,36",
     "precoPromocao" : "31,99",
-    "precoAnterior" : "31,99",
     "desconto" : "-47%",
     "linkAfiliado" : "https://s.shopee.com.br/5LAPaQNeeL",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:11",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 29.9
@@ -14749,21 +13497,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.016152941176470554,
-      "percentualAbaixoMediana" : -0.002821316614420058,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 17
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196047,
@@ -14771,15 +13506,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/A1c4X6D0MFL._SL1500_.jpg",
     "precoOriginal" : "199,90",
     "precoPromocao" : "175,36",
-    "precoAnterior" : "175,36",
     "desconto" : "-12%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8583000263?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:06",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 157.01
@@ -14865,12 +13596,6 @@
       "data" : "25/08/2026",
       "preco" : 152.29
     }, {
-      "data" : "26/08/2026",
-      "preco" : 193.96
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 193.96
-    }, {
       "data" : "29/08/2026",
       "preco" : 168.44
     }, {
@@ -14933,21 +13658,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.01928188665156913,
-      "percentualAbaixoMediana" : 0.0010254073145720543,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 16
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196275,
@@ -14955,15 +13667,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mhrtscrn4x6r90",
     "precoOriginal" : "59,03",
     "precoPromocao" : "41,91",
-    "precoAnterior" : "41,91",
     "desconto" : "-29%",
     "linkAfiliado" : "https://s.shopee.com.br/9KghfKsHZL",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:21",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "24/07/2026",
       "preco" : 42.21
@@ -15117,21 +13825,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.019441616591140447,
-      "percentualAbaixoMediana" : 0.0071073205401564615,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 23
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196138,
@@ -15139,15 +13834,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/61heinxmnKL._SL1383_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "51,64",
-    "precoAnterior" : "51,64",
     "desconto" : "-26%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574069965?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:09",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 48.93
@@ -15301,21 +13992,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.021045721652338263,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 13
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195881,
@@ -15323,15 +14001,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71fbjj4U1qL._SL1500_.jpg",
     "precoOriginal" : "54,90",
     "precoPromocao" : "39,93",
-    "precoAnterior" : "39,93",
     "desconto" : "-27%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/6559800881?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:19",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 33.27
@@ -15459,9 +14133,6 @@
       "data" : "09/09/2026",
       "preco" : 39.93
     }, {
-      "data" : "10/09/2026",
-      "preco" : null
-    }, {
       "data" : "11/09/2026",
       "preco" : 39.93
     }, {
@@ -15488,21 +14159,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.02473951650156543,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 15
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196190,
@@ -15510,15 +14168,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/81KQlEZDn6L._SL1500_.jpg",
     "precoOriginal" : "62,90",
     "precoPromocao" : "35,13",
-    "precoAnterior" : "35,13",
     "desconto" : "-44%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8574126233?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:10",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 31.53
@@ -15637,9 +14291,6 @@
       "data" : "07/09/2026",
       "preco" : 35.11
     }, {
-      "data" : "08/09/2026",
-      "preco" : null
-    }, {
       "data" : "09/09/2026",
       "preco" : 35.11
     }, {
@@ -15672,21 +14323,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.02586116270105488,
-      "percentualAbaixoMediana" : -5.696382796924844E-4,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 14
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196069,
@@ -15694,15 +14332,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-me0uqne4hou9ec",
     "precoOriginal" : "140,18",
     "precoPromocao" : "79,90",
-    "precoAnterior" : "79,90",
     "desconto" : "-43%",
     "linkAfiliado" : "https://s.shopee.com.br/8fQrXYn4WT",
     "categoria" : "Brinquedos e Jogos",
-    "categoriaId" : 6,
     "dataOferta" : "18/09/2026 22:06",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 79.9
@@ -15862,21 +14496,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.028118000285945834,
-      "percentualAbaixoMediana" : -0.012674271229404309,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 13
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196044,
@@ -15884,15 +14505,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-mdhdii2hhgop9d",
     "precoOriginal" : "69,89",
     "precoPromocao" : "66,40",
-    "precoAnterior" : "66,40",
     "desconto" : "-5%",
     "linkAfiliado" : "https://s.shopee.com.br/4VbIZtY8Sz",
     "categoria" : "Bebês",
-    "categoriaId" : 7,
     "dataOferta" : "18/09/2026 22:06",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 49.99
@@ -16052,21 +14669,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.03308190089835725,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 3
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195958,
@@ -16074,15 +14678,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/81zPCskugmL._SL1500_.jpg",
     "precoOriginal" : "84,00",
     "precoPromocao" : "42,00",
-    "precoAnterior" : "42,00",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508176651?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:01",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 35.0
@@ -16229,7 +14829,7 @@
       "preco" : 42.0
     }, {
       "data" : "16/09/2026",
-      "preco" : null
+      "preco" : 42.0
     }, {
       "data" : "17/09/2026",
       "preco" : 42.0
@@ -16239,21 +14839,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.03448275862068962,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 20
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195949,
@@ -16261,15 +14848,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/81D7i0u5XyL._SL1500_.jpg",
     "precoOriginal" : "84,00",
     "precoPromocao" : "42,00",
-    "precoAnterior" : "42,00",
     "desconto" : "-50%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508172885?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:01",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 34.0
@@ -16426,21 +15009,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.03802281368821297,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 21
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196231,
@@ -16448,15 +15018,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-820mc-mpnszoiek9og7e",
     "precoOriginal" : "161,89",
     "precoPromocao" : "59,90",
-    "precoAnterior" : "59,90",
     "desconto" : "-63%",
     "linkAfiliado" : "https://s.shopee.com.br/4VbIatU7yD",
     "categoria" : "Brinquedos e Jogos",
-    "categoriaId" : 6,
     "dataOferta" : "18/09/2026 22:13",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "22/07/2026",
       "preco" : 54.9
@@ -16613,21 +15179,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.038381529611176794,
-      "percentualAbaixoMediana" : -0.01697792869269949,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 13
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196041,
@@ -16635,24 +15188,14 @@
     "imagem" : "https://m.media-amazon.com/images/I/91-5e-gI3wL._SL1500_.jpg",
     "precoOriginal" : "55,00",
     "precoPromocao" : "38,50",
-    "precoAnterior" : "38,50",
     "desconto" : "-30%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8506082846?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
-      "data" : "21/07/2026",
-      "preco" : 41.25
-    }, {
       "data" : "23/07/2026",
       "preco" : 41.25
-    }, {
-      "data" : "24/07/2026",
-      "preco" : 46.75
     }, {
       "data" : "25/07/2026",
       "preco" : 41.25
@@ -16666,107 +15209,8 @@
       "data" : "29/07/2026",
       "preco" : 46.9
     }, {
-      "data" : "30/07/2026",
-      "preco" : 46.9
-    }, {
       "data" : "31/07/2026",
       "preco" : 46.75
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 46.75
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 34.1
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 34.1
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 34.1
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 34.1
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 34.1
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 46.75
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 31.13
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 38.5
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 38.5
     }, {
       "data" : "11/09/2026",
       "preco" : 38.5
@@ -16791,21 +15235,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.05561587646278214,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 16
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196014,
@@ -16813,15 +15244,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/61NEXQZjy6L._SL1500_.jpg",
     "precoOriginal" : "58,00",
     "precoPromocao" : "45,24",
-    "precoAnterior" : "45,24",
     "desconto" : "-22%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508113439?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 37.76
@@ -16978,21 +15405,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço apareceu algumas vezes recentemente", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.06218423089297989,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 7
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 195886,
@@ -17000,28 +15414,12 @@
     "imagem" : "https://m.media-amazon.com/images/I/514iDenrA7L._SL1000_.jpg",
     "precoOriginal" : null,
     "precoPromocao" : "15,00",
-    "precoAnterior" : "15,00",
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/8572008268?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 21:20",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
-      "data" : "21/07/2026",
-      "preco" : 17.53
-    }, {
-      "data" : "22/07/2026",
-      "preco" : 17.02
-    }, {
-      "data" : "23/07/2026",
-      "preco" : 17.02
-    }, {
-      "data" : "25/07/2026",
-      "preco" : 17.02
-    }, {
       "data" : "26/07/2026",
       "preco" : 17.02
     }, {
@@ -17088,56 +15486,11 @@
       "data" : "22/08/2026",
       "preco" : 10.2
     }, {
-      "data" : "23/08/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 15.0
-    }, {
       "data" : "06/09/2026",
       "preco" : 12.5
     }, {
       "data" : "07/09/2026",
       "preco" : 12.5
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 15.0
     }, {
       "data" : "11/09/2026",
       "preco" : 12.5
@@ -17150,36 +15503,11 @@
     }, {
       "data" : "14/09/2026",
       "preco" : 12.5
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 15.0
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 15.0
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.074676219344172,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 17
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196154,
@@ -17187,15 +15515,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/71BnSTuijdL._SL1500_.jpg",
     "precoOriginal" : "69,90",
     "precoPromocao" : "49,84",
-    "precoAnterior" : "49,84",
     "desconto" : "-28%",
     "linkAfiliado" : "https://amzn.to/3QcFsrh",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:09",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 48.93
@@ -17281,9 +15605,6 @@
       "data" : "25/08/2026",
       "preco" : 41.94
     }, {
-      "data" : "27/08/2026",
-      "preco" : null
-    }, {
       "data" : "28/08/2026",
       "preco" : 41.94
     }, {
@@ -17346,21 +15667,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.07834051529848736,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 13
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196035,
@@ -17368,15 +15676,11 @@
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-lqp8s8f2ez2bc0",
     "precoOriginal" : "199,97",
     "precoPromocao" : "79,99",
-    "precoAnterior" : "79,99",
     "desconto" : "-60%",
     "linkAfiliado" : "https://s.shopee.com.br/9UzyX5F6JT",
     "categoria" : "Casa",
-    "categoriaId" : 3,
     "dataOferta" : "18/09/2026 22:05",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 69.99
@@ -17536,21 +15840,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço recorrente (apareceu muitas vezes)", "desconto anunciado pelo marketplace", "nenhum sinal de queda", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : false,
-      "percentualQueda" : 0.0,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.08984250816222515,
-      "percentualAbaixoMediana" : 0.0,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 14
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
   }, {
     "id" : 196009,
@@ -17558,15 +15849,11 @@
     "imagem" : "https://m.media-amazon.com/images/I/51yk7yzZMKL._SL1320_.jpg",
     "precoOriginal" : "58,00",
     "precoPromocao" : "43,86",
-    "precoAnterior" : "44,59",
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/8508111274?tag=curadomus-20",
     "categoria" : "Livros",
-    "categoriaId" : 1,
     "dataOferta" : "18/09/2026 22:04",
     "destaque" : false,
-    "menorPrecoEmDias" : false,
-    "menorPrecoMensagem" : null,
     "historico" : [ {
       "data" : "21/07/2026",
       "preco" : 38.2
@@ -17703,9 +15990,6 @@
       "data" : "12/09/2026",
       "preco" : 43.86
     }, {
-      "data" : "13/09/2026",
-      "preco" : null
-    }, {
       "data" : "14/09/2026",
       "preco" : 43.86
     }, {
@@ -17723,22 +16007,8 @@
     } ],
     "tags" : [ ],
     "analise" : {
-      "score" : 0,
       "classificacao" : "FRACA",
-      "motivoPrincipal" : "Preço acima do padrão histórico recente.",
-      "sinais" : [ "preço acima da média", "preço apareceu algumas vezes recentemente", "desconto anunciado pelo marketplace", "não é menor preço recente" ],
-      "semHistorico" : false,
-      "novoMenorPreco" : false,
-      "menorPrecoJanela" : false,
-      "diasMenorPrecoJanela" : null,
-      "quedaRecente" : true,
-      "percentualQueda" : 0.016371383718322582,
-      "tendenciaQueda" : false,
-      "percentualAbaixoMedia" : -0.25145518044237497,
-      "percentualAbaixoMediana" : -0.46688963210702344,
-      "precoInedito" : false,
-      "ocorrenciasPrecoAtual" : 7
+      "motivoPrincipal" : "Preço acima do padrão histórico recente."
     }
-  } ],
-  "cupons" : null
+  } ]
 }
