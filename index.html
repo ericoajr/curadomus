@@ -233,6 +233,10 @@
               <h2 class="text-serif mt-2 text-4xl sm:text-5xl text-primary">
                 Ofertas selecionadas
               </h2>
+              <p class="mt-2 max-w-xl text-sm leading-relaxed text-mutedInk">
+                Selecionadas a partir do histórico real de preços. O motivo de cada
+                oportunidade aparece no próprio card.
+              </p>
               <p id="promoAtualizacao" class="mt-2 text-xs text-mutedInk"></p>
             </div>
             <a
@@ -414,9 +418,43 @@
 
     inicializarComunidades();
 
-    // ---------- Vitrine de Promoções (top destaques) ----------
-    function possuiDestaque(produto) {
-      return produto.destaque === true || produto.menorPrecoEmDias === true;
+    // ---------- Vitrine de Promoções ----------
+    //
+    // A regra de negócio não mora mais no frontend.
+    //
+    // O backend já:
+    // - decide quais ofertas são publicáveis;
+    // - calcula destaque;
+    // - ordena por relevância.
+    //
+    // A home apenas apresenta as primeiras ofertas recebidas.
+    function normalizarClassificacao(classificacao = "") {
+      const nomes = {
+        EXCELENTE: "Excelente oportunidade",
+        MUITO_BOA: "Muito boa oportunidade",
+        BOA: "Boa oportunidade",
+        INTERESSANTE: "Preço interessante",
+        MODERADA: "Oportunidade moderada",
+        FRACA: "Oferta monitorada",
+        SEM_HISTORICO: "Em monitoramento"
+      };
+
+      return nomes[classificacao] || "Preço analisado";
+    }
+
+    function motivoAnalise(p) {
+      const analise = p.analise || {};
+
+      if (analise.motivoPrincipal) {
+        return analise.motivoPrincipal;
+      }
+
+      // Compatibilidade temporária com JSON anterior.
+      if (p.menorPrecoMensagem) {
+        return p.menorPrecoMensagem;
+      }
+
+      return "Preço analisado pela Cura Domus.";
     }
 
     function cardPromoTeaser(p) {
@@ -427,23 +465,83 @@
       const precoOriginal = escapeHTML(p.precoOriginal || "");
       const desconto = escapeHTML(p.desconto || "");
 
+      const analise = p.analise || {};
+      const classificacao = normalizarClassificacao(analise.classificacao);
+      const motivo = escapeHTML(motivoAnalise(p));
+      const destaque = p.destaque === true;
+
+      /*
+       * O desconto anunciado pelo marketplace continua disponível,
+       * mas deixou de ser o argumento principal do card.
+       *
+       * A evidência produzida pelo backend recebe destaque visual.
+       */
       return `
-        <article class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card" style="border-color:var(--border)">
-          <div class="relative flex items-center justify-center p-4" style="background:var(--cream)">
-            ${desconto ? `<span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">${desconto}</span>` : ""}
-            <img src="${imagem}" alt="${titulo}" loading="lazy" class="h-28 w-full object-contain">
+        <article
+          class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card"
+          style="border-color:var(--border)"
+        >
+          <div class="relative flex min-h-40 items-center justify-center p-5" style="background:var(--cream)">
+            <span
+              class="absolute left-3 top-3 rounded-full border bg-white/95 px-2.5 py-1 text-[10px] font-bold text-primary shadow-sm"
+              style="border-color:var(--border)"
+            >
+              ${destaque ? "★ Destaque" : "✓ Preço analisado"}
+            </span>
+
+            <img
+              src="${imagem}"
+              alt="${titulo}"
+              loading="lazy"
+              class="h-32 w-full object-contain"
+            >
           </div>
-          <div class="flex flex-1 flex-col gap-2 p-4">
-            <h3 class="text-[13px] font-bold leading-snug line-clamp-2">${titulo}</h3>
-            <div class="mt-auto flex items-end justify-between gap-2 pt-2">
-              <div class="flex flex-col">
-                ${precoOriginal ? `<span class="text-xs text-mutedInk line-through">R$ ${precoOriginal}</span>` : ""}
-                <span class="text-serif text-xl font-bold leading-none text-primary">R$ ${precoAtual}</span>
+
+          <div class="flex flex-1 flex-col p-4">
+            <p class="text-[10px] font-bold uppercase tracking-[.12em] text-primary">
+              ${escapeHTML(classificacao)}
+            </p>
+
+            <h3 class="mt-1.5 text-[13px] font-bold leading-snug line-clamp-2">
+              ${titulo}
+            </h3>
+
+            <div
+              class="mt-3 rounded-xl border px-3 py-2.5"
+              style="border-color:var(--border); background:var(--background)"
+            >
+              <p class="text-[11px] font-semibold leading-relaxed text-primary">
+                ${motivo}
+              </p>
+            </div>
+
+            <div class="mt-auto pt-4">
+              <div class="flex items-end justify-between gap-3">
+                <div class="flex min-w-0 flex-col">
+                  ${precoOriginal
+                    ? `<span class="text-[11px] text-mutedInk line-through">R$ ${precoOriginal}</span>`
+                    : ""
+                  }
+
+                  <span class="text-serif text-2xl font-bold leading-none text-primary">
+                    R$ ${precoAtual}
+                  </span>
+
+                  ${desconto
+                    ? `<span class="mt-1 text-[10px] text-mutedInk">${desconto} informado pela loja</span>`
+                    : ""
+                  }
+                </div>
+
+                <a
+                  href="${link}"
+                  target="_blank"
+                  rel="sponsored nofollow noopener noreferrer"
+                  class="inline-flex shrink-0 items-center gap-1 rounded-lg bg-primary px-3 py-2 text-xs font-bold text-white transition hover:opacity-90"
+                >
+                  Ver oferta ↗
+                </a>
               </div>
-              <a href="${link}" target="_blank" rel="sponsored nofollow noopener noreferrer"
-                class="inline-flex items-center gap-1 rounded-lg bg-primary px-3 py-1.5 text-xs font-bold text-white transition hover:opacity-90">
-                Ver ↗
-              </a>
             </div>
           </div>
         </article>
@@ -454,18 +552,32 @@
       .then(r => r.ok ? r.json() : Promise.reject())
       .then(data => {
         const ofertas = Array.isArray(data.ofertas) ? data.ofertas : [];
+
         if (data.ultimaAtualizacao) {
-          document.getElementById("promoAtualizacao").textContent = `Última atualização: ${data.ultimaAtualizacao}`;
+          document.getElementById("promoAtualizacao").textContent =
+            `Última atualização: ${data.ultimaAtualizacao}`;
         }
-        const destaques = ofertas.filter(possuiDestaque);
-        const base = (destaques.length ? destaques : ofertas).slice(0, 4);
+
+        /*
+         * NÃO filtramos mais por destaque, menorPrecoEmDias, desconto,
+         * score ou classificação.
+         *
+         * CuradoriaVitrineService já devolve apenas ofertas publicáveis
+         * e já ordenadas. A home simplesmente mostra as quatro primeiras.
+         */
+        const base = ofertas.slice(0, 4);
+
         document.getElementById("promoLista").innerHTML = base.length
           ? base.map(cardPromoTeaser).join("")
-          : `<p class="sm:col-span-4 text-center text-sm text-mutedInk">Nenhuma promoção no momento.</p>`;
+          : `<p class="sm:col-span-4 text-center text-sm text-mutedInk">
+               Nenhuma oportunidade selecionada no momento.
+             </p>`;
       })
       .catch(() => {
         document.getElementById("promoLista").innerHTML =
-          `<p class="sm:col-span-4 text-center text-sm text-mutedInk">Não foi possível carregar as promoções agora.</p>`;
+          `<p class="sm:col-span-4 text-center text-sm text-mutedInk">
+             Não foi possível carregar as ofertas agora.
+           </p>`;
       });
 
     // ---------- Vitrine de Receitas (destaques ou primeiras 3) ----------
