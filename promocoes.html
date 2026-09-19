@@ -220,7 +220,7 @@
           </div>
 
           <div class="rounded-xl bg-cream px-4 py-3 text-xs leading-relaxed text-mutedInk">
-            Exibimos primeiro as ofertas com melhor histórico recente.
+            A seleção e a ordem das ofertas são definidas pela nossa análise de preços.
           </div>
         </div>
 
@@ -435,7 +435,7 @@
     }
 
     function possuiDestaque(produto) {
-      return produto.destaque === true || produto.menorPrecoEmDias === true;
+      return produto.destaque === true;
     }
 
     function obterListaFiltrada() {
@@ -448,22 +448,6 @@
           (!busca || textoBusca.includes(busca)) &&
           (!apenasDestaques || possuiDestaque(produto))
         );
-      });
-    }
-
-    function ordenarOfertas(lista) {
-      return [...lista].sort((a, b) => {
-        const destaqueA = possuiDestaque(a) ? 1 : 0;
-        const destaqueB = possuiDestaque(b) ? 1 : 0;
-        if (destaqueA !== destaqueB) return destaqueB - destaqueA;
-
-        const menorA = obterMenorPreco(a);
-        const menorB = obterMenorPreco(b);
-        const atualA = Number(String(a.precoPromocao || "0").replace(/\./g, "").replace(",", "."));
-        const atualB = Number(String(b.precoPromocao || "0").replace(/\./g, "").replace(",", "."));
-        const distanciaA = menorA ? atualA / menorA : 999;
-        const distanciaB = menorB ? atualB / menorB : 999;
-        return distanciaA - distanciaB;
       });
     }
 
@@ -495,6 +479,26 @@
       });
     }
 
+    function normalizarClassificacao(classificacao = "") {
+      const nomes = {
+        EXCELENTE: "Excelente oportunidade",
+        MUITO_BOA: "Muito boa oportunidade",
+        BOA: "Boa oportunidade",
+        INTERESSANTE: "Preço interessante",
+        MODERADA: "Oportunidade moderada",
+        FRACA: "Oferta monitorada",
+        SEM_HISTORICO: "Em monitoramento"
+      };
+      return nomes[classificacao] || "Preço analisado";
+    }
+
+    function motivoAnalise(produto) {
+      const analise = produto.analise || {};
+      return analise.motivoPrincipal
+        || produto.menorPrecoMensagem
+        || "Preço analisado pela Cura Domus.";
+    }
+
     function criarCard(produto) {
       const titulo = escapeHTML(produto.titulo || "Oferta");
       const imagem = safeUrl(produto.imagem || "");
@@ -504,42 +508,41 @@
       const precoOriginal = escapeHTML(produto.precoOriginal || "");
       const desconto = escapeHTML(produto.desconto || "");
       const historico = extrairHistorico(produto);
-      const menorPreco = obterMenorPreco(produto);
-
-      const precoNumerico = Number(String(produto.precoPromocao || "0").replace(/\./g, "").replace(",", "."));
-      const estaNoMenorPreco = menorPreco !== null && Number.isFinite(precoNumerico) && Math.abs(precoNumerico - menorPreco) < 0.01;
+      const analise = produto.analise || {};
       const destaque = possuiDestaque(produto);
+      const classificacao = escapeHTML(normalizarClassificacao(analise.classificacao));
+      const motivo = escapeHTML(motivoAnalise(produto));
 
-      let seloHistorico = "";
-      if (produto.menorPrecoMensagem) {
-        seloHistorico = produto.menorPrecoMensagem;
-      } else if (estaNoMenorPreco) {
-        seloHistorico = "Menor preço registrado no histórico";
-      } else if (menorPreco !== null && precoNumerico > menorPreco) {
-        seloHistorico = `Menor registro: ${formatarBRL(menorPreco)}`;
-      }
-
-      const dadosHistorico = escapeHTML(JSON.stringify({ titulo: produto.titulo || "Histórico de preços", historico }));
+      const dadosHistorico = escapeHTML(JSON.stringify({
+        titulo: produto.titulo || "Histórico de preços",
+        historico
+      }));
 
       return `
         <article class="fade-up flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
           <div class="relative flex shrink-0 items-center justify-center p-5 sm:w-44" style="background:var(--cream)">
-            ${desconto ? `<span class="absolute left-3 top-3 rounded-md bg-primary px-2 py-1 text-[10px] font-bold text-white">${desconto}</span>` : ""}
-            ${destaque ? `<span class="absolute right-3 top-3 rounded-md bg-emerald-100 px-2 py-1 text-[10px] font-bold text-emerald-700">Destaque</span>` : ""}
+            <span class="absolute left-3 top-3 rounded-full border bg-white/95 px-2.5 py-1 text-[10px] font-bold text-primary shadow-sm" style="border-color:var(--border)">
+              ${destaque ? "★ Destaque" : "✓ Preço analisado"}
+            </span>
             <img src="${imagem}" alt="${titulo}" loading="lazy" class="h-32 w-full object-contain sm:h-36">
           </div>
 
           <div class="flex flex-1 flex-col gap-3 p-5">
             <div>
-              <p class="mb-2 text-[10px] font-bold uppercase tracking-[.16em] text-mutedInk">${categoria}</p>
-              <h3 class="text-[15px] font-bold leading-snug">${titulo}</h3>
-              ${seloHistorico ? `<div class="mt-3 inline-flex rounded-full bg-emerald-100 px-3 py-1 text-[11px] font-bold text-emerald-700">✓ ${escapeHTML(seloHistorico)}</div>` : ""}
+              <p class="mb-1 text-[10px] font-bold uppercase tracking-[.16em] text-mutedInk">${categoria}</p>
+              <p class="text-[10px] font-bold uppercase tracking-[.12em] text-primary">${classificacao}</p>
+              <h3 class="mt-1.5 text-[15px] font-bold leading-snug">${titulo}</h3>
+
+              <div class="mt-3 rounded-xl border px-3 py-2.5" style="border-color:var(--border); background:var(--background)">
+                <p class="text-[11px] font-semibold leading-relaxed text-primary">${motivo}</p>
+              </div>
             </div>
 
             <div class="mt-auto flex flex-wrap items-end justify-between gap-3">
               <div>
                 ${precoOriginal ? `<span class="block text-xs text-mutedInk line-through">R$ ${precoOriginal}</span>` : ""}
                 <strong class="text-serif text-3xl text-primary">R$ ${precoAtual}</strong>
+                ${desconto ? `<span class="mt-1 block text-[10px] text-mutedInk">${desconto} informado pela loja</span>` : ""}
               </div>
 
               <div class="flex flex-wrap gap-2">
@@ -563,7 +566,8 @@
     }
 
     function renderizarOfertas() {
-      const filtradas = ordenarOfertas(obterListaFiltrada());
+      // Mantém a ordem definida pelo backend. Os filtros locais apenas reduzem a lista.
+      const filtradas = obterListaFiltrada();
       const exibidas = filtradas.slice(0, quantidadeExibida);
 
       $resultadoInfo.textContent = `${filtradas.length} oferta${filtradas.length === 1 ? "" : "s"} encontrada${filtradas.length === 1 ? "" : "s"}`;
