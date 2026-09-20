@@ -166,6 +166,12 @@
       border: 1px solid #cce9da;
     }
 
+    .nivel-bom-preco {
+      background: var(--cream);
+      color: var(--primary);
+      border: 1px solid #d8c39a;
+    }
+
     .nivel-monitorado {
       background: rgba(255,255,255,.94);
       color: var(--muted-ink);
@@ -180,6 +186,11 @@
     .analise-oportunidade {
       border-color: #cce9da !important;
       background: #f1faf5 !important;
+    }
+
+    .analise-bom-preco {
+      border-color: #d8c39a !important;
+      background: #fbf7ef !important;
     }
 
     .analise-monitorado {
@@ -322,7 +333,13 @@
             <span class="inline-flex items-center gap-2">
               <span class="legend-dot" style="background:#087f5b"></span>
               <strong style="color:#087f5b">Oportunidade</strong>
-              <span>sinais positivos no histórico</span>
+              <span>preço muito favorável no histórico</span>
+            </span>
+
+            <span class="inline-flex items-center gap-2">
+              <span class="legend-dot" style="background:#c9a96a"></span>
+              <strong class="text-primary">Bom preço</strong>
+              <span>preço abaixo do padrão observado</span>
             </span>
 
             <span class="inline-flex items-center gap-2">
@@ -351,6 +368,11 @@
               class="nivel-filter whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
               style="border-color:var(--border)">
               ✓ Oportunidades
+            </button>
+            <button type="button" data-nivel="BOM_PRECO"
+              class="nivel-filter whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
+              style="border-color:var(--border)">
+              ✓ Bons preços
             </button>
             <button type="button" data-nivel="MONITORADO"
               class="nivel-filter whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
@@ -531,17 +553,35 @@
     }
 
     function nivelVisual(produto) {
+      const classificacao = produto.analise?.classificacao || "";
+
+      if (classificacao === "EXCELENTE") {
+        return "DESTAQUE";
+      }
+
+      if (classificacao === "MUITO_BOA") {
+        return "OPORTUNIDADE";
+      }
+
+      if (classificacao === "BOA") {
+        return "BOM_PRECO";
+      }
+
+      if (
+        classificacao === "INTERESSANTE" ||
+        classificacao === "MODERADA" ||
+        classificacao === "FRACA" ||
+        classificacao === "SEM_HISTORICO"
+      ) {
+        return "MONITORADO";
+      }
+
+      // Fallback para payloads antigos sem classificação.
       if (produto.destaque === true) {
         return "DESTAQUE";
       }
 
-      const classificacao = produto.analise?.classificacao || "";
-
-      if (classificacao === "FRACA" || classificacao === "SEM_HISTORICO") {
-        return "MONITORADO";
-      }
-
-      return "OPORTUNIDADE";
+      return "MONITORADO";
     }
 
     function apresentacaoNivel(produto) {
@@ -560,6 +600,14 @@
           texto: "✓ Oportunidade",
           badgeClass: "nivel-oportunidade",
           analiseClass: "analise-oportunidade"
+        };
+      }
+
+      if (nivel === "BOM_PRECO") {
+        return {
+          texto: "✓ Bom preço",
+          badgeClass: "nivel-bom-preco",
+          analiseClass: "analise-bom-preco"
         };
       }
 
@@ -614,18 +662,19 @@
       });
     }
 
-    function normalizarClassificacao(classificacao = "") {
-      const nomes = {
-        EXCELENTE: "Excelente oportunidade",
-        MUITO_BOA: "Muito boa oportunidade",
-        BOA: "Boa oportunidade",
-        INTERESSANTE: "Preço interessante",
-        MODERADA: "Oportunidade moderada",
-        FRACA: "Preço monitorado",
-        SEM_HISTORICO: "Histórico em formação"
-      };
-      return nomes[classificacao] || "Preço analisado";
-    }
+	function normalizarClassificacao(classificacao = "") {
+	  const nomes = {
+	    EXCELENTE: "Destaque",
+	    MUITO_BOA: "Oportunidade",
+	    BOA: "Bom preço",
+	    INTERESSANTE: "Preço interessante",
+	    MODERADA: "Vale acompanhar",
+	    FRACA: "Em monitoramento",
+	    SEM_HISTORICO: "Histórico em formação"
+	  };
+
+	  return nomes[classificacao] || "Preço analisado";
+	}
 
     function motivoAnalise(produto) {
       const analise = produto.analise || {};
@@ -751,12 +800,14 @@
 
       const destaques = filtradas.filter(p => nivelVisual(p) === "DESTAQUE").length;
       const oportunidades = filtradas.filter(p => nivelVisual(p) === "OPORTUNIDADE").length;
+      const bonsPrecos = filtradas.filter(p => nivelVisual(p) === "BOM_PRECO").length;
       const monitorados = filtradas.filter(p => nivelVisual(p) === "MONITORADO").length;
 
       $resultadoInfo.textContent =
         `${filtradas.length} item${filtradas.length === 1 ? "" : "s"} · ` +
         `${destaques} destaque${destaques === 1 ? "" : "s"} · ` +
         `${oportunidades} oportunidade${oportunidades === 1 ? "" : "s"} · ` +
+        `${bonsPrecos} bom preço${bonsPrecos === 1 ? "" : "s"} · ` +
         `${monitorados} monitorado${monitorados === 1 ? "" : "s"}`;
 
       if (!exibidas.length) {
