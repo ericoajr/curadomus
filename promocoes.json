@@ -1,339 +1,178 @@
 {
-  "ultimaAtualizacao" : "23/09/2026 14:27",
+  "ultimaAtualizacao" : "23/09/2026 15:27",
   "ofertas" : [ {
-    "id" : 210092,
-    "titulo" : "Jogo de Tabuleiro, Grow, Perfil 8",
-    "imagem" : "https://m.media-amazon.com/images/I/61kyTvKoT1L._AC_SL1000_.jpg",
-    "precoOriginal" : "111,65",
-    "precoPromocao" : "90,19",
-    "desconto" : null,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0G6M7CVW9?tag=curadomus-20",
-    "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:50",
+    "id" : 209733,
+    "titulo" : "Cadeira Para Auto 0-36 Kg Mass Preta Litet - BB456",
+    "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-lv8xe4u0mjyn59",
+    "precoOriginal" : "998,18",
+    "precoPromocao" : "549,00",
+    "desconto" : "-45%",
+    "linkAfiliado" : "https://s.shopee.com.br/8pkHjtypQr",
+    "categoria" : "Bebês",
+    "dataOferta" : "23/09/2026 14:56",
     "destaque" : true,
     "historico" : [ {
+      "data" : "25/07/2026",
+      "preco" : 669.0
+    }, {
       "data" : "27/07/2026",
-      "preco" : 104.5
+      "preco" : 669.0
     }, {
       "data" : "28/07/2026",
-      "preco" : 113.2
+      "preco" : 669.0
     }, {
       "data" : "29/07/2026",
-      "preco" : 103.99
+      "preco" : 669.0
     }, {
       "data" : "30/07/2026",
-      "preco" : 103.99
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 103.99
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 97.85
-    }, {
-      "data" : "03/08/2026",
-      "preco" : 97.64
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 97.64
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 97.64
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 97.64
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 97.85
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 107.35
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 102.99
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 102.99
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 102.99
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 107.35
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 102.99
-    }, {
-      "data" : "18/08/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 113.47
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 113.47
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 106.4
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 106.29
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 113.56
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 112.27
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 112.27
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 99.95
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 121.59
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 113.89
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 113.89
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 123.4
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 113.89
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 113.89
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 90.19
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "EXCELENTE",
-      "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
-    }
-  }, {
-    "id" : 209984,
-    "titulo" : "Creme Preventivo de Assaduras Huggies Pele Protegida 80g",
-    "imagem" : "https://m.media-amazon.com/images/I/71H8wW37lJL._AC_SL1500_.jpg",
-    "precoOriginal" : "33,16",
-    "precoPromocao" : "22,49",
-    "desconto" : null,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07X41XJ87?tag=curadomus-20",
-    "categoria" : "Bebês",
-    "dataOferta" : "23/09/2026 08:39",
-    "destaque" : true,
-    "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 23.95
+      "preco" : 669.0
     }, {
       "data" : "31/07/2026",
-      "preco" : 28.99
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 28.99
+      "preco" : 669.0
     }, {
       "data" : "02/08/2026",
-      "preco" : 28.99
+      "preco" : 669.0
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 669.0
     }, {
       "data" : "04/08/2026",
-      "preco" : 24.99
+      "preco" : 569.1
     }, {
       "data" : "05/08/2026",
-      "preco" : 24.99
+      "preco" : 569.1
     }, {
       "data" : "06/08/2026",
-      "preco" : 24.99
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 24.99
+      "preco" : 569.1
     }, {
       "data" : "08/08/2026",
-      "preco" : 24.99
+      "preco" : 569.1
     }, {
       "data" : "09/08/2026",
-      "preco" : 27.99
+      "preco" : 669.0
     }, {
       "data" : "10/08/2026",
-      "preco" : 24.99
+      "preco" : 677.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 677.0
     }, {
       "data" : "12/08/2026",
-      "preco" : 24.99
+      "preco" : 677.0
     }, {
       "data" : "13/08/2026",
-      "preco" : 24.99
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 24.99
+      "preco" : 677.0
     }, {
       "data" : "15/08/2026",
-      "preco" : 24.99
+      "preco" : 677.0
     }, {
       "data" : "16/08/2026",
-      "preco" : 24.99
+      "preco" : 677.0
     }, {
-      "data" : "18/08/2026",
-      "preco" : 24.99
+      "data" : "17/08/2026",
+      "preco" : 677.0
     }, {
       "data" : "19/08/2026",
-      "preco" : 24.99
+      "preco" : 677.0
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 639.0
     }, {
       "data" : "21/08/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "22/08/2026",
-      "preco" : 24.79
+      "preco" : 639.0
     }, {
-      "data" : "23/08/2026",
-      "preco" : 24.79
+      "data" : "24/08/2026",
+      "preco" : 639.0
     }, {
       "data" : "25/08/2026",
-      "preco" : 24.79
+      "preco" : 639.0
     }, {
       "data" : "26/08/2026",
-      "preco" : 24.79
+      "preco" : 639.0
     }, {
-      "data" : "27/08/2026",
-      "preco" : 24.79
+      "data" : "28/08/2026",
+      "preco" : 639.0
     }, {
       "data" : "29/08/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "30/08/2026",
-      "preco" : 25.83
+      "preco" : 639.0
     }, {
       "data" : "31/08/2026",
-      "preco" : 25.93
+      "preco" : 639.0
     }, {
       "data" : "01/09/2026",
-      "preco" : 24.79
+      "preco" : 568.99
     }, {
       "data" : "02/09/2026",
-      "preco" : 24.99
+      "preco" : 568.99
     }, {
       "data" : "03/09/2026",
-      "preco" : 24.99
+      "preco" : 568.99
     }, {
       "data" : "04/09/2026",
-      "preco" : 24.95
+      "preco" : 639.0
     }, {
       "data" : "05/09/2026",
-      "preco" : 24.95
+      "preco" : 639.0
     }, {
       "data" : "06/09/2026",
-      "preco" : 24.95
+      "preco" : 639.0
     }, {
       "data" : "07/09/2026",
-      "preco" : 24.95
+      "preco" : 639.0
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 639.0
     }, {
       "data" : "09/09/2026",
-      "preco" : 23.99
+      "preco" : 639.0
     }, {
       "data" : "10/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "11/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "12/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "13/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "14/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "15/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "16/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "17/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "18/09/2026",
-      "preco" : 24.99
+      "preco" : 586.0
     }, {
       "data" : "19/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "20/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "21/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "22/09/2026",
-      "preco" : 24.99
+      "preco" : 639.0
     }, {
       "data" : "23/09/2026",
-      "preco" : 22.49
+      "preco" : 549.0
     } ],
     "tags" : [ ],
     "analise" : {
@@ -429,179 +268,6 @@
     }, {
       "data" : "23/09/2026",
       "preco" : 59.99
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "EXCELENTE",
-      "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
-    }
-  }, {
-    "id" : 209836,
-    "titulo" : "Bolinhas de Futebol Bolibol Sabor Chocolate C/50 Unidades 340g Ki-Kakau",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mh21bd5tnw8w8b",
-    "precoOriginal" : "19,99",
-    "precoPromocao" : "13,99",
-    "desconto" : "-30%",
-    "linkAfiliado" : "https://s.shopee.com.br/qiG0kymY7",
-    "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:35",
-    "destaque" : true,
-    "historico" : [ {
-      "data" : "28/07/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 16.99
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 16.99
-    }, {
-      "data" : "03/08/2026",
-      "preco" : 16.99
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 16.99
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 16.99
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 13.99
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 13.99
     } ],
     "tags" : [ ],
     "analise" : {
@@ -782,6 +448,173 @@
       "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
     }
   }, {
+    "id" : 210092,
+    "titulo" : "Jogo de Tabuleiro, Grow, Perfil 8",
+    "imagem" : "https://m.media-amazon.com/images/I/61kyTvKoT1L._AC_SL1000_.jpg",
+    "precoOriginal" : "112,00",
+    "precoPromocao" : "90,19",
+    "desconto" : null,
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0G6M7CVW9?tag=curadomus-20",
+    "categoria" : "Brinquedos e Jogos",
+    "dataOferta" : "23/09/2026 15:12",
+    "destaque" : true,
+    "historico" : [ {
+      "data" : "27/07/2026",
+      "preco" : 104.5
+    }, {
+      "data" : "28/07/2026",
+      "preco" : 113.2
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 103.99
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 103.99
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 103.99
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 97.85
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 97.64
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 97.64
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 97.64
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 97.64
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 97.85
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 107.35
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 102.99
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 102.99
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 102.99
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 107.35
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 102.99
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 113.47
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 113.47
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 106.4
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 106.29
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 113.56
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 112.27
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 112.27
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 99.95
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 121.59
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 123.4
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 113.89
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 90.19
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "EXCELENTE",
+      "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
+    }
+  }, {
     "id" : 211458,
     "titulo" : "O ratinho, o morango vermelho maduro e o grande urso esfomeado",
     "imagem" : "https://m.media-amazon.com/images/I/A1jBQ8onjaL._SL1500_.jpg",
@@ -951,7 +784,7 @@
     "desconto" : "-49%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0F4T417RF?tag=curadomus-20",
     "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:54",
+    "dataOferta" : "23/09/2026 15:16",
     "destaque" : true,
     "historico" : [ {
       "data" : "28/07/2026",
@@ -1396,158 +1229,6 @@
       "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
     }
   }, {
-    "id" : 209891,
-    "titulo" : "Jogo da memoria sonoro e visual,memory game tipo genius luz e som Pura Nostalgia",
-    "imagem" : "https://cf.shopee.com.br/file/sg-11134201-82605-mlyxk9clrhtw13",
-    "precoOriginal" : "46,76",
-    "precoPromocao" : "15,90",
-    "desconto" : "-66%",
-    "linkAfiliado" : "https://s.shopee.com.br/4fvBhG47qg",
-    "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:36",
-    "destaque" : true,
-    "historico" : [ {
-      "data" : "05/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 16.16
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 16.16
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 16.16
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 16.16
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 15.9
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 19.19
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 15.9
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "EXCELENTE",
-      "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
-    }
-  }, {
     "id" : 211074,
     "titulo" : "Fralda Pampers Premium Care Pants Tamanho M, Fácil de Vestir, 124 Unidades",
     "imagem" : "https://m.media-amazon.com/images/I/610zsSAMtpL._AC_SL1000_.jpg",
@@ -1684,7 +1365,7 @@
     "desconto" : "-17%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07P2SB59Y?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:51",
+    "dataOferta" : "23/09/2026 15:13",
     "destaque" : true,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -1851,7 +1532,7 @@
     "desconto" : "-17%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09ZYPGYQ1?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:49",
+    "dataOferta" : "23/09/2026 15:11",
     "destaque" : true,
     "historico" : [ {
       "data" : "27/07/2026",
@@ -3178,7 +2859,7 @@
     "desconto" : "-34%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08D8QDY25?tag=curadomus-20",
     "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:54",
+    "dataOferta" : "23/09/2026 15:17",
     "destaque" : true,
     "historico" : [ {
       "data" : "27/07/2026",
@@ -3506,7 +3187,7 @@
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/B01N7W4YLV?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:50",
+    "dataOferta" : "23/09/2026 15:12",
     "destaque" : true,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -3670,7 +3351,7 @@
     "desconto" : "-48%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CGY57KKM?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:51",
+    "dataOferta" : "23/09/2026 15:13",
     "destaque" : true,
     "historico" : [ {
       "data" : "27/07/2026",
@@ -4001,7 +3682,7 @@
     "desconto" : "-13%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08S1NXKS1?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:30",
+    "dataOferta" : "23/09/2026 14:52",
     "destaque" : true,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -4126,179 +3807,6 @@
     }, {
       "data" : "23/09/2026",
       "preco" : 25.99
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "EXCELENTE",
-      "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
-    }
-  }, {
-    "id" : 210066,
-    "titulo" : "Taco Gato Cabra Queijo Pizza (PaperGames)",
-    "imagem" : "https://m.media-amazon.com/images/I/71biar0L2WL._AC_SL1500_.jpg",
-    "precoOriginal" : "59,90",
-    "precoPromocao" : "43,99",
-    "desconto" : "-26%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B085N8W621?tag=curadomus-20",
-    "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:46",
-    "destaque" : true,
-    "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 65.84
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 65.84
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 65.84
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 65.84
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 65.84
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 65.84
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 65.84
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 65.84
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 63.74
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 63.74
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 63.74
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 69.65
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 70.91
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 70.91
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 70.64
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 66.0
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 70.39
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 70.39
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 70.39
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 65.74
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 65.74
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 65.74
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 65.74
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 65.74
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 65.23
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 68.89
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 65.13
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 64.71
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 64.71
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 64.71
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 64.71
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 64.71
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 64.71
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 64.71
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 64.71
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 64.71
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 64.7
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 48.99
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 43.99
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 43.99
     } ],
     "tags" : [ ],
     "analise" : {
@@ -4469,7 +3977,7 @@
     "desconto" : "-29%",
     "linkAfiliado" : "https://s.shopee.com.br/2BEZofwaB8",
     "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:40",
+    "dataOferta" : "23/09/2026 15:04",
     "destaque" : true,
     "historico" : [ {
       "data" : "02/09/2026",
@@ -5280,6 +4788,179 @@
       "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
     }
   }, {
+    "id" : 209836,
+    "titulo" : "Bolinhas de Futebol Bolibol Sabor Chocolate C/50 Unidades 340g Ki-Kakau",
+    "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mh21bd5tnw8w8b",
+    "precoOriginal" : "19,99",
+    "precoPromocao" : "13,99",
+    "desconto" : "-30%",
+    "linkAfiliado" : "https://s.shopee.com.br/qiG0kymY7",
+    "categoria" : "Alimentos e Bebidas",
+    "dataOferta" : "23/09/2026 14:59",
+    "destaque" : true,
+    "historico" : [ {
+      "data" : "28/07/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 16.99
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 16.99
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 16.99
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 16.99
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 16.99
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 13.99
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 19.99
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 13.99
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "EXCELENTE",
+      "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
+    }
+  }, {
     "id" : 211686,
     "titulo" : "Tan Tan - Quem Vai Ficar com o Pêssego? - Ordem Crescente e Decrescente - 2ª edição",
     "imagem" : "https://m.media-amazon.com/images/I/7114Ensx2aL._SL1039_.jpg",
@@ -5611,6 +5292,158 @@
       "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
     }
   }, {
+    "id" : 209891,
+    "titulo" : "Jogo da memoria sonoro e visual,memory game tipo genius luz e som Pura Nostalgia",
+    "imagem" : "https://cf.shopee.com.br/file/sg-11134201-82605-mlyxk9clrhtw13",
+    "precoOriginal" : "46,74",
+    "precoPromocao" : "15,89",
+    "desconto" : "-66%",
+    "linkAfiliado" : "https://s.shopee.com.br/4fvBhG47qg",
+    "categoria" : "Brinquedos e Jogos",
+    "dataOferta" : "23/09/2026 15:01",
+    "destaque" : true,
+    "historico" : [ {
+      "data" : "05/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 16.16
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 16.16
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 16.16
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 16.16
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 15.9
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 19.19
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 15.89
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "EXCELENTE",
+      "motivoPrincipal" : "Menor preço histórico. Uma das melhores oportunidades observadas."
+    }
+  }, {
     "id" : 211102,
     "titulo" : "Lava-Roupas Líquido Omo Ciclo Rápido Ação Antiodor Frasco 1,4l",
     "imagem" : "https://m.media-amazon.com/images/I/614n+ijd0+L._AC_SL1500_.jpg",
@@ -5730,170 +5563,6 @@
       "motivoPrincipal" : "Um dos melhores preços observados nas últimas semanas."
     }
   }, {
-    "id" : 210111,
-    "titulo" : "Oral-B Escova de Dente Clean Indicator, 4 Unidades",
-    "imagem" : "https://m.media-amazon.com/images/I/61f8eFcG-IL._AC_SL1200_.jpg",
-    "precoOriginal" : "30,73",
-    "precoPromocao" : "19,66",
-    "desconto" : null,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B07FT5X4FV?tag=curadomus-20",
-    "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:53",
-    "destaque" : false,
-    "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 29.99
-    }, {
-      "data" : "28/07/2026",
-      "preco" : 25.9
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 25.9
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 23.19
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 23.19
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 23.19
-    }, {
-      "data" : "03/08/2026",
-      "preco" : 23.19
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 23.19
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 23.19
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 25.9
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 25.9
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 25.9
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 23.8
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 19.99
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 25.9
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 26.99
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 26.99
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 26.99
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 19.94
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 20.99
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 23.49
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 23.49
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 23.49
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 26.99
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 26.59
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 26.59
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 20.69
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 20.69
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 20.69
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 20.69
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 20.69
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 20.69
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 19.66
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Menor preço histórico e preço bem abaixo do habitual."
-    }
-  }, {
     "id" : 210523,
     "titulo" : "OMO Sabão Em Pó Lavagem Perfeita 2.2Kg",
     "imagem" : "https://m.media-amazon.com/images/I/71bM2gkihVL._AC_SL1500_.jpg",
@@ -5977,6 +5646,158 @@
       "motivoPrincipal" : "Menor preço histórico e preço bem abaixo do habitual."
     }
   }, {
+    "id" : 210123,
+    "titulo" : "Mesa e cadeira Infantil Vermelha Tritec",
+    "imagem" : "https://m.media-amazon.com/images/I/61ew8tP9aaL._AC_SL1500_.jpg",
+    "precoOriginal" : "199,90",
+    "precoPromocao" : "128,52",
+    "desconto" : "-35%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07NQTJR3M?tag=curadomus-20",
+    "categoria" : "Casa",
+    "dataOferta" : "23/09/2026 15:17",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "26/07/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "28/07/2026",
+      "preco" : 137.91
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 149.0
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 137.59
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 141.55
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 138.6
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 138.6
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 138.6
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 138.6
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 138.6
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 138.6
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 139.0
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 128.52
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "MUITO_BOA",
+      "motivoPrincipal" : "Um dos melhores preços observados nas últimas semanas."
+    }
+  }, {
     "id" : 210131,
     "titulo" : "Umidificador Ultrassônico Easy Air 1.8L Branco Multi Saúde - HC290",
     "imagem" : "https://m.media-amazon.com/images/I/41QgGU-LO2L._AC_SL1000_.jpg",
@@ -5985,7 +5806,7 @@
     "desconto" : "-34%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FRBBQF36?tag=curadomus-20",
     "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:56",
+    "dataOferta" : "23/09/2026 15:18",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/08/2026",
@@ -6392,6 +6213,179 @@
     "analise" : {
       "classificacao" : "MUITO_BOA",
       "motivoPrincipal" : "Um dos melhores preços observados nas últimas semanas."
+    }
+  }, {
+    "id" : 210066,
+    "titulo" : "Taco Gato Cabra Queijo Pizza (PaperGames)",
+    "imagem" : "https://m.media-amazon.com/images/I/71biar0L2WL._AC_SL1500_.jpg",
+    "precoOriginal" : "59,90",
+    "precoPromocao" : "43,99",
+    "desconto" : "-26%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B085N8W621?tag=curadomus-20",
+    "categoria" : "Brinquedos e Jogos",
+    "dataOferta" : "23/09/2026 15:08",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "26/07/2026",
+      "preco" : 65.84
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 65.84
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 65.84
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 65.84
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 65.84
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 65.84
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 65.84
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 65.84
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 63.74
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 63.74
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 63.74
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 69.65
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 70.91
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 70.91
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 70.64
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 66.0
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 70.39
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 70.39
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 70.39
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 65.74
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 65.74
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 65.74
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 65.74
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 65.74
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 65.23
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 68.89
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 65.13
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 64.71
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 64.71
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 64.71
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 64.71
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 64.71
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 64.71
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 64.71
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 64.71
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 64.71
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 64.7
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 48.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 43.99
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 43.99
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "MUITO_BOA",
+      "motivoPrincipal" : "Menor preço histórico e preço bem abaixo do habitual."
     }
   }, {
     "id" : 210571,
@@ -7673,6 +7667,176 @@
       "motivoPrincipal" : "Preço bem abaixo do habitual e também do observado nos últimos dias."
     }
   }, {
+    "id" : 209877,
+    "titulo" : "Lenços Umedecidos Pampers Cuidado de bebê, 576 Unidades",
+    "imagem" : "https://m.media-amazon.com/images/I/61+OonwT8PL._AC_SL1000_.jpg",
+    "precoOriginal" : "121,72",
+    "precoPromocao" : "107,84",
+    "desconto" : "-11%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0B9959CWN?tag=curadomus-20",
+    "categoria" : "Bebês",
+    "dataOferta" : "23/09/2026 14:58",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "26/07/2026",
+      "preco" : 122.94
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 122.94
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 107.9
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 107.9
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 107.9
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 107.9
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 107.9
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 107.9
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 107.9
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 112.33
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 130.94
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 116.49
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 107.84
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "MUITO_BOA",
+      "motivoPrincipal" : "Um dos melhores preços observados nas últimas semanas."
+    }
+  }, {
     "id" : 210551,
     "titulo" : "Cristianismo puro e simples",
     "imagem" : "https://m.media-amazon.com/images/I/91WAGXw7Y4L._SL1500_.jpg",
@@ -7835,6 +7999,182 @@
       "preco" : 29.99
     } ],
     "tags" : [ ],
+    "analise" : {
+      "classificacao" : "MUITO_BOA",
+      "motivoPrincipal" : "Menor preço histórico e preço bem abaixo do habitual."
+    }
+  }, {
+    "id" : 211695,
+    "titulo" : "Azeite Extra Virgem Herdade do Esporão 250ml",
+    "imagem" : "https://m.media-amazon.com/images/I/31pQtz1fasS._AC_SL1000_.jpg",
+    "precoOriginal" : "39,90",
+    "precoPromocao" : "37,90",
+    "desconto" : "-5%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B07Z7FPVM2?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "dataOferta" : "23/09/2026 14:50",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "26/07/2026",
+      "preco" : 75.9
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 75.9
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 75.9
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 45.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 57.17
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 45.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 61.39
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 61.39
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 61.39
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 61.39
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 61.39
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 61.39
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 61.39
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 45.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 39.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 49.9
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 37.9
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 37.9
+    } ],
+    "tags" : [ "azeite" ],
     "analise" : {
       "classificacao" : "MUITO_BOA",
       "motivoPrincipal" : "Menor preço histórico e preço bem abaixo do habitual."
@@ -8090,153 +8430,180 @@
       "motivoPrincipal" : "Preço bem abaixo do habitual e também do observado nos últimos dias."
     }
   }, {
-    "id" : 209574,
-    "titulo" : "3 Corações Café Torrado e Moído Gourmet Mogiana Paulista, 250G",
-    "imagem" : "https://m.media-amazon.com/images/I/61D4-2EYc3L._AC_SL1500_.jpg",
-    "precoOriginal" : "34,90",
-    "precoPromocao" : "23,99",
-    "desconto" : "-31%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B086F848JG?tag=curadomus-20",
+    "id" : 209698,
+    "titulo" : "Barilla Macarrão Grano Duro Penne Rigate 500G",
+    "imagem" : "https://m.media-amazon.com/images/I/71iuES99hOL._AC_SL1500_.jpg",
+    "precoOriginal" : "15,91",
+    "precoPromocao" : "10,99",
+    "desconto" : "-30%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B003OH8F6M?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:26",
+    "dataOferta" : "23/09/2026 14:52",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
-      "preco" : 41.98
+      "preco" : 9.6
     }, {
       "data" : "27/07/2026",
-      "preco" : 41.9
+      "preco" : 9.6
     }, {
       "data" : "29/07/2026",
-      "preco" : 41.9
+      "preco" : 9.6
     }, {
       "data" : "30/07/2026",
-      "preco" : 40.9
+      "preco" : 9.6
     }, {
       "data" : "31/07/2026",
-      "preco" : 40.9
+      "preco" : 9.6
     }, {
       "data" : "01/08/2026",
-      "preco" : 34.98
+      "preco" : 9.6
     }, {
       "data" : "02/08/2026",
-      "preco" : 34.33
+      "preco" : 9.6
     }, {
       "data" : "04/08/2026",
-      "preco" : 34.33
+      "preco" : 15.83
     }, {
       "data" : "05/08/2026",
-      "preco" : 34.33
+      "preco" : 13.48
     }, {
       "data" : "06/08/2026",
-      "preco" : 34.33
+      "preco" : 13.48
     }, {
       "data" : "07/08/2026",
-      "preco" : 31.33
+      "preco" : 12.49
     }, {
       "data" : "08/08/2026",
-      "preco" : 31.33
+      "preco" : 12.49
     }, {
       "data" : "09/08/2026",
-      "preco" : 31.33
+      "preco" : 12.49
     }, {
       "data" : "10/08/2026",
-      "preco" : 26.98
+      "preco" : 12.49
     }, {
-      "data" : "11/08/2026",
-      "preco" : 26.98
+      "data" : "12/08/2026",
+      "preco" : 12.49
     }, {
       "data" : "13/08/2026",
-      "preco" : 31.33
+      "preco" : 12.49
     }, {
       "data" : "14/08/2026",
-      "preco" : 28.99
+      "preco" : 12.49
     }, {
       "data" : "15/08/2026",
-      "preco" : 28.99
+      "preco" : 12.49
     }, {
       "data" : "16/08/2026",
-      "preco" : 28.99
+      "preco" : 12.49
     }, {
       "data" : "18/08/2026",
-      "preco" : 31.33
+      "preco" : 12.49
     }, {
       "data" : "19/08/2026",
-      "preco" : 29.99
+      "preco" : 11.99
     }, {
-      "data" : "21/08/2026",
-      "preco" : 29.99
+      "data" : "20/08/2026",
+      "preco" : 11.99
     }, {
       "data" : "22/08/2026",
-      "preco" : 29.99
+      "preco" : 11.99
     }, {
       "data" : "23/08/2026",
-      "preco" : 26.98
+      "preco" : 11.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 11.99
     }, {
       "data" : "25/08/2026",
-      "preco" : 26.98
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 26.98
+      "preco" : 11.99
     }, {
       "data" : "27/08/2026",
-      "preco" : 26.98
+      "preco" : 11.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 11.99
     }, {
       "data" : "29/08/2026",
-      "preco" : 26.98
+      "preco" : 11.99
     }, {
       "data" : "30/08/2026",
-      "preco" : 26.98
+      "preco" : 11.99
     }, {
       "data" : "31/08/2026",
-      "preco" : 26.98
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 26.98
+      "preco" : 11.99
     }, {
       "data" : "02/09/2026",
-      "preco" : 26.98
+      "preco" : 11.99
     }, {
       "data" : "03/09/2026",
-      "preco" : 26.98
+      "preco" : 11.99
     }, {
       "data" : "04/09/2026",
-      "preco" : 18.99
+      "preco" : 11.99
     }, {
       "data" : "05/09/2026",
-      "preco" : 18.99
+      "preco" : 11.99
     }, {
       "data" : "06/09/2026",
-      "preco" : 18.99
+      "preco" : 11.99
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 11.99
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 10.99
     }, {
       "data" : "09/09/2026",
-      "preco" : 18.99
+      "preco" : 10.99
     }, {
       "data" : "10/09/2026",
-      "preco" : 18.99
+      "preco" : 10.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 10.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 12.93
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 12.93
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 12.93
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 11.64
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 11.64
     }, {
       "data" : "17/09/2026",
-      "preco" : 26.99
+      "preco" : 12.93
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 15.91
     }, {
       "data" : "19/09/2026",
-      "preco" : 23.99
+      "preco" : 15.91
     }, {
       "data" : "20/09/2026",
-      "preco" : 23.99
+      "preco" : 15.91
     }, {
       "data" : "21/09/2026",
-      "preco" : 23.99
+      "preco" : 15.91
     }, {
       "data" : "22/09/2026",
-      "preco" : 31.99
+      "preco" : 15.91
     }, {
       "data" : "23/09/2026",
-      "preco" : 23.99
+      "preco" : 10.99
     } ],
     "tags" : [ ],
     "analise" : {
       "classificacao" : "MUITO_BOA",
-      "motivoPrincipal" : "Preço abaixo do padrão observado, mas já esteve mais baixo no histórico."
+      "motivoPrincipal" : "Preço bem abaixo do observado nos últimos dias."
     }
   }, {
     "id" : 210837,
@@ -9028,7 +9395,7 @@
     "desconto" : "-42%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B00NHQFA1I?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:51",
+    "dataOferta" : "23/09/2026 15:13",
     "destaque" : false,
     "historico" : [ {
       "data" : "27/07/2026",
@@ -9192,7 +9559,7 @@
     "desconto" : "-25%",
     "linkAfiliado" : "https://s.shopee.com.br/4LI89Bioup",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:35",
+    "dataOferta" : "23/09/2026 14:59",
     "destaque" : false,
     "historico" : [ {
       "data" : "28/07/2026",
@@ -9526,7 +9893,7 @@
     "desconto" : "-12%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B084RFXZDS?tag=curadomus-20",
     "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:52",
+    "dataOferta" : "23/09/2026 15:14",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -10140,7 +10507,7 @@
     "desconto" : "-47%",
     "linkAfiliado" : "https://s.shopee.com.br/4VbIZwsvHY",
     "categoria" : "Bebês",
-    "dataOferta" : "23/09/2026 08:32",
+    "dataOferta" : "23/09/2026 14:56",
     "destaque" : false,
     "historico" : [ {
       "data" : "25/07/2026",
@@ -10635,7 +11002,7 @@
     "desconto" : "-36%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07DHSFK5T?tag=curadomus-20",
     "categoria" : "Bebês",
-    "dataOferta" : "23/09/2026 08:35",
+    "dataOferta" : "23/09/2026 14:57",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -10799,7 +11166,7 @@
     "desconto" : "-39%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0913GHM1X?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:49",
+    "dataOferta" : "23/09/2026 15:11",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -11195,7 +11562,7 @@
     "desconto" : "-37%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B09883B5Z1?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:50",
+    "dataOferta" : "23/09/2026 15:12",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -11860,7 +12227,7 @@
     "desconto" : "-10%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07TNW481P?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:32",
+    "dataOferta" : "23/09/2026 14:54",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -12656,7 +13023,7 @@
     "desconto" : "-26%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B06XWG8R72?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:31",
+    "dataOferta" : "23/09/2026 14:53",
     "destaque" : false,
     "historico" : [ {
       "data" : "03/08/2026",
@@ -12802,7 +13169,7 @@
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0G6MD9ZQ5?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:48",
+    "dataOferta" : "23/09/2026 15:10",
     "destaque" : false,
     "historico" : [ {
       "data" : "30/07/2026",
@@ -13115,6 +13482,155 @@
     }, {
       "data" : "23/09/2026",
       "preco" : 44.93
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "MUITO_BOA",
+      "motivoPrincipal" : "Preço abaixo do padrão observado, mas já esteve mais baixo no histórico."
+    }
+  }, {
+    "id" : 209574,
+    "titulo" : "3 Corações Café Torrado e Moído Gourmet Mogiana Paulista, 250G",
+    "imagem" : "https://m.media-amazon.com/images/I/61D4-2EYc3L._AC_SL1500_.jpg",
+    "precoOriginal" : "34,90",
+    "precoPromocao" : "23,99",
+    "desconto" : "-31%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B086F848JG?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "dataOferta" : "23/09/2026 14:49",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "26/07/2026",
+      "preco" : 41.98
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 41.9
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 41.9
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 40.9
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 40.9
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 34.98
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 34.33
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 34.33
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 34.33
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 34.33
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 31.33
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 31.33
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 31.33
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 31.33
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 28.99
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 28.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 28.99
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 31.33
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 29.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 29.99
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 29.99
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 26.98
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 18.99
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 18.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 18.99
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 18.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 18.99
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 26.99
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 31.99
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 23.99
     } ],
     "tags" : [ ],
     "analise" : {
@@ -14430,7 +14946,7 @@
     "desconto" : "-60%",
     "linkAfiliado" : "https://s.shopee.com.br/20uZpDT2JT",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:37",
+    "dataOferta" : "23/09/2026 15:02",
     "destaque" : false,
     "historico" : [ {
       "data" : "11/08/2026",
@@ -14895,185 +15411,6 @@
     }, {
       "data" : "23/09/2026",
       "preco" : 114.33
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "BOA",
-      "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
-    }
-  }, {
-    "id" : 209672,
-    "titulo" : "Lixeira Inteligente Com Sensor Automática Banheiro Lixeira Automática De 16 Litros Com Sensor Balde Lixo",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mfvhxi15yww53c",
-    "precoOriginal" : "130,37",
-    "precoPromocao" : "66,49",
-    "desconto" : "-49%",
-    "linkAfiliado" : "https://s.shopee.com.br/9pcoviZhZf",
-    "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:30",
-    "destaque" : false,
-    "historico" : [ {
-      "data" : "25/07/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "28/07/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "03/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 66.49
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 66.49
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 66.49
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 66.49
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 69.99
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 66.49
     } ],
     "tags" : [ ],
     "analise" : {
@@ -15582,6 +15919,140 @@
       "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
     }
   }, {
+    "id" : 210851,
+    "titulo" : "SUNNY, Patrulha Canina, Massinha com 6 potes",
+    "imagem" : "https://m.media-amazon.com/images/I/51NKupIXshL._AC_SL1200_.jpg",
+    "precoOriginal" : "29,99",
+    "precoPromocao" : "22,79",
+    "desconto" : "-24%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B09XBTHPQV?tag=curadomus-20",
+    "categoria" : "Brinquedos e Jogos",
+    "dataOferta" : "23/09/2026 11:21",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "08/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 24.9
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 22.79
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 22.79
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 22.79
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "BOA",
+      "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
+    }
+  }, {
     "id" : 210071,
     "titulo" : "Arco Móbile Atividades Bebê Carrinho Berço Panda Maxi Baby",
     "imagem" : "https://m.media-amazon.com/images/I/51JL0Ww0p4L._AC_SL1200_.jpg",
@@ -15590,7 +16061,7 @@
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GK32NFXN?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:47",
+    "dataOferta" : "23/09/2026 15:09",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -15742,265 +16213,6 @@
     }, {
       "data" : "23/09/2026",
       "preco" : 83.92
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "BOA",
-      "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
-    }
-  }, {
-    "id" : 210851,
-    "titulo" : "SUNNY, Patrulha Canina, Massinha com 6 potes",
-    "imagem" : "https://m.media-amazon.com/images/I/51NKupIXshL._AC_SL1200_.jpg",
-    "precoOriginal" : "29,99",
-    "precoPromocao" : "22,79",
-    "desconto" : "-24%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B09XBTHPQV?tag=curadomus-20",
-    "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 11:21",
-    "destaque" : false,
-    "historico" : [ {
-      "data" : "08/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "18/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 24.9
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 23.99
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 22.79
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 22.79
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 22.79
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "BOA",
-      "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
-    }
-  }, {
-    "id" : 209934,
-    "titulo" : "MIX DE NUTS SEM AMENDOIM",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-820m9-mt4acuou2n7q0e",
-    "precoOriginal" : "41,64",
-    "precoPromocao" : "27,90",
-    "desconto" : "-33%",
-    "linkAfiliado" : "https://s.shopee.com.br/4AzBVQ80Yg",
-    "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:38",
-    "destaque" : false,
-    "historico" : [ {
-      "data" : "15/08/2026",
-      "preco" : 29.0
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 29.0
-    }, {
-      "data" : "18/08/2026",
-      "preco" : 29.0
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 29.0
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 29.0
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 29.0
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 29.0
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 29.0
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 29.0
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 28.9
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 27.9
     } ],
     "tags" : [ ],
     "analise" : {
@@ -16177,7 +16389,7 @@
     "desconto" : "-40%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B078BMLGKJ?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:50",
+    "dataOferta" : "23/09/2026 15:12",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -16950,179 +17162,6 @@
       "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
     }
   }, {
-    "id" : 210068,
-    "titulo" : "Jogo Pinguim Numa Fria Jogo Quebra Gelo Derrubando o Pinguim Divertido",
-    "imagem" : "https://m.media-amazon.com/images/I/61ca3mWyMyL._AC_SL1000_.jpg",
-    "precoOriginal" : "39,90",
-    "precoPromocao" : "19,70",
-    "desconto" : "-50%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B08HZ9ZLSJ?tag=curadomus-20",
-    "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:47",
-    "destaque" : false,
-    "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 22.83
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 22.8
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 22.4
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 22.4
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 22.99
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 22.45
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 22.39
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 22.45
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 22.45
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 22.15
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 22.15
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 22.15
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 22.15
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 22.15
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 21.98
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 21.98
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 21.98
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 21.98
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 21.98
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 21.98
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 21.98
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 21.5
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 21.5
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 21.5
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 19.9
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 21.97
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 19.89
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 19.89
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 19.89
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 19.89
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 19.89
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 19.89
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 19.89
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 19.7
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 19.7
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 19.7
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 19.7
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "BOA",
-      "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
-    }
-  }, {
     "id" : 210065,
     "titulo" : "Jogo Cilada, Estrela",
     "imagem" : "https://m.media-amazon.com/images/I/81KlwvRaklL._AC_SL1500_.jpg",
@@ -17131,7 +17170,7 @@
     "desconto" : "-29%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B077PLGWMG?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:46",
+    "dataOferta" : "23/09/2026 15:08",
     "destaque" : false,
     "historico" : [ {
       "data" : "27/07/2026",
@@ -17292,6 +17331,179 @@
     }, {
       "data" : "23/09/2026",
       "preco" : 28.21
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "BOA",
+      "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
+    }
+  }, {
+    "id" : 210068,
+    "titulo" : "Jogo Pinguim Numa Fria Jogo Quebra Gelo Derrubando o Pinguim Divertido",
+    "imagem" : "https://m.media-amazon.com/images/I/61ca3mWyMyL._AC_SL1000_.jpg",
+    "precoOriginal" : "39,90",
+    "precoPromocao" : "19,70",
+    "desconto" : "-50%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B08HZ9ZLSJ?tag=curadomus-20",
+    "categoria" : "Brinquedos e Jogos",
+    "dataOferta" : "23/09/2026 15:09",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "26/07/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 22.83
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 22.8
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 22.99
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 22.99
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 22.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 22.4
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 22.4
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 22.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 22.45
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 22.39
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 22.45
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 22.45
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 22.15
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 22.15
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 22.15
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 22.15
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 22.15
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 21.98
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 21.98
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 21.98
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 21.98
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 21.98
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 21.98
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 21.98
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 21.5
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 21.5
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 21.5
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 19.9
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 21.97
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 19.89
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 19.89
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 19.89
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 19.89
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 19.89
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 19.89
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 19.89
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 19.7
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 19.7
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 19.7
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 19.7
     } ],
     "tags" : [ ],
     "analise" : {
@@ -18772,6 +18984,131 @@
       "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
     }
   }, {
+    "id" : 209934,
+    "titulo" : "MIX DE NUTS SEM AMENDOIM",
+    "imagem" : "https://cf.shopee.com.br/file/br-11134207-820m9-mt4acuou2n7q0e",
+    "precoOriginal" : "41,64",
+    "precoPromocao" : "27,90",
+    "desconto" : "-33%",
+    "linkAfiliado" : "https://s.shopee.com.br/4AzBVQ80Yg",
+    "categoria" : "Alimentos e Bebidas",
+    "dataOferta" : "23/09/2026 15:02",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "15/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 29.0
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 28.9
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 27.9
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "BOA",
+      "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
+    }
+  }, {
     "id" : 210564,
     "titulo" : "Paddington",
     "imagem" : "https://m.media-amazon.com/images/I/91wpGFMJsuL._SL1500_.jpg",
@@ -19182,7 +19519,7 @@
     "desconto" : "-71%",
     "linkAfiliado" : "https://s.shopee.com.br/9AN88TGMzR",
     "categoria" : "Lavanderia",
-    "dataOferta" : "23/09/2026 08:27",
+    "dataOferta" : "23/09/2026 14:51",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -19343,6 +19680,185 @@
     }, {
       "data" : "23/09/2026",
       "preco" : 54.99
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "BOA",
+      "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
+    }
+  }, {
+    "id" : 209672,
+    "titulo" : "Lixeira Inteligente Com Sensor Automática Banheiro Lixeira Automática De 16 Litros Com Sensor Balde Lixo",
+    "imagem" : "https://cf.shopee.com.br/file/br-11134207-81z1k-mfvhxi15yww53c",
+    "precoOriginal" : "130,37",
+    "precoPromocao" : "66,49",
+    "desconto" : "-49%",
+    "linkAfiliado" : "https://s.shopee.com.br/9pcoviZhZf",
+    "categoria" : "Casa",
+    "dataOferta" : "23/09/2026 14:54",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "25/07/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "28/07/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 66.49
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 66.49
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 66.49
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 66.49
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 69.99
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 66.49
     } ],
     "tags" : [ ],
     "analise" : {
@@ -19528,7 +20044,7 @@
     "desconto" : "-30%",
     "linkAfiliado" : "https://s.shopee.com.br/6pzwgKfZvj",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:38",
+    "dataOferta" : "23/09/2026 15:02",
     "destaque" : false,
     "historico" : [ {
       "data" : "15/08/2026",
@@ -20635,179 +21151,6 @@
       "motivoPrincipal" : "Preço entre os melhores observados recentemente."
     }
   }, {
-    "id" : 209631,
-    "titulo" : "3 Corações Cappuccino Sabor Cookies n' Cream, 200g",
-    "imagem" : "https://m.media-amazon.com/images/I/61oKn298oOL._AC_SL1200_.jpg",
-    "precoOriginal" : "22,90",
-    "precoPromocao" : "14,99",
-    "desconto" : "-34%",
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CN3K431G?tag=curadomus-20",
-    "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:28",
-    "destaque" : false,
-    "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 17.59
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 17.59
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 17.59
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "18/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 18.39
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 15.99
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 15.99
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 15.99
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 15.99
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 14.99
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 16.39
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 16.39
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 16.39
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 16.39
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 15.99
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 15.99
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 15.99
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 15.99
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 14.99
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço abaixo do valor que costuma aparecer."
-    }
-  }, {
     "id" : 210572,
     "titulo" : "Histórias de Foxwood - A regata de Foxwood",
     "imagem" : "https://m.media-amazon.com/images/I/712PW2SrIML._SL1500_.jpg",
@@ -20989,7 +21332,7 @@
     "desconto" : "-28%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0GRFP6315?tag=curadomus-20",
     "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:52",
+    "dataOferta" : "23/09/2026 15:14",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -21434,361 +21777,6 @@
       "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
     }
   }, {
-    "id" : 210411,
-    "titulo" : "Varal De Chão Roupa Calcinha Grade 3 Andares Dobrável Portátil",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m7augbm6ixf693",
-    "precoOriginal" : "170,19",
-    "precoPromocao" : "91,90",
-    "desconto" : "-46%",
-    "linkAfiliado" : "https://s.shopee.com.br/5VTplWn3R8",
-    "categoria" : "Lavanderia",
-    "dataOferta" : "23/09/2026 09:41",
-    "destaque" : false,
-    "historico" : [ {
-      "data" : "25/07/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "28/07/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "03/08/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 119.9
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 119.9
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 119.9
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 78.9
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 71.9
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 79.9
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 119.9
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 119.9
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 119.9
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 119.9
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 74.9
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 109.9
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 109.9
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 109.9
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 109.9
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 91.9
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 99.9
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 91.9
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço abaixo do valor que costuma aparecer."
-    }
-  }, {
-    "id" : 209789,
-    "titulo" : "Patinete infantil 3 rodas com led ajustável scooter dobrável menino menina",
-    "imagem" : "https://cf.shopee.com.br/file/br-11134207-820mc-mpnszoiek9og7e",
-    "precoOriginal" : "161,47",
-    "precoPromocao" : "54,90",
-    "desconto" : "-66%",
-    "linkAfiliado" : "https://s.shopee.com.br/4VbIatU7yD",
-    "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:33",
-    "destaque" : false,
-    "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "28/07/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "02/08/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 54.9
-    }, {
-      "data" : "09/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "13/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "17/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 44.01
-    }, {
-      "data" : "22/08/2026",
-      "preco" : 44.01
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 54.9
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "26/08/2026",
-      "preco" : 54.9
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 58.9
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 54.9
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 54.9
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 59.9
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 54.9
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço abaixo do valor que costuma aparecer."
-    }
-  }, {
     "id" : 209931,
     "titulo" : "Mix Castanha Tropical Nuts Saudável Nozes, Amêndoas, Castanha Para/Caju Uva Passa Amendoim Gojiberry",
     "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m1r5gzl6q4nc39",
@@ -21797,7 +21785,7 @@
     "desconto" : "-62%",
     "linkAfiliado" : "https://s.shopee.com.br/1VyQKURd5l",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:38",
+    "dataOferta" : "23/09/2026 15:02",
     "destaque" : false,
     "historico" : [ {
       "data" : "15/08/2026",
@@ -22259,7 +22247,7 @@
     "desconto" : "-5%",
     "linkAfiliado" : "https://s.shopee.com.br/9pe77ZtQ9y",
     "categoria" : "Bebês",
-    "dataOferta" : "23/09/2026 08:40",
+    "dataOferta" : "23/09/2026 15:04",
     "destaque" : false,
     "historico" : [ {
       "data" : "06/09/2026",
@@ -22659,6 +22647,170 @@
       "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
     }
   }, {
+    "id" : 209664,
+    "titulo" : "KitKat Creme Crocante de Chocolate – Pasta para Passar, 330 g",
+    "imagem" : "https://m.media-amazon.com/images/I/61VAMMzECnL._AC_SL1200_.jpg",
+    "precoOriginal" : "27,99",
+    "precoPromocao" : "22,90",
+    "desconto" : "-18%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0FMLBQ136?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "dataOferta" : "23/09/2026 14:52",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "26/07/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 26.88
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 26.88
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 26.88
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 26.88
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 26.88
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 26.88
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 26.88
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 27.98
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 27.98
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 27.98
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 27.98
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 27.39
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 26.87
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 26.87
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 25.86
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 22.99
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 22.99
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 22.99
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 22.99
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 23.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 22.9
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 27.99
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 22.9
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "BOA",
+      "motivoPrincipal" : "Preço caiu e está em um patamar interessante."
+    }
+  }, {
     "id" : 210105,
     "titulo" : "Conjunto de 3 Cestos Organizadores em Bambu com Forro, 33x23x12cm, 29x19x10cm, 25x15x8cm, Bege",
     "imagem" : "https://m.media-amazon.com/images/I/51pTDBhTR6L._AC_.jpg",
@@ -22667,7 +22819,7 @@
     "desconto" : "-14%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FD1NZP5C?tag=curadomus-20",
     "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:52",
+    "dataOferta" : "23/09/2026 15:14",
     "destaque" : false,
     "historico" : [ {
       "data" : "29/07/2026",
@@ -23133,170 +23285,6 @@
       "motivoPrincipal" : "Preço abaixo do valor que costuma aparecer."
     }
   }, {
-    "id" : 210099,
-    "titulo" : "GROW - Jogo Senha - 2 ou mais Jogadores - A partir de 8 anos",
-    "imagem" : "https://m.media-amazon.com/images/I/61hEfptrf6L._AC_SL1200_.jpg",
-    "precoOriginal" : "104,22",
-    "precoPromocao" : "54,15",
-    "desconto" : null,
-    "linkAfiliado" : "https://www.amazon.com.br/dp/B0F24ZK9V4?tag=curadomus-20",
-    "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:51",
-    "destaque" : false,
-    "historico" : [ {
-      "data" : "26/07/2026",
-      "preco" : 52.74
-    }, {
-      "data" : "27/07/2026",
-      "preco" : 54.15
-    }, {
-      "data" : "29/07/2026",
-      "preco" : 54.15
-    }, {
-      "data" : "30/07/2026",
-      "preco" : 54.15
-    }, {
-      "data" : "31/07/2026",
-      "preco" : 54.15
-    }, {
-      "data" : "01/08/2026",
-      "preco" : 54.15
-    }, {
-      "data" : "03/08/2026",
-      "preco" : 67.8
-    }, {
-      "data" : "04/08/2026",
-      "preco" : 67.8
-    }, {
-      "data" : "05/08/2026",
-      "preco" : 64.79
-    }, {
-      "data" : "06/08/2026",
-      "preco" : 64.79
-    }, {
-      "data" : "07/08/2026",
-      "preco" : 64.79
-    }, {
-      "data" : "08/08/2026",
-      "preco" : 64.79
-    }, {
-      "data" : "10/08/2026",
-      "preco" : 64.79
-    }, {
-      "data" : "11/08/2026",
-      "preco" : 64.79
-    }, {
-      "data" : "12/08/2026",
-      "preco" : 64.79
-    }, {
-      "data" : "14/08/2026",
-      "preco" : 64.24
-    }, {
-      "data" : "15/08/2026",
-      "preco" : 64.24
-    }, {
-      "data" : "16/08/2026",
-      "preco" : 64.24
-    }, {
-      "data" : "18/08/2026",
-      "preco" : 61.03
-    }, {
-      "data" : "20/08/2026",
-      "preco" : 61.03
-    }, {
-      "data" : "21/08/2026",
-      "preco" : 62.31
-    }, {
-      "data" : "23/08/2026",
-      "preco" : 64.24
-    }, {
-      "data" : "24/08/2026",
-      "preco" : 64.24
-    }, {
-      "data" : "25/08/2026",
-      "preco" : 64.24
-    }, {
-      "data" : "28/08/2026",
-      "preco" : 58.99
-    }, {
-      "data" : "29/08/2026",
-      "preco" : 58.99
-    }, {
-      "data" : "30/08/2026",
-      "preco" : 58.99
-    }, {
-      "data" : "01/09/2026",
-      "preco" : 58.99
-    }, {
-      "data" : "03/09/2026",
-      "preco" : 57.22
-    }, {
-      "data" : "04/09/2026",
-      "preco" : 57.22
-    }, {
-      "data" : "05/09/2026",
-      "preco" : 57.22
-    }, {
-      "data" : "06/09/2026",
-      "preco" : 57.22
-    }, {
-      "data" : "07/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "08/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "09/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "10/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "11/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "12/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "13/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "14/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "15/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "16/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "17/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "18/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "19/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "20/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "21/09/2026",
-      "preco" : 57.64
-    }, {
-      "data" : "22/09/2026",
-      "preco" : 54.15
-    }, {
-      "data" : "23/09/2026",
-      "preco" : 54.15
-    } ],
-    "tags" : [ ],
-    "analise" : {
-      "classificacao" : "BOA",
-      "motivoPrincipal" : "Preço abaixo do valor que costuma aparecer."
-    }
-  }, {
     "id" : 211307,
     "titulo" : "Buba Garrafinha Aventuras Princesa 400 Ml Rosa",
     "imagem" : "https://m.media-amazon.com/images/I/61+O3VA6yhL._AC_SL1500_.jpg",
@@ -23458,178 +23446,163 @@
       "motivoPrincipal" : "Preço abaixo do valor que costuma aparecer."
     }
   }, {
-    "id" : 210415,
-    "titulo" : "Lixeira Automática 12 Litros Com Sensor Infravermelho Tampa Para Cozinha Banheiro Escritório Quarto",
-    "imagem" : "https://cf.shopee.com.br/file/sg-11134201-7rdwa-mccb5id6es7v2d",
-    "precoOriginal" : "119,13",
-    "precoPromocao" : "55,99",
-    "desconto" : "-53%",
-    "linkAfiliado" : "https://s.shopee.com.br/qi0D0q0Ne",
-    "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 09:41",
+    "id" : 210099,
+    "titulo" : "GROW - Jogo Senha - 2 ou mais Jogadores - A partir de 8 anos",
+    "imagem" : "https://m.media-amazon.com/images/I/61hEfptrf6L._AC_SL1200_.jpg",
+    "precoOriginal" : "104,22",
+    "precoPromocao" : "54,15",
+    "desconto" : "-44%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0F24ZK9V4?tag=curadomus-20",
+    "categoria" : "Brinquedos e Jogos",
+    "dataOferta" : "23/09/2026 15:13",
     "destaque" : false,
     "historico" : [ {
-      "data" : "25/07/2026",
-      "preco" : 59.89
+      "data" : "26/07/2026",
+      "preco" : 52.74
     }, {
       "data" : "27/07/2026",
-      "preco" : 59.88
-    }, {
-      "data" : "28/07/2026",
-      "preco" : 59.89
+      "preco" : 54.15
     }, {
       "data" : "29/07/2026",
-      "preco" : 59.9
+      "preco" : 54.15
     }, {
       "data" : "30/07/2026",
-      "preco" : 59.89
+      "preco" : 54.15
     }, {
       "data" : "31/07/2026",
-      "preco" : 59.9
+      "preco" : 54.15
     }, {
-      "data" : "02/08/2026",
-      "preco" : 59.89
+      "data" : "01/08/2026",
+      "preco" : 54.15
     }, {
       "data" : "03/08/2026",
-      "preco" : 59.89
+      "preco" : 67.8
     }, {
       "data" : "04/08/2026",
-      "preco" : 59.89
+      "preco" : 67.8
     }, {
       "data" : "05/08/2026",
-      "preco" : 59.89
+      "preco" : 64.79
     }, {
       "data" : "06/08/2026",
-      "preco" : 59.89
+      "preco" : 64.79
     }, {
       "data" : "07/08/2026",
-      "preco" : 59.89
+      "preco" : 64.79
     }, {
       "data" : "08/08/2026",
-      "preco" : 56.99
+      "preco" : 64.79
     }, {
       "data" : "10/08/2026",
-      "preco" : 59.88
+      "preco" : 64.79
     }, {
       "data" : "11/08/2026",
-      "preco" : 59.89
+      "preco" : 64.79
     }, {
       "data" : "12/08/2026",
-      "preco" : 59.88
+      "preco" : 64.79
     }, {
-      "data" : "13/08/2026",
-      "preco" : 59.89
+      "data" : "14/08/2026",
+      "preco" : 64.24
     }, {
       "data" : "15/08/2026",
-      "preco" : 59.88
+      "preco" : 64.24
     }, {
       "data" : "16/08/2026",
-      "preco" : 59.88
+      "preco" : 64.24
     }, {
-      "data" : "17/08/2026",
-      "preco" : 59.88
-    }, {
-      "data" : "19/08/2026",
-      "preco" : 59.88
+      "data" : "18/08/2026",
+      "preco" : 61.03
     }, {
       "data" : "20/08/2026",
-      "preco" : 59.89
+      "preco" : 61.03
     }, {
       "data" : "21/08/2026",
-      "preco" : 59.88
+      "preco" : 62.31
     }, {
-      "data" : "22/08/2026",
-      "preco" : 59.88
+      "data" : "23/08/2026",
+      "preco" : 64.24
     }, {
       "data" : "24/08/2026",
-      "preco" : 59.89
+      "preco" : 64.24
     }, {
       "data" : "25/08/2026",
-      "preco" : 59.89
+      "preco" : 64.24
     }, {
-      "data" : "26/08/2026",
-      "preco" : 59.89
-    }, {
-      "data" : "27/08/2026",
-      "preco" : 59.89
+      "data" : "28/08/2026",
+      "preco" : 58.99
     }, {
       "data" : "29/08/2026",
-      "preco" : 59.87
+      "preco" : 58.99
     }, {
       "data" : "30/08/2026",
-      "preco" : 59.87
-    }, {
-      "data" : "31/08/2026",
-      "preco" : 53.97
+      "preco" : 58.99
     }, {
       "data" : "01/09/2026",
-      "preco" : 53.97
-    }, {
-      "data" : "02/09/2026",
-      "preco" : 53.97
+      "preco" : 58.99
     }, {
       "data" : "03/09/2026",
-      "preco" : 59.89
+      "preco" : 57.22
     }, {
       "data" : "04/09/2026",
-      "preco" : 59.87
+      "preco" : 57.22
     }, {
       "data" : "05/09/2026",
-      "preco" : 59.87
+      "preco" : 57.22
     }, {
       "data" : "06/09/2026",
-      "preco" : 59.87
+      "preco" : 57.22
     }, {
       "data" : "07/09/2026",
-      "preco" : 59.87
+      "preco" : 57.64
     }, {
       "data" : "08/09/2026",
-      "preco" : 59.89
+      "preco" : 57.64
     }, {
       "data" : "09/09/2026",
-      "preco" : 59.89
+      "preco" : 57.64
     }, {
       "data" : "10/09/2026",
-      "preco" : 59.89
+      "preco" : 57.64
     }, {
       "data" : "11/09/2026",
-      "preco" : 59.88
+      "preco" : 57.64
     }, {
       "data" : "12/09/2026",
-      "preco" : 59.88
+      "preco" : 57.64
     }, {
       "data" : "13/09/2026",
-      "preco" : 59.88
+      "preco" : 57.64
     }, {
       "data" : "14/09/2026",
-      "preco" : 59.88
+      "preco" : 57.64
     }, {
       "data" : "15/09/2026",
-      "preco" : 59.89
+      "preco" : 57.64
     }, {
       "data" : "16/09/2026",
-      "preco" : 59.88
+      "preco" : 57.64
     }, {
       "data" : "17/09/2026",
-      "preco" : 59.89
+      "preco" : 57.64
     }, {
       "data" : "18/09/2026",
-      "preco" : 59.88
+      "preco" : 57.64
     }, {
       "data" : "19/09/2026",
-      "preco" : 59.88
+      "preco" : 57.64
     }, {
       "data" : "20/09/2026",
-      "preco" : 59.88
+      "preco" : 57.64
     }, {
       "data" : "21/09/2026",
-      "preco" : 50.31
+      "preco" : 57.64
     }, {
       "data" : "22/09/2026",
-      "preco" : 50.31
+      "preco" : 54.15
     }, {
       "data" : "23/09/2026",
-      "preco" : 55.99
+      "preco" : 54.15
     } ],
     "tags" : [ ],
     "analise" : {
@@ -23645,7 +23618,7 @@
     "desconto" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0CP2XNQL5?tag=curadomus-20",
     "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:52",
+    "dataOferta" : "23/09/2026 15:14",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -23821,7 +23794,7 @@
     "desconto" : "-12%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08W4RQYXY?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:50",
+    "dataOferta" : "23/09/2026 15:12",
     "destaque" : false,
     "historico" : [ {
       "data" : "08/08/2026",
@@ -24605,7 +24578,7 @@
     "desconto" : "-44%",
     "linkAfiliado" : "https://s.shopee.com.br/9zwhszpddo",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:36",
+    "dataOferta" : "23/09/2026 15:01",
     "destaque" : false,
     "historico" : [ {
       "data" : "05/08/2026",
@@ -24747,6 +24720,179 @@
     "analise" : {
       "classificacao" : "BOA",
       "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
+    }
+  }, {
+    "id" : 209631,
+    "titulo" : "3 Corações Cappuccino Sabor Cookies n' Cream, 200g",
+    "imagem" : "https://m.media-amazon.com/images/I/61oKn298oOL._AC_SL1200_.jpg",
+    "precoOriginal" : "22,90",
+    "precoPromocao" : "14,99",
+    "desconto" : "-34%",
+    "linkAfiliado" : "https://www.amazon.com.br/dp/B0CN3K431G?tag=curadomus-20",
+    "categoria" : "Alimentos e Bebidas",
+    "dataOferta" : "23/09/2026 14:51",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "26/07/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 17.59
+    }, {
+      "data" : "14/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "18/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "23/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 18.39
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 15.99
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 15.99
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 15.99
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 15.99
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 14.99
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 16.39
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 16.39
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 16.39
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 16.39
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 15.99
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 15.99
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 15.99
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 15.99
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 14.99
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "BOA",
+      "motivoPrincipal" : "Preço abaixo do valor que costuma aparecer."
     }
   }, {
     "id" : 210559,
@@ -24930,7 +25076,7 @@
     "desconto" : "-15%",
     "linkAfiliado" : "https://s.shopee.com.br/7KvnNtEUet",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:35",
+    "dataOferta" : "23/09/2026 14:59",
     "destaque" : false,
     "historico" : [ {
       "data" : "30/07/2026",
@@ -25087,6 +25233,361 @@
     "analise" : {
       "classificacao" : "BOA",
       "motivoPrincipal" : "Menor preço histórico, com boa vantagem em relação ao padrão."
+    }
+  }, {
+    "id" : 210411,
+    "titulo" : "Varal De Chão Roupa Calcinha Grade 3 Andares Dobrável Portátil",
+    "imagem" : "https://cf.shopee.com.br/file/br-11134207-7r98o-m7augbm6ixf693",
+    "precoOriginal" : "170,19",
+    "precoPromocao" : "91,90",
+    "desconto" : "-46%",
+    "linkAfiliado" : "https://s.shopee.com.br/5VTplWn3R8",
+    "categoria" : "Lavanderia",
+    "dataOferta" : "23/09/2026 14:48",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "25/07/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "28/07/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "29/07/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "03/08/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 119.9
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 119.9
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 119.9
+    }, {
+      "data" : "07/08/2026",
+      "preco" : 78.9
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 71.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 79.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 119.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 119.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 119.9
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 119.9
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 74.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "27/08/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 109.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 109.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 109.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 109.9
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 91.9
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 99.9
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 91.9
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "BOA",
+      "motivoPrincipal" : "Preço abaixo do valor que costuma aparecer."
+    }
+  }, {
+    "id" : 209789,
+    "titulo" : "Patinete infantil 3 rodas com led ajustável scooter dobrável menino menina",
+    "imagem" : "https://cf.shopee.com.br/file/br-11134207-820mc-mpnszoiek9og7e",
+    "precoOriginal" : "161,47",
+    "precoPromocao" : "54,90",
+    "desconto" : "-66%",
+    "linkAfiliado" : "https://s.shopee.com.br/4VbIatU7yD",
+    "categoria" : "Brinquedos e Jogos",
+    "dataOferta" : "23/09/2026 14:58",
+    "destaque" : false,
+    "historico" : [ {
+      "data" : "26/07/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "27/07/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "28/07/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "30/07/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "31/07/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "01/08/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "02/08/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "04/08/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "05/08/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "06/08/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "08/08/2026",
+      "preco" : 54.9
+    }, {
+      "data" : "09/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "10/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "11/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "12/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "13/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "15/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "16/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "17/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "19/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "20/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "21/08/2026",
+      "preco" : 44.01
+    }, {
+      "data" : "22/08/2026",
+      "preco" : 44.01
+    }, {
+      "data" : "24/08/2026",
+      "preco" : 54.9
+    }, {
+      "data" : "25/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "26/08/2026",
+      "preco" : 54.9
+    }, {
+      "data" : "28/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "29/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "30/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "31/08/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "01/09/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "02/09/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "03/09/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "04/09/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "05/09/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "06/09/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "07/09/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "08/09/2026",
+      "preco" : 58.9
+    }, {
+      "data" : "09/09/2026",
+      "preco" : 54.9
+    }, {
+      "data" : "10/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "11/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "12/09/2026",
+      "preco" : 54.9
+    }, {
+      "data" : "13/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "14/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "15/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "16/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "17/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "18/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "19/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "20/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "21/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "22/09/2026",
+      "preco" : 59.9
+    }, {
+      "data" : "23/09/2026",
+      "preco" : 54.9
+    } ],
+    "tags" : [ ],
+    "analise" : {
+      "classificacao" : "BOA",
+      "motivoPrincipal" : "Preço abaixo do valor que costuma aparecer."
     }
   }, {
     "id" : 210573,
@@ -25982,7 +26483,7 @@
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0FTBBC9MK?tag=curadomus-20",
     "categoria" : "Brinquedos e Jogos",
-    "dataOferta" : "23/09/2026 08:51",
+    "dataOferta" : "23/09/2026 15:13",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -26152,7 +26653,7 @@
     "desconto" : null,
     "linkAfiliado" : "https://amzn.to/3RZ80VE",
     "categoria" : "Bebês",
-    "dataOferta" : "23/09/2026 08:36",
+    "dataOferta" : "23/09/2026 14:58",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -27112,7 +27613,7 @@
     "desconto" : null,
     "linkAfiliado" : "https://s.shopee.com.br/9zwg8CM2cF",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:36",
+    "dataOferta" : "23/09/2026 15:00",
     "destaque" : false,
     "historico" : [ {
       "data" : "04/08/2026",
@@ -27267,7 +27768,7 @@
     "desconto" : "-14%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B07MJ251Z8?tag=curadomus-20",
     "categoria" : "Bebês",
-    "dataOferta" : "23/09/2026 08:39",
+    "dataOferta" : "23/09/2026 15:01",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -28999,7 +29500,7 @@
     "desconto" : null,
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C69TM5JJ?tag=curadomus-20",
     "categoria" : "Casa",
-    "dataOferta" : "23/09/2026 08:53",
+    "dataOferta" : "23/09/2026 15:15",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -29166,7 +29667,7 @@
     "desconto" : "-33%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B08YMXTLX2?tag=curadomus-20",
     "categoria" : "Bebês",
-    "dataOferta" : "23/09/2026 08:36",
+    "dataOferta" : "23/09/2026 14:58",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -29500,7 +30001,7 @@
     "desconto" : "-25%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0783NPFQ2?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:26",
+    "dataOferta" : "23/09/2026 14:49",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
@@ -29673,7 +30174,7 @@
     "desconto" : "-5%",
     "linkAfiliado" : "https://www.amazon.com.br/dp/B0C5DTJ966?tag=curadomus-20",
     "categoria" : "Alimentos e Bebidas",
-    "dataOferta" : "23/09/2026 08:30",
+    "dataOferta" : "23/09/2026 14:52",
     "destaque" : false,
     "historico" : [ {
       "data" : "26/07/2026",
