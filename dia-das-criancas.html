@@ -17,6 +17,8 @@
     content="Acompanhe ofertas de brinquedos para o Dia das Crianças com histórico real de preços."
   >
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://curadomus.com.br/dia-das-criancas.html">
+  <link rel="canonical" href="https://curadomus.com.br/dia-das-criancas.html">
 
   <link rel="icon" type="image/png" href="curadomus_logo.png">
 
@@ -267,7 +269,7 @@
 
       <div class="mx-auto max-w-6xl px-6 pb-10 pt-12 text-center">
         <p class="text-xs font-bold uppercase tracking-[.22em] text-primary">
-          ✦ Especial Dia das Crianças
+          ✦ Especial Dia das Crianças · 12 de outubro
         </p>
 
         <h1 class="text-serif mx-auto mt-3 max-w-4xl text-5xl leading-[.98] text-primary sm:text-6xl">
@@ -277,9 +279,11 @@
         </h1>
 
         <p class="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-mutedInk">
-          Selecionamos brinquedos e acompanhamos o histórico real de preços para ajudar você a encontrar
-          boas oportunidades para o Dia das Crianças.
+          Já escolheu o presente? Confira brinquedos e jogos com histórico de preços
+          para decidir com mais informação. Veja a indicação de idade e o prazo de entrega na loja.
         </p>
+        <a href="#ofertas" class="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-bold text-white transition hover:opacity-90">Ver presentes e preços ↓</a>
+        <p class="mx-auto mt-4 max-w-xl text-xs leading-relaxed text-mutedInk">Esta página contém links de afiliado. Podemos receber comissão nas compras por esses links, sem custo adicional para você.</p>
       </div>
     </header>
 
@@ -933,13 +937,19 @@
       renderizarOfertas();
     });
 
-    fetch("brinquedos.json")
+    fetch("promocoes.json", { cache: "no-cache" })
       .then(response => {
-        if (!response.ok) throw new Error("Não foi possível carregar o arquivo brinquedos.json.");
+        if (!response.ok) throw new Error("Não foi possível carregar a seleção de ofertas.");
         return response.json();
       })
       .then(data => {
-        ofertas = Array.isArray(data.ofertas) ? data.ofertas : [];
+        if (!Array.isArray(data.ofertas)) throw new Error("Formato da seleção inválido.");
+        // O feed público já contém a categoria. Não depende de um JSON separado.
+        // A campanha de presentes não inclui estalinhos, biribinhas ou bombinhas.
+        ofertas = data.ofertas.filter(produto =>
+          normalizarTexto(produto.categoria || "").trim() === "brinquedos e jogos"
+          && !/estalinhos?|birib(?:inha|a)?|bombinhas?/i.test(produto.titulo || "")
+        );
         if (data.ultimaAtualizacao) {
           document.getElementById("atualizacao").textContent = `Última atualização: ${data.ultimaAtualizacao}`;
         }
@@ -950,8 +960,8 @@
         console.error(error);
         $lista.innerHTML = `
           <div class="md:col-span-2 rounded-2xl border border-dashed p-10 text-center text-sm text-mutedInk" style="border-color:var(--border)">
-            Não foi possível carregar a vitrine no momento.
-            Verifique se o arquivo <code>brinquedos.json</code> está na mesma pasta deste HTML.
+            Não foi possível carregar os presentes no momento.
+            <a href="promocoes.html" class="block mt-3 underline text-primary">Ver todas as ofertas →</a>
           </div>
         `;
       });
