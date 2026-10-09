@@ -4,10 +4,13 @@
 //
 // Cada página deve ter <body data-grupo="bebes"> (ou "imaginario",
 // "educacao", "lar", ou vazio/ausente na página geral). Este arquivo lê o
-// atributo automaticamente — nenhuma outra configuração é necessária.
+// atributo automaticamente — nenhuma outra configuração é necessária. Na
+// cta.html o atributo é definido em runtime, antes de este arquivo carregar.
 // Deve ser incluído no fim do <body>, depois do conteúdo da página.
 (function () {
-  const CAMPANHA = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "gclid", "fbclid"];
+  // "origem" marca de onde a pessoa veio (ex.: rodapé de convite das mensagens
+  // do promobot: ?origem=grupo-bebes).
+  const CAMPANHA = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "gclid", "fbclid", "origem"];
   const params = new URLSearchParams(location.search);
   const utms = {};
   CAMPANHA.forEach((k) => { const v = params.get(k); if (v) utms[k] = v; });
@@ -24,7 +27,11 @@
 
   window.dataLayer = window.dataLayer || [];
   function track(evento, dados = {}) {
-    window.dataLayer.push({ event: evento, ...utms, ...dados });
+    const params = { ...utms, ...dados };
+    window.dataLayer.push({ event: evento, ...params });
+    // O gtag.js não lê objetos { event } do dataLayer (isso é do GTM): sem
+    // esta chamada os eventos não chegam ao GA4.
+    if (typeof window.gtag === "function") window.gtag("event", evento, params);
   }
   // Exposto globalmente para qualquer script da página (ex.: grupo-landing.js)
   // poder disparar eventos extras sem duplicar a lógica de UTM.

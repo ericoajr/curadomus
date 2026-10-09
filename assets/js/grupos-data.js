@@ -1,7 +1,10 @@
-// Fonte única de dados dos 4 grupos do Cura Domus.
-// Usado pela página geral (cta.html) para montar os cards de escolha, e
-// pelas páginas específicas (grupo-landing.js) para preencher o conteúdo
-// que muda de grupo para grupo (textos, imagem, link do WhatsApp, exemplos).
+// Fonte única de dados dos 4 grupos do Cura Domus, usada pela cta.html:
+// sem parâmetro ela mostra os cards de escolha; com ?grupo=<slug> monta a
+// página do grupo (textos, link do WhatsApp, ofertas e exemplos).
+//
+// categorias: mesmos nomes do campo "categoria" de promocoes.json e da tabela
+// categoria_grupo do promobot — filtram as ofertas reais exibidas na página.
+// temas: o que aparece em "O que você pode encontrar no grupo".
 //
 // Link do WhatsApp de cada grupo: NÃO ALTERAR sem confirmar com o time —
 // são os mesmos links já em uso hoje.
@@ -9,9 +12,11 @@ window.GRUPOS_CURA_DOMUS = {
   imaginario: {
     slug: "imaginario",
     nome: "Formação do Imaginário",
-    href: "imaginario.html",
+    href: "cta.html?grupo=imaginario",
     imagemCard: "imaginario.png",
     whatsappUrl: "https://chat.whatsapp.com/EAN1D7qKG3m5iFAmh7Hr3F",
+    categorias: ["Livros"],
+    temas: ["Livros infantis", "Literatura", "Box e coleções", "Livros ilustrados", "Clássicos"],
     badge: "Formação do Imaginário · grupo gratuito",
     tituloLinha1: "Livros infantis que valem a pena,",
     tituloDestaque: "sem pagar a mais.",
@@ -34,17 +39,17 @@ window.GRUPOS_CURA_DOMUS = {
     seo: {
       title: "Cura Domus · Formação do Imaginário — ofertas de livros no WhatsApp",
       description: "Grupo gratuito no WhatsApp com ofertas verificadas de livros infantis e literatura para a formação do imaginário. A gente garimpa, verifica e avisa.",
-      canonical: "https://curadomus.com.br/html/imaginario.html",
-      ogImage: "https://curadomus.com.br/html/imaginario.png",
     },
   },
 
   educacao: {
     slug: "educacao",
     nome: "Educação e Escola",
-    href: "educacao.html",
+    href: "cta.html?grupo=educacao",
     imagemCard: "educacao.png",
     whatsappUrl: "https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW",
+    categorias: ["Papelaria"],
+    temas: ["Material escolar", "Mochilas", "Cadernos", "Papelaria", "Organização da rotina"],
     badge: "Educação e Escola · grupo gratuito",
     tituloLinha1: "Rotina escolar mais leve,",
     tituloDestaque: "sem pagar a mais.",
@@ -67,17 +72,17 @@ window.GRUPOS_CURA_DOMUS = {
     seo: {
       title: "Cura Domus · Educação e Escola — ofertas no WhatsApp",
       description: "Grupo gratuito no WhatsApp com ofertas verificadas de material escolar e itens para a rotina de educação. A gente garimpa, verifica e avisa.",
-      canonical: "https://curadomus.com.br/html/educacao.html",
-      ogImage: "https://curadomus.com.br/html/educacao.png",
     },
   },
 
   lar: {
     slug: "lar",
     nome: "Gestão do Lar",
-    href: "lar.html",
+    href: "cta.html?grupo=lar",
     imagemCard: "gestao.png",
     whatsappUrl: "https://chat.whatsapp.com/KFFiBvHSKVjKUrQmz0ZNwl",
+    categorias: ["Alimentos e Bebidas", "Casa", "Lavanderia", "Limpeza de Casa", "Natal / sazonal"],
+    temas: ["Cozinha", "Organização", "Limpeza", "Lavanderia", "Mercado", "Datas especiais"],
     badge: "Gestão do Lar · grupo gratuito",
     tituloLinha1: "A rotina da casa mais prática,",
     tituloDestaque: "pagando menos.",
@@ -100,21 +105,21 @@ window.GRUPOS_CURA_DOMUS = {
     seo: {
       title: "Cura Domus · Gestão do Lar — ofertas no WhatsApp",
       description: "Grupo gratuito no WhatsApp com ofertas verificadas de cozinha, organização e utilidades domésticas. O Cura Domus acompanha preços, verifica e avisa.",
-      canonical: "https://curadomus.com.br/html/lar.html",
-      ogImage: "https://curadomus.com.br/html/gestao.png",
     },
   },
 
   bebes: {
     slug: "bebes",
     nome: "Bebês e Primeira Infância",
-    href: "bebes.html",
-    imagemCard: "bebe.jpg",
+    href: "cta.html?grupo=bebes",
+    imagemCard: "images/bebe.jpg",
     whatsappUrl: "https://chat.whatsapp.com/C84J6GtX87t6a0HFp2x5EX",
+    categorias: ["Bebês", "Brinquedos e Jogos", "Fraldas"],
+    temas: ["Fraldas", "Higiene", "Alimentação", "Enxoval", "Carrinhos", "Brinquedos", "Acessórios"],
     badge: "Bebês e Primeira Infância · grupo gratuito",
-    tituloLinha1: "Enxoval e primeira infância,",
-    tituloDestaque: "sem pagar a mais.",
-    subtitulo: "Fralda, higiene, papinha, carrinho e berço: a gente garimpa, verifica o preço e avisa no grupo na hora.",
+    tituloLinha1: "Ofertas para bebês",
+    tituloDestaque: "com preço analisado.",
+    subtitulo: "Receba ofertas de fraldas, higiene e enxoval no WhatsApp. Comparamos os preços com o histórico para ajudar você a escolher quando comprar.",
     trustItems: [
       { titulo: "Fase por fase", texto: "Do enxoval aos primeiros anos." },
       { titulo: "Preço conferido", texto: "Histórico acompanhado antes de avisar." },
@@ -133,8 +138,6 @@ window.GRUPOS_CURA_DOMUS = {
     seo: {
       title: "Cura Domus · Bebês e Primeira Infância — ofertas no WhatsApp",
       description: "Receba ofertas de produtos para bebês e primeira infância no WhatsApp. O Cura Domus acompanha preços, verifica oportunidades e avisa.",
-      canonical: "https://curadomus.com.br/html/bebes.html",
-      ogImage: "https://curadomus.com.br/html/bebe.jpg",
     },
   },
 };
