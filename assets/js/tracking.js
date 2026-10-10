@@ -66,7 +66,8 @@
   document.addEventListener("click", (ev) => {
     const whats = ev.target.closest("a[data-whats]");
     if (whats) {
-      track("click_whatsapp", { grupo, local: whats.dataset.whats });
+      // grupo_destino: mesmo nome usado pelo analytics.js nas demais páginas.
+      track("click_whatsapp", { grupo, grupo_destino: grupo, local: whats.dataset.whats });
       track("cta_click", { grupo, local: whats.dataset.whats });
       return;
     }
