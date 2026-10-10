@@ -68,6 +68,7 @@
 
   <div id="menu-principal"></div>
   <script src="/assets/js/menu.js"></script>
+  <script src="/assets/js/oferta-card.js"></script>
 
   <!-- Estado de carregamento -->
   <div id="estadoCarregando" class="mx-auto max-w-4xl px-6 py-24 text-center text-sm" style="color:var(--muted-ink)">
@@ -153,55 +154,7 @@ function mostrarErro() {
   el("estadoErro").classList.remove("hidden");
 }
 
-// ---------- Card de produto (mesmo padrão usado nas ofertas do site) ----------
-function normalizarClassificacao(classificacao = "") {
-  const nomes = {
-    EXCELENTE: "Excelente oportunidade",
-    MUITO_BOA: "Muito boa oportunidade",
-    BOA: "Boa oportunidade",
-    INTERESSANTE: "Preço interessante",
-    MODERADA: "Oportunidade moderada",
-    FRACA: "Oferta monitorada",
-    SEM_HISTORICO: "Em monitoramento"
-  };
-  return nomes[classificacao] || "Preço analisado";
-}
-
-function produtoCard(p) {
-  const precoAntigo = (p.precoOriginal || "").toString().replace(/\u00a0/g, "").trim();
-  const precoNovo = (p.precoPromocao || "0,00").toString().replace(/\u00a0/g, "").trim();
-  const analise = p.analise || {};
-  const motivo = analise.motivoPrincipal || p.menorPrecoMensagem || "Preço analisado pela Cura Domus.";
-  const classificacao = normalizarClassificacao(analise.classificacao);
-  const destaque = p.destaque === true;
-
-  return `
-  <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card sm:flex-row" style="border-color:var(--border)">
-    <div class="relative flex shrink-0 items-center justify-center p-4 sm:w-40" style="background:var(--cream-deep)">
-      <span class="absolute left-3 top-3 rounded-full border bg-white/95 px-2 py-0.5 text-[10px] font-bold text-primary shadow">
-        ${destaque ? "★ Destaque" : "✓ Preço analisado"}
-      </span>
-      <img src="${p.imagem}" alt="${p.titulo}" loading="lazy" class="h-28 w-full object-contain transition duration-300 group-hover:scale-105" />
-    </div>
-    <div class="flex flex-1 flex-col gap-2 p-4">
-      <div>
-        <p class="text-[10px] font-bold uppercase tracking-[.12em] text-primary">${classificacao}</p>
-        <h3 class="mt-1 text-[14px] font-semibold leading-snug">${p.titulo}</h3>
-        <div class="mt-2 rounded-xl border px-3 py-2 text-[10px] font-semibold leading-relaxed text-primary" style="border-color:var(--border); background:var(--background)">
-          ${motivo}
-        </div>
-      </div>
-      <div class="mt-auto flex items-end justify-between gap-2 pt-2">
-        <div class="flex flex-col">
-          ${precoAntigo ? `<span class="text-xs line-through" style="color:var(--muted-ink)">R$ ${precoAntigo}</span>` : ""}
-          <span class="text-serif text-xl font-bold leading-none text-primary">R$ ${precoNovo}</span>
-          ${p.desconto ? `<span class="mt-1 text-[10px]" style="color:var(--muted-ink)">${p.desconto.trim()} informado pela loja</span>` : ""}
-        </div>
-        <a href="${p.linkAfiliado || "#"}" target="_blank" rel="sponsored nofollow noopener noreferrer" class="inline-flex items-center gap-1 rounded-lg bg-primary px-3 py-1.5 text-xs font-semibold text-primary-foreground shadow-soft transition hover:opacity-90">Ver oferta ↗</a>
-      </div>
-    </div>
-  </article>`;
-}
+// O card de produto é o mesmo das ofertas do site: /assets/js/oferta-card.js.
 
 // ---------- Render principal ----------
 // Se o passo começa com "Algo curto:", deixa essa primeira parte em negrito
@@ -282,8 +235,8 @@ function renderProdutosSugeridos(tagsReceita, ofertas) {
 
   if (!encontrados.length) return;
   
-  // Renderiza apenas os produtos encontrados usando a função existente produtoCard
-  el("produtosSugeridos").innerHTML = encontrados.map(produtoCard).join("");
+  // Renderiza os produtos encontrados com o card compartilhado
+  el("produtosSugeridos").innerHTML = encontrados.map(CuraOfertaCard.criar).join("");
   el("secaoProdutos").classList.remove("hidden");
 }
 
