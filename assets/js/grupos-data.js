@@ -48,7 +48,7 @@ window.GRUPOS_CURA_DOMUS = {
     href: "cta.html?grupo=educacao",
     imagemCard: "educacao.png",
     whatsappUrl: "https://chat.whatsapp.com/Dq5cuiWi5vYAQrXq5c2DuW",
-    categorias: ["Papelaria"],
+    categorias: ["Material Escolar", "Papelaria"],
     temas: ["Material escolar", "Mochilas", "Cadernos", "Papelaria", "Organização da rotina"],
     badge: "Educação e Escola · grupo gratuito",
     tituloLinha1: "Rotina escolar mais leve,",
