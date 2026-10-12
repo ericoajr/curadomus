@@ -67,7 +67,7 @@
   logo.className = "cd-menu-logo";
   logo.href = "/index.html";
   logo.setAttribute("aria-label", "Cura Domus, início");
-  logo.innerHTML = '<img src="/curadomus_logo.png" alt="Cura Domus" width="120" height="32">';
+  logo.innerHTML = '<img src="/images/curadomus_logo.png" alt="Cura Domus" width="120" height="32">';
 
   var links = document.createElement("div");
   links.className = "cd-menu-links";
