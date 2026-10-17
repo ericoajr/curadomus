@@ -170,7 +170,7 @@
 
     <main class="mx-auto max-w-6xl px-6 pb-24">
 
-      <!-- ATALHOS: DIA DAS CRIANÇAS E FRALDAS -->
+      <!-- ATALHOS: quadros com data-ate (AAAA-MM-DD) somem sozinhos depois dessa data, como no menu -->
       <section aria-labelledby="selecoes-titulo" class="mb-16">
         <h2 id="selecoes-titulo" class="mb-5 text-center text-xs font-bold uppercase tracking-[.2em] text-primary">
           Escolha o que você procura
@@ -179,6 +179,7 @@
         <div class="grid gap-4 sm:grid-cols-2">
           <a
             href="dia-das-criancas.html"
+            data-ate="2026-10-12"
             class="flex flex-col rounded-2xl border p-6 shadow-soft transition hover:-translate-y-0.5 hover:shadow-card focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4"
             style="border-color:var(--border); background:var(--cream); outline-color:var(--primary)"
           >
@@ -202,7 +203,29 @@
             </p>
             <span class="mt-auto pt-5 text-sm font-bold text-primary">Conferir preços de fraldas →</span>
           </a>
+
+          <a
+            href="receitas.html"
+            class="flex flex-col rounded-2xl border bg-card p-6 shadow-soft transition hover:-translate-y-0.5 hover:shadow-card focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4"
+            style="border-color:var(--border); outline-color:var(--primary)"
+          >
+            <p class="text-xs font-bold uppercase tracking-[.16em] text-primary">Gestão do lar</p>
+            <h3 class="text-serif mt-2 text-3xl font-semibold text-primary sm:text-4xl">Receitas</h3>
+            <p class="mt-3 text-sm leading-relaxed text-mutedInk">
+              Receitas econômicas e práticas para o dia a dia da família, com o que pode estar faltando na cozinha.
+            </p>
+            <span class="mt-auto pt-5 text-sm font-bold text-primary">Ver receitas →</span>
+          </a>
         </div>
+        <script>
+          (function () {
+            var d = new Date(); // data local, não UTC
+            var hoje = d.getFullYear() + "-" + ("0" + (d.getMonth() + 1)).slice(-2) + "-" + ("0" + d.getDate()).slice(-2);
+            document.querySelectorAll("#selecoes-titulo ~ div [data-ate]").forEach(function (quadro) {
+              if (hoje > quadro.getAttribute("data-ate")) quadro.remove();
+            });
+          })();
+        </script>
       </section>
 
       <!-- COMO FUNCIONA -->
