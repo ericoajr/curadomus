@@ -89,6 +89,14 @@
 
     .hidden { display: none !important; }
 
+    /* Linhas de chips: quebram em várias linhas no desktop; no celular rolam
+       de lado sem barra visível, com um esmaecido à direita indicando que há mais. */
+    .chips { scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+    .chips::-webkit-scrollbar { display: none; }
+    @media (max-width: 639px) {
+      .chips { -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 28px), transparent); }
+    }
+
     .fade-up { animation: fade-up .35s ease both; }
 
     @keyframes fade-up {
@@ -224,7 +232,7 @@
           </button>
         </form>
 
-        <div id="categorias" class="mt-6 flex gap-2 overflow-x-auto pb-2"></div>
+        <div id="categorias" class="chips mt-6 flex gap-2 overflow-x-auto sm:flex-wrap sm:overflow-visible"></div>
 
         <div class="mt-7 rounded-2xl border bg-card p-4" style="border-color:var(--border)">
           <p class="text-[11px] font-bold uppercase tracking-[.16em] text-mutedInk">
@@ -255,7 +263,7 @@
         <div class="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p id="resultadoInfo" class="text-sm text-mutedInk"></p>
 
-          <div id="filtrosNivel" class="flex gap-2 overflow-x-auto pb-1">
+          <div id="filtrosNivel" class="chips flex gap-2 overflow-x-auto">
             <button type="button" data-nivel="TODOS"
               class="nivel-filter active whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
               style="border-color:var(--border)">
