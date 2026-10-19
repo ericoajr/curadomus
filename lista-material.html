@@ -58,15 +58,21 @@
   .bg-primary { background: var(--primary); }
   .text-primary-foreground { color: #fff; }
   .hidden { display: none !important; }
-  @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
-  .animate-fade-up { animation: fade-up .4s ease both; }
 
   .progresso { height: 6px; border-radius: 999px; background: var(--muted); overflow: hidden; }
   .progresso > span { display: block; height: 100%; background: var(--accent); transition: width .3s; }
   .item-check:checked + label .item-nome { text-decoration: line-through; color: var(--muted-ink); }
 
+  /* Fileira de produtos abaixo de cada item: rolagem lateral no celular, 4 colunas no desktop. */
+  .item-produtos { display: grid; grid-auto-flow: column; grid-auto-columns: 46%; gap: 12px; overflow-x: auto; scrollbar-width: none; padding-bottom: 4px; }
+  .item-produtos::-webkit-scrollbar { display: none; }
+  @media (min-width: 640px) { .item-produtos { grid-auto-flow: row; grid-template-columns: repeat(4, minmax(0, 1fr)); overflow: visible; } }
+  .produto-mini { border: 1px solid var(--border); background: var(--card); }
+  .produto-mini:hover { box-shadow: 0 10px 30px -12px rgba(30,25,20,0.18); }
+  .produto-mini h4 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+
   @media print {
-    .cd-menu, footer, #acoes, #secaoProdutos, .item-oferta { display: none !important; }
+    .cd-menu, footer, #acoes, .item-produtos { display: none !important; }
     html, body { background: #fff; }
     .shadow-soft { box-shadow: none !important; }
   }
@@ -118,24 +124,8 @@
         </div>
         <p class="mt-3 text-[11px]" style="color:var(--muted-ink)">Marque o que você já tem ou já comprou. As marcações ficam salvas neste aparelho.</p>
 
-        <div id="grupos" class="mt-6 space-y-8"></div>
+        <div id="grupos" class="mt-6 space-y-10"></div>
       </div>
-
-      <div id="observacoes" class="hidden mt-8 rounded-xl border border-dashed p-4 text-xs leading-relaxed" style="border-color:var(--accent); background: color-mix(in srgb, var(--cream-deep) 40%, transparent)">
-        <span class="font-bold text-primary uppercase tracking-wider block mb-1">💡 Observações</span>
-        <span id="observacoesTexto"></span>
-      </div>
-
-      <section id="secaoProdutos" class="hidden mt-16 border-t pt-10" style="border-color:var(--border)">
-        <div class="mb-6">
-          <div class="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">
-            ✦ Economize na lista
-          </div>
-          <h2 class="text-serif mt-1 text-2xl sm:text-3xl">Ofertas para os itens da lista</h2>
-          <p class="mt-1 text-xs" style="color:var(--muted-ink)">Mostramos oportunidades de material escolar que passaram pela nossa análise de preços.</p>
-        </div>
-        <div id="produtosSugeridos" class="grid grid-cols-1 gap-5 md:grid-cols-2"></div>
-      </section>
     </main>
   </div>
 
@@ -156,8 +146,62 @@ function mostrarErro() {
   el("estadoErro").classList.remove("hidden");
 }
 
-function normalizar(tags) {
-  return (tags || []).map(t => String(t).trim().toLowerCase());
+function escapeHTML(v) {
+  return String(v == null ? "" : v)
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#039;");
+}
+
+function urlSegura(v) {
+  try {
+    const url = new URL(v || "", location.href);
+    return /^https?:$/.test(url.protocol) ? escapeHTML(url.href) : "#";
+  } catch (e) { return "#"; }
+}
+
+// ---------- Card compacto de produto ----------
+// Versão reduzida do card de /assets/js/oferta-card.js, para caber 4 por
+// linha abaixo do item. Usa as classes nivel-* que aquele script injeta.
+// O <article> com <h4> é o que o analytics.js lê para o click_oferta.
+const SELOS = {
+  DESTAQUE: ["★ Destaque", "nivel-destaque"],
+  OPORTUNIDADE: ["✓ Oportunidade", "nivel-oportunidade"],
+  BOM_PRECO: ["✓ Bom preço", "nivel-bom-preco"],
+};
+
+function cardProduto(o) {
+  const selo = SELOS[CuraOfertaCard.nivelVisual(o)];
+  return `
+  <article class="produto-mini flex flex-col overflow-hidden rounded-xl transition hover:-translate-y-0.5">
+    <div class="relative flex h-36 items-center justify-center px-3 pb-3 pt-9" style="background:var(--cream-deep)">
+      ${selo ? `<span class="nivel-badge ${selo[1]} absolute left-2 top-2">${selo[0]}</span>` : ""}
+      <img src="${urlSegura(o.imagem)}" alt="${escapeHTML(o.titulo)}" loading="lazy" class="h-full w-full object-contain">
+    </div>
+    <div class="flex flex-1 flex-col gap-2 p-3">
+      <h4 class="text-xs font-semibold leading-snug">${escapeHTML(o.titulo)}</h4>
+      <div class="mt-auto">
+        ${o.precoOriginal ? `<span class="block text-[10px] line-through" style="color:var(--muted-ink)">R$ ${escapeHTML(o.precoOriginal)}</span>` : ""}
+        <strong class="text-serif text-xl text-primary">R$ ${escapeHTML(o.precoPromocao)}</strong>
+      </div>
+      <a href="${urlSegura(o.linkAfiliado)}" target="_blank" rel="sponsored nofollow noopener noreferrer"
+        class="rounded-lg bg-primary px-2 py-1.5 text-center text-[11px] font-bold text-white transition hover:opacity-90">Ver produto ↗</a>
+    </div>
+  </article>`;
+}
+
+// "2 unidades"; quantidade 1 não aparece (quase todo item é 1).
+function quantidade(q) {
+  return q > 1 ? `${q} unidades` : "";
+}
+
+// Linha de apoio abaixo do nome: detalhe ("12 cores"), autor e, nas obras
+// literárias, a faixa de letras do nome do aluno.
+function apoio(item) {
+  return [
+    item.detalhe,
+    item.autor,
+    item.letras ? `Letras ${item.letras}` : "",
+  ].filter(Boolean).map(escapeHTML).join(" · ");
 }
 
 // ---------- Itens marcados (localStorage) ----------
@@ -187,9 +231,16 @@ function atualizarProgresso(total) {
 // ---------- Render principal ----------
 // Os itens são agrupados por "grupo" na ordem em que aparecem no JSON.
 // O índice do item na lista é o que fica salvo como marcado.
-function renderLista(lista, tagsComOferta) {
+// Todo item aparece; os que têm produto associado (item.produtos, gerado pelo
+// promobot) ganham a fileira de cards.
+function renderLista(lista) {
+  const itens = lista.itens || [];
+  const comProduto = itens.filter(i => (i.produtos || []).length).length;
+  const resumo = `Lista de material de ${lista.titulo}${lista.escola ? " · " + lista.escola : ""}. `
+    + `${comProduto} de ${itens.length} itens com produto acompanhado pela Cura Domus.`;
+
   document.title = lista.titulo + " — Lista de Material — Cura Domus";
-  el("pageDescription").setAttribute("content", lista.resumo || "");
+  el("pageDescription").setAttribute("content", resumo);
   el("eyebrow").textContent = "✦ " + (lista.segmento || "Material escolar");
   el("titulo").textContent = lista.titulo;
 
@@ -197,9 +248,8 @@ function renderLista(lista, tagsComOferta) {
     el("escola").textContent = lista.escola;
     el("escola").classList.remove("hidden");
   }
-  el("descricao").textContent = lista.resumo || "";
+  el("descricao").textContent = resumo;
 
-  const itens = lista.itens || [];
   const meta = [
     lista.anoLetivo ? `📅 <strong>Ano letivo:</strong> ${lista.anoLetivo}` : "",
     `✏️ <strong>Itens:</strong> ${itens.length}`,
@@ -218,16 +268,19 @@ function renderLista(lista, tagsComOferta) {
       <h3 class="mb-3 text-[11px] font-bold uppercase tracking-[0.16em] text-primary">${grupo}</h3>
       <ul class="divide-y text-sm" style="border-color:var(--border)">
         ${itensGrupo.map(item => {
-          const temOferta = normalizar(item.tags).some(t => tagsComOferta.has(t));
+          const produtos = item.produtos || [];
+          const linhaApoio = apoio(item);
           return `
-          <li class="flex items-start gap-3 py-2.5" style="border-color:var(--border)">
-            <input type="checkbox" class="item-check mt-1 accent-[var(--primary)] rounded cursor-pointer" id="item-${item.i}" data-i="${item.i}" ${marcados.has(item.i) ? "checked" : ""}>
-            <label for="item-${item.i}" class="flex-1 cursor-pointer">
-              <span class="item-nome font-medium">${item.nome}</span>
-              ${item.observacao ? `<span class="block text-xs" style="color:var(--muted-ink)">${item.observacao}</span>` : ""}
-            </label>
-            <span class="shrink-0 text-right text-xs font-semibold" style="color:var(--primary-deep)">${item.quantidade || ""}</span>
-            ${temOferta ? `<a href="#secaoProdutos" class="item-oferta shrink-0 rounded-full px-2 py-0.5 text-[10px] font-bold" style="background:#e8f5ee; color:#087f5b">Oferta</a>` : ""}
+          <li class="py-3" style="border-color:var(--border)">
+            <div class="flex items-start gap-3">
+              <input type="checkbox" class="item-check mt-1 accent-[var(--primary)] rounded cursor-pointer" id="item-${item.i}" data-i="${item.i}" ${marcados.has(item.i) ? "checked" : ""}>
+              <label for="item-${item.i}" class="flex-1 cursor-pointer">
+                <span class="item-nome font-medium">${escapeHTML(item.descricao)}</span>
+                ${linhaApoio ? `<span class="block text-xs" style="color:var(--muted-ink)">${linhaApoio}</span>` : ""}
+              </label>
+              <span class="shrink-0 text-right text-xs font-semibold" style="color:var(--primary-deep)">${quantidade(item.quantidade)}</span>
+            </div>
+            ${produtos.length ? `<div class="item-produtos mt-3 sm:pl-7">${produtos.map(cardProduto).join("")}</div>` : ""}
           </li>`;
         }).join("")}
       </ul>
@@ -251,29 +304,9 @@ function renderLista(lista, tagsComOferta) {
 
   el("btnImprimir").addEventListener("click", () => window.print());
 
-  if (lista.observacoes) {
-    el("observacoesTexto").textContent = lista.observacoes;
-    el("observacoes").classList.remove("hidden");
-  }
-
   atualizarProgresso(itens.length);
   el("estadoCarregando").classList.add("hidden");
   el("conteudo").classList.remove("hidden");
-}
-
-// Cruza as tags dos itens da lista com as tags de promocoes.json. Se nenhuma
-// oferta casar, mostra as ofertas da categoria "Material Escolar".
-function ofertasDaLista(lista, ofertas) {
-  const tagsLista = new Set((lista.itens || []).flatMap(item => normalizar(item.tags)));
-  const porTag = ofertas.filter(o => normalizar(o.tags).some(t => tagsLista.has(t)));
-  if (porTag.length) return porTag;
-  return ofertas.filter(o => (o.categoria || "").trim() === "Material Escolar");
-}
-
-function renderProdutosSugeridos(encontrados) {
-  if (!encontrados.length) return;
-  el("produtosSugeridos").innerHTML = encontrados.map(CuraOfertaCard.criar).join("");
-  el("secaoProdutos").classList.remove("hidden");
 }
 
 // ---------- Carregamento ----------
@@ -281,19 +314,12 @@ if (!slug) {
   mostrarErro();
 } else {
   carregarMarcados();
-  Promise.all([
-    fetch("listas-material.json").then(r => r.ok ? r.json() : Promise.reject()),
-    // As ofertas são opcionais: sem elas a lista aparece normalmente.
-    fetch("promocoes.json").then(r => r.ok ? r.json() : { ofertas: [] }).catch(() => ({ ofertas: [] })),
-  ])
-    .then(([d, pd]) => {
+  fetch("listas-material.json")
+    .then(r => r.ok ? r.json() : Promise.reject())
+    .then(d => {
       const lista = (d.listas || []).find(l => l.slug === slug);
       if (!lista) throw new Error("Lista não encontrada");
-
-      const ofertas = ofertasDaLista(lista, pd.ofertas || []);
-      const tagsComOferta = new Set(ofertas.flatMap(o => normalizar(o.tags)));
-      renderLista(lista, tagsComOferta);
-      renderProdutosSugeridos(ofertas);
+      renderLista(lista);
     })
     .catch(mostrarErro);
 }

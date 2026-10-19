@@ -1,56 +1,244 @@
 {
-  "ultimaAtualizacao": "19/10/2026",
+  "ultimaAtualizacao": "19/10/2026 00:00",
   "listas": [
     {
       "slug": "educacao-infantil-pre-escola-2027",
       "titulo": "Pré-escola (4 e 5 anos)",
       "segmento": "Educação Infantil",
-      "anoLetivo": "2027",
+      "anoLetivo": 2027,
       "escola": "Lista modelo Cura Domus",
-      "resumo": "Lista de referência com os itens mais pedidos pelas escolas para a pré-escola. Confira sempre com a lista oficial da escola do seu filho.",
-      "observacoes": "Identifique todo o material com nome e turma. Muitas escolas pedem os itens de uso coletivo entregues na primeira semana de aula.",
       "itens": [
-        { "grupo": "Papelaria", "nome": "Caderno de desenho grande, capa dura", "quantidade": "2 unidades", "tags": ["caderno-desenho"] },
-        { "grupo": "Papelaria", "nome": "Bloco de papel colorido A4 (Criativo)", "quantidade": "1 bloco", "tags": ["papel-colorido"] },
-        { "grupo": "Papelaria", "nome": "Papel sulfite A4 branco", "quantidade": "1 pacote (500 folhas)", "tags": ["papel-sulfite"] },
-        { "grupo": "Escrita e pintura", "nome": "Lápis de cor jumbo", "quantidade": "1 caixa (12 cores)", "tags": ["lapis-de-cor"] },
-        { "grupo": "Escrita e pintura", "nome": "Giz de cera grosso", "quantidade": "1 caixa (12 cores)", "tags": ["giz-de-cera"] },
-        { "grupo": "Escrita e pintura", "nome": "Canetinha hidrográfica ponta grossa", "quantidade": "1 estojo (12 cores)", "tags": ["canetinha"] },
-        { "grupo": "Escrita e pintura", "nome": "Tinta guache", "quantidade": "1 caixa (6 cores)", "tags": ["tinta-guache"] },
-        { "grupo": "Escrita e pintura", "nome": "Pincel chato nº 12", "quantidade": "1 unidade", "tags": ["pincel"] },
-        { "grupo": "Artes e colagem", "nome": "Cola branca 90 g", "quantidade": "2 unidades", "tags": ["cola-branca"] },
-        { "grupo": "Artes e colagem", "nome": "Tesoura sem ponta", "quantidade": "1 unidade", "observacao": "Com nome gravado.", "tags": ["tesoura-sem-ponta"] },
-        { "grupo": "Artes e colagem", "nome": "Massinha de modelar", "quantidade": "2 caixas", "tags": ["massinha"] },
-        { "grupo": "Artes e colagem", "nome": "Folhas de EVA (cores variadas)", "quantidade": "5 unidades", "tags": ["eva"] },
-        { "grupo": "Uso pessoal", "nome": "Mochila", "quantidade": "1 unidade", "tags": ["mochila"] },
-        { "grupo": "Uso pessoal", "nome": "Estojo", "quantidade": "1 unidade", "tags": ["estojo"] },
-        { "grupo": "Uso pessoal", "nome": "Garrafinha de água", "quantidade": "1 unidade", "tags": ["garrafinha"] },
-        { "grupo": "Uso pessoal", "nome": "Muda de roupa extra", "quantidade": "1 conjunto", "observacao": "Fica na mochila, identificada." }
+        {
+          "id": 1,
+          "grupo": "Papelaria",
+          "descricao": "Caderno de desenho grande, capa dura",
+          "quantidade": 2,
+          "produtos": []
+        },
+        {
+          "id": 2,
+          "grupo": "Papelaria",
+          "descricao": "Bloco de papel colorido A4 (Criativo)",
+          "detalhe": "1 bloco",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 3,
+          "grupo": "Papelaria",
+          "descricao": "Papel sulfite A4 branco",
+          "detalhe": "1 pacote (500 folhas)",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 4,
+          "grupo": "Escrita e pintura",
+          "descricao": "Lápis de cor jumbo",
+          "detalhe": "1 caixa (12 cores)",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 5,
+          "grupo": "Escrita e pintura",
+          "descricao": "Giz de cera grosso",
+          "detalhe": "1 caixa (12 cores)",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 6,
+          "grupo": "Escrita e pintura",
+          "descricao": "Canetinha hidrográfica ponta grossa",
+          "detalhe": "1 estojo (12 cores)",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 7,
+          "grupo": "Escrita e pintura",
+          "descricao": "Tinta guache",
+          "detalhe": "1 caixa (6 cores)",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 8,
+          "grupo": "Escrita e pintura",
+          "descricao": "Pincel chato nº 12",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 9,
+          "grupo": "Artes e colagem",
+          "descricao": "Cola branca 90 g",
+          "quantidade": 2,
+          "produtos": []
+        },
+        {
+          "id": 10,
+          "grupo": "Artes e colagem",
+          "descricao": "Tesoura sem ponta",
+          "detalhe": "Com nome gravado.",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 11,
+          "grupo": "Artes e colagem",
+          "descricao": "Massinha de modelar",
+          "detalhe": "2 caixas",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 12,
+          "grupo": "Artes e colagem",
+          "descricao": "Folhas de EVA (cores variadas)",
+          "quantidade": 5,
+          "produtos": []
+        },
+        {
+          "id": 13,
+          "grupo": "Uso pessoal",
+          "descricao": "Mochila",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 14,
+          "grupo": "Uso pessoal",
+          "descricao": "Estojo",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 15,
+          "grupo": "Uso pessoal",
+          "descricao": "Garrafinha de água",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 16,
+          "grupo": "Uso pessoal",
+          "descricao": "Muda de roupa extra",
+          "detalhe": "1 conjunto · Fica na mochila, identificada.",
+          "quantidade": 1,
+          "produtos": []
+        }
       ]
     },
     {
       "slug": "fundamental-1-1o-ano-2027",
       "titulo": "1º ano do Ensino Fundamental",
       "segmento": "Ensino Fundamental I",
-      "anoLetivo": "2027",
+      "anoLetivo": 2027,
       "escola": "Lista modelo Cura Domus",
-      "resumo": "Os itens que costumam aparecer na lista do 1º ano, fase da alfabetização. Confira sempre com a lista oficial da escola do seu filho.",
-      "observacoes": "Prefira lápis triangular nesta fase: ajuda na pegada correta. Encape e identifique os cadernos.",
       "itens": [
-        { "grupo": "Cadernos e papel", "nome": "Caderno brochura grande, 96 folhas", "quantidade": "4 unidades", "tags": ["caderno-brochura", "caderno"] },
-        { "grupo": "Cadernos e papel", "nome": "Caderno de desenho grande", "quantidade": "1 unidade", "tags": ["caderno-desenho"] },
-        { "grupo": "Cadernos e papel", "nome": "Papel sulfite A4 branco", "quantidade": "1 pacote (500 folhas)", "tags": ["papel-sulfite"] },
-        { "grupo": "Escrita", "nome": "Lápis grafite triangular nº 2", "quantidade": "6 unidades", "tags": ["lapis-grafite"] },
-        { "grupo": "Escrita", "nome": "Borracha branca macia", "quantidade": "3 unidades", "tags": ["borracha"] },
-        { "grupo": "Escrita", "nome": "Apontador com depósito", "quantidade": "1 unidade", "tags": ["apontador"] },
-        { "grupo": "Escrita", "nome": "Lápis de cor", "quantidade": "1 caixa (24 cores)", "tags": ["lapis-de-cor"] },
-        { "grupo": "Escrita", "nome": "Canetinha hidrográfica", "quantidade": "1 estojo (12 cores)", "tags": ["canetinha"] },
-        { "grupo": "Artes e colagem", "nome": "Cola bastão 40 g", "quantidade": "2 unidades", "tags": ["cola-bastao"] },
-        { "grupo": "Artes e colagem", "nome": "Tesoura sem ponta", "quantidade": "1 unidade", "tags": ["tesoura-sem-ponta"] },
-        { "grupo": "Artes e colagem", "nome": "Régua 30 cm", "quantidade": "1 unidade", "tags": ["regua"] },
-        { "grupo": "Uso pessoal", "nome": "Mochila", "quantidade": "1 unidade", "tags": ["mochila"] },
-        { "grupo": "Uso pessoal", "nome": "Estojo com divisórias", "quantidade": "1 unidade", "tags": ["estojo"] },
-        { "grupo": "Uso pessoal", "nome": "Garrafinha de água", "quantidade": "1 unidade", "tags": ["garrafinha"] }
+        {
+          "id": 17,
+          "grupo": "Cadernos e papel",
+          "descricao": "Caderno brochura grande, 96 folhas",
+          "quantidade": 4,
+          "produtos": []
+        },
+        {
+          "id": 18,
+          "grupo": "Cadernos e papel",
+          "descricao": "Caderno de desenho grande",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 19,
+          "grupo": "Cadernos e papel",
+          "descricao": "Papel sulfite A4 branco",
+          "detalhe": "1 pacote (500 folhas)",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 20,
+          "grupo": "Escrita",
+          "descricao": "Lápis grafite triangular nº 2",
+          "quantidade": 6,
+          "produtos": []
+        },
+        {
+          "id": 21,
+          "grupo": "Escrita",
+          "descricao": "Borracha branca macia",
+          "quantidade": 3,
+          "produtos": []
+        },
+        {
+          "id": 22,
+          "grupo": "Escrita",
+          "descricao": "Apontador com depósito",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 23,
+          "grupo": "Escrita",
+          "descricao": "Lápis de cor",
+          "detalhe": "1 caixa (24 cores)",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 24,
+          "grupo": "Escrita",
+          "descricao": "Canetinha hidrográfica",
+          "detalhe": "1 estojo (12 cores)",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 25,
+          "grupo": "Artes e colagem",
+          "descricao": "Cola bastão 40 g",
+          "quantidade": 2,
+          "produtos": []
+        },
+        {
+          "id": 26,
+          "grupo": "Artes e colagem",
+          "descricao": "Tesoura sem ponta",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 27,
+          "grupo": "Artes e colagem",
+          "descricao": "Régua 30 cm",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 28,
+          "grupo": "Uso pessoal",
+          "descricao": "Mochila",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 29,
+          "grupo": "Uso pessoal",
+          "descricao": "Estojo com divisórias",
+          "quantidade": 1,
+          "produtos": []
+        },
+        {
+          "id": 30,
+          "grupo": "Uso pessoal",
+          "descricao": "Garrafinha de água",
+          "quantidade": 1,
+          "produtos": []
+        }
       ]
     }
   ]

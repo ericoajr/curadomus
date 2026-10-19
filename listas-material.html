@@ -63,7 +63,6 @@
   .bg-primary { background: var(--primary); }
   .text-primary-foreground { color: #fff; }
   .hidden { display: none !important; }
-  .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
   @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
   .animate-fade-up { animation: fade-up .4s ease both; }
 
@@ -208,11 +207,13 @@ function atualizarContadores(baseFiltrada) {
 
 function card(l) {
   const total = (l.itens || []).length;
+  const comProduto = (l.itens || []).filter(i => (i.produtos || []).length).length;
   const feitos = Math.min(marcados(l.slug).length, total);
   const pct = total ? Math.round(feitos / total * 100) : 0;
   const meta = [
     l.anoLetivo ? `📅 Ano letivo ${l.anoLetivo}` : "",
     `✏️ ${total} ${total === 1 ? "item" : "itens"}`,
+    comProduto ? `🛒 ${comProduto} com produto` : "",
   ].filter(Boolean).join(" · ");
 
   return `
@@ -222,7 +223,6 @@ function card(l) {
       <div>
         <h3 class="text-serif text-2xl font-semibold leading-snug text-primary">${l.titulo}</h3>
         ${l.escola ? `<p class="mt-0.5 text-xs font-semibold" style="color:var(--primary-deep)">${l.escola}</p>` : ""}
-        <p class="mt-1.5 text-sm leading-relaxed line-clamp-2" style="color:var(--muted-ink)">${l.resumo || ""}</p>
       </div>
       <p class="text-[11px]" style="color:var(--muted-ink)">${meta}</p>
       ${feitos ? `
@@ -236,7 +236,7 @@ function card(l) {
 }
 
 function casaBusca(l, q) {
-  return !q || [l.titulo, l.escola, l.segmento, l.resumo].some(t => (t || "").toLowerCase().includes(q));
+  return !q || [l.titulo, l.escola, l.segmento].some(t => (t || "").toLowerCase().includes(q));
 }
 
 function render() {
