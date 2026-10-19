@@ -15,7 +15,8 @@
     { href: "/promocoes.html", texto: "Promoções", paginas: ["promocoes"] },
     { href: "/dia-das-criancas.html", texto: "Dia das Crianças", paginas: ["dia-das-criancas"], ate: "2026-10-12" },
     { href: "/fraldas.html", texto: "Fraldas", paginas: ["fraldas"] },
-    { href: "/receitas.html", texto: "Receitas", paginas: ["receitas", "receita"] }
+    { href: "/receitas.html", texto: "Receitas", paginas: ["receitas", "receita"] },
+    { href: "/listas-material.html", texto: "Material Escolar", paginas: ["listas-material", "lista-material"] }
   ];
   var CTA = { href: "/cta.html", texto: "Grupos no WhatsApp", paginas: ["cta"] };
 
