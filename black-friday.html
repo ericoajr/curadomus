@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Black Friday da Família — Cura Domus</title>
+<meta name="description" content="O que vale comprar agora e o que esperar na Black Friday: fraldas, despensa, livros e brinquedos com o preço de hoje comparado aos últimos 90 dias." />
+<meta property="og:title" content="Black Friday da Família — Cura Domus" />
+<meta property="og:description" content="Fraldas, despensa, livros e brinquedos: o preço de hoje contra o normal de cada produto." />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" type="image/png" href="images/curadomus_logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          background: 'var(--background)',
+          foreground: 'var(--ink)',
+          card: 'var(--card)',
+          border: 'var(--border)',
+          input: 'var(--border)',
+          muted: 'var(--muted)',
+          'muted-foreground': 'var(--muted-ink)',
+          primary: 'var(--primary)',
+          'primary-foreground': '#fff',
+          accent: 'var(--accent)',
+          destructive: 'var(--destructive)',
+        },
+        boxShadow: {
+          soft: '0 1px 2px rgba(30,25,20,0.04), 0 2px 8px rgba(30,25,20,0.04)',
+          card: '0 10px 30px -12px rgba(30,25,20,0.18)',
+        },
+        fontFamily: {
+          serif: ['"Cormorant Garamond"', 'serif'],
+          sans: ['Inter', 'system-ui', 'sans-serif'],
+        },
+      }
+    }
+  }
+</script>
+<style>
+  :root {
+    --background: #FBF7F1;
+    --cream-deep: #F3ECDF;
+    --card: #FFFFFF;
+    --ink: #2B241E;
+    --muted: #EFE7DA;
+    --muted-ink: #7A6E60;
+    --border: #E7DFD1;
+    --primary: #6E5334;
+    --primary-deep: #4E3A22;
+    --accent: #C9A96A;
+    --destructive: #B4441F;
+  }
+  html, body { background: var(--background); color: var(--ink); font-family: Inter, system-ui, sans-serif; }
+  .text-serif { font-family: "Cormorant Garamond", serif; letter-spacing: -0.01em; }
+  .text-primary { color: var(--primary); }
+  .bg-primary { background: var(--primary); }
+  .text-primary-foreground { color: #fff; }
+  .hidden { display: none !important; }
+  @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
+  .animate-fade-up { animation: fade-up .4s ease both; }
+
+  /* ===================== ABAS ===================== */
+  .tabs-nav { display: flex; align-items: flex-end; gap: 4px; overflow-x: auto; scrollbar-width: none; }
+  .tabs-nav::-webkit-scrollbar { display: none; }
+  .tab-btn {
+    appearance: none; background: none; border: none; font-family: inherit; font-size: 0.88rem; font-weight: 600;
+    color: var(--muted-ink); padding: 10px 14px 12px 14px; cursor: pointer; white-space: nowrap;
+    border-bottom: 2px solid transparent; transition: color .15s, border-color .15s;
+    display: inline-flex; align-items: center; gap: 6px;
+  }
+  .tab-btn:hover { color: var(--ink); }
+  .tab-btn.ativa { color: var(--primary); border-bottom-color: var(--accent); font-weight: 700; }
+  .tab-btn .contador { background: var(--muted); color: var(--muted-ink); font-size: .68rem; font-weight: 700; padding: 2px 7px; border-radius: 999px; }
+  .tab-btn.ativa .contador { background: var(--primary); color: #fff; }
+
+  /* ===================== VEREDITO ===================== */
+  .veredito { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; border-radius: 12px 12px 0 0; padding: 9px 14px; font-size: 12px; font-weight: 700; border: 1px solid; border-bottom: none; }
+  .veredito small { font-weight: 500; opacity: .85; }
+  .veredito-caiu { background: #e8f5ee; color: #087f5b; border-color: #cce9da; }
+  .veredito-bom { background: #fbf3df; color: #7a5a14; border-color: #ecd9a8; }
+  .veredito-espere { background: var(--muted); color: var(--muted-ink); border-color: var(--border); }
+  .veredito-acompanhando { background: #fff; color: var(--muted-ink); border-color: var(--border); }
+  .item-bf article { border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; }
+  .chip-tamanho { background: var(--primary); color: #fff; border-radius: 999px; padding: 2px 8px; font-size: 10px; font-weight: 800; }
+
+  .filtro { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--primary); cursor: pointer; }
+  .filtro input { accent-color: var(--primary); width: 16px; height: 16px; }
+  .contagem { display: inline-flex; flex-direction: column; align-items: center; border: 1px solid var(--border); background: var(--card); border-radius: 14px; padding: 10px 18px; }
+  .contagem strong { font-family: "Cormorant Garamond", serif; font-size: 34px; line-height: 1; color: var(--primary); }
+  .contagem span { font-size: 11px; color: var(--muted-ink); font-weight: 600; }
+</style>
+<script src="/assets/js/analytics.js"></script>
+</head>
+<body>
+<div class="min-h-screen">
+
+  <div id="menu-principal"></div>
+  <script src="/assets/js/menu.js"></script>
+
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10 opacity-[0.04]" style="background-image: radial-gradient(circle at 1px 1px, var(--ink) 1px, transparent 0); background-size:24px 24px"></div>
+    <div class="mx-auto max-w-5xl px-6 pt-10 pb-8 text-center">
+      <div class="inline-flex items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.18em] text-primary">
+        ✦ Black Friday da Família
+      </div>
+      <h1 class="text-serif mt-2 text-4xl leading-[1.05] text-primary sm:text-5xl">
+        O que comprar agora<br class="hidden sm:block" />
+        <span class="italic" style="color:var(--primary-deep)"> e o que vale esperar.</span>
+      </h1>
+      <p id="subtitulo" class="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed" style="color:var(--muted-ink)">
+        Acompanhamos o preço destes produtos todos os dias. Para cada um, dizemos se o preço de hoje está bom de verdade ou se é o de sempre, comparando com os últimos 90 dias.
+      </p>
+      <div id="contagem" class="mt-6 hidden"></div>
+      <a id="ctaTopo" href="cta.html?origem=black-friday" class="mt-6 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-bold text-white shadow-soft transition hover:opacity-90" style="background:#25D366">
+        Receber os alertas no WhatsApp
+      </a>
+    </div>
+  </header>
+
+  <main class="mx-auto max-w-5xl px-6 pb-24">
+    <section>
+      <div class="mb-4 flex flex-wrap items-center justify-between gap-3 border-b pb-3" style="border-color:var(--border)">
+        <p id="atualizacao" class="text-xs" style="color:var(--muted-ink)"></p>
+        <label class="filtro"><input type="checkbox" id="soBons" /> Só o que está com preço bom agora</label>
+      </div>
+
+      <div id="tabsNav" class="tabs-nav mb-6 border-b" style="border-color:var(--border)"></div>
+
+      <div id="lista"></div>
+    </section>
+
+    <section class="mt-16 rounded-2xl border p-6 text-center sm:p-8" style="border-color:var(--border); background:var(--card)">
+      <h2 class="text-serif text-3xl text-primary">Como lemos cada preço</h2>
+      <div class="mx-auto mt-5 grid max-w-3xl gap-3 text-left text-sm sm:grid-cols-2">
+        <p><span class="veredito veredito-caiu" style="display:inline-flex;border-radius:999px;border-bottom:1px solid">Caiu de verdade</span><br />Menor preço dos últimos 90 dias e pelo menos 10% abaixo do normal.</p>
+        <p><span class="veredito veredito-bom" style="display:inline-flex;border-radius:999px;border-bottom:1px solid">Bom preço agora</span><br />Pelo menos 5% abaixo do preço normal do produto.</p>
+        <p><span class="veredito veredito-espere" style="display:inline-flex;border-radius:999px;border-bottom:1px solid">Preço de sempre</span><br />O preço que o produto costuma ter. Sem pressa: na Black Friday ele pode cair.</p>
+        <p><span class="veredito veredito-acompanhando" style="display:inline-flex;border-radius:999px;border-bottom:1px solid">Acompanhando</span><br />Começamos a acompanhar há pouco tempo; ainda não dá para dizer.</p>
+      </div>
+      <p class="mx-auto mt-5 max-w-xl text-xs" style="color:var(--muted-ink)">"Normal" é o preço do meio dos últimos 90 dias (a mediana), não o "de" que a loja mostra. Preços sujeitos a alteração pelas lojas.</p>
+    </section>
+  </main>
+
+  <footer class="border-t" style="border-color:var(--border); background: color-mix(in srgb, var(--card) 40%, transparent)">
+    <div class="mx-auto flex max-w-5xl flex-col items-center gap-3 px-6 py-8 text-center">
+      <img src="images/curadomus_logo.png" alt="Cura Domus" class="h-10 opacity-80" />
+      <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
+    </div>
+  </footer>
+</div>
+
+<script src="/assets/js/oferta-card.js"></script>
+<script>
+let blocos = [];
+let blocoAtivo = "TODOS";
+const $lista = document.getElementById("lista");
+const $tabs = document.getElementById("tabsNav");
+const $soBons = document.getElementById("soBons");
+const BONS = ["caiu", "bom"];
+
+function esc(v) {
+  return String(v == null ? "" : v).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+}
+
+function itensVisiveis(b) {
+  return (b.itens || []).filter(i => !$soBons.checked || BONS.includes(i.veredito));
+}
+
+function montarAbas() {
+  const opcoes = [{ id: "TODOS", titulo: "Tudo" }, ...blocos];
+  $tabs.innerHTML = opcoes.map(o => {
+    const n = o.id === "TODOS" ? blocos.reduce((s, b) => s + itensVisiveis(b).length, 0) : itensVisiveis(o).length;
+    return `<button type="button" data-aba="${esc(o.id)}" class="tab-btn ${o.id === blocoAtivo ? "ativa" : ""}">${esc(o.titulo)} <span class="contador">${n}</span></button>`;
+  }).join("");
+}
+
+$tabs.addEventListener("click", e => {
+  const btn = e.target.closest(".tab-btn");
+  if (!btn) return;
+  blocoAtivo = btn.dataset.aba;
+  render();
+});
+$soBons.addEventListener("change", render);
+
+function item(i) {
+  const extra = [
+    i.tamanho ? `<span class="chip-tamanho">${esc(i.tamanho)}</span>` : "",
+    i.precoUnidade ? `<small>${esc(i.precoUnidade)}</small>` : "",
+  ].join("");
+  return `
+    <div class="item-bf">
+      <div class="veredito veredito-${esc(i.veredito)}">${extra}<span>${esc(i.vereditoTexto)}</span></div>
+      ${CuraOfertaCard.criar(i.oferta)}
+      ${i.detalhe ? `<p class="mt-1.5 px-1 text-[11px]" style="color:var(--muted-ink)">${esc(i.detalhe)}</p>` : ""}
+    </div>`;
+}
+
+function render() {
+  montarAbas();
+  const visiveis = blocos.filter(b => blocoAtivo === "TODOS" || b.id === blocoAtivo)
+    .map(b => ({ ...b, itens: itensVisiveis(b) }))
+    .filter(b => b.itens.length);
+  if (!visiveis.length) {
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">${$soBons.checked ? "Nada com preço bom agora. A lista é atualizada a cada poucas horas." : "Lista em preparação."}</div>`;
+    return;
+  }
+  $lista.innerHTML = visiveis.map(b => `
+    <section class="mb-12">
+      <h2 class="text-serif text-3xl text-primary">${esc(b.titulo)}</h2>
+      <p class="mb-5 mt-1 text-sm" style="color:var(--muted-ink)">${esc(b.descricao)}</p>
+      <div class="grid grid-cols-1 gap-6 lg:grid-cols-2">${b.itens.map(item).join("")}</div>
+    </section>`).join("");
+}
+
+fetch("black-friday.json").then(r => r.ok ? r.json() : Promise.reject())
+  .then(d => {
+    blocos = d.blocos || [];
+    if (d.ultimaAtualizacao) document.getElementById("atualizacao").textContent = "Preços conferidos em " + d.ultimaAtualizacao;
+    const $c = document.getElementById("contagem");
+    if (d.fase === "black-friday") {
+      $c.innerHTML = `<div class="contagem"><strong>É a semana!</strong><span>Black Friday ${esc(d.blackFriday)}: destacamos o que caiu de verdade</span></div>`;
+      $soBons.checked = true;
+    } else if (d.diasParaBlackFriday > 0) {
+      $c.innerHTML = `<div class="contagem"><strong>${d.diasParaBlackFriday}</strong><span>dias para a Black Friday (${esc(d.blackFriday)})</span></div>`;
+    }
+    $c.classList.remove("hidden");
+    render();
+  })
+  .catch(() => {
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Lista em preparação. Volte em algumas horas.</div>`;
+  });
+</script>
+</body>
+</html>

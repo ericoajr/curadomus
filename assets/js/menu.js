@@ -13,6 +13,7 @@
   var ITENS = [
     { href: "/index.html", texto: "Início", paginas: ["", "index"] },
     { href: "/promocoes.html", texto: "Promoções", paginas: ["promocoes"] },
+    { href: "/black-friday.html", texto: "Black Friday", paginas: ["black-friday"], ate: "2026-11-30" },
     { href: "/dia-das-criancas.html", texto: "Dia das Crianças", paginas: ["dia-das-criancas"], ate: "2026-10-12" },
     { href: "/fraldas.html", texto: "Fraldas", paginas: ["fraldas"] },
     { href: "/receitas.html", texto: "Receitas", paginas: ["receitas", "receita"] },
