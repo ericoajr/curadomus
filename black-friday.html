@@ -88,6 +88,13 @@
   .veredito-espere { background: var(--muted); color: var(--muted-ink); border-color: var(--border); }
   .veredito-acompanhando { background: #fff; color: var(--muted-ink); border-color: var(--border); }
   .item-bf article { border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; }
+  /* O veredito em cima já classifica o preço: o selo da vitrine ("Monitorado", "Bom preço") só repetia. */
+  .item-bf .nivel-badge { display: none; }
+  /* Quadros do mesmo tamanho: o item estica até a altura do vizinho da linha e o card ocupa o espaço. */
+  .item-bf { display: flex; flex-direction: column; height: 100%; }
+  .item-bf article { flex: 1; }
+  .item-bf article h3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  @media (min-width: 640px) { .item-bf article { min-height: 330px; } }
   .chip-tamanho { background: var(--primary); color: #fff; border-radius: 999px; padding: 2px 8px; font-size: 10px; font-weight: 800; }
 
   .filtro { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--primary); cursor: pointer; }
