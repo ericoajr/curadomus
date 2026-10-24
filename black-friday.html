@@ -90,6 +90,8 @@
   .item-bf article { border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; }
   /* O veredito em cima já classifica o preço: o selo da vitrine ("Monitorado", "Bom preço") só repetia. */
   .item-bf .nivel-badge { display: none; }
+  /* Idem para a classificação da vitrine ("Em monitoramento", "Preço interessante"), que às vezes contradizia o veredito. */
+  .item-bf article p.oc-primary.uppercase { display: none; }
   /* Quadros do mesmo tamanho: o item estica até a altura do vizinho da linha e o card ocupa o espaço. */
   .item-bf { display: flex; flex-direction: column; height: 100%; }
   .item-bf article { flex: 1; }
