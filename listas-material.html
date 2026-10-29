@@ -66,27 +66,32 @@
   @keyframes fade-up { from { opacity:0; transform: translateY(6px);} to {opacity:1; transform:none;} }
   .animate-fade-up { animation: fade-up .4s ease both; }
 
-  /* ===================== ABAS ===================== */
-  .tabs-nav { display: flex; align-items: flex-end; gap: 4px; overflow-x: auto; scrollbar-width: none; }
-  .tabs-nav::-webkit-scrollbar { display: none; }
-  .tab-btn {
-    appearance: none; background: none; border: none;
-    font-family: inherit; font-size: 0.88rem; font-weight: 600;
-    color: var(--muted-ink);
-    padding: 10px 14px 12px 14px;
-    cursor: pointer; white-space: nowrap;
-    border-bottom: 2px solid transparent;
-    transition: color .15s, border-color .15s;
+  /* ===================== LISTA POR ESCOLA ===================== */
+  .escola-bloco + .escola-bloco { margin-top: 2.5rem; }
+  .segmento-titulo {
+    font-size: .72rem; font-weight: 700; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--muted-ink); padding: 0 4px 8px 4px; margin-top: 1.75rem;
+  }
+  .series { border: 1px solid var(--border); border-radius: 16px; background: var(--card); overflow: hidden; }
+  .serie {
+    display: flex; align-items: center; justify-content: space-between; gap: 12px;
+    padding: 14px 18px; min-height: 56px;
+  }
+  .serie + .serie { border-top: 1px solid var(--border); }
+  a.serie { transition: background .15s; }
+  a.serie:hover { background: var(--background); }
+  .serie-nome { font-family: "Cormorant Garamond", serif; font-size: 1.35rem; font-weight: 600; color: var(--primary); line-height: 1.2; }
+  .serie-info { font-size: .75rem; color: var(--muted-ink); white-space: nowrap; }
+  .serie-info.feito { color: var(--primary); font-weight: 600; }
+  .turmas { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 8px; }
+  .turma {
     display: inline-flex; align-items: center; gap: 6px;
+    border: 1.5px solid var(--border); border-radius: 999px;
+    padding: 7px 14px; font-size: .82rem; font-weight: 600; color: var(--primary);
+    transition: border-color .15s, background .15s;
   }
-  .tab-btn:hover { color: var(--ink); }
-  .tab-btn.ativa { color: var(--primary); border-bottom-color: var(--accent); font-weight: 700; }
-  .tab-btn .contador {
-    background: var(--muted); color: var(--muted-ink);
-    font-size: .68rem; font-weight: 700;
-    padding: 2px 7px; border-radius: 999px;
-  }
-  .tab-btn.ativa .contador { background: var(--primary); color: #fff; }
+  .turma:hover { border-color: var(--accent); background: var(--background); }
+  .turma small { font-size: .7rem; font-weight: 600; color: var(--muted-ink); }
 
   /* ===================== BUSCA ===================== */
   .hero-search {
@@ -109,8 +114,6 @@
     height: 42px; width: 42px; border-radius: 999px; background: var(--primary); color: #fff;
   }
 
-  .progresso { height: 6px; border-radius: 999px; background: var(--muted); overflow: hidden; }
-  .progresso > span { display: block; height: 100%; background: var(--accent); transition: width .3s; }
 </style>
 <script src="/assets/js/analytics.js"></script>
 </head>
@@ -145,15 +148,9 @@
   </header>
 
   <main class="mx-auto max-w-5xl px-6 pb-24">
-    <section id="listas">
+    <section id="listas" class="mx-auto max-w-3xl">
       <div class="mb-5 flex items-end justify-between gap-4 border-b pb-3" style="border-color:var(--border)">
         <p id="atualizacao" class="text-xs" style="color:var(--muted-ink)"></p>
-      </div>
-
-      <div id="tabsNav" class="tabs-nav mb-6 border-b" style="border-color:var(--border)">
-        <button type="button" data-aba="TODAS" class="tab-btn ativa">
-          Todas as listas <span class="contador" data-count="TODAS">0</span>
-        </button>
       </div>
 
       <div id="lista"></div>
@@ -170,9 +167,7 @@
 
 <script>
 let listas = [];
-let segmentoAtivo = "TODAS";
 const $lista = document.getElementById("lista");
-const $tabsNav = document.getElementById("tabsNav");
 const $busca = document.getElementById("busca");
 const $atual = document.getElementById("atualizacao");
 
@@ -182,57 +177,76 @@ function marcados(slug) {
   catch (e) { return []; }
 }
 
-function montarAbas(segmentos) {
-  const opcoes = ["TODAS", ...segmentos];
-  $tabsNav.innerHTML = opcoes.map(s => `
-    <button type="button" data-aba="${s}" class="tab-btn ${s === segmentoAtivo ? "ativa" : ""}">
-      ${s === "TODAS" ? "Todas as listas" : s} <span class="contador" data-count="${s}">0</span>
-    </button>`).join("");
+function link(l) {
+  return "lista-material.html?l=" + encodeURIComponent(l.slug);
 }
 
-$tabsNav.addEventListener("click", (e) => {
-  const btn = e.target.closest(".tab-btn");
-  if (!btn) return;
-  segmentoAtivo = btn.dataset.aba;
-  $tabsNav.querySelectorAll(".tab-btn").forEach(b => b.classList.toggle("ativa", b === btn));
-  render();
-});
-
-function atualizarContadores(baseFiltrada) {
-  $tabsNav.querySelectorAll(".contador").forEach(el => {
-    const seg = el.dataset.count;
-    el.textContent = seg === "TODAS" ? baseFiltrada.length : baseFiltrada.filter(l => (l.segmento || "").trim() === seg).length;
-  });
-}
-
-function card(l) {
+// "12/40 ✓" quando já marcou algo no checklist; senão o total de itens.
+function info(l, curto) {
   const total = (l.itens || []).length;
-  const comProduto = (l.itens || []).filter(i => (i.produtos || []).length).length;
   const feitos = Math.min(marcados(l.slug).length, total);
-  const pct = total ? Math.round(feitos / total * 100) : 0;
-  const meta = [
-    l.anoLetivo ? `📅 Ano letivo ${l.anoLetivo}` : "",
-    `✏️ ${total} ${total === 1 ? "item" : "itens"}`,
-    comProduto ? `🛒 ${comProduto} com produto` : "",
-  ].filter(Boolean).join(" · ");
+  if (feitos) return { texto: `${feitos}/${total} ✓`, feito: true };
+  return { texto: curto ? `${total}` : `${total} ${total === 1 ? "item" : "itens"}`, feito: false };
+}
 
+// "2º ano (manhã)" → série "2º ano", turma "manhã".
+function separarTurma(titulo) {
+  const m = (titulo || "").match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+  return m ? { serie: m[1].trim(), turma: m[2].trim() } : { serie: (titulo || "").trim(), turma: null };
+}
+
+// Escola → segmento → série → turmas, na ordem em que aparecem no JSON.
+// Séries numeradas ("2º ano") vão em ordem de número; as demais mantêm a ordem do JSON.
+function agrupar(base) {
+  const escolas = new Map();
+  base.forEach((l, idx) => {
+    const chaveEscola = (l.escola || "") + "|" + (l.anoLetivo || "");
+    if (!escolas.has(chaveEscola)) escolas.set(chaveEscola, { escola: l.escola, anoLetivo: l.anoLetivo, segmentos: new Map() });
+    const segs = escolas.get(chaveEscola).segmentos;
+    const seg = (l.segmento || "").trim();
+    if (!segs.has(seg)) segs.set(seg, new Map());
+    const { serie, turma } = separarTurma(l.titulo);
+    const chaveSerie = serie.toLowerCase();
+    const series = segs.get(seg);
+    if (!series.has(chaveSerie)) {
+      const n = serie.match(/^(\d+)/);
+      series.set(chaveSerie, { nome: serie, ordem: n ? +n[1] : 1000 + idx, listas: [] });
+    }
+    series.get(chaveSerie).listas.push({ l, turma });
+  });
+  return [...escolas.values()].map(e => ({
+    ...e,
+    segmentos: [...e.segmentos.entries()].map(([nome, series]) => ({
+      nome,
+      series: [...series.values()].sort((a, b) => a.ordem - b.ordem),
+    })),
+  }));
+}
+
+function linhaSerie(s) {
+  // "1º Ano" e "2º ano" vêm escritos de jeitos diferentes no JSON.
+  const nome = (s.nome.charAt(0).toUpperCase() + s.nome.slice(1)).replace(/(\d+º)\s+Ano\b/, "$1 ano");
+  const unica = s.listas.length === 1 && !s.listas[0].turma;
+  if (unica) {
+    const i = info(s.listas[0].l, false);
+    return `
+      <a class="serie" href="${link(s.listas[0].l)}">
+        <span class="serie-nome">${nome}</span>
+        <span class="serie-info ${i.feito ? "feito" : ""}">${i.texto} ›</span>
+      </a>`;
+  }
+  const turmas = s.listas
+    .slice()
+    .sort((a, b) => (a.turma || "").localeCompare(b.turma || "", "pt-BR"))
+    .map(({ l, turma }) => {
+      const i = info(l, true);
+      return `<a class="turma" href="${link(l)}" title="${l.titulo}">${turma || l.titulo}${i.feito ? ` <small>${i.texto}</small>` : ""}</a>`;
+    }).join("");
   return `
-  <article class="animate-fade-up group flex flex-col overflow-hidden rounded-2xl border bg-card shadow-soft transition hover:-translate-y-0.5 hover:shadow-card" style="border-color:var(--border)">
-    <div class="flex flex-1 flex-col gap-3 p-5">
-      ${l.segmento ? `<span class="w-fit rounded-full bg-primary px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider text-white shadow">${l.segmento}</span>` : ""}
-      <div>
-        <h3 class="text-serif text-2xl font-semibold leading-snug text-primary">${l.titulo}</h3>
-        ${l.escola ? `<p class="mt-0.5 text-xs font-semibold" style="color:var(--primary-deep)">${l.escola}</p>` : ""}
-      </div>
-      <p class="text-[11px]" style="color:var(--muted-ink)">${meta}</p>
-      ${feitos ? `
-      <div>
-        <div class="progresso"><span style="width:${pct}%"></span></div>
-        <p class="mt-1 text-[11px]" style="color:var(--muted-ink)">${feitos} de ${total} já separados</p>
-      </div>` : ""}
-      <a href="lista-material.html?l=${encodeURIComponent(l.slug)}" class="mt-auto inline-flex w-fit items-center gap-1.5 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground shadow-soft transition hover:opacity-90">Ver lista ↗</a>
-    </div>
-  </article>`;
+      <div class="serie">
+        <span class="serie-nome">${nome}</span>
+        <div class="turmas">${turmas}</div>
+      </div>`;
 }
 
 function casaBusca(l, q) {
@@ -241,24 +255,25 @@ function casaBusca(l, q) {
 
 function render() {
   const q = $busca.value.trim().toLowerCase();
-  const base = listas.filter(l =>
-    (segmentoAtivo === "TODAS" || (l.segmento || "").trim() === segmentoAtivo) && casaBusca(l, q)
-  );
-  atualizarContadores(listas.filter(l => casaBusca(l, q)));
+  const base = listas.filter(l => casaBusca(l, q));
   if (!base.length) {
     $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Nenhuma lista encontrada.</div>`;
     return;
   }
-  $lista.innerHTML = `<div class="grid grid-cols-1 gap-5 sm:grid-cols-2 md:grid-cols-3">${base.map(card).join("")}</div>`;
+  $lista.innerHTML = agrupar(base).map(e => `
+    <div class="escola-bloco animate-fade-up">
+      <h2 class="text-serif text-3xl font-semibold text-primary">${e.escola || "Listas"}</h2>
+      ${e.anoLetivo ? `<p class="mt-0.5 text-sm" style="color:var(--muted-ink)">Ano letivo ${e.anoLetivo}</p>` : ""}
+      ${e.segmentos.map(sg => `
+        ${sg.nome ? `<h3 class="segmento-titulo">${sg.nome}</h3>` : ""}
+        <div class="series">${sg.series.map(linhaSerie).join("")}</div>`).join("")}
+    </div>`).join("");
 }
 
 fetch("listas-material.json").then(r => r.ok ? r.json() : Promise.reject())
   .then(d => {
     listas = d.listas || [];
     if (d.ultimaAtualizacao) $atual.textContent = "Atualizado em: " + d.ultimaAtualizacao;
-    // Abas na ordem em que os segmentos aparecem no JSON (Infantil → Médio).
-    const segmentos = [...new Set(listas.map(l => (l.segmento || "").trim()).filter(Boolean))];
-    montarAbas(segmentos);
     render();
   })
   .catch(() => {
