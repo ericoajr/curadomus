@@ -38,7 +38,7 @@ window.GRUPOS_CURA_DOMUS = {
     finalDescricao: "Um toque e você já está recebendo as ofertas de livros e formação do imaginário.",
     seo: {
       title: "Cura Domus · Formação do Imaginário — ofertas de livros no WhatsApp",
-      description: "Grupo gratuito no WhatsApp com ofertas verificadas de livros infantis e literatura para a formação do imaginário. A gente garimpa, verifica e avisa.",
+      description: "Grupo gratuito no WhatsApp com ofertas de livros infantis e literatura para a formação do imaginário. A gente garimpa e avisa.",
     },
   },
 
@@ -71,7 +71,7 @@ window.GRUPOS_CURA_DOMUS = {
     finalDescricao: "Um toque e você já está recebendo as ofertas para a rotina escolar.",
     seo: {
       title: "Cura Domus · Educação e Escola — ofertas no WhatsApp",
-      description: "Grupo gratuito no WhatsApp com ofertas verificadas de material escolar e itens para a rotina de educação. A gente garimpa, verifica e avisa.",
+      description: "Grupo gratuito no WhatsApp com ofertas de material escolar e itens para a rotina de educação. A gente garimpa e avisa.",
     },
   },
 
@@ -104,7 +104,7 @@ window.GRUPOS_CURA_DOMUS = {
     finalDescricao: "Um toque e você já está recebendo as ofertas pra deixar a rotina de casa mais prática.",
     seo: {
       title: "Cura Domus · Gestão do Lar — ofertas no WhatsApp",
-      description: "Grupo gratuito no WhatsApp com ofertas verificadas de cozinha, organização e utilidades domésticas. O Cura Domus acompanha preços, verifica e avisa.",
+      description: "Grupo gratuito no WhatsApp com ofertas de cozinha, organização e utilidades domésticas. O Cura Domus seleciona e avisa.",
     },
   },
 
@@ -137,14 +137,14 @@ window.GRUPOS_CURA_DOMUS = {
     finalDescricao: "Um toque e você já está recebendo as ofertas de bebês e primeira infância.",
     seo: {
       title: "Cura Domus · Bebês e Primeira Infância — ofertas no WhatsApp",
-      description: "Receba ofertas de produtos para bebês e primeira infância no WhatsApp. O Cura Domus acompanha preços, verifica oportunidades e avisa.",
+      description: "Receba ofertas de produtos para bebês e primeira infância no WhatsApp. O Cura Domus seleciona as ofertas e avisa.",
     },
   },
 };
 
 // Conteúdo comum às 4 páginas específicas (não muda por grupo).
 window.CURA_DOMUS_COMO_FUNCIONA = [
-  { titulo: "A gente encontra", texto: "Acompanhamos os preços dos produtos relevantes para cada grupo." },
+  { titulo: "A gente encontra", texto: "Procuramos ofertas dos produtos relevantes para cada grupo." },
   { titulo: "A gente seleciona", texto: "Escolhemos as ofertas do tema de cada grupo." },
   { titulo: "A gente avisa", texto: "Quando encontra algo bom, manda o alerta direto no grupo do WhatsApp." },
 ];

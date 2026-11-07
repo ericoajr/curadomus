@@ -162,7 +162,7 @@ function urlSegura(v) {
 
 // ---------- Card compacto de produto ----------
 // Versão reduzida do card de /assets/js/oferta-card.js, para caber 4 por
-// linha abaixo do item. Usa as classes nivel-* que aquele script injeta.
+// linha abaixo do item.
 // O <article> com <h4> é o que o analytics.js lê para o click_oferta.
 function cardProduto(o) {
   return `
@@ -230,7 +230,7 @@ function renderLista(lista) {
   const itens = lista.itens || [];
   const comProduto = itens.filter(i => (i.produtos || []).length).length;
   const resumo = `Lista de material de ${lista.titulo}${lista.escola ? " · " + lista.escola : ""}. `
-    + `${comProduto} de ${itens.length} itens com produto acompanhado pela Cura Domus.`;
+    + `${comProduto} de ${itens.length} itens com produto selecionado pela Cura Domus.`;
 
   document.title = lista.titulo + " — Lista de Material — Cura Domus";
   el("pageDescription").setAttribute("content", resumo);

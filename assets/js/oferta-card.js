@@ -21,8 +21,6 @@
     .oc-serif { font-family: "Cormorant Garamond", serif; letter-spacing: -.015em; }
     .oc-shadow { box-shadow: 0 2px 10px rgba(43,36,30,.06); }
     .oc-shadow:hover { box-shadow: 0 12px 32px rgba(43,36,30,.12); }
-    .oc-btn-outline { border-color: var(--border, #e7dfd1); }
-    .oc-btn-outline:hover { background: var(--cream, var(--cream-deep, #f3ecdf)); }
     @keyframes oc-fade-up { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
     @media (prefers-reduced-motion: reduce) { .oc-card { animation: none; } }
 
