@@ -133,7 +133,7 @@
     <div class="mx-auto flex max-w-4xl flex-col items-center gap-3 px-6 py-8 text-center">
       <img src="images/curadomus_logo.png" alt="Cura Domus" class="h-10 opacity-80" />
       <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
-      <p class="text-xs" style="color:var(--muted-ink)">Os preços da Amazon não estão incluídos no rastreamento/gráfico de preços. Não emitimos alertas para nenhum produto por meio da Amazon.</p>
+      <p class="text-xs" style="color:var(--muted-ink)">Não exibimos gráficos nem histórico de preços.</p>
     </div>
   </footer>
 </div>
@@ -164,18 +164,10 @@ function urlSegura(v) {
 // Versão reduzida do card de /assets/js/oferta-card.js, para caber 4 por
 // linha abaixo do item. Usa as classes nivel-* que aquele script injeta.
 // O <article> com <h4> é o que o analytics.js lê para o click_oferta.
-const SELOS = {
-  DESTAQUE: ["★ Destaque", "nivel-destaque"],
-  OPORTUNIDADE: ["✓ Oportunidade", "nivel-oportunidade"],
-  BOM_PRECO: ["✓ Bom preço", "nivel-bom-preco"],
-};
-
 function cardProduto(o) {
-  const selo = SELOS[CuraOfertaCard.nivelVisual(o)];
   return `
   <article class="produto-mini flex flex-col overflow-hidden rounded-xl transition hover:-translate-y-0.5">
     <div class="relative flex h-36 items-center justify-center px-3 pb-3 pt-9" style="background:var(--cream-deep)">
-      ${selo ? `<span class="nivel-badge ${selo[1]} absolute left-2 top-2">${selo[0]}</span>` : ""}
       <img src="${urlSegura(o.imagem)}" alt="${escapeHTML(o.titulo)}" loading="lazy" class="h-full w-full object-contain">
     </div>
     <div class="flex flex-1 flex-col gap-2 p-3">

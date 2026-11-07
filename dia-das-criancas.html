@@ -8,13 +8,13 @@
 
   <meta
     name="description"
-    content="Ofertas de brinquedos para o Dia das Crianças, com histórico real de preços e curadoria da Cura Domus."
+    content="Ofertas de brinquedos para o Dia das Crianças, com curadoria da Cura Domus."
   >
 
   <meta property="og:title" content="Dia das Crianças — Ofertas de brinquedos | Cura Domus">
   <meta
     property="og:description"
-    content="Acompanhe ofertas de brinquedos para o Dia das Crianças com histórico real de preços."
+    content="Veja ofertas de brinquedos para o Dia das Crianças."
   >
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://curadomus.com.br/dia-das-criancas.html">
@@ -151,11 +151,6 @@
       background: var(--cream);
     }
 
-    .nivel-filter.active {
-      color: #fff;
-      background: var(--primary);
-      border-color: var(--primary) !important;
-    }
 
     .legend-dot {
       display: inline-block;
@@ -186,12 +181,12 @@
         <h1 class="text-serif mx-auto mt-3 max-w-4xl text-5xl leading-[.98] text-primary sm:text-6xl">
           Brinquedos para o Dia das Crianças
           <br>
-          <span class="italic text-primaryDeep">com preços monitorados.</span>
+          <span class="italic text-primaryDeep">selecionados para você.</span>
         </h1>
 
         <p class="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-mutedInk">
-          Já escolheu o presente? Confira brinquedos e jogos com histórico de preços
-          para decidir com mais informação. Veja a indicação de idade e o prazo de entrega na loja.
+          Já escolheu o presente? Confira brinquedos e jogos selecionados
+          para decidir com calma. Veja a indicação de idade e o prazo de entrega na loja.
         </p>
         <a href="#ofertas" class="mt-6 inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-bold text-white transition hover:opacity-90">Ver presentes e preços ↓</a>
         <p class="mx-auto mt-4 max-w-xl text-xs leading-relaxed text-mutedInk">Esta página contém links de afiliado. Podemos receber comissão nas compras por esses links, sem custo adicional para você.</p>
@@ -207,7 +202,7 @@
           </div>
 
           <div class="rounded-xl bg-cream px-4 py-3 text-xs leading-relaxed text-mutedInk">
-            Os melhores sinais aparecem primeiro. Só entram aqui produtos com preço abaixo do padrão observado no histórico.
+            Uma seleção de ofertas, com preço e link da loja.
           </div>
         </div>
 
@@ -234,57 +229,9 @@
 
         <div id="categorias" class="chips mt-6 flex gap-2 overflow-x-auto sm:flex-wrap sm:overflow-visible"></div>
 
-        <div class="mt-7 rounded-2xl border bg-card p-4" style="border-color:var(--border)">
-          <p class="text-[11px] font-bold uppercase tracking-[.16em] text-mutedInk">
-            Como ler a vitrine
-          </p>
-
-          <div class="mt-3 flex flex-wrap gap-x-5 gap-y-2 text-xs text-mutedInk">
-            <span class="inline-flex items-center gap-2">
-              <span class="legend-dot" style="background:var(--primary)"></span>
-              <strong class="text-primary">Destaque</strong>
-              <span>evidência forte de oportunidade</span>
-            </span>
-
-            <span class="inline-flex items-center gap-2">
-              <span class="legend-dot" style="background:#087f5b"></span>
-              <strong style="color:#087f5b">Oportunidade</strong>
-              <span>preço muito favorável no histórico</span>
-            </span>
-
-            <span class="inline-flex items-center gap-2">
-              <span class="legend-dot" style="background:#c9a96a"></span>
-              <strong class="text-primary">Bom preço</strong>
-              <span>preço abaixo do padrão observado</span>
-            </span>
-          </div>
-        </div>
 
         <div class="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
           <p id="resultadoInfo" class="text-sm text-mutedInk"></p>
-
-          <div id="filtrosNivel" class="chips flex gap-2 overflow-x-auto">
-            <button type="button" data-nivel="TODOS"
-              class="nivel-filter active whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
-              style="border-color:var(--border)">
-              Todos
-            </button>
-            <button type="button" data-nivel="DESTAQUE"
-              class="nivel-filter whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
-              style="border-color:var(--border)">
-              ★ Destaques
-            </button>
-            <button type="button" data-nivel="OPORTUNIDADE"
-              class="nivel-filter whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
-              style="border-color:var(--border)">
-              ✓ Oportunidades
-            </button>
-            <button type="button" data-nivel="BOM_PRECO"
-              class="nivel-filter whitespace-nowrap rounded-full border bg-card px-4 py-2 text-xs font-bold text-mutedInk transition hover:bg-cream"
-              style="border-color:var(--border)">
-              ✓ Bons preços
-            </button>
-          </div>
         </div>
 
         <div id="lista" class="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2"></div>
@@ -340,7 +287,7 @@
         <p class="text-xs text-mutedInk">
           © 2026 Cura Domus · Construindo o legado das nossas famílias.
         </p>
-        <p class="text-xs text-mutedInk">Os preços da Amazon não estão incluídos no rastreamento/gráfico de preços. Não emitimos alertas para nenhum produto por meio da Amazon.</p>
+        <p class="text-xs text-mutedInk">Não exibimos gráficos nem histórico de preços.</p>
       </div>
     </footer>
   </div>
@@ -351,7 +298,6 @@
 
     let ofertas = [];
     let categoriaAtiva = "TODAS";
-    let nivelAtivo = "TODOS";
     let quantidadeExibida = LIMITE_INICIAL;
 
     const $lista = document.getElementById("lista");
@@ -359,7 +305,6 @@
     const $categorias = document.getElementById("categorias");
     const $resultadoInfo = document.getElementById("resultadoInfo");
     const $carregarMais = document.getElementById("carregarMais");
-    const $filtrosNivel = document.getElementById("filtrosNivel");
 
     function escapeHTML(value = "") {
       return String(value)
@@ -377,21 +322,15 @@
         .toLowerCase();
     }
 
-    // Card, nível e modal de histórico ficam em /assets/js/oferta-card.js.
-    const nivelVisual = CuraOfertaCard.nivelVisual;
-
     function obterListaFiltrada() {
       const busca = normalizarTexto($busca.value.trim());
 
       return ofertas.filter(produto => {
         const categoria = String(produto.categoria || "").trim();
         const textoBusca = normalizarTexto(`${produto.titulo || ""} ${categoria}`);
-        const nivel = nivelVisual(produto);
-
         return (
           (categoriaAtiva === "TODAS" || categoria === categoriaAtiva) &&
-          (!busca || textoBusca.includes(busca)) &&
-          (nivelAtivo === "TODOS" || nivel === nivelAtivo)
+          (!busca || textoBusca.includes(busca))
         );
       });
     }
@@ -429,15 +368,8 @@
       const filtradas = obterListaFiltrada();
       const exibidas = filtradas.slice(0, quantidadeExibida);
 
-      const destaques = filtradas.filter(p => nivelVisual(p) === "DESTAQUE").length;
-      const oportunidades = filtradas.filter(p => nivelVisual(p) === "OPORTUNIDADE").length;
-      const bonsPrecos = filtradas.filter(p => nivelVisual(p) === "BOM_PRECO").length;
-
       $resultadoInfo.textContent =
-        `${filtradas.length} ${filtradas.length === 1 ? "item" : "itens"} · ` +
-        `${destaques} destaque${destaques === 1 ? "" : "s"} · ` +
-        `${oportunidades} oportunidade${oportunidades === 1 ? "" : "s"} · ` +
-        `${bonsPrecos} ${bonsPrecos === 1 ? "bom preço" : "bons preços"}`;
+        `${filtradas.length} ${filtradas.length === 1 ? "item" : "itens"}`;
 
       if (!exibidas.length) {
         $lista.innerHTML = `
@@ -458,20 +390,6 @@
       renderizarOfertas();
     });
 
-    $filtrosNivel.addEventListener("click", event => {
-      const botao = event.target.closest("[data-nivel]");
-      if (!botao) return;
-
-      nivelAtivo = botao.dataset.nivel;
-      quantidadeExibida = LIMITE_INICIAL;
-
-      $filtrosNivel.querySelectorAll("[data-nivel]").forEach(item => {
-        item.classList.toggle("active", item === botao);
-      });
-
-      renderizarOfertas();
-    });
-
     document.getElementById("carregarMais").addEventListener("click", () => {
       quantidadeExibida += LIMITE_POR_CARGA;
       renderizarOfertas();
@@ -489,8 +407,6 @@
         ofertas = data.ofertas.filter(produto =>
           normalizarTexto(produto.categoria || "").trim() === "brinquedos e jogos"
           && !/estalinhos?|birib(?:inha|a)?|bombinhas?/i.test(produto.titulo || "")
-          // Só ofertas com sinal de preço; a página não tem mais o nível "Monitorado".
-          && nivelVisual(produto) !== "MONITORADO"
         );
         if (data.ultimaAtualizacao) {
           document.getElementById("atualizacao").textContent = `Última atualização: ${data.ultimaAtualizacao}`;

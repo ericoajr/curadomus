@@ -20,16 +20,16 @@ window.GRUPOS_CURA_DOMUS = {
     badge: "Formação do Imaginário · grupo gratuito",
     tituloLinha1: "Livros infantis que valem a pena,",
     tituloDestaque: "sem pagar a mais.",
-    subtitulo: "Literatura, leitura e formação do imaginário: a gente garimpa os livros, confere o histórico de preço e avisa no grupo na hora.",
+    subtitulo: "Literatura, leitura e formação do imaginário: a gente garimpa os livros e avisa no grupo na hora.",
     trustItems: [
       { titulo: "Seleção com critério", texto: "Livros escolhidos, não é vitrine genérica." },
-      { titulo: "Preço conferido", texto: "Histórico acompanhado antes de avisar." },
+      { titulo: "Preço e link", texto: "Cada alerta traz o preço e o link da loja." },
       { titulo: "Sem spam", texto: "Só o que é do tema do grupo." },
     ],
     chatTitulo: "Cura Domus · Formação do Imaginário",
     exemplos: [
       "📚 <strong>Coleção de contos clássicos</strong> com 33% off — separei porque vale a leitura.",
-      "🔻 Menor preço em 30 dias num box de literatura infantil.",
+      "📚 Box de literatura infantil com desconto.",
       "📖 Livro ilustrado com cupom — link aqui embaixo.",
     ],
     ctaLabel: "QUERO RECEBER OFERTAS DE LIVROS",
@@ -53,16 +53,16 @@ window.GRUPOS_CURA_DOMUS = {
     badge: "Educação e Escola · grupo gratuito",
     tituloLinha1: "Rotina escolar mais leve,",
     tituloDestaque: "sem pagar a mais.",
-    subtitulo: "Material escolar, mochila, uniforme e organização da rotina: a gente garimpa, confere o histórico de preço e avisa no grupo na hora.",
+    subtitulo: "Material escolar, mochila, uniforme e organização da rotina: a gente garimpa e avisa no grupo na hora.",
     trustItems: [
       { titulo: "Foco na rotina", texto: "Do material à organização do dia a dia." },
-      { titulo: "Preço conferido", texto: "Histórico acompanhado antes de avisar." },
+      { titulo: "Preço e link", texto: "Cada alerta traz o preço e o link da loja." },
       { titulo: "Sem spam", texto: "Só o que é do tema do grupo." },
     ],
     chatTitulo: "Cura Domus · Educação e Escola",
     exemplos: [
       "✏️ <strong>Kit de material escolar</strong> com 28% off — separei pra vocês.",
-      "🔻 Menor preço em 30 dias numa mochila com rodinhas.",
+      "🎒 Mochila com rodinhas com desconto.",
       "🎒 Uniforme escolar com cupom — link aqui embaixo.",
     ],
     ctaLabel: "QUERO RECEBER OFERTAS PARA EDUCAÇÃO",
@@ -86,16 +86,16 @@ window.GRUPOS_CURA_DOMUS = {
     badge: "Gestão do Lar · grupo gratuito",
     tituloLinha1: "A rotina da casa mais prática,",
     tituloDestaque: "pagando menos.",
-    subtitulo: "Cozinha, organização e utilidades domésticas: a gente garimpa, confere o histórico de preço e avisa no grupo na hora.",
+    subtitulo: "Cozinha, organização e utilidades domésticas: a gente garimpa e avisa no grupo na hora.",
     trustItems: [
       { titulo: "Foco na casa", texto: "Cozinha, organização e rotina." },
-      { titulo: "Preço conferido", texto: "Histórico acompanhado antes de avisar." },
+      { titulo: "Preço e link", texto: "Cada alerta traz o preço e o link da loja." },
       { titulo: "Sem spam", texto: "Só o que é do tema do grupo." },
     ],
     chatTitulo: "Cura Domus · Gestão do Lar",
     exemplos: [
       "🏠 <strong>Air fryer 5L</strong> com 37% off — separei pra vocês.",
-      "🔻 Menor preço em 30 dias num organizador de armário.",
+      "🏠 Organizador de armário com desconto.",
       "🧺 Cesto organizador com cupom — link aqui embaixo.",
     ],
     ctaLabel: "QUERO RECEBER OFERTAS PARA CASA",
@@ -118,17 +118,17 @@ window.GRUPOS_CURA_DOMUS = {
     temas: ["Fraldas", "Higiene", "Alimentação", "Enxoval", "Carrinhos", "Brinquedos", "Acessórios"],
     badge: "Bebês e Primeira Infância · grupo gratuito",
     tituloLinha1: "Ofertas para bebês",
-    tituloDestaque: "com preço analisado.",
-    subtitulo: "Receba ofertas de fraldas, higiene e enxoval no WhatsApp. Comparamos os preços com o histórico para ajudar você a escolher quando comprar.",
+    tituloDestaque: "selecionadas para você.",
+    subtitulo: "Receba ofertas de fraldas, higiene e enxoval no WhatsApp. Selecionamos as ofertas para ajudar você a economizar.",
     trustItems: [
       { titulo: "Fase por fase", texto: "Do enxoval aos primeiros anos." },
-      { titulo: "Preço conferido", texto: "Histórico acompanhado antes de avisar." },
+      { titulo: "Preço e link", texto: "Cada alerta traz o preço e o link da loja." },
       { titulo: "Sem spam", texto: "Só o que é do tema do grupo." },
     ],
     chatTitulo: "Cura Domus · Bebês e Primeira Infância",
     exemplos: [
       "👶 <strong>Kit higiene de bebê</strong> com 42% off — vi e já separei pra vocês.",
-      "🔻 Menor preço em 30 dias no pacote de fraldas tamanho M.",
+      "🍼 Pacote de fraldas tamanho M com desconto.",
       "🍼 Cadeirinha de alimentação com cupom — link aqui embaixo.",
     ],
     ctaLabel: "QUERO RECEBER OFERTAS PARA BEBÊS",
@@ -145,11 +145,11 @@ window.GRUPOS_CURA_DOMUS = {
 // Conteúdo comum às 4 páginas específicas (não muda por grupo).
 window.CURA_DOMUS_COMO_FUNCIONA = [
   { titulo: "A gente encontra", texto: "Acompanhamos os preços dos produtos relevantes para cada grupo." },
-  { titulo: "A gente verifica", texto: "Comparamos com o histórico para ver se a oferta realmente vale a pena." },
+  { titulo: "A gente seleciona", texto: "Escolhemos as ofertas do tema de cada grupo." },
   { titulo: "A gente avisa", texto: "Quando encontra algo bom, manda o alerta direto no grupo do WhatsApp." },
 ];
 
 window.CURA_DOMUS_FAQ_HISTORICO = {
   pergunta: "Como vocês sabem se uma oferta vale a pena?",
-  resposta: "A gente acompanha o histórico de preço dos produtos e usa isso para identificar quando um preço está realmente bom — sem prometer que é sempre o menor preço histórico.",
+  resposta: "A gente seleciona as ofertas pelo tema e pelo preço, sem prometer que é sempre o menor preço. Confira as condições na loja antes de comprar.",
 };
