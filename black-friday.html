@@ -4,9 +4,9 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Black Friday da Família — Cura Domus</title>
-<meta name="description" content="O que vale comprar agora e o que esperar na Black Friday: fraldas, despensa, livros e brinquedos com o preço de hoje comparado aos últimos 90 dias." />
+<meta name="description" content="Ofertas selecionadas para a Black Friday: fraldas, despensa, livros e brinquedos." />
 <meta property="og:title" content="Black Friday da Família — Cura Domus" />
-<meta property="og:description" content="Fraldas, despensa, livros e brinquedos: o preço de hoje contra o normal de cada produto." />
+<meta property="og:description" content="Fraldas, despensa, livros e brinquedos selecionados para a sua família." />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="icon" type="image/png" href="images/curadomus_logo.png">
@@ -81,17 +81,7 @@
   .tab-btn.ativa .contador { background: var(--primary); color: #fff; }
 
   /* ===================== VEREDITO ===================== */
-  .veredito { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; border-radius: 12px 12px 0 0; padding: 9px 14px; font-size: 12px; font-weight: 700; border: 1px solid; border-bottom: none; }
-  .veredito small { font-weight: 500; opacity: .85; }
-  .veredito-caiu { background: #e8f5ee; color: #087f5b; border-color: #cce9da; }
-  .veredito-bom { background: #fbf3df; color: #7a5a14; border-color: #ecd9a8; }
-  .veredito-espere { background: var(--muted); color: var(--muted-ink); border-color: var(--border); }
-  .veredito-acompanhando { background: #fff; color: var(--muted-ink); border-color: var(--border); }
-  .item-bf article { border-top-left-radius: 0 !important; border-top-right-radius: 0 !important; }
-  /* O veredito em cima já classifica o preço: o selo da vitrine ("Monitorado", "Bom preço") só repetia. */
-  .item-bf .nivel-badge { display: none; }
-  /* Idem para a classificação da vitrine ("Em monitoramento", "Preço interessante"), que às vezes contradizia o veredito. */
-  .item-bf article p.oc-primary.uppercase { display: none; }
+  .dados-item { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 10px; margin-bottom: 6px; font-size: 12px; }
   /* Quadros do mesmo tamanho: o item estica até a altura do vizinho da linha e o card ocupa o espaço. */
   .item-bf { display: flex; flex-direction: column; height: 100%; }
   .item-bf article { flex: 1; }
@@ -99,8 +89,6 @@
   @media (min-width: 640px) { .item-bf article { min-height: 330px; } }
   .chip-tamanho { background: var(--primary); color: #fff; border-radius: 999px; padding: 2px 8px; font-size: 10px; font-weight: 800; }
 
-  .filtro { display: inline-flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; color: var(--primary); cursor: pointer; }
-  .filtro input { accent-color: var(--primary); width: 16px; height: 16px; }
   .contagem { display: inline-flex; flex-direction: column; align-items: center; border: 1px solid var(--border); background: var(--card); border-radius: 14px; padding: 10px 18px; }
   .contagem strong { font-family: "Cormorant Garamond", serif; font-size: 34px; line-height: 1; color: var(--primary); }
   .contagem span { font-size: 11px; color: var(--muted-ink); font-weight: 600; }
@@ -120,11 +108,11 @@
         ✦ Black Friday da Família
       </div>
       <h1 class="text-serif mt-2 text-4xl leading-[1.05] text-primary sm:text-5xl">
-        O que comprar agora<br class="hidden sm:block" />
-        <span class="italic" style="color:var(--primary-deep)"> e o que vale esperar.</span>
+        Ofertas para a sua família<br class="hidden sm:block" />
+        <span class="italic" style="color:var(--primary-deep)"> na Black Friday.</span>
       </h1>
       <p id="subtitulo" class="mx-auto mt-4 max-w-xl text-[15px] leading-relaxed" style="color:var(--muted-ink)">
-        Acompanhamos o preço destes produtos todos os dias. Para cada um, dizemos se o preço de hoje está bom de verdade ou se é o de sempre, comparando com os últimos 90 dias.
+        Fraldas, despensa, livros e brinquedos selecionados, com o preço e o link da loja.
       </p>
       <div id="contagem" class="mt-6 hidden"></div>
       <a id="ctaTopo" href="cta.html?origem=black-friday" class="mt-6 inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-bold text-white shadow-soft transition hover:opacity-90" style="background:#25D366">
@@ -137,7 +125,6 @@
     <section>
       <div class="mb-4 flex flex-wrap items-center justify-between gap-3 border-b pb-3" style="border-color:var(--border)">
         <p id="atualizacao" class="text-xs" style="color:var(--muted-ink)"></p>
-        <label class="filtro"><input type="checkbox" id="soBons" /> Só o que está com preço bom agora</label>
       </div>
 
       <div id="tabsNav" class="tabs-nav mb-6 border-b" style="border-color:var(--border)"></div>
@@ -145,22 +132,13 @@
       <div id="lista"></div>
     </section>
 
-    <section class="mt-16 rounded-2xl border p-6 text-center sm:p-8" style="border-color:var(--border); background:var(--card)">
-      <h2 class="text-serif text-3xl text-primary">Como lemos cada preço</h2>
-      <div class="mx-auto mt-5 grid max-w-3xl gap-3 text-left text-sm sm:grid-cols-2">
-        <p><span class="veredito veredito-caiu" style="display:inline-flex;border-radius:999px;border-bottom:1px solid">Caiu de verdade</span><br />Menor preço dos últimos 90 dias e pelo menos 10% abaixo do normal.</p>
-        <p><span class="veredito veredito-bom" style="display:inline-flex;border-radius:999px;border-bottom:1px solid">Bom preço agora</span><br />Pelo menos 5% abaixo do preço normal do produto.</p>
-        <p><span class="veredito veredito-espere" style="display:inline-flex;border-radius:999px;border-bottom:1px solid">Preço de sempre</span><br />O preço que o produto costuma ter. Sem pressa: na Black Friday ele pode cair.</p>
-        <p><span class="veredito veredito-acompanhando" style="display:inline-flex;border-radius:999px;border-bottom:1px solid">Acompanhando</span><br />Começamos a acompanhar há pouco tempo; ainda não dá para dizer.</p>
-      </div>
-      <p class="mx-auto mt-5 max-w-xl text-xs" style="color:var(--muted-ink)">"Normal" é o preço do meio dos últimos 90 dias (a mediana), não o "de" que a loja mostra. Preços sujeitos a alteração pelas lojas.</p>
-    </section>
   </main>
 
   <footer class="border-t" style="border-color:var(--border); background: color-mix(in srgb, var(--card) 40%, transparent)">
     <div class="mx-auto flex max-w-5xl flex-col items-center gap-3 px-6 py-8 text-center">
       <img src="images/curadomus_logo.png" alt="Cura Domus" class="h-10 opacity-80" />
       <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
+      <p class="text-xs" style="color:var(--muted-ink)">Não exibimos gráficos nem histórico de preços.</p>
     </div>
   </footer>
 </div>
@@ -171,15 +149,13 @@ let blocos = [];
 let blocoAtivo = "TODOS";
 const $lista = document.getElementById("lista");
 const $tabs = document.getElementById("tabsNav");
-const $soBons = document.getElementById("soBons");
-const BONS = ["caiu", "bom"];
 
 function esc(v) {
   return String(v == null ? "" : v).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
 
 function itensVisiveis(b) {
-  return (b.itens || []).filter(i => !$soBons.checked || BONS.includes(i.veredito));
+  return b.itens || [];
 }
 
 function montarAbas() {
@@ -196,7 +172,6 @@ $tabs.addEventListener("click", e => {
   blocoAtivo = btn.dataset.aba;
   render();
 });
-$soBons.addEventListener("change", render);
 
 function item(i) {
   const extra = [
@@ -205,9 +180,8 @@ function item(i) {
   ].join("");
   return `
     <div class="item-bf">
-      <div class="veredito veredito-${esc(i.veredito)}">${extra}<span>${esc(i.vereditoTexto)}</span></div>
+      ${extra ? `<div class="dados-item">${extra}</div>` : ""}
       ${CuraOfertaCard.criar(i.oferta)}
-      ${i.detalhe ? `<p class="mt-1.5 px-1 text-[11px]" style="color:var(--muted-ink)">${esc(i.detalhe)}</p>` : ""}
     </div>`;
 }
 
@@ -217,7 +191,7 @@ function render() {
     .map(b => ({ ...b, itens: itensVisiveis(b) }))
     .filter(b => b.itens.length);
   if (!visiveis.length) {
-    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">${$soBons.checked ? "Nada com preço bom agora. A lista é atualizada a cada poucas horas." : "Lista em preparação."}</div>`;
+    $lista.innerHTML = `<div class="rounded-2xl border border-dashed p-10 text-center text-sm" style="border-color:var(--border); color:var(--muted-ink)">Lista em preparação.</div>`;
     return;
   }
   $lista.innerHTML = visiveis.map(b => `
@@ -231,11 +205,10 @@ function render() {
 fetch("black-friday.json").then(r => r.ok ? r.json() : Promise.reject())
   .then(d => {
     blocos = d.blocos || [];
-    if (d.ultimaAtualizacao) document.getElementById("atualizacao").textContent = "Preços conferidos em " + d.ultimaAtualizacao;
+    if (d.ultimaAtualizacao) document.getElementById("atualizacao").textContent = "Atualizado em " + d.ultimaAtualizacao;
     const $c = document.getElementById("contagem");
     if (d.fase === "black-friday") {
-      $c.innerHTML = `<div class="contagem"><strong>É a semana!</strong><span>Black Friday ${esc(d.blackFriday)}: destacamos o que caiu de verdade</span></div>`;
-      $soBons.checked = true;
+      $c.innerHTML = `<div class="contagem"><strong>É a semana!</strong><span>Black Friday ${esc(d.blackFriday)}</span></div>`;
     } else if (d.diasParaBlackFriday > 0) {
       $c.innerHTML = `<div class="contagem"><strong>${d.diasParaBlackFriday}</strong><span>dias para a Black Friday (${esc(d.blackFriday)})</span></div>`;
     }
