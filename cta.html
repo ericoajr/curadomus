@@ -367,12 +367,23 @@ details summary:focus-visible, a:focus-visible { outline: 3px solid var(--primar
 
   function mostrarExemplos() { document.getElementById("secaoExemplos").hidden = false; }
 
+  // Trava de leitura: oferta com preço lido há mais de 20 h não aparece. O promobot
+  // já não publica essas ofertas, mas com o app parado o JSON antigo continua no ar
+  // (vitrine.trava-leitura-horas no promobot). dataOferta é "dd/MM/yyyy HH:mm" em
+  // Brasília (UTC-3); sem data conta como velha.
+  function leituraRecente(o) {
+    var m = /^(\d{2})\/(\d{2})\/(\d{4})\s+(\d{2}):(\d{2})/.exec(String((o && o.dataOferta) || "").trim());
+    if (!m) return false;
+    var t = Date.UTC(+m[3], +m[2] - 1, +m[1], +m[4] + 3, +m[5]);
+    return Date.now() - t <= 20 * 60 * 60 * 1000;
+  }
+
   fetch("/promocoes.json", { cache: "no-cache" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (dados) {
       var ofertas = (dados.ofertas || [])
         .filter(function (o) {
-          return grupo.categorias.indexOf(o.categoria) >= 0 && o.imagem;
+          return grupo.categorias.indexOf(o.categoria) >= 0 && o.imagem && leituraRecente(o);
         });
       if (!ofertas.length) { mostrarExemplos(); return; }
 
