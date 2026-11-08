@@ -152,6 +152,7 @@
     }
   </style>
 <script src="/assets/js/analytics.js"></script>
+<script src="/assets/js/trava-leitura.js"></script>
 </head>
 
 <body>
@@ -395,7 +396,7 @@
         if (!Array.isArray(data.ofertas)) throw new Error("Formato da seleção inválido.");
         // O feed público já contém a categoria. Não depende de um JSON separado.
         // A campanha de presentes não inclui estalinhos, biribinhas ou bombinhas.
-        ofertas = data.ofertas.filter(produto =>
+        ofertas = CuraLeitura.ofertas(data.ofertas).filter(produto =>
           normalizarTexto(produto.categoria || "").trim() === "brinquedos e jogos"
           && !/estalinhos?|birib(?:inha|a)?|bombinhas?/i.test(produto.titulo || "")
         );

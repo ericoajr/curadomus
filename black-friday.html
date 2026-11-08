@@ -97,6 +97,7 @@
   .contagem span { font-size: 11px; color: var(--muted-ink); font-weight: 600; }
 </style>
 <script src="/assets/js/analytics.js"></script>
+<script src="/assets/js/trava-leitura.js"></script>
 </head>
 <body>
 <div class="min-h-screen">
@@ -207,7 +208,7 @@ function render() {
 
 fetch("black-friday.json").then(r => r.ok ? r.json() : Promise.reject())
   .then(d => {
-    blocos = d.blocos || [];
+    blocos = (d.blocos || []).map(b => ({ ...b, itens: CuraLeitura.filtrar(b.itens, i => i.oferta) })); // sem leitura de mais de 20 h
     if (d.ultimaAtualizacao) document.getElementById("atualizacao").textContent = "Atualizado em " + d.ultimaAtualizacao;
     const $c = document.getElementById("contagem");
     if (d.fase === "black-friday") {

@@ -101,6 +101,7 @@
     }
   </style>
 <script src="/assets/js/analytics.js"></script>
+<script src="/assets/js/trava-leitura.js"></script>
 </head>
 
 <body>
@@ -488,7 +489,7 @@
     fetch("promocoes.json")
       .then(r => r.ok ? r.json() : Promise.reject())
       .then(data => {
-        const ofertas = Array.isArray(data.ofertas) ? data.ofertas : [];
+        const ofertas = CuraLeitura.ofertas(data.ofertas); // sem leitura de mais de 20 h
 
         if (data.ultimaAtualizacao) {
           document.getElementById("promoAtualizacao").textContent =

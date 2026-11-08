@@ -78,6 +78,7 @@
   }
 </style>
 <script src="/assets/js/analytics.js"></script>
+<script src="/assets/js/trava-leitura.js"></script>
 </head>
 <body>
 <div class="min-h-screen">
@@ -312,6 +313,7 @@ if (!slug) {
     .then(d => {
       const lista = (d.listas || []).find(l => l.slug === slug);
       if (!lista) throw new Error("Lista não encontrada");
+      CuraLeitura.listas([lista]); // sem leitura de mais de 20 h
       renderLista(lista);
     })
     .catch(mostrarErro);

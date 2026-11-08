@@ -62,6 +62,7 @@
   .animate-fade-up { animation: fade-up .4s ease both; }
 </style>
 <script src="/assets/js/analytics.js"></script>
+<script src="/assets/js/trava-leitura.js"></script>
 </head>
 <body>
 <div class="min-h-screen">
@@ -259,7 +260,7 @@ if (!slug) {
       fetch("promocoes.json")
         .then(r => r.ok ? r.json() : Promise.reject())
         // Mudança aqui: passamos receita.tags ao invés de receita.produtos
-        .then(pd => renderProdutosSugeridos(receita.tags || receita.produtos || [], pd.ofertas || [])) 
+        .then(pd => renderProdutosSugeridos(receita.tags || receita.produtos || [], CuraLeitura.ofertas(pd.ofertas))) 
         .catch(() => {});
     })
     .catch(mostrarErro);

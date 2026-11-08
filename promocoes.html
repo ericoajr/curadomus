@@ -150,6 +150,7 @@
     }
   </style>
 <script src="/assets/js/analytics.js"></script>
+<script src="/assets/js/trava-leitura.js"></script>
 </head>
 
 <body>
@@ -387,7 +388,7 @@
         return response.json();
       })
       .then(data => {
-        ofertas = Array.isArray(data.ofertas) ? data.ofertas : [];
+        ofertas = CuraLeitura.ofertas(data.ofertas); // sem leitura de mais de 20 h
         if (data.ultimaAtualizacao) {
           document.getElementById("atualizacao").textContent = `Última atualização: ${data.ultimaAtualizacao}`;
         }

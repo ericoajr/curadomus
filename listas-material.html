@@ -116,6 +116,7 @@
 
 </style>
 <script src="/assets/js/analytics.js"></script>
+<script src="/assets/js/trava-leitura.js"></script>
 </head>
 <body>
 <div class="min-h-screen">
@@ -273,7 +274,7 @@ function render() {
 
 fetch("listas-material.json").then(r => r.ok ? r.json() : Promise.reject())
   .then(d => {
-    listas = d.listas || [];
+    listas = CuraLeitura.listas(d.listas); // sem leitura de mais de 20 h
     if (d.ultimaAtualizacao) $atual.textContent = "Atualizado em: " + d.ultimaAtualizacao;
     render();
   })
