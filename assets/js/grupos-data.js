@@ -23,7 +23,7 @@ window.GRUPOS_CURA_DOMUS = {
     subtitulo: "Literatura, leitura e formação do imaginário: a gente garimpa os livros e avisa no grupo na hora.",
     trustItems: [
       { titulo: "Seleção com critério", texto: "Livros escolhidos, não é vitrine genérica." },
-      { titulo: "Preço e link", texto: "Cada alerta traz o preço e o link da loja." },
+      { titulo: "Preço e link", texto: "Cada oferta traz o preço e o link da loja." },
       { titulo: "Sem spam", texto: "Só o que é do tema do grupo." },
     ],
     chatTitulo: "Cura Domus · Formação do Imaginário",
@@ -56,7 +56,7 @@ window.GRUPOS_CURA_DOMUS = {
     subtitulo: "Material escolar, mochila, uniforme e organização da rotina: a gente garimpa e avisa no grupo na hora.",
     trustItems: [
       { titulo: "Foco na rotina", texto: "Do material à organização do dia a dia." },
-      { titulo: "Preço e link", texto: "Cada alerta traz o preço e o link da loja." },
+      { titulo: "Preço e link", texto: "Cada oferta traz o preço e o link da loja." },
       { titulo: "Sem spam", texto: "Só o que é do tema do grupo." },
     ],
     chatTitulo: "Cura Domus · Educação e Escola",
@@ -89,7 +89,7 @@ window.GRUPOS_CURA_DOMUS = {
     subtitulo: "Cozinha, organização e utilidades domésticas: a gente garimpa e avisa no grupo na hora.",
     trustItems: [
       { titulo: "Foco na casa", texto: "Cozinha, organização e rotina." },
-      { titulo: "Preço e link", texto: "Cada alerta traz o preço e o link da loja." },
+      { titulo: "Preço e link", texto: "Cada oferta traz o preço e o link da loja." },
       { titulo: "Sem spam", texto: "Só o que é do tema do grupo." },
     ],
     chatTitulo: "Cura Domus · Gestão do Lar",
@@ -122,7 +122,7 @@ window.GRUPOS_CURA_DOMUS = {
     subtitulo: "Receba ofertas de fraldas, higiene e enxoval no WhatsApp. Selecionamos as ofertas para ajudar você a economizar.",
     trustItems: [
       { titulo: "Fase por fase", texto: "Do enxoval aos primeiros anos." },
-      { titulo: "Preço e link", texto: "Cada alerta traz o preço e o link da loja." },
+      { titulo: "Preço e link", texto: "Cada oferta traz o preço e o link da loja." },
       { titulo: "Sem spam", texto: "Só o que é do tema do grupo." },
     ],
     chatTitulo: "Cura Domus · Bebês e Primeira Infância",
@@ -146,7 +146,7 @@ window.GRUPOS_CURA_DOMUS = {
 window.CURA_DOMUS_COMO_FUNCIONA = [
   { titulo: "A gente encontra", texto: "Procuramos ofertas dos produtos relevantes para cada grupo." },
   { titulo: "A gente seleciona", texto: "Escolhemos as ofertas do tema de cada grupo." },
-  { titulo: "A gente avisa", texto: "Quando encontra algo bom, manda o alerta direto no grupo do WhatsApp." },
+  { titulo: "A gente avisa", texto: "Quando encontra algo bom, manda a oferta direto no grupo do WhatsApp." },
 ];
 
 window.CURA_DOMUS_FAQ_HISTORICO = {

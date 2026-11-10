@@ -45,6 +45,13 @@
     }
   }
 
+  // "Preço de 09/11 às 14:30" a partir de dataOferta ("dd/MM/yyyy HH:mm", horário de Brasília).
+  // A Licença do Associados (2(i)) pede data/horário perto do preço.
+  function quando(dataOferta) {
+    var m = /^(\d{2})\/(\d{2})\/\d{4}\s+(\d{2}):(\d{2})/.exec(String(dataOferta || "").trim());
+    return m ? "Preço de " + m[1] + "/" + m[2] + " às " + m[3] + ":" + m[4] : "";
+  }
+
   function criar(produto) {
     var titulo = escapeHTML(produto.titulo || "Produto");
     var imagem = safeUrl(produto.imagem);
@@ -53,6 +60,7 @@
     var precoAtual = escapeHTML(produto.precoPromocao || "");
     var precoOriginal = escapeHTML(produto.precoOriginal || "");
     var desconto = escapeHTML(String(produto.desconto || "").trim());
+    var data = escapeHTML(quando(produto.dataOferta));
 
     return `
       <article class="oc-card oc-shadow flex flex-col overflow-hidden rounded-2xl border transition hover:-translate-y-0.5 sm:flex-row">
@@ -71,6 +79,7 @@
               ${precoOriginal ? `<span class="oc-muted block text-xs line-through">R$ ${precoOriginal}</span>` : ""}
               <strong class="oc-serif oc-primary text-3xl">R$ ${precoAtual}</strong>
               ${desconto ? `<span class="oc-muted mt-1 block text-[10px]">${desconto} informado pela loja</span>` : ""}
+              ${data ? `<span class="oc-muted mt-1 block text-[10px]">${data}</span>` : ""}
             </div>
 
             <div class="flex flex-wrap gap-2">
@@ -90,5 +99,5 @@
   document.head.appendChild(estilo);
 
 
-  window.CuraOfertaCard = { criar: criar };
+  window.CuraOfertaCard = { criar: criar, quando: quando };
 })();

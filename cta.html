@@ -76,7 +76,7 @@ details summary:focus-visible, a:focus-visible { outline: 3px solid var(--primar
       </h1>
       <p class="hero-description mx-auto" style="color:var(--muted-ink)">
         A gente seleciona ofertas do tema e avisa no grupo da sua família quando encontra
-        uma boa opção. Você recebe o alerta na hora e decide se aproveita.
+        uma boa opção. Você recebe a oferta no grupo e decide se aproveita.
       </p>
     </section>
 
@@ -135,7 +135,7 @@ details summary:focus-visible, a:focus-visible { outline: 3px solid var(--primar
         <div class="proof-insight">
         </div>
         <div class="proof-foot">
-          <p>Preço sujeito a alteração.<br />No grupo, cada alerta chega com o link da loja.</p>
+          <p>Preço sujeito a alteração.<br />No grupo, cada oferta chega com o link da loja.</p>
           <a href="#" data-utm data-whats="oferta" target="_blank" rel="noopener noreferrer" class="js-whats inline-flex w-full items-center justify-center rounded-xl bg-whats px-3 py-3.5 font-bold text-white">QUERO RECEBER AS PRÓXIMAS OFERTAS</a>
         </div>
       </article>
@@ -180,7 +180,7 @@ details summary:focus-visible, a:focus-visible { outline: 3px solid var(--primar
         <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
           <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 18 13.5 8.5 8.5 13.5 1 6"/><polyline points="17 18 23 18 23 12"/></svg>
         </div>
-        <p class="text-[12.5px] leading-snug"><strong class="font-semibold">Preço e link</strong> Cada alerta traz o preço e o link da loja.</p>
+        <p class="text-[12.5px] leading-snug"><strong class="font-semibold">Preço e link</strong> Cada oferta traz o preço e o link da loja.</p>
       </div>
       <div class="flex items-center gap-2.5 rounded-xl border bg-card px-3.5 py-3" style="border-color:var(--border)">
         <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary/10 text-primary">
@@ -227,7 +227,7 @@ details summary:focus-visible, a:focus-visible { outline: 3px solid var(--primar
       <div class="mx-auto mt-6 max-w-lg space-y-3">
         <details class="group rounded-xl border bg-card px-4 py-3" style="border-color:var(--border)">
           <summary class="cursor-pointer list-none text-sm font-semibold">O grupo é gratuito?</summary>
-          <p class="mt-2 text-[13px] leading-relaxed" style="color:var(--muted-ink)">Sim. Entrar, receber os alertas e sair a qualquer momento é totalmente gratuito.</p>
+          <p class="mt-2 text-[13px] leading-relaxed" style="color:var(--muted-ink)">Sim. Entrar, receber as ofertas e sair a qualquer momento é totalmente gratuito.</p>
         </details>
         <details class="group rounded-xl border bg-card px-4 py-3" style="border-color:var(--border)">
           <summary class="cursor-pointer list-none text-sm font-semibold">Vou receber muitas mensagens?</summary>
@@ -263,7 +263,7 @@ details summary:focus-visible, a:focus-visible { outline: 3px solid var(--primar
     <div class="mx-auto flex max-w-3xl flex-col items-center gap-3 px-6 py-8 text-center">
       <img src="/images/curadomus_logo.png" alt="Cura Domus" class="h-9 opacity-80" />
       <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
-      <p class="text-xs" style="color:var(--muted-ink)">Não exibimos gráficos nem histórico de preços.</p>
+      <p class="text-xs" style="color:var(--muted-ink)">Não exibimos gráficos nem histórico de preços.</p><p class="text-xs" style="color:var(--muted-ink)">Como Associado da Amazon, ganhamos com compras qualificadas.</p><p class="text-xs" style="color:var(--muted-ink)">Os preços da Amazon não estão incluídos em rastreamento ou gráfico de preços.</p><p class="text-xs" style="color:var(--muted-ink)">Os preços e a disponibilidade dos produtos estão corretos na data/horário indicados e poderão sofrer alterações.</p>
     </div>
   </footer>
 
@@ -404,7 +404,8 @@ details summary:focus-visible, a:focus-visible { outline: 3px solid var(--primar
         im.src = x.imagem; im.alt = ""; im.loading = "lazy";
         var nome = document.createElement("p"); nome.className = "nome"; nome.textContent = x.titulo;
         var preco = document.createElement("p"); preco.className = "preco"; preco.textContent = moeda(x.precoPromocao);
-        card.append(im, nome, preco);
+        var visto = document.createElement("p"); visto.className = "nome"; visto.textContent = x.dataOferta ? "Preço visto em " + x.dataOferta : "";
+        card.append(im, nome, preco, visto);
         mini.appendChild(card);
       });
       document.getElementById("secaoOferta").hidden = false;

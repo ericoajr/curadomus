@@ -134,7 +134,7 @@
     <div class="mx-auto flex max-w-4xl flex-col items-center gap-3 px-6 py-8 text-center">
       <img src="images/curadomus_logo.png" alt="Cura Domus" class="h-10 opacity-80" />
       <p class="text-xs" style="color:var(--muted-ink)">© 2026 Cura Domus · Construindo o legado das nossas famílias.</p>
-      <p class="text-xs" style="color:var(--muted-ink)">Não exibimos gráficos nem histórico de preços.</p>
+      <p class="text-xs" style="color:var(--muted-ink)">Não exibimos gráficos nem histórico de preços.</p><p class="text-xs" style="color:var(--muted-ink)">Como Associado da Amazon, ganhamos com compras qualificadas.</p><p class="text-xs" style="color:var(--muted-ink)">Os preços da Amazon não estão incluídos em rastreamento ou gráfico de preços.</p><p class="text-xs" style="color:var(--muted-ink)">Os preços e a disponibilidade dos produtos estão corretos na data/horário indicados e poderão sofrer alterações.</p>
     </div>
   </footer>
 </div>
@@ -176,6 +176,7 @@ function cardProduto(o) {
       <div class="mt-auto">
         ${o.precoOriginal ? `<span class="block text-[10px] line-through" style="color:var(--muted-ink)">R$ ${escapeHTML(o.precoOriginal)}</span>` : ""}
         <strong class="text-serif text-xl text-primary">R$ ${escapeHTML(o.precoPromocao)}</strong>
+        ${window.CuraOfertaCard && CuraOfertaCard.quando(o.dataOferta) ? `<span class="block text-[10px]" style="color:var(--muted-ink)">${escapeHTML(CuraOfertaCard.quando(o.dataOferta))}</span>` : ""}
       </div>
       <a href="${urlSegura(o.linkAfiliado)}" target="_blank" rel="sponsored nofollow noopener noreferrer"
         class="rounded-lg bg-primary px-2 py-1.5 text-center text-[11px] font-bold text-white transition hover:opacity-90">Ver produto ↗</a>
