@@ -195,28 +195,33 @@ function apoio(item) {
   return [
     item.detalhe,
     item.autor,
-    item.letras ? `Letras ${item.letras}` : "",
+    item.letras ? `Nomes de ${item.letras.replace("-", " a ")}` : "",
   ].filter(Boolean).map(escapeHTML).join(" · ");
 }
 
 // ---------- Itens marcados (localStorage) ----------
 // A chave é a mesma lida em listas-material.html para mostrar o progresso.
+// Desde 12/11/2026 guarda o id do item (não a posição): tirar ou reordenar
+// itens da lista não passa a marcação para outro item. A chave antiga
+// (por posição) é descartada.
 const params = new URLSearchParams(location.search);
 const slug = params.get("l");
-const CHAVE = "cd-lista-material:" + slug;
+const CHAVE = "cd-lista-material-v2:" + slug;
 let marcados = new Set();
 
 function carregarMarcados() {
   try { marcados = new Set(JSON.parse(localStorage.getItem(CHAVE)) || []); }
   catch (e) { marcados = new Set(); }
+  try { localStorage.removeItem("cd-lista-material:" + slug); } catch (e) {}
 }
 
 function salvarMarcados() {
   try { localStorage.setItem(CHAVE, JSON.stringify([...marcados])); } catch (e) {}
 }
 
-function atualizarProgresso(total) {
-  const feitos = [...marcados].filter(i => i < total).length;
+function atualizarProgresso(itens) {
+  const total = itens.length;
+  const feitos = itens.filter(item => marcados.has(item.id)).length;
   el("barra").style.width = (total ? Math.round(feitos / total * 100) : 0) + "%";
   el("progressoTexto").textContent = feitos === total && total
     ? "Tudo separado! ✓"
@@ -268,7 +273,7 @@ function renderLista(lista) {
           return `
           <li class="py-3" style="border-color:var(--border)">
             <div class="flex items-start gap-3">
-              <input type="checkbox" class="item-check mt-1 accent-[var(--primary)] rounded cursor-pointer" id="item-${item.i}" data-i="${item.i}" ${marcados.has(item.i) ? "checked" : ""}>
+              <input type="checkbox" class="item-check mt-1 accent-[var(--primary)] rounded cursor-pointer" id="item-${item.i}" data-id="${item.id}" ${marcados.has(item.id) ? "checked" : ""}>
               <label for="item-${item.i}" class="flex-1 cursor-pointer">
                 <span class="item-nome font-medium">${escapeHTML(item.descricao)}</span>
                 ${linhaApoio ? `<span class="block text-xs" style="color:var(--muted-ink)">${linhaApoio}</span>` : ""}
@@ -284,22 +289,22 @@ function renderLista(lista) {
   el("grupos").addEventListener("change", (e) => {
     const cb = e.target.closest(".item-check");
     if (!cb) return;
-    const i = Number(cb.dataset.i);
-    cb.checked ? marcados.add(i) : marcados.delete(i);
+    const id = Number(cb.dataset.id);
+    cb.checked ? marcados.add(id) : marcados.delete(id);
     salvarMarcados();
-    atualizarProgresso(itens.length);
+    atualizarProgresso(itens);
   });
 
   el("btnLimpar").addEventListener("click", () => {
     marcados.clear();
     salvarMarcados();
     el("grupos").querySelectorAll(".item-check").forEach(cb => { cb.checked = false; });
-    atualizarProgresso(itens.length);
+    atualizarProgresso(itens);
   });
 
   el("btnImprimir").addEventListener("click", () => window.print());
 
-  atualizarProgresso(itens.length);
+  atualizarProgresso(itens);
   el("estadoCarregando").classList.add("hidden");
   el("conteudo").classList.remove("hidden");
 }

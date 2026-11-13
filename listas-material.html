@@ -173,9 +173,9 @@ const $lista = document.getElementById("lista");
 const $busca = document.getElementById("busca");
 const $atual = document.getElementById("atualizacao");
 
-// Mesma chave usada em lista-material.html para guardar os itens marcados.
+// Mesma chave usada em lista-material.html para guardar os itens marcados (ids).
 function marcados(slug) {
-  try { return JSON.parse(localStorage.getItem("cd-lista-material:" + slug)) || []; }
+  try { return JSON.parse(localStorage.getItem("cd-lista-material-v2:" + slug)) || []; }
   catch (e) { return []; }
 }
 
@@ -186,7 +186,8 @@ function link(l) {
 // "12/40 ✓" quando já marcou algo no checklist; senão o total de itens.
 function info(l, curto) {
   const total = (l.itens || []).length;
-  const feitos = Math.min(marcados(l.slug).length, total);
+  const ids = new Set(marcados(l.slug));
+  const feitos = (l.itens || []).filter(item => ids.has(item.id)).length;
   if (feitos) return { texto: `${feitos}/${total} ✓`, feito: true };
   return { texto: curto ? `${total}` : `${total} ${total === 1 ? "item" : "itens"}`, feito: false };
 }
